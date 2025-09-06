@@ -22,7 +22,7 @@ Diseño de experimentos de Ingenieria de Software <br>
 | **Member**               | **Code**   |
 | ------------------------ | ---------- |
 | Rodrigo Liberato Saldana | U202215623 |
-|                          |            |
+| Ian Macavilca Quispe     | U202121325 |
 |                          |            |
 |                          |            |
 |                          |            |
@@ -160,6 +160,14 @@ Diseño de experimentos de Ingenieria de Software <br>
 #### 1.1.1. Descripción de la Startup
 
 #### 1.1.2. Perfiles de integrantes del equipo
+<div align="center">
+
+| Integrante |Conocimientos técnicos/Habilidades |
+| -- | -- |
+| <img src="" widht="350" height="160">| | |
+| Ian Macavilca Quispe <br> (U202121325) <br> <img src="https://github.com/1ASI0729-2510-4321-devvolution/PescaGo-Report/blob/main/img/ian_macavilca.png?raw=true" widht="350" height="160">| Programación en C++, Python, Javascript, HTML, CSS.Aprendo rápido  y me se adaptar a los retos que se  presentan a lo largo del desarrollo de proyectos.    |
+
+</div>
 
 ### 1.2. Solution Profile
 
