@@ -480,7 +480,41 @@ Se realizaron entrevistas a dos segmentos clave del sector ganadero: Productores
 
 ### 3.3. Impact Mapping
 
+Este es el impact mapping realizado con las entrevistas:
+
+![impactmapping1](https://github.com/Bovinova/Documento----VacApp/raw/main/assets/goal1.png)
+
+![impactmapping2](https://github.com/Bovinova/Documento----VacApp/raw/main/assets/goal2.png)
+
+![impactmapping3](https://github.com/Bovinova/Documento----VacApp/raw/main/assets/goal3.png)
+
 ### 3.4. Product Backlog
+
+Para la gestion agil de proyectos, se realizo el Product Backlog que pone en alta estima o prioridad las tareas necesarias para el desarrollo completo de la solucion. Todas estas realzidas en base a lo anteriormente establecido como la historias de usuario y los mapeos.
+
+| **Orden** | **User Story ID** | **Título**                           | **Descripción**                                                                                                                                                                 | **Story Points (1/2/3)** |
+| :-------- | :---------------- | :----------------------------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | :----------------------- |
+| 1         | US001             | Agregar Vacuna al Registro           | Como ganadero, quiero agregar una nueva vacuna al registro de mis bovinos para mantener un control actualizado y efectivo de la salud de mi rebaño                              | 2                        |
+| 2         | TS001             | Crear Vacuna vía API                 | Como desarrollador, necesito exponer un endpoint para registrar una vacuna vía API, de modo que los features de la aplicación dispongan de este registro.                       | 2                        |
+| 3         | TS002             | API para Búsqueda de Vacunas         | Como desarrollador, quiero implementar un endpoint para buscar vacunas mediante criterios específicos, permitiendo filtrar y obtener registros de manera eficiente.             | 2                        |
+| 4         | US002             | Búsqueda de Vacunas                  | Como ganadero, quiero buscar vacunas previamente registradas para evitar la duplicación y garantizar que se administre la vacuna correcta a cada bovino.                        | 1                        |
+| 5         | TS003             | API para Gestión de Vacunas          | Como desarrollador, necesito implementar endpoints para editar y eliminar registros de vacunas, asegurando que se mantenga la integridad y actualización de los datos.          | 2                        |
+| 6         | TS004             | API para Registro de Animales        | Como desarrollador, quiero implementar un endpoint para registrar un bovino en un lote específico, permitiendo la correcta integración de los datos en la aplicación.           | 2                        |
+| 7         | US003             | Gestión de Registros de Vacunas      | Como ganadero, necesito poder editar o eliminar el registro de una vacuna para garantizar que la información se mantenga precisa y actualizada.                                 | 2                        |
+| 8         | TS005             | API para Búsqueda de Animales        | Como desarrollador, necesito un endpoint que permita buscar animales registrados usando parámetros de búsqueda, facilitando la localización de registros específicos.           | 2                        |
+| 9         | TS006             | API para Gestión de Animales         | Como desarrollador, quiero implementar funcionalidades para editar y eliminar animales registrados, asegurando la actualización y manejo correcto de la información.            | 2                        |
+| 10        | US004             | Registro de Bovino en Lote           | Como usuario autenticado, quiero registrar un bovino en un lote específico para tener control detallado de la crianza y manejo del animal.                                      | 3                        |
+| 11        | TS007             | API para Creación de Campaña         | Como desarrollador, necesito crear un endpoint que permita la creación de campañas, de modo que se puedan iniciar campañas de engorde en la aplicación.                         | 2                        |
+| 12        | TS008             | API para Asociar Empleados a Campaña | Como desarrollador, necesito un endpoint para asociar empleados a campañas, permitiendo la asignación de personal a cada campaña desde la aplicación.                           | 2                        |
+| 13        | US005             | Buscar Información de Bovinos        | Como usuario, quiero poder buscar animales registrados para acceder de forma rápida y ordenada a la información necesaria.                                                      | 2                        |
+| 14        | TS009             | API para Gestión de Campañas         | Como desarrollador, necesito implementar endpoints que permitan editar y eliminar campañas, facilitando su gestión integral desde la plataforma.                                | 2                        |
+| 15        | TS010             | API para Registro de Veterinarios    | Como desarrollador, necesito exponer un endpoint que permita registrar veterinarios en la aplicación, para que luego puedan ser contactados por los ganaderos.                  | 2                        |
+| 16        | US006             | Actualizar Información de Bovinos    | Como usuario, quiero gestionar la información de los animales registrados para mantener la base de datos actualizada y precisa.                                                 | 1                        |
+| 17        | TS011             | API para Búsqueda de Veterinarios    | Como desarrollador, necesito un endpoint que permita buscar veterinarios mediante criterios específicos, para brindar opciones de contacto efectivas.                           | 1                        |
+| 18        | TS012             | API para Registro de Empleados       | Como desarrollador, necesito crear un endpoint para registrar empleados, asegurando que la información de cada uno se almacene correctamente y se confirme la creación.         | 1                        |
+| 19        | US07              | Crear Campaña para Engorde de Ganado | Como usuario de la plataforma, quiero crear una campaña para engordar el ganado asignado, definiendo parámetros como duración, objetivo y selección de animales o establos.     | 1                        |
+| 20        | TS013             | API para Búsqueda de Empleados       | Como desarrollador, necesito implementar un endpoint que permita buscar empleados utilizando filtros específicos, para facilitar la administración de los recursos humanos.     | 1                        |
+| 21        | TS014             | API para Gestión de Empleados        | Como desarrollador, necesito implementar funcionalidades para editar y eliminar empleados mediante la API, permitiendo que el empresario administre correctamente su plantilla. | 1                        |
 
 ---
 
@@ -500,15 +534,81 @@ Se realizaron entrevistas a dos segmentos clave del sector ganadero: Productores
 
 ### 4.2. Information Architecture
 
+La arquitectura de la información constituye un pilar fundamental para el diseño y la usabilidad de un sistema digital. Su correcta aplicación permite que los usuarios encuentren, comprendan y utilicen el contenido de manera sencilla y eficiente.
+
 #### 4.2.1. Organization Systems
+
+Los sistemas de organizacion definen a la estructura y como se clasificaran los terminos dentro de la aplicacion.
+
+- **Jerárquica (Visual Hierarchy):** Se aplica en la Landing Page y en la pantalla principal de la app, destacando las funciones más importantes como registro de ganado y control sanitario. Las acciones frecuentes se ubican en la parte superior o centradas.
+
+- **Secuencial (Step-by-step):** Utilizada en procesos como el registro de animales, guiando al usuario en pasos definidos.
+
+- **Por Tópicos:** En las secciones de información técnica, como manuales o ayudas, la organización se basa en temas relevantes (salud animal, nutrición, reproducción, etc.).
+
+- **Según Audiencia:** Algunas vistas como el panel administrativo o el perfil del veterinario muestran información personalizada, según el rol del usuario dentro del sistema.
 
 #### 4.2.2. Labeling Systems
 
+Este punto es el etiquetado que proporciona el nombre y presenta los elementos de informacion.
+
+Este seria el formato establecido:
+
+- Se evita el uso de jergas técnicas excesivas.
+- Las acciones se etiquetan con verbos directos como "Registrar", "Consultar", "Programar".
+- Las categorías principales usan términos como "Animales", "Citas", "Inventario", "Diagnósticos".
+- Se emplean iconos acompañantes para reforzar visualmente el significado de cada etiqueta.
+
 #### 4.2.3. SEO Tags and Meta Tags
+
+Este punto optimiza la visibilidad del sistema en motores de busqueda y aporta informacion acerca del contexto.
+
+**Landing Page y Web App:**
+
+- **Title:** VacApp – Gestión inteligente para la ganadería bovina
+- **Meta Description:** Plataforma digital que optimiza el control sanitario, inventario y manejo del ganado bovino.
+- **Keywords:** ganadería, salud animal, veterinaria, bovino, control de ganado, app ganadera
+- **Author:** VacApp
+
+**App Store Optimization (ASO):**
+
+- **App Title:** VacApp
+- **App Subtitle:** Manejo digital de tu ganado bovino
+- **App Keywords:** ganadería, bovinos, recetas, veterinarios, animales
+- **App Description:** VacApp es una aplicación móvil diseñada para modernizar y optimizar la gestión ganadera en el Perú. Pensada tanto para ganaderos independientes como para empresas del sector.
 
 #### 4.2.4. Searching Systems
 
+Los sistemas de busqeuda permiten que los usuarios puedan encontrar la informacion especifica dentro del entorno digital y que agilizen el acceso al contenido de este mismo.
+
+- Búsqueda global por nombre, código de animal o categoría.
+- Filtros personalizados por estado de salud, tipo de ganado, fechas de registro, entre otros.
+- Sugerencias automáticas mientras se escribe (auto-complete).
+- Resultados mostrados con etiquetas claras, iconos e información resumida (como nombre, fecha, categoría).
+
 #### 4.2.5. Navigation Systems
+
+Este ultimo punto establece los sistemas de navegacion que utilizaran los usuarios para desplazarse dentro de la aplicacion web y movil.
+
+**Web**
+
+- Barra de navegación superior (Top Navigation): ubicada de forma fija en la parte superior de la interfaz, ofrece accesos rápidos a las secciones principales como Inicio, Animales, Perfil, entre otras. Esto asegura que el usuario pueda moverse con fluidez entre los apartados más relevantes.
+
+- Menú lateral (Sidebar) expandible: en lugar del menú hamburguesa del entorno móvil, la web incorpora un panel lateral con opciones complementarias como Configuración, Soporte y Cerrar sesión. Este diseño aprovecha mejor el espacio disponible en pantalla y permite un acceso más directo a funciones secundarias.
+
+- Enlaces jerárquicos y breadcrumbs: al igual que en la aplicación móvil, se integran rutas de navegación jerárquicas que facilitan al usuario avanzar o retroceder entre secciones sin perder el contexto. Los breadcrumbs se presentan en la parte superior de la interfaz para reforzar la claridad de ubicación dentro del sistema.
+
+- Flujos de usuario optimizados: los procesos complejos, como el registro de un animal, se estructuran en pasos secuenciales y guiados. Esto reduce la carga cognitiva y asegura que el usuario complete cada tarea sin dificultad.
+
+- Indicadores visuales y estados activos: la navegación incluye resaltados en los elementos activos del menú, junto con indicadores visuales que muestran la sección en la que el usuario se encuentra. Esto fomenta la orientación continua y la coherencia en la interacción.
+
+**Movil:**
+
+- Navegación inferior (Bottom Navigation) con accesos rápidos a secciones clave: Inicio, Animales, Perfil, etc.
+- Menú hamburguesa con opciones complementarias como configuración, soporte y cerrar sesión.
+- Enlaces jerárquicos que permiten ir y volver entre secciones sin perder contexto.
+- Flujos de usuario optimizados: pasos guiados para tareas como registrar un animal.
+- Indicadores visuales (breadcrumbs, estados activos) para mantener claridad sobre la ubicación actual dentro de la app.
 
 ### 4.3. Landing Page UI Design
 
