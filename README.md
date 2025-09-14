@@ -690,12 +690,11 @@ Se utilizará la misma paleta de colores definida para la identidad de VacApp, g
 
 | Nombre      | Código HEX | Muestra |
 |-------------|------------|---------|
-| Primario    | `#CFF347` | ![#CFF347](https://via.placeholder.com/40x20/CFF347/000000?text=) |
-| Secundario  | `#ECF9AA` | ![#ECF9AA](https://via.placeholder.com/40x20/ECF9AA/000000?text=) |
-| Acento      | `#F6E7C1` | ![#F6E7C1](https://via.placeholder.com/40x20/F6E7C1/000000?text=) |
-| Fondo Claro | `#F2F2F2` | ![#F2F2F2](https://via.placeholder.com/40x20/F2F2F2/000000?text=) |
-| Texto Oscuro| `#032D23` | ![#032D23](https://via.placeholder.com/40x20/032D23/FFFFFF?text=) |
-
+| Primario    | #CFF347    | ![#CFF347](https://img.shields.io/badge/-CFF347-CFF347?style=flat-square&logoColor=white) |
+| Secundario  | #ECF9AA    | ![#ECF9AA](https://img.shields.io/badge/-ECF9AA-ECF9AA?style=flat-square&logoColor=white) |
+| Acento      | #F6E7C1    | ![#F6E7C1](https://img.shields.io/badge/-F6E7C1-F6E7C1?style=flat-square&logoColor=white) |
+| Fondo Claro | #F2F2F2    | ![#F2F2F2](https://img.shields.io/badge/-F2F2F2-F2F2F2?style=flat-square&logoColor=black) |
+| Texto Oscuro| #032D23    | ![#032D23](https://img.shields.io/badge/-032D23-032D23?style=flat-square&logoColor=white) |
 
 **Tipografía**  
 - Encabezados: **Rokkitt** (Google Fonts).  
@@ -722,11 +721,11 @@ La diferencia radica en la **implementación de las guías de diseño nativas** 
 
 | Nombre      | Código HEX | Muestra |
 |-------------|------------|---------|
-| Primario    | `#CFF347` | ![#CFF347](https://via.placeholder.com/40x20/CFF347/000000?text=) |
-| Secundario  | `#ECF9AA` | ![#ECF9AA](https://via.placeholder.com/40x20/ECF9AA/000000?text=) |
-| Acento      | `#F6E7C1` | ![#F6E7C1](https://via.placeholder.com/40x20/F6E7C1/000000?text=) |
-| Fondo Claro | `#F2F2F2` | ![#F2F2F2](https://via.placeholder.com/40x20/F2F2F2/000000?text=) |
-| Texto Oscuro| `#032D23` | ![#032D23](https://via.placeholder.com/40x20/032D23/FFFFFF?text=) |
+| Primario    | #CFF347    | ![#CFF347](https://img.shields.io/badge/-CFF347-CFF347?style=flat-square&logoColor=white) |
+| Secundario  | #ECF9AA    | ![#ECF9AA](https://img.shields.io/badge/-ECF9AA-ECF9AA?style=flat-square&logoColor=white) |
+| Acento      | #F6E7C1    | ![#F6E7C1](https://img.shields.io/badge/-F6E7C1-F6E7C1?style=flat-square&logoColor=white) |
+| Fondo Claro | #F2F2F2    | ![#F2F2F2](https://img.shields.io/badge/-F2F2F2-F2F2F2?style=flat-square&logoColor=black) |
+| Texto Oscuro| #032D23    | ![#032D23](https://img.shields.io/badge/-032D23-032D23?style=flat-square&logoColor=white) |
 
 **Tipografía (común en Flutter con adaptaciones nativas)**  
 - iOS: SF Pro Display/Text.  
