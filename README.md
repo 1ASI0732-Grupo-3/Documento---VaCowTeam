@@ -56,6 +56,11 @@
 | TB1     | 14/09/2025  | Maycol Jhordan Rojas Velásquez | Landing Page UI Design |
 | TB1     | 14/09/2025  | Maycol Jhordan Rojas Velásquez | Landing Page Wireframe |
 | TB1     | 14/09/2025  | Maycol Jhordan Rojas Velásquez | Landing Page Mock-up |
+| TB1     | 14/09/2025  | Maycol Jhordan Rojas Velásquez | Mobile Applications UX/UI Design |
+| TB1     | 14/09/2025  | Maycol Jhordan Rojas Velásquez | Mobile Applications Wireframes |
+| TB1     | 14/09/2025  | Maycol Jhordan Rojas Velásquez | Mobile Applications Wireflow Diagrams |
+| TB1     | 14/09/2025  | Maycol Jhordan Rojas Velásquez | Mobile Applications Mock-ups |
+| TB1     | 14/09/2025  | Maycol Jhordan Rojas Velásquez | Mobile Applications User Flow Diagrams |
 
 # Project Report Collaboration Insights
 #### 1. URL del Repositorio en GitHub
