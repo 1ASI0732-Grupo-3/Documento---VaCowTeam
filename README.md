@@ -28,11 +28,11 @@
 <div align="center">
 
 | **Member**               | **Code**   |
-| ------------------------ | ---------- |
+|--------------------------|------------|
 | Saldana,Rodrigo Liberato | U202215623 |
 | Macavilca Quispe, Ian    | U202121325 |
 | Rojas Velasquez, Maycol  | U202219984 |
-|                          |            |
+| Espinoza Cueva, Stephano | U202218590 |
 |                          |            |
 
 </div>
