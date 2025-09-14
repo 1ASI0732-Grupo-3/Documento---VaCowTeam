@@ -630,15 +630,130 @@ Para la gestion agil de proyectos, se realizo el Product Backlog que pone en alt
 
 ### 4.1. Style Guidelines
 
+Las Style Guidelines son esenciales para asegurar una comunicación coherente y profesional en todos los aspectos visuales y de diseño del proyecto, ya sea en medios impresos, digitales o cualquier otra plataforma de difusión. En esta sección, se establecerán las directrices que guiarán al equipo en la creación de VacApp. Estas pautas definirán elementos clave como la elección de colores, tipografía, estructura de documentos y otros aspectos visuales.
+Para el desarrollo de VacApp, utilizaremos Figma como herramienta principal para diseñar tanto la aplicación móvil como la landing page. En ambos casos, se implementará una paleta de colores basada en tonos verdes y cremas, evocando la naturaleza y transmitiendo la confianza asociada con una gestión responsable y sostenible del cuidado de animales. A continuación, se detalla cada uno de estos aspectos en profundidad.
+
 #### 4.1.1. General Style Guidelines
 
-#### 4.1.2. Web Style Guidelines
+**Branding**
 
-#### 4.1.3. Mobile Style Guidelines
+El branding de VacApp está diseñado para transmitir confianza, solidez y un compromiso con la sostenibilidad en la ganadería bovina. La identidad visual refleja una conexión directa con la naturaleza y la productividad del campo, utilizando elementos gráficos que representan el cuidado responsable del ganado. Se buscará una imagen fuerte y clara, que sea fácilmente reconocible por los productores y profesionales del sector
 
-##### 4.1.3.1. iOS Mobile Style Guidelines
+**Typography**
 
-##### 4.1.3.2. Android Mobile Style Guidelines
+La tipografía elegida para VacApp es moderna y clara, con un enfoque en la legibilidad, especialmente en pantallas móviles. Se utilizará una fuente Rokkitt para los encabezados, destacando la jerarquía visual de la información, y una tipografía Mulish para el cuerpo de texto, lo que asegura una lectura fácil y cómoda durante el uso prolongado. La tipografía debe reflejar seriedad, sin perder cercanía ni accesibilidad.
+
+<img src="./assets/rokkitt.png" style="height: 400px">
+<img src="./assets/mulish.png" style="height: 400px">
+
+**Colors**
+
+La paleta de colores de VacApp está compuesta por tonos verdes y cremas, los cuales se seleccionaron para evocar la naturaleza y la confianza en la gestión sostenible de animales. Los verdes representan frescura, salud y sostenibilidad, mientras que los tonos crema refuerzan la sensación de conexión con la tierra y la tradición del campo. Estos colores se emplearán de manera estratégica para crear una interfaz armónica y accesible en dispositivos móviles.
+
+<img src="./assets/vacapp-colors.png" style="height: 400px">
+
+**Spacing**
+
+Se aplicará un espaciado adecuado en toda la interfaz para asegurar que los elementos no estén sobrecargados, garantizando una navegación fluida y cómoda. Los márgenes y los espacios entre los componentes estarán cuidadosamente diseñados para ofrecer un diseño equilibrado y organizado, lo que también facilitará la interacción en dispositivos móviles, donde la precisión es crucial.
+
+**Tono de Comunicación**
+
+El tono de comunicación de VacApp será informativo, respetuoso y cercano, con un enfoque que hable directamente al usuario del sector ganadero bovino. Utilizaremos un lenguaje claro y profesional, pero accesible, para transmitir confianza y conocimiento en temas relacionados con el manejo de ganado. El objetivo es que el usuario se sienta apoyado y bien informado, mientras mantiene la seriedad y la responsabilidad que caracteriza al sector.
+
+
+### 4.1.2. Web Style Guidelines
+
+El diseño web de VacApp seguirá principios de **accesibilidad, usabilidad y consistencia visual**, asegurando que la experiencia del usuario sea clara y fluida en distintos dispositivos (desktop, tablet y móvil).  
+
+**Colores**  
+Se utilizará la misma paleta de colores definida para la identidad de VacApp, garantizando coherencia con la aplicación móvil.  
+
+| Nombre      | Código HEX | Muestra |
+|-------------|------------|---------|
+| Primario    | #CFF347    | <div style="width:40px; height:20px; background:#CFF347;"></div> |
+| Secundario  | #ECF9AA    | <div style="width:40px; height:20px; background:#ECF9AA;"></div> |
+| Acento      | #F6E7C1    | <div style="width:40px; height:20px; background:#F6E7C1;"></div> |
+| Fondo Claro | #F2F2F2    | <div style="width:40px; height:20px; background:#F2F2F2;"></div> |
+| Texto Oscuro| #032D23    | <div style="width:40px; height:20px; background:#032D23;"></div> |
+
+**Tipografía**  
+- Encabezados: **Rokkitt** (Google Fonts).  
+- Cuerpo de texto: **Mulish** (Google Fonts).  
+- Jerarquía visual clara mediante tamaños escalonados (H1-H6).  
+
+**Componentes UI**  
+- **Navbar fija** en la parte superior con logo y enlaces principales.  
+- **Botones primarios** con fondo verde (#CFF347) y texto oscuro.  
+- **Tarjetas (cards)** para mostrar información de animales, campañas y usuarios.  
+- **Grillas y tablas** responsivas para reportes y datos.  
+
+**Interacciones**  
+- **Hover effects** en botones y enlaces.  
+- **Animaciones ligeras** para transiciones de secciones.  
+- **Diseño responsive** con mobile-first, adaptando las vistas a pantallas pequeñas.  
+
+### 4.1.3. Mobile Style Guidelines
+
+La aplicación móvil de VacApp está diseñada en **Flutter**, lo que asegura consistencia en colores, tipografía y componentes visuales tanto en **iOS** como en **Android**.  
+La diferencia radica en la **implementación de las guías de diseño nativas** de cada plataforma.  
+
+**Colores compartidos (iOS y Android)**
+
+| Nombre      | Código HEX | Muestra |
+|-------------|------------|---------|
+| Primario    | #CFF347    | <div style="width:40px; height:20px; background:#CFF347;"></div> |
+| Secundario  | #ECF9AA    | <div style="width:40px; height:20px; background:#ECF9AA;"></div> |
+| Acento      | #F6E7C1    | <div style="width:40px; height:20px; background:#F6E7C1;"></div> |
+| Fondo Claro | #F2F2F2    | <div style="width:40px; height:20px; background:#F2F2F2;"></div> |
+| Texto Oscuro| #032D23    | <div style="width:40px; height:20px; background:#032D23;"></div> |
+
+**Tipografía (común en Flutter con adaptaciones nativas)**  
+- iOS: SF Pro Display/Text.  
+- Android: Roboto.  
+- En Flutter, se define una jerarquía tipográfica coherente que se adapta automáticamente al sistema operativo.  
+
+#### 4.1.3.1. iOS Mobile Style Guidelines
+
+El diseño para la versión iOS de VacApp seguirá las guías de **Human Interface Guidelines (HIG)** de Apple.  
+
+**Colores**  
+Mismos definidos en la paleta general para consistencia de marca.  
+
+**Tipografía**  
+- Encabezados: **SF Pro Display**.  
+- Cuerpo de texto: **SF Pro Text**.  
+
+**Componentes UI**  
+- **Bottom Navigation Bar** con iconografía clara y minimalista.  
+- Botones redondeados (12–16 px) en línea con la estética iOS.  
+- **Modal sheets** para formularios y confirmaciones.  
+
+**Interacciones**  
+- Gestos nativos: swipe back, pull-to-refresh.  
+- Animaciones con **blur y transparencia**, dando sensación de profundidad.  
+- Feedback visual inmediato en cada interacción.  
+
+#### 4.1.3.2. Android Mobile Style Guidelines
+
+El diseño para la versión Android de VacApp seguirá las guías de **Material Design 3 (Material You)** de Google.  
+
+**Colores**  
+Mismos definidos en la paleta general.  
+
+**Tipografía**  
+- Encabezados: **Roboto Bold**.  
+- Cuerpo de texto: **Roboto Regular**.  
+
+**Componentes UI**  
+- **BottomNavigationView** o **NavigationRail** en tablets.  
+- Botones con esquinas redondeadas según Material Design 3.  
+- **Floating Action Button (FAB)** para acciones clave como registrar bovinos o vacunas.  
+
+**Interacciones**  
+- Animaciones dinámicas basadas en **motion design**.  
+- Soporte completo para **dark mode**.  
+- Compatibilidad con el sistema de personalización de Material You.  
+
 
 ### 4.2. Information Architecture
 
