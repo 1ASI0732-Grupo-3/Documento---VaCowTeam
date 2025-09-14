@@ -690,11 +690,12 @@ Se utilizará la misma paleta de colores definida para la identidad de VacApp, g
 
 | Nombre      | Código HEX | Muestra |
 |-------------|------------|---------|
-| Primario    | #CFF347    | <div style="width:40px; height:20px; background:#CFF347;"></div> |
-| Secundario  | #ECF9AA    | <div style="width:40px; height:20px; background:#ECF9AA;"></div> |
-| Acento      | #F6E7C1    | <div style="width:40px; height:20px; background:#F6E7C1;"></div> |
-| Fondo Claro | #F2F2F2    | <div style="width:40px; height:20px; background:#F2F2F2;"></div> |
-| Texto Oscuro| #032D23    | <div style="width:40px; height:20px; background:#032D23;"></div> |
+| Primario    | `#CFF347` | ![#CFF347](https://via.placeholder.com/40x20/CFF347/000000?text=) |
+| Secundario  | `#ECF9AA` | ![#ECF9AA](https://via.placeholder.com/40x20/ECF9AA/000000?text=) |
+| Acento      | `#F6E7C1` | ![#F6E7C1](https://via.placeholder.com/40x20/F6E7C1/000000?text=) |
+| Fondo Claro | `#F2F2F2` | ![#F2F2F2](https://via.placeholder.com/40x20/F2F2F2/000000?text=) |
+| Texto Oscuro| `#032D23` | ![#032D23](https://via.placeholder.com/40x20/032D23/FFFFFF?text=) |
+
 
 **Tipografía**  
 - Encabezados: **Rokkitt** (Google Fonts).  
@@ -721,11 +722,11 @@ La diferencia radica en la **implementación de las guías de diseño nativas** 
 
 | Nombre      | Código HEX | Muestra |
 |-------------|------------|---------|
-| Primario    | #CFF347    | <div style="width:40px; height:20px; background:#CFF347;"></div> |
-| Secundario  | #ECF9AA    | <div style="width:40px; height:20px; background:#ECF9AA;"></div> |
-| Acento      | #F6E7C1    | <div style="width:40px; height:20px; background:#F6E7C1;"></div> |
-| Fondo Claro | #F2F2F2    | <div style="width:40px; height:20px; background:#F2F2F2;"></div> |
-| Texto Oscuro| #032D23    | <div style="width:40px; height:20px; background:#032D23;"></div> |
+| Primario    | `#CFF347` | ![#CFF347](https://via.placeholder.com/40x20/CFF347/000000?text=) |
+| Secundario  | `#ECF9AA` | ![#ECF9AA](https://via.placeholder.com/40x20/ECF9AA/000000?text=) |
+| Acento      | `#F6E7C1` | ![#F6E7C1](https://via.placeholder.com/40x20/F6E7C1/000000?text=) |
+| Fondo Claro | `#F2F2F2` | ![#F2F2F2](https://via.placeholder.com/40x20/F2F2F2/000000?text=) |
+| Texto Oscuro| `#032D23` | ![#032D23](https://via.placeholder.com/40x20/032D23/FFFFFF?text=) |
 
 **Tipografía (común en Flutter con adaptaciones nativas)**  
 - iOS: SF Pro Display/Text.  
