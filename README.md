@@ -47,7 +47,27 @@
 | TB1     | 14/09/2025  | Maycol Jhordan Rojas Velásquez | Estructuración del documento |
 | TB1     | 14/09/2025  | Maycol Jhordan Rojas Velásquez | Perfil de los integrantes|
 | TB1     | 14/09/2025  | Maycol Jhordan Rojas Velásquez | Definición de segmentos objetivos|
-
+| TB1     | 14/09/2025  | Maycol Jhordan Rojas Velásquez | Style Guideline |
+| TB1     | 14/09/2025  | Maycol Jhordan Rojas Velásquez | General Style Guidelines|
+| TB1     | 14/09/2025  | Maycol Jhordan Rojas Velásquez | Web Style Guidelines|
+| TB1     | 14/09/2025  | Maycol Jhordan Rojas Velásquez | Mobile Style Guidelines |
+| TB1     | 14/09/2025  | Maycol Jhordan Rojas Velásquez | iOS Mobile Style Guidelines |
+| TB1     | 14/09/2025  | Maycol Jhordan Rojas Velásquez | Android Mobile Style Guidelines |
+| TB1     | 14/09/2025  | Maycol Jhordan Rojas Velásquez | Landing Page UI Design |
+| TB1     | 14/09/2025  | Maycol Jhordan Rojas Velásquez | Landing Page Wireframe |
+| TB1     | 14/09/2025  | Maycol Jhordan Rojas Velásquez | Landing Page Mock-up |
+| TB1     | 14/09/2025  | Maycol Jhordan Rojas Velásquez | Mobile Applications UX/UI Design |
+| TB1     | 14/09/2025  | Maycol Jhordan Rojas Velásquez | Mobile Applications Wireframes |
+| TB1     | 14/09/2025  | Maycol Jhordan Rojas Velásquez | Mobile Applications Wireflow Diagrams |
+| TB1     | 14/09/2025  | Maycol Jhordan Rojas Velásquez | Mobile Applications Mock-ups |
+| TB1     | 14/09/2025  | Maycol Jhordan Rojas Velásquez | Mobile Applications User Flow Diagrams |
+| TB1     | 14/09/2025  | Maycol Jhordan Rojas Velásquez | Mobile Applications Prototyping |
+| TB1     | 14/09/2025  | Maycol Jhordan Rojas Velásquez | Android Mobile Applications Prototyping |
+| TB1     | 14/09/2025  | Maycol Jhordan Rojas Velásquez | iOS Mobile Applications Prototyping |
+| TB1     | 14/09/2025  | Maycol Jhordan Rojas Velásquez | Domain-Driven Software Architecture. |
+| TB1     | 14/09/2025  | Maycol Jhordan Rojas Velásquez | Software Architecture Context Diagram |
+| TB1     | 14/09/2025  | Maycol Jhordan Rojas Velásquez | Software Architecture Container Diagrams |
+| TB1     | 14/09/2025  | Maycol Jhordan Rojas Velásquez | Software Architecture Components Diagrams |
 
 
 # Project Report Collaboration Insights
@@ -630,15 +650,130 @@ Para la gestion agil de proyectos, se realizo el Product Backlog que pone en alt
 
 ### 4.1. Style Guidelines
 
+Las Style Guidelines son esenciales para asegurar una comunicación coherente y profesional en todos los aspectos visuales y de diseño del proyecto, ya sea en medios impresos, digitales o cualquier otra plataforma de difusión. En esta sección, se establecerán las directrices que guiarán al equipo en la creación de VacApp. Estas pautas definirán elementos clave como la elección de colores, tipografía, estructura de documentos y otros aspectos visuales.
+Para el desarrollo de VacApp, utilizaremos Figma como herramienta principal para diseñar tanto la aplicación móvil como la landing page. En ambos casos, se implementará una paleta de colores basada en tonos verdes y cremas, evocando la naturaleza y transmitiendo la confianza asociada con una gestión responsable y sostenible del cuidado de animales. A continuación, se detalla cada uno de estos aspectos en profundidad.
+
 #### 4.1.1. General Style Guidelines
 
-#### 4.1.2. Web Style Guidelines
+**Branding**
 
-#### 4.1.3. Mobile Style Guidelines
+El branding de VacApp está diseñado para transmitir confianza, solidez y un compromiso con la sostenibilidad en la ganadería bovina. La identidad visual refleja una conexión directa con la naturaleza y la productividad del campo, utilizando elementos gráficos que representan el cuidado responsable del ganado. Se buscará una imagen fuerte y clara, que sea fácilmente reconocible por los productores y profesionales del sector
 
-##### 4.1.3.1. iOS Mobile Style Guidelines
+**Typography**
 
-##### 4.1.3.2. Android Mobile Style Guidelines
+La tipografía elegida para VacApp es moderna y clara, con un enfoque en la legibilidad, especialmente en pantallas móviles. Se utilizará una fuente Rokkitt para los encabezados, destacando la jerarquía visual de la información, y una tipografía Mulish para el cuerpo de texto, lo que asegura una lectura fácil y cómoda durante el uso prolongado. La tipografía debe reflejar seriedad, sin perder cercanía ni accesibilidad.
+
+<img src="./assets/rokkitt.png" style="height: 400px">
+<img src="./assets/mulish.png" style="height: 400px">
+
+**Colors**
+
+La paleta de colores de VacApp está compuesta por tonos verdes y cremas, los cuales se seleccionaron para evocar la naturaleza y la confianza en la gestión sostenible de animales. Los verdes representan frescura, salud y sostenibilidad, mientras que los tonos crema refuerzan la sensación de conexión con la tierra y la tradición del campo. Estos colores se emplearán de manera estratégica para crear una interfaz armónica y accesible en dispositivos móviles.
+
+<img src="./assets/vacapp-colors.png" style="height: 400px">
+
+**Spacing**
+
+Se aplicará un espaciado adecuado en toda la interfaz para asegurar que los elementos no estén sobrecargados, garantizando una navegación fluida y cómoda. Los márgenes y los espacios entre los componentes estarán cuidadosamente diseñados para ofrecer un diseño equilibrado y organizado, lo que también facilitará la interacción en dispositivos móviles, donde la precisión es crucial.
+
+**Tono de Comunicación**
+
+El tono de comunicación de VacApp será informativo, respetuoso y cercano, con un enfoque que hable directamente al usuario del sector ganadero bovino. Utilizaremos un lenguaje claro y profesional, pero accesible, para transmitir confianza y conocimiento en temas relacionados con el manejo de ganado. El objetivo es que el usuario se sienta apoyado y bien informado, mientras mantiene la seriedad y la responsabilidad que caracteriza al sector.
+
+
+### 4.1.2. Web Style Guidelines
+
+El diseño web de VacApp seguirá principios de **accesibilidad, usabilidad y consistencia visual**, asegurando que la experiencia del usuario sea clara y fluida en distintos dispositivos (desktop, tablet y móvil).  
+
+**Colores**  
+Se utilizará la misma paleta de colores definida para la identidad de VacApp, garantizando coherencia con la aplicación móvil.  
+
+| Nombre      | Código HEX | Muestra |
+|-------------|------------|---------|
+| Primario    | #CFF347    | <div style="width:40px; height:20px; background:#CFF347;"></div> |
+| Secundario  | #ECF9AA    | <div style="width:40px; height:20px; background:#ECF9AA;"></div> |
+| Acento      | #F6E7C1    | <div style="width:40px; height:20px; background:#F6E7C1;"></div> |
+| Fondo Claro | #F2F2F2    | <div style="width:40px; height:20px; background:#F2F2F2;"></div> |
+| Texto Oscuro| #032D23    | <div style="width:40px; height:20px; background:#032D23;"></div> |
+
+**Tipografía**  
+- Encabezados: **Rokkitt** (Google Fonts).  
+- Cuerpo de texto: **Mulish** (Google Fonts).  
+- Jerarquía visual clara mediante tamaños escalonados (H1-H6).  
+
+**Componentes UI**  
+- **Navbar fija** en la parte superior con logo y enlaces principales.  
+- **Botones primarios** con fondo verde (#CFF347) y texto oscuro.  
+- **Tarjetas (cards)** para mostrar información de animales, campañas y usuarios.  
+- **Grillas y tablas** responsivas para reportes y datos.  
+
+**Interacciones**  
+- **Hover effects** en botones y enlaces.  
+- **Animaciones ligeras** para transiciones de secciones.  
+- **Diseño responsive** con mobile-first, adaptando las vistas a pantallas pequeñas.  
+
+### 4.1.3. Mobile Style Guidelines
+
+La aplicación móvil de VacApp está diseñada en **Flutter**, lo que asegura consistencia en colores, tipografía y componentes visuales tanto en **iOS** como en **Android**.  
+La diferencia radica en la **implementación de las guías de diseño nativas** de cada plataforma.  
+
+**Colores compartidos (iOS y Android)**
+
+| Nombre      | Código HEX | Muestra |
+|-------------|------------|---------|
+| Primario    | #CFF347    | <div style="width:40px; height:20px; background:#CFF347;"></div> |
+| Secundario  | #ECF9AA    | <div style="width:40px; height:20px; background:#ECF9AA;"></div> |
+| Acento      | #F6E7C1    | <div style="width:40px; height:20px; background:#F6E7C1;"></div> |
+| Fondo Claro | #F2F2F2    | <div style="width:40px; height:20px; background:#F2F2F2;"></div> |
+| Texto Oscuro| #032D23    | <div style="width:40px; height:20px; background:#032D23;"></div> |
+
+**Tipografía (común en Flutter con adaptaciones nativas)**  
+- iOS: SF Pro Display/Text.  
+- Android: Roboto.  
+- En Flutter, se define una jerarquía tipográfica coherente que se adapta automáticamente al sistema operativo.  
+
+#### 4.1.3.1. iOS Mobile Style Guidelines
+
+El diseño para la versión iOS de VacApp seguirá las guías de **Human Interface Guidelines (HIG)** de Apple.  
+
+**Colores**  
+Mismos definidos en la paleta general para consistencia de marca.  
+
+**Tipografía**  
+- Encabezados: **SF Pro Display**.  
+- Cuerpo de texto: **SF Pro Text**.  
+
+**Componentes UI**  
+- **Bottom Navigation Bar** con iconografía clara y minimalista.  
+- Botones redondeados (12–16 px) en línea con la estética iOS.  
+- **Modal sheets** para formularios y confirmaciones.  
+
+**Interacciones**  
+- Gestos nativos: swipe back, pull-to-refresh.  
+- Animaciones con **blur y transparencia**, dando sensación de profundidad.  
+- Feedback visual inmediato en cada interacción.  
+
+#### 4.1.3.2. Android Mobile Style Guidelines
+
+El diseño para la versión Android de VacApp seguirá las guías de **Material Design 3 (Material You)** de Google.  
+
+**Colores**  
+Mismos definidos en la paleta general.  
+
+**Tipografía**  
+- Encabezados: **Roboto Bold**.  
+- Cuerpo de texto: **Roboto Regular**.  
+
+**Componentes UI**  
+- **BottomNavigationView** o **NavigationRail** en tablets.  
+- Botones con esquinas redondeadas según Material Design 3.  
+- **Floating Action Button (FAB)** para acciones clave como registrar bovinos o vacunas.  
+
+**Interacciones**  
+- Animaciones dinámicas basadas en **motion design**.  
+- Soporte completo para **dark mode**.  
+- Compatibilidad con el sistema de personalización de Material You.  
+
 
 ### 4.2. Information Architecture
 
@@ -718,27 +853,210 @@ Este ultimo punto establece los sistemas de navegacion que utilizaran los usuari
 - Flujos de usuario optimizados: pasos guiados para tareas como registrar un animal.
 - Indicadores visuales (breadcrumbs, estados activos) para mantener claridad sobre la ubicación actual dentro de la app.
 
-### 4.3. Landing Page UI Design
+### 4.3. Landing Page UI Design  
 
-#### 4.3.1. Landing Page Wireframe
+El diseño de la **Landing Page** de VacApp tiene como objetivo principal transmitir de manera clara y atractiva la propuesta de valor de la aplicación. Para ello, se han elaborado **wireframes** y **mock-ups** tanto en versión **desktop** como **mobile**, asegurando coherencia visual, accesibilidad y adaptabilidad en diferentes dispositivos.  
 
-#### 4.3.2. Landing Page Mock-up
+#### 4.3.1. Landing Page Wireframe  
+
+Los **wireframes** representan la estructura inicial de la Landing Page, enfocándose en la disposición de los elementos clave sin incluir detalles visuales avanzados. Sirven como base para validar la jerarquía de la información, la navegación y la organización de los componentes principales.  
+
+- **Landing Page Wireframe – Desktop**  
+  <img src="./assets/Landing-wire.png" style="width: 400px">  
+
+- **Landing Page Wireframe – Mobile**  
+  <img src="./assets/Landingm-wire.png" style="width: 400px">  
+
+#### 4.3.2. Landing Page Mock-up  
+
+Los **mock-ups** representan la versión más cercana al diseño final de la Landing Page. Incorporan la **paleta de colores oficial de VacApp**, la **tipografía definida en las Style Guidelines**, y los elementos gráficos que refuerzan la identidad visual de la aplicación. Estos prototipos permiten visualizar cómo será la experiencia del usuario en el producto final.  
+
+- **Landing Page Mock-up – Desktop**  
+
+  <img src="./assets/Landing-mock.png" style="width: 400px">
+
+- **Landing Page Mock-up – Mobile**  
+
+  <img src="./assets/Landingm-mock.png" style="width: 400px">
+
+El desarrollo de estos diseños se realizó en **Figma**, lo que garantiza un entorno colaborativo y dinámico para el equipo de diseño y desarrollo.  
+
+ **Figma Project:** [https://www.figma.com/design/Ck5RdO3MzAm16SIReLDO15/Sin-t%C3%ADtulo?node-id=150-5796&t=hGN3YL7RfASQ5FFk-1](https://www.figma.com/design/Ck5RdO3MzAm16SIReLDO15/Sin-t%C3%ADtulo?node-id=150-5796&t=hGN3YL7RfASQ5FFk-1)  
+
 
 ### 4.4. Mobile Applications UX/UI Design
 
 #### 4.4.1. Mobile Applications Wireframes
 
+**Inicio Sesion**
+
+<img src="./assets/sing-inw.png" style="width: 400px">
+
+**Registro**
+
+<img src="./assets/sing-upw.png" style="width: 400px">
+
+
+**Planes**
+
+<img src="./assets/planesw.png" style="width: 400px">
+
+**Home**
+
+<img src="./assets/homew.png" style="width: 400px">
+
+<img src="./assets/homew2.png" style="width: 400px">
+
+<img src="./assets/homew3.png" style="width: 400px">
+
+**Animals**
+
+<img src="./assets/animalw.png" style="width: 400px">
+
+<img src="./assets/animalwinfo.png" style="width: 400px">
+
+
+
+**Inventario**
+
+<img src="./assets/inventariow.png" style="width: 400px">
+
+<img src="./assets/inventariowinfo.png" style="width: 400px">
+
+**Campaña**
+
+<img src="./assets/organizationw.png" style="width: 400px">
+
+
+**vista de "Agregar Animal"**
+
+<img src="./assets/animalwadd.png" style="width: 400px">
+
+
+**vista de "Agregar Inventario"**
+
+<img src="./assets/productaddw.png" style="width: 400px">
+
+**vista de "Agregar Campaña"**
+
+<img src="./assets/campaniaaddw.png" style="width: 400px">
+
 #### 4.4.2. Mobile Applications Wireflow Diagrams
 
+**User Goal: Iniciar sesión y Registrarse:** 
+Este flujo guía al usuario desde la pantalla de bienvenida hacia las opciones de autenticación. 
+
+<img src="./assets/1w.png" style="width: 400px">
+
+
+
+**User Goal: Home y navegar por las secciones "Animals","Campaigns" e "Inventory"**
+
+Una vez autenticado, el usuario accede al home con accesos rápidos con el sidebar. Este wireflow muestra cómo el usuario puede visualizar las opciones "Animals", "CAmpaings e "inventory"
+
+<img src="./assets/2w.png" style="width: 400px">
+
+**User Goal: Registro de un nuevo dato ya sea "Animals","Campaigns" o "Inventory":** 
+
+Este flujo está diseñado para facilitar al agregar ya sea un bovino, una campaña o un producto de inventario.
+
+<img src="./assets/3w.png" style="width: 400px">
+
 #### 4.4.3. Mobile Applications Mock-ups
+**Inicio Sesion**
+
+<img src="./assets/singin.png" style="width: 400px">
+
+**Registro**
+
+<img src="./assets/singup.png" style="width: 400px">
+
+
+**Planes**
+
+<img src="./assets/planes.png" style="width: 400px">
+
+**Home**
+
+<img src="./assets/home.png" style="width: 400px">
+<img src="./assets/home2.png" style="width: 400px">
+<img src="./assets/home3.png" style="width: 400px">
+
+**Animals**
+
+<img src="./assets/animal.png" style="width: 400px">
+
+<img src="./assets/animalinfo.png" style="width: 400px">
+
+
+
+**Inventario**
+
+<img src="./assets/inventario.png" style="width: 400px">
+
+<img src="./assets/inventarioinfo.png" style="width: 400px">
+
+**Campaña**
+
+<img src="./assets/organization.png" style="width: 400px">
+
+
+**vista de "Agregar Animal"**
+
+<img src="./assets/animaladd.png" style="width: 400px">
+
+
+**vista de "Agregar Inventario"**
+
+<img src="./assets/productadd.png" style="width: 400px">
+
+
+**vista de "Agregar Campaña"**
+
+<img src="./assets/campaniaadd.png" style="width: 400px"
 
 #### 4.4.4. Mobile Applications User Flow Diagrams
 
+**User Goal: Iniciar sesión y Registrarse:** 
+Este flujo guía al usuario desde la pantalla de bienvenida hacia las opciones de autenticación. 
+
+<img src="./assets/1.png" style="width: 400px">
+
+**User Goal: Home y navegar por las secciones "Animals","Campaigns" e "Inventory"**
+Una vez autenticado, el usuario accede al home con accesos rápidos con el sidebar. Este wireflow muestra cómo el usuario puede visualizar las opciones "Animals", "CAmpaings e "inventory"
+
+<img src="./assets/2.png" style="width: 400px">
+
+**User Goal: Registro de un nuevo dato ya sea "Animals","Campaigns" o "Inventory":** 
+Este flujo está diseñado para facilitar al agregar ya sea un bovino, una campaña o un producto de inventario.
+
+<img src="./assets/3.png" style="width: 400px">
+
 ### 4.5. Mobile Applications Prototyping
 
-#### 4.5.1. Android Mobile Applications Prototyping
+El proceso de prototipado de las aplicaciones móviles de **VacApp** se llevó a cabo utilizando el framework **Flutter**, lo que permitió generar aplicaciones tanto para **Android** como para **iOS** desde una misma base de código.  
 
-#### 4.5.2. iOS Mobile Applications Prototyping
+De esta manera, los prototipos funcionales se desarrollaron en Flutter y se validaron principalmente en dispositivos Android, asegurando consistencia en la interfaz de usuario y en la experiencia de navegación.  
+Gracias a la naturaleza multiplataforma de Flutter, la misma aplicación está preparada para ejecutarse en iOS sin necesidad de modificaciones significativas, garantizando uniformidad visual y de comportamiento en ambos sistemas operativos.  
+
+- **Video de demostración:** [https://youtu.be/aLAxsS7FKnE](https://youtu.be/aLAxsS7FKnE)  
+- **Diseño en Figma:** [https://www.figma.com/design/Ck5RdO3MzAm16SIReLDO15/Sin-t%C3%ADtulo?node-id=150-5796&t=hGN3YL7RfASQ5FFk-1](https://www.figma.com/design/Ck5RdO3MzAm16SIReLDO15/Sin-t%C3%ADtulo?node-id=150-5796&t=hGN3YL7RfASQ5FFk-1)  
+
+### 4.5.1. Android Mobile Applications Prototyping
+
+Para Android, los prototipos fueron compilados y probados en un entorno de desarrollo utilizando **Android Studio** y dispositivos físicos con sistema operativo Android.  
+Este proceso permitió verificar la correcta implementación de los estilos, colores y componentes previamente definidos en las **Style Guidelines**.  
+
+Como evidencia, se incluyen capturas de pantalla que muestran el prototipo ejecutándose en Android, lo que asegura que el flujo de navegación y las funcionalidades principales cumplen con lo planificado en el diseño inicial.  
+
+### 4.5.2. iOS Mobile Applications Prototyping
+
+Si bien las pruebas principales se realizaron en Android, el prototipo desarrollado en Flutter está preparado para ejecutarse en **iOS** de forma nativa.  
+Esto se debe a que Flutter utiliza una única base de código que se adapta automáticamente a ambos entornos móviles.  
+
+En este sentido, aunque no se disponga de un build completo de iOS para este avance, se documenta que la aplicación mantiene **consistencia visual y funcional** con la versión de Android, cumpliendo los lineamientos definidos en las **iOS Mobile Style Guidelines**.  
+
+En futuras iteraciones se contempla la generación de un prototipo directamente en dispositivos iOS o en emuladores de Xcode, lo que permitirá validar también en dicho entorno los aspectos específicos de navegación y experiencia de usuario.  
 
 ### 4.6. Web Applications UX/UI Design
 
@@ -752,13 +1070,50 @@ Este ultimo punto establece los sistemas de navegacion que utilizaran los usuari
 
 ### 4.7. Web Applications Prototyping
 
-### 4.8. Domain-Driven Software Architecture
+### 4.8. Domain-Driven Software Architecture  
+En esta sección se presenta la arquitectura de software de **VacApp**, diseñada bajo el enfoque de **Domain-Driven Design (DDD)**.  
+El objetivo es ofrecer una visión clara de cómo los distintos dominios del sistema (gestión de ganado, campañas de vacunación, establos, usuarios, entre otros) se estructuran y cómo interactúan con los actores externos y los servicios complementarios.  
 
-#### 4.8.1. Software Architecture Context Diagram
+Se emplean diagramas **C4** para ilustrar distintos niveles de detalle, desde el contexto general hasta los componentes principales de la solución.  
 
-#### 4.8.2. Software Architecture Container Diagrams
+#### 4.8.1. Software Architecture Context Diagram  
 
-#### 4.8.3. Software Architecture Components Diagrams
+El **Diagrama de Contexto** proporciona una visión de alto nivel del sistema, mostrando cómo **VacApp** interactúa con sus principales actores externos:  
+
+- **Ganaderos y Empresas** → usuarios finales que gestionan su ganado, vacunas y establos.  
+- **Servicios Externos** → APIs de pronóstico del clima, bases de datos de razas de ganado y servicios veterinarios.  
+- **Administradores del Sistema** → responsables del mantenimiento y la supervisión de la aplicación.  
+
+Este diagrama permite comprender cómo VacApp se integra en el ecosistema de la gestión ganadera, facilitando la interoperabilidad con otros sistemas.  
+
+![context](./assets/new_context_diagram.png)  
+
+#### 4.8.2. Software Architecture Container Diagrams  
+
+El **Diagrama de Contenedores** descompone VacApp en sus principales elementos tecnológicos, ilustrando cómo se organizan y comunican entre sí:  
+
+- **Aplicación Web** → interfaz accesible desde navegadores para administradores y empresas.  
+- **Aplicación Móvil** → interfaz diseñada para ganaderos, desarrollada en **Flutter**, disponible para Android e iOS.  
+- **API Backend** → expone servicios de negocio a través de un conjunto de endpoints REST, desarrollados en **Java/Spring Boot**.  
+- **Base de Datos** → repositorio centralizado para almacenar información sobre bovinos, campañas, usuarios, vacunas y establos.  
+
+El diagrama refleja cómo cada contenedor coopera para ofrecer una experiencia integral y consistente, garantizando la disponibilidad de la información tanto en la aplicación móvil como en la web.  
+
+![containers](./assets/new_container_diagram.png)  
+
+#### 4.8.3. Software Architecture Components Diagrams  
+
+El **Diagrama de Componentes** profundiza en los módulos principales dentro del backend y la aplicación móvil. Cada componente está alineado a un **bounded context** del dominio definido por DDD:  
+
+- **Gestión de Bovinos** → administración de registros de animales, historial de salud y genealogía.  
+- **Gestión de Campañas** → planificación y control de campañas de vacunación.  
+- **Gestión de Establos** → organización de establos y asignación de bovinos.  
+- **Gestión de Usuarios** → control de accesos, roles y permisos.  
+- **Notificaciones y Recordatorios** → envío de alertas automáticas relacionadas con vacunas, salud o actividades programadas.  
+
+Este nivel de detalle muestra cómo los componentes colaboran entre sí dentro de los contenedores y cómo mantienen la cohesión con el dominio del problema.  
+
+![components](./assets/new_component_diagram.png)  
 
 ### 4.9. Software Object-Oriented Design
 
