@@ -64,6 +64,11 @@
 | TB1     | 14/09/2025  | Maycol Jhordan Rojas Velásquez | Mobile Applications Prototyping |
 | TB1     | 14/09/2025  | Maycol Jhordan Rojas Velásquez | Android Mobile Applications Prototyping |
 | TB1     | 14/09/2025  | Maycol Jhordan Rojas Velásquez | iOS Mobile Applications Prototyping |
+| TB1     | 14/09/2025  | Maycol Jhordan Rojas Velásquez | Domain-Driven Software Architecture. |
+| TB1     | 14/09/2025  | Maycol Jhordan Rojas Velásquez | Software Architecture Context Diagram |
+| TB1     | 14/09/2025  | Maycol Jhordan Rojas Velásquez | Software Architecture Container Diagrams |
+| TB1     | 14/09/2025  | Maycol Jhordan Rojas Velásquez | Software Architecture Components Diagrams |
+
 
 # Project Report Collaboration Insights
 #### 1. URL del Repositorio en GitHub
