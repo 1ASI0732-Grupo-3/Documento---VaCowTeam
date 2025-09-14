@@ -61,6 +61,9 @@
 | TB1     | 14/09/2025  | Maycol Jhordan Rojas Velásquez | Mobile Applications Wireflow Diagrams |
 | TB1     | 14/09/2025  | Maycol Jhordan Rojas Velásquez | Mobile Applications Mock-ups |
 | TB1     | 14/09/2025  | Maycol Jhordan Rojas Velásquez | Mobile Applications User Flow Diagrams |
+| TB1     | 14/09/2025  | Maycol Jhordan Rojas Velásquez | Mobile Applications Prototyping |
+| TB1     | 14/09/2025  | Maycol Jhordan Rojas Velásquez | Android Mobile Applications Prototyping |
+| TB1     | 14/09/2025  | Maycol Jhordan Rojas Velásquez | iOS Mobile Applications Prototyping |
 
 # Project Report Collaboration Insights
 #### 1. URL del Repositorio en GitHub
