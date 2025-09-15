@@ -295,7 +295,9 @@ Gracias a la técnica de las "5W's & 2H's", se ha analizado el origen y la probl
 
 El sector ganadero en Perú tiene dificultades importantes para gestionar su ganado, incluyendo aspectos de salud, nutrición, reproducción y productividad. Esta situación se agrava por la falta de herramientas tecnológicas. Los ganaderos, especialmente los más pequeños, no cuentan con sistemas que les permitan hacer un seguimiento detallado de sus animales ni tomar decisiones bien fundamentadas. Esto afecta su capacidad para optimizar las operaciones y aumentar sus ganancias.
 
+### When? (¿Cuándo?)
 
+Este es un problema constante que requiere una solución actual y duradera. La necesidad de una plataforma tecnológica para gestionar la ganadería y mejorar la producción es una demanda permanente. Los ganaderos necesitan acceder a información actualizada y en tiempo real sobre la salud, alimentación, reproducción y comercialización de sus animales.
 
 #### 1.2.2. Lean UX Process
 
