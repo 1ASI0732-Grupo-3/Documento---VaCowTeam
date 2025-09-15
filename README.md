@@ -252,6 +252,24 @@ ambientales y sociales.
 
 VacApp es una aplicación hecha para ganaderos en Perú. Su propósito es ayudarles a manejar su ganado de manera más fácil y eficiente. La aplicación ofrece varias herramientas para llevar un control de la salud, alimentación y reproducción de los animales. Con esto, VacApp busca aumentar la productividad de los ganaderos, al mismo tiempo que fomenta prácticas ganaderas responsables y sostenibles, promoviendo el bienestar de los animales.
 
+### Características Principales:
+
+Nuestra plataforma, disponible para web y móviles, ofrece un conjunto de herramientas esenciales para una gestión integral y eficiente.
+
+- Monitoreo detallado: Permite llevar un seguimiento minucioso de elementos clave, asegurando que se les dé la atención necesaria en el momento justo.
+
+- Gestión de recursos: Facilita la planificación y el control de los recursos para garantizar un uso óptimo y sostenible.
+
+- Seguimiento de procesos: Ayuda a monitorizar ciclos y fases importantes, optimizando los resultados y la calidad.
+
+- Acceso a servicios profesionales: Proporciona un sistema para gestionar citas o consultas, mejorando el acceso a especialistas y evitando contratiempos por falta de atención.
+
+- Automatización de tareas: Simplifica la administración de las operaciones diarias, lo que te ayuda a ahorrar tiempo y esfuerzo en tareas rutinarias.
+
+- Comunidad y colaboración: Además de ser una herramienta de gestión, es un espacio para compartir ideas, buenas prácticas y estar al día con las últimas novedades del sector.
+
+
+
 #### 1.2.1. Antecedentes y problemática
 
 #### 1.2.2. Lean UX Process
