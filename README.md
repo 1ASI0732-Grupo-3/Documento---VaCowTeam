@@ -303,6 +303,10 @@ Este es un problema constante que requiere una solución actual y duradera. La n
 
 La dificultad se concentra en las áreas rurales y productivas de Perú, donde la mayoría de los ganaderos tienen poco acceso a servicios veterinarios y tecnología. Aunque la falta de conectividad a internet en algunas zonas es un obstáculo, el crecimiento de la red móvil permite que VacApp pueda funcionar en cualquier dispositivo móvil, accesible desde cualquier ubicación rural.
 
+### Who? (¿Quién?)
+
+Los principales afectados son los ganaderos peruanos, tanto los pequeños productores con recursos limitados como las grandes empresas que gestionan una gran cantidad de ganado y deben cumplir con estándares de bienestar animal. Veterinarios y otros profesionales del sector también se benefician de esta plataforma.
+
 
 
 #### 1.2.2. Lean UX Process
