@@ -315,6 +315,9 @@ La falta de herramientas de gestión eficientes provoca una mala nutrición del 
 
 La solución de VacApp es una plataforma web y móvil que integra herramientas de gestión ganadera. La aplicación permite a los usuarios hacer un seguimiento de la salud, alimentación y reproducción de su ganado, generar reportes y recibir notificaciones importantes. Al usar tecnologías web y móviles de vanguardia, VacApp se adapta a las necesidades de los ganaderos de zonas rurales, permitiendo el acceso a datos en tiempo real desde cualquier dispositivo con conexión a internet.
 
+### How much? (¿Cuánto?)
+
+Aunque el costo de desarrollar y mantener VacApp depende de la inversión en tecnología y soporte, el retorno económico para los ganaderos es muy favorable. Les permitirá ser más rentables, optimizar recursos y reducir pérdidas. La plataforma también ayudará a disminuir los gastos en atención veterinaria al proporcionar datos que previenen enfermedades y mejoran la productividad.
 
 
 #### 1.2.2. Lean UX Process
