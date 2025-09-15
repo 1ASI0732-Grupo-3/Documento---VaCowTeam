@@ -41,192 +41,191 @@
 
 # Registro de Versiones del Informe
 
-| Versión | Fecha       | Autor                         | Descripción de modificación                |
-|---------|-------------|-------------------------------|--------------------------------------------|
-| TB1     | 14/09/2025  | Maycol Jhordan Rojas Velásquez | Creación inicial del documento  |
-| TB1     | 14/09/2025  | Maycol Jhordan Rojas Velásquez | Estructuración del documento |
-| TB1     | 14/09/2025  | Maycol Jhordan Rojas Velásquez | Perfil de los integrantes|
-| TB1     | 14/09/2025  | Maycol Jhordan Rojas Velásquez | Definición de segmentos objetivos|
-| TB1     | 14/09/2025  | Maycol Jhordan Rojas Velásquez | Style Guideline |
-| TB1     | 14/09/2025  | Maycol Jhordan Rojas Velásquez | General Style Guidelines|
-| TB1     | 14/09/2025  | Maycol Jhordan Rojas Velásquez | Web Style Guidelines|
-| TB1     | 14/09/2025  | Maycol Jhordan Rojas Velásquez | Mobile Style Guidelines |
-| TB1     | 14/09/2025  | Maycol Jhordan Rojas Velásquez | iOS Mobile Style Guidelines |
-| TB1     | 14/09/2025  | Maycol Jhordan Rojas Velásquez | Android Mobile Style Guidelines |
-| TB1     | 14/09/2025  | Maycol Jhordan Rojas Velásquez | Landing Page UI Design |
-| TB1     | 14/09/2025  | Maycol Jhordan Rojas Velásquez | Landing Page Wireframe |
-| TB1     | 14/09/2025  | Maycol Jhordan Rojas Velásquez | Landing Page Mock-up |
-| TB1     | 14/09/2025  | Maycol Jhordan Rojas Velásquez | Mobile Applications UX/UI Design |
-| TB1     | 14/09/2025  | Maycol Jhordan Rojas Velásquez | Mobile Applications Wireframes |
-| TB1     | 14/09/2025  | Maycol Jhordan Rojas Velásquez | Mobile Applications Wireflow Diagrams |
-| TB1     | 14/09/2025  | Maycol Jhordan Rojas Velásquez | Mobile Applications Mock-ups |
-| TB1     | 14/09/2025  | Maycol Jhordan Rojas Velásquez | Mobile Applications User Flow Diagrams |
-| TB1     | 14/09/2025  | Maycol Jhordan Rojas Velásquez | Mobile Applications Prototyping |
-| TB1     | 14/09/2025  | Maycol Jhordan Rojas Velásquez | Android Mobile Applications Prototyping |
-| TB1     | 14/09/2025  | Maycol Jhordan Rojas Velásquez | iOS Mobile Applications Prototyping |
-| TB1     | 14/09/2025  | Maycol Jhordan Rojas Velásquez | Domain-Driven Software Architecture. |
-| TB1     | 14/09/2025  | Maycol Jhordan Rojas Velásquez | Software Architecture Context Diagram |
-| TB1     | 14/09/2025  | Maycol Jhordan Rojas Velásquez | Software Architecture Container Diagrams |
-| TB1     | 14/09/2025  | Maycol Jhordan Rojas Velásquez | Software Architecture Components Diagrams |
-
+| Versión | Fecha      | Autor                          | Descripción de modificación               |
+| ------- | ---------- | ------------------------------ | ----------------------------------------- |
+| TB1     | 14/09/2025 | Maycol Jhordan Rojas Velásquez | Creación inicial del documento            |
+| TB1     | 14/09/2025 | Maycol Jhordan Rojas Velásquez | Estructuración del documento              |
+| TB1     | 14/09/2025 | Maycol Jhordan Rojas Velásquez | Perfil de los integrantes                 |
+| TB1     | 14/09/2025 | Maycol Jhordan Rojas Velásquez | Definición de segmentos objetivos         |
+| TB1     | 14/09/2025 | Maycol Jhordan Rojas Velásquez | Style Guideline                           |
+| TB1     | 14/09/2025 | Maycol Jhordan Rojas Velásquez | General Style Guidelines                  |
+| TB1     | 14/09/2025 | Maycol Jhordan Rojas Velásquez | Web Style Guidelines                      |
+| TB1     | 14/09/2025 | Maycol Jhordan Rojas Velásquez | Mobile Style Guidelines                   |
+| TB1     | 14/09/2025 | Maycol Jhordan Rojas Velásquez | iOS Mobile Style Guidelines               |
+| TB1     | 14/09/2025 | Maycol Jhordan Rojas Velásquez | Android Mobile Style Guidelines           |
+| TB1     | 14/09/2025 | Maycol Jhordan Rojas Velásquez | Landing Page UI Design                    |
+| TB1     | 14/09/2025 | Maycol Jhordan Rojas Velásquez | Landing Page Wireframe                    |
+| TB1     | 14/09/2025 | Maycol Jhordan Rojas Velásquez | Landing Page Mock-up                      |
+| TB1     | 14/09/2025 | Maycol Jhordan Rojas Velásquez | Mobile Applications UX/UI Design          |
+| TB1     | 14/09/2025 | Maycol Jhordan Rojas Velásquez | Mobile Applications Wireframes            |
+| TB1     | 14/09/2025 | Maycol Jhordan Rojas Velásquez | Mobile Applications Wireflow Diagrams     |
+| TB1     | 14/09/2025 | Maycol Jhordan Rojas Velásquez | Mobile Applications Mock-ups              |
+| TB1     | 14/09/2025 | Maycol Jhordan Rojas Velásquez | Mobile Applications User Flow Diagrams    |
+| TB1     | 14/09/2025 | Maycol Jhordan Rojas Velásquez | Mobile Applications Prototyping           |
+| TB1     | 14/09/2025 | Maycol Jhordan Rojas Velásquez | Android Mobile Applications Prototyping   |
+| TB1     | 14/09/2025 | Maycol Jhordan Rojas Velásquez | iOS Mobile Applications Prototyping       |
+| TB1     | 14/09/2025 | Maycol Jhordan Rojas Velásquez | Domain-Driven Software Architecture.      |
+| TB1     | 14/09/2025 | Maycol Jhordan Rojas Velásquez | Software Architecture Context Diagram     |
+| TB1     | 14/09/2025 | Maycol Jhordan Rojas Velásquez | Software Architecture Container Diagrams  |
+| TB1     | 14/09/2025 | Maycol Jhordan Rojas Velásquez | Software Architecture Components Diagrams |
 
 # Project Report Collaboration Insights
+
 #### 1. URL del Repositorio en GitHub
 
-| Repositorio del Informe en GitHub |
-|-----------------------------------|
+| Repositorio del Informe en GitHub                     |
+| ----------------------------------------------------- |
 | https://github.com/orgs/1ASI0732-Grupo-3/repositories |
 
 #### 2. Actividades de Elaboración del Informe
 
-| Actividad                           | Descripción                                                                                          |
-|-------------------------------------|------------------------------------------------------------------------------------------------------|
-| Comunicación de avances            | Se realizaron breves reuniones donde se comentaban los avances de cada integrante para garantizar un trabajo en equipo sincronizado y estar al tanto de cada modificación.                                |
-| Delegación de responsabilidades    | Se organizaron charlas y reuniones para la delegación de tareas, promoviendo el trabajo en equipo y el avance continuo de manera asíncrona.                            |
-| Recopilación de datos              | Se realizó un estudio del mercado, utilizando los segmentos objetivos para extraer datos significativos mediante entrevistas. Además, se utilizaron referencias bibliográficas para investigar información relevante dentro del desarrollo del informe                                                          |
-| Documentación             | Se desarrollaron diferentes capítulos del informe, utilizando las técnicas, herramientas y metodologías requeridas.                                                         |
-
+| Actividad                       | Descripción                                                                                                                                                                                                                                            |
+| ------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| Comunicación de avances         | Se realizaron breves reuniones donde se comentaban los avances de cada integrante para garantizar un trabajo en equipo sincronizado y estar al tanto de cada modificación.                                                                             |
+| Delegación de responsabilidades | Se organizaron charlas y reuniones para la delegación de tareas, promoviendo el trabajo en equipo y el avance continuo de manera asíncrona.                                                                                                            |
+| Recopilación de datos           | Se realizó un estudio del mercado, utilizando los segmentos objetivos para extraer datos significativos mediante entrevistas. Además, se utilizaron referencias bibliográficas para investigar información relevante dentro del desarrollo del informe |
+| Documentación                   | Se desarrollaron diferentes capítulos del informe, utilizando las técnicas, herramientas y metodologías requeridas.                                                                                                                                    |
 
 #### 3. Capturas de Imagen de los Analíticos de Colaboración y Commits en GitHub
 
-| Métrica                         | Descripción                                                                                          |
-|---------------------------------|------------------------------------------------------------------------------------------------------|
-| Número de commits por autor     |  |
-| Historial de cambios            |  |
-
+| Métrica                     | Descripción |
+| --------------------------- | ----------- |
+| Número de commits por autor |             |
+| Historial de cambios        |             |
 
 #### 4. Participación de Todos los Miembros del Equipo
 
-| Evidencia                       | Descripción                                                                                          |
-|---------------------------------|------------------------------------------------------------------------------------------------------|
-| Contribuciones en GitHub       | Cada integrante del equipo completó sus tareas y subió sus avances al repositorio de GitHub. Adempas, cada uno colaboró revisando el trabajo de sus compañeros. |
-| Discusiones y actividades      | Se organizaron encuentros virtuales para compartir avances, resolver dudas y atender los desafíos de cada actividad. |
-| Exposiciones del proyecto       | Se llevaron a cabo sesiones para exponer el trabajo realizado antes de la fecha orrespondiente y prepararnos adecuadamente para la presentación final. |
+| Evidencia                 | Descripción                                                                                                                                                     |
+| ------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Contribuciones en GitHub  | Cada integrante del equipo completó sus tareas y subió sus avances al repositorio de GitHub. Adempas, cada uno colaboró revisando el trabajo de sus compañeros. |
+| Discusiones y actividades | Se organizaron encuentros virtuales para compartir avances, resolver dudas y atender los desafíos de cada actividad.                                            |
+| Exposiciones del proyecto | Se llevaron a cabo sesiones para exponer el trabajo realizado antes de la fecha orrespondiente y prepararnos adecuadamente para la presentación final.          |
 
+# Tabla de Contenidos
 
+## Capítulo I: Introducción
 
-# Tabla de Contenidos  
-
-## Capítulo I: Introducción  
-
-- [1.1. Start-up Profile](#11-start-up-profile)  
-  - [1.1.1. Descripción de la Startup](#111-descripción-de-la-startup)  
-  - [1.1.2. Perfiles de Integrantes del Equipo](#112-perfiles-de-integrantes-del-equipo)  
-- [1.2. Solution Profile](#12-solution-profile)  
-  - [1.2.1. Antecedentes y Problemática](#121-antecedentes-y-problemática)  
-  - [1.2.2. Lean UX Process](#122-lean-ux-process)  
-    - [1.2.2.1. Lean UX Problem Statements](#1221-lean-ux-problem-statements)  
-    - [1.2.2.2. Lean UX Assumptions](#1222-lean-ux-assumptions)  
-    - [1.2.2.3. Lean UX Hypothesis Statements](#1223-lean-ux-hypothesis-statements)  
-    - [1.2.2.4. Lean UX Canvas](#1224-lean-ux-canvas)  
-- [1.3. Segmentos Objetivo](#13-segmentos-objetivo)  
+- [1.1. Start-up Profile](#11-start-up-profile)
+  - [1.1.1. Descripción de la Startup](#111-descripción-de-la-startup)
+  - [1.1.2. Perfiles de Integrantes del Equipo](#112-perfiles-de-integrantes-del-equipo)
+- [1.2. Solution Profile](#12-solution-profile)
+  - [1.2.1. Antecedentes y Problemática](#121-antecedentes-y-problemática)
+  - [1.2.2. Lean UX Process](#122-lean-ux-process)
+    - [1.2.2.1. Lean UX Problem Statements](#1221-lean-ux-problem-statements)
+    - [1.2.2.2. Lean UX Assumptions](#1222-lean-ux-assumptions)
+    - [1.2.2.3. Lean UX Hypothesis Statements](#1223-lean-ux-hypothesis-statements)
+    - [1.2.2.4. Lean UX Canvas](#1224-lean-ux-canvas)
+- [1.3. Segmentos Objetivo](#13-segmentos-objetivo)
 
 ---
 
-## Capítulo II: Requirements Elicitation & Analysis  
+## Capítulo II: Requirements Elicitation & Analysis
 
-- [2.1. Competidores](#21-competidores)  
-  - [2.1.1. Análisis Competitivo](#211-análisis-competitivo)  
-  - [2.1.2. Estrategias y Tácticas frente a Competidores](#212-estrategias-y-tácticas-frente-a-competidores)  
-- [2.2. Entrevistas](#22-entrevistas)  
-  - [2.2.1. Diseño de Entrevistas](#221-diseño-de-entrevistas)  
-  - [2.2.2. Registro de Entrevistas](#222-registro-de-entrevistas)  
-  - [2.2.3. Análisis de Entrevistas](#223-análisis-de-entrevistas)  
-- [2.3. Needfinding](#23-needfinding)  
-  - [2.3.1. User Personas](#231-user-personas)  
-  - [2.3.2. User Task Matrix](#232-user-task-matrix)  
-  - [2.3.3. User Journey Mapping](#233-user-journey-mapping)  
-  - [2.3.4. Empathy Mapping](#234-empathy-mapping)  
-  - [2.3.5. As-is Scenario Mapping](#235-as-is-scenario-mapping)  
-- [2.4. Ubiquitous Language](#24-ubiquitous-language)  
-
----
-
-## Capítulo III: Requirements Specification  
-
-- [3.1. To-Be Scenario Mapping](#31-to-be-scenario-mapping)  
-- [3.2. User Stories](#32-user-stories)  
-- [3.3. Impact Mapping](#33-impact-mapping)  
-- [3.4. Product Backlog](#34-product-backlog)  
+- [2.1. Competidores](#21-competidores)
+  - [2.1.1. Análisis Competitivo](#211-análisis-competitivo)
+  - [2.1.2. Estrategias y Tácticas frente a Competidores](#212-estrategias-y-tácticas-frente-a-competidores)
+- [2.2. Entrevistas](#22-entrevistas)
+  - [2.2.1. Diseño de Entrevistas](#221-diseño-de-entrevistas)
+  - [2.2.2. Registro de Entrevistas](#222-registro-de-entrevistas)
+  - [2.2.3. Análisis de Entrevistas](#223-análisis-de-entrevistas)
+- [2.3. Needfinding](#23-needfinding)
+  - [2.3.1. User Personas](#231-user-personas)
+  - [2.3.2. User Task Matrix](#232-user-task-matrix)
+  - [2.3.3. User Journey Mapping](#233-user-journey-mapping)
+  - [2.3.4. Empathy Mapping](#234-empathy-mapping)
+  - [2.3.5. As-is Scenario Mapping](#235-as-is-scenario-mapping)
+- [2.4. Ubiquitous Language](#24-ubiquitous-language)
 
 ---
 
-## Capítulo IV: Product Design  
+## Capítulo III: Requirements Specification
 
-- [4.1. Style Guidelines](#41-style-guidelines)  
-  - [4.1.1. General Style Guidelines](#411-general-style-guidelines)  
-  - [4.1.2. Web Style Guidelines](#412-web-style-guidelines)  
-  - [4.1.3. Mobile Style Guidelines](#413-mobile-style-guidelines)  
-    - [4.1.3.1. iOS Mobile Style Guidelines](#4131-ios-mobile-style-guidelines)  
-    - [4.1.3.2. Android Mobile Style Guidelines](#4132-android-mobile-style-guidelines)  
-- [4.2. Information Architecture](#42-information-architecture)  
-  - [4.2.1. Organization Systems](#421-organization-systems)  
-  - [4.2.2. Labeling Systems](#422-labeling-systems)  
-  - [4.2.3. SEO Tags and Meta Tags](#423-seo-tags-and-meta-tags)  
-  - [4.2.4. Searching Systems](#424-searching-systems)  
-  - [4.2.5. Navigation Systems](#425-navigation-systems)  
-- [4.3. Landing Page UI Design](#43-landing-page-ui-design)  
-  - [4.3.1. Landing Page Wireframe](#431-landing-page-wireframe)  
-  - [4.3.2. Landing Page Mock-up](#432-landing-page-mock-up)  
-- [4.4. Mobile Applications UX/UI Design](#44-mobile-applications-uxui-design)  
-  - [4.4.1. Wireframes](#441-mobile-applications-wireframes)  
-  - [4.4.2. Wireflow Diagrams](#442-mobile-applications-wireflow-diagrams)  
-  - [4.4.3. Mock-ups](#443-mobile-applications-mock-ups)  
-  - [4.4.4. User Flow Diagrams](#444-mobile-applications-user-flow-diagrams)  
-- [4.5. Mobile Applications Prototyping](#45-mobile-applications-prototyping)  
-  - [4.5.1. Android Prototyping](#451-android-mobile-applications-prototyping)  
-  - [4.5.2. iOS Prototyping](#452-ios-mobile-applications-prototyping)  
-- [4.6. Web Applications UX/UI Design](#46-web-applications-uxui-design)  
-  - [4.6.1. Wireframes](#461-web-applications-wireframes)  
-  - [4.6.2. Wireflow Diagrams](#462-web-applications-wireflow-diagrams)  
-  - [4.6.3. Mock-ups](#463-web-applications-mock-ups)  
-  - [4.6.4. User Flow Diagrams](#464-web-applications-user-flow-diagrams)  
-- [4.7. Web Applications Prototyping](#47-web-applications-prototyping)  
-- [4.8. Domain-Driven Software Architecture](#48-domain-driven-software-architecture)  
-  - [4.8.1. Context Diagram](#481-software-architecture-context-diagram)  
-  - [4.8.2. Container Diagrams](#482-software-architecture-container-diagrams)  
-  - [4.8.3. Component Diagrams](#483-software-architecture-components-diagrams)  
-- [4.9. Software Object-Oriented Design](#49-software-object-oriented-design)  
-  - [4.9.1. Class Diagrams](#491-class-diagrams)  
-  - [4.9.2. Class Dictionary](#492-class-dictionary)  
-- [4.10. Database Design](#410-database-design)  
-  - [4.10.1. Relational/Non-Relational Database Diagram](#4101-relationalnon-relational-database-diagram)  
+- [3.1. To-Be Scenario Mapping](#31-to-be-scenario-mapping)
+- [3.2. User Stories](#32-user-stories)
+- [3.3. Impact Mapping](#33-impact-mapping)
+- [3.4. Product Backlog](#34-product-backlog)
 
 ---
 
-## Capítulo V: Product Implementation  
+## Capítulo IV: Product Design
 
-- [5.1. Software Configuration Management](#51-software-configuration-management)  
-  - [5.1.1. Development Environment Configuration](#511-software-development-environment-configuration)  
-  - [5.1.2. Source Code Management](#512-source-code-management)  
-  - [5.1.3. Code Style Guide & Conventions](#513-source-code-style-guide--conventions)  
-  - [5.1.4. Deployment Configuration](#514-software-deployment-configuration)  
-- [5.2. Product Implementation & Deployment](#52-product-implementation--deployment)  
-  - [5.2.1. Sprint Backlogs](#521-sprint-backlogs)  
-  - [5.2.2. Landing Page Evidence](#522-implemented-landing-page-evidence)  
-  - [5.2.3. Frontend Web Application Evidence](#523-implemented-frontend-web-application-evidence)  
-  - [5.2.4. Native Mobile Application Evidence](#524-implemented-native-mobile-application-evidence)  
-  - [5.2.5. RESTful API / Serverless Backend Evidence](#525-implemented-restful-api-andor-serverless-backend-evidence)  
-  - [5.2.6. API Documentation](#526-restful-api-documentation)  
-  - [5.2.7. Team Collaboration Insights](#527-team-collaboration-insights)  
-- [5.3. Video About the Product](#53-video-about-the-product)  
+- [4.1. Style Guidelines](#41-style-guidelines)
+  - [4.1.1. General Style Guidelines](#411-general-style-guidelines)
+  - [4.1.2. Web Style Guidelines](#412-web-style-guidelines)
+  - [4.1.3. Mobile Style Guidelines](#413-mobile-style-guidelines)
+    - [4.1.3.1. iOS Mobile Style Guidelines](#4131-ios-mobile-style-guidelines)
+    - [4.1.3.2. Android Mobile Style Guidelines](#4132-android-mobile-style-guidelines)
+- [4.2. Information Architecture](#42-information-architecture)
+  - [4.2.1. Organization Systems](#421-organization-systems)
+  - [4.2.2. Labeling Systems](#422-labeling-systems)
+  - [4.2.3. SEO Tags and Meta Tags](#423-seo-tags-and-meta-tags)
+  - [4.2.4. Searching Systems](#424-searching-systems)
+  - [4.2.5. Navigation Systems](#425-navigation-systems)
+- [4.3. Landing Page UI Design](#43-landing-page-ui-design)
+  - [4.3.1. Landing Page Wireframe](#431-landing-page-wireframe)
+  - [4.3.2. Landing Page Mock-up](#432-landing-page-mock-up)
+- [4.4. Mobile Applications UX/UI Design](#44-mobile-applications-uxui-design)
+  - [4.4.1. Wireframes](#441-mobile-applications-wireframes)
+  - [4.4.2. Wireflow Diagrams](#442-mobile-applications-wireflow-diagrams)
+  - [4.4.3. Mock-ups](#443-mobile-applications-mock-ups)
+  - [4.4.4. User Flow Diagrams](#444-mobile-applications-user-flow-diagrams)
+- [4.5. Mobile Applications Prototyping](#45-mobile-applications-prototyping)
+  - [4.5.1. Android Prototyping](#451-android-mobile-applications-prototyping)
+  - [4.5.2. iOS Prototyping](#452-ios-mobile-applications-prototyping)
+- [4.6. Web Applications UX/UI Design](#46-web-applications-uxui-design)
+  - [4.6.1. Wireframes](#461-web-applications-wireframes)
+  - [4.6.2. Wireflow Diagrams](#462-web-applications-wireflow-diagrams)
+  - [4.6.3. Mock-ups](#463-web-applications-mock-ups)
+  - [4.6.4. User Flow Diagrams](#464-web-applications-user-flow-diagrams)
+- [4.7. Web Applications Prototyping](#47-web-applications-prototyping)
+- [4.8. Domain-Driven Software Architecture](#48-domain-driven-software-architecture)
+  - [4.8.1. Context Diagram](#481-software-architecture-context-diagram)
+  - [4.8.2. Container Diagrams](#482-software-architecture-container-diagrams)
+  - [4.8.3. Component Diagrams](#483-software-architecture-components-diagrams)
+- [4.9. Software Object-Oriented Design](#49-software-object-oriented-design)
+  - [4.9.1. Class Diagrams](#491-class-diagrams)
+  - [4.9.2. Class Dictionary](#492-class-dictionary)
+- [4.10. Database Design](#410-database-design)
+  - [4.10.1. Relational/Non-Relational Database Diagram](#4101-relationalnon-relational-database-diagram)
 
-- [Conclusiones](#61-conclusiones)  
-- [Bibliografía](#62-bibliografía)  
-- [Anexos](#63-anexos)  
+---
+
+## Capítulo V: Product Implementation
+
+- [5.1. Software Configuration Management](#51-software-configuration-management)
+  - [5.1.1. Development Environment Configuration](#511-software-development-environment-configuration)
+  - [5.1.2. Source Code Management](#512-source-code-management)
+  - [5.1.3. Code Style Guide & Conventions](#513-source-code-style-guide--conventions)
+  - [5.1.4. Deployment Configuration](#514-software-deployment-configuration)
+- [5.2. Product Implementation & Deployment](#52-product-implementation--deployment)
+  - [5.2.1. Sprint Backlogs](#521-sprint-backlogs)
+  - [5.2.2. Landing Page Evidence](#522-implemented-landing-page-evidence)
+  - [5.2.3. Frontend Web Application Evidence](#523-implemented-frontend-web-application-evidence)
+  - [5.2.4. Native Mobile Application Evidence](#524-implemented-native-mobile-application-evidence)
+  - [5.2.5. RESTful API / Serverless Backend Evidence](#525-implemented-restful-api-andor-serverless-backend-evidence)
+  - [5.2.6. API Documentation](#526-restful-api-documentation)
+  - [5.2.7. Team Collaboration Insights](#527-team-collaboration-insights)
+- [5.3. Video About the Product](#53-video-about-the-product)
+
+- [Conclusiones](#61-conclusiones)
+- [Bibliografía](#62-bibliografía)
+- [Anexos](#63-anexos)
 
 # STUDENT OUTCOME
-El curso contribuye al cumplimiento del Student Outcome ABET: 
+
+El curso contribuye al cumplimiento del Student Outcome ABET:
+
 ##### ABET – EAC - Student Outcome 4
-Criterio:  La capacidad de reconocer responsabilidades éticas y profesionales en
+
+Criterio: La capacidad de reconocer responsabilidades éticas y profesionales en
 situaciones de ingeniería y hacer juicios informados, que deben considerar el
 impacto de las soluciones de ingeniería en contextos globales, económicos,
 ambientales y sociales.
 
-| **Criterio específico** | **Acciones realizadas** | **Conclusiones** |  
-|-------------------------|------------------------|------------------|
-|4.c.1 Reconoce responsabilidad ética y profesional en situaciones de ingeniería de software|<br><br> 1. Rojas Velasquez, Maycol Jhordan<br>*TB1:*<br> Apliqué | |
-| 4.c.2 Emite juicios informados considerando el impacto de las soluciones de ingeniería de software en contextos globales, económicos, ambientales y sociales| <br><br> 1. Rojas Velasquez, Maycol Jhordan<br>*TB1:*<br> Apliqué| |
+| **Criterio específico**                                                                                                                                      | **Acciones realizadas**                                           | **Conclusiones** |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------------ | ----------------------------------------------------------------- | ---------------- |
+| 4.c.1 Reconoce responsabilidad ética y profesional en situaciones de ingeniería de software                                                                  | <br><br> 1. Rojas Velasquez, Maycol Jhordan<br>_TB1:_<br> Apliqué |                  |
+| 4.c.2 Emite juicios informados considerando el impacto de las soluciones de ingeniería de software en contextos globales, económicos, ambientales y sociales | <br><br> 1. Rojas Velasquez, Maycol Jhordan<br>_TB1:_<br> Apliqué |                  |
 
 ## Capítulo I: Introducción
 
@@ -238,11 +237,11 @@ ambientales y sociales.
 
 <div align="center">
 
-| Integrante                                                                                                                                                                                                                                                       | Conocimientos técnicos / Habilidades                                                                                                                                                                                                                               |
-| ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| Ian Macavilca Quispe <br> (U202121325) <br> <img src="https://github.com/1ASI0729-2510-4321-devvolution/PescaGo-Report/blob/main/img/ian_macavilca.png?raw=true" widht="350" height="160">                                                                       | Programación en C++, Python, JavaScript, HTML y CSS. Aprendo rápido y sé adaptarme a los retos que se presentan a lo largo del desarrollo de proyectos.                                                                                                            |
-| Rodrigo Liberato Saldaña <br> <img src="https://media.discordapp.net/attachments/766316535290789908/1414761032928464907/rodrigo.png?ex=68c0be63&is=68bf6ce3&hm=ff615cb9f2f6cd66256a62ab4857639fcf3cd26cacefcbd283c385287daf8c64&=&format=webp&quality=lossless"> | Estudiante de Ingeniería de Software con interés en Ciencia de Datos, Ciberseguridad y desarrollo web en .NET, spring boot, etc. Me comprometo a apoyar activamente al grupo y asumir el rol de líder para encaminar al equipo hacia el cumplimiento de sus metas. |
-|<img src="https://hackmd.io/_uploads/B1F_iuso0.jpg" alt="yo-3" style="width: 600px ; height: 200px;"> | Maycol Jhordan Rojas Velasquez – Ingeniería de Software – u202219984 Elegí la carrera de Ingeniería de Software debido a mi gusto por la innovación y la implementación de la tecnología en cualquier rubro social, de una manera creativa y en todos los aspectos. Me considero una persona creativa, en busca de ideas y estrategias con mente nueva. También me gusta escuchar ideas de mi equipo, dar propuestas de mejora, evaluar las ventajas y desventajas.Además, tengo conocimientos de programación en C++, HTML, Python, Angular, Backend en Java, y domino Flutter. También cuento con experiencia en LangChain aplicado con LLM y RAG.Tengo un enfoque responsable y dedicado, acompañado de un aprendizaje rápido, lo que me permite ayudar a mis compañeros en sus dudas. Por otro lado, mis hobbies son ver series, jugar, escuchar música, nadar y manejar.|
+| Integrante                                                                                                                                                                                                                                                       | Conocimientos técnicos / Habilidades                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
+| ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Ian Macavilca Quispe <br> (U202121325) <br> <img src="https://github.com/1ASI0729-2510-4321-devvolution/PescaGo-Report/blob/main/img/ian_macavilca.png?raw=true" widht="350" height="160">                                                                       | Programación en C++, Python, JavaScript, HTML y CSS. Aprendo rápido y sé adaptarme a los retos que se presentan a lo largo del desarrollo de proyectos.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
+| Rodrigo Liberato Saldaña <br> <img src="https://media.discordapp.net/attachments/766316535290789908/1414761032928464907/rodrigo.png?ex=68c0be63&is=68bf6ce3&hm=ff615cb9f2f6cd66256a62ab4857639fcf3cd26cacefcbd283c385287daf8c64&=&format=webp&quality=lossless"> | Estudiante de Ingeniería de Software con interés en Ciencia de Datos, Ciberseguridad y desarrollo web en .NET, spring boot, etc. Me comprometo a apoyar activamente al grupo y asumir el rol de líder para encaminar al equipo hacia el cumplimiento de sus metas.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
+| <img src="https://hackmd.io/_uploads/B1F_iuso0.jpg" alt="yo-3" style="width: 600px ; height: 200px;">                                                                                                                                                            | Maycol Jhordan Rojas Velasquez – Ingeniería de Software – u202219984 Elegí la carrera de Ingeniería de Software debido a mi gusto por la innovación y la implementación de la tecnología en cualquier rubro social, de una manera creativa y en todos los aspectos. Me considero una persona creativa, en busca de ideas y estrategias con mente nueva. También me gusta escuchar ideas de mi equipo, dar propuestas de mejora, evaluar las ventajas y desventajas.Además, tengo conocimientos de programación en C++, HTML, Python, Angular, Backend en Java, y domino Flutter. También cuento con experiencia en LangChain aplicado con LLM y RAG.Tengo un enfoque responsable y dedicado, acompañado de un aprendizaje rápido, lo que me permite ayudar a mis compañeros en sus dudas. Por otro lado, mis hobbies son ver series, jugar, escuchar música, nadar y manejar. |
 
 </div>
 
@@ -262,59 +261,66 @@ ambientales y sociales.
 
 ### 1.3. Segmentos objetivo
 
-La aplicación **VacApp** ha sido diseñada considerando las diversas realidades del sector ganadero peruano, abarcando tanto a pequeños productores independientes como a grandes empresas pecuarias. Cada segmento presenta necesidades, objetivos y desafíos específicos que nuestra plataforma busca atender con soluciones tecnológicas prácticas, accesibles, innovadoras y sostenibles.  
+La aplicación **VacApp** ha sido diseñada considerando las diversas realidades del sector ganadero peruano, abarcando tanto a pequeños productores independientes como a grandes empresas pecuarias. Cada segmento presenta necesidades, objetivos y desafíos específicos que nuestra plataforma busca atender con soluciones tecnológicas prácticas, accesibles, innovadoras y sostenibles.
 
-El análisis de cada grupo nos permite adaptar y mejorar constantemente nuestros servicios para ofrecerles el mayor valor posible.  
+El análisis de cada grupo nos permite adaptar y mejorar constantemente nuestros servicios para ofrecerles el mayor valor posible.
 
-### 1.3.1. Productores Ganaderos Independientes  
+### 1.3.1. Productores Ganaderos Independientes
 
-Este segmento se centra en pequeños y medianos ganaderos que poseen animales como vacas, ovejas, corderos, reses y aves de corral. Son productores ubicados principalmente en zonas rurales del Perú, con recursos limitados y un fuerte compromiso por garantizar el bienestar de sus animales.  
+Este segmento se centra en pequeños y medianos ganaderos que poseen animales como vacas, ovejas, corderos, reses y aves de corral. Son productores ubicados principalmente en zonas rurales del Perú, con recursos limitados y un fuerte compromiso por garantizar el bienestar de sus animales.
 
-**Motivaciones:**  
-- Mantener en óptimas condiciones la salud y el cuidado de sus animales.  
-- Acceder a información práctica sobre nuevas técnicas de crianza y cuidado animal.  
-- Garantizar productos de calidad con un enfoque ético y sostenible.  
-- Obtener una compensación justa en el mercado por sus productos.  
+**Motivaciones:**
 
-**Problemáticas principales:**  
-- Escasez de recursos económicos para servicios veterinarios.  
-- Falta de accesibilidad a asesoría técnica y atención médica oportuna.  
-- La falta de atención veterinaria oportuna genera pérdidas económicas significativas por mortalidad animal.  
-- Los precios injustos en el mercado reducen hasta un 20 % los ingresos anuales de los productores.  
+- Mantener en óptimas condiciones la salud y el cuidado de sus animales.
+- Acceder a información práctica sobre nuevas técnicas de crianza y cuidado animal.
+- Garantizar productos de calidad con un enfoque ético y sostenible.
+- Obtener una compensación justa en el mercado por sus productos.
 
-Estas problemáticas limitan la competitividad, el bienestar animal y la sostenibilidad del sector.  
+**Problemáticas principales:**
 
-### 1.3.2. Empresas Ganaderas  
+- Escasez de recursos económicos para servicios veterinarios.
+- Falta de accesibilidad a asesoría técnica y atención médica oportuna.
+- La falta de atención veterinaria oportuna genera pérdidas económicas significativas por mortalidad animal.
+- Los precios injustos en el mercado reducen hasta un 20 % los ingresos anuales de los productores.
 
-Este segmento corresponde a corporaciones ganaderas de gran escala que manejan operaciones con altos volúmenes de animales. Se caracterizan por buscar eficiencia en la gestión, trazabilidad de procesos y cumplimiento de estándares de sostenibilidad.  
+Estas problemáticas limitan la competitividad, el bienestar animal y la sostenibilidad del sector.
 
-**Motivaciones:**  
-- Implementar prácticas éticas y sostenibles de producción.  
-- Garantizar una alimentación adecuada y atención individualizada para los animales.  
-- Optimizar la gestión de establos, campañas de vacunación y control sanitario.  
-- Mejorar su reputación y competitividad en mercados nacionales e internacionales.  
+### 1.3.2. Empresas Ganaderas
 
-**Problemáticas principales:**  
-- La ganadería contribuye de manera significativa a la deforestación en zonas amazónicas, representando entre el 49 % y el 80 % de la pérdida de bosques naturales.  
-- Desde 2001, Perú ha perdido más de **2 millones de hectáreas** de bosques, en parte debido a la ampliación de tierras para uso ganadero.  
+Este segmento corresponde a corporaciones ganaderas de gran escala que manejan operaciones con altos volúmenes de animales. Se caracterizan por buscar eficiencia en la gestión, trazabilidad de procesos y cumplimiento de estándares de sostenibilidad.
 
-Estos impactos ambientales comprometen la sostenibilidad del sector y tienen consecuencias negativas en la salud pública y los ecosistemas locales.  
+**Motivaciones:**
 
-### Variables del Segmento Objetivo  
+- Implementar prácticas éticas y sostenibles de producción.
+- Garantizar una alimentación adecuada y atención individualizada para los animales.
+- Optimizar la gestión de establos, campañas de vacunación y control sanitario.
+- Mejorar su reputación y competitividad en mercados nacionales e internacionales.
 
-**Geográficas:**  
-- País: Perú  
-- Ámbito: Zonas rurales y periurbanas  
+**Problemáticas principales:**
 
-**Demográficas:**  
-- Género: Masculino y Femenino  
-- Ocupación: Productores ganaderos (independientes y corporativos)  
-- Estado civil: Todos los estados  
-- Edad: Mayores de 18 años  
+- La ganadería contribuye de manera significativa a la deforestación en zonas amazónicas, representando entre el 49 % y el 80 % de la pérdida de bosques naturales.
+- Desde 2001, Perú ha perdido más de **2 millones de hectáreas** de bosques, en parte debido a la ampliación de tierras para uso ganadero.
 
-**Psicográficas:**  
-- Nivel socioeconómico: Todos los niveles (NSE bajo, medio y alto)  
-- Personalidad: Perseverantes, honestos, con fuerte compromiso hacia el trabajo, altruistas y resilientes ante la adversidad.   
+Estos impactos ambientales comprometen la sostenibilidad del sector y tienen consecuencias negativas en la salud pública y los ecosistemas locales.
+
+### Variables del Segmento Objetivo
+
+**Geográficas:**
+
+- País: Perú
+- Ámbito: Zonas rurales y periurbanas
+
+**Demográficas:**
+
+- Género: Masculino y Femenino
+- Ocupación: Productores ganaderos (independientes y corporativos)
+- Estado civil: Todos los estados
+- Edad: Mayores de 18 años
+
+**Psicográficas:**
+
+- Nivel socioeconómico: Todos los niveles (NSE bajo, medio y alto)
+- Personalidad: Perseverantes, honestos, con fuerte compromiso hacia el trabajo, altruistas y resilientes ante la adversidad.
 
 ## Capítulo II: Requirements Elicitation & Analysis
 
@@ -680,100 +686,108 @@ Se aplicará un espaciado adecuado en toda la interfaz para asegurar que los ele
 
 El tono de comunicación de VacApp será informativo, respetuoso y cercano, con un enfoque que hable directamente al usuario del sector ganadero bovino. Utilizaremos un lenguaje claro y profesional, pero accesible, para transmitir confianza y conocimiento en temas relacionados con el manejo de ganado. El objetivo es que el usuario se sienta apoyado y bien informado, mientras mantiene la seriedad y la responsabilidad que caracteriza al sector.
 
-
 ### 4.1.2. Web Style Guidelines
 
-El diseño web de VacApp seguirá principios de **accesibilidad, usabilidad y consistencia visual**, asegurando que la experiencia del usuario sea clara y fluida en distintos dispositivos (desktop, tablet y móvil).  
+El diseño web de VacApp seguirá principios de **accesibilidad, usabilidad y consistencia visual**, asegurando que la experiencia del usuario sea clara y fluida en distintos dispositivos (desktop, tablet y móvil).
 
 **Colores**  
-Se utilizará la misma paleta de colores definida para la identidad de VacApp, garantizando coherencia con la aplicación móvil.  
+Se utilizará la misma paleta de colores definida para la identidad de VacApp, garantizando coherencia con la aplicación móvil.
 
-| Nombre      | Código HEX | Muestra |
-|-------------|------------|---------|
-| Primario    | #CFF347    | ![#CFF347](https://img.shields.io/badge/-CFF347-CFF347?style=flat-square&logoColor=white) |
-| Secundario  | #ECF9AA    | ![#ECF9AA](https://img.shields.io/badge/-ECF9AA-ECF9AA?style=flat-square&logoColor=white) |
-| Acento      | #F6E7C1    | ![#F6E7C1](https://img.shields.io/badge/-F6E7C1-F6E7C1?style=flat-square&logoColor=white) |
-| Fondo Claro | #F2F2F2    | ![#F2F2F2](https://img.shields.io/badge/-F2F2F2-F2F2F2?style=flat-square&logoColor=black) |
-| Texto Oscuro| #032D23    | ![#032D23](https://img.shields.io/badge/-032D23-032D23?style=flat-square&logoColor=white) |
+| Nombre       | Código HEX | Muestra                                                                                   |
+| ------------ | ---------- | ----------------------------------------------------------------------------------------- |
+| Primario     | #CFF347    | ![#CFF347](https://img.shields.io/badge/-CFF347-CFF347?style=flat-square&logoColor=white) |
+| Secundario   | #ECF9AA    | ![#ECF9AA](https://img.shields.io/badge/-ECF9AA-ECF9AA?style=flat-square&logoColor=white) |
+| Acento       | #F6E7C1    | ![#F6E7C1](https://img.shields.io/badge/-F6E7C1-F6E7C1?style=flat-square&logoColor=white) |
+| Fondo Claro  | #F2F2F2    | ![#F2F2F2](https://img.shields.io/badge/-F2F2F2-F2F2F2?style=flat-square&logoColor=black) |
+| Texto Oscuro | #032D23    | ![#032D23](https://img.shields.io/badge/-032D23-032D23?style=flat-square&logoColor=white) |
 
-**Tipografía**  
-- Encabezados: **Rokkitt** (Google Fonts).  
-- Cuerpo de texto: **Mulish** (Google Fonts).  
-- Jerarquía visual clara mediante tamaños escalonados (H1-H6).  
+**Tipografía**
 
-**Componentes UI**  
-- **Navbar fija** en la parte superior con logo y enlaces principales.  
-- **Botones primarios** con fondo verde (#CFF347) y texto oscuro.  
-- **Tarjetas (cards)** para mostrar información de animales, campañas y usuarios.  
-- **Grillas y tablas** responsivas para reportes y datos.  
+- Encabezados: **Rokkitt** (Google Fonts).
+- Cuerpo de texto: **Mulish** (Google Fonts).
+- Jerarquía visual clara mediante tamaños escalonados (H1-H6).
 
-**Interacciones**  
-- **Hover effects** en botones y enlaces.  
-- **Animaciones ligeras** para transiciones de secciones.  
-- **Diseño responsive** con mobile-first, adaptando las vistas a pantallas pequeñas.  
+**Componentes UI**
+
+- **Navbar fija** en la parte superior con logo y enlaces principales.
+- **Botones primarios** con fondo verde (#CFF347) y texto oscuro.
+- **Tarjetas (cards)** para mostrar información de animales, campañas y usuarios.
+- **Grillas y tablas** responsivas para reportes y datos.
+
+**Interacciones**
+
+- **Hover effects** en botones y enlaces.
+- **Animaciones ligeras** para transiciones de secciones.
+- **Diseño responsive** con mobile-first, adaptando las vistas a pantallas pequeñas.
 
 ### 4.1.3. Mobile Style Guidelines
 
 La aplicación móvil de VacApp está diseñada en **Flutter**, lo que asegura consistencia en colores, tipografía y componentes visuales tanto en **iOS** como en **Android**.  
-La diferencia radica en la **implementación de las guías de diseño nativas** de cada plataforma.  
+La diferencia radica en la **implementación de las guías de diseño nativas** de cada plataforma.
 
 **Colores compartidos (iOS y Android)**
 
-| Nombre      | Código HEX | Muestra |
-|-------------|------------|---------|
-| Primario    | #CFF347    | ![#CFF347](https://img.shields.io/badge/-CFF347-CFF347?style=flat-square&logoColor=white) |
-| Secundario  | #ECF9AA    | ![#ECF9AA](https://img.shields.io/badge/-ECF9AA-ECF9AA?style=flat-square&logoColor=white) |
-| Acento      | #F6E7C1    | ![#F6E7C1](https://img.shields.io/badge/-F6E7C1-F6E7C1?style=flat-square&logoColor=white) |
-| Fondo Claro | #F2F2F2    | ![#F2F2F2](https://img.shields.io/badge/-F2F2F2-F2F2F2?style=flat-square&logoColor=black) |
-| Texto Oscuro| #032D23    | ![#032D23](https://img.shields.io/badge/-032D23-032D23?style=flat-square&logoColor=white) |
+| Nombre       | Código HEX | Muestra                                                                                   |
+| ------------ | ---------- | ----------------------------------------------------------------------------------------- |
+| Primario     | #CFF347    | ![#CFF347](https://img.shields.io/badge/-CFF347-CFF347?style=flat-square&logoColor=white) |
+| Secundario   | #ECF9AA    | ![#ECF9AA](https://img.shields.io/badge/-ECF9AA-ECF9AA?style=flat-square&logoColor=white) |
+| Acento       | #F6E7C1    | ![#F6E7C1](https://img.shields.io/badge/-F6E7C1-F6E7C1?style=flat-square&logoColor=white) |
+| Fondo Claro  | #F2F2F2    | ![#F2F2F2](https://img.shields.io/badge/-F2F2F2-F2F2F2?style=flat-square&logoColor=black) |
+| Texto Oscuro | #032D23    | ![#032D23](https://img.shields.io/badge/-032D23-032D23?style=flat-square&logoColor=white) |
 
-**Tipografía (común en Flutter con adaptaciones nativas)**  
-- iOS: SF Pro Display/Text.  
-- Android: Roboto.  
-- En Flutter, se define una jerarquía tipográfica coherente que se adapta automáticamente al sistema operativo.  
+**Tipografía (común en Flutter con adaptaciones nativas)**
+
+- iOS: SF Pro Display/Text.
+- Android: Roboto.
+- En Flutter, se define una jerarquía tipográfica coherente que se adapta automáticamente al sistema operativo.
 
 #### 4.1.3.1. iOS Mobile Style Guidelines
 
-El diseño para la versión iOS de VacApp seguirá las guías de **Human Interface Guidelines (HIG)** de Apple.  
+El diseño para la versión iOS de VacApp seguirá las guías de **Human Interface Guidelines (HIG)** de Apple.
 
 **Colores**  
-Mismos definidos en la paleta general para consistencia de marca.  
+Mismos definidos en la paleta general para consistencia de marca.
 
-**Tipografía**  
-- Encabezados: **SF Pro Display**.  
-- Cuerpo de texto: **SF Pro Text**.  
+**Tipografía**
 
-**Componentes UI**  
-- **Bottom Navigation Bar** con iconografía clara y minimalista.  
-- Botones redondeados (12–16 px) en línea con la estética iOS.  
-- **Modal sheets** para formularios y confirmaciones.  
+- Encabezados: **SF Pro Display**.
+- Cuerpo de texto: **SF Pro Text**.
 
-**Interacciones**  
-- Gestos nativos: swipe back, pull-to-refresh.  
-- Animaciones con **blur y transparencia**, dando sensación de profundidad.  
-- Feedback visual inmediato en cada interacción.  
+**Componentes UI**
+
+- **Bottom Navigation Bar** con iconografía clara y minimalista.
+- Botones redondeados (12–16 px) en línea con la estética iOS.
+- **Modal sheets** para formularios y confirmaciones.
+
+**Interacciones**
+
+- Gestos nativos: swipe back, pull-to-refresh.
+- Animaciones con **blur y transparencia**, dando sensación de profundidad.
+- Feedback visual inmediato en cada interacción.
 
 #### 4.1.3.2. Android Mobile Style Guidelines
 
-El diseño para la versión Android de VacApp seguirá las guías de **Material Design 3 (Material You)** de Google.  
+El diseño para la versión Android de VacApp seguirá las guías de **Material Design 3 (Material You)** de Google.
 
 **Colores**  
-Mismos definidos en la paleta general.  
+Mismos definidos en la paleta general.
 
-**Tipografía**  
-- Encabezados: **Roboto Bold**.  
-- Cuerpo de texto: **Roboto Regular**.  
+**Tipografía**
 
-**Componentes UI**  
-- **BottomNavigationView** o **NavigationRail** en tablets.  
-- Botones con esquinas redondeadas según Material Design 3.  
-- **Floating Action Button (FAB)** para acciones clave como registrar bovinos o vacunas.  
+- Encabezados: **Roboto Bold**.
+- Cuerpo de texto: **Roboto Regular**.
 
-**Interacciones**  
-- Animaciones dinámicas basadas en **motion design**.  
-- Soporte completo para **dark mode**.  
-- Compatibilidad con el sistema de personalización de Material You.  
+**Componentes UI**
 
+- **BottomNavigationView** o **NavigationRail** en tablets.
+- Botones con esquinas redondeadas según Material Design 3.
+- **Floating Action Button (FAB)** para acciones clave como registrar bovinos o vacunas.
+
+**Interacciones**
+
+- Animaciones dinámicas basadas en **motion design**.
+- Soporte completo para **dark mode**.
+- Compatibilidad con el sistema de personalización de Material You.
 
 ### 4.2. Information Architecture
 
@@ -853,36 +867,35 @@ Este ultimo punto establece los sistemas de navegacion que utilizaran los usuari
 - Flujos de usuario optimizados: pasos guiados para tareas como registrar un animal.
 - Indicadores visuales (breadcrumbs, estados activos) para mantener claridad sobre la ubicación actual dentro de la app.
 
-### 4.3. Landing Page UI Design  
+### 4.3. Landing Page UI Design
 
-El diseño de la **Landing Page** de VacApp tiene como objetivo principal transmitir de manera clara y atractiva la propuesta de valor de la aplicación. Para ello, se han elaborado **wireframes** y **mock-ups** tanto en versión **desktop** como **mobile**, asegurando coherencia visual, accesibilidad y adaptabilidad en diferentes dispositivos.  
+El diseño de la **Landing Page** de VacApp tiene como objetivo principal transmitir de manera clara y atractiva la propuesta de valor de la aplicación. Para ello, se han elaborado **wireframes** y **mock-ups** tanto en versión **desktop** como **mobile**, asegurando coherencia visual, accesibilidad y adaptabilidad en diferentes dispositivos.
 
-#### 4.3.1. Landing Page Wireframe  
+#### 4.3.1. Landing Page Wireframe
 
-Los **wireframes** representan la estructura inicial de la Landing Page, enfocándose en la disposición de los elementos clave sin incluir detalles visuales avanzados. Sirven como base para validar la jerarquía de la información, la navegación y la organización de los componentes principales.  
+Los **wireframes** representan la estructura inicial de la Landing Page, enfocándose en la disposición de los elementos clave sin incluir detalles visuales avanzados. Sirven como base para validar la jerarquía de la información, la navegación y la organización de los componentes principales.
 
 - **Landing Page Wireframe – Desktop**  
-  <img src="./assets/Landing-wire.png" style="width: 400px">  
+  <img src="./assets/Landing-wire.png" style="width: 400px">
 
 - **Landing Page Wireframe – Mobile**  
-  <img src="./assets/Landingm-wire.png" style="width: 400px">  
+  <img src="./assets/Landingm-wire.png" style="width: 400px">
 
-#### 4.3.2. Landing Page Mock-up  
+#### 4.3.2. Landing Page Mock-up
 
-Los **mock-ups** representan la versión más cercana al diseño final de la Landing Page. Incorporan la **paleta de colores oficial de VacApp**, la **tipografía definida en las Style Guidelines**, y los elementos gráficos que refuerzan la identidad visual de la aplicación. Estos prototipos permiten visualizar cómo será la experiencia del usuario en el producto final.  
+Los **mock-ups** representan la versión más cercana al diseño final de la Landing Page. Incorporan la **paleta de colores oficial de VacApp**, la **tipografía definida en las Style Guidelines**, y los elementos gráficos que refuerzan la identidad visual de la aplicación. Estos prototipos permiten visualizar cómo será la experiencia del usuario en el producto final.
 
-- **Landing Page Mock-up – Desktop**  
+- **Landing Page Mock-up – Desktop**
 
   <img src="./assets/Landing-mock.png" style="width: 400px">
 
-- **Landing Page Mock-up – Mobile**  
+- **Landing Page Mock-up – Mobile**
 
   <img src="./assets/Landingm-mock.png" style="width: 400px">
 
-El desarrollo de estos diseños se realizó en **Figma**, lo que garantiza un entorno colaborativo y dinámico para el equipo de diseño y desarrollo.  
+El desarrollo de estos diseños se realizó en **Figma**, lo que garantiza un entorno colaborativo y dinámico para el equipo de diseño y desarrollo.
 
- **Figma Project:** [https://www.figma.com/design/Ck5RdO3MzAm16SIReLDO15/Sin-t%C3%ADtulo?node-id=150-5796&t=hGN3YL7RfASQ5FFk-1](https://www.figma.com/design/Ck5RdO3MzAm16SIReLDO15/Sin-t%C3%ADtulo?node-id=150-5796&t=hGN3YL7RfASQ5FFk-1)  
-
+**Figma Project:** [https://www.figma.com/design/Ck5RdO3MzAm16SIReLDO15/Sin-t%C3%ADtulo?node-id=150-5796&t=hGN3YL7RfASQ5FFk-1](https://www.figma.com/design/Ck5RdO3MzAm16SIReLDO15/Sin-t%C3%ADtulo?node-id=150-5796&t=hGN3YL7RfASQ5FFk-1)
 
 ### 4.4. Mobile Applications UX/UI Design
 
@@ -895,7 +908,6 @@ El desarrollo de estos diseños se realizó en **Figma**, lo que garantiza un en
 **Registro**
 
 <img src="./assets/sing-upw.png" style="width: 400px">
-
 
 **Planes**
 
@@ -915,8 +927,6 @@ El desarrollo de estos diseños se realizó en **Figma**, lo que garantiza un en
 
 <img src="./assets/animalwinfo.png" style="width: 400px">
 
-
-
 **Inventario**
 
 <img src="./assets/inventariow.png" style="width: 400px">
@@ -927,11 +937,9 @@ El desarrollo de estos diseños se realizó en **Figma**, lo que garantiza un en
 
 <img src="./assets/organizationw.png" style="width: 400px">
 
-
 **vista de "Agregar Animal"**
 
 <img src="./assets/animalwadd.png" style="width: 400px">
-
 
 **vista de "Agregar Inventario"**
 
@@ -943,12 +951,10 @@ El desarrollo de estos diseños se realizó en **Figma**, lo que garantiza un en
 
 #### 4.4.2. Mobile Applications Wireflow Diagrams
 
-**User Goal: Iniciar sesión y Registrarse:** 
-Este flujo guía al usuario desde la pantalla de bienvenida hacia las opciones de autenticación. 
+**User Goal: Iniciar sesión y Registrarse:**
+Este flujo guía al usuario desde la pantalla de bienvenida hacia las opciones de autenticación.
 
 <img src="./assets/1w.png" style="width: 400px">
-
-
 
 **User Goal: Home y navegar por las secciones "Animals","Campaigns" e "Inventory"**
 
@@ -956,13 +962,14 @@ Una vez autenticado, el usuario accede al home con accesos rápidos con el sideb
 
 <img src="./assets/2w.png" style="width: 400px">
 
-**User Goal: Registro de un nuevo dato ya sea "Animals","Campaigns" o "Inventory":** 
+**User Goal: Registro de un nuevo dato ya sea "Animals","Campaigns" o "Inventory":**
 
 Este flujo está diseñado para facilitar al agregar ya sea un bovino, una campaña o un producto de inventario.
 
 <img src="./assets/3w.png" style="width: 400px">
 
 #### 4.4.3. Mobile Applications Mock-ups
+
 **Inicio Sesion**
 
 <img src="./assets/singin.png" style="width: 400px">
@@ -970,7 +977,6 @@ Este flujo está diseñado para facilitar al agregar ya sea un bovino, una campa
 **Registro**
 
 <img src="./assets/singup.png" style="width: 400px">
-
 
 **Planes**
 
@@ -988,8 +994,6 @@ Este flujo está diseñado para facilitar al agregar ya sea un bovino, una campa
 
 <img src="./assets/animalinfo.png" style="width: 400px">
 
-
-
 **Inventario**
 
 <img src="./assets/inventario.png" style="width: 400px">
@@ -1000,16 +1004,13 @@ Este flujo está diseñado para facilitar al agregar ya sea un bovino, una campa
 
 <img src="./assets/organization.png" style="width: 400px">
 
-
 **vista de "Agregar Animal"**
 
 <img src="./assets/animaladd.png" style="width: 400px">
 
-
 **vista de "Agregar Inventario"**
 
 <img src="./assets/productadd.png" style="width: 400px">
-
 
 **vista de "Agregar Campaña"**
 
@@ -1017,8 +1018,8 @@ Este flujo está diseñado para facilitar al agregar ya sea un bovino, una campa
 
 #### 4.4.4. Mobile Applications User Flow Diagrams
 
-**User Goal: Iniciar sesión y Registrarse:** 
-Este flujo guía al usuario desde la pantalla de bienvenida hacia las opciones de autenticación. 
+**User Goal: Iniciar sesión y Registrarse:**
+Este flujo guía al usuario desde la pantalla de bienvenida hacia las opciones de autenticación.
 
 <img src="./assets/1.png" style="width: 400px">
 
@@ -1027,36 +1028,36 @@ Una vez autenticado, el usuario accede al home con accesos rápidos con el sideb
 
 <img src="./assets/2.png" style="width: 400px">
 
-**User Goal: Registro de un nuevo dato ya sea "Animals","Campaigns" o "Inventory":** 
+**User Goal: Registro de un nuevo dato ya sea "Animals","Campaigns" o "Inventory":**
 Este flujo está diseñado para facilitar al agregar ya sea un bovino, una campaña o un producto de inventario.
 
 <img src="./assets/3.png" style="width: 400px">
 
 ### 4.5. Mobile Applications Prototyping
 
-El proceso de prototipado de las aplicaciones móviles de **VacApp** se llevó a cabo utilizando el framework **Flutter**, lo que permitió generar aplicaciones tanto para **Android** como para **iOS** desde una misma base de código.  
+El proceso de prototipado de las aplicaciones móviles de **VacApp** se llevó a cabo utilizando el framework **Flutter**, lo que permitió generar aplicaciones tanto para **Android** como para **iOS** desde una misma base de código.
 
 De esta manera, los prototipos funcionales se desarrollaron en Flutter y se validaron principalmente en dispositivos Android, asegurando consistencia en la interfaz de usuario y en la experiencia de navegación.  
-Gracias a la naturaleza multiplataforma de Flutter, la misma aplicación está preparada para ejecutarse en iOS sin necesidad de modificaciones significativas, garantizando uniformidad visual y de comportamiento en ambos sistemas operativos.  
+Gracias a la naturaleza multiplataforma de Flutter, la misma aplicación está preparada para ejecutarse en iOS sin necesidad de modificaciones significativas, garantizando uniformidad visual y de comportamiento en ambos sistemas operativos.
 
-- **Video de demostración:** [https://youtu.be/aLAxsS7FKnE](https://youtu.be/aLAxsS7FKnE)  
-- **Diseño en Figma:** [https://www.figma.com/design/Ck5RdO3MzAm16SIReLDO15/Sin-t%C3%ADtulo?node-id=150-5796&t=hGN3YL7RfASQ5FFk-1](https://www.figma.com/design/Ck5RdO3MzAm16SIReLDO15/Sin-t%C3%ADtulo?node-id=150-5796&t=hGN3YL7RfASQ5FFk-1)  
+- **Video de demostración:** [https://youtu.be/aLAxsS7FKnE](https://youtu.be/aLAxsS7FKnE)
+- **Diseño en Figma:** [https://www.figma.com/design/Ck5RdO3MzAm16SIReLDO15/Sin-t%C3%ADtulo?node-id=150-5796&t=hGN3YL7RfASQ5FFk-1](https://www.figma.com/design/Ck5RdO3MzAm16SIReLDO15/Sin-t%C3%ADtulo?node-id=150-5796&t=hGN3YL7RfASQ5FFk-1)
 
 ### 4.5.1. Android Mobile Applications Prototyping
 
 Para Android, los prototipos fueron compilados y probados en un entorno de desarrollo utilizando **Android Studio** y dispositivos físicos con sistema operativo Android.  
-Este proceso permitió verificar la correcta implementación de los estilos, colores y componentes previamente definidos en las **Style Guidelines**.  
+Este proceso permitió verificar la correcta implementación de los estilos, colores y componentes previamente definidos en las **Style Guidelines**.
 
-Como evidencia, se incluyen capturas de pantalla que muestran el prototipo ejecutándose en Android, lo que asegura que el flujo de navegación y las funcionalidades principales cumplen con lo planificado en el diseño inicial.  
+Como evidencia, se incluyen capturas de pantalla que muestran el prototipo ejecutándose en Android, lo que asegura que el flujo de navegación y las funcionalidades principales cumplen con lo planificado en el diseño inicial.
 
 ### 4.5.2. iOS Mobile Applications Prototyping
 
 Si bien las pruebas principales se realizaron en Android, el prototipo desarrollado en Flutter está preparado para ejecutarse en **iOS** de forma nativa.  
-Esto se debe a que Flutter utiliza una única base de código que se adapta automáticamente a ambos entornos móviles.  
+Esto se debe a que Flutter utiliza una única base de código que se adapta automáticamente a ambos entornos móviles.
 
-En este sentido, aunque no se disponga de un build completo de iOS para este avance, se documenta que la aplicación mantiene **consistencia visual y funcional** con la versión de Android, cumpliendo los lineamientos definidos en las **iOS Mobile Style Guidelines**.  
+En este sentido, aunque no se disponga de un build completo de iOS para este avance, se documenta que la aplicación mantiene **consistencia visual y funcional** con la versión de Android, cumpliendo los lineamientos definidos en las **iOS Mobile Style Guidelines**.
 
-En futuras iteraciones se contempla la generación de un prototipo directamente en dispositivos iOS o en emuladores de Xcode, lo que permitirá validar también en dicho entorno los aspectos específicos de navegación y experiencia de usuario.  
+En futuras iteraciones se contempla la generación de un prototipo directamente en dispositivos iOS o en emuladores de Xcode, lo que permitirá validar también en dicho entorno los aspectos específicos de navegación y experiencia de usuario.
 
 ### 4.6. Web Applications UX/UI Design
 
@@ -1070,50 +1071,51 @@ En futuras iteraciones se contempla la generación de un prototipo directamente 
 
 ### 4.7. Web Applications Prototyping
 
-### 4.8. Domain-Driven Software Architecture  
+### 4.8. Domain-Driven Software Architecture
+
 En esta sección se presenta la arquitectura de software de **VacApp**, diseñada bajo el enfoque de **Domain-Driven Design (DDD)**.  
-El objetivo es ofrecer una visión clara de cómo los distintos dominios del sistema (gestión de ganado, campañas de vacunación, establos, usuarios, entre otros) se estructuran y cómo interactúan con los actores externos y los servicios complementarios.  
+El objetivo es ofrecer una visión clara de cómo los distintos dominios del sistema (gestión de ganado, campañas de vacunación, establos, usuarios, entre otros) se estructuran y cómo interactúan con los actores externos y los servicios complementarios.
 
-Se emplean diagramas **C4** para ilustrar distintos niveles de detalle, desde el contexto general hasta los componentes principales de la solución.  
+Se emplean diagramas **C4** para ilustrar distintos niveles de detalle, desde el contexto general hasta los componentes principales de la solución.
 
-#### 4.8.1. Software Architecture Context Diagram  
+#### 4.8.1. Software Architecture Context Diagram
 
-El **Diagrama de Contexto** proporciona una visión de alto nivel del sistema, mostrando cómo **VacApp** interactúa con sus principales actores externos:  
+El **Diagrama de Contexto** proporciona una visión de alto nivel del sistema, mostrando cómo **VacApp** interactúa con sus principales actores externos:
 
-- **Ganaderos y Empresas** → usuarios finales que gestionan su ganado, vacunas y establos.  
-- **Servicios Externos** → APIs de pronóstico del clima, bases de datos de razas de ganado y servicios veterinarios.  
-- **Administradores del Sistema** → responsables del mantenimiento y la supervisión de la aplicación.  
+- **Ganaderos y Empresas** → usuarios finales que gestionan su ganado, vacunas y establos.
+- **Servicios Externos** → APIs de pronóstico del clima, bases de datos de razas de ganado y servicios veterinarios.
+- **Administradores del Sistema** → responsables del mantenimiento y la supervisión de la aplicación.
 
-Este diagrama permite comprender cómo VacApp se integra en el ecosistema de la gestión ganadera, facilitando la interoperabilidad con otros sistemas.  
+Este diagrama permite comprender cómo VacApp se integra en el ecosistema de la gestión ganadera, facilitando la interoperabilidad con otros sistemas.
 
-![context](./assets/new_context_diagram.png)  
+![context](./assets/new_context_diagram.png)
 
-#### 4.8.2. Software Architecture Container Diagrams  
+#### 4.8.2. Software Architecture Container Diagrams
 
-El **Diagrama de Contenedores** descompone VacApp en sus principales elementos tecnológicos, ilustrando cómo se organizan y comunican entre sí:  
+El **Diagrama de Contenedores** descompone VacApp en sus principales elementos tecnológicos, ilustrando cómo se organizan y comunican entre sí:
 
-- **Aplicación Web** → interfaz accesible desde navegadores para administradores y empresas.  
-- **Aplicación Móvil** → interfaz diseñada para ganaderos, desarrollada en **Flutter**, disponible para Android e iOS.  
-- **API Backend** → expone servicios de negocio a través de un conjunto de endpoints REST, desarrollados en **Java/Spring Boot**.  
-- **Base de Datos** → repositorio centralizado para almacenar información sobre bovinos, campañas, usuarios, vacunas y establos.  
+- **Aplicación Web** → interfaz accesible desde navegadores para administradores y empresas.
+- **Aplicación Móvil** → interfaz diseñada para ganaderos, desarrollada en **Flutter**, disponible para Android e iOS.
+- **API Backend** → expone servicios de negocio a través de un conjunto de endpoints REST, desarrollados en **Java/Spring Boot**.
+- **Base de Datos** → repositorio centralizado para almacenar información sobre bovinos, campañas, usuarios, vacunas y establos.
 
-El diagrama refleja cómo cada contenedor coopera para ofrecer una experiencia integral y consistente, garantizando la disponibilidad de la información tanto en la aplicación móvil como en la web.  
+El diagrama refleja cómo cada contenedor coopera para ofrecer una experiencia integral y consistente, garantizando la disponibilidad de la información tanto en la aplicación móvil como en la web.
 
-![containers](./assets/new_container_diagram.png)  
+![containers](./assets/new_container_diagram.png)
 
-#### 4.8.3. Software Architecture Components Diagrams  
+#### 4.8.3. Software Architecture Components Diagrams
 
-El **Diagrama de Componentes** profundiza en los módulos principales dentro del backend y la aplicación móvil. Cada componente está alineado a un **bounded context** del dominio definido por DDD:  
+El **Diagrama de Componentes** profundiza en los módulos principales dentro del backend y la aplicación móvil. Cada componente está alineado a un **bounded context** del dominio definido por DDD:
 
-- **Gestión de Bovinos** → administración de registros de animales, historial de salud y genealogía.  
-- **Gestión de Campañas** → planificación y control de campañas de vacunación.  
-- **Gestión de Establos** → organización de establos y asignación de bovinos.  
-- **Gestión de Usuarios** → control de accesos, roles y permisos.  
-- **Notificaciones y Recordatorios** → envío de alertas automáticas relacionadas con vacunas, salud o actividades programadas.  
+- **Gestión de Bovinos** → administración de registros de animales, historial de salud y genealogía.
+- **Gestión de Campañas** → planificación y control de campañas de vacunación.
+- **Gestión de Establos** → organización de establos y asignación de bovinos.
+- **Gestión de Usuarios** → control de accesos, roles y permisos.
+- **Notificaciones y Recordatorios** → envío de alertas automáticas relacionadas con vacunas, salud o actividades programadas.
 
-Este nivel de detalle muestra cómo los componentes colaboran entre sí dentro de los contenedores y cómo mantienen la cohesión con el dominio del problema.  
+Este nivel de detalle muestra cómo los componentes colaboran entre sí dentro de los contenedores y cómo mantienen la cohesión con el dominio del problema.
 
-![components](./assets/new_component_diagram.png)  
+![components](./assets/new_component_diagram.png)
 
 ### 4.9. Software Object-Oriented Design
 
@@ -1123,7 +1125,13 @@ Este nivel de detalle muestra cómo los componentes colaboran entre sí dentro d
 
 ### 4.10. Database Design
 
-#### 4.10.1. Relational/Non-Relational Database Diagram
+#### 4.10.1. Relational Database Diagram
+
+Para esta solucion se realizó una Base de datos relacional con las siguientes tablas:
+
+![Base de datos](https://github.com/Bovinova/Documento----VacApp/blob/main/assets/ranch.png?raw=true)
+
+Con esta estructura de la base datos que se basa en el modelo DDD de la arquitectura de la aplicacion, se logrará tener un manejo estable de los datos.
 
 ---
 
