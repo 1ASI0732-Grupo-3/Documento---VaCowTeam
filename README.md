@@ -356,12 +356,23 @@ Cuando los ganaderos de menor escala aún utilizaban métodos manuales y poco ef
 
 Sin embargo, el panorama actual ha cambiado. El mercado ahora está saturado con nuevas empresas que ofrecen soluciones móviles similares, pero con mayores recursos financieros. Esta nueva situación ha provocado que el costo de adquirir nuevos clientes sea más alto, nuestra cuota de mercado se haya estancado y las demandas de soporte técnico hayan aumentado. Como consecuencia, nuestra rentabilidad ha disminuido y no podemos invertir lo suficiente en el desarrollo de nuevas funciones.
 
-
-
-
 ##### 1.2.2.2. Lean UX Assumptions
 
+
+
 ##### 1.2.2.3. Lean UX Hypothesis Statements
+
+- Creemos que los ganaderos apreciarán una aplicación con una interfaz simple, porque esto les permitirá gestionar su ganado sin necesitar mucha capacitación. Lo sabremos cuando al menos un 70% de los usuarios registre a sus animales al usar la plataforma por primera vez, sin requerir ayuda.
+
+- Creemos que los usuarios adoptarán la plataforma si les ayuda a ahorrar tiempo en sus tareas diarias, porque prefieren dedicarse a actividades más productivas que a la administración. Lo sabremos cuando se logre una reducción del 40% en el tiempo promedio que dedican a los registros manuales.
+
+- Creemos que los ganaderos en zonas rurales usarán la aplicación si funciona sin conexión a internet, porque en sus áreas de trabajo la conectividad es limitada. Lo sabremos cuando el 60% de los usuarios active el modo sin conexión al menos una vez a la semana.
+
+- Creemos que los usuarios confiarán en la plataforma si garantizamos la privacidad de sus datos, porque manejan información crítica sobre su producción. Lo sabremos cuando menos del 5% de los usuarios exprese dudas sobre la seguridad en las encuestas de opinión.
+
+- Creemos que si resaltamos las funciones principales como la salud, alimentación y reproducción, los usuarios las usarán con frecuencia para la gestión de su ganado. Lo sabremos cuando estas funciones sumen al menos el 70% del uso total dentro de la aplicación.
+
+- Creemos que los usuarios notarán beneficios tangibles en la productividad y en la salud de su ganado, porque tendrán herramientas para tomar decisiones más informadas. Lo sabremos cuando el 60% de los usuarios reporte mejoras en el rendimiento de sus animales después de tres meses de uso.
 
 ##### 1.2.2.4. Lean UX Canvas
 
