@@ -311,6 +311,10 @@ Los principales afectados son los ganaderos peruanos, tanto los pequeños produc
 
 La falta de herramientas de gestión eficientes provoca una mala nutrición del ganado, enfermedades no tratadas a tiempo, baja productividad y pérdidas económicas. Tomar decisiones con información incompleta o errónea afecta directamente el bienestar animal y la rentabilidad. VacApp busca resolver esto, ofreciendo a los ganaderos una herramienta que les ayude a optimizar sus operaciones, mejorar la trazabilidad y tomar decisiones informadas.
 
+### How? (¿Cómo?)
+
+La solución de VacApp es una plataforma web y móvil que integra herramientas de gestión ganadera. La aplicación permite a los usuarios hacer un seguimiento de la salud, alimentación y reproducción de su ganado, generar reportes y recibir notificaciones importantes. Al usar tecnologías web y móviles de vanguardia, VacApp se adapta a las necesidades de los ganaderos de zonas rurales, permitiendo el acceso a datos en tiempo real desde cualquier dispositivo con conexión a internet.
+
 
 
 #### 1.2.2. Lean UX Process
