@@ -1119,7 +1119,44 @@ Este nivel de detalle muestra cómo los componentes colaboran entre sí dentro d
 
 #### 4.9.1. Class Diagrams
 
+Este diagrama de clases detalla los elementos del Domain Layer para Campaign Management, modelando entidades, agregados, objetos de valor y sus relaciones. A través de esta representación, se puede visualizar cómo se estructuran los conceptos principales del dominio y qué responsabilidades tiene cada clase dentro del modelo de negocio. Es esencial para alinear el diseño técnico con la lógica del dominio.
+
+![Campaign Management Layer Class Diagram](./assets/DiagramaClasesCampaign.png)
+
+Incluye entidades como Bovino, Vacuna y Establo, sus atributos, relaciones y métodos, permitiendo visualizar cómo se estructura la lógica de negocio y se representan los objetos reales del sistema productivo. Este diagrama fortalece la alineación entre la realidad ganadera y su implementación en software.
+
+![ClassDiagram](assets/DiagramaClasesRanch.JPG)
+
+Incluye entidades como StaffMember, objetos de valor como EmployeeStatus y servicios de dominio encargados de las reglas críticas. Este diagrama ayuda a comprender la estructura del dominio y cómo se articulan sus elementos para cumplir los objetivos del sistema.
+
+<img src="./assets/DiagramaClasesStaff.png">  
+
+
 #### 4.9.2. Class Dictionary
+
+|**Nombre**|**Descripción**|
+| :- | :- |
+|ID|Identificador único de registro usado como clave primaria|
+|Name|Nombre del animal|
+|Birthday|Fecha de nacimiento del animal|
+|Birth\_place|Lugar de Nacimiento del animal|
+|Gender|Genero del animal|
+|Breed|Raza del animal|
+|Location|Lugar donde se ubica el animal|
+|Parent\_ID|Identificar de registro de la madre del animal|
+|Expire_date|Fecha de expiracion de la identificacion del bovino|
+|Animal_ID|Identificar de registro de la madre del animal|
+
+|**Nombre**|**Descripción**|
+| :- | :- |
+|id|Identificador único del registro, generalmente una clave primaria.|
+|first\_name|Primer nombre del usuario.|
+|last\_name|Apellido del usuario.|
+|job\_status|Estado del empleado.|
+|job\_description|Descripción del puesto a cargo del empleado|
+|dni|DNI del empleado|
+|email\_address|Dirección de correo electrónico del usuario.|
+
 
 ### 4.10. Database Design
 
