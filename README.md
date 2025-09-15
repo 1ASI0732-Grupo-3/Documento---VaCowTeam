@@ -322,12 +322,6 @@ Aunque el costo de desarrollar y mantener VacApp depende de la inversión en tec
 
 #### 1.2.2. Lean UX Process
 
-Cuando los ganaderos de menor escala aún utilizaban métodos manuales y poco eficientes para gestionar sus rebaños, nuestra plataforma VacApp (tanto la versión web como la aplicación móvil) se presentó como una solución innovadora y accesible, ideal para el trabajo en el campo. Gracias a esto, logramos atraer a los primeros ganaderos interesados en modernizar sus operaciones y aumentar su eficiencia.
-
-Sin embargo, el panorama actual ha cambiado. El mercado ahora está saturado con nuevas empresas que ofrecen soluciones móviles similares, pero con mayores recursos financieros. Esta nueva situación ha provocado que el costo de adquirir nuevos clientes sea más alto, nuestra cuota de mercado se haya estancado y las demandas de soporte técnico hayan aumentado. Como consecuencia, nuestra rentabilidad ha disminuido y no podemos invertir lo suficiente en el desarrollo de nuevas funciones.
-
-##### 1.2.2.1. Lean UX Problem Statements
-
 ### User Assumptions:
 
 Creemos que los ganaderos, sin importar su experiencia con la tecnología, valorarán una plataforma web y móvil que sea sencilla de usar, con una interfaz clara y accesible desde varios dispositivos.
@@ -339,6 +333,14 @@ Creemos que los ganaderos, sin importar su experiencia con la tecnología, valor
 - La confianza de los ganaderos se ganará si la plataforma les demuestra beneficios reales, como una mayor productividad y una mejor salud de sus animales.
 
 - Como prefieren soluciones rápidas y prácticas, las funciones más importantes de la plataforma deben ser fáciles de encontrar y usar con solo unos pocos clics.
+
+
+##### 1.2.2.1. Lean UX Problem Statements
+
+Cuando los ganaderos de menor escala aún utilizaban métodos manuales y poco eficientes para gestionar sus rebaños, nuestra plataforma VacApp (tanto la versión web como la aplicación móvil) se presentó como una solución innovadora y accesible, ideal para el trabajo en el campo. Gracias a esto, logramos atraer a los primeros ganaderos interesados en modernizar sus operaciones y aumentar su eficiencia.
+
+Sin embargo, el panorama actual ha cambiado. El mercado ahora está saturado con nuevas empresas que ofrecen soluciones móviles similares, pero con mayores recursos financieros. Esta nueva situación ha provocado que el costo de adquirir nuevos clientes sea más alto, nuestra cuota de mercado se haya estancado y las demandas de soporte técnico hayan aumentado. Como consecuencia, nuestra rentabilidad ha disminuido y no podemos invertir lo suficiente en el desarrollo de nuevas funciones.
+
 
 
 
