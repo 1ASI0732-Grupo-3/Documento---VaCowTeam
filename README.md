@@ -307,6 +307,10 @@ La dificultad se concentra en las áreas rurales y productivas de Perú, donde l
 
 Los principales afectados son los ganaderos peruanos, tanto los pequeños productores con recursos limitados como las grandes empresas que gestionan una gran cantidad de ganado y deben cumplir con estándares de bienestar animal. Veterinarios y otros profesionales del sector también se benefician de esta plataforma.
 
+### Why? (¿Por qué?)
+
+La falta de herramientas de gestión eficientes provoca una mala nutrición del ganado, enfermedades no tratadas a tiempo, baja productividad y pérdidas económicas. Tomar decisiones con información incompleta o errónea afecta directamente el bienestar animal y la rentabilidad. VacApp busca resolver esto, ofreciendo a los ganaderos una herramienta que les ayude a optimizar sus operaciones, mejorar la trazabilidad y tomar decisiones informadas.
+
 
 
 #### 1.2.2. Lean UX Process
