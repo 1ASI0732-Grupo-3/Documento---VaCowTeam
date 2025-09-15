@@ -299,6 +299,12 @@ El sector ganadero en Perú tiene dificultades importantes para gestionar su gan
 
 Este es un problema constante que requiere una solución actual y duradera. La necesidad de una plataforma tecnológica para gestionar la ganadería y mejorar la producción es una demanda permanente. Los ganaderos necesitan acceder a información actualizada y en tiempo real sobre la salud, alimentación, reproducción y comercialización de sus animales.
 
+### Where? (¿Dónde?)
+
+La dificultad se concentra en las áreas rurales y productivas de Perú, donde la mayoría de los ganaderos tienen poco acceso a servicios veterinarios y tecnología. Aunque la falta de conectividad a internet en algunas zonas es un obstáculo, el crecimiento de la red móvil permite que VacApp pueda funcionar en cualquier dispositivo móvil, accesible desde cualquier ubicación rural.
+
+
+
 #### 1.2.2. Lean UX Process
 
 ##### 1.2.2.1. Lean UX Problem Statements
