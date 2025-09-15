@@ -328,6 +328,20 @@ Sin embargo, el panorama actual ha cambiado. El mercado ahora está saturado con
 
 ##### 1.2.2.1. Lean UX Problem Statements
 
+### User Assumptions:
+
+Creemos que los ganaderos, sin importar su experiencia con la tecnología, valorarán una plataforma web y móvil que sea sencilla de usar, con una interfaz clara y accesible desde varios dispositivos.
+
+- Los usuarios adoptarán esta tecnología si les ayuda a ahorrar tiempo y a gestionar su ganado de forma más efectiva.
+
+- También suponemos que usarán la aplicación incluso en zonas con poca conexión a internet, siempre que funcione bien sin estar conectados.
+
+- La confianza de los ganaderos se ganará si la plataforma les demuestra beneficios reales, como una mayor productividad y una mejor salud de sus animales.
+
+- Como prefieren soluciones rápidas y prácticas, las funciones más importantes de la plataforma deben ser fáciles de encontrar y usar con solo unos pocos clics.
+
+
+
 ##### 1.2.2.2. Lean UX Assumptions
 
 ##### 1.2.2.3. Lean UX Hypothesis Statements
