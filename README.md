@@ -289,6 +289,12 @@ Nuestra solución está diseñada para ser accesible desde cualquier lugar, ya s
 
 #### 1.2.1. Antecedentes y problemática
 
+Gracias a la técnica de las "5W's & 2H's", se ha analizado el origen y la problemática que los ganaderos peruanos enfrentan diariamente, lo que motivó la creación de VacApp.
+
+### What? (¿Qué?)
+
+El sector ganadero en Perú tiene dificultades importantes para gestionar su ganado, incluyendo aspectos de salud, nutrición, reproducción y productividad. Esta situación se agrava por la falta de herramientas tecnológicas. Los ganaderos, especialmente los más pequeños, no cuentan con sistemas que les permitan hacer un seguimiento detallado de sus animales ni tomar decisiones bien fundamentadas. Esto afecta su capacidad para optimizar las operaciones y aumentar sus ganancias.
+
 
 
 #### 1.2.2. Lean UX Process
