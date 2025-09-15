@@ -334,6 +334,21 @@ Creemos que los ganaderos, sin importar su experiencia con la tecnología, valor
 
 - Como prefieren soluciones rápidas y prácticas, las funciones más importantes de la plataforma deben ser fáciles de encontrar y usar con solo unos pocos clics.
 
+### Bussiness Assumptions:
+
+Partimos de la base de que nuestra solución digital impactará positivamente en el negocio de la ganadería.
+
+- Si los ganaderos pueden llevar sus registros de forma digital, mejorarán la organización y el control de su inventario animal.
+
+- Al ofrecer recordatorios automáticos y herramientas para el cuidado del ganado, los productores podrán reducir los gastos por enfermedades y mejorar el bienestar de sus animales.
+
+- Si facilitamos la planificación de la alimentación, optimizarán sus recursos y evitarán desperdicios.
+
+- Permitir un seguimiento preciso de la reproducción ayudará a los ganaderos a incrementar la productividad.
+
+- Si la experiencia de uso es fluida y confiable, incluso sin conexión a internet, lograremos una mayor adopción en áreas rurales con conectividad limitada.
+
+- Y finalmente, si aseguramos la privacidad y seguridad de sus datos, los usuarios confiarán en nuestra plataforma y se sentirán cómodos al almacenar información crucial en ella.
 
 ##### 1.2.2.1. Lean UX Problem Statements
 
