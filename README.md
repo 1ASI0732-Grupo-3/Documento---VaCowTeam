@@ -268,9 +268,28 @@ Nuestra plataforma, disponible para web y móviles, ofrece un conjunto de herram
 
 - Comunidad y colaboración: Además de ser una herramienta de gestión, es un espacio para compartir ideas, buenas prácticas y estar al día con las últimas novedades del sector.
 
+### Beneficios Clave:
+
+Usar nuestra solución te ayuda a mejorar la productividad y la sostenibilidad.
+
+- Mejor gestión y resultados: Tendrás acceso a herramientas que te permiten hacer un seguimiento eficiente de tus operaciones, reduciendo pérdidas y mejorando los resultados.
+
+- Optimización de recursos: La plataforma permite una mejor administración de los recursos, lo que se traduce en mayor productividad y rentabilidad.
+
+- Acceso a tecnología sostenible: Promovemos el uso de tecnologías que fomentan prácticas más responsables y respetuosas con el entorno.
+
+- Reducción de costos: La automatización y la mejora en la gestión operativa te ayudan a reducir gastos y aumentar la eficiencia general.
+
+- Educación y apoyo continuo: La plataforma ofrece materiales educativos para que te mantengas siempre actualizado con las mejores prácticas y avances tecnológicos.
+
+### Tecnología y Diseño:
+
+Nuestra solución está diseñada para ser accesible desde cualquier lugar, ya sea en el navegador o a través de sus aplicaciones móviles para iOS y Android. Está construida con tecnología avanzada para asegurar un alto rendimiento y una experiencia de uso simple. Se basa en datos para ofrecer recomendaciones y análisis personalizados que mejoran la toma de decisiones. Además, permite la integración con otros sistemas y automatiza diversas tareas administrativas.
 
 
 #### 1.2.1. Antecedentes y problemática
+
+
 
 #### 1.2.2. Lean UX Process
 
