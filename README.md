@@ -234,6 +234,12 @@ ambientales y sociales.
 
 #### 1.1.1. Descripción de la Startup
 
+Nombre del Startup: VacApp
+
+VacApp es una moderna plataforma, disponible para dispositivos móviles y web, creada para ayudar a los ganaderos a gestionar su ganado de forma eficiente y sostenible. La solución cuenta con un conjunto completo de herramientas que les permiten llevar un control detallado de la salud, nutrición y reproducción de sus animales. Esto les facilita tomar mejores decisiones en su granja.
+
+Con VacApp, los ganaderos pueden optimizar sus operaciones y aumentar sus ganancias, mientras fomentan prácticas más responsables y éticas. De esta manera, contribuyen al bienestar de los animales y al crecimiento sostenible de la industria ganadera.
+
 #### 1.1.2. Perfiles de integrantes del equipo
 
 <div align="center">
@@ -375,6 +381,8 @@ Partimos de la base de que nuestra solución digital impactará positivamente en
 - Creemos que los usuarios notarán beneficios tangibles en la productividad y en la salud de su ganado, porque tendrán herramientas para tomar decisiones más informadas. Lo sabremos cuando el 60% de los usuarios reporte mejoras en el rendimiento de sus animales después de tres meses de uso.
 
 ##### 1.2.2.4. Lean UX Canvas
+
+
 
 ### 1.3. Segmentos objetivo
 
