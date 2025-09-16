@@ -32,7 +32,7 @@
 | Saldana,Rodrigo Liberato | U202215623 |
 | Macavilca Quispe, Ian    | U202121325 |
 | Rojas Velasquez, Maycol  | U202219984 |
-|                          |            |
+| Paucar Meneses, Jeremy   | U201919449 |
 |                          |            |
 
 </div>
@@ -243,6 +243,8 @@ ambientales y sociales.
 | Ian Macavilca Quispe <br> (U202121325) <br> <img src="https://github.com/1ASI0729-2510-4321-devvolution/PescaGo-Report/blob/main/img/ian_macavilca.png?raw=true" widht="350" height="160">                                                                       | Programación en C++, Python, JavaScript, HTML y CSS. Aprendo rápido y sé adaptarme a los retos que se presentan a lo largo del desarrollo de proyectos.                                                                                                            |
 | Rodrigo Liberato Saldaña <br> <img src="https://media.discordapp.net/attachments/766316535290789908/1414761032928464907/rodrigo.png?ex=68c0be63&is=68bf6ce3&hm=ff615cb9f2f6cd66256a62ab4857639fcf3cd26cacefcbd283c385287daf8c64&=&format=webp&quality=lossless"> | Estudiante de Ingeniería de Software con interés en Ciencia de Datos, Ciberseguridad y desarrollo web en .NET, spring boot, etc. Me comprometo a apoyar activamente al grupo y asumir el rol de líder para encaminar al equipo hacia el cumplimiento de sus metas. |
 |<img src="https://hackmd.io/_uploads/B1F_iuso0.jpg" alt="yo-3" style="width: 600px ; height: 200px;"> | Maycol Jhordan Rojas Velasquez – Ingeniería de Software – u202219984 Elegí la carrera de Ingeniería de Software debido a mi gusto por la innovación y la implementación de la tecnología en cualquier rubro social, de una manera creativa y en todos los aspectos. Me considero una persona creativa, en busca de ideas y estrategias con mente nueva. También me gusta escuchar ideas de mi equipo, dar propuestas de mejora, evaluar las ventajas y desventajas.Además, tengo conocimientos de programación en C++, HTML, Python, Angular, Backend en Java, y domino Flutter. También cuento con experiencia en LangChain aplicado con LLM y RAG.Tengo un enfoque responsable y dedicado, acompañado de un aprendizaje rápido, lo que me permite ayudar a mis compañeros en sus dudas. Por otro lado, mis hobbies son ver series, jugar, escuchar música, nadar y manejar.|
+|<img src="https://imgur.com/ylpKMx2.png" alt="yo-3" style="width: 600px ; height: 200px;"> | Jeremy Paucar Meneses – Ingeniería de Software – u201919449 Tengo 23 años. En la actualidad estoy estudiando la carrera de ingeniería de software en la Universidad Peruana de Ciencias Aplicadas. Albergo conocimientos intermedios en algunos lenguajes de programación, tales como C++, JavaScript y Python. Me considero una persona responsable con disposición de apoyar al grupo, también me gustan mucho los retos y así mismo poder cumplirlos..|
+
 
 </div>
 
@@ -321,9 +323,59 @@ Estos impactos ambientales comprometen la sostenibilidad del sector y tienen con
 ### 2.1. Competidores
 
 #### 2.1.1. Análisis competitivo
+<table>
+   <tr>
+      <td align="center" colspan="6">Competitive Analysis Landscaspe</td>
+   </tr>
+   <tr>
+      <td colspan="2">¿Porqué llevar a cabo este análisis?</td><td colspan="4">¿Cómo podemos proporcionar un buen servicio entre los restaurantes y los consumidores de manera que la comunicación entre ambos sea efectiva y agradable?</td>
+   </tr>
+   <tr align="center">
+      <td colspan="2"><td>VacApp</td><td>Control Ganadero</td><td>Agroptima</td><td>App Ganadera</td>
+   </tr>
+   <tr>
+      <td rowspan="2">Perfil</td><td>Overview</td><td> VacApp es una plataforma móvil accesible que optimiza la gestión ganadera con enfoque en sostenibilidad, bienestar animal y eficiencia, adaptada a pequeños y grandes productores. </td><td> Es una aplicación español, británico y brasileño en el sector de la ganadería. </td><td> Agroptima es un sitio web multiplataforma cofundado por la unión europea para los países de España, Francia e Inglaterra </td><td> Es una empresa fundada en Colombia que cuenta con una para la gestión de ganado. </td>
+   </tr>
+   <tr>
+      <td>Ventaja competitiva. ¿Qué valor ofrece a los clientes?</td><td>La plataforma se diferencia al integrar tecnología accesible con enfoque en sostenibilidad y bienestar animal, ofreciendo soluciones prácticas para productores de todos los tamaños. </td><td> es una app para la gestión de vacas y enfocada para móviles </td><td> cuenta con multiplataforma cuenta con algoritmos matemáticos para una mayor gestión del ganado. </td><td> Tiene gran variedad de herramientas y gran cantidad de distribuidores </td>
+   </tr>
+   <tr>
+      <td rowspan="2">Perfil de Marketing</td><td>Mercado Objetivo</td><td> Productores ganaderos, tanto independientes como empresas, que buscan optimizar el cuidado del ganado y mejorar su rentabilidad. </td><td> Para ganaderos españoles, brasileños e ingleses. </td><td> Para ganaderos españoles,franceses e ingleses. </td><td> Para ganaderos colombianos </td>
+   </tr>
+   <tr>
+      <td>Estrategias de Marketing</td><td> Difusión en redes sociales y anuncios pagados </td><td> Estrategia de posicionamiento </td><td> Estrategia de segmentación </td><td> Estrategia </td>
+   </tr>
+   <tr>
+      <td rowspan="3">Perfil de Producto</td><td>Productos & Servicios</td><td> Aplicación móvil con herramientas de gestión de ganado, monitoreo de salud, alimentación y reproducción.
+
+ </td><td> Web app de gestión de ganado. </td><td> Web app de gestión de ganado. </td><td> Web app de gestión de ganado. </td>
+   </tr>
+   <tr>
+      <td>Precios & Costos</td><td> Subscripcion Bajo costo </td><td> Subscripcion Bajo costo </td><td> Subscripcion Bajo costo </td><td> Subscripcion Bajo costo </td>
+   </tr>
+   <tr>
+      <td>Canales de distribución (Web y/o Móvil)</td><td> App </td><td> App </td><td> Web y móvil </td><td> App </td>
+   </tr>
+
+   <tr>
+      <td rowspan="5">Análisis SWOT</td><td>Fortalezas</td><td> Contamos con lo último en tecnología e implementamos lo nuevo en desarrollo para mejorar la productividad del servicio </td><td> Es una app netamente para la gestión de vacas cuenta con buena personalización </td><td> Es famoso por ser bueno en gestión ya que usa algoritmos matemáticos para un mejor cálculo del ganado. </td><td> Su ecosistema está basado en un país de origen conoce muy bien a sus clientes y se adapta a ellos </td>
+   </tr>
+   <tr>
+      <td>Debilidades</td><td> Está en pleno desarrollo puede ser un éxito o fracaso </td><td> Solo es de móvil eso limita que sea multiplataforma </td><td> Solo opera en Europa y se basa en reglas ya establecidas por la unión europea </td><td> Solo es una app y para la zona de Colombia por lo tanto solo está disponible en su país de origen </td>
+   </tr>
+   <tr>
+      <td>Oportunidades</td><td> Puede hacer productivos a los ganaderos y empresas de este rubro mejorando sus tomas de decisiones y eficiencia </td><td> Si planeas ir a Europa es buena idea ya que ese es su público objetivo y contará con más servicios. </td><td> Si planeas ir a Europa es buena idea ya que ese es su público objetivo y contará con más servicios. </td><td> Si eres colombiano estarás contento con la app ya que es de uso nacional. </td>
+   </tr>
+   <tr>
+      <td>Amenazas</td><td> Competencia de otras aplicaciones móviles y el riesgo de cambios regulatorios en la industria ganadera que puedan afectar las operaciones de la plataforma. </td><td> No cuenta con muchos clientes la ganadería sigue siendo a la antigua por tanto no hace falta usarla. </td><td> No cuenta con muchos clientes la ganadería sigue siendo a la antigua por tanto no hace falta usarla. </td><td> Falta de apoyo económico los gobiernos locales de Colombia no ven viable esta innovación puede llegar a su desaparición </td>
+   </tr>
+
+</table> 
+<br/>
 
 #### 2.1.2. Estrategias y tácticas frente a competidores
-
+Para enfrentarnos a la competencia en el sector ganadero, nuestra estrategia se centrará en ofrecer una plataforma accesible, intuitiva y adaptada a las necesidades locales de los ganaderos peruanos. A diferencia de competidores como Agroptima o Control Ganadero, VacApp destacará por su simplicidad y enfoque en la sostenibilidad y el bienestar animal, facilitando la gestión de la salud, alimentación y reproducción del ganado. Utilizaremos tácticas de marketing digital segmentadas, como campañas en redes sociales y alianzas con organizaciones locales, para aumentar la visibilidad de la aplicación y educar a los usuarios sobre sus beneficios. Además, ofreceremos precios flexibles y modelos de suscripción accesibles, lo que permitirá a pequeños y grandes productores optimizar sus operaciones sin complicaciones, mientras seguimos mejorando continuamente la plataforma para adaptarnos a las necesidades cambiantes del sector ganadero.
+<br/>
 ### 2.2. Entrevistas
 
 #### 2.2.1. Diseño de entrevistas
@@ -587,24 +639,124 @@ Se realizaron entrevistas a dos segmentos clave del sector ganadero: Productores
 ### 2.3. Needfinding
 
 #### 2.3.1. User Personas
+Para construir nuestros User Persona, nos basamos en la información obtenida y analizada a partir de las entrevistas realizadas. Se identificó que ambos segmentos debían estar representados por perfiles masculinos.
+A partir de las respuestas recopiladas, se elaboró un User Persona que refleja los objetivos, motivaciones y frustraciones más comunes entre los participantes.
+Finalmente, se realizó un análisis que permitió definir los valores y habilidades que resume las características más destacadas de cada uno de los segmentos definidos.
+<br>
 
+**Segmento Ganadero Independiente**
+![UserPersonaGanadero](assets/UserPersonaGanaderoIndependiente.png)
+
+**Segmento Empresa Ganadera**
+![UserPersonaEmpresa](assets/UserPersonaEmpresaGanadera.png)
 #### 2.3.2. User Task Matrix
+
+| Tarea                                       | Ganadero Independiente                       | Empresa Ganadera                          |
+|---------------------------------------------|----------------------------------------------|-------------------------------------------|
+| Registrar nuevos animales                   | Alta (Manualmente con papel y lápiz)        | Alta (Manualmente con registros en cuadernos) |
+| Controlar la alimentación del ganado        | Alta (Registro manual en cuadernos)          | Alta (Registro manual en registros de alimentación) |
+| Programar citas con el veterinario          | Media (Llamadas telefónicas)                | Alta (Agenda manual de citas)             |
+| Gestionar vacunaciones                      | Alta (Registro manual en registros de vacunación) | Alta (Registro manual en cuadernos de vacunación) |
+| Realizar seguimiento del estado de salud    | Alta (Observación manual del ganado)        | Alta (Registro manual de síntomas y signos) |
+| Verificar el pronóstico del tiempo          | Media (Consultando en línea o escuchando el pronóstico) | Alta (Consultando en línea o por radio) |
+| Consultar información sobre razas de ganado| Media (Investigación en línea o en libros)  | Alta (Investigación en línea o en libros) |
+| Mantenimiento de infraestructura y equipos  | Alta (Reparaciones manuales y limpieza)     | Alta (Reparaciones manuales y limpieza)   |
+| Manejo de la reproducción y cría de ganado | Alta (Observación y gestión manual del ciclo reproductivo) | Alta (Observación y gestión manual del ciclo reproductivo) |
+| Registro de movimientos de ganado           | Alta (Registro manual de traslados, compra y venta) | Alta (Registro manual de traslados, compra y venta) |
+
 
 #### 2.3.3. User Journey Mapping
 
+**Journey Map for Ganadero Indepeniente**
+![JourneyMapGanaderoIndependiente](assets/GanaderoIndependienteJourneyMap.png)
+
+**Journey Map for Empresa Ganadera**
+![JourneyMapEmpresaGanadera](assets/EmpresaGanaderaJourneyMap.png)
+
 #### 2.3.4. Empathy Mapping
+
+**Empathy Map for Ganadero Indepeniente**
+![EmpathyMapGanaderoIndependiente](assets/EmpathyMapGanaderoIndependiente.png)
+
+**Empathy Map for Empresa Ganadera**
+![EmpathyMapEmpresaGanadera](assets/EmpathyMapEmpresaGanadera.png)
 
 #### 2.3.5. As-is Scenario Mapping
 
+![AsIsScenarioMap](assets/AsIsScenarioMapping.jpg)
+
 ### 2.4. Ubiquitous Language
 
----
+| Palabra                         | Descripción                                                                                                                                                     |
+|-------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Animal Health (Salud Animal) | Mantener la salud y prevenir enfermedades en el ganado.                                                                                                       |
+| Balanced Feeding (Alimentación Equilibrada) | Proporcionar una dieta equilibrada que cumpla con los requisitos nutricionales específicos de los animales.                                                    |
+| Artificial Insemination (Inseminación Artificial) | Introducir esperma en el tracto reproductivo de una hembra sin necesidad de apareamiento natural.                                                             |
+| Rectal Palpation (Palpación Rectal) | Examen para evaluar la condición reproductiva de una hembra, especialmente en el ganado vacuno.                                                               |
+| Deworming (Desparasitación) | Administrar medicamentos antiparasitarios para controlar y prevenir la infestación de parásitos internos y externos en el ganado.                              |
+| Branding (Marcado) | Identificación de ganado mediante la aplicación de un sello metálico caliente en la piel del animal.                                                          |
+| Weaning (Destete) | Separación gradual de los terneros de sus madres para cesar la lactancia y promover la independencia alimentaria.                                             |
+| Grazing Rotation (Rotación de Pastoreo) | Mover el ganado entre diferentes áreas de pastoreo para optimizar el uso del suelo y prevenir el sobrepastoreo.                                               |
+| Dystocia (Distocia) | Dificultades durante el parto que pueden requerir intervención veterinaria.                                                                                   |
+| Dusting (Aplicación de Polvos) | Aplicación de insecticidas en polvo o en aerosol sobre el pelaje del ganado para controlar infestaciones de insectos y parásitos externos.                    |
+| Campaign (Campaña) | Período durante el cual se llevan a cabo actividades específicas en la gestión de ganadería, con objetivos definidos y metas establecidas.                   |
+| Batch (Lote) | Grupo de animales criados o tratados juntos, que se manejan y monitorean como una unidad durante un período específico de tiempo.                              |
+| Fumigation (Fumigación) | Aplicación de productos químicos o biológicos para eliminar o controlar plagas, insectos, parásitos o enfermedades en el ganado y su entorno.                |
 
 ## Capítulo III: Requirements Specification
-
+Con el objetivo de diseñar una solución de software centrada en las necesidades reales de los usuarios, se desarrollaron una serie de herramientas y técnicas que permiten comprender, planificar y proyectar el comportamiento del sistema desde una perspectiva empática y funcional.
 ### 3.1. To-Be Scenario Mapping
+El To-Be Scenario Mapping permite proyectar el escenario ideal de interacción del usuario con el sistema, describiendo cómo deberían desarrollarse los procesos una vez implementada la solución. A través de esta técnica se identifican los cambios esperados respecto al estado actual, destacando mejoras en la experiencia del usuario, eficiencia operativa y cumplimiento de objetivos del proyecto. Este mapeo resulta clave para alinear el diseño del sistema con las verdaderas necesidades de los usuarios y los objetivos estratégicos de la solución.
+
+<img src="./assets/Scenariomapping.jpg">
 
 ### 3.2. User Stories
+
+Las User Stories representan una herramienta fundamental dentro de las metodologías ágiles para capturar los requerimientos funcionales desde la perspectiva del usuario. Cada historia describe una necesidad concreta, quién la necesita y con qué propósito, facilitando la planificación, priorización y desarrollo iterativo del sistema. Esta técnica garantiza que cada funcionalidad responda a una necesidad real, fomentando un desarrollo orientado al valor y alineado con las expectativas del usuario final.
+
+|Epic ID|Título|Descripción|||
+| :-: | :-: | :-: | :- | :- |
+|EP001|Registrar Vacuna|Como ganadero quiero poder registrar mi vacuna para que tenga control sobre la salud de mi bovino|||
+|Story ID|Título|Descripción|Criterios de Aceptación|Relacionado con (Epic ID)|
+|US001|Agregar Vacuna al Registro|Como ganadero, quiero agregar una nueva vacuna al registro de mis bovinos para mantener un control actualizado y efectivo de la salud de mi rebaño|<p>- **E01: Acceso al formulario para agregar vacuna**<br>  **Dado que** un ganadero autenticado.<br>  **Cuando** Accede al módulo/vacunas de la aplicación.<br>  **Entonces** Se muestra el formulario para el registro de una nueva vacuna, permitiéndole ingresar todos los datos necesarios.</p><p>- **E02: Registro exitoso de la vacuna**<br>  **Dado que** El ganadero tiene el formulario abierto.<br>  **Cuando** Ingresa todos los datos requeridos correctamente y envía el formulario.<br>  **Entonces:** La vacuna se registra exitosamente y se muestra una confirmación del registro.</p><p>- **E03: Manejo de errores en el formulario**<br>  **Dado que:** Un ganadero autenticado.<br>  **Cuando:** Ingresa datos incompletos o erróneos en el formulario.<br>  **Entonces:** El sistema muestra un mensaje de error específico, indicando los campos que deben corregirse.</p><p></p>|EP001|
+|US002|Búsqueda de Vacunas|Como ganadero, quiero buscar vacunas previamente registradas para evitar la duplicación y garantizar que se administre la vacuna correcta a cada bovino.|<p>- **E01: Búsqueda por fecha de administración**<br>  **Dado que** el ganadero posee múltiples vacunas registradas.<br>  **Cuando:** Realiza una búsqueda filtrando por fecha de administración.<br>  **Entonces:** Se despliega una lista de vacunas administradas en la fecha especificada.</p><p>- **E02: Búsqueda por tipo de vacuna**<br>  **Dado que** el ganadero tiene varias vacunas en el registro.<br>  **Cuando** filtra la búsqueda por el tipo específico de vacuna.<br>  **Entonces** se muestran únicamente las vacunas que coinciden con el tipo seleccionado.</p><p>- **E03: Sin resultados en la búsqueda**<br>  **Dado que** el ganadero tiene vacunas registradas.<br>  **Cuando** busca con criterios que no concuerdan con ningún registro.<br>  **Entonces** se muestra un mensaje informando que no se encontraron coincidencias.</p><p></p>|EP001|
+|US003 |Gestión de Registros de Vacunas|Como ganadero, necesito poder editar o eliminar el registro de una vacuna para garantizar que la información se mantenga precisa y actualizada.|<p>- **E01: Eliminación exitosa de vacuna**<br>  **Dado que** el ganadero selecciona una vacuna del registro.<br>  **Cuando** solicita eliminar dicha vacuna y confirma la acción.<br>  **Entonces** el sistema elimina la vacuna y muestra una confirmación de la eliminación.</p><p>- **E02: Edición exitosa de vacuna**<br>  **Dado que** el ganadero visualiza el registro de una vacuna.<br>  **Cuando** modifica los datos y guarda los cambios.<br>  **Entonces** el sistema actualiza la información de la vacuna y muestra un mensaje de confirmación.</p><p>- **E03: Error al eliminar vacuna**<br>  **Dado que** el ganadero intenta eliminar una vacuna.<br>  **Cuando** se produce un error interno en el sistema.<br>  **Entonces** no se elimina la vacuna y se muestra un mensaje de error descriptivo.</p><p>- **Escenario 4: Error al editar vacuna**<br>  **Dado que** el ganadero intenta modificar una vacuna.<br>  **Cuando** se produce un error durante la actualización (por ejemplo, validación fallida).<br>  **Entonces** el sistema no actualiza los datos y se notifica el error con detalle de los problemas encontrados.</p>|EP001|
+|TS001|Crear Vacuna vía API|Como desarrollador, necesito exponer un endpoint para registrar una vacuna vía API, de modo que los features de la aplicación dispongan de este registro.|<p>- **E01: Registro exitoso**<br>  **Dado que** el endpoint /vacunas está disponible.<br>  **Cuando** se envía una solicitud POST con datos válidos.<br>  **Entonces** se recibe respuesta 201 (Created) con el recurso de vacuna recién creado.</p><p>- **E02: Error por datos inválidos**<br>  **Dado que** el endpoint /vacunas está disponible.<br>  **Cuando** se envía una solicitud POST sin el campo obligatorio "nombre" (u otro dato requerido).<br>  **Entonces:** Se recibe respuesta 400 (Bad Request) con el mensaje: "Falta el nombre de la vacuna".</p><p>- **E03: Error por formato incorrecto**<br>  **Dado que** El endpoint /vacunas está disponible.<br>  **Cuando:** Se envía una solicitud POST con un formato incorrecto (p.ej., fecha inválida).<br>  **Entonces:** Se recibe respuesta 400 con el mensaje: "Formato de fecha de vacunación no válido".</p><p>- **E04: Error por vacuna duplicada**<br>  **Dado que:** El endpoint /vacunas está disponible y ya existe una vacuna con el mismo nombre.<br>  **Cuando:** Se envía una solicitud POST con datos para una vacuna existente.<br>  **Entonces:** Se recibe respuesta 409 (Conflict) con el mensaje: "Ya existe una vacuna con el mismo nombre".</p><p>&emsp;</p>|EP001|
+|TS002|API para Búsqueda de Vacunas|Como desarrollador, quiero implementar un endpoint para buscar vacunas mediante criterios específicos, permitiendo filtrar y obtener registros de manera eficiente.|<p>- **E01: Búsqueda exitosa**<br>  **Dado que:** El endpoint /vacunas está disponible.<br>  **Cuando:** Se realiza una solicitud GET con parámetros de búsqueda válidos.<br>  **Entonces:** Se recibe respuesta 200 (OK) con una lista de vacunas que cumplen los criterios.</p><p>- **E02: Búsqueda sin resultados**<br>  **Dado que:** El endpoint /vacunas está disponible.<br>  **Cuando:** Se realiza una solicitud GET con parámetros que no arrojan coincidencias.<br>  **Entonces:** Se recibe respuesta 200 con un mensaje informando que no se encontraron resultados.</p><p></p>|EP001|
+|TS003|API para Gestión de Vacunas|Como desarrollador, necesito implementar endpoints para editar y eliminar registros de vacunas, asegurando que se mantenga la integridad y actualización de los datos.|<p>- **E01: Edición exitosa**<br>  **Dado que:** Existe un registro de vacuna y el endpoint /vacunas/{id} está disponible.<br>  **Cuando:** Se envía una solicitud PUT con datos válidos para actualizar.<br>  **Entonces:** Se recibe respuesta 200 (OK) con la vacuna actualizada.</p><p>- **E02: Error al editar vacuna**<br>  **Dado que:** El endpoint /vacunas/{id} está disponible.<br>  **Cuando:** Se envía una solicitud PUT con datos inválidos.<br>  **Entonces:** Se recibe respuesta 400 con un mensaje de error descriptivo.</p><p>&emsp;**E03: Eliminación exitosa**<br>&emsp;**Dado que:** Existe un registro de vacuna y el endpoint /vacunas/{id} está disponible.<br>&emsp;**Cuando:** Se envía una solicitud DELETE para eliminar la vacuna.<br>&emsp;**Entonces:** Se recibe respuesta 200 (OK) confirmando la eliminación.</p>|EP001|
+|Epic ID|Título|Descripción|||
+|EP002|Registrar Ganado|Como ganadero quiero registrar para llevar un control detallado de mi inventario de ganado y su trazabilidad sanitaria |||
+|Story ID|Título|Descripción|Criterios de Aceptación|Relacionado con (Epic ID)|
+|US004|Registro de Bovino en Lote|Como usuario autenticado, quiero registrar un bovino en un lote específico para tener control detallado de la crianza y manejo del animal.|<p>- **E01: Registro completo de un bovino**<br>  **Dado que** un usuario autenticado.<br>  **Cuando** selecciona la opción de registrar un nuevo bovino e ingresa los datos: procedencia, raza, peso inicial, fecha de registro, fotografía, estado de salud, fecha de nacimiento o edad, y observaciones.<br>  **Entonces** el sistema genera un ID único, asocia el bovino a un lote específico y confirma el registro exitoso.</p><p>- **E02: Registro sin autenticación**<br>  **Dado que** un usuario no autenticado.<br>  **Cuando** intenta acceder al módulo de gestión de lotes para registrar un bovino.<br>  **Entonces** se redirige al usuario a la página de inicio de sesión.</p><p>- **E03: Registro incompleto**<br>  **Dado que** un usuario autenticado en el registro de un bovino.<br>  **Cuando** envía el formulario sin completar todos los campos obligatorios.<br>  **Entonces** se muestra un mensaje de error solicitando la información faltante.</p><p>- **Escenario 4: Registro con datos inválidos**<br>  **Dado que** un usuario autenticado al registrar un bovino.<br>  **Cuando** ingresa datos en un formato incorrecto o no conforme a lo esperado.<br>  **Entonces** el sistema rechaza el registro y muestra un mensaje de error especificando el formato correcto.</p><p></p>|EP002|
+|US005|Buscar Información de Bovinos|Como usuario, quiero poder buscar animales registrados para acceder de forma rápida y ordenada a la información necesaria.|<p>- **E01: Búsqueda exitosa**<br>  **Dado que:** El usuario autenticado en la plataforma.<br>  **Cuando:** Realiza una búsqueda (con filtros y criterios) desde el módulo respectivo.<br>  **Entonces:** Se muestra una lista clara y ordenada con los resultados correspondientes.</p><p></p>|EP002|
+|US006|Actualizar Información de Bovinos|Como usuario, quiero gestionar la información de los animales registrados para mantener la base de datos actualizada y precisa.|<p>- **E01: Actualización exitosa**<br>  **Dado que** el usuario autenticado y accediendo al módulo de gestión de animales.<br>  **Cuando** actualiza la información requerida y guarda los cambios.<br>  **Entonces** el sistema confirma la actualización mediante un mensaje de éxito.</p><p></p>|EP002|
+|TS004|API para Registro de Animales|Como desarrollador, quiero implementar un endpoint para registrar un bovino en un lote específico, permitiendo la correcta integración de los datos en la aplicación.|<p>- **E01: Registro exitoso**<br>  **Dado que** el endpoint /animales está disponible.<br>  **Cuando** se envía una solicitud POST con todos los datos válidos.<br>  **Entonces** se recibe respuesta 201 (Created) con el registro del animal.</p><p>- **E02: Error en el registro**<br>  **Dado que** el endpoint /animales está disponible.<br>  **Cuando** se envía una solicitud POST con datos inválidos o incompletos.<br>  **Entonces** se recibe respuesta 400 (Bad Request) con un mensaje de error.</p><p></p>|EP002|
+|TS005|API para Búsqueda de Animales|Como desarrollador, necesito un endpoint que permita buscar animales registrados usando parámetros de búsqueda, facilitando la localización de registros específicos.|<p>- **E01: Búsqueda exitosa**<br>  **Dado que** el endpoint /animales está disponible.<br>  **Cuando** se realiza una solicitud GET con parámetros válidos.<br>  **Entonces** se recibe respuesta 200 (OK) con la lista de animales que cumplen los criterios.</p><p>- **E02:** En caso de parámetros sin resultados, se indica adecuadamente que no se encontraron animales.</p><p></p>|EP002|
+|TS006|API para Gestión de Animales|Como desarrollador, quiero implementar funcionalidades para editar y eliminar animales registrados, asegurando la actualización y manejo correcto de la información.|<p>- **E01: Edición exitosa**<br>  **Dado que** el endpoint /animales/{id} está disponible y existe el animal.<br>  **Cuando** se envía una solicitud PUT con información actualizada y válida.<br>  **Entonces** se recibe respuesta 200 (OK) con el animal actualizado.</p><p>- **E02:  Eliminación exitosa**<br>  **Dado que** el endpoint /animales/{id} está disponible.<br>  **Cuando** se realiza una solicitud DELETE para el animal.<br>  **Entonces** se recibe respuesta 200 con un mensaje de éxito.</p><p></p>|EP002|
+|Epic ID|Título|Descripción|||
+|EP003|Registrar Campaña|Como usuario de la plataforma, quiero crear y gestionar campañas ganaderas para mejorar el rendimiento y control de las actividades relacionadas con el engorde del ganado.|||
+|Story ID|Título|Descripción|Criterios de Aceptación|Relacionado con (Epic ID)|
+|US007|Crear Campaña para Engorde de Ganado|Como usuario de la plataforma, quiero crear una campaña para engordar el ganado asignado, definiendo parámetros como duración, objetivo y selección de animales o establos.|**E01: Creación de campaña**<br>**Dado que** el usuario autenticado.<br>**Cuando** selecciona la opción de crear una campaña y completa los campos (duración, objetivo, selección de animales o establos).<br>**Entonces** se crea la campaña y se muestra una confirmación|EP003|
+|US008|Asociar Empleados a Campaña|<p>Como empresario ganadero, quiero asignar empleados a una campaña para organizar mejor el personal durante la ejecución de esta.</p><p></p>|<p>- **E01: Asociación exitosa**<br>  **Dado que:** El empresario ganadero autenticado.<br>  **Cuando:** Selecciona una campaña existente y asigna empleados válidos.<br>  **Entonces:** Los empleados quedan asociados a la campaña y se muestra una notificación de éxito.</p><p></p>|EP003|
+|US009|Gestión de Campañas|Como usuario, quiero gestionar (editar o modificar) la campaña creada para ajustarla según las necesidades y cambios en la planificación.|<p>- **E01: Gestión para ganadero independiente**<br>  **Dado que:** El usuario autenticado con una campaña creada.<br>  **Cuando:** Realiza cambios (añadir/eliminar tiempo, animales, establos o modificar el objetivo).<br>  **Entonces:** Los cambios se reflejan instantáneamente y se confirma la actualización.</p><p>- **E02: Gestión para empresa ganadera**<br>  **Dado que:** La empresa con campaña activa.<br>  **Cuando:** Realiza cambios adicionales como la asignación o eliminación de personal, además de otros ajustes en el objetivo.<br>  **Entonces:** El sistema actualiza y confirma los cambios en la campaña.</p><p></p>|EP003|
+|TS007|API para Creación de Campaña|Como desarrollador, necesito crear un endpoint que permita la creación de campañas, de modo que se puedan iniciar campañas de engorde en la aplicación.|<p>- **E01: Creación exitosa**<br>  **Dado que** el endpoint /campanas está disponible.<br>  **Cuando** se envía una solicitud POST con datos válidos para la campaña.<br>  **Entonces**  Se recibe respuesta 201 (Created) con el registro de la campaña.</p><p>- **E02: Error en la creación**<br>  **Dado que** el endpoint /campanas está disponible.<br>  **Cuando** se envía una solicitud POST con datos incompletos o inválidos.<br>  **Entonces** se recibe respuesta 400 (Bad Request) con un mensaje de error.</p><p></p>|EP003|
+|TS008|API para Asociar Empleados a Campaña|Como desarrollador, necesito un endpoint para asociar empleados a campañas, permitiendo la asignación de personal a cada campaña desde la aplicación.|<p>- **E01:  Asociación exitosa**<br>  **Dado que** el endpoint /campanas/{id}/empleados está disponible.<br>  **Cuando** se envía una solicitud POST con los datos de un empleado válido para la campaña seleccionada.<br>  **Entonces** se recibe respuesta 201 (Created) confirmando la asociación.</p><p>- **E02: Error al asociar**<br>  **Dado que** el endpoint /campanas/{id}/empleados está disponible.<br>  **Cuando** se envía una solicitud POST con un empleado inválido.<br>  **Entonces** se recibe respuesta 400 (Bad Request) con el mensaje de error correspondiente.</p><p></p>|EP003|
+|TS009|API para Gestión de Campañas|Como desarrollador, necesito implementar endpoints que permitan editar y eliminar campañas, facilitando su gestión integral desde la plataforma.|<p>- **E01: Edición exitosa**<br>  **Dado que** el endpoint /campanas/{id} está disponible.<br>  **Cuando** se envía una solicitud PUT con información válida para actualizar la campaña.<br>  **Entonces** se recibe respuesta 200 (OK) con la campaña actualizada.</p><p>- **E02  Error al editar campaña**<br>  **Dado que** el endpoint /campanas/{id} está disponible.<br>  **Cuando** se envía una solicitud PUT con datos inválidos.<br>  **Entonces** se recibe respuesta 400 (Bad Request) con un mensaje de error.</p><p>- **E03  Eliminación exitosa**<br>  **Dado que** el endpoint /campanas/{id} está disponible.<br>  **Cuando** se envía una solicitud DELETE para eliminar la campaña.<br>  **Entonces** se recibe respuesta 200 (OK) con un mensaje confirmando la eliminación.</p>|EP003|
+|Epic ID|Título|Descripción|||
+|EP004|Registrar Personal|Como empresario ganadero, quiero poder registrar y gestionar a mis empleados para organizar eficazmente los recursos humanos de mi empresa,|||
+|Story ID|Título|Descripción|Criterios de Aceptación|Relacionado con (Epic ID)|
+|US010|Registro de Personal|Como empresario ganadero, quiero poder registrar a mis empleados para organizar y gestionar de forma efectiva los recursos humanos de mi empresa.|<p>- **E01: Registro completo de empleado**<br>  **Dado que:** El empresario autenticado.<br>  **Cuando:** Ingresa correctamente todos los datos requeridos para un empleado.<br>  **Entonces:** El sistema registra al empleado y muestra una confirmación exitosa.</p><p>- **E02: Registro incompleto o incorrecto**<br>  **Dado que:** El empresario autenticado.<br>  **Cuando:** Intenta registrar a un empleado sin ingresar toda la información esencial.<br>  **Entonces:** Se muestra un mensaje de error indicando la carencia de información requerida</p>|EP004|
+|US011|Búsqueda de Personal|Como empresario ganadero, quiero buscar entre los empleados registrados para localizar y, de ser necesario, gestionar la información de un empleado en específico.|**E01: Búsqueda exitosa**<br>**Dado que:** El empresario con sesión iniciada.<br>**Cuando:** Realiza la búsqueda utilizando filtros (por nombre, cargo, etc.).<br>**Entonces:** Se muestra el empleado que cumple con los criterios de búsqueda.|EP004|
+|US012|Gestión de Personal|Como empresario ganadero, necesito gestionar la plantilla de empleados, pudiendo agregar o eliminar registros para mantener la base de datos actualizada.|<p>- **E01: Agregar y eliminar empleados**<br>  **Dado que:** El empresario autenticado y accediendo al módulo de gestión de personal.<br>  **Cuando:** Realiza las operaciones de agregar y/o eliminar empleados.<br>  **Entonces:** El sistema confirma con un mensaje de éxito cada uno de los cambios efectuados.</p><p></p>|EP004|
+|TS010|API para Registro de Empleados|Como desarrollador, necesito crear un endpoint para registrar empleados, asegurando que la información de cada uno se almacene correctamente y se confirme la creación.|<p>- **E01: Registro exitoso**<br>  **Dado que** el endpoint /empleados está disponible.<br>  **Cuando** se envía una solicitud POST con datos válidos para el empleado.<br>  **Entonces** se recibe respuesta 201 (Created) con el registro del empleado.</p><p>- **E02: Error al registrar empleado**<br>  **Dado que** el endpoint /empleados está disponible.<br>  **Cuando** se envía una solicitud POST con datos incompletos o inválidos.<br>  **Entonces** se recibe respuesta 400 (Bad Request) con el mensaje de error.</p><p></p>|EP004|
+|TS011|API para Búsqueda de Empleados|Como desarrollador, necesito implementar un endpoint que permita buscar empleados utilizando filtros específicos, para facilitar la administración de los recursos humanos.|<p>- **E01: Búsqueda exitosa**<br>  **Dado que** el endpoint /empleados está disponible.<br>  **Cuando** se realiza una solicitud GET con parámetros válidos.<br>  **Entonces** se recibe respuesta 200 (OK) y se devuelve una lista de empleados que cumplen los criterios.</p><p>- **E02: Búsqueda sin resultados**<br>  **Dado que** el endpoint /empleados está disponible.<br>  **Cuando** se realiza una solicitud GET con parámetros que no arrojan resultados.<br>  **Entonces** se recibe respuesta 200 con un mensaje informando que no se encontraron empleados.</p><p></p>|EP004|
+|TS012|API para Gestión de Empleados|Como desarrollador, necesito implementar funcionalidades para editar y eliminar empleados mediante la API, permitiendo que el empresario administre correctamente su plantilla.|<p>- **E01: Edición exitosa**<br>  **Dado que** el endpoint /empleados/{id} está disponible y existe el empleado.<br>  **Cuando** se envía una solicitud PUT con información válida para actualizar los datos del empleado.<br>  **Entonces** se recibe respuesta 200 (OK) con el registro actualizado.</p><p>- **E02 : Error al editar empleado**<br>  **Dado que** el endpoint /empleados/{id} está disponible.<br>  **Cuando** se envía una solicitud PUT con datos inválidos o incompletos.<br>  **Entonces** se recibe respuesta 400 (Bad Request) con el mensaje de error correspondiente.</p><p>- **E03: Eliminación exitosa**<br>  **Dado que** el endpoint /empleados/{id} está disponible y existe el empleado a eliminar.<br>  **Cuando** se envía una solicitud DELETE.<br>  **Entonces** se recibe respuesta 200 (OK) confirmando la eliminación con un mensaje de éxito.</p><p></p>|EP004|
+|Epic ID|Título|Descripción|||
+|EP005|Informarse sobre el Producto|Como visitante, quiero explorar la Landing Page de la aplicación para conocer sus funcionalidades y evaluar si satisface mis necesidades.|||
+|Story ID|Título|Descripción|Criterios de Aceptación|Relacionado con (Epic ID)|
+|US015|Explorar la Landing Page|<p>Como visitante, quiero explorar la Landing Page de la aplicación para conocer sus funcionalidades y determinar si satisface mis necesidades.</p><p></p>|<p>- **E01: Sección “Quiénes Somos”**<br>  **Dado que:** El visitante accede a la Landing Page.<br>  **Cuando:** Navega a la sección “Quiénes Somos”.<br>  **Entonces:** Encuentra información detallada sobre la misión, visión y valores de la empresa.</p><p></p>|EP005|
+|US016|` `Explorar Secciones Informativas|<p>Como visitante, quiero explorar las secciones informativas (Quiénes Somos, Planes y Funciones) para entender completamente las características y beneficios de la aplicación.</p><p></p>|<p>- **E01: Navegación en secciones informativas**<br>  **Dado que:** El visitante ingresa a la Landing Page.<br>  **Cuando:** Navega por las secciones “Quiénes Somos”, “Planes” y “Funciones”.<br>  **Entonces:** Se le presenta información detallada y estructurada sobre la empresa, los distintos planes ofrecidos y las funcionalidades de la aplicación.</p><p></p>|EP005|
+
 
 ### 3.3. Impact Mapping
 
