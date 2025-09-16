@@ -702,9 +702,11 @@ Finalmente, se realizó un análisis que permitió definir los valores y habilid
 | Fumigation (Fumigación) | Aplicación de productos químicos o biológicos para eliminar o controlar plagas, insectos, parásitos o enfermedades en el ganado y su entorno.                |
 
 ## Capítulo III: Requirements Specification
-
+Con el objetivo de diseñar una solución de software centrada en las necesidades reales de los usuarios, se desarrollaron una serie de herramientas y técnicas que permiten comprender, planificar y proyectar el comportamiento del sistema desde una perspectiva empática y funcional.
 ### 3.1. To-Be Scenario Mapping
+El To-Be Scenario Mapping permite proyectar el escenario ideal de interacción del usuario con el sistema, describiendo cómo deberían desarrollarse los procesos una vez implementada la solución. A través de esta técnica se identifican los cambios esperados respecto al estado actual, destacando mejoras en la experiencia del usuario, eficiencia operativa y cumplimiento de objetivos del proyecto. Este mapeo resulta clave para alinear el diseño del sistema con las verdaderas necesidades de los usuarios y los objetivos estratégicos de la solución.
 
+<img src="./assets/Scenariomapping.jpg">
 ### 3.2. User Stories
 
 ### 3.3. Impact Mapping
