@@ -664,6 +664,11 @@ Finalmente, se realizó un análisis que permitió definir los valores y habilid
 
 
 #### 2.3.3. User Journey Mapping
+**Journey Map for Ganadero Indepeniente**
+![JourneyMapGanaderoIndependiente](assets/GanaderoIndependienteJourneyMap.png)
+
+**Journey Map for Empresa Ganadera**
+![JourneyMapEmpresaGanadera](assets/EmpresaGanaderaJourneyMap.png)
 
 #### 2.3.4. Empathy Mapping
 
