@@ -664,6 +664,7 @@ Finalmente, se realizó un análisis que permitió definir los valores y habilid
 
 
 #### 2.3.3. User Journey Mapping
+
 **Journey Map for Ganadero Indepeniente**
 ![JourneyMapGanaderoIndependiente](assets/GanaderoIndependienteJourneyMap.png)
 
@@ -671,6 +672,12 @@ Finalmente, se realizó un análisis que permitió definir los valores y habilid
 ![JourneyMapEmpresaGanadera](assets/EmpresaGanaderaJourneyMap.png)
 
 #### 2.3.4. Empathy Mapping
+
+**Empathy Map for Ganadero Indepeniente**
+![EmpathyMapGanaderoIndependiente](assets/EmpathyMapGanaderoIndependiente.png)
+
+**Empathy Map for Empresa Ganadera**
+![EmpathyMapEmpresaGanadera](assets/EmpathyMapEmpresaGanadera.png)
 
 #### 2.3.5. As-is Scenario Mapping
 
