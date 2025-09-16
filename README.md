@@ -1136,7 +1136,74 @@ Este flujo está diseñado para facilitar al agregar ya sea un bovino, una campa
 
 #### 4.6.3. Web Applications Mock-ups
 
+**Inicio Sesion**
+
+<img src="./assets/M_signin.png" style="width: 400px">
+
+**Registro**
+
+<img src="./assets/M_signup.png" style="width: 400px">
+
+
+**Planes**
+
+<img src="./assets/M_planes.png" style="width: 400px">
+
+**Home**
+
+<img src="./assets/M_home.png" style="width: 400px">
+<img src="./assets/M_home2.png" style="width: 400px">
+<img src="./assets/M_home3.png" style="width: 400px">
+
+**Animals**
+
+<img src="./assets/M_animals.png" style="width: 400px">
+
+<img src="./assets/M_animalsinf.png" style="width: 400px">
+
+
+
+**Inventario**
+
+<img src="./assets/M_inv.png" style="width: 400px">
+
+<img src="./assets/M_invinf.png" style="width: 400px">
+
+**Campaña**
+
+<img src="./assets/M_organization.png" style="width: 400px">
+
+
+**vista de "Agregar Animal"**
+
+<img src="./assets/M_add_animal.png" style="width: 400px">
+
+
+**vista de "Agregar Inventario"**
+
+<img src="./assets/M_add_product.png" style="width: 400px">
+
+
+**vista de "Agregar Campaña"**
+
+<img src="./assets/M_add_camp.png" style="width: 400px"
+
 #### 4.6.4. Web Applications User Flow Diagrams
+
+**User Goal: Iniciar sesión y Registrarse:** 
+Este flujo guía al usuario desde la pantalla de bienvenida hacia las opciones de autenticación. 
+
+<img src="./assets/1u_web.png" style="width: 400px">
+
+**User Goal: Home y navegar por las secciones "Animals","Campaigns" e "Inventory"**
+Una vez autenticado, el usuario accede al home con accesos rápidos con el sidebar. Este wireflow muestra cómo el usuario puede visualizar las opciones "Animals", "CAmpaings e "inventory"
+
+<img src="./assets/2u_web.png" style="width: 400px">
+
+**User Goal: Registro de un nuevo dato ya sea "Animals","Campaigns" o "Inventory":** 
+Este flujo está diseñado para facilitar al agregar ya sea un bovino, una campaña o un producto de inventario.
+
+<img src="./assets/3u_web.png" style="width: 400px">
 
 ### 4.7. Web Applications Prototyping
 
