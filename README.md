@@ -681,6 +681,8 @@ Finalmente, se realizó un análisis que permitió definir los valores y habilid
 
 #### 2.3.5. As-is Scenario Mapping
 
+![AsIsScenarioMap](assets/AsIsScenarioMapping.jpg)
+
 ### 2.4. Ubiquitous Language
 
 ---
