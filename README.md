@@ -1141,15 +1141,225 @@ Con esta estructura de la base datos que se basa en el modelo DDD de la arquitec
 
 #### 5.1.1. Software Development Environment Configuration
 
+- **Android Studio:** Entorno de desarrollo.\
+  ![image](https://upload.wikimedia.org/wikipedia/commons/c/c1/Android_Studio_icon_%282023%29.svg)
+- **GitHub:** Repositorio colaborativo en la nube.\
+  ![image](https://cdn-1.webcatalog.io/catalog/github/github-icon-filled-256.png?v=1744774208192)
+- **Netifly:** Plataforma que facilita implementar despliegues sencillos para nuestras páginas web.\
+  ![image](https://cmscritic.com/ms-content/uploads/2023/11/netlifty-icon.png?format=auto&width=256)
+- **Vertabelo:** Plataforma colaborativa para la creación de diagramas de base de datos.\
+  ![image](https://hackmd.io/_uploads/r1BjjyQgC.png)
+- **Visual Studio Code:** Entorno de desarrollo para diseño de base de datos.\
+  ![image](https://hackmd.io/_uploads/Hy8d2y7lR.png)
+- **Figma:** Herramienta colaborativa que permite elaborar wireframes y mockups.\
+  ![image](https://hackmd.io/_uploads/BJ99okXeR.png)
+- **Azure:** Herramienta para subir nuestros servicios web en la nube.\
+  [![Azure.jpg](https://i.postimg.cc/Mpjc355p/Azure.jpg)](https://postimg.cc/k2qXBxL0)
+
 #### 5.1.2. Source Code Management
+
+**Repositorio de la Landing Page:**
+**Implementación de GitFlow:**
+Para nuestra estrategia de gestión de versiones con Git, nos hemos inspirado en el artículo "A successful Git branching model" de Vincent Driessen, adoptando el modelo de ramificación GitFlow. Este enfoque nos permite establecer claramente las convenciones de ramificación que aplicamos en nuestro proyecto.
+![image](https://hackmd.io/_uploads/rJt95BobA.png)
+
+- **Rama Principal (Main branch):** Contiene el código en producción y se conoce como la Master branch o Main branch.
+  - Notación: main
+- **Rama de Desarrollo (Develop branch):** Acumula las últimas actualizaciones y cambios para la próxima versión. Funciona como un entorno de integración y prueba continua.
+  - Notación: develop
+- **Rama de Lanzamiento (Release branch):** Facilita la preparación de una nueva versión del producto, permitiendo correcciones de errores y recibiendo más actualizaciones de Develop.
+  - Debe derivarse de: develop
+  - Debe fusionarse con: develop y master/main
+  - Notación: release
+- **Rama de Características (Feature branch):** Se utiliza para desarrollar nuevas funcionalidades para la siguiente versión o futuras iteraciones.
+  - Debe derivarse de: develop
+  - Debe fusionarse de vuelta a: develop
+  - Notación: feature
+- **Rama de Corrección Rápida (Hotfix branch):** Aborda errores críticos en producción, permitiendo la implementación rápida de soluciones.
+  - Debe derivarse de: master/main
+  - Debe fusionarse con: develop y master/main
+  - Notación: hotfix
+
+**Conventional Commits:**
+Adoptamos esta metodología para estructurar los mensajes de confirmación de cambios de manera estándar y semántica, lo que facilita la comunicación y la automatización de registros de cambios.
+**Tipos de Commits Convencionales:**
+
+- feat: Nuevas características o funcionalidades.
+- fix: Correcciones de errores.
+- docs: Cambios o mejoras en la documentación.
+- style: Cambios de formato que no afectan la funcionalidad.
+- refactor: Mejoras en la estructura o legibilidad del código.
+- test: Adición o modificación de pruebas.
+- chore: Cambios en el proceso de construcción o tareas de mantenimiento.
+- perf: Mejoras de rendimiento en el código.
 
 #### 5.1.3. Source Code Style Guide & Conventions
 
+### HTML
+
+| Regla                                    | Ejemplo / Explicación                                        |
+| ---------------------------------------- | ------------------------------------------------------------ |
+| Etiquetas y atributos en minúsculas      | `<div class="container">`, `<img src="logo.png" alt="Logo">` |
+| Atributos ordenados lógicamente          | `class`, `id`, `name`, `type`, `value`, etc.                 |
+| Uso de comillas dobles                   | `<input type="text" name="username">`                        |
+| Indentación consistente (2 o 4 espacios) | No mezclar espacios con tabs                                 |
+
+---
+
+### CSS
+
+| Regla                                 | Ejemplo / Explicación                             |
+| ------------------------------------- | ------------------------------------------------- |
+| Nombres de clases en `kebab-case`     | `.main-header`, `.user-profile-card`              |
+| Propiedades en minúsculas y ordenadas | `color: #333; font-size: 16px; margin-top: 20px;` |
+| Uso de comentarios                    | `/* Sección de estilos para el header */`         |
+| Indentación consistente               | 2 o 4 espacios, no usar tabs                      |
+
+---
+
+### JavaScript
+
+| Regla                                    | Ejemplo / Explicación                                                     |
+| ---------------------------------------- | ------------------------------------------------------------------------- |
+| Variables y funciones en `camelCase`     | `let userName = "Juan";`, `function getUserData() {}`                     |
+| Clases en `PascalCase`                   | `class UserProfile {}`                                                    |
+| Constantes en `UPPER_SNAKE_CASE`         | `const API_URL = "https://api.example.com";`                              |
+| Uso de `const` y `let`                   | Evitar `var`, usar `const` por defecto y `let` si se necesita mutabilidad |
+| Punto y coma al final de líneas          | `let nombre = "Carlos";`                                                  |
+| Indentación consistente (2 o 4 espacios) | Mantener el mismo estilo en todo el proyecto                              |
+
+---
+
+### Kotlin
+
+| Regla                                      | Ejemplo / Explicación                           |
+| ------------------------------------------ | ----------------------------------------------- |
+| Variables y funciones en `camelCase`       | `val userName = "Juan"`, `fun getUserData() {}` |
+| Clases y objetos en `PascalCase`           | `class UserProfile`, `object AppConfig`         |
+| Constantes en `UPPER_SNAKE_CASE`           | `const val MAX_USERS = 100`                     |
+| Archivos nombrados igual que la clase      | `UserProfile.kt`                                |
+| Indentación con 4 espacios                 | No usar tabs                                    |
+| Uso de `val` por defecto, `var` si mutable | Promueve inmutabilidad                          |
+| Expresiones lambda con `it`                | `users.filter { it.isActive }`                  |
+
 #### 5.1.4. Software Deployment Configuration
+
+**Deployment Landing Page:**
+En esta sección, detallamos el proceso de implementación de nuestra landing page en la plataforma de GitHub.
+
+1. Se crea un repositorio en GitHub para alojar el código de nuestra landing page.
+
+![image](https://i.imgur.com/rEVqKl6.png)
+
+2. Agregamos a los participantes:
+
+![image](https://i.imgur.com/zelKt9F.png)
+
+3. Habilitamos Netlifly para poder importar nuestro proyecto:
+
+![image](https://i.imgur.com/Xf4X2G2.jpeg)
+
+4. Finalmente, se confirma el despliegue de nuestra página web después de completar todo el procedimiento.
+
+![image](https://i.imgur.com/P4EipKO.png)
+
+Este proceso garantiza el despliegue satisfactorio de nuestra landing page en la plataforma de Netlifly, siguiendo las especificaciones y requisitos de nuestro proyecto.
+**Enlace de la Landing Page: https://vacapp-landing.netlify.app/**
+<br>
+**About the product: https://www.youtube.com/watch?v=JmOW2IkXjeI**
+<br>
+
+**Deployment Frontend:**
+En esta seccion, detallamos el proceso del deploy del Frontend-web en la plataforma de Netify.
+
+1.
+
+2.
+
+3.
+
+**Enlace del Frontend: https://vacappapi.azurewebsites.net/swagger/index.html**
+
+**Deployment Backend:**
+En esta sección, detallamos el proceso de implementación de nuestro backend en la plataforma de Microsoft Azure.
+
+1. Se crea un servicio web alojado en azure y afiliado a un grupo de recursos determinado
+
+[![azure-app-service.jpg](https://i.postimg.cc/NMPBcqfq/azure-app-service.jpg)](https://postimg.cc/WFrQGykX)
+
+2. Con la herramienta Azure Tool Kit, un plugin disponible en los entornos de desarrollo de jetbrains, podemos habilitar una vista con los recursos y elementos creados en nuestra cuenta de Azure. Esto nos permite poder publicar el backend directamente al servicio en la nube de Azure.
+
+[![publicar-al-app-service.jpg](https://i.postimg.cc/SQMxhR8g/publicar-al-app-service.jpg)](https://postimg.cc/CdwgCFc8)
+
+3. Una vez realizado de manera satisfactoria este proceso, resolviendo errores y añadiendo configuraciones adicionales de ser requeridas, podremos confirmar que el enlace muestre correctamente los endpoints y observaremos nuestro backend desplegado en un browser predeterminado.
+
+[![swagger-deployed.png](https://i.postimg.cc/Sxs0m13m/swagger-deployed.png)](https://postimg.cc/SJw1rdmP)
+
+**Enlace del backend: https://vacappapi.azurewebsites.net/swagger/index.html**
 
 ### 5.2. Product Implementation & Deployment
 
 #### 5.2.1. Sprint Backlogs
+
+---
+
+##### Sprint 1
+
+| User Story Id | User Story Title                       | Task Id | Task Title                                         | Estimation | Assigned To                        | Status |
+| ------------- | -------------------------------------- | ------- | -------------------------------------------------- | ---------- | ---------------------------------- | ------ |
+| TS015         | Acceso a la sección de Home            | T01     | Implementar acceso a la sección de Home            | 2          | Ticona Panduro, Estrella del Pilar | Done   |
+| TS016         | Acceso a la sección de Características | T02     | Implementar acceso a la sección de Características | 1          | Durand Vera, Gianfranco Angel      | Done   |
+| TS017         | Registro de Nuevos Usuarios            | T03     | Implementar registro de nuevos usuarios            | 3          | Ticona Panduro, Estrella del Pilar | Done   |
+| TS018         | Información de Funcionalidades         | T04     | Implementar sección de funcionalidades             | 2          | Durand Vera, Gianfranco Angel      | Done   |
+| TS019         | Sector de Planes Disponibles           | T05     | Implementar sector de planes disponibles           | 3          | Durand Vera, Gianfranco Angel      | Done   |
+| TS020         | Incluir Internacionalización (i18n)    | T06     | Implementar el cambio de idioma                    | 2          | Ticona Panduro, Estrella del Pilar | Done   |
+| TS001         | Crear Vacuna vía API                   | T07     | Implementar POST para vacunas                      | 2          | Aranda Vallejos, Oscar Gabriel     | Done   |
+| TS002         | API para Búsqueda de Vacunas           | T08     | Implementar GET para vacunas                       | 2          | Aranda Vallejos, Oscar Gabriel     | Done   |
+| TS003         | API para Gestión de vacunas            | T09     | Implementar PUT y DELETE para vacunas              | 3          | Aranda Vallejos, Oscar Gabriel     | Done   |
+| TS004         | API para Registro de animales          | T10     | Implementar POST para animales                     | 2          | Aranda Vallejos, Oscar Gabriel     | Done   |
+| TS005         | API para Búsqueda de animales          | T11     | Implementar GET para animales                      | 2          | Aranda Vallejos, Oscar Gabriel     | Done   |
+| TS006         | API para Gestión de animales           | T12     | Implementar PUT y DELETE para animales             | 2          | Aranda Vallejos, Oscar Gabriel     | Done   |
+| TS007         | API para Creación de campaña           | T13     | Implementar POST para campaña                      | 2          | Miranda Sinarahua, Piero Stephano  | Done   |
+| TS009         | API para Gestión de campaña            | T14     | Implementar PUT y DELETE para campaña              | 2          | Miranda Sinarahua, Piero Stephano  | Done   |
+| TS012         | API para Registro de empleados         | T15     | Implementar POST para empleados                    | 2          | Aranda Vallejos, Oscar Gabriel     | Done   |
+
+---
+
+##### Sprint 2
+
+| User Story Id | User Story Title                | Task Id | Task Title                                                                                    | Estimation | Assigned To                        | Status |
+| ------------- | ------------------------------- | ------- | --------------------------------------------------------------------------------------------- | ---------- | ---------------------------------- | ------ |
+| TS001         | Crear Vacuna vía API            | T01     | Implementar exponer un endpoint para registrar una vacuna vía API                             | 2          | Ticona Panduro, Estrella del Pilar | Done   |
+| TS002         | API para Búsqueda de Vacunas    | T02     | Implementación de un endpoint para buscar vacunas mediante criterios específicos              | 1          | Durand Vera, Gianfranco Angel      | Done   |
+| US002         | Búsqueda de Vacunas             | T03     | Implementar búsqueda de vacunas previamente registradas                                       | 3          | Ticona Panduro, Estrella del Pilar | Done   |
+| TS003         | API para Gestión de Vacunas     | T04     | Implementar endpoint para editar y eliminar registros de vacunas                              | 2          | Durand Vera, Gianfranco Angel      | Done   |
+| TS004         | API para Registro de Animales   | T05     | Implementar endpoint para registrar un bovino en un lote específico                           | 3          | Durand Vera, Gianfranco Angel      | Done   |
+| US003         | Gestión de Registros de Vacunas | T06     | Implementar editar o eliminar el registro de una vacuna                                       | 2          | Ticona Panduro, Estrella del Pilar | Done   |
+| TS005         | API para Búsqueda de Animales   | T07     | Implementar un endpoint que permita buscar animales registrados usando parámetros de búsqueda | 2          | Aranda Vallejos, Oscar Gabriel     | Done   |
+| TS006         | API para Gestión de Animales    | T08     | Implementar funcionalidades para editar y eliminar animales registrados                       | 2          | Aranda Vallejos, Oscar Gabriel     | Done   |
+| US004         | Registro de Bovino en Lote      | T09     | Implementar un registro de un bovino en un lote específico                                    | 3          | Aranda Vallejos, Oscar Gabriel     | Done   |
+| TS007         | API para Creación de Campaña    | T10     | Implementar un endpoint que permita la creación de campañas                                   | 2          | Gómez Vallejos, Sergio André       | Done   |
+
+---
+
+##### Sprint 3
+
+| User Story Id | User Story Title                 | Task Id | Task Title                                                            | Estimation | Assigned To                        | Status |
+| ------------- | -------------------------------- | ------- | --------------------------------------------------------------------- | ---------- | ---------------------------------- | ------ |
+| US01          | Agregar vacuna al registro       | T01     | Implementar la opción de registro de vacuna                           | 2          | Rojas Velasquez, Maycol Jhordan    | Done   |
+| US03          | Gestión de registro de vacunas   | T02     | Implementación de la administración del registro de vacunas en el app | 2          | Rojas Velasquez, Maycol Jhordan    | Done   |
+| US04          | Registro de bovino en Lote       | T03     | Implementación de registro de bovinos dentro de un Lote               | 2          | Rojas Velasquez, Maycol Jhordan    | Done   |
+| US05          | Información de bovino            | T04     | Implementación de la opción de visualizar información de bovino       | 2          | Durand Vera, Gianfranco Angel      | Done   |
+| US06          | Actualiza información de bovinos | T05     | Implementación de la opción de actualizar datos de bovino             | 2          | Durand Vera, Gianfranco Angel      | Done   |
+| US08          | Asocia Empleado a campaña        | T06     | Implementación de la opción de asociar empleado a una campaña         | 2          | Rojas Velasquez, Maycol Jhordan    | Done   |
+| TS09          | API para Gestión de Campañas     | T07     | Implementación de API para gestión de campañas                        | 2          | Miranda Sinarahua, Piero Stephano  | Done   |
+| US10          | Registro de Personal             | T08     | Implementación de opción para registrar personal                      | 2          | Ticona Panduro, Estrella del Pilar | Done   |
+| TS06          | API gestión de animales          | T09     | Implementación de API para gestión de animales                        | 2          | Aranda Vallejos, Oscar Gabriel     | Done   |
+| US12          | Gestión de Personal              | T10     | Implementación de opción para administrar el personal                 | 2          | Aranda Vallejos, Oscar Gabriel     | Done   |
+| TS11          | API búsqueda empleados           | T11     | Implementación del API para búsqueda de personal                      | 2          | Aranda Vallejos, Oscar Gabriel     | Done   |
+| US15          | Explorar Landing Page            | T12     | Implementación secciones restantes para explorar Landing Page         | 2          | Gómez Vallejos, Sergio André       | Done   |
+
+---
 
 #### 5.2.2. Implemented Landing Page Evidence
 
@@ -1158,6 +1368,38 @@ Con esta estructura de la base datos que se basa en el modelo DDD de la arquitec
 #### 5.2.4. Implemented Native-Mobile Application Evidence
 
 #### 5.2.5. Implemented RESTful API and/or Serverless Backend Evidence
+
+#### Backend
+
+[![Captura-de-pantalla-2025-05-15-220233.png](https://i.postimg.cc/TYbtbpHL/Captura-de-pantalla-2025-05-15-220233.png)](https://postimg.cc/9rWP5F2C)
+
+#### Endpoint para registro e inicio de sesión
+
+![Captura-de-pantalla-2025-05-15-220547.png](https://i.imgur.com/5FeNN4y.png)
+
+#### Endpoint de establos
+
+[![Captura-de-pantalla-2025-05-15-220547.png](https://i.postimg.cc/bN0Q8bBT/Captura-de-pantalla-2025-05-15-220547.png)](https://postimg.cc/PPxLQLhp)
+
+#### Endpoint de bovinos
+
+[![Captura-de-pantalla-2025-05-15-220136.png](https://i.postimg.cc/W3tdRPcg/Captura-de-pantalla-2025-05-15-220136.png)](https://postimg.cc/jw0xNm5S)
+
+#### Endpoint de vacunas
+
+[![Captura-de-pantalla-2025-05-15-220740.png](https://i.postimg.cc/mZYcF4yZ/Captura-de-pantalla-2025-05-15-220740.png)](https://postimg.cc/MXGZhhLg)
+
+#### Endpoint de campañas
+
+[![Captura-de-pantalla-2025-05-15-220445.png](https://i.postimg.cc/9fQPLM1B/Captura-de-pantalla-2025-05-15-220445.png)](https://postimg.cc/4YjhdXDK)
+
+#### Endpoint de google auth
+
+[![Captura-de-pantalla-2025-06-20-024900.png](https://i.postimg.cc/L5wMCdCk/Captura-de-pantalla-2025-06-20-024900.png)](https://postimg.cc/Lgt75WMh)
+
+#### Endpoint de microsoft auth
+
+[![Captura-de-pantalla-2025-06-20-024943.png](https://i.postimg.cc/YCqCvkc0/Captura-de-pantalla-2025-06-20-024943.png)](https://postimg.cc/GHVCfWmn)
 
 #### 5.2.6. RESTful API documentation
 
