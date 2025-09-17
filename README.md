@@ -1219,11 +1219,148 @@ En futuras iteraciones se contempla la generación de un prototipo directamente 
 
 #### 4.6.1. Web Applications Wireframes
 
+**Inicio Sesion**
+
+<img src="./assets/W_signin.png" style="width: 400px">
+
+**Registro**
+
+<img src="./assets/W_signup.png" style="width: 400px">
+
+
+**Planes**
+
+<img src="./assets/W_planes.png" style="width: 400px">
+
+**Home**
+
+<img src="./assets/W_home.png" style="width: 400px">
+
+<img src="./assets/W_home2.png" style="width: 400px">
+
+<img src="./assets/W_home3.png" style="width: 400px">
+
+**Animals**
+
+<img src="./assets/W_animals.png" style="width: 400px">
+
+<img src="./assets/W_animalsinfo.png" style="width: 400px">
+
+
+
+**Inventario**
+
+<img src="./assets/W_inv.png" style="width: 400px">
+
+<img src="./assets/W_invinf.png" style="width: 400px">
+
+**Campaña**
+
+<img src="./assets/W_organization.png" style="width: 400px">
+
+
+**vista de "Agregar Animal"**
+
+<img src="./assets/W_add_animal.png" style="width: 400px">
+
+
+**vista de "Agregar Inventario"**
+
+<img src="./assets/W_add_product.png" style="width: 400px">
+
+**vista de "Agregar Campaña"**
+
+<img src="./assets/W_add_camp.png" style="width: 400px">
+
 #### 4.6.2. Web Applications Wireflow Diagrams
+
+**User Goal: Iniciar sesión y Registrarse:** 
+Este flujo guía al usuario desde la pantalla de bienvenida hacia las opciones de autenticación. 
+
+<img src="./assets/1w_web.png" style="width: 400px">
+
+**User Goal: Home y navegar por las secciones "Animals","Campaigns" e "Inventory"**
+
+Una vez autenticado, el usuario accede al home con accesos rápidos con el sidebar. Este wireflow muestra cómo el usuario puede visualizar las opciones "Animals", "CAmpaings e "inventory"
+
+<img src="./assets/2w_web.png" style="width: 400px">
+
+**User Goal: Registro de un nuevo dato ya sea "Animals","Campaigns" o "Inventory":** 
+
+Este flujo está diseñado para facilitar al agregar ya sea un bovino, una campaña o un producto de inventario.
+
+<img src="./assets/3w_web.png" style="width: 400px">
 
 #### 4.6.3. Web Applications Mock-ups
 
+**Inicio Sesion**
+
+<img src="./assets/M_signin.png" style="width: 400px">
+
+**Registro**
+
+<img src="./assets/M_signup.png" style="width: 400px">
+
+
+**Planes**
+
+<img src="./assets/M_planes.png" style="width: 400px">
+
+**Home**
+
+<img src="./assets/M_home.png" style="width: 400px">
+<img src="./assets/M_home2.png" style="width: 400px">
+<img src="./assets/M_home3.png" style="width: 400px">
+
+**Animals**
+
+<img src="./assets/M_animals.png" style="width: 400px">
+
+<img src="./assets/M_animalsinf.png" style="width: 400px">
+
+
+
+**Inventario**
+
+<img src="./assets/M_inv.png" style="width: 400px">
+
+<img src="./assets/M_invinf.png" style="width: 400px">
+
+**Campaña**
+
+<img src="./assets/M_organization.png" style="width: 400px">
+
+
+**vista de "Agregar Animal"**
+
+<img src="./assets/M_add_animal.png" style="width: 400px">
+
+
+**vista de "Agregar Inventario"**
+
+<img src="./assets/M_add_product.png" style="width: 400px">
+
+
+**vista de "Agregar Campaña"**
+
+<img src="./assets/M_add_camp.png" style="width: 400px"
+
 #### 4.6.4. Web Applications User Flow Diagrams
+
+**User Goal: Iniciar sesión y Registrarse:** 
+Este flujo guía al usuario desde la pantalla de bienvenida hacia las opciones de autenticación. 
+
+<img src="./assets/1u_web.png" style="width: 400px">
+
+**User Goal: Home y navegar por las secciones "Animals","Campaigns" e "Inventory"**
+Una vez autenticado, el usuario accede al home con accesos rápidos con el sidebar. Este wireflow muestra cómo el usuario puede visualizar las opciones "Animals", "CAmpaings e "inventory"
+
+<img src="./assets/2u_web.png" style="width: 400px">
+
+**User Goal: Registro de un nuevo dato ya sea "Animals","Campaigns" o "Inventory":** 
+Este flujo está diseñado para facilitar al agregar ya sea un bovino, una campaña o un producto de inventario.
+
+<img src="./assets/3u_web.png" style="width: 400px">
 
 ### 4.7. Web Applications Prototyping
 
@@ -1277,7 +1414,44 @@ Este nivel de detalle muestra cómo los componentes colaboran entre sí dentro d
 
 #### 4.9.1. Class Diagrams
 
+Este diagrama de clases detalla los elementos del Domain Layer para Campaign Management, modelando entidades, agregados, objetos de valor y sus relaciones. A través de esta representación, se puede visualizar cómo se estructuran los conceptos principales del dominio y qué responsabilidades tiene cada clase dentro del modelo de negocio. Es esencial para alinear el diseño técnico con la lógica del dominio.
+
+![Campaign Management Layer Class Diagram](./assets/DiagramaClasesCampaign.png)
+
+Incluye entidades como Bovino, Vacuna y Establo, sus atributos, relaciones y métodos, permitiendo visualizar cómo se estructura la lógica de negocio y se representan los objetos reales del sistema productivo. Este diagrama fortalece la alineación entre la realidad ganadera y su implementación en software.
+
+![ClassDiagram](assets/DiagramaClasesRanch.JPG)
+
+Incluye entidades como StaffMember, objetos de valor como EmployeeStatus y servicios de dominio encargados de las reglas críticas. Este diagrama ayuda a comprender la estructura del dominio y cómo se articulan sus elementos para cumplir los objetivos del sistema.
+
+<img src="./assets/DiagramaClasesStaff.png">  
+
+
 #### 4.9.2. Class Dictionary
+
+|**Nombre**|**Descripción**|
+| :- | :- |
+|ID|Identificador único de registro usado como clave primaria|
+|Name|Nombre del animal|
+|Birthday|Fecha de nacimiento del animal|
+|Birth\_place|Lugar de Nacimiento del animal|
+|Gender|Genero del animal|
+|Breed|Raza del animal|
+|Location|Lugar donde se ubica el animal|
+|Parent\_ID|Identificar de registro de la madre del animal|
+|Expire_date|Fecha de expiracion de la identificacion del bovino|
+|Animal_ID|Identificar de registro de la madre del animal|
+
+|**Nombre**|**Descripción**|
+| :- | :- |
+|id|Identificador único del registro, generalmente una clave primaria.|
+|first\_name|Primer nombre del usuario.|
+|last\_name|Apellido del usuario.|
+|job\_status|Estado del empleado.|
+|job\_description|Descripción del puesto a cargo del empleado|
+|dni|DNI del empleado|
+|email\_address|Dirección de correo electrónico del usuario.|
+
 
 ### 4.10. Database Design
 
