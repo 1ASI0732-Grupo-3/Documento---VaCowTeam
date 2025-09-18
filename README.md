@@ -1,12 +1,3 @@
-<p align="center">
-  <img src="assets/upc_logo.png" alt="Logo de la UPC" />
-</p>
-<p align="center">
-  <strong>UNIVERSIDAD PERUANA DE CIENCIAS APLICADAS</strong><br>
-  <strong>FACULTAD DE INGENIERÍA</strong><br>
-  <strong>PROGRAMA ACADÉMICO DE INGENIERÍA DE SOFTWARE</strong><br>
-  <strong>11ASI0732-2520-7491 - DISEÑO DE EXPERIMENTOS DE INGENIERÍA DE SOFTWARE</strong>
-</p>
 
 <p align="center">
   <span style="font-size: 2em;"><em><strong>VacApp</strong></em></span><br>
@@ -1828,3 +1819,4 @@ El video se encuentra disponible en el siguiente enlace:
 ## Final
 
 ### Avance de Conclusiones, Bibliografía y Anexos (links)
+
