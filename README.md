@@ -28,13 +28,12 @@
 <div align="center">
 
 | **Member**               | **Code**   |
-|--------------------------|------------|
+| ------------------------ | ---------- |
 | Saldana,Rodrigo Liberato | U202215623 |
 | Macavilca Quispe, Ian    | U202121325 |
 | Rojas Velasquez, Maycol  | U202219984 |
 | Espinoza Cueva, Stephano | U202218590 |
 | Paucar Meneses, Jeremy   | U201919449 |
-
 
 </div>
 
@@ -42,12 +41,11 @@
 
 # Registro de Versiones del Informe
 
-### Registro de Versiones  
+### Registro de Versiones
 
-| **Versión** | **Fecha**  | **Autor** | **Descripción de modificación** |
-|-------------|------------|-----------|---------------------------------|
-| **TB1**     | 20/04/25   | Saldana, Rodrigo Liberato (U202215623), Macavilca Quispe, Ian (U202121325), Rojas Velasquez, Maycol (U202219984), Espinoza Cueva, Stephano (U202218590), Paucar Meneses, Jeremy (U201919449) | Capítulo I: Introducción, Capítulo II: Requirements Elicitation & Analysis, Capítulo III: Requirements Specification, Capítulo IV: Product Design y Capítulo V: Product Implementation, Validation & Deployment |
-
+| **Versión** | **Fecha** | **Autor**                                                                                                                                                                                    | **Descripción de modificación**                                                                                                                                                                                 |
+| ----------- | --------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **TB1**     | 20/04/25  | Saldana, Rodrigo Liberato (U202215623), Macavilca Quispe, Ian (U202121325), Rojas Velasquez, Maycol (U202219984), Espinoza Cueva, Stephano (U202218590), Paucar Meneses, Jeremy (U201919449) | Capítulo I: Introducción, Capítulo II: Requirements Elicitation & Analysis, Capítulo III: Requirements Specification, Capítulo IV: Product Design y Capítulo V: Product Implementation, Validation & Deployment |
 
 # Project Report Collaboration Insights
 
@@ -68,10 +66,10 @@
 
 #### 3. Capturas de Imagen de los Analíticos de Colaboración y Commits en GitHub
 
-| Métrica                     | Descripción |
-| --------------------------- | ----------- |
-| Número de commits por autor |![Pruebas1](/assets/insights.png)|
-| Historial de cambios        |![Pruebas1](/assets/networkgraph.png)|
+| Métrica                     | Descripción                           |
+| --------------------------- | ------------------------------------- |
+| Número de commits por autor | ![Pruebas1](/assets/insights.png)     |
+| Historial de cambios        | ![Pruebas1](/assets/networkgraph.png) |
 
 #### 4. Participación de Todos los Miembros del Equipo
 
@@ -85,10 +83,10 @@
 
 ## Capítulo I: Introducción
 
-
 # Tabla de Contenidos
 
 ## Capítulo I: Introducción
+
 - [1.1. Start-up Profile](#11-start-up-profile)
   - [1.1.1. Descripción de la Startup](#111-descripción-de-la-startup)
   - [1.1.2. Perfiles de Integrantes del Equipo](#112-perfiles-de-integrantes-del-equipo)
@@ -113,6 +111,7 @@
   - [2.2.2. Registro de Entrevistas](#222-registro-de-entrevistas)
   - [2.2.3. Análisis de Entrevistas](#223-análisis-de-entrevistas)
 - [2.3. Needfinding](#23-needfinding)
+
   - [2.3.1. User Personas](#231-user-personas)
   - [2.3.2. User Task Matrix](#232-user-task-matrix)
   - [2.3.3. User Journey Mapping](#233-user-journey-mapping)
@@ -207,10 +206,10 @@ situaciones de ingeniería y hacer juicios informados, que deben considerar el
 impacto de las soluciones de ingeniería en contextos globales, económicos,
 ambientales y sociales.
 
-| **Criterio específico**                                                                                                                                      | **Acciones realizadas**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            | **Conclusiones** |
-| ------------------------------------------------------------------------------------------------------------------------------------------------------------ |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------| ---------------- |
-| 4.c.1 Reconoce responsabilidad ética y profesional en situaciones de ingeniería de software                                                                  | <br><br> 1. Rojas Velasquez, Maycol Jhordan<br>_TB1:_<br> Apliqué buenas prácticas en la elaboración de la documentación técnica, asegurando transparencia en los procesos y citando correctamente las fuentes de información utilizadas. <br><br> 1. Espinoza Cueva, Stephano Jose<br>TB1:<br> Me involucré de lleno en definir qué era más urgente y en cómo íbamos a entregar el producto, participando en la priorización de requisitos y la planificación de entregables. Mi enfoque principal fue garantizar que todas las decisiones se basaran en lo que los usuarios realmente necesitaban, evitando modas o suposiciones sin fundamento. Fui responsable de considerar el impacto que cada elección tendría en el resultado final y en la experiencia del usuario (FrontEnd), actuando siempre bajo una perspectiva ética y profesional. |Se reconoce la importancia de actuar con responsabilidad profesional al elaborar entregables que reflejen veracidad, claridad y compromiso ético en el desarrollo de software. |
-| 4.c.2 Emite juicios informados considerando el impacto de las soluciones de ingeniería de software en contextos globales, económicos, ambientales y sociales | <br><br> 1. Rojas Velasquez, Maycol Jhordan<br>_TB1:_<br> Analicé cómo la solución propuesta (VacApp) impacta en la eficiencia de la ganadería, promoviendo prácticas sostenibles que favorecen al sector económico y respetan el medio ambiente. <br><br> 1. Espinoza Cueva, Stephano Jose<br>TB1:<br> Al diseñar las propuestas, siempre mantuve una visión global, pensando en cómo nuestro producto afectaría a distintos usuarios y escenarios. Esto implicó analizar el impacto en diversos contextos y ajustar las decisiones para evitar dejar a alguien fuera. Gracias a esta postura, logramos tomar decisiones más sensatas, asegurando que nuestro trabajo no solo fuera funcional, sino también útil socialmente y sostenible económicamente para el público al que queríamos llegar.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |Se concluye que emitir juicios informados permite valorar no solo el aspecto técnico, sino también las repercusiones sociales, económicas y ambientales de las soluciones planteadas.|
+| **Criterio específico**                                                                                                                                      | **Acciones realizadas**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      | **Conclusiones**                                                                                                                                                                      |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 4.c.1 Reconoce responsabilidad ética y profesional en situaciones de ingeniería de software                                                                  | <br><br> 1. Rojas Velasquez, Maycol Jhordan<br>_TB1:_<br> Apliqué buenas prácticas en la elaboración de la documentación técnica, asegurando transparencia en los procesos y citando correctamente las fuentes de información utilizadas. <br><br> 1. Espinoza Cueva, Stephano Jose<br>TB1:<br> Me involucré de lleno en definir qué era más urgente y en cómo íbamos a entregar el producto, participando en la priorización de requisitos y la planificación de entregables. Mi enfoque principal fue garantizar que todas las decisiones se basaran en lo que los usuarios realmente necesitaban, evitando modas o suposiciones sin fundamento. Fui responsable de considerar el impacto que cada elección tendría en el resultado final y en la experiencia del usuario (FrontEnd), actuando siempre bajo una perspectiva ética y profesional. <br><br> 3. Rodrigo Liberato<br>_TB1:_<br> Elaboré documentación clara sobre las historias de usuario y realicé la configuración del entorno de desarrollo y despliegue del producto, garantizando orden y transparencia en los procesos. | Se reconoce la importancia de actuar con responsabilidad profesional al elaborar entregables que reflejen veracidad, claridad y compromiso ético en el desarrollo de software.        |
+| 4.c.2 Emite juicios informados considerando el impacto de las soluciones de ingeniería de software en contextos globales, económicos, ambientales y sociales | <br><br> 1. Rojas Velasquez, Maycol Jhordan<br>_TB1:_<br> Analicé cómo la solución propuesta (VacApp) impacta en la eficiencia de la ganadería, promoviendo prácticas sostenibles que favorecen al sector económico y respetan el medio ambiente. <br><br> 1. Espinoza Cueva, Stephano Jose<br>TB1:<br> Al diseñar las propuestas, siempre mantuve una visión global, pensando en cómo nuestro producto afectaría a distintos usuarios y escenarios. Esto implicó analizar el impacto en diversos contextos y ajustar las decisiones para evitar dejar a alguien fuera. Gracias a esta postura, logramos tomar decisiones más sensatas, asegurando que nuestro trabajo no solo fuera funcional, sino también útil socialmente y sostenible económicamente para el público al que queríamos llegar. <br><br> 2. Rodrigo Liberato<br>_TB1:_<br> Documenté las funcionalidades del producto y configuré su despliegue, valorando cómo estas acciones facilitan el trabajo en equipo y la eficiencia operativa, con impacto positivo en la organización y su entorno.                            | Se concluye que emitir juicios informados permite valorar no solo el aspecto técnico, sino también las repercusiones sociales, económicas y ambientales de las soluciones planteadas. |
 
 ## Capítulo I: Introducción
 
@@ -228,13 +227,13 @@ Con VacApp, los ganaderos pueden optimizar sus operaciones y aumentar sus gananc
 
 <div align="center">
 
-| **Integrante**                                                                                                                                                                                                                                                                       | **Conocimientos técnicos / Habilidades** |
-|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------|
-| **Ian Macavilca Quispe** <br> U202121325 <br> <img src="https://github.com/1ASI0729-2510-4321-devvolution/PescaGo-Report/blob/main/img/ian_macavilca.png?raw=true" width="350" height="160">                                                                                         | Programación en C++, Python, JavaScript, HTML y CSS. Aprendo rápido y sé adaptarme a los retos que se presentan a lo largo del desarrollo de proyectos. |
-| **Rodrigo Liberato Saldaña** <br> U202215623 <br> <img src="https://media.discordapp.net/attachments/766316535290789908/1414761032928464907/rodrigo.png?ex=68c0be63&is=68bf6ce3&hm=ff615cb9f2f6cd66256a62ab4857639fcf3cd26cacefcbd283c385287daf8c64&=&format=webp&quality=lossless"> | Estudiante de Ingeniería de Software con interés en Ciencia de Datos, Ciberseguridad y desarrollo web en .NET, Spring Boot, etc. Me comprometo a apoyar activamente al grupo y asumir el rol de líder para encaminar al equipo hacia el cumplimiento de sus metas. |
-| **Maycol Jhordan Rojas Velasquez** <br> U202219984 <br> <img src="https://hackmd.io/_uploads/B1F_iuso0.jpg" alt="maycol">                                                                                                                                                            | Elegí la carrera de Ingeniería de Software debido a mi gusto por la innovación y la implementación de la tecnología en cualquier rubro social, de una manera creativa y en todos los aspectos. Me considero una persona creativa, en busca de ideas y estrategias con mente nueva. También me gusta escuchar ideas de mi equipo, dar propuestas de mejora, evaluar ventajas y desventajas. <br><br> Tengo conocimientos de programación en C++, HTML, Python, Angular, Backend en Java, y domino Flutter. También cuento con experiencia en LangChain aplicado con LLM y RAG. <br><br> Tengo un enfoque responsable y dedicado, acompañado de un aprendizaje rápido, lo que me permite ayudar a mis compañeros en sus dudas. Por otro lado, mis hobbies son ver series, jugar, escuchar música, nadar y manejar. |
-| **Stephano Espinoza Cueva** <br> U202218590 <br> <img src="assets/Stephano.jpg" alt="stephano" style="width: 600px; height: 200px;">                                                                                                                                                 | Stephano Espinoza Cueva – Ingeniería de Software - Elegí la carrera de Ingeniería de Software debido a mi gusto por la innovación y la implementación de la tecnología en cualquier rubro social, de una manera creativa y en todos los aspectos. Me considero una persona creativa, en busca de ideas y estrategias con mente nueva. También me gusta escuchar ideas de mi equipo, dar propuestas de mejora, evaluar las ventajas y desventajas.Además, tengo conocimientos de programación en C++, HTML, Python, Angular, Backend en Java, y domino Flutter. También cuento con experiencia en LangChain aplicado con LLM y RAG.Tengo un enfoque responsable y dedicado, acompañado de un aprendizaje rápido, lo que me permite ayudar a mis compañeros en sus dudas. Por otro lado, mis hobbies son ver series, jugar, escuchar música, nadar y manejar.   
-| **Jeremy Paucar Meneses** <br> u201919449 <br><img src="https://imgur.com/ylpKMx2.png" alt="yo-3" style="width: 600px ; height: 200px;">                                                                                                                                             | Tengo 23 años. En la actualidad estoy estudiando la carrera de ingeniería de software en la Universidad Peruana de Ciencias Aplicadas. Albergo conocimientos intermedios en algunos lenguajes de programación, tales como C++, JavaScript y Python. Me considero una persona responsable con disposición de apoyar al grupo, también me gustan mucho los retos y así mismo poder cumplirlos..| 
+| **Integrante**                                                                                                                                                                                                                                                                       | **Conocimientos técnicos / Habilidades**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Ian Macavilca Quispe** <br> U202121325 <br> <img src="https://github.com/1ASI0729-2510-4321-devvolution/PescaGo-Report/blob/main/img/ian_macavilca.png?raw=true" width="350" height="160">                                                                                         | Programación en C++, Python, JavaScript, HTML y CSS. Aprendo rápido y sé adaptarme a los retos que se presentan a lo largo del desarrollo de proyectos.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
+| **Rodrigo Liberato Saldaña** <br> U202215623 <br> <img src="https://media.discordapp.net/attachments/766316535290789908/1414761032928464907/rodrigo.png?ex=68c0be63&is=68bf6ce3&hm=ff615cb9f2f6cd66256a62ab4857639fcf3cd26cacefcbd283c385287daf8c64&=&format=webp&quality=lossless"> | Estudiante de Ingeniería de Software con interés en Ciencia de Datos, Ciberseguridad y desarrollo web en .NET, Spring Boot, etc. Me comprometo a apoyar activamente al grupo y asumir el rol de líder para encaminar al equipo hacia el cumplimiento de sus metas.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
+| **Maycol Jhordan Rojas Velasquez** <br> U202219984 <br> <img src="https://hackmd.io/_uploads/B1F_iuso0.jpg" alt="maycol">                                                                                                                                                            | Elegí la carrera de Ingeniería de Software debido a mi gusto por la innovación y la implementación de la tecnología en cualquier rubro social, de una manera creativa y en todos los aspectos. Me considero una persona creativa, en busca de ideas y estrategias con mente nueva. También me gusta escuchar ideas de mi equipo, dar propuestas de mejora, evaluar ventajas y desventajas. <br><br> Tengo conocimientos de programación en C++, HTML, Python, Angular, Backend en Java, y domino Flutter. También cuento con experiencia en LangChain aplicado con LLM y RAG. <br><br> Tengo un enfoque responsable y dedicado, acompañado de un aprendizaje rápido, lo que me permite ayudar a mis compañeros en sus dudas. Por otro lado, mis hobbies son ver series, jugar, escuchar música, nadar y manejar.                                            |
+| **Stephano Espinoza Cueva** <br> U202218590 <br> <img src="assets/Stephano.jpg" alt="stephano" style="width: 600px; height: 200px;">                                                                                                                                                 | Stephano Espinoza Cueva – Ingeniería de Software - Elegí la carrera de Ingeniería de Software debido a mi gusto por la innovación y la implementación de la tecnología en cualquier rubro social, de una manera creativa y en todos los aspectos. Me considero una persona creativa, en busca de ideas y estrategias con mente nueva. También me gusta escuchar ideas de mi equipo, dar propuestas de mejora, evaluar las ventajas y desventajas.Además, tengo conocimientos de programación en C++, HTML, Python, Angular, Backend en Java, y domino Flutter. También cuento con experiencia en LangChain aplicado con LLM y RAG.Tengo un enfoque responsable y dedicado, acompañado de un aprendizaje rápido, lo que me permite ayudar a mis compañeros en sus dudas. Por otro lado, mis hobbies son ver series, jugar, escuchar música, nadar y manejar. |
+| **Jeremy Paucar Meneses** <br> u201919449 <br><img src="https://imgur.com/ylpKMx2.png" alt="yo-3" style="width: 600px ; height: 200px;">                                                                                                                                             | Tengo 23 años. En la actualidad estoy estudiando la carrera de ingeniería de software en la Universidad Peruana de Ciencias Aplicadas. Albergo conocimientos intermedios en algunos lenguajes de programación, tales como C++, JavaScript y Python. Me considero una persona responsable con disposición de apoyar al grupo, también me gustan mucho los retos y así mismo poder cumplirlos..                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
 
 </div>
 
@@ -276,7 +275,6 @@ Usar nuestra solución te ayuda a mejorar la productividad y la sostenibilidad.
 
 Nuestra solución está diseñada para ser accesible desde cualquier lugar, ya sea en el navegador o a través de sus aplicaciones móviles para iOS y Android. Está construida con tecnología avanzada para asegurar un alto rendimiento y una experiencia de uso simple. Se basa en datos para ofrecer recomendaciones y análisis personalizados que mejoran la toma de decisiones. Además, permite la integración con otros sistemas y automatiza diversas tareas administrativas.
 
-
 #### 1.2.1. Antecedentes y problemática
 
 Gracias a la técnica de las "5W's & 2H's", se ha analizado el origen y la problemática que los ganaderos peruanos enfrentan diariamente, lo que motivó la creación de VacApp.
@@ -308,7 +306,6 @@ La solución de VacApp es una plataforma web y móvil que integra herramientas d
 ### How much? (¿Cuánto?)
 
 Aunque el costo de desarrollar y mantener VacApp depende de la inversión en tecnología y soporte, el retorno económico para los ganaderos es muy favorable. Les permitirá ser más rentables, optimizar recursos y reducir pérdidas. La plataforma también ayudará a disminuir los gastos en atención veterinaria al proporcionar datos que previenen enfermedades y mejoran la productividad.
-
 
 #### 1.2.2. Lean UX Process
 
@@ -348,8 +345,6 @@ Partimos de la base de que nuestra solución digital impactará positivamente en
 
 - Y finalmente, si aseguramos la privacidad y seguridad de sus datos, los usuarios confiarán en nuestra plataforma y se sentirán cómodos al almacenar información crucial en ella.
 
-
-
 ##### 1.2.2.3. Lean UX Hypothesis Statements
 
 - Creemos que los ganaderos apreciarán una aplicación con una interfaz simple, porque esto les permitirá gestionar su ganado sin necesitar mucha capacitación. Lo sabremos cuando al menos un 70% de los usuarios registre a sus animales al usar la plataforma por primera vez, sin requerir ayuda.
@@ -365,8 +360,6 @@ Partimos de la base de que nuestra solución digital impactará positivamente en
 - Creemos que los usuarios notarán beneficios tangibles en la productividad y en la salud de su ganado, porque tendrán herramientas para tomar decisiones más informadas. Lo sabremos cuando el 60% de los usuarios reporte mejoras en el rendimiento de sus animales después de tres meses de uso.
 
 ##### 1.2.2.4. Lean UX Canvas
-
-
 
 ### 1.3. Segmentos objetivo
 
@@ -398,12 +391,14 @@ Estas problemáticas limitan la competitividad, el bienestar animal y la sosteni
 Este segmento corresponde a corporaciones ganaderas de gran escala que manejan operaciones con altos volúmenes de animales. Se caracterizan por buscar eficiencia en la gestión, trazabilidad de procesos y cumplimiento de estándares de sostenibilidad.
 
 **Motivaciones:**
+
 - Implementar prácticas éticas y sostenibles de producción.
 - Garantizar una alimentación adecuada y atención individualizada para los animales.
 - Optimizar la gestión de establos, campañas de vacunación y control sanitario.
 - Mejorar su reputación y competitividad en mercados nacionales e internacionales.
 
 **Problemáticas principales:**
+
 - La ganadería contribuye de manera significativa a la deforestación en zonas amazónicas, representando entre el 49 % y el 80 % de la pérdida de bosques naturales.
 - Desde 2001, Perú ha perdido más de **2 millones de hectáreas** de bosques, en parte debido a la ampliación de tierras para uso ganadero.
 
@@ -424,6 +419,7 @@ Estos impactos ambientales comprometen la sostenibilidad del sector y tienen con
 - Edad: Mayores de 18 años
 
 **Psicográficas:**
+
 - Nivel socioeconómico: Todos los niveles (NSE bajo, medio y alto)
 - Personalidad: Perseverantes, honestos, con fuerte compromiso hacia el trabajo, altruistas y resilientes ante la adversidad.
 
@@ -721,10 +717,10 @@ Se realizaron entrevistas a dos segmentos clave del sector ganadero: Productores
 ###### Gestión del Personal y Proveedores
 
 - Requieren funcionalidades para:
-    - Asignación de tareas.
-    - Control de desempeño del personal.
-    - Comunicación interna.
-    - Registro de incidentes.
+  - Asignación de tareas.
+  - Control de desempeño del personal.
+  - Comunicación interna.
+  - Registro de incidentes.
 - Interacción con proveedores: seguimiento de pedidos, inventarios y negociación.
 
 ###### Personalización y Adaptabilidad
@@ -1230,6 +1226,7 @@ Este flujo está diseñado para facilitar al agregar ya sea un bovino, una campa
 <img src="./assets/3w.png" style="width: 400px">
 
 #### 4.4.3. Mobile Applications Mock-ups
+
 **Inicio Sesion**
 
 <img src="./assets/singin.png" style="width: 400px">
@@ -1237,7 +1234,6 @@ Este flujo está diseñado para facilitar al agregar ya sea un bovino, una campa
 **Registro**
 
 <img src="./assets/singup.png" style="width: 400px">
-
 
 **Planes**
 
@@ -1255,8 +1251,6 @@ Este flujo está diseñado para facilitar al agregar ya sea un bovino, una campa
 
 <img src="./assets/animalinfo.png" style="width: 400px">
 
-
-
 **Inventario**
 
 <img src="./assets/inventario.png" style="width: 400px">
@@ -1267,16 +1261,13 @@ Este flujo está diseñado para facilitar al agregar ya sea un bovino, una campa
 
 <img src="./assets/organization.png" style="width: 400px">
 
-
 **vista de "Agregar Animal"**
 
 <img src="./assets/animaladd.png" style="width: 400px">
 
-
 **vista de "Agregar Inventario"**
 
 <img src="./assets/productadd.png" style="width: 400px">
-
 
 **vista de "Agregar Campaña"**
 
@@ -1383,7 +1374,6 @@ En futuras iteraciones se contempla la generación de un prototipo directamente 
 
 <img src="./assets/W_signup.png" style="width: 400px">
 
-
 **Planes**
 
 <img src="./assets/W_planes.png" style="width: 400px">
@@ -1402,8 +1392,6 @@ En futuras iteraciones se contempla la generación de un prototipo directamente 
 
 <img src="./assets/W_animalsinfo.png" style="width: 400px">
 
-
-
 **Inventario**
 
 <img src="./assets/W_inv.png" style="width: 400px">
@@ -1414,11 +1402,9 @@ En futuras iteraciones se contempla la generación de un prototipo directamente 
 
 <img src="./assets/W_organization.png" style="width: 400px">
 
-
 **vista de "Agregar Animal"**
 
 <img src="./assets/W_add_animal.png" style="width: 400px">
-
 
 **vista de "Agregar Inventario"**
 
@@ -1430,8 +1416,8 @@ En futuras iteraciones se contempla la generación de un prototipo directamente 
 
 #### 4.6.2. Web Applications Wireflow Diagrams
 
-**User Goal: Iniciar sesión y Registrarse:** 
-Este flujo guía al usuario desde la pantalla de bienvenida hacia las opciones de autenticación. 
+**User Goal: Iniciar sesión y Registrarse:**
+Este flujo guía al usuario desde la pantalla de bienvenida hacia las opciones de autenticación.
 
 <img src="./assets/1w_web.png" style="width: 400px">
 
@@ -1441,7 +1427,7 @@ Una vez autenticado, el usuario accede al home con accesos rápidos con el sideb
 
 <img src="./assets/2w_web.png" style="width: 400px">
 
-**User Goal: Registro de un nuevo dato ya sea "Animals","Campaigns" o "Inventory":** 
+**User Goal: Registro de un nuevo dato ya sea "Animals","Campaigns" o "Inventory":**
 
 Este flujo está diseñado para facilitar al agregar ya sea un bovino, una campaña o un producto de inventario.
 
@@ -1456,7 +1442,6 @@ Este flujo está diseñado para facilitar al agregar ya sea un bovino, una campa
 **Registro**
 
 <img src="./assets/M_signup.png" style="width: 400px">
-
 
 **Planes**
 
@@ -1474,8 +1459,6 @@ Este flujo está diseñado para facilitar al agregar ya sea un bovino, una campa
 
 <img src="./assets/M_animalsinf.png" style="width: 400px">
 
-
-
 **Inventario**
 
 <img src="./assets/M_inv.png" style="width: 400px">
@@ -1486,16 +1469,13 @@ Este flujo está diseñado para facilitar al agregar ya sea un bovino, una campa
 
 <img src="./assets/M_organization.png" style="width: 400px">
 
-
 **vista de "Agregar Animal"**
 
 <img src="./assets/M_add_animal.png" style="width: 400px">
 
-
 **vista de "Agregar Inventario"**
 
 <img src="./assets/M_add_product.png" style="width: 400px">
-
 
 **vista de "Agregar Campaña"**
 
@@ -1503,8 +1483,8 @@ Este flujo está diseñado para facilitar al agregar ya sea un bovino, una campa
 
 #### 4.6.4. Web Applications User Flow Diagrams
 
-**User Goal: Iniciar sesión y Registrarse:** 
-Este flujo guía al usuario desde la pantalla de bienvenida hacia las opciones de autenticación. 
+**User Goal: Iniciar sesión y Registrarse:**
+Este flujo guía al usuario desde la pantalla de bienvenida hacia las opciones de autenticación.
 
 <img src="./assets/1u_web.png" style="width: 400px">
 
@@ -1513,7 +1493,7 @@ Una vez autenticado, el usuario accede al home con accesos rápidos con el sideb
 
 <img src="./assets/2u_web.png" style="width: 400px">
 
-**User Goal: Registro de un nuevo dato ya sea "Animals","Campaigns" o "Inventory":** 
+**User Goal: Registro de un nuevo dato ya sea "Animals","Campaigns" o "Inventory":**
 Este flujo está diseñado para facilitar al agregar ya sea un bovino, una campaña o un producto de inventario.
 
 <img src="./assets/3u_web.png" style="width: 400px">
@@ -1521,6 +1501,7 @@ Este flujo está diseñado para facilitar al agregar ya sea un bovino, una campa
 ### 4.7. Web Applications Prototyping
 
 ### 4.8. Domain-Driven Software Architecture
+
 En esta sección se presenta la arquitectura de software de **VacApp**, diseñada bajo el enfoque de **Domain-Driven Design (DDD)**.  
 El objetivo es ofrecer una visión clara de cómo los distintos dominios del sistema (gestión de ganado, campañas de vacunación, establos, usuarios, entre otros) se estructuran y cómo interactúan con los actores externos y los servicios complementarios.
 
@@ -1584,34 +1565,32 @@ Incluye entidades como Bovino, Vacuna y Establo, sus atributos, relaciones y mé
 
 Incluye entidades como StaffMember, objetos de valor como EmployeeStatus y servicios de dominio encargados de las reglas críticas. Este diagrama ayuda a comprender la estructura del dominio y cómo se articulan sus elementos para cumplir los objetivos del sistema.
 
-<img src="./assets/DiagramaClasesStaff.png">  
-
+<img src="./assets/DiagramaClasesStaff.png">
 
 #### 4.9.2. Class Dictionary
 
-|**Nombre**|**Descripción**|
-| :- | :- |
-|ID|Identificador único de registro usado como clave primaria|
-|Name|Nombre del animal|
-|Birthday|Fecha de nacimiento del animal|
-|Birth\_place|Lugar de Nacimiento del animal|
-|Gender|Genero del animal|
-|Breed|Raza del animal|
-|Location|Lugar donde se ubica el animal|
-|Parent\_ID|Identificar de registro de la madre del animal|
-|Expire_date|Fecha de expiracion de la identificacion del bovino|
-|Animal_ID|Identificar de registro de la madre del animal|
+| **Nombre**  | **Descripción**                                           |
+| :---------- | :-------------------------------------------------------- |
+| ID          | Identificador único de registro usado como clave primaria |
+| Name        | Nombre del animal                                         |
+| Birthday    | Fecha de nacimiento del animal                            |
+| Birth_place | Lugar de Nacimiento del animal                            |
+| Gender      | Genero del animal                                         |
+| Breed       | Raza del animal                                           |
+| Location    | Lugar donde se ubica el animal                            |
+| Parent_ID   | Identificar de registro de la madre del animal            |
+| Expire_date | Fecha de expiracion de la identificacion del bovino       |
+| Animal_ID   | Identificar de registro de la madre del animal            |
 
-|**Nombre**|**Descripción**|
-| :- | :- |
-|id|Identificador único del registro, generalmente una clave primaria.|
-|first\_name|Primer nombre del usuario.|
-|last\_name|Apellido del usuario.|
-|job\_status|Estado del empleado.|
-|job\_description|Descripción del puesto a cargo del empleado|
-|dni|DNI del empleado|
-|email\_address|Dirección de correo electrónico del usuario.|
-
+| **Nombre**      | **Descripción**                                                    |
+| :-------------- | :----------------------------------------------------------------- |
+| id              | Identificador único del registro, generalmente una clave primaria. |
+| first_name      | Primer nombre del usuario.                                         |
+| last_name       | Apellido del usuario.                                              |
+| job_status      | Estado del empleado.                                               |
+| job_description | Descripción del puesto a cargo del empleado                        |
+| dni             | DNI del empleado                                                   |
+| email_address   | Dirección de correo electrónico del usuario.                       |
 
 ### 4.10. Database Design
 
@@ -1760,15 +1739,21 @@ Este proceso garantiza el despliegue satisfactorio de nuestra landing page en la
 <br>
 
 **Deployment Frontend:**
-En esta seccion, detallamos el proceso del deploy del Frontend-web en la plataforma de Netify.
+En esta seccion, detallamos el proceso del deploy del Frontend-web en la plataforma de Firebase.
 
-1.
+1. Al utilizar Firebase instalamos firebase en el proyecto
 
-2.
+![DeploymentFronten1](https://media.discordapp.net/attachments/766316535290789908/1418282254228000768/image.png?ex=68cd8dc7&is=68cc3c47&hm=11b659f5dedc5f94d9f8d0d4ab8f134bbc8f009e84ccbff4ffb8dd6b166223d3&=&format=webp&quality=lossless&width=1606&height=903)
 
-3.
+2. Luego de Instalarlo se inicia sesion y se implementa en Firebase.
 
-**Enlace del Frontend: https://vacappapi.azurewebsites.net/swagger/index.html**
+![DeploymentFronten2](https://media.discordapp.net/attachments/766316535290789908/1418282254630912051/image.png?ex=68cd8dc7&is=68cc3c47&hm=891b76905ededc3963d37991db6d7e17246409a69f9dc0c517443917d85849e4&=&format=webp&quality=lossless&width=1606&height=903)
+
+3. Con esto, la aplicacion fue desplegada.
+
+![DeploymentFronten3](https://media.discordapp.net/attachments/766316535290789908/1418305403820834866/image.png?ex=68cda357&is=68cc51d7&hm=a98df19fdd7d4debef058b19e499db1db253f36f31445dc47fbd9593ad69efbc&=&format=webp&quality=lossless&width=550&height=309)
+
+**Enlace del Frontend: [https://vacapp-frontend.web.app/auth/login](https://vacapp-frontend.web.app/auth/login)**
 
 **Deployment Backend:**
 En esta sección, detallamos el proceso de implementación de nuestro backend en la plataforma de Microsoft Azure.
@@ -1867,11 +1852,12 @@ A continuación, se presentan las imágenes que evidencian los avances logrados 
   <img src="./assets/I1.png" style="width: 400px">  
   <img src="./assets/i2.png" style="width: 400px"> 
   <img src="./assets/I3.png" style="width: 400px"> 
-  <img src="./assets/I4.png" style="width: 400px"> 
+  <img src="./assets/I4.png" style="width: 400px">
 
 #### 5.2.3. Implemented Frontend-Web Application Evidence
 
 #### 5.2.4. Implemented Native-Mobile Application Evidence
+
 Durante los Sprints del proyecto, se logró desarrollar e implementar por completo la aplicación móvil de VacApp, cumpliendo con las funcionalidades clave definidas para la solución. La app integra de manera efectiva las características relacionadas con la gestión ganadera, permitiendo a los usuarios registrar bovinos, gestionar vacunas, organizar establos, y realizar un seguimiento de la salud y productividad del ganado.
 
 Además, se incluyeron vistas para la gestión de usuarios, control de campañas de vacunación, reportes y estadísticas, asegurando una experiencia de usuario coherente y fluida en dispositivos móviles.
@@ -1945,9 +1931,11 @@ La documentación de la **API RESTful** del backend del proyecto **VacApp** fue 
 ### Herramientas de Documentación
 
 #### Swagger (OpenAPI 3)
+
 **Swagger** constituye la herramienta principal para la generación automática de documentación interactiva de la API. Esta plataforma proporciona una interfaz visual completa que incluye:
 
 **Características principales:**
+
 - **Especificación detallada de endpoints:** Tipo de solicitud (GET, POST, PUT, DELETE)
 - **Validación de parámetros:** Documentación exhaustiva de parámetros de entrada y sus validaciones
 - **Ejemplos de respuesta:** Casos de uso en formato JSON para cada endpoint
@@ -1955,9 +1943,11 @@ La documentación de la **API RESTful** del backend del proyecto **VacApp** fue 
 - **Testing integrado:** Capacidad de probar endpoints directamente desde la interfaz sin herramientas externas
 
 #### Postman Collection
+
 **Postman** complementa la documentación de Swagger mediante la realización de pruebas exhaustivas y validaciones de escenarios reales:
 
 **Funcionalidades implementadas:**
+
 - **Pruebas manuales automatizadas** para validar el comportamiento de la API
 - **Validación de escenarios complejos** que incluyen casos de éxito y error
 - **Testing de integración** para asegurar la correcta comunicación entre servicios
@@ -1968,19 +1958,22 @@ La documentación de la **API RESTful** del backend del proyecto **VacApp** fue 
 ### Estructura de la API
 
 #### Sistema de Autenticación
+
 VacApp implementa un sistema de autenticación robusto basado en **tokens JWT (JSON Web Tokens)** que garantiza la seguridad y trazabilidad de las operaciones:
 
 **Endpoints de autenticación:**
+
 - **Registro:** `POST /api/v1/authentication/sign-up`
 - **Inicio de sesión:** `POST /api/v1/authentication/sign-in`
 
 **Configuración de headers:**
+
 ```http
 Authorization: Bearer <JWT_Token>
 Content-Type: application/json
 ```
 
->  **Importante:** Todos los endpoints (excepto autenticación) requieren el token JWT en el header de autorización.
+> **Importante:** Todos los endpoints (excepto autenticación) requieren el token JWT en el header de autorización.
 
 ---
 
@@ -1989,17 +1982,21 @@ Content-Type: application/json
 #### Gestión de Bovinos
 
 **Obtener bovino específico**
+
 ```http
 GET /api/v1/bovines/{id}
 ```
+
 Recupera información detallada de un bovino específico por su ID.
 
 **Registrar nuevo bovino**
+
 ```http
 POST /api/v1/bovines
 ```
 
 **Ejemplo de respuesta exitosa:**
+
 ```json
 {
   "id": 12,
@@ -2018,16 +2015,19 @@ POST /api/v1/bovines
 #### Gestión de Establos
 
 **Listar todos los establos**
+
 ```http
 GET /api/v1/stables
 ```
 
 **Crear nuevo establo**
+
 ```http
 POST /api/v1/stables
 ```
 
 **Ejemplo de respuesta:**
+
 ```json
 {
   "id": 3,
@@ -2043,16 +2043,19 @@ POST /api/v1/stables
 #### Gestión de Vacunas
 
 **Obtener información de vacuna**
+
 ```http
 GET /api/v1/vaccines/{id}
 ```
 
 **Registrar nueva vacuna**
+
 ```http
 POST /api/v1/vaccines
 ```
 
 **Ejemplo de respuesta:**
+
 ```json
 {
   "id": 8,
@@ -2067,20 +2070,22 @@ POST /api/v1/vaccines
 }
 ```
 
-
 #### Gestión de Campañas
 
 **Consultar detalles de campaña**
+
 ```http
 GET /api/v1/campaigns/{id}
 ```
 
 **Registrar nueva campaña**
+
 ```http
 POST /api/v1/campaigns
 ```
 
 **Ejemplo de respuesta:**
+
 ```json
 {
   "id": 5,
@@ -2102,35 +2107,38 @@ POST /api/v1/campaigns
 
 La API implementa un manejo estandarizado de códigos de estado HTTP para facilitar la depuración y el desarrollo:
 
-| Código | Descripción | Escenario |
-|--------|-------------|-----------|
-| `200 OK` | Operación exitosa | Consultas y actualizaciones correctas |
-| `201 Created` | Recurso creado exitosamente | Registro de nuevos bovinos, establos, etc. |
-| `400 Bad Request` | Parámetros incorrectos o datos inválidos | Validaciones fallidas |
-| `401 Unauthorized` | Token JWT inválido o no proporcionado | Problemas de autenticación |
-| `403 Forbidden` | Permisos insuficientes | Restricciones de acceso por rol |
-| `404 Not Found` | El recurso solicitado no existe | Bovino, establo o campaña no encontrado |
-| `409 Conflict` | Conflicto de recursos | Nombres duplicados, restricciones de negocio |
-| `500 Internal Server Error` | Error inesperado en el servidor | Errores no controlados |
-
+| Código                      | Descripción                              | Escenario                                    |
+| --------------------------- | ---------------------------------------- | -------------------------------------------- |
+| `200 OK`                    | Operación exitosa                        | Consultas y actualizaciones correctas        |
+| `201 Created`               | Recurso creado exitosamente              | Registro de nuevos bovinos, establos, etc.   |
+| `400 Bad Request`           | Parámetros incorrectos o datos inválidos | Validaciones fallidas                        |
+| `401 Unauthorized`          | Token JWT inválido o no proporcionado    | Problemas de autenticación                   |
+| `403 Forbidden`             | Permisos insuficientes                   | Restricciones de acceso por rol              |
+| `404 Not Found`             | El recurso solicitado no existe          | Bovino, establo o campaña no encontrado      |
+| `409 Conflict`              | Conflicto de recursos                    | Nombres duplicados, restricciones de negocio |
+| `500 Internal Server Error` | Error inesperado en el servidor          | Errores no controlados                       |
 
 ### Validación y Testing
 
 #### Estrategia de Pruebas
+
 La API ha sido sometida a pruebas exhaustivas utilizando múltiples enfoques:
 
 **Pruebas automatizadas en Swagger:**
--  Validación de sintaxis de requests/responses
--  Verificación de códigos de estado HTTP
--  Testing de autenticación JWT
+
+- Validación de sintaxis de requests/responses
+- Verificación de códigos de estado HTTP
+- Testing de autenticación JWT
 
 **Pruebas manuales en Postman:**
--  Escenarios de uso real del dominio ganadero
--  Validación de reglas de negocio específicas
--  Testing de restricciones (ej: capacidad máxima de establos)
--  Pruebas de rendimiento y carga
+
+- Escenarios de uso real del dominio ganadero
+- Validación de reglas de negocio específicas
+- Testing de restricciones (ej: capacidad máxima de establos)
+- Pruebas de rendimiento y carga
 
 #### Casos de Prueba Validados
+
 - **Autenticación:** Login/logout, expiración de tokens, roles de usuario
 - **Gestión de bovinos:** Registro, consulta, actualización, eliminación
 - **Campañas de vacunación:** Creación, seguimiento, finalización
@@ -2139,15 +2147,18 @@ La API ha sido sometida a pruebas exhaustivas utilizando múltiples enfoques:
 ### Seguridad y Autenticación
 
 #### Implementación JWT
+
 La seguridad de VacApp se fundamenta en el uso de **JSON Web Tokens (JWT)** con las siguientes características:
 
 **Configuración de seguridad:**
+
 - **Algoritmo de encriptación:** HS256
 - **Tiempo de expiración:** 24 horas
 - **Refresh token:** Implementado para renovación automática
 - **Roles y permisos:** Sistema granular de autorización
 
 **Ejemplo de solicitud autenticada:**
+
 ```http
 GET /api/v1/bovines/12
 Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyfQ.SflKxwRJSMeKKF2QT4fwpMeJf36POk6yJV_adQssw5c
@@ -2155,6 +2166,7 @@ Content-Type: application/json
 ```
 
 #### Medidas de Seguridad Adicionales
+
 - **Rate limiting:** Prevención de ataques de fuerza bruta
 - **CORS configurado:** Restricción de orígenes permitidos
 - **Validación de entrada:** Sanitización de todos los parámetros
@@ -2162,26 +2174,25 @@ Content-Type: application/json
 
 #### 5.2.7. Team Collaboration Insights
 
-Durante el desarrollo del Sprint 1, el equipo colaboró activamente en el repositorio del Informe, utilizando herramientas como GitHub, Trello y Discord para coordinar tareas, compartir avances y resolver dudas de forma continua.  
+Durante el desarrollo del Sprint 1, el equipo colaboró activamente en el repositorio del Informe, utilizando herramientas como GitHub, Trello y Discord para coordinar tareas, compartir avances y resolver dudas de forma continua.
 
 Se realizaron reuniones semanales para planificación y revisión, así como sesiones diarias breves (dailys) para mantener sincronizado el trabajo entre los integrantes.
 
 A continuación, gracias a la sección de Insights de GitHub, se presentan gráficas que muestran el nivel de participación de cada miembro del equipo en el repositorio del Informe.
 
-
 #### Tabla de identificación del equipo
 
-| Username (GitHub) | Nombre completo | Código de estudiante |
-|-------------------|-----------------|----------------------|
-| @Libeman10        | Rodrigo Liberato Saldaña | U202215623 |
-| @IanMQ            | Ian Macavilca Quispe     | U202121325 |
-| @Kmykh    | Maycol Rojas Velasquez   | U202219984 |
-| @Stephanoescu     | Stephano Espinoza Cueva  | U202218590 |
-| @Kmykh            | Jeremy Paucar Meneses    | U201919449 |
+| Username (GitHub) | Nombre completo          | Código de estudiante |
+| ----------------- | ------------------------ | -------------------- |
+| @Libeman10        | Rodrigo Liberato Saldaña | U202215623           |
+| @IanMQ            | Ian Macavilca Quispe     | U202121325           |
+| @Kmykh            | Maycol Rojas Velasquez   | U202219984           |
+| @Stephanoescu     | Stephano Espinoza Cueva  | U202218590           |
+| @Kmykh            | Jeremy Paucar Meneses    | U201919449           |
 
 #### Analíticos de GitHub
 
-**Informe**  
+**Informe**
 
 ![contributor-evidence-informe](./assets/insights.png)
 
@@ -2189,9 +2200,9 @@ Las gráficas demuestran que todos los integrantes realizaron contribuciones sig
 
 ### 5.3. Video About-the-Product
 
-Con el objetivo de complementar la documentación y ofrecer una visión más clara del alcance de VacApp, se ha elaborado un video de presentación denominado About The Product.  
+Con el objetivo de complementar la documentación y ofrecer una visión más clara del alcance de VacApp, se ha elaborado un video de presentación denominado About The Product.
 
-Este recurso audiovisual explica de manera concisa las funcionalidades principales de la aplicación, su propuesta de valor y cómo contribuye a optimizar la gestión del ganado bovino. Asimismo, permite a los interesados obtener una experiencia más cercana al producto, facilitando la comprensión de sus características y beneficios en un formato dinámico y accesible.  
+Este recurso audiovisual explica de manera concisa las funcionalidades principales de la aplicación, su propuesta de valor y cómo contribuye a optimizar la gestión del ganado bovino. Asimismo, permite a los interesados obtener una experiencia más cercana al producto, facilitando la comprensión de sus características y beneficios en un formato dinámico y accesible.
 
 ![contributor-evidence-informe](./assets/PUBLICIDAD.png)
 
@@ -2202,24 +2213,23 @@ El video se encuentra disponible en el siguiente enlace:
 
 1. La aplicación VacApp evidencia cómo el uso de Domain-Driven Design (DDD) y la definición clara de bounded contexts permiten construir soluciones robustas y escalables para la gestión ganadera. La integración de módulos como Campaign Management, Ranch Management y Staff Administration ha facilitado una arquitectura limpia, adaptable y alineada con las necesidades reales de los usuarios, asegurando la evolución continua del producto.
 
-2. El desarrollo de VacApp se caracterizó por la constante interacción con los usuarios finales, empleando entrevistas, mapeos de escenarios, user stories y análisis de impacto. El uso de metodologías ágiles como *Scrum* y herramientas como Lean UX permitió identificar y priorizar necesidades reales, logrando entregas funcionales frecuentes y una mejora continua en la experiencia del usuario ganadero.
+2. El desarrollo de VacApp se caracterizó por la constante interacción con los usuarios finales, empleando entrevistas, mapeos de escenarios, user stories y análisis de impacto. El uso de metodologías ágiles como _Scrum_ y herramientas como Lean UX permitió identificar y priorizar necesidades reales, logrando entregas funcionales frecuentes y una mejora continua en la experiencia del usuario ganadero.
 
 3. El trabajo colaborativo en VacApp no solo resultó en un producto funcional, sino que también impulsó el desarrollo de habilidades clave en el equipo, como el diseño de arquitecturas por capas, modelado de bases de datos, diseño de interfaces y aplicación de patrones estratégicos y tácticos de DDD. La gestión eficiente del proyecto y la comunicación constante consolidaron una visión profesional y una cultura de mejora continua dentro del equipo.
 
-##  Bibliografía
+## Bibliografía
 
-- Cohn, M. (2004). *User Stories Applied: For Agile Software Development*. Addison-Wesley.
-- Evans, E. (2004). *Domain-Driven Design: Tackling Complexity in the Heart of Software*. Addison-Wesley.
-- Evans, E. (2015). *Domain-Driven Design Reference: Definitions and Pattern Summaries*. Domain Language, Inc. https://www.domainlanguage.com/ddd/reference/
-- Fowler, M. (2003). *Patterns of Enterprise Application Architecture*. Addison-Wesley.
-- Gothelf, J. (2013). *Lean UX: Applying Lean Principles to Improve User Experience*. O’Reilly Media.
-- ISO/IEC/IEEE 12207:2017 – *Systems and software engineering – Software life cycle processes*.
-- Poppendieck, M., & Poppendieck, T. (2003). *Lean Software Development: An Agile Toolkit*. Addison-Wesley.
-- Vernon, V. (2013). *Implementing Domain-Driven Design*. Addison-Wesley.
+- Cohn, M. (2004). _User Stories Applied: For Agile Software Development_. Addison-Wesley.
+- Evans, E. (2004). _Domain-Driven Design: Tackling Complexity in the Heart of Software_. Addison-Wesley.
+- Evans, E. (2015). _Domain-Driven Design Reference: Definitions and Pattern Summaries_. Domain Language, Inc. https://www.domainlanguage.com/ddd/reference/
+- Fowler, M. (2003). _Patterns of Enterprise Application Architecture_. Addison-Wesley.
+- Gothelf, J. (2013). _Lean UX: Applying Lean Principles to Improve User Experience_. O’Reilly Media.
+- ISO/IEC/IEEE 12207:2017 – _Systems and software engineering – Software life cycle processes_.
+- Poppendieck, M., & Poppendieck, T. (2003). _Lean Software Development: An Agile Toolkit_. Addison-Wesley.
+- Vernon, V. (2013). _Implementing Domain-Driven Design_. Addison-Wesley.
 
+## Anexos
 
-
-##  Anexos
 Aplicación: https://appdistribution.firebase.dev/i/b5b8b0a89363391d
 
 ### Videos
@@ -2239,7 +2249,6 @@ Backend: https://github.com/1ASI0732-Grupo-3/Bacckend-VacApp
 Mobile App: https://github.com/1ASI0732-Grupo-3/Mobile--VacApp
 
 Landing Page: https://github.com/1ASI0732-Grupo-3/Landing-Page----VacApp
-
 
 ### TB1
 
