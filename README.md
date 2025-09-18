@@ -1207,6 +1207,12 @@ Este flujo está diseñado para facilitar al agregar ya sea un bovino, una campa
 
 ### 4.7. Web Applications Prototyping
 
+A continuación, se presenta el prototipo que se realizó en base a los mockups que se desarrollaron y documentaron en puntos anteriores. El prototype nos permite evidenciar algunos flujos que se llevarán al desarrollo en código.
+
+![context](./assets/WebProt.png)  
+
+https://www.figma.com/proto/47ngQ2UkWbuuvLy36Fmfnl/Pet-Care---Landing-page--Community-?node-id=2102-445&p=f&t=pbikLYhwwgU7T9wf-1&scaling=scale-down&content-scaling=fixed&page-id=27%3A1&starting-point-node-id=2102%3A37
+
 ### 4.8. Domain-Driven Software Architecture  
 En esta sección se presenta la arquitectura de software de **VacApp**, diseñada bajo el enfoque de **Domain-Driven Design (DDD)**.  
 El objetivo es ofrecer una visión clara de cómo los distintos dominios del sistema (gestión de ganado, campañas de vacunación, establos, usuarios, entre otros) se estructuran y cómo interactúan con los actores externos y los servicios complementarios.  
