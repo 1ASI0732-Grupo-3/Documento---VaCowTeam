@@ -42,33 +42,12 @@
 
 # Registro de Versiones del Informe
 
-| Versión | Fecha      | Autor                          | Descripción de modificación               |
-| ------- | ---------- | ------------------------------ | ----------------------------------------- |
-| TB1     | 14/09/2025 | Maycol Jhordan Rojas Velásquez | Creación inicial del documento            |
-| TB1     | 14/09/2025 | Maycol Jhordan Rojas Velásquez | Estructuración del documento              |
-| TB1     | 14/09/2025 | Maycol Jhordan Rojas Velásquez | Perfil de los integrantes                 |
-| TB1     | 14/09/2025 | Maycol Jhordan Rojas Velásquez | Definición de segmentos objetivos         |
-| TB1     | 14/09/2025 | Maycol Jhordan Rojas Velásquez | Style Guideline                           |
-| TB1     | 14/09/2025 | Maycol Jhordan Rojas Velásquez | General Style Guidelines                  |
-| TB1     | 14/09/2025 | Maycol Jhordan Rojas Velásquez | Web Style Guidelines                      |
-| TB1     | 14/09/2025 | Maycol Jhordan Rojas Velásquez | Mobile Style Guidelines                   |
-| TB1     | 14/09/2025 | Maycol Jhordan Rojas Velásquez | iOS Mobile Style Guidelines               |
-| TB1     | 14/09/2025 | Maycol Jhordan Rojas Velásquez | Android Mobile Style Guidelines           |
-| TB1     | 14/09/2025 | Maycol Jhordan Rojas Velásquez | Landing Page UI Design                    |
-| TB1     | 14/09/2025 | Maycol Jhordan Rojas Velásquez | Landing Page Wireframe                    |
-| TB1     | 14/09/2025 | Maycol Jhordan Rojas Velásquez | Landing Page Mock-up                      |
-| TB1     | 14/09/2025 | Maycol Jhordan Rojas Velásquez | Mobile Applications UX/UI Design          |
-| TB1     | 14/09/2025 | Maycol Jhordan Rojas Velásquez | Mobile Applications Wireframes            |
-| TB1     | 14/09/2025 | Maycol Jhordan Rojas Velásquez | Mobile Applications Wireflow Diagrams     |
-| TB1     | 14/09/2025 | Maycol Jhordan Rojas Velásquez | Mobile Applications Mock-ups              |
-| TB1     | 14/09/2025 | Maycol Jhordan Rojas Velásquez | Mobile Applications User Flow Diagrams    |
-| TB1     | 14/09/2025 | Maycol Jhordan Rojas Velásquez | Mobile Applications Prototyping           |
-| TB1     | 14/09/2025 | Maycol Jhordan Rojas Velásquez | Android Mobile Applications Prototyping   |
-| TB1     | 14/09/2025 | Maycol Jhordan Rojas Velásquez | iOS Mobile Applications Prototyping       |
-| TB1     | 14/09/2025 | Maycol Jhordan Rojas Velásquez | Domain-Driven Software Architecture.      |
-| TB1     | 14/09/2025 | Maycol Jhordan Rojas Velásquez | Software Architecture Context Diagram     |
-| TB1     | 14/09/2025 | Maycol Jhordan Rojas Velásquez | Software Architecture Container Diagrams  |
-| TB1     | 14/09/2025 | Maycol Jhordan Rojas Velásquez | Software Architecture Components Diagrams |
+### Registro de Versiones  
+
+| **Versión** | **Fecha**  | **Autor** | **Descripción de modificación** |
+|-------------|------------|-----------|---------------------------------|
+| **TB1**     | 20/04/25   | Saldana, Rodrigo Liberato (U202215623), Macavilca Quispe, Ian (U202121325), Rojas Velasquez, Maycol (U202219984), Espinoza Cueva, Stephano (U202218590), Paucar Meneses, Jeremy (U201919449) | Capítulo I: Introducción, Capítulo II: Requirements Elicitation & Analysis, Capítulo III: Requirements Specification, Capítulo IV: Product Design y Capítulo V: Product Implementation, Validation & Deployment |
+
 
 # Project Report Collaboration Insights
 
@@ -106,6 +85,10 @@
 
 ## Capítulo I: Introducción
 
+
+# Tabla de Contenidos
+
+## Capítulo I: Introducción
 - [1.1. Start-up Profile](#11-start-up-profile)
   - [1.1.1. Descripción de la Startup](#111-descripción-de-la-startup)
   - [1.1.2. Perfiles de Integrantes del Equipo](#112-perfiles-de-integrantes-del-equipo)
@@ -135,6 +118,7 @@
   - [2.3.3. User Journey Mapping](#233-user-journey-mapping)
   - [2.3.4. Empathy Mapping](#234-empathy-mapping)
   - [2.3.5. As-is Scenario Mapping](#235-as-is-scenario-mapping)
+
 - [2.4. Ubiquitous Language](#24-ubiquitous-language)
 
 ---
@@ -225,14 +209,20 @@ ambientales y sociales.
 
 | **Criterio específico**                                                                                                                                      | **Acciones realizadas**                                           | **Conclusiones** |
 | ------------------------------------------------------------------------------------------------------------------------------------------------------------ | ----------------------------------------------------------------- | ---------------- |
-| 4.c.1 Reconoce responsabilidad ética y profesional en situaciones de ingeniería de software                                                                  | <br><br> 1. Rojas Velasquez, Maycol Jhordan<br>_TB1:_<br> Apliqué |                  |
-| 4.c.2 Emite juicios informados considerando el impacto de las soluciones de ingeniería de software en contextos globales, económicos, ambientales y sociales | <br><br> 1. Rojas Velasquez, Maycol Jhordan<br>_TB1:_<br> Apliqué |                  |
+| 4.c.1 Reconoce responsabilidad ética y profesional en situaciones de ingeniería de software                                                                  | <br><br> 1. Rojas Velasquez, Maycol Jhordan<br>_TB1:_<br> Apliqué buenas prácticas en la elaboración de la documentación técnica, asegurando transparencia en los procesos y citando correctamente las fuentes de información utilizadas.  |Se reconoce la importancia de actuar con responsabilidad profesional al elaborar entregables que reflejen veracidad, claridad y compromiso ético en el desarrollo de software. |
+| 4.c.2 Emite juicios informados considerando el impacto de las soluciones de ingeniería de software en contextos globales, económicos, ambientales y sociales | <br><br> 1. Rojas Velasquez, Maycol Jhordan<br>_TB1:_<br> Analicé cómo la solución propuesta (VacApp) impacta en la eficiencia de la ganadería, promoviendo prácticas sostenibles que favorecen al sector económico y respetan el medio ambiente.  |Se concluye que emitir juicios informados permite valorar no solo el aspecto técnico, sino también las repercusiones sociales, económicas y ambientales de las soluciones planteadas.|
 
 ## Capítulo I: Introducción
 
 ### 1.1. Start-up Profile
 
 #### 1.1.1. Descripción de la Startup
+
+Nombre del Startup: VacApp
+
+VacApp es una moderna plataforma, disponible para dispositivos móviles y web, creada para ayudar a los ganaderos a gestionar su ganado de forma eficiente y sostenible. La solución cuenta con un conjunto completo de herramientas que les permiten llevar un control detallado de la salud, nutrición y reproducción de sus animales. Esto les facilita tomar mejores decisiones en su granja.
+
+Con VacApp, los ganaderos pueden optimizar sus operaciones y aumentar sus ganancias, mientras fomentan prácticas más responsables y éticas. De esta manera, contribuyen al bienestar de los animales y al crecimiento sostenible de la industria ganadera.
 
 #### 1.1.2. Perfiles de integrantes del equipo
 
@@ -244,32 +234,144 @@ ambientales y sociales.
 | Rodrigo Liberato Saldaña <br> <img src="https://media.discordapp.net/attachments/766316535290789908/1414761032928464907/rodrigo.png?ex=68c0be63&is=68bf6ce3&hm=ff615cb9f2f6cd66256a62ab4857639fcf3cd26cacefcbd283c385287daf8c64&=&format=webp&quality=lossless"> | Estudiante de Ingeniería de Software con interés en Ciencia de Datos, Ciberseguridad y desarrollo web en .NET, spring boot, etc. Me comprometo a apoyar activamente al grupo y asumir el rol de líder para encaminar al equipo hacia el cumplimiento de sus metas.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
 | <img src="https://hackmd.io/_uploads/B1F_iuso0.jpg" alt="yo-3" style="width: 600px ; height: 200px;">                                                                                                                                                            | Maycol Jhordan Rojas Velasquez – Ingeniería de Software – u202219984 Elegí la carrera de Ingeniería de Software debido a mi gusto por la innovación y la implementación de la tecnología en cualquier rubro social, de una manera creativa y en todos los aspectos. Me considero una persona creativa, en busca de ideas y estrategias con mente nueva. También me gusta escuchar ideas de mi equipo, dar propuestas de mejora, evaluar las ventajas y desventajas.Además, tengo conocimientos de programación en C++, HTML, Python, Angular, Backend en Java, y domino Flutter. También cuento con experiencia en LangChain aplicado con LLM y RAG.Tengo un enfoque responsable y dedicado, acompañado de un aprendizaje rápido, lo que me permite ayudar a mis compañeros en sus dudas. Por otro lado, mis hobbies son ver series, jugar, escuchar música, nadar y manejar. |
 | Stephano Espinoza Cueva <img src="" alt="yo-3" style="width: 600px ; height: 200px;">                                                                                                                                                                            | Stephano Espinoza Cueva – Ingeniería de Software – u202218590 Elegí la carrera de Ingeniería de Software debido a mi gusto por la innovación y la implementación de la tecnología en cualquier rubro social, de una manera creativa y en todos los aspectos. Me considero una persona creativa, en busca de ideas y estrategias con mente nueva. También me gusta escuchar ideas de mi equipo, dar propuestas de mejora, evaluar las ventajas y desventajas.Además, tengo conocimientos de programación en C++, HTML, Python, Angular, Backend en Java, y domino Flutter. También cuento con experiencia en LangChain aplicado con LLM y RAG.Tengo un enfoque responsable y dedicado, acompañado de un aprendizaje rápido, lo que me permite ayudar a mis compañeros en sus dudas. Por otro lado, mis hobbies son ver series, jugar, escuchar música, nadar y manejar.        |
-| ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Ian Macavilca Quispe <br> (U202121325) <br> <img src="https://github.com/1ASI0729-2510-4321-devvolution/PescaGo-Report/blob/main/img/ian_macavilca.png?raw=true" widht="350" height="160">                                                                       | Programación en C++, Python, JavaScript, HTML y CSS. Aprendo rápido y sé adaptarme a los retos que se presentan a lo largo del desarrollo de proyectos.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
 | Rodrigo Liberato Saldaña <br> <img src="https://media.discordapp.net/attachments/766316535290789908/1414761032928464907/rodrigo.png?ex=68c0be63&is=68bf6ce3&hm=ff615cb9f2f6cd66256a62ab4857639fcf3cd26cacefcbd283c385287daf8c64&=&format=webp&quality=lossless"> | Estudiante de Ingeniería de Software con interés en Ciencia de Datos, Ciberseguridad y desarrollo web en .NET, spring boot, etc. Me comprometo a apoyar activamente al grupo y asumir el rol de líder para encaminar al equipo hacia el cumplimiento de sus metas.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
 | <img src="https://hackmd.io/_uploads/B1F_iuso0.jpg" alt="yo-3" style="width: 600px ; height: 200px;">                                                                                                                                                            | Maycol Jhordan Rojas Velasquez – Ingeniería de Software – u202219984 Elegí la carrera de Ingeniería de Software debido a mi gusto por la innovación y la implementación de la tecnología en cualquier rubro social, de una manera creativa y en todos los aspectos. Me considero una persona creativa, en busca de ideas y estrategias con mente nueva. También me gusta escuchar ideas de mi equipo, dar propuestas de mejora, evaluar las ventajas y desventajas.Además, tengo conocimientos de programación en C++, HTML, Python, Angular, Backend en Java, y domino Flutter. También cuento con experiencia en LangChain aplicado con LLM y RAG.Tengo un enfoque responsable y dedicado, acompañado de un aprendizaje rápido, lo que me permite ayudar a mis compañeros en sus dudas. Por otro lado, mis hobbies son ver series, jugar, escuchar música, nadar y manejar. |
-
-
 </div>
 
 ### 1.2. Solution Profile
 
+VacApp es una aplicación hecha para ganaderos en Perú. Su propósito es ayudarles a manejar su ganado de manera más fácil y eficiente. La aplicación ofrece varias herramientas para llevar un control de la salud, alimentación y reproducción de los animales. Con esto, VacApp busca aumentar la productividad de los ganaderos, al mismo tiempo que fomenta prácticas ganaderas responsables y sostenibles, promoviendo el bienestar de los animales.
+
+### Características Principales:
+
+Nuestra plataforma, disponible para web y móviles, ofrece un conjunto de herramientas esenciales para una gestión integral y eficiente.
+
+- Monitoreo detallado: Permite llevar un seguimiento minucioso de elementos clave, asegurando que se les dé la atención necesaria en el momento justo.
+
+- Gestión de recursos: Facilita la planificación y el control de los recursos para garantizar un uso óptimo y sostenible.
+
+- Seguimiento de procesos: Ayuda a monitorizar ciclos y fases importantes, optimizando los resultados y la calidad.
+
+- Acceso a servicios profesionales: Proporciona un sistema para gestionar citas o consultas, mejorando el acceso a especialistas y evitando contratiempos por falta de atención.
+
+- Automatización de tareas: Simplifica la administración de las operaciones diarias, lo que te ayuda a ahorrar tiempo y esfuerzo en tareas rutinarias.
+
+- Comunidad y colaboración: Además de ser una herramienta de gestión, es un espacio para compartir ideas, buenas prácticas y estar al día con las últimas novedades del sector.
+
+### Beneficios Clave:
+
+Usar nuestra solución te ayuda a mejorar la productividad y la sostenibilidad.
+
+- Mejor gestión y resultados: Tendrás acceso a herramientas que te permiten hacer un seguimiento eficiente de tus operaciones, reduciendo pérdidas y mejorando los resultados.
+
+- Optimización de recursos: La plataforma permite una mejor administración de los recursos, lo que se traduce en mayor productividad y rentabilidad.
+
+- Acceso a tecnología sostenible: Promovemos el uso de tecnologías que fomentan prácticas más responsables y respetuosas con el entorno.
+
+- Reducción de costos: La automatización y la mejora en la gestión operativa te ayudan a reducir gastos y aumentar la eficiencia general.
+
+- Educación y apoyo continuo: La plataforma ofrece materiales educativos para que te mantengas siempre actualizado con las mejores prácticas y avances tecnológicos.
+
+### Tecnología y Diseño:
+
+Nuestra solución está diseñada para ser accesible desde cualquier lugar, ya sea en el navegador o a través de sus aplicaciones móviles para iOS y Android. Está construida con tecnología avanzada para asegurar un alto rendimiento y una experiencia de uso simple. Se basa en datos para ofrecer recomendaciones y análisis personalizados que mejoran la toma de decisiones. Además, permite la integración con otros sistemas y automatiza diversas tareas administrativas.
+
+
 #### 1.2.1. Antecedentes y problemática
+
+Gracias a la técnica de las "5W's & 2H's", se ha analizado el origen y la problemática que los ganaderos peruanos enfrentan diariamente, lo que motivó la creación de VacApp.
+
+### What? (¿Qué?)
+
+El sector ganadero en Perú tiene dificultades importantes para gestionar su ganado, incluyendo aspectos de salud, nutrición, reproducción y productividad. Esta situación se agrava por la falta de herramientas tecnológicas. Los ganaderos, especialmente los más pequeños, no cuentan con sistemas que les permitan hacer un seguimiento detallado de sus animales ni tomar decisiones bien fundamentadas. Esto afecta su capacidad para optimizar las operaciones y aumentar sus ganancias.
+
+### When? (¿Cuándo?)
+
+Este es un problema constante que requiere una solución actual y duradera. La necesidad de una plataforma tecnológica para gestionar la ganadería y mejorar la producción es una demanda permanente. Los ganaderos necesitan acceder a información actualizada y en tiempo real sobre la salud, alimentación, reproducción y comercialización de sus animales.
+
+### Where? (¿Dónde?)
+
+La dificultad se concentra en las áreas rurales y productivas de Perú, donde la mayoría de los ganaderos tienen poco acceso a servicios veterinarios y tecnología. Aunque la falta de conectividad a internet en algunas zonas es un obstáculo, el crecimiento de la red móvil permite que VacApp pueda funcionar en cualquier dispositivo móvil, accesible desde cualquier ubicación rural.
+
+### Who? (¿Quién?)
+
+Los principales afectados son los ganaderos peruanos, tanto los pequeños productores con recursos limitados como las grandes empresas que gestionan una gran cantidad de ganado y deben cumplir con estándares de bienestar animal. Veterinarios y otros profesionales del sector también se benefician de esta plataforma.
+
+### Why? (¿Por qué?)
+
+La falta de herramientas de gestión eficientes provoca una mala nutrición del ganado, enfermedades no tratadas a tiempo, baja productividad y pérdidas económicas. Tomar decisiones con información incompleta o errónea afecta directamente el bienestar animal y la rentabilidad. VacApp busca resolver esto, ofreciendo a los ganaderos una herramienta que les ayude a optimizar sus operaciones, mejorar la trazabilidad y tomar decisiones informadas.
+
+### How? (¿Cómo?)
+
+La solución de VacApp es una plataforma web y móvil que integra herramientas de gestión ganadera. La aplicación permite a los usuarios hacer un seguimiento de la salud, alimentación y reproducción de su ganado, generar reportes y recibir notificaciones importantes. Al usar tecnologías web y móviles de vanguardia, VacApp se adapta a las necesidades de los ganaderos de zonas rurales, permitiendo el acceso a datos en tiempo real desde cualquier dispositivo con conexión a internet.
+
+### How much? (¿Cuánto?)
+
+Aunque el costo de desarrollar y mantener VacApp depende de la inversión en tecnología y soporte, el retorno económico para los ganaderos es muy favorable. Les permitirá ser más rentables, optimizar recursos y reducir pérdidas. La plataforma también ayudará a disminuir los gastos en atención veterinaria al proporcionar datos que previenen enfermedades y mejoran la productividad.
+
 
 #### 1.2.2. Lean UX Process
 
 ##### 1.2.2.1. Lean UX Problem Statements
 
+Cuando los ganaderos de menor escala aún utilizaban métodos manuales y poco eficientes para gestionar sus rebaños, nuestra plataforma VacApp (tanto la versión web como la aplicación móvil) se presentó como una solución innovadora y accesible, ideal para el trabajo en el campo. Gracias a esto, logramos atraer a los primeros ganaderos interesados en modernizar sus operaciones y aumentar su eficiencia.
+
+Sin embargo, el panorama actual ha cambiado. El mercado ahora está saturado con nuevas empresas que ofrecen soluciones móviles similares, pero con mayores recursos financieros. Esta nueva situación ha provocado que el costo de adquirir nuevos clientes sea más alto, nuestra cuota de mercado se haya estancado y las demandas de soporte técnico hayan aumentado. Como consecuencia, nuestra rentabilidad ha disminuido y no podemos invertir lo suficiente en el desarrollo de nuevas funciones.
+
 ##### 1.2.2.2. Lean UX Assumptions
+
+### User Assumptions:
+
+Creemos que los ganaderos, sin importar su experiencia con la tecnología, valorarán una plataforma web y móvil que sea sencilla de usar, con una interfaz clara y accesible desde varios dispositivos.
+
+- Los usuarios adoptarán esta tecnología si les ayuda a ahorrar tiempo y a gestionar su ganado de forma más efectiva.
+
+- También suponemos que usarán la aplicación incluso en zonas con poca conexión a internet, siempre que funcione bien sin estar conectados.
+
+- La confianza de los ganaderos se ganará si la plataforma les demuestra beneficios reales, como una mayor productividad y una mejor salud de sus animales.
+
+- Como prefieren soluciones rápidas y prácticas, las funciones más importantes de la plataforma deben ser fáciles de encontrar y usar con solo unos pocos clics.
+
+### Bussiness Assumptions:
+
+Partimos de la base de que nuestra solución digital impactará positivamente en el negocio de la ganadería.
+
+- Si los ganaderos pueden llevar sus registros de forma digital, mejorarán la organización y el control de su inventario animal.
+
+- Al ofrecer recordatorios automáticos y herramientas para el cuidado del ganado, los productores podrán reducir los gastos por enfermedades y mejorar el bienestar de sus animales.
+
+- Si facilitamos la planificación de la alimentación, optimizarán sus recursos y evitarán desperdicios.
+
+- Permitir un seguimiento preciso de la reproducción ayudará a los ganaderos a incrementar la productividad.
+
+- Si la experiencia de uso es fluida y confiable, incluso sin conexión a internet, lograremos una mayor adopción en áreas rurales con conectividad limitada.
+
+- Y finalmente, si aseguramos la privacidad y seguridad de sus datos, los usuarios confiarán en nuestra plataforma y se sentirán cómodos al almacenar información crucial en ella.
+
+
 
 ##### 1.2.2.3. Lean UX Hypothesis Statements
 
+- Creemos que los ganaderos apreciarán una aplicación con una interfaz simple, porque esto les permitirá gestionar su ganado sin necesitar mucha capacitación. Lo sabremos cuando al menos un 70% de los usuarios registre a sus animales al usar la plataforma por primera vez, sin requerir ayuda.
+
+- Creemos que los usuarios adoptarán la plataforma si les ayuda a ahorrar tiempo en sus tareas diarias, porque prefieren dedicarse a actividades más productivas que a la administración. Lo sabremos cuando se logre una reducción del 40% en el tiempo promedio que dedican a los registros manuales.
+
+- Creemos que los ganaderos en zonas rurales usarán la aplicación si funciona sin conexión a internet, porque en sus áreas de trabajo la conectividad es limitada. Lo sabremos cuando el 60% de los usuarios active el modo sin conexión al menos una vez a la semana.
+
+- Creemos que los usuarios confiarán en la plataforma si garantizamos la privacidad de sus datos, porque manejan información crítica sobre su producción. Lo sabremos cuando menos del 5% de los usuarios exprese dudas sobre la seguridad en las encuestas de opinión.
+
+- Creemos que si resaltamos las funciones principales como la salud, alimentación y reproducción, los usuarios las usarán con frecuencia para la gestión de su ganado. Lo sabremos cuando estas funciones sumen al menos el 70% del uso total dentro de la aplicación.
+
+- Creemos que los usuarios notarán beneficios tangibles en la productividad y en la salud de su ganado, porque tendrán herramientas para tomar decisiones más informadas. Lo sabremos cuando el 60% de los usuarios reporte mejoras en el rendimiento de sus animales después de tres meses de uso.
+
 ##### 1.2.2.4. Lean UX Canvas
+
+
 
 ### 1.3. Segmentos objetivo
 
 La aplicación **VacApp** ha sido diseñada considerando las diversas realidades del sector ganadero peruano, abarcando tanto a pequeños productores independientes como a grandes empresas pecuarias. Cada segmento presenta necesidades, objetivos y desafíos específicos que nuestra plataforma busca atender con soluciones tecnológicas prácticas, accesibles, innovadoras y sostenibles.
-
 El análisis de cada grupo nos permite adaptar y mejorar constantemente nuestros servicios para ofrecerles el mayor valor posible.
 
 ### 1.3.1. Productores Ganaderos Independientes
@@ -297,14 +399,12 @@ Estas problemáticas limitan la competitividad, el bienestar animal y la sosteni
 Este segmento corresponde a corporaciones ganaderas de gran escala que manejan operaciones con altos volúmenes de animales. Se caracterizan por buscar eficiencia en la gestión, trazabilidad de procesos y cumplimiento de estándares de sostenibilidad.
 
 **Motivaciones:**
-
 - Implementar prácticas éticas y sostenibles de producción.
 - Garantizar una alimentación adecuada y atención individualizada para los animales.
 - Optimizar la gestión de establos, campañas de vacunación y control sanitario.
 - Mejorar su reputación y competitividad en mercados nacionales e internacionales.
 
 **Problemáticas principales:**
-
 - La ganadería contribuye de manera significativa a la deforestación en zonas amazónicas, representando entre el 49 % y el 80 % de la pérdida de bosques naturales.
 - Desde 2001, Perú ha perdido más de **2 millones de hectáreas** de bosques, en parte debido a la ampliación de tierras para uso ganadero.
 
@@ -325,7 +425,6 @@ Estos impactos ambientales comprometen la sostenibilidad del sector y tienen con
 - Edad: Mayores de 18 años
 
 **Psicográficas:**
-
 - Nivel socioeconómico: Todos los niveles (NSE bajo, medio y alto)
 - Personalidad: Perseverantes, honestos, con fuerte compromiso hacia el trabajo, altruistas y resilientes ante la adversidad.
 
@@ -623,10 +722,10 @@ Se realizaron entrevistas a dos segmentos clave del sector ganadero: Productores
 ###### Gestión del Personal y Proveedores
 
 - Requieren funcionalidades para:
-  - Asignación de tareas.
-  - Control de desempeño del personal.
-  - Comunicación interna.
-  - Registro de incidentes.
+    - Asignación de tareas.
+    - Control de desempeño del personal.
+    - Comunicación interna.
+    - Registro de incidentes.
 - Interacción con proveedores: seguimiento de pedidos, inventarios y negociación.
 
 ###### Personalización y Adaptabilidad
@@ -1132,6 +1231,57 @@ Este flujo está diseñado para facilitar al agregar ya sea un bovino, una campa
 <img src="./assets/3w.png" style="width: 400px">
 
 #### 4.4.3. Mobile Applications Mock-ups
+**Inicio Sesion**
+
+<img src="./assets/singin.png" style="width: 400px">
+
+**Registro**
+
+<img src="./assets/singup.png" style="width: 400px">
+
+
+**Planes**
+
+<img src="./assets/planes.png" style="width: 400px">
+
+**Home**
+
+<img src="./assets/home.png" style="width: 400px">
+<img src="./assets/home2.png" style="width: 400px">
+<img src="./assets/home3.png" style="width: 400px">
+
+**Animals**
+
+<img src="./assets/animal.png" style="width: 400px">
+
+<img src="./assets/animalinfo.png" style="width: 400px">
+
+
+
+**Inventario**
+
+<img src="./assets/inventario.png" style="width: 400px">
+
+<img src="./assets/inventarioinfo.png" style="width: 400px">
+
+**Campaña**
+
+<img src="./assets/organization.png" style="width: 400px">
+
+
+**vista de "Agregar Animal"**
+
+<img src="./assets/animaladd.png" style="width: 400px">
+
+
+**vista de "Agregar Inventario"**
+
+<img src="./assets/productadd.png" style="width: 400px">
+
+
+**vista de "Agregar Campaña"**
+
+<img src="./assets/campaniaadd.png" style="width: 400px"
 
 **Inicio Sesion**
 
@@ -1372,6 +1522,10 @@ Este flujo está diseñado para facilitar al agregar ya sea un bovino, una campa
 ### 4.7. Web Applications Prototyping
 
 ### 4.8. Domain-Driven Software Architecture
+En esta sección se presenta la arquitectura de software de **VacApp**, diseñada bajo el enfoque de **Domain-Driven Design (DDD)**.  
+El objetivo es ofrecer una visión clara de cómo los distintos dominios del sistema (gestión de ganado, campañas de vacunación, establos, usuarios, entre otros) se estructuran y cómo interactúan con los actores externos y los servicios complementarios.
+
+Se emplean diagramas **C4** para ilustrar distintos niveles de detalle, desde el contexto general hasta los componentes principales de la solución.
 
 En esta sección se presenta la arquitectura de software de **VacApp**, diseñada bajo el enfoque de **Domain-Driven Design (DDD)**.  
 El objetivo es ofrecer una visión clara de cómo los distintos dominios del sistema (gestión de ganado, campañas de vacunación, establos, usuarios, entre otros) se estructuran y cómo interactúan con los actores externos y los servicios complementarios.
