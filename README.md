@@ -1147,9 +1147,56 @@ Este nivel de detalle muestra cómo los componentes colaboran entre sí dentro d
 
 #### 5.2.2. Implemented Landing Page Evidence
 
+Durante el desarrollo de los Sprints, se completó y desplegó exitosamente la landing page del proyecto VacApp. Esta página presenta el modelo de negocio, integra una barra de navegación funcional, secciones informativas clave y un formulario de contacto operativo que permite a los usuarios dejar su información de manera efectiva.
+
+El sitio fue desarrollado aplicando principios de Responsive Web Design para asegurar una experiencia de usuario óptima en dispositivos móviles, tabletas y computadoras de escritorio. Las pruebas de visualización en múltiples resoluciones confirmaron su correcto funcionamiento.
+
+Asimismo, se implementó la metodología GitFlow, lo que permitió organizar eficientemente el trabajo del equipo mediante ramas específicas para desarrollo, pruebas y producción, asegurando la estabilidad de la rama principal.
+
+La landing page de VacApp se encuentra publicada y accesible en el siguiente enlace:
+[https://vacapp-landing.netlify.app/](https://vacapp-landing.netlify.app/)
+
+A continuación, se presentan las imágenes que evidencian los avances logrados durante este Sprint:
+
+  <img src="./assets/I1.png" style="width: 400px">  
+  <img src="./assets/i2.png" style="width: 400px"> 
+  <img src="./assets/I3.png" style="width: 400px"> 
+  <img src="./assets/I4.png" style="width: 400px"> 
+
 #### 5.2.3. Implemented Frontend-Web Application Evidence
 
 #### 5.2.4. Implemented Native-Mobile Application Evidence
+Durante los Sprints del proyecto, se logró desarrollar e implementar por completo la aplicación móvil de VacApp, cumpliendo con las funcionalidades clave definidas para la solución. La app integra de manera efectiva las características relacionadas con la gestión ganadera, permitiendo a los usuarios registrar bovinos, gestionar vacunas, organizar establos, y realizar un seguimiento de la salud y productividad del ganado.
+
+Además, se incluyeron vistas para la gestión de usuarios, control de campañas de vacunación, reportes y estadísticas, asegurando una experiencia de usuario coherente y fluida en dispositivos móviles.
+
+Este desarrollo fue acompañado por pruebas funcionales continuas durante los sprints, garantizando el cumplimiento de los requisitos establecidos y la alineación con los flujos definidos previamente en los prototipos elaborados en Figma. La aplicación móvil de VacApp se encuentra lista para ser validada en un entorno real de usuarios y continuar su evolución en próximos ciclos de mejora.
+
+![flutter_evidence](assets/evidencia_flutter.JPG)
+
+<p align="center">
+  <img src="./assets/sign_up_flutter.JPG" width="300" />
+  <img src="./assets/home_flutter.JPG" width="300" />
+  <img src="./assets/animales_flutter.JPG" width="300" />
+</p>
+
+<p align="center">
+  <img src="./assets/gestion_flutter.JPG" width="300" />
+  <img src="./assets/establos_flutter.JPG" width="300" />
+  <img src="./assets/perfil_flutter.JPG" width="300" />
+</p>
+
+<p align="center">
+  <img src="./assets/personal_flutter.JPG" width="300" />
+  <img src="./assets/animales_establo_flutter.JPG" width="300" />
+  <img src="./assets/vacunas_flutter.JPG" width="300" />
+</p>
+
+<p align="center">
+  <img src="./assets/detalles_bovino_flutter.JPG" width="300" />
+  <img src="./assets/registro_bovino_flutter.JPG" width="300" />
+  <img src="./assets/gestion_campaña_flutter.JPG" width="300" />
+</p>
 
 #### 5.2.5. Implemented RESTful API and/or Serverless Backend Evidence
 
@@ -1157,9 +1204,41 @@ Este nivel de detalle muestra cómo los componentes colaboran entre sí dentro d
 
 #### 5.2.7. Team Collaboration Insights
 
+Durante el desarrollo del Sprint 1, el equipo colaboró activamente en el repositorio del Informe, utilizando herramientas como GitHub, Trello y Discord para coordinar tareas, compartir avances y resolver dudas de forma continua.  
+
+Se realizaron reuniones semanales para planificación y revisión, así como sesiones diarias breves (dailys) para mantener sincronizado el trabajo entre los integrantes.
+
+A continuación, gracias a la sección de Insights de GitHub, se presentan gráficas que muestran el nivel de participación de cada miembro del equipo en el repositorio del Informe.
+
+
+#### Tabla de identificación del equipo
+
+| Username (GitHub) | Nombre completo | Código de estudiante |
+|-------------------|-----------------|----------------------|
+| @Libeman10        | Rodrigo Liberato Saldaña | U202215623 |
+| @IanMQ            | Ian Macavilca Quispe     | U202121325 |
+| @Kmykh    | Maycol Rojas Velasquez   | U202219984 |
+| @Stephanoescu     | Stephano Espinoza Cueva  | U202218590 |
+| @Kmykh            | Jeremy Paucar Meneses    | U201919449 |
+
+#### Analíticos de GitHub
+
+**Informe**  
+
+![contributor-evidence-informe](./assets/insights.png)
+
+Las gráficas demuestran que todos los integrantes realizaron contribuciones significativas en el repositorio del Informe, reflejando una distribución equilibrada de tareas y un compromiso constante con el avance del proyecto.
+
 ### 5.3. Video About-the-Product
 
----
+Con el objetivo de complementar la documentación y ofrecer una visión más clara del alcance de VacApp, se ha elaborado un video de presentación denominado About The Product.  
+
+Este recurso audiovisual explica de manera concisa las funcionalidades principales de la aplicación, su propuesta de valor y cómo contribuye a optimizar la gestión del ganado bovino. Asimismo, permite a los interesados obtener una experiencia más cercana al producto, facilitando la comprensión de sus características y beneficios en un formato dinámico y accesible.  
+
+![contributor-evidence-informe](./assets/PUBLICIDAD.png)
+
+El video se encuentra disponible en el siguiente enlace:  
+[https://www.youtube.com/watch?v=JmOW2IkXjeI](https://www.youtube.com/watch?v=JmOW2IkXjeI)
 
 ## Final
 
