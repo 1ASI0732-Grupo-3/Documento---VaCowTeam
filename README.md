@@ -1940,6 +1940,226 @@ Este desarrollo fue acompañado por pruebas funcionales continuas durante los sp
 
 #### 5.2.6. RESTful API documentation
 
+La documentación de la **API RESTful** del backend del proyecto **VacApp** fue desarrollada siguiendo las mejores prácticas de la industria, utilizando herramientas especializadas como **Swagger (OpenAPI 3)** y **Postman**. Esta documentación integral facilita a los desarrolladores la consulta, comprensión y prueba de los endpoints disponibles, optimizando la integración con el frontend y otros sistemas externos.
+
+### Herramientas de Documentación
+
+#### Swagger (OpenAPI 3)
+**Swagger** constituye la herramienta principal para la generación automática de documentación interactiva de la API. Esta plataforma proporciona una interfaz visual completa que incluye:
+
+**Características principales:**
+- **Especificación detallada de endpoints:** Tipo de solicitud (GET, POST, PUT, DELETE)
+- **Validación de parámetros:** Documentación exhaustiva de parámetros de entrada y sus validaciones
+- **Ejemplos de respuesta:** Casos de uso en formato JSON para cada endpoint
+- **Manejo de errores:** Documentación completa de códigos de estado HTTP y mensajes de error
+- **Testing integrado:** Capacidad de probar endpoints directamente desde la interfaz sin herramientas externas
+
+#### Postman Collection
+**Postman** complementa la documentación de Swagger mediante la realización de pruebas exhaustivas y validaciones de escenarios reales:
+
+**Funcionalidades implementadas:**
+- **Pruebas manuales automatizadas** para validar el comportamiento de la API
+- **Validación de escenarios complejos** que incluyen casos de éxito y error
+- **Testing de integración** para asegurar la correcta comunicación entre servicios
+- **Documentación de casos de uso** específicos del dominio ganadero
+
+---
+
+### Estructura de la API
+
+#### Sistema de Autenticación
+VacApp implementa un sistema de autenticación robusto basado en **tokens JWT (JSON Web Tokens)** que garantiza la seguridad y trazabilidad de las operaciones:
+
+**Endpoints de autenticación:**
+- **Registro:** `POST /api/v1/authentication/sign-up`
+- **Inicio de sesión:** `POST /api/v1/authentication/sign-in`
+
+**Configuración de headers:**
+```http
+Authorization: Bearer <JWT_Token>
+Content-Type: application/json
+```
+
+>  **Importante:** Todos los endpoints (excepto autenticación) requieren el token JWT en el header de autorización.
+
+---
+
+### Endpoints Principales
+
+#### Gestión de Bovinos
+
+**Obtener bovino específico**
+```http
+GET /api/v1/bovines/{id}
+```
+Recupera información detallada de un bovino específico por su ID.
+
+**Registrar nuevo bovino**
+```http
+POST /api/v1/bovines
+```
+
+**Ejemplo de respuesta exitosa:**
+```json
+{
+  "id": 12,
+  "name": "Toro Brangus",
+  "birthDate": "2023-07-20",
+  "weight": 380,
+  "breed": "Brangus",
+  "gender": "Macho",
+  "stableId": 3,
+  "healthStatus": "Saludable",
+  "createdAt": "2025-08-10T18:23:01Z",
+  "updatedAt": "2025-08-10T18:23:01Z"
+}
+```
+
+#### Gestión de Establos
+
+**Listar todos los establos**
+```http
+GET /api/v1/stables
+```
+
+**Crear nuevo establo**
+```http
+POST /api/v1/stables
+```
+
+**Ejemplo de respuesta:**
+```json
+{
+  "id": 3,
+  "name": "Establo Central",
+  "capacity": 50,
+  "currentOccupancy": 32,
+  "location": "Lima, Perú",
+  "status": "Activo",
+  "createdAt": "2025-08-10T18:23:01Z"
+}
+```
+
+#### Gestión de Vacunas
+
+**Obtener información de vacuna**
+```http
+GET /api/v1/vaccines/{id}
+```
+
+**Registrar nueva vacuna**
+```http
+POST /api/v1/vaccines
+```
+
+**Ejemplo de respuesta:**
+```json
+{
+  "id": 8,
+  "name": "Vacuna Aftosa",
+  "type": "Sanitaria",
+  "description": "Vacuna contra fiebre aftosa",
+  "applicationDate": "2025-08-15",
+  "expirationDate": "2026-08-15",
+  "veterinarian": "Dr. García",
+  "bovineId": 12,
+  "status": "Aplicada"
+}
+```
+
+
+#### Gestión de Campañas
+
+**Consultar detalles de campaña**
+```http
+GET /api/v1/campaigns/{id}
+```
+
+**Registrar nueva campaña**
+```http
+POST /api/v1/campaigns
+```
+
+**Ejemplo de respuesta:**
+```json
+{
+  "id": 5,
+  "name": "Campaña Antiparasitaria",
+  "description": "Campaña de desparasitación general",
+  "startDate": "2025-09-01",
+  "endDate": "2025-09-15",
+  "status": "Activa",
+  "responsibleVet": "Dr. Rodríguez",
+  "targetAnimals": 150,
+  "completedAnimals": 45,
+  "progress": 30
+}
+```
+
+---
+
+### Códigos de Estado HTTP
+
+La API implementa un manejo estandarizado de códigos de estado HTTP para facilitar la depuración y el desarrollo:
+
+| Código | Descripción | Escenario |
+|--------|-------------|-----------|
+| `200 OK` | Operación exitosa | Consultas y actualizaciones correctas |
+| `201 Created` | Recurso creado exitosamente | Registro de nuevos bovinos, establos, etc. |
+| `400 Bad Request` | Parámetros incorrectos o datos inválidos | Validaciones fallidas |
+| `401 Unauthorized` | Token JWT inválido o no proporcionado | Problemas de autenticación |
+| `403 Forbidden` | Permisos insuficientes | Restricciones de acceso por rol |
+| `404 Not Found` | El recurso solicitado no existe | Bovino, establo o campaña no encontrado |
+| `409 Conflict` | Conflicto de recursos | Nombres duplicados, restricciones de negocio |
+| `500 Internal Server Error` | Error inesperado en el servidor | Errores no controlados |
+
+
+### Validación y Testing
+
+#### Estrategia de Pruebas
+La API ha sido sometida a pruebas exhaustivas utilizando múltiples enfoques:
+
+**Pruebas automatizadas en Swagger:**
+-  Validación de sintaxis de requests/responses
+-  Verificación de códigos de estado HTTP
+-  Testing de autenticación JWT
+
+**Pruebas manuales en Postman:**
+-  Escenarios de uso real del dominio ganadero
+-  Validación de reglas de negocio específicas
+-  Testing de restricciones (ej: capacidad máxima de establos)
+-  Pruebas de rendimiento y carga
+
+#### Casos de Prueba Validados
+- **Autenticación:** Login/logout, expiración de tokens, roles de usuario
+- **Gestión de bovinos:** Registro, consulta, actualización, eliminación
+- **Campañas de vacunación:** Creación, seguimiento, finalización
+- **Restricciones de negocio:** Capacidad de establos, fechas de vacunación
+
+### Seguridad y Autenticación
+
+#### Implementación JWT
+La seguridad de VacApp se fundamenta en el uso de **JSON Web Tokens (JWT)** con las siguientes características:
+
+**Configuración de seguridad:**
+- **Algoritmo de encriptación:** HS256
+- **Tiempo de expiración:** 24 horas
+- **Refresh token:** Implementado para renovación automática
+- **Roles y permisos:** Sistema granular de autorización
+
+**Ejemplo de solicitud autenticada:**
+```http
+GET /api/v1/bovines/12
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyfQ.SflKxwRJSMeKKF2QT4fwpMeJf36POk6yJV_adQssw5c
+Content-Type: application/json
+```
+
+#### Medidas de Seguridad Adicionales
+- **Rate limiting:** Prevención de ataques de fuerza bruta
+- **CORS configurado:** Restricción de orígenes permitidos
+- **Validación de entrada:** Sanitización de todos los parámetros
+- **Logging de auditoría:** Trazabilidad completa de operaciones
+
 #### 5.2.7. Team Collaboration Insights
 
 Durante el desarrollo del Sprint 1, el equipo colaboró activamente en el repositorio del Informe, utilizando herramientas como GitHub, Trello y Discord para coordinar tareas, compartir avances y resolver dudas de forma continua.  
