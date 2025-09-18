@@ -1498,7 +1498,7 @@ Este flujo está diseñado para facilitar al agregar ya sea un bovino, una campa
 
 **vista de "Agregar Campaña"**
 
-<img src="./assets/M_add_camp.png" style="width: 400px"
+<img src="./assets/M_add_camp.png" style="width: 400px">
 
 #### 4.6.4. Web Applications User Flow Diagrams
 
