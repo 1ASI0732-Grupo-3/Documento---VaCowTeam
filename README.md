@@ -1977,6 +1977,49 @@ Este recurso audiovisual explica de manera concisa las funcionalidades principal
 El video se encuentra disponible en el siguiente enlace:  
 [https://www.youtube.com/watch?v=JmOW2IkXjeI](https://www.youtube.com/watch?v=JmOW2IkXjeI)
 
-## Final
+## Conclusiones
 
-### Avance de Conclusiones, Bibliografía y Anexos (links)
+1. La aplicación VacApp evidencia cómo el uso de Domain-Driven Design (DDD) y la definición clara de bounded contexts permiten construir soluciones robustas y escalables para la gestión ganadera. La integración de módulos como Campaign Management, Ranch Management y Staff Administration ha facilitado una arquitectura limpia, adaptable y alineada con las necesidades reales de los usuarios, asegurando la evolución continua del producto.
+
+2. El desarrollo de VacApp se caracterizó por la constante interacción con los usuarios finales, empleando entrevistas, mapeos de escenarios, user stories y análisis de impacto. El uso de metodologías ágiles como *Scrum* y herramientas como Lean UX permitió identificar y priorizar necesidades reales, logrando entregas funcionales frecuentes y una mejora continua en la experiencia del usuario ganadero.
+
+3. El trabajo colaborativo en VacApp no solo resultó en un producto funcional, sino que también impulsó el desarrollo de habilidades clave en el equipo, como el diseño de arquitecturas por capas, modelado de bases de datos, diseño de interfaces y aplicación de patrones estratégicos y tácticos de DDD. La gestión eficiente del proyecto y la comunicación constante consolidaron una visión profesional y una cultura de mejora continua dentro del equipo.
+
+##  Bibliografía
+
+- Cohn, M. (2004). *User Stories Applied: For Agile Software Development*. Addison-Wesley.
+- Evans, E. (2004). *Domain-Driven Design: Tackling Complexity in the Heart of Software*. Addison-Wesley.
+- Evans, E. (2015). *Domain-Driven Design Reference: Definitions and Pattern Summaries*. Domain Language, Inc. https://www.domainlanguage.com/ddd/reference/
+- Fowler, M. (2003). *Patterns of Enterprise Application Architecture*. Addison-Wesley.
+- Gothelf, J. (2013). *Lean UX: Applying Lean Principles to Improve User Experience*. O’Reilly Media.
+- ISO/IEC/IEEE 12207:2017 – *Systems and software engineering – Software life cycle processes*.
+- Poppendieck, M., & Poppendieck, T. (2003). *Lean Software Development: An Agile Toolkit*. Addison-Wesley.
+- Vernon, V. (2013). *Implementing Domain-Driven Design*. Addison-Wesley.
+
+
+
+##  Anexos
+Aplicación: https://appdistribution.firebase.dev/i/b5b8b0a89363391d
+
+### Videos
+
+About The Product: https://youtu.be/JmOW2IkXjeI
+
+### Mockups
+
+Figma: https://www.figma.com/design/Ck5RdO3MzAm16SIReLDO15/Sin-t%C3%ADtulo?node-id=150-5796&t=hGN3YL7RfASQ5FFk-1
+
+### Repositorios
+
+Documentation: https://github.com/1ASI0732-Grupo-3/Documento---VaCowTeam
+
+Backend: https://github.com/1ASI0732-Grupo-3/Bacckend-VacApp
+
+Mobile App: https://github.com/1ASI0732-Grupo-3/Mobile--VacApp
+
+Landing Page: https://github.com/1ASI0732-Grupo-3/Landing-Page----VacApp
+
+
+### TB1
+
+Landing Page: https://vacapp-landing.netlify.app/
