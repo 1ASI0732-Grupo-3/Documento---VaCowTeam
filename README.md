@@ -70,8 +70,8 @@
 
 | Métrica                     | Descripción |
 | --------------------------- | ----------- |
-| Número de commits por autor |             |
-| Historial de cambios        |             |
+| Número de commits por autor |![Pruebas1](/assets/insights.png)|
+| Historial de cambios        |![Pruebas1](/assets/networkgraph.png)|
 
 #### 4. Participación de Todos los Miembros del Equipo
 
