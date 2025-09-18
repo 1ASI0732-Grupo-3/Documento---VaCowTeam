@@ -1860,10 +1860,75 @@ A continuación, se presentan las imágenes que evidencian los avances logrados 
   <img src="./assets/I4.png" style="width: 400px">
 
 #### 5.2.3. Implemented Frontend-Web Application Evidence
-Además del desarrollo de la aplicación móvil de VacApp, se inició el desarrollo de la apliación web. La app debe integrar de manera efectiva las características relacionadas con la gestión ganadera, permitiendo a los usuarios registrar bovinos, gestionar vacunas, organizar establos, y realizar un seguimiento de la salud y productividad del ganado, a fin de estar al mismo nivel de funcionalidad de la apliación móvil.
 
-![web_evidence1](assets/webapp1.PNG)
-![web_evidence2](assets/webapp2.PNG)
+Además del desarrollo de la aplicación móvil de VacApp, se desarrolló paralelamente la **aplicación web** como parte de la estrategia multiplataforma del proyecto. Esta implementación web busca ofrecer una experiencia completa y funcional que permita a los usuarios acceder a todas las funcionalidades desde cualquier dispositivo con navegador.
+
+### Características de la Aplicación Web
+
+La aplicación web de VacApp ha sido desarrollada siguiendo los principios de **Responsive Web Design**, garantizando una experiencia óptima tanto en dispositivos de escritorio como en tablets. Las funcionalidades implementadas incluyen:
+
+**Gestión Integral del Ganado:**
+-  Registro y actualización de información de bovinos
+-  Control de salud y seguimiento veterinario
+-  Gestión de ciclos reproductivos y genealogía
+-  Trazabilidad completa de cada animal
+
+**Administración de Establos:**
+-  Organización y capacidad de instalaciones
+-  Asignación de animales por establo
+-  Control de ocupación y distribución
+
+**Campañas de Vacunación:**
+-  Planificación de campañas sanitarias
+-  Programación de vacunas y tratamientos
+-  Seguimiento del progreso de campañas
+
+**Dashboard y Reportes:**
+-  Panel de control con métricas clave
+-  Reportes de productividad y salud
+-  Análisis de tendencias y estadísticas
+
+### Evidencias de Implementación
+
+**Interfaz de Inicio de Sesión:**
+La pantalla de autenticación implementa las mejores prácticas de seguridad y UX, con validación en tiempo real y diseño responsive.
+
+![Evidencia Web - Login](assets/webapp1.PNG)
+
+**Dashboard Principal:**
+El panel principal muestra métricas importantes, accesos rápidos a funciones clave y una navegación intuitiva que facilita el trabajo diario del ganadero.
+
+![Evidencia Web - Dashboard](assets/webapp2.PNG)
+
+### Tecnologías Implementadas
+
+- **Frontend:** React.js con TypeScript
+- **UI Framework:** Angular Material / Bootstrap
+- **Estado:** Redux Toolkit para gestión de estado
+- **Autenticación:** JWT con refresh tokens
+- **Responsive:** CSS Grid y Flexbox
+- **Build:** Vite para optimización de rendimiento
+
+### Acceso y Deployment
+
+La aplicación web está desplegada en **Firebase Hosting**, garantizando alta disponibilidad, CDN global y certificados SSL automáticos.
+
+🔗 **Enlace de acceso:** [https://vacapp-frontend.web.app/auth/login](https://vacapp-frontend.web.app/auth/login)
+
+**Características del deployment:**
+-  Carga rápida con optimización automática
+-  Acceso global mediante CDN
+-  HTTPS habilitado por defecto
+-  Compatible con PWA (Progressive Web App)
+
+### Próximas Funcionalidades
+
+En las siguientes iteraciones se planea implementar:
+- Módulo avanzado de reportes y analytics
+- Sistema de notificaciones push para web
+- Captura y gestión de imágenes del ganado
+- Integración con mapas para ubicación de establos
+- Funcionalidades offline con Service Workers
 
 #### 5.2.4. Implemented Native-Mobile Application Evidence
 
