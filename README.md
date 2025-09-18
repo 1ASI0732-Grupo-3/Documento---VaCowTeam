@@ -1876,6 +1876,10 @@ A continuación, se presentan las imágenes que evidencian los avances logrados 
   <img src="./assets/I4.png" style="width: 400px"> 
 
 #### 5.2.3. Implemented Frontend-Web Application Evidence
+Además del desarrollo de la aplicación móvil de VacApp, se inició el desarrollo de la apliación web. La app debe integrar de manera efectiva las características relacionadas con la gestión ganadera, permitiendo a los usuarios registrar bovinos, gestionar vacunas, organizar establos, y realizar un seguimiento de la salud y productividad del ganado, a fin de estar al mismo nivel de funcionalidad de la apliación móvil.
+
+![web_evidence1](assets/webapp1.PNG)
+![web_evidence2](assets/webapp2.PNG)
 
 #### 5.2.4. Implemented Native-Mobile Application Evidence
 Durante los Sprints del proyecto, se logró desarrollar e implementar por completo la aplicación móvil de VacApp, cumpliendo con las funcionalidades clave definidas para la solución. La app integra de manera efectiva las características relacionadas con la gestión ganadera, permitiendo a los usuarios registrar bovinos, gestionar vacunas, organizar establos, y realizar un seguimiento de la salud y productividad del ganado.
