@@ -1,43 +1,55 @@
+
+<br><br><br>
+
 <p align="center">
-  <img src="assets/upc_logo.png" alt="Logo de la UPC" />
+<img src="https://hackmd.io/_uploads/ryJoz7YcR.png" alt="Logo" style="width:200px;height:auto;"></p>
+
+<br><br>
+
+<p align="center">
+  <strong style="font-size: 20px;">UNIVERSIDAD PERUANA DE CIENCIAS APLICADAS</strong>
+  <strong style="font-size: 18px;">FACULTAD DE INGENIERÍA</strong>
+  <strong style="font-size: 16px;">PROGRAMA ACADÉMICO DE INGENIERÍA DE SOFTWARE</strong>
+  <strong style="font-size: 14px;">11ASI0732-2520-7491 - DISEÑO DE EXPERIMENTOS DE INGENIERÍA DE SOFTWARE</strong>
 </p>
 <p align="center">
-  <strong>UNIVERSIDAD PERUANA DE CIENCIAS APLICADAS</strong><br>
-  <strong>FACULTAD DE INGENIERÍA</strong><br>
-  <strong>PROGRAMA ACADÉMICO DE INGENIERÍA DE SOFTWARE</strong><br>
-  <strong>11ASI0732-2520-7491 - DISEÑO DE EXPERIMENTOS DE INGENIERÍA DE SOFTWARE</strong>
+  <span style="font-size: 2.5em; font-weight: bold; font-style: italic;">VacApp</span><br>
+  <span style="font-size: 1.8em; font-weight: bold; font-style: italic;">TB1</span>
 </p>
 
 <p align="center">
-  <span style="font-size: 2em;"><em><strong>VacApp</strong></em></span><br>
-  <span style="font-size: 2em;"><em><strong>TB1</strong></em></span>
+  <strong style="font-size: 18px;">DOCENTE:</strong><br>
+  <span style="font-size: 16px;">Ivan Robles Fernandez</span>
 </p>
-
 <p align="center">
-  <strong>DOCENTE:</strong><br>
-  Ivan Robles Fernandez
+  <strong style="font-size: 18px;">STARTUP:</strong><br>
+  <span style="font-size: 16px;">Vacow Team</span>
 </p>
-
 <p align="center">
-  <strong>STARTUP:</strong><br>
-  Vacow Team
+  <strong style="font-size: 18px;">INTEGRANTES DEL EQUIPO:</strong>
 </p>
-
-<h3 align="center">Team Members:</h3>
 
 <div align="center">
 
-| **Member**               | **Code**   |
-| ------------------------ | ---------- |
-| Saldana,Rodrigo Liberato | U202215623 |
-| Macavilca Quispe, Ian    | U202121325 |
-| Rojas Velasquez, Maycol  | U202219984 |
-| Espinoza Cueva, Stephano | U202218590 |
-| Paucar Meneses, Jeremy   | U201919449 |
+**Saldaña Liberato, Rodrigo**  
+`Código: U202215623`
+
+**Macavilca Quispe, Ian**  
+`Código: U202121325`
+
+**Rojas Velasquez, Maycol**  
+`Código: U202219984`
+
+**Espinoza Cueva, Stephano**  
+`Código: U202218590`
+
+**Paucar Meneses, Jeremy**  
+`Código: U201919449`
 
 </div>
+<p align="center"><strong style="font-size: 18px;">Septiembre 2025</strong></p>
 
-<p align="center"><strong>Septiembre 2025</strong></p>
+<div style="page-break-before: always;"></div>
 
 # Registro de Versiones del Informe
 
@@ -68,8 +80,8 @@
 
 | Métrica                     | Descripción                           |
 | --------------------------- | ------------------------------------- |
-| Número de commits por autor | ![Pruebas1](/assets/insights.png)     |
-| Historial de cambios        | ![Pruebas1](/assets/networkgraph.png) |
+| Número de commits por autor | ![Pruebas1](assets/insights.png)     |
+| Historial de cambios        | ![Pruebas1](assets/networkgraph.png) |
 
 #### 4. Participación de Todos los Miembros del Equipo
 
@@ -78,10 +90,6 @@
 | Contribuciones en GitHub  | Cada integrante del equipo completó sus tareas y subió sus avances al repositorio de GitHub. Adempas, cada uno colaboró revisando el trabajo de sus compañeros. |
 | Discusiones y actividades | Se organizaron encuentros virtuales para compartir avances, resolver dudas y atender los desafíos de cada actividad.                                            |
 | Exposiciones del proyecto | Se llevaron a cabo sesiones para exponer el trabajo realizado antes de la fecha orrespondiente y prepararnos adecuadamente para la presentación final.          |
-
-# Tabla de Contenidos
-
-## Capítulo I: Introducción
 
 # Tabla de Contenidos
 
@@ -195,21 +203,22 @@
 - [Bibliografía](#62-bibliografía)
 - [Anexos](#63-anexos)
 
+<div style="page-break-before: always;"></div>
+
 # STUDENT OUTCOME
 
 El curso contribuye al cumplimiento del Student Outcome ABET:
 
 ##### ABET – EAC - Student Outcome 4
 
-Criterio: La capacidad de reconocer responsabilidades éticas y profesionales en
-situaciones de ingeniería y hacer juicios informados, que deben considerar el
-impacto de las soluciones de ingeniería en contextos globales, económicos,
-ambientales y sociales.
+**Criterio:** La capacidad de reconocer responsabilidades éticas y profesionales en situaciones de ingeniería y hacer juicios informados, que deben considerar el impacto de las soluciones de ingeniería en contextos globales, económicos, ambientales y sociales.
 
 | **Criterio específico**                                                                                                                                      | **Acciones realizadas**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      | **Conclusiones**                                                                                                                                                                      |
 | ------------------------------------------------------------------------------------------------------------------------------------------------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | 4.c.1 Reconoce responsabilidad ética y profesional en situaciones de ingeniería de software                                                                  | <br><br> 1. Rojas Velasquez, Maycol Jhordan<br>_TB1:_<br> Apliqué buenas prácticas en la elaboración de la documentación técnica, asegurando transparencia en los procesos y citando correctamente las fuentes de información utilizadas. <br><br> 2. Espinoza Cueva, Stephano Jose<br>TB1:<br> Me involucré de lleno en definir qué era más urgente y en cómo íbamos a entregar el producto, participando en la priorización de requisitos y la planificación de entregables. Mi enfoque principal fue garantizar que todas las decisiones se basaran en lo que los usuarios realmente necesitaban, evitando modas o suposiciones sin fundamento. Fui responsable de considerar el impacto que cada elección tendría en el resultado final y en la experiencia del usuario (FrontEnd), actuando siempre bajo una perspectiva ética y profesional. <br><br> 3. Rodrigo Liberato<br>_TB1:_<br> Elaboré documentación clara sobre las historias de usuario y realicé la configuración del entorno de desarrollo y despliegue del producto, garantizando orden y transparencia en los procesos. <br><br> 4. Macavilca Quispe, Ian <br>_TB1:_<br> Elaboré el web app UI/UX design, así como el web prototyping; así mismo trabaje en el deployment. <br><br> 5. Jeremy Paucar Meneses<br>_TB1:_<br> Elabore la documentación sobre los competidores, así mismo los user persona para cada segmento objetivo, empathy mapping y el ubiquitous languaje  | Se reconoce la importancia de actuar con responsabilidad profesional al elaborar entregables que reflejen veracidad, claridad y compromiso ético en el desarrollo de software.        |
 | 4.c.2 Emite juicios informados considerando el impacto de las soluciones de ingeniería de software en contextos globales, económicos, ambientales y sociales | <br><br> 1. Rojas Velasquez, Maycol Jhordan<br>_TB1:_<br> Analicé cómo la solución propuesta (VacApp) impacta en la eficiencia de la ganadería, promoviendo prácticas sostenibles que favorecen al sector económico y respetan el medio ambiente. <br><br> 2. Espinoza Cueva, Stephano Jose<br>TB1:<br> Al diseñar las propuestas, siempre mantuve una visión global, pensando en cómo nuestro producto afectaría a distintos usuarios y escenarios. Esto implicó analizar el impacto en diversos contextos y ajustar las decisiones para evitar dejar a alguien fuera. Gracias a esta postura, logramos tomar decisiones más sensatas, asegurando que nuestro trabajo no solo fuera funcional, sino también útil socialmente y sostenible económicamente para el público al que queríamos llegar. <br><br> 3. Rodrigo Liberato<br>_TB1:_<br> Documenté las funcionalidades del producto y configuré su despliegue, valorando cómo estas acciones facilitan el trabajo en equipo y la eficiencia operativa, con impacto positivo en la organización y su entorno.  <br><br> 4. Macavilca Quispe, Ian <br>_TB1:_<br> Consideré la funcionalidad y pracidada en la elaboración del web app UI/UX design, así como en el web prototyping. <br><br> 4. Jeremy Paucar Meneses<br>_TB1:_<br> Realice los diferentes tipos de Needfinding pertenecientes al capitulo de requirements elicitation Analysis, todo esto nos ayudo a entender mejor el contexto del desarrollo y como esto influye dentro de la elaboración de proyecto.            | Se concluye que emitir juicios informados permite valorar no solo el aspecto técnico, sino también las repercusiones sociales, económicas y ambientales de las soluciones planteadas. |
+
+<div style="page-break-before: always;"></div>
 
 ## Capítulo I: Introducción
 
@@ -227,13 +236,13 @@ Con VacApp, los ganaderos pueden optimizar sus operaciones y aumentar sus gananc
 
 <div align="center">
 
-| **Integrante**                                                                                                                                                                                                                                                                       | **Conocimientos técnicos / Habilidades**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
-| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Ian Macavilca Quispe** <br> U202121325 <br> <img src="https://github.com/1ASI0729-2510-4321-devvolution/PescaGo-Report/blob/main/img/ian_macavilca.png?raw=true" width="350" height="160">                                                                                         | Programación en C++, Python, JavaScript, HTML y CSS. Aprendo rápido y sé adaptarme a los retos que se presentan a lo largo del desarrollo de proyectos.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
-| **Rodrigo Liberato Saldaña** <br> U202215623 <br> <img src="https://media.discordapp.net/attachments/766316535290789908/1414761032928464907/rodrigo.png?ex=68c0be63&is=68bf6ce3&hm=ff615cb9f2f6cd66256a62ab4857639fcf3cd26cacefcbd283c385287daf8c64&=&format=webp&quality=lossless"> | Estudiante de Ingeniería de Software con interés en Ciencia de Datos, Ciberseguridad y desarrollo web en .NET, Spring Boot, etc. Me comprometo a apoyar activamente al grupo y asumir el rol de líder para encaminar al equipo hacia el cumplimiento de sus metas.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
-| **Maycol Jhordan Rojas Velasquez** <br> U202219984 <br> <img src="https://hackmd.io/_uploads/B1F_iuso0.jpg" alt="maycol">                                                                                                                                                            | Elegí la carrera de Ingeniería de Software debido a mi gusto por la innovación y la implementación de la tecnología en cualquier rubro social, de una manera creativa y en todos los aspectos. Me considero una persona creativa, en busca de ideas y estrategias con mente nueva. También me gusta escuchar ideas de mi equipo, dar propuestas de mejora, evaluar ventajas y desventajas. <br><br> Tengo conocimientos de programación en C++, HTML, Python, Angular, Backend en Java, y domino Flutter. También cuento con experiencia en LangChain aplicado con LLM y RAG. <br><br> Tengo un enfoque responsable y dedicado, acompañado de un aprendizaje rápido, lo que me permite ayudar a mis compañeros en sus dudas. Por otro lado, mis hobbies son ver series, jugar, escuchar música, nadar y manejar.                                            |
-| **Stephano Espinoza Cueva** <br> U202218590 <br> <img src="assets/Stephano.jpg" alt="stephano" style="width: 600px; height: 200px;">                                                                                                                                                 | Stephano Espinoza Cueva – Ingeniería de Software - Elegí la carrera de Ingeniería de Software debido a mi gusto por la innovación y la implementación de la tecnología en cualquier rubro social, de una manera creativa y en todos los aspectos. Me considero una persona creativa, en busca de ideas y estrategias con mente nueva. También me gusta escuchar ideas de mi equipo, dar propuestas de mejora, evaluar las ventajas y desventajas.Además, tengo conocimientos de programación en C++, HTML, Python, Angular, Backend en Java, y domino Flutter. También cuento con experiencia en LangChain aplicado con LLM y RAG.Tengo un enfoque responsable y dedicado, acompañado de un aprendizaje rápido, lo que me permite ayudar a mis compañeros en sus dudas. Por otro lado, mis hobbies son ver series, jugar, escuchar música, nadar y manejar. |
-| **Jeremy Paucar Meneses** <br> u201919449 <br><img src="https://imgur.com/ylpKMx2.png" alt="yo-3" style="width: 600px ; height: 200px;">                                                                                                                                             | Tengo 23 años. En la actualidad estoy estudiando la carrera de ingeniería de software en la Universidad Peruana de Ciencias Aplicadas. Albergo conocimientos intermedios en algunos lenguajes de programación, tales como C++, JavaScript y Python. Me considero una persona responsable con disposición de apoyar al grupo, también me gustan mucho los retos y así mismo poder cumplirlos..                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
+| **Integrante**                                                                                                                                                                  | **Conocimientos técnicos / Habilidades**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Ian Macavilca Quispe** <br> U202121325 <br> <img src="https://github.com/1ASI0729-2510-4321-devvolution/PescaGo-Report/blob/main/img/ian_macavilca.png?raw=true" alt="Ian Macavilca" width="350" height="160">                                            | Programación en C++, Python, JavaScript, HTML y CSS. Aprendo rápido y sé adaptarme a los retos que se presentan a lo largo del desarrollo de proyectos.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
+| **Rodrigo Liberato Saldaña** <br> U202215623 <br> <img src="./assets/rodrigo.jpg" alt="Rodrigo Saldaña" width="350" height="160">                                            | Estudiante de Ingeniería de Software con interés en Ciencia de Datos, Ciberseguridad y desarrollo web en .NET, Spring Boot, etc. Me comprometo a apoyar activamente al grupo y asumir el rol de líder para encaminar al equipo hacia el cumplimiento de sus metas.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
+| **Maycol Jhordan Rojas Velasquez** <br> U202219984 <br> <img src="https://hackmd.io/_uploads/B1F_iuso0.jpg" alt="Maycol Rojas" width="350" height="160">                                          | Elegí la carrera de Ingeniería de Software debido a mi gusto por la innovación y la implementación de la tecnología en cualquier rubro social, de una manera creativa y en todos los aspectos. Me considero una persona creativa, en busca de ideas y estrategias con mente nueva. También me gusta escuchar ideas de mi equipo, dar propuestas de mejora, evaluar ventajas y desventajas. <br><br> Tengo conocimientos de programación en C++, HTML, Python, Angular, Backend en Java, y domino Flutter. También cuento con experiencia en LangChain aplicado con LLM y RAG. <br><br> Tengo un enfoque responsable y dedicado, acompañado de un aprendizaje rápido, lo que me permite ayudar a mis compañeros en sus dudas. Por otro lado, mis hobbies son ver series, jugar, escuchar música, nadar y manejar.                                            |
+| **Stephano Espinoza Cueva** <br> U202218590 <br> <img src="./assets/Stephano.jpg" alt="Stephano Espinoza" width="350" height="160">                                          | Stephano Espinoza Cueva – Ingeniería de Software - Elegí la carrera de Ingeniería de Software debido a mi gusto por la innovación y la implementación de la tecnología en cualquier rubro social, de una manera creativa y en todos los aspectos. Me considero una persona creativa, en busca de ideas y estrategias con mente nueva. También me gusta escuchar ideas de mi equipo, dar propuestas de mejora, evaluar las ventajas y desventajas.Además, tengo conocimientos de programación en C++, HTML, Python, Angular, Backend en Java, y domino Flutter. También cuento con experiencia en LangChain aplicado con LLM y RAG.Tengo un enfoque responsable y dedicado, acompañado de un aprendizaje rápido, lo que me permite ayudar a mis compañeros en sus dudas. Por otro lado, mis hobbies son ver series, jugar, escuchar música, nadar y manejar. |
+| **Jeremy Paucar Meneses** <br> U201919449 <br><img src="https://imgur.com/ylpKMx2.png" alt="Jeremy Paucar" width="350" height="160">                                                    | Tengo 23 años. En la actualidad estoy estudiando la carrera de ingeniería de software en la Universidad Peruana de Ciencias Aplicadas. Albergo conocimientos intermedios en algunos lenguajes de programación, tales como C++, JavaScript y Python. Me considero una persona responsable con disposición de apoyar al grupo, también me gustan mucho los retos y así mismo poder cumplirlos.                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
 
 </div>
 
@@ -423,6 +432,8 @@ Estos impactos ambientales comprometen la sostenibilidad del sector y tienen con
 - Nivel socioeconómico: Todos los niveles (NSE bajo, medio y alto)
 - Personalidad: Perseverantes, honestos, con fuerte compromiso hacia el trabajo, altruistas y resilientes ante la adversidad.
 
+<div style="page-break-before: always;"></div>
+
 ## Capítulo II: Requirements Elicitation & Analysis
 
 ### 2.1. Competidores
@@ -554,7 +565,7 @@ _Domicilio:_ Lima, Peru <br>
 _Inicio de la Entrevista:_ 07:12 <br>
 _Duración de la Entrevista:_ 10:30 <br>
 
-<img src="https://media.discordapp.net/attachments/766316535290789908/1415039739676983507/segmento1.png?ex=68c1c1f4&is=68c07074&hm=94ddc1ea3a93ac474c82c7c83d602383ef327e4f512943af5907f546d8cfb284&=&format=webp&quality=lossless" alt="" style="width: 600px; height: auto;">
+<img src="assets/entrevista1.png" alt="" style="width: 600px; height: auto;">
 
 _Resumen de la Entrevista_:
 
@@ -569,7 +580,7 @@ _Experiencia en la ganaderia_: 30 años<br>
 _Inicio de la Entrevista:_ 17:43 <br>
 _Duración de la Entrevista:_ 06:19 <br>
 
-![GanaderoIndependienteJorge](https://media.discordapp.net/attachments/766316535290789908/1415039764654194772/EntrevistaGanaderoIndependienteJorge.JPG?ex=68c1c1fa&is=68c0707a&hm=81baace9cafb55cb6bf4b710e9505228bc4025f78a589d424c6dbec6b2e2c7ca&=&format=webp)
+![GanaderoIndependienteJorge](assets/entrevista2.png)
 
 _Resumen:_
 
@@ -583,7 +594,7 @@ _Tiempo de experiencia en la ganadería_: 5 años<br>
 _Inicio de la Entrevista:_ 29:40 <br>
 _Duración de la Entrevista:_ 02:30 <br>
 
-<img src="https://media.discordapp.net/attachments/766316535290789908/1415039785906602005/entrevista.png?ex=68c1c1ff&is=68c0707f&hm=dd4580118d1bc5b179d09356180d948005e42483ba7d4ff730aba7f75e2f0c97&=&format=webp&quality=lossless" alt="vacapp Logo" >
+<img src="assets/entrevista3.png" alt="vacapp Logo" >
 
 _Resumen de la Entrevista_:
 
@@ -599,7 +610,7 @@ _Domicilio:_ Lima, Peru <br>
 _Inicio de la Entrevista:_ 24:02<br>
 _Duración de la Entrevista:_ 05:27 <br>
 
-<img src="https://media.discordapp.net/attachments/766316535290789908/1415039807314202734/segmento2.png?ex=68c1c204&is=68c07084&hm=62ee97fac845500c97aa095b408ecd62be7f64b03acbfc375d0cbc95e4f5e6ca&=&format=webp&quality=lossless&width=550&height=269" alt="" style="width: 600px; height: auto;">
+<img src="assets/entrevista4.png" alt="" style="width: 600px; height: auto;">
 
 _Resumen de la Entrevista_:
 Edgar Parry, ganadero con operaciones a gran escala que maneja aproximadamente 3,000 cabezas de ganado,tiene experiencia directa, forma parte de una empresa consolidada en el sector. Edgar enfatiza la importancia de monitorear con precisión el rendimiento de cada vaca productora, especialmente en términos de producción láctea, para detectar irregularidades y tomar decisiones correctivas oportunas. Además, señala desafíos estructurales del mercado nacional, como la concentración de compra en una empresa dominante (Gloria), lo que limita las opciones de venta para los productores.
@@ -613,7 +624,7 @@ _Edad:_ 23<br>
 _Inicio de la Entrevista:_ 32:10<br>
 _Duración de la Entrevista:_ 05:43<br>
 
-<img src="https://media.discordapp.net/attachments/766316535290789908/1415039820392173608/entrevista-cami.png?ex=68c1c207&is=68c07087&hm=fd43960ab97953aba4aadb14ca81b05b2f79789e3655eb79eb852dbe67b13a96&=&format=webp&quality=lossless" style="width: 600px; height: auto;">
+<img src="assets/entrevista5.png" style="width: 600px; height: auto;">
 
 _Resumen de la Entrevista_:
 
@@ -633,7 +644,7 @@ _Edad:_ 42<br>
 _Inicio de la Entrevista:_ 00:00<br>
 _Duración de la Entrevista:_ 07:12<br>
 
-<img src="https://media.discordapp.net/attachments/766316535290789908/1415039836720730234/entrevistaa.png?ex=68c1c20b&is=68c0708b&hm=89648ce7f71c0d5536bc06b4f40ab1cc04f3d09479c17bfb5444d3c3d8f8c08e&=&format=webp&quality=lossless&width=1872&height=746" style="width: 600px; height: auto;">
+<img src="assets/entrevista6.png" style="width: 600px; height: auto;">
 
 _Resumen de la Entrevista_:
 
@@ -812,6 +823,8 @@ Finalmente, se realizó un análisis que permitió definir los valores y habilid
 | Batch (Lote)                                      | Grupo de animales criados o tratados juntos, que se manejan y monitorean como una unidad durante un período específico de tiempo.             |
 | Fumigation (Fumigación)                           | Aplicación de productos químicos o biológicos para eliminar o controlar plagas, insectos, parásitos o enfermedades en el ganado y su entorno. |
 
+<div style="page-break-before: always;"></div>
+
 ## Capítulo III: Requirements Specification
 
 Con el objetivo de diseñar una solución de software centrada en las necesidades reales de los usuarios, se desarrollaron una serie de herramientas y técnicas que permiten comprender, planificar y proyectar el comportamiento del sistema desde una perspectiva empática y funcional.
@@ -908,6 +921,8 @@ Para la gestion agil de proyectos, se realizo el Product Backlog que pone en alt
 | 21        | TS014             | API para Gestión de Empleados        | Como desarrollador, necesito implementar funcionalidades para editar y eliminar empleados mediante la API, permitiendo que el empresario administre correctamente su plantilla. | 1                        |
 
 ---
+
+<div style="page-break-before: always;"></div>
 
 ## Capítulo IV: Product Design
 
@@ -1609,6 +1624,8 @@ Con esta estructura de la base datos que se basa en el modelo DDD de la arquitec
 
 ---
 
+<div style="page-break-before: always;"></div>
+
 ## Capítulo V: Product Implementation
 
 ### 5.1. Software Configuration Management
@@ -2283,13 +2300,20 @@ Este recurso audiovisual explica de manera concisa las funcionalidades principal
 El video se encuentra disponible en el siguiente enlace:  
 [https://www.youtube.com/watch?v=JmOW2IkXjeI](https://www.youtube.com/watch?v=JmOW2IkXjeI)
 
+<div style="page-break-before: always;"></div>
+
 ## Conclusiones
 
-1. La aplicación VacApp evidencia cómo el uso de Domain-Driven Design (DDD) y la definición clara de bounded contexts permiten construir soluciones robustas y escalables para la gestión ganadera. La integración de módulos como Campaign Management, Ranch Management y Staff Administration ha facilitado una arquitectura limpia, adaptable y alineada con las necesidades reales de los usuarios, asegurando la evolución continua del producto.
+1. **VacApp como ejemplo de arquitectura modular y escalable:**  
+La aplicación VacApp evidencia cómo el uso de **Domain-Driven Design (DDD)** y la definición clara de bounded contexts permiten construir soluciones robustas y escalables para la gestión ganadera. La integración de módulos como *Campaign Management*, *Ranch Management* y *Staff Administration* ha facilitado una arquitectura limpia, adaptable y alineada con las necesidades reales de los usuarios, asegurando la evolución continua del producto.
 
-2. El desarrollo de VacApp se caracterizó por la constante interacción con los usuarios finales, empleando entrevistas, mapeos de escenarios, user stories y análisis de impacto. El uso de metodologías ágiles como _Scrum_ y herramientas como Lean UX permitió identificar y priorizar necesidades reales, logrando entregas funcionales frecuentes y una mejora continua en la experiencia del usuario ganadero.
+2. **Impacto del enfoque centrado en el usuario y metodologías ágiles:**  
+El desarrollo de VacApp se caracterizó por la constante interacción con los usuarios finales, empleando entrevistas, mapeos de escenarios, user stories y análisis de impacto. El uso de metodologías ágiles como *Scrum* y herramientas como *Lean UX* permitió identificar y priorizar necesidades reales, logrando entregas funcionales frecuentes y una mejora continua en la experiencia del usuario ganadero.
 
-3. El trabajo colaborativo en VacApp no solo resultó en un producto funcional, sino que también impulsó el desarrollo de habilidades clave en el equipo, como el diseño de arquitecturas por capas, modelado de bases de datos, diseño de interfaces y aplicación de patrones estratégicos y tácticos de DDD. La gestión eficiente del proyecto y la comunicación constante consolidaron una visión profesional y una cultura de mejora continua dentro del equipo.
+3. **Fortalecimiento de competencias técnicas y colaboración efectiva:**  
+El trabajo colaborativo en VacApp no solo resultó en un producto funcional, sino que también impulsó el desarrollo de habilidades clave en el equipo, como el diseño de arquitecturas por capas, modelado de bases de datos, diseño de interfaces y aplicación de patrones estratégicos y tácticos de DDD. La gestión eficiente del proyecto y la comunicación constante consolidaron una visión profesional y una cultura de mejora continua dentro del equipo.
+
+<div style="page-break-before: always;"></div>
 
 ## Bibliografía
 
@@ -2302,28 +2326,32 @@ El video se encuentra disponible en el siguiente enlace:
 - Poppendieck, M., & Poppendieck, T. (2003). _Lean Software Development: An Agile Toolkit_. Addison-Wesley.
 - Vernon, V. (2013). _Implementing Domain-Driven Design_. Addison-Wesley.
 
+<div style="page-break-before: always;"></div>
+
 ## Anexos
 
-Aplicación: https://appdistribution.firebase.dev/i/b5b8b0a89363391d
+### Enlaces de la Aplicación
 
-### Videos
+**Aplicación Móvil:** https://appdistribution.firebase.dev/i/b5b8b0a89363391d
 
-About The Product: https://youtu.be/JmOW2IkXjeI
+### Videos del Proyecto
 
-### Mockups
+**About The Product:** https://youtu.be/JmOW2IkXjeI
 
-Figma: https://www.figma.com/design/Ck5RdO3MzAm16SIReLDO15/Sin-t%C3%ADtulo?node-id=150-5796&t=hGN3YL7RfASQ5FFk-1
+### Recursos de Diseño
 
-### Repositorios
+**Mockups en Figma:** https://www.figma.com/design/Ck5RdO3MzAm16SIReLDO15/Sin-t%C3%ADtulo?node-id=150-5796&t=hGN3YL7RfASQ5FFk-1
 
-Documentation: https://github.com/1ASI0732-Grupo-3/Documento---VaCowTeam
+### Repositorios del Proyecto
 
-Backend: https://github.com/1ASI0732-Grupo-3/Bacckend-VacApp
+**Documentación:** https://github.com/1ASI0732-Grupo-3/Documento---VaCowTeam
 
-Mobile App: https://github.com/1ASI0732-Grupo-3/Mobile--VacApp
+**Backend:** https://github.com/1ASI0732-Grupo-3/Bacckend-VacApp
 
-Landing Page: https://github.com/1ASI0732-Grupo-3/Landing-Page----VacApp
+**Aplicación Móvil:** https://github.com/1ASI0732-Grupo-3/Mobile--VacApp
 
-### TB1
+**Landing Page:** https://github.com/1ASI0732-Grupo-3/Landing-Page----VacApp
 
-Landing Page: https://vacapp-landing.netlify.app/
+### Enlaces de Implementación (TB1)
+
+**Landing Page:** https://vacapp-landing.netlify.app/
