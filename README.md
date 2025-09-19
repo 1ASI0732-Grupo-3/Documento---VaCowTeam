@@ -1,4 +1,3 @@
-
 <br><br><br>
 
 <p align="center">
@@ -2355,3 +2354,4 @@ El trabajo colaborativo en VacApp no solo resultó en un producto funcional, sin
 ### Enlaces de Implementación (TB1)
 
 **Landing Page:** https://vacapp-landing.netlify.app/
+
