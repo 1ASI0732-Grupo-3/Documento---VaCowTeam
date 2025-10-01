@@ -2301,6 +2301,38 @@ El video se encuentra disponible en el siguiente enlace:
 
 <div style="page-break-before: always;"></div>
 
+## Capítulo VII: DevOps Practices
+
+### 7.1. Continuous Integration
+
+La Integración Continua (CI) en este proyecto es la disciplina de desarrollo enfocada en mantener la calidad del código mediante la fusión frecuente y la validación automatizada. La CI abarca las etapas desde que el código es comprometido por el desarrollador hasta el momento en que se genera un artefacto verificable y listo para su distribución.
+
+En nuestro modelo, la CI se activa con cada cambio, desencadenando automáticamente los siguientes pasos para asegurar que el código base esté siempre en un estado funcional:
+
+* Activación: El desarrollador envía el código al Code Repository (repositorio de código).
+
+* Validación de Compilación: El sistema de CI inicia el App Build Process para verificar la capacidad de compilación del código en un entorno estándar e independiente.
+
+* Validación de Calidad: Tras una compilación exitosa, se ejecuta la Test Suite (pruebas unitarias, de integración, etc.) para detectar regresiones o bugs funcionales.
+
+El principal beneficio de este enfoque es la detección y solución inmediata de fallos, manteniendo un historial de integración limpio y reduciendo el riesgo de problemas complejos durante las etapas finales de despliegue.
+
+#### 7.1.1. Tools and Practices
+
+Esta sección detalla los componentes técnicos específicos y las prácticas requeridas para ejecutar la fase de Integración Continua del pipeline presentado:
+
+| Componente del Pipeline | Práctica Relevante | Función Específica en la Integración Continua (CI) |
+| :--- | :--- | :--- |
+| **Code Repository (Git)** | **Fusión Frecuente** | Sirve como la única fuente de verdad (*Single Source of Truth*) del código. La práctica de fusión diaria es **mandatoria** para evitar divergencias complejas. |
+| **App Build Process** | **Build Automatizado** | Compila el código fuente en un artefacto ejecutable. Si la compilación falla, el *pipeline* se detiene inmediatamente para forzar la corrección. |
+| **Test Suite** | **Garantía de Calidad** | Ejecuta el conjunto de pruebas (unitarias, de integración, etc.). Solo el código que supere el **100% de las pruebas** avanza a la siguiente etapa. |
+| **Docker Registry** | **Creación de Artefacto Inmutable** | Empaqueta el ejecutable validado en una **imagen Docker** estandarizada. Este artefacto inmutable es la salida final de la CI, listo para su distribución. |
+| **Developer Commitment** | **Detener la Línea (*Stop the Line*)** | El desarrollador responsable de un cambio que cause un fallo debe **priorizar la corrección** del *pipeline* sobre cualquier otra tarea. |
+
+#### 7.1.2. Build & Test Suite Pipeline Components.
+
+![Build&Test Suite Pipeline Components](./assets/BT_pipeline.png)
+
 ## Conclusiones
 
 1. **VacApp como ejemplo de arquitectura modular y escalable:**  
