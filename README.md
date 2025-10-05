@@ -2016,6 +2016,18 @@ Las herramientas y prácticas utilizadas para implementar Continuous Deployment 
 
 - Monitoring & Logging: Supervisión de rendimiento post-despliegue mediante herramientas como Prometheus, Grafana o ELK Stack.
 
+### 7.3.2. Stages Deployment Pipeline Components
+
+El Deployment Pipeline define las etapas secuenciales del flujo de entrega continua. Para este proyecto, se estructura de la siguiente forma:
+
+| **Etapa**            | **Componente / Objetivo**                                             | **Herramientas / Ejemplos**             |
+|----------------------|-----------------------------------------------------------------------|-----------------------------------------|
+| **1. Source Stage**  | Almacenamiento y versionamiento del código fuente.                    | Git + GitFlow en GitHub/GitLab          |
+| **2. Build Stage**   | Compilación, empaquetado y creación de imágenes Docker.               | GitHub Actions, Jenkins, Docker         |
+| **3. Test Stage**    | Ejecución de pruebas automáticas: unitarias, integración, E2E.        | Jest, PyTest, Postman/Newman, Cypress   |
+| **4. Release Stage** | Publicación del artefacto aprobado (imagen o binario) en repositorio. | DockerHub, Nexus, GitHub Packages       |
+| **5. Deploy Stage**  | Despliegue automático en entorno de staging o producción.             | Kubernetes, AWS EC2, Vercel, Netlify    |
+| **6. Monitor Stage** | Supervisión y retroalimentación sobre rendimiento y errores.          | Prometheus, Grafana, ELK Stack, Sentry  |
 
 ## Final
 
