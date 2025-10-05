@@ -1986,6 +1986,36 @@ El video se encuentra disponible en el siguiente enlace:
 El Continuous Deployment (CD) es la fase en la que cada cambio validado en el código se despliega automáticamente en los entornos de producción, garantizando que el software esté siempre actualizado, estable y disponible para los usuarios finales.
 Su implementación permite integrar las prácticas DevOps dentro del ciclo de vida del proyecto descrito en el documento, mejorando la entrega continua del producto en cada sprint.
 
+### 7.3.1. Tools and Practices.
+
+Las herramientas y prácticas utilizadas para implementar Continuous Deployment en el proyecto pueden incluir:
+
+#### Herramientas
+
+- GitHub Actions / GitLab CI / Jenkins / CircleCI: Automatización de flujos de integración y despliegue.
+
+- Docker & Docker Compose: Empaquetado de los servicios del sistema (backend, frontend, base de datos) para despliegues consistentes.
+
+- Kubernetes / AWS Elastic Beanstalk / Azure DevOps / Vercel / Netlify: Gestión de entornos de despliegue escalables y automatizados.
+
+- Terraform / Ansible: Infraestructura como código (IaC) para configurar entornos reproducibles.
+
+- SonarQube: Análisis continuo de la calidad del código antes de desplegar.
+
+- Postman / Swagger / Newman: Validación automática de endpoints antes del despliegue.
+
+#### Prácticas
+
+- Automated Testing: Se ejecutan pruebas unitarias, de integración y de aceptación antes del despliegue.
+
+- Blue-Green Deployment: Se mantiene una versión activa (blue) y una de prueba (green) para despliegue seguro.
+
+- Canary Releases: Se libera gradualmente la nueva versión a una porción de usuarios para monitorear su estabilidad.
+
+- Rollback Automático: Reversión inmediata en caso de error de despliegue.
+
+- Monitoring & Logging: Supervisión de rendimiento post-despliegue mediante herramientas como Prometheus, Grafana o ELK Stack.
+
 
 ## Final
 
