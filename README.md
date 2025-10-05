@@ -1979,6 +1979,14 @@ Este recurso audiovisual explica de manera concisa las funcionalidades principal
 El video se encuentra disponible en el siguiente enlace:  
 [https://www.youtube.com/watch?v=JmOW2IkXjeI](https://www.youtube.com/watch?v=JmOW2IkXjeI)
 
+## Capítulo VII: DevOps Practices
+
+### 7.3 Continuous deployment
+
+El Continuous Deployment (CD) es la fase en la que cada cambio validado en el código se despliega automáticamente en los entornos de producción, garantizando que el software esté siempre actualizado, estable y disponible para los usuarios finales.
+Su implementación permite integrar las prácticas DevOps dentro del ciclo de vida del proyecto descrito en el documento, mejorando la entrega continua del producto en cada sprint.
+
+
 ## Final
 
 ### Avance de Conclusiones, Bibliografía y Anexos (links)
