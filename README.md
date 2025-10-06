@@ -192,10 +192,11 @@
   - [5.2.1. Sprint Backlogs](#521-sprint-backlogs)
   - [5.2.2. Landing Page Evidence](#522-implemented-landing-page-evidence)
   - [5.2.3. Frontend Web Application Evidence](#523-implemented-frontend-web-application-evidence)
-  - [5.2.4. Native Mobile Application Evidence](#524-implemented-native-mobile-application-evidence)
-  - [5.2.5. RESTful API / Serverless Backend Evidence](#525-implemented-restful-api-andor-serverless-backend-evidence)
-  - [5.2.6. API Documentation](#526-restful-api-documentation)
-  - [5.2.7. Team Collaboration Insights](#527-team-collaboration-insights)
+  - [5.2.4. Acuerdo de Servicio SaaS](#524-acuerdo-de-servicio-saas)
+  - [5.2.5. Native Mobile Application Evidence](#525-implemented-native-mobile-application-evidence)
+  - [5.2.6. RESTful API / Serverless Backend Evidence](#526-implemented-restful-api-andor-serverless-backend-evidence)
+  - [5.2.7. API Documentation](#527-restful-api-documentation)
+  - [5.2.8. Team Collaboration Insights](#528-team-collaboration-insights)
 - [5.3. Video About the Product](#53-video-about-the-product)
 
 - [Conclusiones](#61-conclusiones)
@@ -1946,7 +1947,90 @@ En las siguientes iteraciones se planea implementar:
 - Integración con mapas para ubicación de establos
 - Funcionalidades offline con Service Workers
 
-#### 5.2.4. Implemented Native-Mobile Application Evidence
+### 5.2.4 Acuerdo de Servicio SaaS 
+
+Con el propósito de garantizar la transparencia, la protección de los usuarios y el cumplimiento de las normas nacionales e internacionales aplicables al sector agropecuario peruano, se define el presente **Acuerdo de Servicio (SaaS)** de **VacApp**, una plataforma digital destinada a la **gestión integral de la producción ganadera**.  
+
+VacApp ofrece herramientas tecnológicas que facilitan la digitalización del control del ganado, las campañas sanitarias, la gestión de insumos y el monitoreo productivo, fomentando así una **ganadería más moderna, sostenible y eficiente** en el Perú.
+
+Este acuerdo regula los **derechos, responsabilidades y limitaciones** de los usuarios, y establece el marco legal bajo el cual deben interactuar con el servicio. El mismo se encontrará disponible en la sección *“Términos y Condiciones”* de VacApp, siendo obligatoria su aceptación antes de utilizar la aplicación.
+
+
+### Objeto del Servicio
+
+VacApp proporciona un entorno digital accesible vía web y móvil para **productores ganaderos, asociaciones pecuarias y técnicos del sector agropecuario**.  
+A través de la plataforma, los usuarios pueden:
+
+- Registrar y monitorear la salud, alimentación, peso y producción de sus bovinos.  
+- Administrar campañas de vacunación y tratamientos veterinarios.  
+- Gestionar establos, personal y almacenes de insumos pecuarios.  
+- Trabajar **en modo offline**, con sincronización automática al recuperar conexión.  
+
+El propósito principal de VacApp es **optimizar la toma de decisiones ganaderas**, reducir pérdidas y contribuir a la sostenibilidad del sector, alineándose con los lineamientos del **Ministerio de Desarrollo Agrario y Riego (MIDAGRI)** y la **Ley N.º 29733 de Protección de Datos Personales**.
+
+
+### Obligaciones del Usuario
+
+Los usuarios que accedan a VacApp se comprometen a:
+
+1. **Proporcionar información veraz y actualizada** sobre su hato ganadero, campañas y operaciones productivas.  
+2. **Usar la plataforma de forma ética y responsable**, evitando el uso indebido de datos o acciones que afecten la integridad del sistema.  
+3. **Cumplir con las normas pecuarias y sanitarias vigentes en el Perú**, incluyendo las disposiciones del SENASA.  
+4. **Respetar los derechos de propiedad intelectual y privacidad**, absteniéndose de compartir información ajena o confidencial sin autorización.  
+
+
+### Obligaciones del Proveedor (VacApp)
+
+VacApp se compromete a:
+
+- **Proveer acceso continuo y seguro** al sistema, salvo interrupciones justificadas por mantenimiento o fuerza mayor.  
+- **Garantizar la confidencialidad y seguridad de los datos personales y productivos** de los usuarios, conforme a la Ley N.º 29733 y estándares de ciberseguridad (ISO/IEC 27001).  
+- **Brindar soporte técnico y atención al usuario**, mediante canales digitales oficiales.  
+- **Informar oportunamente** sobre actualizaciones, cambios en los términos del servicio o nuevas funcionalidades.  
+
+
+### Restricciones de Uso
+
+Para asegurar un entorno seguro y justo, los usuarios **no podrán**:
+
+- Utilizar la plataforma con fines comerciales externos al rubro ganadero o para actividades ilícitas.  
+- Modificar, copiar o redistribuir el software de VacApp sin autorización previa.  
+- Publicar contenido ofensivo, fraudulento o que infrinja derechos de terceros.  
+- Manipular datos o usar herramientas automatizadas (bots, scrapers) que afecten la integridad del servicio.  
+
+
+### Propiedad Intelectual
+
+Los **datos e información generados por los usuarios** (como registros de animales, vacunas o reportes) seguirán siendo de su propiedad.  
+Sin embargo, al utilizarlos dentro de la aplicación, los usuarios otorgan a VacApp una **licencia no exclusiva y gratuita** para procesar, analizar y mostrar dichos datos con fines operativos y estadísticos.  
+
+La **propiedad intelectual del software, base de datos, interfaz y algoritmos** pertenece exclusivamente a VacApp, quedando protegida por la legislación peruana sobre derechos de autor y propiedad industrial.
+
+
+### Modificaciones del Servicio
+
+VacApp podrá realizar **mejoras o actualizaciones del servicio** que optimicen su funcionamiento o amplíen sus capacidades.  
+Cualquier cambio relevante será notificado a los usuarios mediante correo electrónico o notificaciones dentro de la aplicación.  
+
+
+### Terminación de Cuentas
+
+VacApp se reserva el derecho de **suspender o eliminar cuentas** que incumplan este acuerdo, introduzcan datos falsos o atenten contra la seguridad del sistema.  
+Los usuarios podrán solicitar la eliminación de sus datos conforme a los principios de **autodeterminación informativa** y derecho al olvido previstos por la legislación peruana.
+
+
+### Marco Normativo de Referencia
+
+- Ley N.º 29733 – *Ley de Protección de Datos Personales (Perú).*  
+- Reglamento de la Ley N.º 29733 – D.S. N.º 003-2013-JUS.  
+- Ley N.º 30494 – *Ley de Promoción y Desarrollo de la Ganadería Sostenible.*  
+- Normas Técnicas del SENASA sobre sanidad animal y trazabilidad ganadera.  
+- Estándares internacionales ISO/IEC 27001 y 27017 sobre seguridad y gestión de servicios SaaS.
+
+
+Este **Acuerdo de Servicio SaaS** constituye un componente esencial del ecosistema digital de VacApp y refleja el compromiso con una **ganadería peruana moderna, responsable y tecnológica**, alineada con la sostenibilidad y el bienestar animal.
+
+#### 5.2.5. Implemented Native-Mobile Application Evidence
 
 Durante los Sprints del proyecto, se logró desarrollar e implementar por completo la aplicación móvil de VacApp, cumpliendo con las funcionalidades clave definidas para la solución. La app integra de manera efectiva las características relacionadas con la gestión ganadera, permitiendo a los usuarios registrar bovinos, gestionar vacunas, organizar establos, y realizar un seguimiento de la salud y productividad del ganado.
 
@@ -1980,7 +2064,7 @@ Este desarrollo fue acompañado por pruebas funcionales continuas durante los sp
   <img src="./assets/gestion_campaña_flutter.JPG" width="300" />
 </p>
 
-#### 5.2.5. Implemented RESTful API and/or Serverless Backend Evidence
+#### 5.2.6. Implemented RESTful API and/or Serverless Backend Evidence
 
 #### Backend
 
@@ -2014,7 +2098,7 @@ Este desarrollo fue acompañado por pruebas funcionales continuas durante los sp
 
 [![Captura-de-pantalla-2025-06-20-024943.png](https://i.postimg.cc/YCqCvkc0/Captura-de-pantalla-2025-06-20-024943.png)](https://postimg.cc/GHVCfWmn)
 
-#### 5.2.6. RESTful API documentation
+#### 5.2.7. RESTful API documentation
 
 La documentación de la **API RESTful** del backend del proyecto **VacApp** fue desarrollada siguiendo las mejores prácticas de la industria, utilizando herramientas especializadas como **Swagger (OpenAPI 3)** y **Postman**. Esta documentación integral facilita a los desarrolladores la consulta, comprensión y prueba de los endpoints disponibles, optimizando la integración con el frontend y otros sistemas externos.
 
@@ -2262,7 +2346,7 @@ Content-Type: application/json
 - **Validación de entrada:** Sanitización de todos los parámetros
 - **Logging de auditoría:** Trazabilidad completa de operaciones
 
-#### 5.2.7. Team Collaboration Insights
+#### 5.2.8. Team Collaboration Insights
 
 Durante el desarrollo del Sprint 1, el equipo colaboró activamente en el repositorio del Informe, utilizando herramientas como GitHub, Trello y Discord para coordinar tareas, compartir avances y resolver dudas de forma continua.
 
