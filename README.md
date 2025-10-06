@@ -1820,6 +1820,25 @@ En esta sección, detallamos el proceso de implementación de nuestro backend en
 | TS009         | API para Gestión de campaña            | T14     | Implementar PUT y DELETE para campaña              | 2          | Miranda Sinarahua, Piero Stephano  | Done   |
 | TS012         | API para Registro de empleados         | T15     | Implementar POST para empleados                    | 2          | Aranda Vallejos, Oscar Gabriel     | Done   |
 
+### 6.1.3.  Core Behavior-Driven Development
+Las pruebas Behavior-Driven Development (BDD) permiten definir el comportamiento esperado del sistema desde la perspectiva del usuario, utilizando un lenguaje natural y estructurado. A través de archivos .feature, se describen escenarios que validan funcionalidades clave, facilitando la colaboración entre desarrolladores, testers y otros stakeholders. Esta técnica asegura que el software cumpla con los requisitos funcionales definidos y mantenga una comunicación clara en todo el equipo de desarrollo.
+![components](./assets/Core-Behavior-Driven_1.png)
+![components](./assets/Core-Behavior-Driven_2.png)
+![components](./assets/Core-Behavior-Driven_3.png)
+![components](./assets/Core-Behavior-Driven_4.png)
+![components](./assets/Core-Behavior-Driven_5.png)
+![components](./assets/Core-Behavior-Driven_6.png)
+![components](./assets/Core-Behavior-Driven_7.png)
+![components](./assets/Core-Behavior-Driven_8.png)
+![components](./assets/Core-Behavior-Driven_9.png)
+![components](./assets/Core-Behavior-Driven_10.png)
+![components](./assets/Core-Behavior-Driven_11.png)
+![components](./assets/Core-Behavior-Driven_12.png)
+![components](./assets/Core-Behavior-Driven_13.png)
+![components](./assets/Core-Behavior-Driven_14.png)
+![components](./assets/Core-Behavior-Driven_15.png)
+![components](./assets/Core-Behavior-Driven_16.png)
+![components](./assets/Core-Behavior-Driven_17.png)
 ---
 
 ##### Sprint 2
