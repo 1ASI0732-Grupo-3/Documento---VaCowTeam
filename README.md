@@ -3109,7 +3109,9 @@ Registra una nueva campaña ganadera.
 **Descripción:** Devuelve `201 Created` con datos de la campaña.
 
 ![SignUpSuccess_Post](assets/System/crearcampaña.png)
-![SignUpSuccess_Post](assets/System/crearcampaña2.png)
+![campaña2](assets/System/crearcampaña2.png)
+
+
 
 #### **Campaign — Duplicado**
 Valida el control de duplicidad en nombres de campañas.
