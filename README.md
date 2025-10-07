@@ -56,7 +56,9 @@
 
 | **Versión** | **Fecha** | **Autor**                                                                                                                                                                                    | **Descripción de modificación**                                                                                                                                                                                 |
 | ----------- | --------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **TB1**     | 20/04/25  | Saldana, Rodrigo Liberato (U202215623), Macavilca Quispe, Ian (U202121325), Rojas Velasquez, Maycol (U202219984), Espinoza Cueva, Stephano (U202218590), Paucar Meneses, Jeremy (U201919449) | Capítulo I: Introducción, Capítulo II: Requirements Elicitation & Analysis, Capítulo III: Requirements Specification, Capítulo IV: Product Design y Capítulo V: Product Implementation, Validation & Deployment |
+| **TB1**     | 20/10/25  | Saldana, Rodrigo Liberato (U202215623), Macavilca Quispe, Ian (U202121325), Rojas Velasquez, Maycol (U202219984), Espinoza Cueva, Stephano (U202218590), Paucar Meneses, Jeremy (U201919449) | Capítulo I: Introducción, Capítulo II: Requirements Elicitation & Analysis, Capítulo III: Requirements Specification, Capítulo IV: Product Design y Capítulo V: Product Implementation, Validation & Deployment |
+| **TP**     | 06/10/25  | Saldana, Rodrigo Liberato (U202215623), Macavilca Quispe, Ian (U202121325), Rojas Velasquez, Maycol (U202219984), Espinoza Cueva, Stephano (U202218590), Paucar Meneses, Jeremy (U201919449) | Capítulo VI: Product Verification & Validation,Capítulo VI: Product Verification & Validation, Capítulo VI: DevOps Practices
+ |
 
 # Project Report Collaboration Insights
 
@@ -3079,6 +3081,14 @@ El desarrollo de VacApp se caracterizó por la constante interacción con los us
 3. **Fortalecimiento de competencias técnicas y colaboración efectiva:**  
 El trabajo colaborativo en VacApp no solo resultó en un producto funcional, sino que también impulsó el desarrollo de habilidades clave en el equipo, como el diseño de arquitecturas por capas, modelado de bases de datos, diseño de interfaces y aplicación de patrones estratégicos y tácticos de DDD. La gestión eficiente del proyecto y la comunicación constante consolidaron una visión profesional y una cultura de mejora continua dentro del equipo.
 
+4. **Integración continua como eje de calidad y automatización:**  
+La implementación de **pipelines de integración continua (CI)** permitió automatizar la construcción, pruebas y verificación del código en cada commit. Gracias al uso de herramientas como *GitHub Actions* y *xUnit*, el equipo logró detectar errores tempranos, mantener la estabilidad del sistema y asegurar que cada nueva funcionalidad se integre sin comprometer la calidad global del producto.
+
+5. **Entrega continua para asegurar despliegues confiables:**  
+El enfoque de **Continuous Delivery (CD)** posibilitó una transición fluida entre los entornos de desarrollo, prueba y producción, garantizando que las nuevas versiones de VacApp pudieran ser liberadas de forma controlada y predecible. La incorporación de pruebas automatizadas dentro del pipeline redujo tiempos de validación y mejoró la trazabilidad de cada versión entregada.
+
+6. **Despliegue continuo como práctica de evolución constante:**  
+La aplicación de estrategias de **Continuous Deployment** consolidó la visión DevOps del proyecto, asegurando que cada mejora validada automáticamente se desplegara en producción sin intervención manual. Este enfoque favoreció la agilidad operativa, la reducción de riesgos y la entrega continua de valor hacia los usuarios finales, posicionando a VacApp como una plataforma moderna, mantenible y en evolución permanente.
 <div style="page-break-before: always;"></div>
 
 ## Bibliografía
