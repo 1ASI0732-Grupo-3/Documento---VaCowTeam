@@ -3109,7 +3109,7 @@ Registra una nueva campaña ganadera.
 **Descripción:** Devuelve `201 Created` con datos de la campaña.
 
 ![SignUpSuccess_Post](assets/System/crearcampaña.png)
-![campaña2](assets/System/crearcampaña2.png)
+![campaña2](assets/System/crearCampaña2.png)
 
 
 
