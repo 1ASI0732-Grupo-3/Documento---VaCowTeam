@@ -6,9 +6,9 @@
 <br><br>
 
 <p align="center">
-  <strong style="font-size: 20px;">UNIVERSIDAD PERUANA DE CIENCIAS APLICADAS</strong>
-  <strong style="font-size: 18px;">FACULTAD DE INGENIERÍA</strong>
-  <strong style="font-size: 16px;">PROGRAMA ACADÉMICO DE INGENIERÍA DE SOFTWARE</strong>
+  <strong style="font-size: 20px;">UNIVERSIDAD PERUANA DE CIENCIAS APLICADAS</strong><br>
+  <strong style="font-size: 18px;">FACULTAD DE INGENIERÍA</strong><br>
+  <strong style="font-size: 16px;">PROGRAMA ACADÉMICO DE INGENIERÍA DE SOFTWARE</strong><br>
   <strong style="font-size: 14px;">11ASI0732-2520-7491 - DISEÑO DE EXPERIMENTOS DE INGENIERÍA DE SOFTWARE</strong>
 </p>
 <p align="center">
@@ -57,8 +57,7 @@
 | **Versión** | **Fecha** | **Autor**                                                                                                                                                                                    | **Descripción de modificación**                                                                                                                                                                                 |
 | ----------- | --------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **TB1**     | 20/10/25  | Saldana, Rodrigo Liberato (U202215623), Macavilca Quispe, Ian (U202121325), Rojas Velasquez, Maycol (U202219984), Espinoza Cueva, Stephano (U202218590), Paucar Meneses, Jeremy (U201919449) | Capítulo I: Introducción, Capítulo II: Requirements Elicitation & Analysis, Capítulo III: Requirements Specification, Capítulo IV: Product Design y Capítulo V: Product Implementation, Validation & Deployment |
-| **TP**     | 06/10/25  | Saldana, Rodrigo Liberato (U202215623), Macavilca Quispe, Ian (U202121325), Rojas Velasquez, Maycol (U202219984), Espinoza Cueva, Stephano (U202218590), Paucar Meneses, Jeremy (U201919449) | Capítulo VI: Product Verification & Validation,Capítulo VI: Product Verification & Validation, Capítulo VI: DevOps Practices
- |
+| **TP**     | 06/10/25  | Saldana, Rodrigo Liberato (U202215623), Macavilca Quispe, Ian (U202121325), Rojas Velasquez, Maycol (U202219984), Espinoza Cueva, Stephano (U202218590), Paucar Meneses, Jeremy (U201919449) | Capítulo VI: Product Verification & Validation,Capítulo VI: Product Verification & Validation, Capítulo VI: DevOps Practices |
 
 # Project Report Collaboration Insights
 
