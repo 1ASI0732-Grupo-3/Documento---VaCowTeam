@@ -2880,6 +2880,108 @@ Luego de esto, se corrieron los Test, todos siendo correctos durante este proces
 
 ![Results](/assets/ITestResults.png)
 
+### 6.1.3. Core Behavior-Driven Development
+
+Las pruebas **Behavior-Driven Development (BDD)** constituyen una metodología fundamental para validar el comportamiento del sistema **VacApp** desde la perspectiva del usuario final. Esta técnica utiliza un lenguaje natural y estructurado que facilita la comunicación entre desarrolladores, testers, product owners y otros stakeholders del proyecto.
+
+#### Metodología BDD Implementada
+
+El enfoque BDD en VacApp se basa en la creación de **archivos .feature** escritos en lenguaje **Gherkin**, que describen escenarios específicos de uso utilizando la estructura **Given-When-Then**. Esta metodología permite:
+
+- **Definir comportamientos esperados** en términos comprensibles para todos los miembros del equipo
+- **Validar funcionalidades clave** del dominio ganadero de manera sistemática
+- **Mantener comunicación clara** entre equipos técnicos y de negocio
+- **Asegurar el cumplimiento** de los requisitos funcionales definidos
+
+#### Escenarios de Prueba Documentados
+
+A continuación se presentan los **archivos .feature** implementados para validar las funcionalidades principales de VacApp:
+
+##### 1. Gestión de Autenticación y Usuarios
+
+**Registro de Usuario:**
+![BDD - Registro de Usuario](assets/Core-Behavior-Driven_1.png)
+
+**Inicio de Sesión:**
+![BDD - Inicio de Sesión](assets/Core-Behavior-Driven_2.png)
+
+##### 2. Gestión de Bovinos y Ganado
+
+**Registro de Bovinos:**
+![BDD - Registro de Bovinos](assets/Core-Behavior-Driven_3.png)
+
+**Consulta de Información de Bovinos:**
+![BDD - Consulta de Bovinos](assets/Core-Behavior-Driven_4.png)
+
+**Actualización de Datos de Bovinos:**
+![BDD - Actualización de Bovinos](assets/Core-Behavior-Driven_5.png)
+
+##### 3. Administración de Establos
+
+**Creación de Establos:**
+![BDD - Creación de Establos](assets/Core-Behavior-Driven_6.png)
+
+**Gestión de Capacidad de Establos:**
+![BDD - Capacidad de Establos](assets/Core-Behavior-Driven_7.png)
+
+##### 4. Gestión de Campañas Sanitarias
+
+**Creación de Campañas:**
+![BDD - Creación de Campañas](assets/Core-Behavior-Driven_8.png)
+
+**Seguimiento de Campañas:**
+![BDD - Seguimiento de Campañas](assets/Core-Behavior-Driven_9.png)
+
+##### 5. Control de Vacunas y Tratamientos
+
+**Registro de Vacunas:**
+![BDD - Registro de Vacunas](assets/Core-Behavior-Driven_10.png)
+
+**Programación de Tratamientos:**
+![BDD - Programación de Tratamientos](assets/Core-Behavior-Driven_11.png)
+
+##### 6. Administración de Personal
+
+**Gestión de Staff:**
+![BDD - Gestión de Staff](assets/Core-Behavior-Driven_12.png)
+
+**Asignación de Roles:**
+![BDD - Asignación de Roles](assets/Core-Behavior-Driven_13.png)
+
+##### 7. Reportes y Analytics
+
+**Generación de Reportes:**
+![BDD - Generación de Reportes](assets/Core-Behavior-Driven_14.png)
+
+**Análisis de Productividad:**
+![BDD - Análisis de Productividad](assets/Core-Behavior-Driven_15.png)
+
+##### 8. Funcionalidades Avanzadas
+
+**Integración de Datos:**
+![BDD - Integración de Datos](assets/Core-Behavior-Driven_16.png)
+
+**Validación de Reglas de Negocio:**
+![BDD - Validación de Reglas](assets/Core-Behavior-Driven_17.png)
+
+#### Beneficios de la Implementación BDD
+
+La adopción de BDD en VacApp ha proporcionado los siguientes beneficios:
+
+ **Comunicación mejorada** entre equipos técnicos y de negocio
+ **Documentación viva** que se mantiene actualizada con el código
+ **Validación automática** de comportamientos críticos del sistema
+ **Reducción de defectos** mediante especificaciones claras
+ **Facilita el mantenimiento** y evolución del software
+ **Alineación continua** con las necesidades del dominio ganadero
+
+#### Herramientas Utilizadas
+
+- **Gherkin:** Lenguaje para escribir especificaciones legibles
+- **SpecFlow:** Framework para automatización de pruebas BDD en .NET
+- **Cucumber:** Herramienta complementaria para ejecución de escenarios
+- **Visual Studio:** IDE para desarrollo e integración de pruebas
+
 ### 6.1.4. Core System Tests
 
 En esta sección se documentan las **pruebas del sistema central (Core System Tests)** realizadas mediante la colección **VacAppTestLocal** en **Postman**, que agrupa todos los módulos críticos del backend de **VacApp**, incluyendo autenticación, gestión ganadera y administración de personal.  
