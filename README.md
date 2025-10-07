@@ -2838,6 +2838,204 @@ Los resultados reflejan que **todas las pruebas unitarias pasaron exitosamente**
 
 ![Resultados Totales de Pruebas Unitarias](assets/Unit/TestTotales.png)
 
+### 6.1.4. Core System Tests
+
+En esta sección se documentan las **pruebas del sistema central (Core System Tests)** realizadas mediante la colección **VacAppTestLocal** en **Postman**, que agrupa todos los módulos críticos del backend de **VacApp**, incluyendo autenticación, gestión ganadera y administración de personal.  
+
+Estas pruebas permiten garantizar el correcto funcionamiento de la API, validando las operaciones CRUD principales, los flujos de autenticación JWT y la gestión integral de entidades ganaderas (bovinos, campañas, establos, personal, vacunas y administradores).
+
+### **Estructura de la Colección**
+
+La colección está organizada por módulos, simulando el flujo real de interacción de un usuario dentro del ecosistema VacApp.
+
+#### **Sign-up — Registro exitoso**
+Prueba el registro de un usuario nuevo en el sistema.
+
+**Request:** `POST {{baseUrl}}/api/v1/User/sign-up`  
+**Descripción:** Se valida la creación exitosa del usuario y la obtención del `token`.
+
+![SignUpSuccess_Post](assets/System/RegistroExitoso1.png)
+![SignUpSuccess_Post](assets/System/RegistroExitoso2.png)
+
+
+#### **Sign-up — Usuario ya existe**
+Valida que el sistema no permita registrar dos veces el mismo correo.
+
+**Request:** `POST {{baseUrl}}/api/v1/User/sign-up`  
+**Descripción:** La API retorna un error controlado informando que el usuario ya está registrado.
+
+![SignUpSuccess_Post](assets/System/UserExists1.png)
+![SignUpSuccess_Post](assets/System/UserExists2.png)
+
+---
+
+#### **Sign-up — Email inválido**
+Verifica que el backend rechace direcciones de correo con formato incorrecto.
+
+**Request:** `POST {{baseUrl}}/api/v1/User/sign-up`  
+**Descripción:** Retorna error 400 indicando formato de email inválido.
+![SignUpSuccess_Post](assets/System/CorreoInvalid1.png)
+![SignUpSuccess_Post](assets/System/CorreoInvalid2.png)
+
+#### **Sign-in — Inicio exitoso**
+Valida la autenticación correcta y generación del token JWT.
+
+**Request:** `POST {{baseUrl}}/api/v1/User/sign-in`  
+**Descripción:** Retorna el `accessToken` y los datos del usuario autenticado.
+![SignUpSuccess_Post](assets/System/InicioExitoso1.png)
+![SignUpSuccess_Post](assets/System/InicioExitoso2.png)
+![SignUpSuccess_Post](assets/System/InicioExitosoUsername.png)
+![SignUpSuccess_Post](assets/System/InicioExitosoUsername2.png)
+
+#### **Sign-in — Usuario inexistente**
+Comprueba el comportamiento ante un nombre o correo no registrado.
+
+**Request:** `POST {{baseUrl}}/api/v1/User/sign-in`  
+**Descripción:** Devuelve un error de autenticación controlado.
+
+![SignUpSuccess_Post](assets/System/correoinvalidoinciar1.png)
+![SignUpSuccess_Post](assets/System/correoinvalidoinciar2.png)
+
+#### **Sign-in — Contraseña incorrecta**
+Evalúa la respuesta del sistema ante credenciales erróneas.
+
+**Request:** `POST {{baseUrl}}/api/v1/User/sign-in`  
+**Descripción:** Devuelve un mensaje de error por password incorrecto.
+
+![SignUpSuccess_Post](assets/System/passwordmal1.png)
+![SignUpSuccess_Post](assets/System/passwordmal2.png)
+
+#### **Bovino — Creación exitosa**
+Crea un bovino asociado a un establo existente.
+
+**Request:** `POST {{baseUrl}}/api/v1/bovines`  
+**Descripción:** La API retorna `201 Created` con los datos del bovino.
+
+![SignUpSuccess_Post](assets/System/CreacionBovino1.png)
+![SignUpSuccess_Post](assets/System/CreacionBovino2.png)
+
+#### **Bovino — Duplicado**
+Verifica que no se permitan nombres de bovinos repetidos.
+
+**Request:** `POST {{baseUrl}}/api/v1/bovines`  
+**Descripción:** Devuelve error controlado indicando duplicidad.
+
+![SignUpSuccess_Post](assets/System/duplicadobovino1.png)
+![SignUpSuccess_Post](assets/System/duplicadobovino2.png)
+
+#### **Stables — Creación exitosa**
+Registra un nuevo establo con límite de capacidad.
+
+**Request:** `POST {{baseUrl}}/api/v1/stables`  
+**Descripción:** La API confirma creación con código 201.
+
+![SignUpSuccess_Post](assets/System/stable1.png)
+![SignUpSuccess_Post](assets/System/stable1.1.png)
+
+#### **Stables — Repetido**
+Controla que no se permitan nombres de establos duplicados.
+
+**Request:** `POST {{baseUrl}}/api/v1/stables`  
+**Descripción:** Devuelve error informando que el establo ya existe.
+
+![SignUpSuccess_Post](assets/System/stableduplicado1.png)
+![SignUpSuccess_Post](assets/System/stableduplicado2.png)
+
+#### **Staff — Creación exitosa**
+Crea un empleado y lo asocia a una campaña activa.
+
+**Request:** `POST {{baseUrl}}/api/v1/staff`  
+**Descripción:** La API responde con `201 Created` y datos del empleado.
+
+![SignUpSuccess_Post](assets/System/staffcrear.png)
+![SignUpSuccess_Post](assets/System/staffcrear2.png)
+
+#### **Staff — Duplicado**
+Evita la creación de un mismo empleado repetidamente.
+
+**Request:** `POST {{baseUrl}}/api/v1/staff`  
+**Descripción:** Retorna error indicando duplicado de registro.
+
+![SignUpSuccess_Post](assets/System/staffduplicado1.png)
+![SignUpSuccess_Post](assets/System/staffduplicado2.png)
+
+#### **Campaign — Creación exitosa**
+Registra una nueva campaña ganadera.
+
+**Request:** `POST {{baseUrl}}/api/v1/campaigns`  
+**Descripción:** Devuelve `201 Created` con datos de la campaña.
+
+![SignUpSuccess_Post](assets/System/crearcampaña.png)
+![SignUpSuccess_Post](assets/System/crearcampaña2.png)
+
+#### **Campaign — Duplicado**
+Valida el control de duplicidad en nombres de campañas.
+
+**Request:** `POST {{baseUrl}}/api/v1/campaigns`  
+**Descripción:** Devuelve error indicando campaña existente.
+
+![SignUpSuccess_Post](assets/System/campañaduplicada1.png)
+![SignUpSuccess_Post](assets/System/campañaduplicada2.png)
+
+#### **Admin — Creación válida**
+Crea un administrador del sistema con credenciales correctas.
+
+**Request:** `POST {{baseUrl}}/api/v1/admin/create`  
+**Descripción:** Devuelve `201 Created` con los datos del nuevo admin.
+
+![SignUpSuccess_Post](assets/System/ValidAdmin1create.png)
+![SignUpSuccess_Post](assets/System/validtestadmincreate.png)
+
+#### **Admin — Datos inválidos**
+Evalúa validaciones de campos requeridos.
+
+**Request:** `POST {{baseUrl}}/api/v1/admin/create`  
+**Descripción:** Devuelve `400 Bad Request` indicando datos inválidos.
+
+![SignUpSuccess_Post](assets/System/invalidAdmincreate.png)
+![SignUpSuccess_Post](assets/System/invalidAdmincreate2.png)
+
+#### **Admin — Email repetido**
+Valida que no se registren administradores con el mismo email.
+
+**Request:** `POST {{baseUrl}}/api/v1/admin/create`  
+**Descripción:** Devuelve error `409 Conflict` informando duplicado.
+
+![SignUpSuccess_Post](assets/System/adminrepetido1.png)
+![SignUpSuccess_Post](assets/System/adminrepetido2.png)
+
+### **Variables de Entorno Utilizadas**
+- `baseUrl`
+- `token`
+- `email_ok`, `username_ok`, `password_ok`
+- `email_duplicate`, `username_duplicate`, `password_duplicate`
+- `email_invalid`, `password_invalid`
+- `email_admin`, `email_admin_invalid`, `admin_email`, `admin_token`, `admin_email_existe`
+- `bovineId`, `campaignId`
+
+### **Ejemplo de Flujo de Pruebas**
+
+1. **Registro de usuario:** Ejecutar `Sign-Up — Registro exitoso`.  
+2. **Login:** Ejecutar `Sign-in — Inicio exitoso` y guardar el token.  
+3. **Crear establo:** Ejecutar `create stables`.  
+4. **Registrar bovino:** Ejecutar `Crear bovino`.  
+5. **Registrar campaña:** Ejecutar `Crea Campaña`.  
+6. **Registrar staff:** Ejecutar `crear staff`.
+
+Cada request cuenta con scripts automáticos en la pestaña **Tests**, que verifican:
+- El **código de estado HTTP** esperado (`200`, `201`, `400`, `409`, etc.).
+- Que la **respuesta sea JSON válida**.
+- Que contenga **propiedades clave** (`id`, `name`, `status`, etc.).
+- Que los mensajes de error sean claros y específicos.
+
+### **Estrategia de Validación**
+
+Los tests fueron diseñados bajo criterios de *robustez e integridad*, simulando escenarios reales y de error:
+- Duplicidad de registros.
+- Violación de integridad referencial.
+- Validación de campos requeridos.
+- Respuestas HTTP coherentes con los estados del dominio.
+
 ## Capítulo VII: DevOps Practices
 
 ### 7.1. Continuous Integration
