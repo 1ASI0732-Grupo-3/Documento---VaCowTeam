@@ -56,7 +56,9 @@
 
 | **Versión** | **Fecha** | **Autor**                                                                                                                                                                                    | **Descripción de modificación**                                                                                                                                                                                 |
 | ----------- | --------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **TB1**     | 20/04/25  | Saldana, Rodrigo Liberato (U202215623), Macavilca Quispe, Ian (U202121325), Rojas Velasquez, Maycol (U202219984), Espinoza Cueva, Stephano (U202218590), Paucar Meneses, Jeremy (U201919449) | Capítulo I: Introducción, Capítulo II: Requirements Elicitation & Analysis, Capítulo III: Requirements Specification, Capítulo IV: Product Design y Capítulo V: Product Implementation, Validation & Deployment |
+| **TB1**     | 20/10/25  | Saldana, Rodrigo Liberato (U202215623), Macavilca Quispe, Ian (U202121325), Rojas Velasquez, Maycol (U202219984), Espinoza Cueva, Stephano (U202218590), Paucar Meneses, Jeremy (U201919449) | Capítulo I: Introducción, Capítulo II: Requirements Elicitation & Analysis, Capítulo III: Requirements Specification, Capítulo IV: Product Design y Capítulo V: Product Implementation, Validation & Deployment |
+| **TP**     | 06/10/25  | Saldana, Rodrigo Liberato (U202215623), Macavilca Quispe, Ian (U202121325), Rojas Velasquez, Maycol (U202219984), Espinoza Cueva, Stephano (U202218590), Paucar Meneses, Jeremy (U201919449) | Capítulo VI: Product Verification & Validation,Capítulo VI: Product Verification & Validation, Capítulo VI: DevOps Practices
+ |
 
 # Project Report Collaboration Insights
 
@@ -192,15 +194,40 @@
   - [5.2.1. Sprint Backlogs](#521-sprint-backlogs)
   - [5.2.2. Landing Page Evidence](#522-implemented-landing-page-evidence)
   - [5.2.3. Frontend Web Application Evidence](#523-implemented-frontend-web-application-evidence)
-  - [5.2.4. Native Mobile Application Evidence](#524-implemented-native-mobile-application-evidence)
-  - [5.2.5. RESTful API / Serverless Backend Evidence](#525-implemented-restful-api-andor-serverless-backend-evidence)
-  - [5.2.6. API Documentation](#526-restful-api-documentation)
-  - [5.2.7. Team Collaboration Insights](#527-team-collaboration-insights)
+  - [5.2.4. Acuerdo de Servicio SaaS](#524-acuerdo-de-servicio-saas)
+  - [5.2.5. Native Mobile Application Evidence](#525-implemented-native-mobile-application-evidence)
+  - [5.2.6. RESTful API / Serverless Backend Evidence](#526-implemented-restful-api-andor-serverless-backend-evidence)
+  - [5.2.7. API Documentation](#527-restful-api-documentation)
+  - [5.2.8. Team Collaboration Insights](#528-team-collaboration-insights)
 - [5.3. Video About the Product](#53-video-about-the-product)
 
-- [Conclusiones](#61-conclusiones)
-- [Bibliografía](#62-bibliografía)
-- [Anexos](#63-anexos)
+---
+
+## Capítulo VI: Product Verification & Validation
+
+- [6.1. Testing Suites & Validation](#61-testing-suites--validation)
+  - [6.1.1. Core Entities Unit Tests](#611-core-entities-unit-tests)
+  - [6.1.2. Core Integration Tests](#612-core-integration-tests)
+  - [6.1.3. Core Behavior-Driven Development](#613-core-behavior-driven-development)
+  - [6.1.4. Core System Tests](#614-core-system-tests)
+
+---
+
+## Capítulo VII: DevOps Practices
+
+- [7.1. Continuous Integration](#71-continuous-integration)
+  - [7.1.1. Tools and Practices](#711-tools-and-practices)
+  - [7.1.2. Build & Test Suite Pipeline Components](#712-build--test-suite-pipeline-components)
+- [7.2. Continuous Delivery](#72-continuous-delivery)
+  - [7.2.1. Tools and Practices](#721-tools-and-practices)
+  - [7.2.2. Stages Deployment Pipeline Components](#722-stages-deployment-pipeline-components)
+- [7.3. Continuous Deployment](#73-continuous-deployment)
+  - [7.3.1. Tools and Practices](#731-tools-and-practices)
+  - [7.3.2. Stages Deployment Pipeline Components](#732-stages-deployment-pipeline-components)
+
+- [Conclusiones](#74-conclusiones)
+- [Bibliografía](#75-bibliografía)
+- [Anexos](#76-anexos)
 
 <div style="page-break-before: always;"></div>
 
@@ -212,10 +239,10 @@ El curso contribuye al cumplimiento del Student Outcome ABET:
 
 **Criterio:** La capacidad de reconocer responsabilidades éticas y profesionales en situaciones de ingeniería y hacer juicios informados, que deben considerar el impacto de las soluciones de ingeniería en contextos globales, económicos, ambientales y sociales.
 
-| **Criterio específico**                                                                                                                                      | **Acciones realizadas**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             | **Conclusiones**                                                                                                                                                                      |
-| ------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 4.c.1 Reconoce responsabilidad ética y profesional en situaciones de ingeniería de software                                                                  | <br><br> 1. Rojas Velasquez, Maycol Jhordan<br>_TB1:_<br> Apliqué buenas prácticas en la elaboración de la documentación técnica, asegurando transparencia en los procesos y citando correctamente las fuentes de información utilizadas. <br><br> 2. Espinoza Cueva, Stephano Jose<br>TB1:<br> Me involucré de lleno en definir qué era más urgente y en cómo íbamos a entregar el producto, participando en la priorización de requisitos y la planificación de entregables. Mi enfoque principal fue garantizar que todas las decisiones se basaran en lo que los usuarios realmente necesitaban, evitando modas o suposiciones sin fundamento. Fui responsable de considerar el impacto que cada elección tendría en el resultado final y en la experiencia del usuario (FrontEnd), actuando siempre bajo una perspectiva ética y profesional. <br><br> 3. Rodrigo Liberato<br>_TB1:_<br> Elaboré documentación clara sobre las historias de usuario y realicé la configuración del entorno de desarrollo y despliegue del producto, garantizando orden y transparencia en los procesos. <br>_TP:_<br>Elabore la documentacion de las pruebas de integracion y su completa implementacion, asimismo me asegure de que todo estuviera en completo funcionamiento. <br><br> 4. Macavilca Quispe, Ian <br>_TB1:_<br> Elaboré el web app UI/UX design, así como el web prototyping; además trabaje en el deployment. <br>_TP1:_<br>Elabore el flujo de Integración Continua. <br><br> 5. Jeremy Paucar Meneses<br>_TB1:_<br> Elabore la documentación sobre los competidores, así mismo los user persona para cada segmento objetivo, empathy mapping y el ubiquitous languaje                                                                                                                                                                                      | Se reconoce la importancia de actuar con responsabilidad profesional al elaborar entregables que reflejen veracidad, claridad y compromiso ético en el desarrollo de software.        |
-| 4.c.2 Emite juicios informados considerando el impacto de las soluciones de ingeniería de software en contextos globales, económicos, ambientales y sociales | <br><br> 1. Rojas Velasquez, Maycol Jhordan<br>_TB1:_<br> Analicé cómo la solución propuesta (VacApp) impacta en la eficiencia de la ganadería, promoviendo prácticas sostenibles que favorecen al sector económico y respetan el medio ambiente. <br><br> 2. Espinoza Cueva, Stephano Jose<br>TB1:<br> Al diseñar las propuestas, siempre mantuve una visión global, pensando en cómo nuestro producto afectaría a distintos usuarios y escenarios. Esto implicó analizar el impacto en diversos contextos y ajustar las decisiones para evitar dejar a alguien fuera. Gracias a esta postura, logramos tomar decisiones más sensatas, asegurando que nuestro trabajo no solo fuera funcional, sino también útil socialmente y sostenible económicamente para el público al que queríamos llegar. <br><br> 3. Rodrigo Liberato<br>_TB1:_<br> Documenté las funcionalidades del producto y configuré su despliegue, valorando cómo estas acciones facilitan el trabajo en equipo y la eficiencia operativa, con impacto positivo en la organización y su entorno. <br>_TP:_<br>Para la implementacion de las pruebas de integracion tuve que entender mas acerca de la logica y gracias a esto pude informarme mas acerca de la solucion y el impacto que puede tener dentro del mercado. <br><br> 4. Macavilca Quispe, Ian <br>_TB1:_<br> Consideré la funcionalidad y pracidada en la elaboración del web app UI/UX design, así como en el web prototyping.<br>_TP1:_<br>Considere la practicidad y funcionalidad al momento de elaborar el flujo de Integración Continua. <br><br> 4. Jeremy Paucar Meneses<br>_TB1:_<br> Realice los diferentes tipos de Needfinding pertenecientes al capitulo de requirements elicitation Analysis, todo esto nos ayudo a entender mejor el contexto del desarrollo y como esto influye dentro de la elaboración de proyecto. | Se concluye que emitir juicios informados permite valorar no solo el aspecto técnico, sino también las repercusiones sociales, económicas y ambientales de las soluciones planteadas. |
+| **Criterio específico** | **Acciones realizadas** | **Conclusiones** |
+|--------------------------|--------------------------|------------------|
+| **4.c.1 Reconoce responsabilidad ética y profesional en situaciones de ingeniería de software** | <br><br> **1. Rojas Velasquez, Maycol Jhordan**<br>_TB1:_<br> Apliqué buenas prácticas en la elaboración de la documentación técnica, asegurando transparencia en los procesos y citando correctamente las fuentes de información utilizadas.<br>_TP:_<br> Apliqué prácticas de ingeniería de software para las pruebas unitarias y de sistema, garantizando trazabilidad y control de calidad en el código.<br><br> **2. Espinoza Cueva, Stephano Jose**<br>_TB1:_<br> Me involucré de lleno en definir qué era más urgente y cómo íbamos a entregar el producto, participando en la priorización de requisitos y la planificación de entregables. Mi enfoque principal fue garantizar que todas las decisiones se basaran en lo que los usuarios realmente necesitaban, evitando modas o suposiciones sin fundamento. Fui responsable de considerar el impacto que cada elección tendría en el resultado final y en la experiencia del usuario (FrontEnd), actuando siempre bajo una perspectiva ética y profesional.<br><br> **3. Saldana Liberato, Rodrigo**<br>_TB1:_<br> Elaboré documentación clara sobre las historias de usuario y realicé la configuración del entorno de desarrollo y despliegue del producto, garantizando orden y transparencia en los procesos.<br>_TP:_<br> Elaboré la documentación y ejecución de las pruebas de integración, asegurando el correcto funcionamiento del sistema en conjunto.<br><br> **4. Macavilca Quispe, Ian**<br>_TB1:_<br> Elaboré el diseño UI/UX del web app, así como el web prototyping; además, trabajé en el despliegue del producto.<br>_TP:_<br> Desarrollé el flujo de Integración Continua dentro del pipeline de DevOps, aplicando prácticas de control de versiones y validación automática.<br><br> **5. Paucar Meneses, Jeremy**<br>_TB1:_<br> Elaboré la documentación sobre los competidores, así como los *user personas* para cada segmento objetivo, el *empathy mapping* y el *ubiquitous language*, contribuyendo a una comprensión ética y centrada en el usuario del proyecto. | Se reconoce la importancia de actuar con responsabilidad profesional al elaborar entregables que reflejen veracidad, claridad y compromiso ético en el desarrollo de software. |
+| **4.c.2 Emite juicios informados considerando el impacto de las soluciones de ingeniería de software en contextos globales, económicos, ambientales y sociales** | <br><br> **1. Rojas Velasquez, Maycol Jhordan**<br>_TB1:_<br> Analicé cómo la solución propuesta (*VacApp*) impacta en la eficiencia de la ganadería, promoviendo prácticas sostenibles que favorecen al sector económico y respetan el medio ambiente.<br>_TP:_<br> Apliqué juicios técnicos para las pruebas de sistema, evaluando su impacto y funcionamiento dentro del contexto productivo real.<br><br> **2. Espinoza Cueva, Stephano Jose**<br>_TB1:_<br> Al diseñar las propuestas, mantuve una visión global, considerando cómo nuestro producto afectaría a distintos usuarios y escenarios. Analicé el impacto en diversos contextos y ajusté decisiones para asegurar que el producto fuera útil socialmente y sostenible económicamente.<br><br> **3. Saldana Liberato, Rodrigo**<br>_TB1:_<br> Documenté las funcionalidades del producto y configuré su despliegue, valorando cómo estas acciones facilitan el trabajo en equipo y la eficiencia operativa, con impacto positivo en la organización y su entorno.<br>_TP:_<br> Durante la implementación de las pruebas de integración, profundicé en la lógica de negocio, comprendiendo el impacto que VacApp puede tener dentro del mercado ganadero digital.<br><br> **4. Macavilca Quispe, Ian**<br>_TB1:_<br> Consideré la funcionalidad y practicidad en la elaboración del diseño UI/UX y en el *web prototyping*.<br>_TP:_<b
 
 <div style="page-break-before: always;"></div>
 
@@ -1953,7 +1980,90 @@ En las siguientes iteraciones se planea implementar:
 - Integración con mapas para ubicación de establos
 - Funcionalidades offline con Service Workers
 
-#### 5.2.4. Implemented Native-Mobile Application Evidence
+### 5.2.4 Acuerdo de Servicio SaaS 
+
+Con el propósito de garantizar la transparencia, la protección de los usuarios y el cumplimiento de las normas nacionales e internacionales aplicables al sector agropecuario peruano, se define el presente **Acuerdo de Servicio (SaaS)** de **VacApp**, una plataforma digital destinada a la **gestión integral de la producción ganadera**.  
+
+VacApp ofrece herramientas tecnológicas que facilitan la digitalización del control del ganado, las campañas sanitarias, la gestión de insumos y el monitoreo productivo, fomentando así una **ganadería más moderna, sostenible y eficiente** en el Perú.
+
+Este acuerdo regula los **derechos, responsabilidades y limitaciones** de los usuarios, y establece el marco legal bajo el cual deben interactuar con el servicio. El mismo se encontrará disponible en la sección *“Términos y Condiciones”* de VacApp, siendo obligatoria su aceptación antes de utilizar la aplicación.
+
+
+### Objeto del Servicio
+
+VacApp proporciona un entorno digital accesible vía web y móvil para **productores ganaderos, asociaciones pecuarias y técnicos del sector agropecuario**.  
+A través de la plataforma, los usuarios pueden:
+
+- Registrar y monitorear la salud, alimentación, peso y producción de sus bovinos.  
+- Administrar campañas de vacunación y tratamientos veterinarios.  
+- Gestionar establos, personal y almacenes de insumos pecuarios.  
+- Trabajar **en modo offline**, con sincronización automática al recuperar conexión.  
+
+El propósito principal de VacApp es **optimizar la toma de decisiones ganaderas**, reducir pérdidas y contribuir a la sostenibilidad del sector, alineándose con los lineamientos del **Ministerio de Desarrollo Agrario y Riego (MIDAGRI)** y la **Ley N.º 29733 de Protección de Datos Personales**.
+
+
+### Obligaciones del Usuario
+
+Los usuarios que accedan a VacApp se comprometen a:
+
+1. **Proporcionar información veraz y actualizada** sobre su hato ganadero, campañas y operaciones productivas.  
+2. **Usar la plataforma de forma ética y responsable**, evitando el uso indebido de datos o acciones que afecten la integridad del sistema.  
+3. **Cumplir con las normas pecuarias y sanitarias vigentes en el Perú**, incluyendo las disposiciones del SENASA.  
+4. **Respetar los derechos de propiedad intelectual y privacidad**, absteniéndose de compartir información ajena o confidencial sin autorización.  
+
+
+### Obligaciones del Proveedor (VacApp)
+
+VacApp se compromete a:
+
+- **Proveer acceso continuo y seguro** al sistema, salvo interrupciones justificadas por mantenimiento o fuerza mayor.  
+- **Garantizar la confidencialidad y seguridad de los datos personales y productivos** de los usuarios, conforme a la Ley N.º 29733 y estándares de ciberseguridad (ISO/IEC 27001).  
+- **Brindar soporte técnico y atención al usuario**, mediante canales digitales oficiales.  
+- **Informar oportunamente** sobre actualizaciones, cambios en los términos del servicio o nuevas funcionalidades.  
+
+
+### Restricciones de Uso
+
+Para asegurar un entorno seguro y justo, los usuarios **no podrán**:
+
+- Utilizar la plataforma con fines comerciales externos al rubro ganadero o para actividades ilícitas.  
+- Modificar, copiar o redistribuir el software de VacApp sin autorización previa.  
+- Publicar contenido ofensivo, fraudulento o que infrinja derechos de terceros.  
+- Manipular datos o usar herramientas automatizadas (bots, scrapers) que afecten la integridad del servicio.  
+
+
+### Propiedad Intelectual
+
+Los **datos e información generados por los usuarios** (como registros de animales, vacunas o reportes) seguirán siendo de su propiedad.  
+Sin embargo, al utilizarlos dentro de la aplicación, los usuarios otorgan a VacApp una **licencia no exclusiva y gratuita** para procesar, analizar y mostrar dichos datos con fines operativos y estadísticos.  
+
+La **propiedad intelectual del software, base de datos, interfaz y algoritmos** pertenece exclusivamente a VacApp, quedando protegida por la legislación peruana sobre derechos de autor y propiedad industrial.
+
+
+### Modificaciones del Servicio
+
+VacApp podrá realizar **mejoras o actualizaciones del servicio** que optimicen su funcionamiento o amplíen sus capacidades.  
+Cualquier cambio relevante será notificado a los usuarios mediante correo electrónico o notificaciones dentro de la aplicación.  
+
+
+### Terminación de Cuentas
+
+VacApp se reserva el derecho de **suspender o eliminar cuentas** que incumplan este acuerdo, introduzcan datos falsos o atenten contra la seguridad del sistema.  
+Los usuarios podrán solicitar la eliminación de sus datos conforme a los principios de **autodeterminación informativa** y derecho al olvido previstos por la legislación peruana.
+
+
+### Marco Normativo de Referencia
+
+- Ley N.º 29733 – *Ley de Protección de Datos Personales (Perú).*  
+- Reglamento de la Ley N.º 29733 – D.S. N.º 003-2013-JUS.  
+- Ley N.º 30494 – *Ley de Promoción y Desarrollo de la Ganadería Sostenible.*  
+- Normas Técnicas del SENASA sobre sanidad animal y trazabilidad ganadera.  
+- Estándares internacionales ISO/IEC 27001 y 27017 sobre seguridad y gestión de servicios SaaS.
+
+
+Este **Acuerdo de Servicio SaaS** constituye un componente esencial del ecosistema digital de VacApp y refleja el compromiso con una **ganadería peruana moderna, responsable y tecnológica**, alineada con la sostenibilidad y el bienestar animal.
+
+#### 5.2.5. Implemented Native-Mobile Application Evidence
 
 Durante los Sprints del proyecto, se logró desarrollar e implementar por completo la aplicación móvil de VacApp, cumpliendo con las funcionalidades clave definidas para la solución. La app integra de manera efectiva las características relacionadas con la gestión ganadera, permitiendo a los usuarios registrar bovinos, gestionar vacunas, organizar establos, y realizar un seguimiento de la salud y productividad del ganado.
 
@@ -1987,7 +2097,7 @@ Este desarrollo fue acompañado por pruebas funcionales continuas durante los sp
   <img src="./assets/gestion_campaña_flutter.JPG" width="300" />
 </p>
 
-#### 5.2.5. Implemented RESTful API and/or Serverless Backend Evidence
+#### 5.2.6. Implemented RESTful API and/or Serverless Backend Evidence
 
 #### Backend
 
@@ -2021,7 +2131,7 @@ Este desarrollo fue acompañado por pruebas funcionales continuas durante los sp
 
 [![Captura-de-pantalla-2025-06-20-024943.png](https://i.postimg.cc/YCqCvkc0/Captura-de-pantalla-2025-06-20-024943.png)](https://postimg.cc/GHVCfWmn)
 
-#### 5.2.6. RESTful API documentation
+#### 5.2.7. RESTful API documentation
 
 La documentación de la **API RESTful** del backend del proyecto **VacApp** fue desarrollada siguiendo las mejores prácticas de la industria, utilizando herramientas especializadas como **Swagger (OpenAPI 3)** y **Postman**. Esta documentación integral facilita a los desarrolladores la consulta, comprensión y prueba de los endpoints disponibles, optimizando la integración con el frontend y otros sistemas externos.
 
@@ -2269,7 +2379,7 @@ Content-Type: application/json
 - **Validación de entrada:** Sanitización de todos los parámetros
 - **Logging de auditoría:** Trazabilidad completa de operaciones
 
-#### 5.2.7. Team Collaboration Insights
+#### 5.2.8. Team Collaboration Insights
 
 Durante el desarrollo del Sprint 1, el equipo colaboró activamente en el repositorio del Informe, utilizando herramientas como GitHub, Trello y Discord para coordinar tareas, compartir avances y resolver dudas de forma continua.
 
@@ -2307,6 +2417,633 @@ El video se encuentra disponible en el siguiente enlace:
 [https://www.youtube.com/watch?v=JmOW2IkXjeI](https://www.youtube.com/watch?v=JmOW2IkXjeI)
 
 <div style="page-break-before: always;"></div>
+
+## Capítulo VI: Product Verification & Validation
+
+### 6.1. Testing Suites & Validation
+
+En el desarrollo de **VacApp**, las pruebas de software constituyen un componente esencial para garantizar la **calidad, estabilidad y confiabilidad** del sistema. Dado que la aplicación administra información crítica relacionada con la **salud, producción y trazabilidad del ganado**, la validación exhaustiva de los módulos es fundamental para asegurar la precisión de los datos y la continuidad operativa del servicio.
+
+El enfoque de validación de VacApp se basa en la **automatización de pruebas unitarias, de integración y de comportamiento**, verificando el correcto funcionamiento de los servicios principales tanto en la versión web como móvil. Las pruebas se ejecutan dentro de un entorno controlado que replica la infraestructura de despliegue (Dev/Test), lo cual permite detectar errores antes de llegar a producción.
+
+Asimismo, VacApp adopta buenas prácticas de **Continuous Integration (CI)** y **Behavior-Driven Development (BDD)** para mantener la integridad del modelo de dominio y garantizar la calidad del software a lo largo de su ciclo de vida. Esto asegura que cada iteración del producto preserve la consistencia funcional y la confiabilidad de la información ganadera.
+
+### 6.1.1. Core Entities Unit Tests
+
+Las *Core Entities Unit Tests* son un componente esencial dentro del proceso de verificación de la plataforma **VacApp**, ya que permiten validar el comportamiento y la integridad lógica de las entidades centrales en cada *bounded context* del dominio. Estas pruebas se desarrollaron utilizando **C#**, el framework de pruebas **xUnit**, y herramientas complementarias como **Moq** para simular dependencias cuando sea necesario.
+
+#### Identity & Access Management (IAM) Unit Tests
+
+#### Clase: `AdminTests`
+
+Las pruebas de la entidad **Admin** validan que el proceso de creación y actualización de administradores cumpla con las políticas internas de VacApp, principalmente el uso obligatorio del dominio corporativo y la validación del formato de correo.
+
+##### 1. `Constructor_con_CreateAdminCommand_valido_asigna_propiedades`
+- **Objetivo:** verificar que, al crear un administrador con un correo válido del dominio `@vacapp.com`, las propiedades se asignen correctamente.  
+- **Validaciones:**  
+  - El campo `Email` coincide con el ingresado.  
+  - `EmailConfirmed` se marca como `true`.  
+- **Resultado esperado:** el administrador se crea correctamente y el correo queda confirmado de manera automática.  
+
+![AdminTest4](assets/Unit/AdminTest1.png)
+
+##### 2. `Constructor_con_email_no_vacapp_lanza_ArgumentException`
+- **Objetivo:** asegurar que ningún administrador pueda ser creado con un correo ajeno al dominio institucional.  
+- **Escenario:** se intenta crear un `Admin` con el email `admin@gmail.com`.  
+- **Validación:**  
+  - Se lanza una excepción `ArgumentException`.  
+  - El mensaje devuelto comienza con `"Admin email must end with @vacapp.com"`.  
+- **Resultado esperado:** se evita la creación de administradores fuera del dominio corporativo.  
+
+![AdminTest4](assets/Unit/AdminTest2.png)
+
+##### 3. `Update_con_email_invalido_lanza_ArgumentException`
+- **Objetivo:** garantizar que las actualizaciones de datos de un administrador validen el formato del correo.  
+- **Escenario:** se actualiza un `Admin` existente con un correo con formato incorrecto (`bad@@vacapp.com`).  
+- **Validación:**  
+  - Se lanza una excepción `ArgumentException`.  
+  - El mensaje comienza con `"Invalid email format."`.  
+- **Resultado esperado:** la entidad mantiene su integridad y evita registros inválidos durante actualizaciones.  
+
+![AdminTest4](assets/Unit/AdminTest3.png)
+
+##### 4. `ValidateLogin_siempre_devuelve_true`
+- **Objetivo:** comprobar la respuesta base del método de autenticación.  
+- **Escenario:** se ejecuta el método `ValidateLogin` con cualquier contraseña.  
+- **Validación:**  
+  - El método retorna `true`.  
+- **Resultado esperado:** confirmación del flujo base del login, que podrá evolucionar con futuras integraciones de seguridad.  
+
+![AdminTest4](assets/Unit/AdminTest4.png)
+
+#### Clase: `UserTests`
+
+La entidad **User** representa a los usuarios generales de la plataforma (productores, veterinarios o gestores).  
+Las pruebas se enfocan en validar la creación, actualización y verificación de los datos básicos del perfil.
+
+##### 1. `Constructor_por_defecto_inicializa_campos_vacios_y_email_no_confirmado`
+- **Objetivo:** validar que un usuario nuevo se inicializa con valores vacíos y el email sin confirmar.  
+- **Validaciones:**  
+  - `Username`, `Password` y `Email` son `string.Empty`.  
+  - `EmailConfirmed` es `false`.  
+- **Resultado esperado:** el objeto inicia en un estado neutro, listo para asignar datos válidos posteriormente.  
+
+![userTest1](assets/Unit/UserTest1.png)
+
+##### 2. `Constructor_con_SignUpCommand_valido_asigna_propiedades`
+- **Objetivo:** comprobar que los datos se asignan correctamente al crear un usuario mediante el comando `SignUpCommand`.  
+- **Validaciones:**  
+  - Se asignan correctamente `Username`, `Password` y `Email`.  
+- **Resultado esperado:** el usuario se crea exitosamente con la información registrada en el formulario de inscripción.  
+
+![userTest2](assets/Unit/UserTest2.png)
+
+##### 3. `Constructor_con_email_invalido_lanza_ArgumentException`
+- **Objetivo:** validar que el formato del correo electrónico sea correcto durante el registro.  
+- **Escenario:** se intenta crear un usuario con un email sin formato (`sin-formato`).  
+- **Validación:**  
+  - Se lanza una excepción `ArgumentException`.  
+  - El mensaje devuelto comienza con `"Invalid email format."`.  
+- **Resultado esperado:** se previene el almacenamiento de correos no válidos en la base de datos.  
+
+![userTest2](assets/Unit/UserTest3.png)
+
+##### 4. `Update_con_email_invalido_lanza_ArgumentException`
+- **Objetivo:** asegurar que la actualización de un usuario respete las mismas reglas de validación del registro inicial.  
+- **Escenario:** se actualiza un usuario con un correo inválido (`mal-email`).  
+- **Validación:**  
+  - Se lanza una excepción `ArgumentException`.  
+  - El mensaje devuelto comienza con `"Invalid email format."`.  
+- **Resultado esperado:** las actualizaciones no permiten romper las reglas de integridad del dominio.  
+
+![userTest2](assets/Unit/UserTest4.png)
+
+#### Ranch Management
+El contexto **Ranch Management** de **VacApp** abarca la administración operativa del rancho, incluyendo la gestión de bovinos, establos y vacunas.  
+Estas pruebas unitarias se desarrollaron en **C# con xUnit**, siguiendo la estructura **AAA (Arrange / Act / Assert)**, con el objetivo de validar las reglas de negocio que garantizan la integridad, coherencia y trazabilidad de los registros ganaderos.
+
+#### Clase: `BovineTests`
+
+La entidad **Bovine** representa al animal dentro del sistema, incluyendo su información sanitaria, ubicación y características biológicas.  
+Las pruebas unitarias aseguran la correcta construcción y actualización de sus propiedades, así como el cumplimiento de las reglas básicas de validación.
+
+##### 1. `Constructor_parametros_valido_asigna_propiedades`
+- **Objetivo:** validar que un bovino creado manualmente con parámetros válidos asigne correctamente sus propiedades.  
+- **Validaciones:**  
+  - Coincidencia exacta de nombre, género, raza, fecha de nacimiento, ubicación e imagen.  
+  - Confirmación del `StableId` asignado.  
+- **Resultado esperado:** el objeto se inicializa correctamente y refleja los valores proporcionados.  
+
+![BovineTest2](assets/Unit/BovineTest1.png)
+
+##### 2. `Constructor_command_con_genero_invalido_lanza_ArgumentException`
+- **Objetivo:** garantizar que solo se acepten géneros válidos (`male` o `female`).  
+- **Escenario:** creación de un bovino con `Gender = "unknown"`.  
+- **Validación:**  
+  - Se lanza una excepción `ArgumentException`.  
+  - El mensaje indica `"Gender must be either 'male' or 'female'"`.  
+- **Resultado esperado:** se evita la creación de registros con valores inconsistentes en el dominio biológico.  
+
+![BovineTest2](assets/Unit/BovineTest2.png)
+
+##### 3. `Constructor_command_con_userid_nulo_lanza_ArgumentException`
+- **Objetivo:** comprobar que todo bovino esté asociado a un usuario del rancho responsable del registro.  
+- **Escenario:** se omite el `RanchUserId` en la creación.  
+- **Validación:**  
+  - Se lanza una excepción `ArgumentException`.  
+  - El mensaje indica `"UserId must be set by the system"`.  
+- **Resultado esperado:** se evita la creación de registros huérfanos sin trazabilidad de usuario.  
+
+
+![BovineTest2](assets/Unit/BovineTest3.png)
+
+##### 4. `Update_con_datos_validos_actualiza_propiedades_y_conserva_imagen`
+- **Objetivo:** asegurar que las actualizaciones modifiquen correctamente los datos básicos del bovino, sin alterar su imagen previa.  
+- **Validaciones:**  
+  - Los campos `Name`, `Gender`, `BirthDate`, `Breed`, `Location` y `StableId` cambian correctamente.  
+  - La propiedad `BovineImg` se mantiene inalterada.  
+- **Resultado esperado:** el bovino actualiza sus propiedades sin perder información visual o histórica.
+
+![BovineTest2](assets/Unit/BovineTest4.png)
+
+#### Clase: `StableTests`
+
+La entidad **Stable** administra los establos o corrales dentro del rancho, manteniendo control de capacidad y asignación de bovinos.  
+Las pruebas unitarias validan las restricciones de dominio y las actualizaciones permitidas.
+
+##### 1. `Constructor_con_limit_invalido_lanza_ArgumentException`
+- **Objetivo:** evitar la creación de establos con límites no válidos.  
+- **Escenario:** se intenta crear un establo con `Limit = 0`.  
+- **Validación:**  
+  - Se lanza una excepción `ArgumentException`.  
+  - Mensaje: `"Limit must be greater than 0"`.  
+- **Resultado esperado:** el sistema impide crear establos sin capacidad operativa.
+
+![StableTest2](assets/Unit/StableTest1.png)
+
+##### 2. `Constructor_con_nombre_vacio_lanza_ArgumentException`
+- **Objetivo:** garantizar que el nombre del establo no sea vacío.  
+- **Validación:**  
+  - Lanza `ArgumentException` con el mensaje `"Name must not be empty"`.  
+- **Resultado esperado:** se preserva la consistencia de identificación de cada establo.  
+
+![StableTest2](assets/Unit/StableTest2.png)
+
+##### 3. `Constructor_con_userid_nulo_lanza_ArgumentException`
+- **Objetivo:** asegurar que todo establo esté vinculado a un usuario registrado del rancho.  
+- **Validación:**  
+  - Lanza `ArgumentException` con el mensaje `"RanchUserId must be set by the system"`.  
+- **Resultado esperado:** ningún establo se crea sin responsable asignado.  
+
+![StableTest2](assets/Unit/StableTest3.png)
+
+##### 4. `Constructor_valido_asigna_propiedades`
+- **Objetivo:** comprobar la asignación correcta de nombre y capacidad cuando se crean valores válidos.  
+- **Resultado esperado:** las propiedades `Name` y `Limit` coinciden con el comando recibido.
+
+![StableTest2](assets/Unit/StableTest4.png)
+
+##### 5. `Update_con_datos_invalidos_lanza_ArgumentException`
+- **Objetivo:** evitar actualizaciones con límites negativos o inválidos.  
+- **Validación:**  
+  - Se lanza `ArgumentException` con el mensaje `"Limit must be greater than 0"`.  
+- **Resultado esperado:** la integridad del registro se mantiene estable.
+
+![StableTest2](assets/Unit/StableTest5.png)
+
+##### 6. `Update_con_datos_validos_actualiza_propiedades`
+- **Objetivo:** validar que el método `Update()` actualiza correctamente los campos modificables (`Name` y `Limit`).  
+- **Resultado esperado:** los nuevos valores se reflejan correctamente en el estado final del objeto.
+
+![StableTest2](assets/Unit/StableTest6.png)
+
+#### Clase: `VaccineTests`
+
+La entidad **Vaccine** gestiona los registros de vacunación de cada bovino, manteniendo información sobre el tipo, fecha, imagen y usuario responsable.  
+Estas pruebas garantizan la integridad de los registros sanitarios del ganado.
+
+##### 1. `Constructor_command_con_userid_nulo_lanza_ArgumentException`
+- **Objetivo:** asegurar que toda vacuna tenga un usuario registrado como responsable.  
+- **Validación:**  
+  - Lanza `ArgumentException` con el mensaje `"RanchUserId must be set by the system"`.  
+- **Resultado esperado:** se impide la creación de registros sin responsable veterinario o administrador.
+
+![VaccineTest1](assets/Unit/VaccineTest1.png)
+
+##### 2. `Constructor_valido_asigna_propiedades`
+- **Objetivo:** validar la creación correcta de una vacuna con valores válidos.  
+- **Validaciones:**  
+  - Asignación correcta de nombre, tipo, fecha, imagen y bovino asociado.  
+- **Resultado esperado:** el registro sanitario se crea de manera coherente con los datos de vacunación.  
+
+![VaccineTest1](assets/Unit/VaccineTest2.png)
+
+##### 3. `Update_modifica_campos_y_conserva_imagen`
+- **Objetivo:** asegurar que las actualizaciones modifiquen la información esencial sin alterar la imagen del registro anterior.  
+- **Validaciones:**  
+  - Cambian correctamente los campos `Name`, `VaccineType`, `VaccineDate`, `BovineId`.  
+  - La imagen original (`VaccineImg`) se conserva.  
+- **Resultado esperado:** el registro mantiene trazabilidad visual y consistencia temporal.  
+
+![VaccineTest1](assets/Unit/VaccineTest3.png)
+
+### Campaign Management Unit Tests
+
+El contexto **Campaign Management** de **VacApp** se encarga de la planificación, ejecución y seguimiento de campañas relacionadas con la salud y productividad del ganado.  
+Incluye las entidades **Campaign**, **Goal** y **Channel**, que representan la estructura principal de las campañas, sus metas operativas y los canales de comunicación utilizados.  
+Las pruebas unitarias desarrolladas con **C# y xUnit** tienen como propósito validar la creación de campañas, la gestión de estados y la relación con sus componentes asociados.
+
+#### Clase: `CampaignTests`
+
+La clase `CampaignTests` agrupa las pruebas que validan el comportamiento central de la entidad **Campaign**, asegurando que su construcción, actualización y manejo de listas internas cumplan con las reglas de negocio.
+
+##### 1. `Constructor_parametros_asigna_propiedades_correctamente`
+- **Objetivo:** validar que la creación de una campaña con parámetros válidos asigne correctamente todas sus propiedades.  
+- **Validaciones:**  
+  - Se asignan correctamente los valores de `Name`, `Description`, `StartDate`, `EndDate`, `Status`, `StableId`.  
+  - Las listas `Goals` y `Channels` mantienen su referencia original.  
+- **Resultado esperado:** la campaña se inicializa con datos coherentes y referencias consistentes a sus listas asociadas.  
+
+![CampaingTest1](assets/Unit/CampaingTest1.png)
+
+##### 2. `Constructor_command_con_userid_nulo_lanza_ArgumentException`
+- **Objetivo:** asegurar que toda campaña cuente con un usuario asociado del sistema.  
+- **Escenario:** se crea un `CreateCampaignCommand` con `CampaignUserId = null`.  
+- **Validación:**  
+  - Se lanza una excepción `ArgumentException` con el mensaje `"UserId must be set by the system"`.  
+- **Resultado esperado:** se impide crear campañas sin trazabilidad del usuario responsable.  
+
+![CampaingTest1](assets/Unit/CampaingTest2.png)
+
+##### 3. `UpdateStatus_cambia_el_estado_de_la_campania`
+- **Objetivo:** validar la capacidad de cambiar el estado de la campaña entre fases predefinidas.  
+- **Escenario:** el estado inicial es `"Draft"` y se actualiza a `"Active"`, `"Paused"` o `"Completed"`.  
+- **Validación:**  
+  - El campo `Status` cambia correctamente al nuevo valor.  
+- **Resultado esperado:** la campaña refleja correctamente su progreso operativo.  
+
+![CampaingTest1](assets/Unit/CampaingTest3.png)
+
+##### 4. `Constructor_parametros_preserva_referencias_de_listas`
+- **Objetivo:** garantizar que las listas `Goals` y `Channels` inyectadas mantengan la misma referencia en memoria.  
+- **Validación:**  
+  - `Assert.Same(goals, sut.Goals)` y `Assert.Same(channels, sut.Channels)`.  
+- **Resultado esperado:** la entidad conserva las referencias originales para evitar duplicaciones en la agregación.  
+
+![CampaingTest1](assets/Unit/CampaingTest4.png)
+
+##### 5. `AddGoal_agrega_elemento_a_la_coleccion`
+- **Objetivo:** comprobar que el método `AddGoal()` agrega correctamente un nuevo elemento a la colección interna.  
+- **Validación:**  
+  - El conteo de `Goals` aumenta en uno tras la operación.  
+- **Resultado esperado:** la campaña puede registrar nuevas metas de forma dinámica.  
+
+![CampaingTest1](assets/Unit/CampaingTest5.png)
+
+##### 6. `AddChannel_agrega_elemento_a_la_coleccion`
+- **Objetivo:** verificar que el método `AddChannel()` incremente la lista interna de canales.  
+- **Validación:**  
+  - El número de elementos en `Channels` aumenta en uno.  
+- **Resultado esperado:** la campaña incorpora correctamente nuevos medios de difusión.  
+
+![CampaingTest1](assets/Unit/CampaingTest6.png)
+
+#### Clase: `GoalTests`
+
+Las pruebas de la entidad **Goal** se enfocan en la gestión de metas dentro de una campaña, validando su creación, persistencia y referencia compartida con la campaña principal.
+
+##### 1. `Goals_inicialmente_vacia_cuando_se_inyecta_lista_vacia`
+- **Objetivo:** comprobar que la lista de metas inicia vacía cuando se proporciona una lista vacía.  
+- **Resultado esperado:** el conteo inicial de `Goals` es cero.  
+
+![GoalTest1](assets/Unit/GoalTest1.png)
+
+##### 2. `AddGoal_incrementa_conteo_de_goals`
+- **Objetivo:** verificar que el método `AddGoal()` incremente correctamente el número de metas.  
+- **Validación:**  
+  - El conteo aumenta en dos tras dos adiciones.  
+- **Resultado esperado:** las metas pueden añadirse dinámicamente a la campaña.  
+
+![GoalTest1](assets/Unit/GoalTest2.png)
+
+##### 3. `Goals_preserva_referencia_compartida`
+- **Objetivo:** asegurar que las listas de metas mantienen la misma referencia cuando se modifica desde fuera del objeto campaña.  
+- **Validación:**  
+  - `Assert.Same(goals, sut.Goals)`  
+  - `Assert.Equal(goals.Count, sut.Goals.Count)`  
+- **Resultado esperado:** se garantiza la coherencia entre las referencias internas y externas de la colección de metas.  
+
+![GoalTest1](assets/Unit/GoalTest3.png)
+
+#### Clase: `ChannelTests`
+
+Las pruebas de la entidad **Channel** validan el correcto manejo de los canales de comunicación o difusión asociados a cada campaña.
+
+##### 1. `Channels_inicialmente_vacia_cuando_se_inyecta_lista_vacia`
+- **Objetivo:** comprobar que la lista de canales inicia vacía al recibir una colección vacía.  
+- **Resultado esperado:** `Channels.Count == 0`.  
+
+![ChannelTest1](assets/Unit/ChannelTest1.png)
+
+##### 2. `AddChannel_incrementa_conteo_de_channels`
+- **Objetivo:** verificar que el método `AddChannel()` incremente el número de canales dentro de la campaña.  
+- **Validación:**  
+  - El conteo final de `Channels` es dos luego de dos llamadas al método.  
+- **Resultado esperado:** los canales se agregan correctamente al plan de difusión de la campaña.  
+
+![ChannelTest1](assets/Unit/ChannelTest2.png)
+
+##### 3. `Channels_preserva_referencia_compartida`
+- **Objetivo:** garantizar que las listas de canales mantienen la misma referencia en memoria cuando se modifican desde fuera de la campaña.  
+- **Validación:**  
+  - `Assert.Same(channels, sut.Channels)`  
+  - `Assert.Equal(channels.Count, sut.Channels.Count)`  
+- **Resultado esperado:** las referencias de las listas se conservan, evitando pérdida de sincronización o duplicación de datos.  
+
+![ChannelTest1](assets/Unit/ChannelTest3.png)
+
+### Staff Administration Unit Tests
+
+El contexto **Staff Administration** en **VacApp** se encarga de gestionar al personal involucrado en las campañas ganaderas, incluyendo veterinarios, operarios y administradores.  
+Estas pruebas unitarias se implementaron en **C# con xUnit**, aplicando la metodología **AAA (Arrange / Act / Assert)**, con el fin de validar la integridad de la creación, actualización y vinculación del personal con campañas activas dentro del sistema.
+
+
+#### Clase: `StaffTests`
+
+Las pruebas verifican que la entidad **Staff** cumpla con las reglas de negocio asociadas al registro del personal, asegurando que los campos esenciales se asignen correctamente y que no se creen registros incompletos o inconsistentes.
+
+##### 1. `Constructor_por_defecto_inicializa_campos_por_defecto`
+- **Objetivo:** comprobar que, al crear una instancia sin parámetros, el objeto se inicializa en un estado seguro.  
+- **Validaciones:**  
+  - `Name` = `string.Empty`.  
+  - `EmployeeStatus` no es nulo.  
+  - `CampaignId` y `StaffUserId` son `null`.  
+- **Resultado esperado:** la entidad comienza con valores controlados, lista para ser configurada mediante comandos válidos.
+
+![StaffTest1](assets/Unit/StaffTest1.png)
+
+
+##### 2. `Constructor_parametros_valido_asigna_propiedades`
+- **Objetivo:** verificar que al crear un objeto `Staff` con parámetros válidos, estos se asignen correctamente.  
+- **Validaciones:**  
+  - Los valores de `Name`, `EmployeeStatus`, `CampaignId` y `StaffUserId` se asignan correctamente.  
+- **Resultado esperado:** el registro del personal se crea con datos coherentes y trazables dentro del sistema.  
+
+![StaffTest1](assets/Unit/StaffTest2.png)
+
+##### 3. `Constructor_con_CreateStaffCommand_valido_asigna_propiedades`
+- **Objetivo:** validar que el constructor basado en `CreateStaffCommand` funcione de manera correcta.  
+- **Validaciones:**  
+  - El nombre, estado y campaña son los esperados.  
+  - `StaffUserId` se asigna de forma correcta y única.  
+- **Resultado esperado:** la creación mediante comandos garantiza que las reglas del dominio se cumplan desde el origen.  
+
+![StaffTest1](assets/Unit/StaffTest3.png)
+
+##### 4. `Constructor_con_command_CampaignId_null_lanza_ArgumentException`
+- **Objetivo:** garantizar que cada miembro del personal esté asociado a una campaña.  
+- **Escenario:** se pasa `CampaignId = null` en el comando de creación.  
+- **Validación:**  
+  - Se lanza una excepción `ArgumentException` con el mensaje `"CampaignId is required"`.  
+- **Resultado esperado:** evita la creación de personal sin asignación a campaña, preservando la consistencia del modelo.  
+
+![StaffTest1](assets/Unit/StaffTest4.png)
+
+##### 5. `Constructor_con_command_StaffUserId_null_lanza_ArgumentException`
+- **Objetivo:** comprobar que todo miembro del personal tenga un identificador de usuario del sistema.  
+- **Validación:**  
+  - Se lanza una excepción `ArgumentException` con el mensaje `"StaffUserId must be set by the system"`.  
+- **Resultado esperado:** impide la creación de registros anónimos o sin responsable definido.  
+
+![StaffTest1](assets/Unit/StaffTest5.png)
+
+##### 6. `Update_con_datos_validos_actualiza_propiedades_y_admite_CampaignId_null`
+- **Objetivo:** validar que el método `Update()` permita modificar las propiedades básicas del personal y opcionalmente dejar `CampaignId` en `null`.  
+- **Validaciones:**  
+  - Se actualizan `Name` y `EmployeeStatus`.  
+  - `CampaignId` puede quedar sin asignar.  
+- **Resultado esperado:** permite flexibilidad en la reubicación o desvinculación del personal respecto a una campaña.  
+
+![StaffTest1](assets/Unit/StaffTest6.png)
+
+##### 7. `Update_con_datos_validos_actualiza_propiedades_con_CampaignId_no_null`
+- **Objetivo:** garantizar que el método `Update()` funcione correctamente cuando se asigna un nuevo `CampaignId`.  
+- **Validaciones:**  
+  - El nombre y estado cambian correctamente.  
+  - `CampaignId` se actualiza al nuevo valor proporcionado.  
+- **Resultado esperado:** el sistema permite reasignar personal a nuevas campañas de forma segura.  
+
+![StaffTest1](assets/Unit/StaffTest7.png)
+
+### Resultados Generales de las Pruebas Unitarias
+
+La siguiente imagen muestra la **ejecución total de las pruebas unitarias** desarrolladas para los diferentes contextos de la plataforma **VacApp**: *IAM*, *Ranch Management*, *Campaign Management* y *Staff Administration*.  
+
+Los resultados reflejan que **todas las pruebas unitarias pasaron exitosamente**, evidenciando un correcto comportamiento de las reglas de negocio implementadas y asegurando la estabilidad del dominio de la aplicación.
+
+- Se ejecutaron **todas las pruebas definidas** para cada agregado raíz sin fallos.  
+- La cobertura abarca **validaciones de constructores, actualizaciones de entidades y manejo de excepciones controladas**.   
+- El sistema mantiene **coherencia entre las entidades dependientes**, cumpliendo los principios de *Domain-Driven Design (DDD)*.
+
+![Resultados Totales de Pruebas Unitarias](assets/Unit/TestTotales.png)
+
+### 6.1.4. Core System Tests
+
+En esta sección se documentan las **pruebas del sistema central (Core System Tests)** realizadas mediante la colección **VacAppTestLocal** en **Postman**, que agrupa todos los módulos críticos del backend de **VacApp**, incluyendo autenticación, gestión ganadera y administración de personal.  
+
+Estas pruebas permiten garantizar el correcto funcionamiento de la API, validando las operaciones CRUD principales, los flujos de autenticación JWT y la gestión integral de entidades ganaderas (bovinos, campañas, establos, personal, vacunas y administradores).
+
+### **Estructura de la Colección**
+
+La colección está organizada por módulos, simulando el flujo real de interacción de un usuario dentro del ecosistema VacApp.
+
+#### **Sign-up — Registro exitoso**
+Prueba el registro de un usuario nuevo en el sistema.
+
+**Request:** `POST {{baseUrl}}/api/v1/User/sign-up`  
+**Descripción:** Se valida la creación exitosa del usuario y la obtención del `token`.
+
+![SignUpSuccess_Post](assets/System/RegistroExitoso1.png)
+![SignUpSuccess_Post](assets/System/RegistroExitoso2.png)
+
+
+#### **Sign-up — Usuario ya existe**
+Valida que el sistema no permita registrar dos veces el mismo correo.
+
+**Request:** `POST {{baseUrl}}/api/v1/User/sign-up`  
+**Descripción:** La API retorna un error controlado informando que el usuario ya está registrado.
+
+![SignUpSuccess_Post](assets/System/UserExists1.png)
+![SignUpSuccess_Post](assets/System/UserExists2.png)
+
+---
+
+#### **Sign-up — Email inválido**
+Verifica que el backend rechace direcciones de correo con formato incorrecto.
+
+**Request:** `POST {{baseUrl}}/api/v1/User/sign-up`  
+**Descripción:** Retorna error 400 indicando formato de email inválido.
+![SignUpSuccess_Post](assets/System/CorreoInvalid1.png)
+![SignUpSuccess_Post](assets/System/CorreoInvalid2.png)
+
+#### **Sign-in — Inicio exitoso**
+Valida la autenticación correcta y generación del token JWT.
+
+**Request:** `POST {{baseUrl}}/api/v1/User/sign-in`  
+**Descripción:** Retorna el `accessToken` y los datos del usuario autenticado.
+![SignUpSuccess_Post](assets/System/InicioExitoso1.png)
+![SignUpSuccess_Post](assets/System/InicioExitoso2.png)
+![SignUpSuccess_Post](assets/System/InicioExitosoUsername.png)
+![SignUpSuccess_Post](assets/System/InicioExitosoUsername2.png)
+
+#### **Sign-in — Usuario inexistente**
+Comprueba el comportamiento ante un nombre o correo no registrado.
+
+**Request:** `POST {{baseUrl}}/api/v1/User/sign-in`  
+**Descripción:** Devuelve un error de autenticación controlado.
+
+![SignUpSuccess_Post](assets/System/correoinvalidoinciar1.png)
+![SignUpSuccess_Post](assets/System/correoinvalidoinciar2.png)
+
+#### **Sign-in — Contraseña incorrecta**
+Evalúa la respuesta del sistema ante credenciales erróneas.
+
+**Request:** `POST {{baseUrl}}/api/v1/User/sign-in`  
+**Descripción:** Devuelve un mensaje de error por password incorrecto.
+
+![SignUpSuccess_Post](assets/System/passwordmal1.png)
+![SignUpSuccess_Post](assets/System/passwordmal2.png)
+
+#### **Bovino — Creación exitosa**
+Crea un bovino asociado a un establo existente.
+
+**Request:** `POST {{baseUrl}}/api/v1/bovines`  
+**Descripción:** La API retorna `201 Created` con los datos del bovino.
+
+![SignUpSuccess_Post](assets/System/CreacionBovino1.png)
+![SignUpSuccess_Post](assets/System/CreacionBovino2.png)
+
+#### **Bovino — Duplicado**
+Verifica que no se permitan nombres de bovinos repetidos.
+
+**Request:** `POST {{baseUrl}}/api/v1/bovines`  
+**Descripción:** Devuelve error controlado indicando duplicidad.
+
+![SignUpSuccess_Post](assets/System/duplicadobovino1.png)
+![SignUpSuccess_Post](assets/System/duplicadobovino2.png)
+
+#### **Stables — Creación exitosa**
+Registra un nuevo establo con límite de capacidad.
+
+**Request:** `POST {{baseUrl}}/api/v1/stables`  
+**Descripción:** La API confirma creación con código 201.
+
+![SignUpSuccess_Post](assets/System/stable1.png)
+![SignUpSuccess_Post](assets/System/stable1.1.png)
+
+#### **Stables — Repetido**
+Controla que no se permitan nombres de establos duplicados.
+
+**Request:** `POST {{baseUrl}}/api/v1/stables`  
+**Descripción:** Devuelve error informando que el establo ya existe.
+
+![SignUpSuccess_Post](assets/System/stableduplicado1.png)
+![SignUpSuccess_Post](assets/System/stableduplicado2.png)
+
+#### **Staff — Creación exitosa**
+Crea un empleado y lo asocia a una campaña activa.
+
+**Request:** `POST {{baseUrl}}/api/v1/staff`  
+**Descripción:** La API responde con `201 Created` y datos del empleado.
+
+![SignUpSuccess_Post](assets/System/staffcrear.png)
+![SignUpSuccess_Post](assets/System/staffcrear2.png)
+
+#### **Staff — Duplicado**
+Evita la creación de un mismo empleado repetidamente.
+
+**Request:** `POST {{baseUrl}}/api/v1/staff`  
+**Descripción:** Retorna error indicando duplicado de registro.
+
+![SignUpSuccess_Post](assets/System/staffduplicado1.png)
+![SignUpSuccess_Post](assets/System/staffduplicado2.png)
+
+#### **Campaign — Creación exitosa**
+Registra una nueva campaña ganadera.
+
+**Request:** `POST {{baseUrl}}/api/v1/campaigns`  
+**Descripción:** Devuelve `201 Created` con datos de la campaña.
+
+![SignUpSuccess_Post](assets/System/crearcampaña.png)
+![SignUpSuccess_Post](assets/System/crearcampaña2.png)
+
+#### **Campaign — Duplicado**
+Valida el control de duplicidad en nombres de campañas.
+
+**Request:** `POST {{baseUrl}}/api/v1/campaigns`  
+**Descripción:** Devuelve error indicando campaña existente.
+
+![SignUpSuccess_Post](assets/System/campañaduplicada1.png)
+![SignUpSuccess_Post](assets/System/campañaduplicada2.png)
+
+#### **Admin — Creación válida**
+Crea un administrador del sistema con credenciales correctas.
+
+**Request:** `POST {{baseUrl}}/api/v1/admin/create`  
+**Descripción:** Devuelve `201 Created` con los datos del nuevo admin.
+
+![SignUpSuccess_Post](assets/System/ValidAdmin1create.png)
+![SignUpSuccess_Post](assets/System/validtestadmincreate.png)
+
+#### **Admin — Datos inválidos**
+Evalúa validaciones de campos requeridos.
+
+**Request:** `POST {{baseUrl}}/api/v1/admin/create`  
+**Descripción:** Devuelve `400 Bad Request` indicando datos inválidos.
+
+![SignUpSuccess_Post](assets/System/invalidAdmincreate.png)
+![SignUpSuccess_Post](assets/System/invalidAdmincreate2.png)
+
+#### **Admin — Email repetido**
+Valida que no se registren administradores con el mismo email.
+
+**Request:** `POST {{baseUrl}}/api/v1/admin/create`  
+**Descripción:** Devuelve error `409 Conflict` informando duplicado.
+
+![SignUpSuccess_Post](assets/System/adminrepetido1.png)
+![SignUpSuccess_Post](assets/System/adminrepetido2.png)
+
+### **Variables de Entorno Utilizadas**
+- `baseUrl`
+- `token`
+- `email_ok`, `username_ok`, `password_ok`
+- `email_duplicate`, `username_duplicate`, `password_duplicate`
+- `email_invalid`, `password_invalid`
+- `email_admin`, `email_admin_invalid`, `admin_email`, `admin_token`, `admin_email_existe`
+- `bovineId`, `campaignId`
+
+### **Ejemplo de Flujo de Pruebas**
+
+1. **Registro de usuario:** Ejecutar `Sign-Up — Registro exitoso`.  
+2. **Login:** Ejecutar `Sign-in — Inicio exitoso` y guardar el token.  
+3. **Crear establo:** Ejecutar `create stables`.  
+4. **Registrar bovino:** Ejecutar `Crear bovino`.  
+5. **Registrar campaña:** Ejecutar `Crea Campaña`.  
+6. **Registrar staff:** Ejecutar `crear staff`.
+
+Cada request cuenta con scripts automáticos en la pestaña **Tests**, que verifican:
+- El **código de estado HTTP** esperado (`200`, `201`, `400`, `409`, etc.).
+- Que la **respuesta sea JSON válida**.
+- Que contenga **propiedades clave** (`id`, `name`, `status`, etc.).
+- Que los mensajes de error sean claros y específicos.
+
+### **Estrategia de Validación**
+
+Los tests fueron diseñados bajo criterios de *robustez e integridad*, simulando escenarios reales y de error:
+- Duplicidad de registros.
+- Violación de integridad referencial.
+- Validación de campos requeridos.
+- Respuestas HTTP coherentes con los estados del dominio.
 
 ## Capítulo VII: DevOps Practices
 
@@ -2351,6 +3088,14 @@ Esta sección detalla los componentes técnicos específicos y las prácticas re
 3. **Fortalecimiento de competencias técnicas y colaboración efectiva:**  
    El trabajo colaborativo en VacApp no solo resultó en un producto funcional, sino que también impulsó el desarrollo de habilidades clave en el equipo, como el diseño de arquitecturas por capas, modelado de bases de datos, diseño de interfaces y aplicación de patrones estratégicos y tácticos de DDD. La gestión eficiente del proyecto y la comunicación constante consolidaron una visión profesional y una cultura de mejora continua dentro del equipo.
 
+4. **Integración continua como eje de calidad y automatización:**  
+La implementación de **pipelines de integración continua (CI)** permitió automatizar la construcción, pruebas y verificación del código en cada commit. Gracias al uso de herramientas como *GitHub Actions* y *xUnit*, el equipo logró detectar errores tempranos, mantener la estabilidad del sistema y asegurar que cada nueva funcionalidad se integre sin comprometer la calidad global del producto.
+
+5. **Entrega continua para asegurar despliegues confiables:**  
+El enfoque de **Continuous Delivery (CD)** posibilitó una transición fluida entre los entornos de desarrollo, prueba y producción, garantizando que las nuevas versiones de VacApp pudieran ser liberadas de forma controlada y predecible. La incorporación de pruebas automatizadas dentro del pipeline redujo tiempos de validación y mejoró la trazabilidad de cada versión entregada.
+
+6. **Despliegue continuo como práctica de evolución constante:**  
+La aplicación de estrategias de **Continuous Deployment** consolidó la visión DevOps del proyecto, asegurando que cada mejora validada automáticamente se desplegara en producción sin intervención manual. Este enfoque favoreció la agilidad operativa, la reducción de riesgos y la entrega continua de valor hacia los usuarios finales, posicionando a VacApp como una plataforma moderna, mantenible y en evolución permanente.
 <div style="page-break-before: always;"></div>
 
 ## Bibliografía
