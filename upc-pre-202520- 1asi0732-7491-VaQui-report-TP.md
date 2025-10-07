@@ -2853,33 +2853,33 @@ Luego de haber acabado con los Unit Tests en ciertos puntos del Backend realizad
 
 Para esto se separo en una carpeta externa para los Tests
 
-![IntegrationTest1](/assets/FilesIntegrationTest.png)
+![IntegrationTest1](assets/FilesIntegrationTest.png)
 
 Luego de esto se creo el TestSetup, que sirve para generar el TestDb que se utilizara para las pruebas de integracion.
 
-![IntegrationTest2](/assets/Setup.png)
+![IntegrationTest2](assets/Setup.png)
 
 Asimismo se hieron los test de integracion en dos de los Contextos mas importantes de la aplicacion, como lo vendria a ser CampaignManagment y RanchManagment. Estos dos fueron elegidos debido a la complejidad que tienen dentro de si.
 
 Primero con **CampaignCommandServiceTest** se realizaron dos test, donde se testea la capacidad de agregar una campaña y para validar las restricciones que se diseñaron para este contexto, donde no se puede crear dos campañas con el mismo nombre.
 
 **Test 1**
-![IntegrationTest3](/assets/ITest1.png)
+![IntegrationTest3](assets/ITest1.png)
 
 **Test 2**
-![IntegrationTest4](/assets/ITest2.png)
+![IntegrationTest4](assets/ITest2.png)
 
 Luego con **BovineCommandServiceTest**, se crearon otras dos, donde se pueden agregar Bovinos y probar si todo es correcto y de igual manera para validar la restriccion de agregar un Bovino a un establo lleno
 
 **Test 3**
-![IntegrationTest5](/assets/ITest3.png)
+![IntegrationTest5](assets/ITest3.png)
 
 **Test 4**
-![IntegrationTest5](/assets/ITest4.png)
+![IntegrationTest5](assets/ITest4.png)
 
 Luego de esto, se corrieron los Test, todos siendo correctos durante este proceso.
 
-![Results](/assets/ITestResults.png)
+![Results](assets/ITestResults.png)
 
 ### 6.1.3. Core Behavior-Driven Development
 
