@@ -2846,6 +2846,40 @@ Los resultados reflejan que **todas las pruebas unitarias pasaron exitosamente**
 
 ![Resultados Totales de Pruebas Unitarias](assets/Unit/TestTotales.png)
 
+### 6.1.2. Core Integration Tests
+
+Luego de haber acabado con los Unit Tests en ciertos puntos del Backend realizado en .NET 8, se realizo los test de Integracion para verificar que los avances realizados son completamente funcionales. Junto a Nunit instalado para los Unit Test anteriores, tambien se insalo la dependencia de Moq y Microsoft Entity Framework InMemory para testear que las aplicaciones funcionen en persistencia dentro de una base de datos ficticia que sigue los parametros establecidos por el DBContext de la solucion.
+
+Para esto se separo en una carpeta externa para los Tests
+
+![IntegrationTest1](/assets/FilesIntegrationTest.png)
+
+Luego de esto se creo el TestSetup, que sirve para generar el TestDb que se utilizara para las pruebas de integracion.
+
+![IntegrationTest2](/assets/Setup.png)
+
+Asimismo se hieron los test de integracion en dos de los Contextos mas importantes de la aplicacion, como lo vendria a ser CampaignManagment y RanchManagment. Estos dos fueron elegidos debido a la complejidad que tienen dentro de si.
+
+Primero con **CampaignCommandServiceTest** se realizaron dos test, donde se testea la capacidad de agregar una campaña y para validar las restricciones que se diseñaron para este contexto, donde no se puede crear dos campañas con el mismo nombre.
+
+**Test 1**
+![IntegrationTest3](/assets/ITest1.png)
+
+**Test 2**
+![IntegrationTest4](/assets/ITest2.png)
+
+Luego con **BovineCommandServiceTest**, se crearon otras dos, donde se pueden agregar Bovinos y probar si todo es correcto y de igual manera para validar la restriccion de agregar un Bovino a un establo lleno
+
+**Test 3**
+![IntegrationTest5](/assets/ITest3.png)
+
+**Test 4**
+![IntegrationTest5](/assets/ITest4.png)
+
+Luego de esto, se corrieron los Test, todos siendo correctos durante este proceso.
+
+![Results](/assets/ITestResults.png)
+
 ### 6.1.4. Core System Tests
 
 En esta sección se documentan las **pruebas del sistema central (Core System Tests)** realizadas mediante la colección **VacAppTestLocal** en **Postman**, que agrupa todos los módulos críticos del backend de **VacApp**, incluyendo autenticación, gestión ganadera y administración de personal.  
@@ -2874,8 +2908,6 @@ Valida que el sistema no permita registrar dos veces el mismo correo.
 
 ![SignUpSuccess_Post](assets/System/UserExists1.png)
 ![SignUpSuccess_Post](assets/System/UserExists2.png)
-
----
 
 #### **Sign-up — Email inválido**
 Verifica que el backend rechace direcciones de correo con formato incorrecto.
@@ -3076,6 +3108,83 @@ Esta sección detalla los componentes técnicos específicos y las prácticas re
 
 ![Build&Test Suite Pipeline Components](./assets/BT_pipeline.png)
 
+## 7.2. Continuous Delivery
+
+### 7.2.1. Tools and Practices.
+
+El Continuous Delivery del proyecto se puso en marcha con un toolchain enfocado en la automatización y la aceleración del pipeline de Continuous Integration (CI) y deployment.
+
+**GitHub Actions**
+
+Se eligió a GitHub Actions como el Automation Server central para el pipeline CI/CD. Se configuraron workflows que se triggeran automáticamente. El engine arranca con events como pushes o pull requests hacia branches clave.
+
+Estos workflows ejecutan trabajos esenciales: la dependency resolution, el build del proyecto, la test execution y el automated deployment del backend. Esta elección aseguró un time-to-market rápido para el backend, garantizando la product quality con procesos reproducibles.
+
+**Version Control y Git Flow**
+
+El codigo fuente se centralizó en GitHub, actuando como el repositorio remoto único para el control de versiones. Se estableció una estrategia de ramas clara:
+
+- **`develop`**: La integration branch principal; aquí es donde se hace el merge las nuevas adiciones de todos los integrantes.
+- **`feature/{nombre_del_dev}`**: Topic branches dedicadas para que cada contributor desarrolle su parte o realice hotfixes.
+
+Esta estructura de git flow mantuvo un development workflow colaborativo y pulcro, minimizando los conlictos a la hora del merge y optimizando las integraciones continuas.
+
+**Quality Assurance con Automated Testing**
+
+Durante el ciclo de desarrollo se integraron varios test y tipos de automated testing para asegurar la verificar la calidad del sistema:
+
+- **Unit Tests**: Validan el comportamiento basico de methods y funciones.
+- **Integration Tests**: Verifican la interacción correcta entre los componentes del sistema.
+- **Development Tests**: Pruebas rápidas que confirman la funcionalidad general del backend durante la etapa de correr el proyecto.
+- **System Tests**: Chequean la end-to-end functionality y la interacción entre los core modules.
+
+Para esta capa de pruebas se utilizaron NUnit (para el backend) y Postman (para la validation de API endpoints).
+
+### 7.2.2. Stages Deployment Pipeline Components.
+
+El pipeline de entrega continua está compuesto por diferentes etapas que garantizan que el código pase por procesos de validación, compilación y despliegue de forma automatizada.
+A continuación se detalla el flujo de trabajo implementado:
+
+```mermaid
+flowchart LR
+    A[Commit en GitHub] --> B[Build]
+    B --> C[Test]
+    C --> D[Staging]
+    D --> E[Approval]
+    E --> F[Production]
+```
+
+El proyecto sigue un flujo de trabajo bien definido para llevar el código desde el desarrollo hasta la producción.
+
+Etapas del Pipeline:
+
+- Confirmación de Código (Source):
+  El pipeline se activa con la confirmación de cambios; esto ocurre cuando se realiza una subida o una solicitud de integración a una rama del repositorio en GitHub.
+
+- Compilación (Build):
+  En esta fase, la herramienta GitHub Actions ejecuta la compilación del proyecto de backend (.NET 9). Se restauran las dependencias y se generan los artefactos listos para el despliegue.
+
+- Pruebas (Test):
+  Se ejecutan las pruebas automatizadas (unitarias y de integración) para validar que el código cumple con los requisitos funcionales antes de avanzar al siguiente paso.
+
+- Entorno de Prueba (Staging):
+  El sistema se despliega automáticamente en un entorno de pruebas para la validación final y la revisión funcional por parte del equipo.
+
+- Autorización (Approval):
+  Una vez confirmado el correcto funcionamiento en el entorno de prueba, un miembro del equipo da la autorización para la promoción a producción.
+
+- Despliegue Final (Production):
+  El backend se despliega automáticamente en Azure, asegurando la alta disponibilidad y la estabilidad del servicio.
+
+Por otro lado, la interfaz de usuario (frontend) se publica en Netlify, lo que permite actualizaciones continuas con cada nueva versión aprobada del proyecto.
+
+## 7.3. Continuous deployment
+
+### 7.3.1. Tools and Practices.
+
+### 7.3.2. Stages Deployment Pipeline Components.
+
+
 ## Conclusiones
 
 1. **VacApp como ejemplo de arquitectura modular y escalable:**  
@@ -3095,6 +3204,7 @@ El enfoque de **Continuous Delivery (CD)** posibilitó una transición fluida en
 
 6. **Despliegue continuo como práctica de evolución constante:**  
 La aplicación de estrategias de **Continuous Deployment** consolidó la visión DevOps del proyecto, asegurando que cada mejora validada automáticamente se desplegara en producción sin intervención manual. Este enfoque favoreció la agilidad operativa, la reducción de riesgos y la entrega continua de valor hacia los usuarios finales, posicionando a VacApp como una plataforma moderna, mantenible y en evolución permanente.
+
 <div style="page-break-before: always;"></div>
 
 ## Bibliografía
