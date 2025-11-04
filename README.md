@@ -243,6 +243,27 @@
   - [7.3.1. Tools and Practices](#731-tools-and-practices)
   - [7.3.2. Stages Deployment Pipeline Components](#732-stages-deployment-pipeline-components)
 
+## Capítulo VIII: Experiment-Driven Development
+
+- [8.1. Experiment Planning](#81-experiment-planning)
+  - [8.1.1. As-Is Summary](#811-as-is-summary)
+  - [8.1.2. Raw Material: Assumptions, Knowledge Gaps, Ideas, Claims](#812-raw-material)
+  - [8.1.3. Experiment-Ready Questions](#813-experiment-ready-questions)
+  - [8.1.4. Question Backlog](#814-question-backlog)
+  - [8.1.5. Experiment Cards](#815-experiment-cards)
+- [8.2. Experiment Design](#82-experiment-design)
+  - [8.2.1. Hypotheses](#821-hypotheses)
+  - [8.2.2. Domain Business Metrics](#822)  
+  - [8.2.3. Measures](#823)
+  - [8.2.4. Conditions](#824)
+  - [8.2.5. Scale Calculations and Decisions](#825)
+  - [8.2.6. Methods Selection](#826)
+  - [8.2.7. Data Analytics: Goals, KPIs and Metrics Selection](#827)
+  - [8.2.8. Web and Mobile Tracking Plan](#828)  
+- [8.3. Experimentation ](#83-experimentation)
+  - [8.3.1. To-Be User Stories](#831-to-be-userstories)
+  - [8.3.2. To-Be Product Backlog](#832-to-be-productbacklog)
+
 - [Conclusiones](#74-conclusiones)
 - [Bibliografía](#75-bibliografía)
 - [Anexos](#76-anexos)
@@ -2725,7 +2746,7 @@ Los tests fueron diseñados bajo criterios de *robustez e integridad*, simulando
 
 ## Capítulo VII: DevOps Practices
 
-### 7.1. Continuous Integration
+## 7.1. Continuous Integration
 
 La Integración Continua (CI) en este proyecto es la disciplina de desarrollo enfocada en mantener la calidad del código mediante la fusión frecuente y la validación automatizada. La CI abarca las etapas desde que el código es comprometido por el desarrollador hasta el momento en que se genera un artefacto verificable y listo para su distribución.
 
@@ -2873,6 +2894,27 @@ El Deployment Pipeline define las etapas secuenciales del flujo de entrega conti
 | **4. Release Stage** | Publicación del artefacto aprobado (imagen o binario) en repositorio. | DockerHub, Nexus, GitHub Packages       |
 | **5. Deploy Stage**  | Despliegue automático en entorno de staging o producción.             | Kubernetes, AWS EC2, Vercel, Netlify    |
 | **6. Monitor Stage** | Supervisión y retroalimentación sobre rendimiento y errores.          | Prometheus, Grafana, ELK Stack, Sentry  |
+
+## Capítulo VIII: Experiment-Driven Development
+
+## 8.1. Experiment Planning
+  ### 8.1.1. As-Is Summary
+  ### 8.1.2. Raw Material: Assumptions, Knowledge Gaps, Ideas, Claims
+  ### 8.1.3. Experiment-Ready Questions
+  ### 8.1.4. Question Backlog
+  ### 8.1.5. Experiment Cards
+## 8.2. Experiment Design
+  ### 8.2.1. Hypotheses
+  ### 8.2.2. Domain Business Metrics
+  ### 8.2.3. Measures
+  ### 8.2.4. Conditions
+  ### 8.2.5. Scale Calculations and Decisions
+  ### 8.2.6. Methods Selection
+  ### 8.2.7. Data Analytics: Goals, KPIs and Metrics Selection
+  ### 8.2.8. Web and Mobile Tracking Plan
+## 8.3. Experimentation
+  ### 8.3.1. To-Be User Stories
+  ### 8.3.2. To-Be Product Backlog
 
 ## Conclusiones
 
