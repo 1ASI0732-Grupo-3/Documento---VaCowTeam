@@ -3018,7 +3018,111 @@ El Deployment Pipeline define las etapas secuenciales del flujo de entrega conti
 | ¿Aumentará la confianza y el uso de la app si ofrece un soporte técnico accesible y rápido?                                 | 7 – El soporte eficiente es determinante para usuarios nuevos.                               | 3 – Riesgo organizacional moderado (recursos humanos).            | 7 – Mejora la satisfacción y evita el abandono.                    | 6 – Interés relevante entre usuarios con baja alfabetización digital. | 23            |
 
   ### 8.1.4. Question Backlog
+
+| **Prioridad (1, 2, 3, 5, 8)** | **Pregunta**  |
+| --- | --- |
+| **8**                         | ¿Aumentará la productividad de los ganaderos si se digitaliza el registro de salud, alimentación y reproducción del ganado? |
+| **8**                         | ¿Aumentará la adopción en zonas rurales si la app permite funcionar sin conexión (modo offline)?                            |
+| **5**                         | ¿Mejorará la gestión diaria si se implementan alertas y recordatorios automáticos de vacunación y alimentación?             |
+| **5**                         | ¿Fortalecerá la confianza de los usuarios si la aplicación garantiza la seguridad y privacidad de los datos ganaderos?      |
+| **5**                         | ¿Facilitará la toma de decisiones incluir reportes visuales con indicadores de salud y producción?                          |
+| **3**                         | ¿Aumentará la satisfacción del usuario si la interfaz se adapta al tipo de perfil (pequeño productor o empresa)?            |
+| **3**                         | ¿Reducirá la carga administrativa integrar un sistema de recordatorios y tareas automáticas?                                |
+| **2**                         | ¿Fomentará el aprendizaje continuo incluir materiales educativos dentro de la aplicación?                                   |
+| **2**                         | ¿Aumentará la confianza y el uso de la app si ofrece un soporte técnico accesible y rápido?                                 |
+
   ### 8.1.5. Experiment Cards
+
+| Question |
+| --- |
+¿Aumentará la productividad de los ganaderos si se digitaliza el registro de salud, alimentación y reproducción del ganado?
+| Why | 
+Actualmente, los ganaderos registran la información de forma manual o dispersa (cuadernos, hojas de cálculo), lo que ocasiona pérdida de datos y baja eficiencia.
+| What |
+Desarrollar un módulo centralizado que permita registrar y consultar datos de salud, alimentación y reproducción del ganado desde la app web o móvil.
+| Hypothesis |
+Se espera una reducción del 40% en el tiempo de gestión diaria y una mejora del 30% en la precisión de los registros al implementar la digitalización completa.
+
+| Question |
+| --- |
+¿Mejorará la gestión diaria si se implementan alertas y recordatorios automáticos de vacunación y alimentación?
+| Why | 
+Los ganaderos suelen olvidar fechas de vacunación o alimentación, afectando la salud del ganado y la productividad.
+| What |
+Incorporar notificaciones automáticas configurables que alerten sobre próximas vacunas, controles sanitarios y horarios de alimentación.
+| Hypothesis |
+Se espera una disminución del 25% en omisiones sanitarias y un aumento del 20% en cumplimiento de cronogramas gracias a las alertas automatizadas.
+
+| Question |
+| --- |
+¿Aumentará la adopción en zonas rurales si la app permite funcionar sin conexión (modo offline)?
+| Why | 
+Gran parte de los usuarios potenciales se encuentra en zonas con conectividad limitada, lo que dificulta el uso continuo de la aplicación.
+| What |
+Desarrollar una funcionalidad offline que permita el registro y consulta local de datos, sincronizándose automáticamente cuando haya conexión.
+| Hypothesis |
+Se espera un incremento del 50% en la frecuencia de uso en zonas rurales y una reducción de quejas por conectividad en al menos un 40%.
+
+| Question |
+| --- |
+¿Fortalecerá la confianza de los usuarios si la aplicación garantiza la seguridad y privacidad de los datos ganaderos?
+| Why | 
+Los productores temen perder o exponer información sensible relacionada con su productividad o inventario.
+| What |
+Implementar cifrado de datos, autenticación segura y políticas de privacidad transparentes dentro de la app.
+| Hypothesis |
+Se espera que el 80% de los usuarios manifieste mayor confianza y que la retención aumente en un 25% tras reforzar la seguridad.
+
+| Question |
+| --- |
+¿Facilitará la toma de decisiones incluir reportes visuales con indicadores de salud y producción?
+| Why |
+Los ganaderos carecen de herramientas visuales para analizar tendencias o comparar rendimientos a lo largo del tiempo. 
+| What |
+Desarrollar paneles con gráficos e indicadores clave sobre producción, salud y eficiencia del ganado.
+| Hypothesis |
+Se espera una mejora del 70% en la comprensión operativa y un 30% de incremento en decisiones basadas en datos entre los usuarios activos.
+
+| Question |
+| --- |
+¿Aumentará la satisfacción del usuario si la interfaz se adapta al tipo de perfil (pequeño productor o empresa)?
+| Why | 
+Las necesidades de gestión difieren entre productores independientes y empresas ganaderas; una interfaz única puede no cubrir ambos casos.
+| What |
+Diseñar perfiles personalizables con módulos y vistas específicas según el tipo de usuario registrado.
+| Hypothesis |
+Se estima un incremento del 25% en la satisfacción general y una reducción del 15% en abandonos durante el uso inicial.
+
+| Question |
+| --- |
+¿Fomentará el aprendizaje continuo incluir materiales educativos dentro de la aplicación?
+| Why | 
+Muchos ganaderos no tienen acceso fácil a capacitación técnica o información actualizada sobre buenas prácticas.
+| What |
+Integrar una sección educativa con artículos, videos y tips sobre salud animal, alimentación y sostenibilidad.
+| Hypothesis |
+Se espera un 20% de incremento en el uso recurrente de la aplicación y una mayor percepción de valor entre nuevos usuarios.
+
+| Question |
+| --- |
+¿Reducirá la carga administrativa integrar un sistema de recordatorios y tareas automáticas?
+| Why | 
+Las tareas diarias (pesaje, control sanitario, alimentación) requieren mucho tiempo y son propensas a errores si se gestionan manualmente.
+| What |
+Añadir un módulo de tareas programadas con recordatorios automáticos y confirmación de cumplimiento.
+| Hypothesis |
+Se espera una reducción del 30% en el tiempo dedicado a tareas rutinarias y una disminución del 25% en registros incompletos.
+
+| Question |
+| --- |
+¿Aumentará la confianza y el uso de la app si ofrece un soporte técnico accesible y rápido?
+| Why | 
+Muchos usuarios rurales tienen poca experiencia con herramientas digitales y abandonan plataformas por falta de asistencia.
+| What |
+Incorporar un canal de soporte en línea con chat o mensajes directos para resolver dudas y brindar acompañamiento.
+| Hypothesis |
+Se espera una mejora del 40% en la retención de usuarios nuevos y una reducción del 20% en tickets no resueltos durante el primer mes de uso.
+
 ## 8.2. Experiment Design
   ### 8.2.1. Hypotheses
   ### 8.2.2. Domain Business Metrics
