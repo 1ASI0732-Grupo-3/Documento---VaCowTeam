@@ -2899,8 +2899,124 @@ El Deployment Pipeline define las etapas secuenciales del flujo de entrega conti
 
 ## 8.1. Experiment Planning
   ### 8.1.1. As-Is Summary
+  Actualmente, la gestión del ganado en el Perú se realiza de manera manual o mediante herramientas rudimentarias como cuadernos y hojas de cálculo. La mayoría de ganaderos carece de plataformas digitales que integren el control sanitario, la alimentación, la reproducción y los indicadores productivos de sus animales. Esto genera una administración desorganizada, pérdida de información y baja productividad. Además, las empresas ganaderas no disponen de sistemas centralizados para coordinar personal, gestionar proveedores ni analizar datos en tiempo real, lo que limita la toma de decisiones estratégicas y la sostenibilidad del sector.
+
+#### Problemas identificados:
+
+  * Gestión fragmentada: los procesos de registro y control del ganado se realizan manualmente o en formatos dispersos (cuadernos, Excel), dificultando la trazabilidad y el acceso a información precisa.
+
+  * Falta de digitalización: no existen herramientas accesibles que integren funciones clave como control sanitario, alimentación, reproducción y productividad.
+
+  * Desorganización operativa: los productores independientes enfrentan sobrecarga administrativa y pérdida de datos por falta de automatización.
+
+  * Limitaciones de conectividad: la baja cobertura de internet en zonas rurales impide el uso continuo de plataformas en línea.
+
+  * Escasa toma de decisiones basadas en datos: tanto pequeños ganaderos como empresas carecen de métricas centralizadas para evaluar rendimiento, costos o bienestar animal.
+
+  * Problemas de sostenibilidad: la ausencia de control y planificación impacta en la eficiencia económica y en la responsabilidad ambiental del sector.
+
+#### Objetivos de mejora:
+
+* Digitalizar la gestión ganadera: desarrollar una plataforma web y móvil que permita registrar, monitorear y analizar datos sobre salud, alimentación y reproducción del ganado.
+
+* Centralizar la información: unificar registros y reportes en un solo sistema, accesible en todo momento y desde distintos dispositivos.
+
+* Optimizar la productividad: automatizar tareas rutinarias (alertas sanitarias, control de peso, calendario de vacunación) para reducir errores y ahorrar tiempo.
+
+* Facilitar el trabajo en campo: incluir funcionalidades que operen en modo offline para zonas rurales con conectividad limitada.
+
+* Promover la sostenibilidad: ofrecer indicadores y reportes que ayuden a implementar prácticas responsables con el medio ambiente.
+
+* Fortalecer la toma de decisiones: integrar analítica de datos para que los ganaderos y empresas puedan evaluar su rendimiento y planificar estratégicamente.
+
   ### 8.1.2. Raw Material: Assumptions, Knowledge Gaps, Ideas, Claims
+  
+  #### Assumptions
+
+* Los ganaderos valorarán una plataforma única que centralice el control de salud, alimentación y reproducción del ganado, eliminando la dependencia de registros manuales o dispersos.
+
+* Una interfaz simple e intuitiva permitirá que usuarios con poca experiencia tecnológica puedan gestionar su ganado sin requerir capacitación extensa.
+
+* Las alertas automáticas sobre vacunas, alimentación o ciclos reproductivos reducirán las omisiones y mejorarán la salud general del ganado.
+
+* Permitir el funcionamiento offline aumentará la adopción en zonas rurales con baja conectividad.
+
+* Los usuarios confiarán más en la aplicación si esta garantiza la privacidad y seguridad de sus datos productivos.
+
+* Mostrar reportes visuales y gráficos de rendimiento facilitará la comprensión del estado sanitario y productivo del hato.
+
+* Incluir recordatorios programados para tareas rutinarias (vacunas, alimentación, control sanitario) aumentará la organización diaria.
+
+* La personalización por tipo de ganado o tamaño de operación (pequeño productor o empresa) mejorará la experiencia y satisfacción del usuario.
+
+* Ofrecer materiales educativos dentro de la app fortalecerá la fidelización y el aprendizaje de buenas prácticas ganaderas.
+
+#### Knowledge Gaps
+
+* ¿Qué nivel de adopción pueden alcanzar los ganaderos con baja alfabetización digital frente a una interfaz simple?
+
+* ¿Qué frecuencia de alertas (diarias, semanales o mensuales) perciben los usuarios como más útil sin resultar intrusiva?
+
+* ¿Qué tipo de reportes visuales (gráficos, indicadores, tablas) son más comprendidos y usados en la toma de decisiones?
+
+* ¿Cómo afecta la funcionalidad offline a la frecuencia real de uso en zonas rurales?
+
+* ¿Qué nivel de confianza genera el almacenamiento de datos en la nube entre los ganaderos peruanos?
+
+* ¿Qué funciones consideran más prioritarias los diferentes segmentos (pequeños productores vs. empresas)?
+
+* ¿Cuánto valoran los usuarios el acceso a contenido educativo o de asesoría técnica dentro de la app?
+
+* ¿Qué barreras culturales o tecnológicas influyen más en la adopción digital en el sector ganadero?
+
+#### Ideas
+
+* Realizar pruebas de usabilidad con ganaderos de zonas rurales para validar la facilidad de uso y comprensión de la interfaz.
+
+* Implementar tests A/B con distintos intervalos de notificaciones para identificar la frecuencia óptima.
+
+* Diseñar prototipos de reportes visuales (gráficos, KPI, tablas) y medir cuál facilita mejor la toma de decisiones.
+
+* Evaluar el uso de modo offline con métricas de acceso y sincronización de datos una vez conectados.
+
+* Aplicar encuestas de percepción de seguridad para medir confianza en el almacenamiento de datos.
+
+* Personalizar módulos según el tipo de usuario (independiente o empresa) y analizar su impacto en la retención.
+
+* Integrar un centro de aprendizaje virtual dentro de la app con artículos y videos educativos.
+
+* Medir la reducción del tiempo administrativo mediante la digitalización de registros y tareas automáticas.
+
+#### Claims
+
+* La digitalización del registro ganadero reducirá en un 40 % el tiempo destinado a tareas administrativas diarias.
+
+* El uso de alertas y recordatorios automáticos disminuirá en al menos 30 % los errores u omisiones sanitarias.
+
+* El funcionamiento offline aumentará la frecuencia de uso en zonas rurales en más del 50 %.
+
+* Garantizar la privacidad y seguridad de datos incrementará la confianza del usuario en un 80 % según encuestas post-uso.
+
+* Los reportes visuales facilitarán la toma de decisiones, mejorando la comprensión operativa en un 70 % de los usuarios.
+
+* La personalización por tipo de usuario incrementará la satisfacción y retención en al menos 25 %.
+
+* La inclusión de material educativo impulsará el uso continuo de la plataforma en un 20 % durante los primeros meses de adopción.
+
   ### 8.1.3. Experiment-Ready Questions
+
+|**Pregunta** |**Confianza** | **Riesgo** | **Impacto** | **Interés** | **Puntaje Total** |  
+| --- | --- | --- | --- | --- | --- |
+| ¿Aumentará la productividad de los ganaderos si se digitaliza el registro de salud, alimentación y reproducción del ganado? | 8 – La digitalización ha demostrado mejorar la eficiencia en sectores agrícolas y pecuarios. | 3 – Riesgo técnico moderado; depende de una correcta usabilidad.  | 9 – Reduce errores, tiempos administrativos y pérdidas económicas. | 8 – Alta demanda en entrevistas con productores y empresas.           | 28            |
+| ¿Mejorará la gestión diaria si se implementan alertas y recordatorios automáticos de vacunación y alimentación?             | 8 – Recordatorios automáticos son estándar en apps de control y salud.                       | 2 – Riesgo bajo; se basa en programación de eventos.              | 8 – Evita omisiones y mejora el bienestar animal.                  | 7 – Interés recurrente en entrevistas con ganaderos.                  | 25            |
+| ¿Aumentará la adopción en zonas rurales si la app permite funcionar sin conexión (modo offline)?                            | 7 – Experiencias previas indican alta utilidad del modo offline en entornos rurales.         | 4 – Riesgo técnico medio por sincronización de datos.             | 8 – Garantiza accesibilidad y continuidad operativa.               | 8 – Muy solicitado por usuarios rurales.                              | 27            |
+| ¿Fortalecerá la confianza de los usuarios si la aplicación garantiza la seguridad y privacidad de los datos ganaderos?      | 9 – La seguridad de datos es un factor clave de confianza digital.                           | 3 – Riesgo técnico moderado por manejo de credenciales y cifrado. | 8 – Genera fidelización y uso sostenido de la plataforma.          | 7 – Alta preocupación expresada en entrevistas.                       | 27            |
+| ¿Facilitará la toma de decisiones incluir reportes visuales con indicadores de salud y producción?                          | 8 – Los dashboards y visualizaciones mejoran la comprensión en la mayoría de sectores.       | 3 – Riesgo técnico bajo; requiere diseño adecuado.                | 8 – Mejora el control y análisis productivo.                       | 6 – Interés alto, especialmente en empresas ganaderas.                | 25            |
+| ¿Aumentará la satisfacción del usuario si la interfaz se adapta al tipo de perfil (pequeño productor o empresa)?            | 7 – La personalización mejora la experiencia en soluciones SaaS.                             | 4 – Riesgo medio; requiere gestión de roles y configuraciones.    | 7 – Aumenta la eficiencia y retención.                             | 7 – Interés creciente entre ambos segmentos.                          | 25            |
+| ¿Fomentará el aprendizaje continuo incluir materiales educativos dentro de la aplicación?                                   | 6 – Recursos educativos fortalecen la retención y confianza del usuario.                     | 2 – Riesgo bajo; solo requiere curación de contenido.             | 6 – Mejora la adopción y profesionalización del usuario.           | 6 – Interés medio según entrevistas.                                  | 20            |
+| ¿Reducirá la carga administrativa integrar un sistema de recordatorios y tareas automáticas?                                | 8 – La automatización reduce tareas repetitivas y errores humanos.                           | 3 – Riesgo bajo; depende de la interfaz de programación.          | 8 – Ahorra tiempo y mejora la organización.                        | 7 – Interés constante en entrevistas de productores independientes.   | 26            |
+| ¿Aumentará la confianza y el uso de la app si ofrece un soporte técnico accesible y rápido?                                 | 7 – El soporte eficiente es determinante para usuarios nuevos.                               | 3 – Riesgo organizacional moderado (recursos humanos).            | 7 – Mejora la satisfacción y evita el abandono.                    | 6 – Interés relevante entre usuarios con baja alfabetización digital. | 23            |
+
   ### 8.1.4. Question Backlog
   ### 8.1.5. Experiment Cards
 ## 8.2. Experiment Design
