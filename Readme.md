@@ -52,12 +52,12 @@
 
 # Registro de Versiones del Informe
 
-### Registro de Versiones
-
 | **Versión** | **Fecha** | **Autor**                                                                                                                                                                                    | **Descripción de modificación**                                                                                                                                                                                 |
 | ----------- | --------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **TB1**     | 20/10/25  | Saldana, Rodrigo Liberato (U202215623), Macavilca Quispe, Ian (U202121325), Rojas Velasquez, Maycol (U202219984), Espinoza Cueva, Stephano (U202218590), Paucar Meneses, Jeremy (U201919449) | Capítulo I: Introducción, Capítulo II: Requirements Elicitation & Analysis, Capítulo III: Requirements Specification, Capítulo IV: Product Design y Capítulo V: Product Implementation, Validation & Deployment |
+| **TB1**     | 20/09/25  | Saldana, Rodrigo Liberato (U202215623), Macavilca Quispe, Ian (U202121325), Rojas Velasquez, Maycol (U202219984), Espinoza Cueva, Stephano (U202218590), Paucar Meneses, Jeremy (U201919449) | Capítulo I: Introducción, Capítulo II: Requirements Elicitation & Analysis, Capítulo III: Requirements Specification, Capítulo IV: Product Design y Capítulo V: Product Implementation, Validation & Deployment |
 | **TP**     | 06/10/25  | Saldana, Rodrigo Liberato (U202215623), Macavilca Quispe, Ian (U202121325), Rojas Velasquez, Maycol (U202219984), Espinoza Cueva, Stephano (U202218590), Paucar Meneses, Jeremy (U201919449) | Capítulo VI: Product Verification & Validation,Capítulo VI: Product Verification & Validation, Capítulo VI: DevOps Practices |
+| **TB2**     | 12/10/2025  | Saldana, Rodrigo Liberato (U202215623), Macavilca Quispe, Ian (U202121325), Rojas Velasquez, Maycol (U202219984), Espinoza Cueva, Stephano (U202218590), Paucar Meneses, Jeremy (U201919449) |Capítulo VI: Product Verification & Validation (6.1 Testing Suites & Validation; 6.2 Static testing & Verification: 6.2.1 Static Code Analysis — 6.2.1.1 Coding standard & Code conventions; 6.2.1.2 Code Quality & Code Security; 6.2.2 Reviews; 6.3 Validation Interviews — 6.3.1 Diseño de entrevistas; 6.3.2 Registro de Entrevistas; 6.3.3 Evaluaciones según heurísticas; 6.4 Auditoría de Experiencias de Usuario — 6.4.1 Auditoría realizada (información del grupo auditado, cronograma, contenido) y 6.4.2 Auditoría recibida (información del grupo auditor, cronograma, contenido, resumen de modificaciones)). Además se incluyen Capítulo VII: DevOps Practices (CI, CD, Continuous Deployment, Continuous Monitoring — herramientas, pipelines y componentes) y Capítulo VIII: Experiment-Driven Development (Experiment Planning, Experiment Design y Experimentation con To‑Be User Stories y Product Backlog). |
+
 
 # Project Report Collaboration Insights
 
@@ -80,8 +80,8 @@
 
 | Métrica                     | Descripción                          |
 | --------------------------- | ------------------------------------ |
-| Número de commits por autor | ![Pruebas1](assets/insights.png)     |
-| Historial de cambios        | ![Pruebas1](assets/networkgraph.png) |
+| Número de commits por autor | ![Pruebas1](assets/insightsTB2.png)     |
+| Historial de cambios        | ![Pruebas1](assets/networkgraphTB2.png) |
 
 #### 4. Participación de Todos los Miembros del Equipo
 
@@ -91,94 +91,93 @@
 | Discusiones y actividades | Se organizaron encuentros virtuales para compartir avances, resolver dudas y atender los desafíos de cada actividad.                                            |
 | Exposiciones del proyecto | Se llevaron a cabo sesiones para exponer el trabajo realizado antes de la fecha orrespondiente y prepararnos adecuadamente para la presentación final.          |
 
-# Tabla de Contenidos
 
-## Capítulo I: Introducción
+# Tabla de Contenidos  
 
-- [1.1. Start-up Profile](#11-start-up-profile)
-  - [1.1.1. Descripción de la Startup](#111-descripción-de-la-startup)
-  - [1.1.2. Perfiles de Integrantes del Equipo](#112-perfiles-de-integrantes-del-equipo)
-- [1.2. Solution Profile](#12-solution-profile)
-  - [1.2.1. Antecedentes y Problemática](#121-antecedentes-y-problemática)
-  - [1.2.2. Lean UX Process](#122-lean-ux-process)
-    - [1.2.2.1. Lean UX Problem Statements](#1221-lean-ux-problem-statements)
-    - [1.2.2.2. Lean UX Assumptions](#1222-lean-ux-assumptions)
-    - [1.2.2.3. Lean UX Hypothesis Statements](#1223-lean-ux-hypothesis-statements)
-    - [1.2.2.4. Lean UX Canvas](#1224-lean-ux-canvas)
-- [1.3. Segmentos Objetivo](#13-segmentos-objetivo)
+## Capítulo I: Introducción  
 
----
-
-## Capítulo II: Requirements Elicitation & Analysis
-
-- [2.1. Competidores](#21-competidores)
-  - [2.1.1. Análisis Competitivo](#211-análisis-competitivo)
-  - [2.1.2. Estrategias y Tácticas frente a Competidores](#212-estrategias-y-tácticas-frente-a-competidores)
-- [2.2. Entrevistas](#22-entrevistas)
-  - [2.2.1. Diseño de Entrevistas](#221-diseño-de-entrevistas)
-  - [2.2.2. Registro de Entrevistas](#222-registro-de-entrevistas)
-  - [2.2.3. Análisis de Entrevistas](#223-análisis-de-entrevistas)
-- [2.3. Needfinding](#23-needfinding)
-
-  - [2.3.1. User Personas](#231-user-personas)
-  - [2.3.2. User Task Matrix](#232-user-task-matrix)
-  - [2.3.3. User Journey Mapping](#233-user-journey-mapping)
-  - [2.3.4. Empathy Mapping](#234-empathy-mapping)
-  - [2.3.5. As-is Scenario Mapping](#235-as-is-scenario-mapping)
-
-- [2.4. Ubiquitous Language](#24-ubiquitous-language)
+- [1.1. Start-up Profile](#11-start-up-profile)  
+  - [1.1.1. Descripción de la Startup](#111-descripción-de-la-startup)  
+  - [1.1.2. Perfiles de Integrantes del Equipo](#112-perfiles-de-integrantes-del-equipo)  
+- [1.2. Solution Profile](#12-solution-profile)  
+  - [1.2.1. Antecedentes y Problemática](#121-antecedentes-y-problemática)  
+  - [1.2.2. Lean UX Process](#122-lean-ux-process)  
+    - [1.2.2.1. Lean UX Problem Statements](#1221-lean-ux-problem-statements)  
+    - [1.2.2.2. Lean UX Assumptions](#1222-lean-ux-assumptions)  
+    - [1.2.2.3. Lean UX Hypothesis Statements](#1223-lean-ux-hypothesis-statements)  
+    - [1.2.2.4. Lean UX Canvas](#1224-lean-ux-canvas)  
+- [1.3. Segmentos Objetivo](#13-segmentos-objetivo)  
 
 ---
 
-## Capítulo III: Requirements Specification
+## Capítulo II: Requirements Elicitation & Analysis  
 
-- [3.1. To-Be Scenario Mapping](#31-to-be-scenario-mapping)
-- [3.2. User Stories](#32-user-stories)
-- [3.3. Impact Mapping](#33-impact-mapping)
-- [3.4. Product Backlog](#34-product-backlog)
+- [2.1. Competidores](#21-competidores)  
+  - [2.1.1. Análisis Competitivo](#211-análisis-competitivo)  
+  - [2.1.2. Estrategias y Tácticas frente a Competidores](#212-estrategias-y-tácticas-frente-a-competidores)  
+- [2.2. Entrevistas](#22-entrevistas)  
+  - [2.2.1. Diseño de Entrevistas](#221-diseño-de-entrevistas)  
+  - [2.2.2. Registro de Entrevistas](#222-registro-de-entrevistas)  
+  - [2.2.3. Análisis de Entrevistas](#223-análisis-de-entrevistas)  
+- [2.3. Needfinding](#23-needfinding)  
+  - [2.3.1. User Personas](#231-user-personas)  
+  - [2.3.2. User Task Matrix](#232-user-task-matrix)  
+  - [2.3.3. User Journey Mapping](#233-user-journey-mapping)  
+  - [2.3.4. Empathy Mapping](#234-empathy-mapping)  
+  - [2.3.5. As-is Scenario Mapping](#235-as-is-scenario-mapping)  
+- [2.4. Ubiquitous Language](#24-ubiquitous-language)  
 
 ---
 
-## Capítulo IV: Product Design
+## Capítulo III: Requirements Specification  
 
-- [4.1. Style Guidelines](#41-style-guidelines)
-  - [4.1.1. General Style Guidelines](#411-general-style-guidelines)
-  - [4.1.2. Web Style Guidelines](#412-web-style-guidelines)
-  - [4.1.3. Mobile Style Guidelines](#413-mobile-style-guidelines)
-    - [4.1.3.1. iOS Mobile Style Guidelines](#4131-ios-mobile-style-guidelines)
-    - [4.1.3.2. Android Mobile Style Guidelines](#4132-android-mobile-style-guidelines)
-- [4.2. Information Architecture](#42-information-architecture)
-  - [4.2.1. Organization Systems](#421-organization-systems)
-  - [4.2.2. Labeling Systems](#422-labeling-systems)
-  - [4.2.3. SEO Tags and Meta Tags](#423-seo-tags-and-meta-tags)
-  - [4.2.4. Searching Systems](#424-searching-systems)
-  - [4.2.5. Navigation Systems](#425-navigation-systems)
-- [4.3. Landing Page UI Design](#43-landing-page-ui-design)
-  - [4.3.1. Landing Page Wireframe](#431-landing-page-wireframe)
-  - [4.3.2. Landing Page Mock-up](#432-landing-page-mock-up)
-- [4.4. Mobile Applications UX/UI Design](#44-mobile-applications-uxui-design)
-  - [4.4.1. Wireframes](#441-mobile-applications-wireframes)
-  - [4.4.2. Wireflow Diagrams](#442-mobile-applications-wireflow-diagrams)
-  - [4.4.3. Mock-ups](#443-mobile-applications-mock-ups)
-  - [4.4.4. User Flow Diagrams](#444-mobile-applications-user-flow-diagrams)
-- [4.5. Mobile Applications Prototyping](#45-mobile-applications-prototyping)
-  - [4.5.1. Android Prototyping](#451-android-mobile-applications-prototyping)
-  - [4.5.2. iOS Prototyping](#452-ios-mobile-applications-prototyping)
-- [4.6. Web Applications UX/UI Design](#46-web-applications-uxui-design)
-  - [4.6.1. Wireframes](#461-web-applications-wireframes)
-  - [4.6.2. Wireflow Diagrams](#462-web-applications-wireflow-diagrams)
-  - [4.6.3. Mock-ups](#463-web-applications-mock-ups)
-  - [4.6.4. User Flow Diagrams](#464-web-applications-user-flow-diagrams)
-- [4.7. Web Applications Prototyping](#47-web-applications-prototyping)
-- [4.8. Domain-Driven Software Architecture](#48-domain-driven-software-architecture)
-  - [4.8.1. Context Diagram](#481-software-architecture-context-diagram)
-  - [4.8.2. Container Diagrams](#482-software-architecture-container-diagrams)
-  - [4.8.3. Component Diagrams](#483-software-architecture-components-diagrams)
-- [4.9. Software Object-Oriented Design](#49-software-object-oriented-design)
-  - [4.9.1. Class Diagrams](#491-class-diagrams)
-  - [4.9.2. Class Dictionary](#492-class-dictionary)
-- [4.10. Database Design](#410-database-design)
-  - [4.10.1. Relational/Non-Relational Database Diagram](#4101-relationalnon-relational-database-diagram)
+- [3.1. To-Be Scenario Mapping](#31-to-be-scenario-mapping)  
+- [3.2. User Stories](#32-user-stories)  
+- [3.3. Impact Mapping](#33-impact-mapping)  
+- [3.4. Product Backlog](#34-product-backlog)  
+
+---
+
+## Capítulo IV: Product Design  
+
+- [4.1. Style Guidelines](#41-style-guidelines)  
+  - [4.1.1. General Style Guidelines](#411-general-style-guidelines)  
+  - [4.1.2. Web Style Guidelines](#412-web-style-guidelines)  
+  - [4.1.3. Mobile Style Guidelines](#413-mobile-style-guidelines)  
+    - [4.1.3.1. iOS Mobile Style Guidelines](#4131-ios-mobile-style-guidelines)  
+    - [4.1.3.2. Android Mobile Style Guidelines](#4132-android-mobile-style-guidelines)  
+- [4.2. Information Architecture](#42-information-architecture)  
+  - [4.2.1. Organization Systems](#421-organization-systems)  
+  - [4.2.2. Labeling Systems](#422-labeling-systems)  
+  - [4.2.3. SEO Tags and Meta Tags](#423-seo-tags-and-meta-tags)  
+  - [4.2.4. Searching Systems](#424-searching-systems)  
+  - [4.2.5. Navigation Systems](#425-navigation-systems)  
+- [4.3. Landing Page UI Design](#43-landing-page-ui-design)  
+  - [4.3.1. Landing Page Wireframe](#431-landing-page-wireframe)  
+  - [4.3.2. Landing Page Mock-up](#432-landing-page-mock-up)  
+- [4.4. Mobile Applications UX/UI Design](#44-mobile-applications-uxui-design)  
+  - [4.4.1. Wireframes](#441-mobile-applications-wireframes)  
+  - [4.4.2. Wireflow Diagrams](#442-mobile-applications-wireflow-diagrams)  
+  - [4.4.3. Mock-ups](#443-mobile-applications-mock-ups)  
+  - [4.4.4. User Flow Diagrams](#444-mobile-applications-user-flow-diagrams)  
+- [4.5. Mobile Applications Prototyping](#45-mobile-applications-prototyping)  
+  - [4.5.1. Android Prototyping](#451-android-mobile-applications-prototyping)  
+  - [4.5.2. iOS Prototyping](#452-ios-mobile-applications-prototyping)  
+- [4.6. Web Applications UX/UI Design](#46-web-applications-uxui-design)  
+  - [4.6.1. Wireframes](#461-web-applications-wireframes)  
+  - [4.6.2. Wireflow Diagrams](#462-web-applications-wireflow-diagrams)  
+  - [4.6.3. Mock-ups](#463-web-applications-mock-ups)  
+  - [4.6.4. User Flow Diagrams](#464-web-applications-user-flow-diagrams)  
+- [4.7. Web Applications Prototyping](#47-web-applications-prototyping)  
+- [4.8. Domain-Driven Software Architecture](#48-domain-driven-software-architecture)  
+  - [4.8.1. Context Diagram](#481-software-architecture-context-diagram)  
+  - [4.8.2. Container Diagrams](#482-software-architecture-container-diagrams)  
+  - [4.8.3. Component Diagrams](#483-software-architecture-components-diagrams)  
+- [4.9. Software Object-Oriented Design](#49-software-object-oriented-design)  
+  - [4.9.1. Class Diagrams](#491-class-diagrams)  
+  - [4.9.2. Class Dictionary](#492-class-dictionary)  
+- [4.10. Database Design](#410-database-design)  
+  - [4.10.1. Relational/Non-Relational Database Diagram](#4101-relationalnon-relational-database-diagram)  
 
 ---
 
@@ -209,8 +208,25 @@
   - [6.1.2. Core Integration Tests](#612-core-integration-tests)
   - [6.1.3. Core Behavior-Driven Development](#613-core-behavior-driven-development)
   - [6.1.4. Core System Tests](#614-core-system-tests)
-
----
+- [6.2. Static testing & Verification](#62-static-testing--verification)
+  - [6.2.1. Static Code Analysis](#621-static-code-analysis)
+    - [6.2.1.1. Coding standard & Code conventions](#6211-coding-standard--code-conventions)
+    - [6.2.1.2. Code Quality & Code Security](#6212-code-quality--code-security)
+  - [6.2.2. Reviews](#622-reviews)
+- [6.3. Validation Interviews](#63-validation-interviews)
+  - [6.3.1. Diseño de entrevistas](#631-diseño-de-entrevistas)
+  - [6.3.2. Registro de Entrevistas](#632-registro-de-entrevistas)
+  - [6.3.3. Evaluaciones Según heurísticas](#633-evaluaciones-según-heurísticas)
+- [6.4. Auditoría de Experiencias de Usuario](#64-auditoría-de-experiencias-de-usuario)
+  - [6.4.1. Auditoría realizada](#641-auditoría-realizada)
+    - [6.4.1.1. Información del grupo auditado](#6411-información-del-grupo-auditado)
+    - [6.4.1.2. Cronograma de auditoría realizada](#6412-cronograma-de-auditoría-realizada)
+    - [6.4.1.3. Contenido de auditoría realizada](#6413-contenido-de-auditoría-realizada)
+  - [6.4.2. Auditoría recibida](#642-auditoría-recibida)
+    - [6.4.2.1. Información del grupo auditor](#6421-información-del-grupo-auditor)
+    - [6.4.2.2. Cronograma de auditoría recibida](#6422-cronograma-de-auditoría-recibida)
+    - [6.4.2.3. Contenido de auditoría recibida](#6423-contenido-de-auditoría-recibida)
+    - [6.4.2.4. Resumen de modificaciones para subsanar hallazgos](#6424-resumen-de-modificaciones-para-subsanar-hallazgos)
 
 ## Capítulo VII: DevOps Practices
 
@@ -222,7 +238,33 @@
   - [7.2.2. Stages Deployment Pipeline Components](#722-stages-deployment-pipeline-components)
 - [7.3. Continuous Deployment](#73-continuous-deployment)
   - [7.3.1. Tools and Practices](#731-tools-and-practices)
-  - [7.3.2. Stages Deployment Pipeline Components](#732-stages-deployment-pipeline-components)
+  - [7.3.2. Production Deployment Pipeline Components](#732-production-deployment-pipeline-components)
+- [7.4. Continuous Monitoring](#74-continuous-monitoring)
+  - [7.4.1. Tools and Practices](#741-tools-and-practices)
+  - [7.4.2. Monitoring Pipeline Components](#742-monitoring-pipeline-components)
+  - [7.4.3. Alerting Pipeline Components](#743-alerting-pipeline-components)
+  - [7.4.4. Notification Pipeline Components](#744-notification-pipeline-components)
+
+## Capítulo VIII: Experiment-Driven Development
+
+- [8.1. Experiment Planning](#81-experiment-planning)
+  - [8.1.1. As-Is Summary](#811-as-is-summary)
+  - [8.1.2. Raw Material: Assumptions, Knowledge Gaps, Ideas, Claims](#812-raw-material-assumptions-knowledge-gaps-ideas-claims)
+  - [8.1.3. Experiment-Ready Questions](#813-experiment-ready-questions)
+  - [8.1.4. Question Backlog](#814-question-backlog)
+  - [8.1.5. Experiment Cards](#815-experiment-cards)
+- [8.2. Experiment Design](#82-experiment-design)
+  - [8.2.1. Hypotheses](#821-hypotheses)
+  - [8.2.2. Domain Business Metrics](#822-domain-business-metrics)
+  - [8.2.3. Measures](#823-measures)
+  - [8.2.4. Conditions](#824-conditions)
+  - [8.2.5. Scale Calculations and Decisions](#825-scale-calculations-and-decisions)
+  - [8.2.6. Methods Selection](#826-methods-selection)
+  - [8.2.7. Data Analytics: Goals, KPIs and Metrics Selection](#827-data-analytics-goals-kpis-and-metrics-selection)
+  - [8.2.8. Web and Mobile Tracking Plan](#828-web-and-mobile-tracking-plan)
+- [8.3. Experimentation](#83-experimentation)
+  - [8.3.1. To-Be User Stories](#831-to-be-user-stories)
+  - [8.3.2. To-Be Product Backlog](#832-to-be-product-backlog)
 
 - [Conclusiones](#74-conclusiones)
 - [Bibliografía](#75-bibliografía)
