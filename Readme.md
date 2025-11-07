@@ -13,7 +13,7 @@
 </p>
 <p align="center">
   <span style="font-size: 2.5em; font-weight: bold; font-style: italic;">VacApp</span><br>
-  <span style="font-size: 1.8em; font-weight: bold; font-style: italic;">TB1</span>
+  <span style="font-size: 1.8em; font-weight: bold; font-style: italic;">TB2</span>
 </p>
 
 <p align="center">
@@ -3223,6 +3223,728 @@ Los tests fueron diseñados bajo criterios de *robustez e integridad*, simulando
 - Validación de campos requeridos.
 - Respuestas HTTP coherentes con los estados del dominio.
 
+### 6.2. Static testing & Verification
+
+En este punto del testing, se verificaran algunos defectos de la aplicación que tal vez no afecten a la compilación del código, pero que estén lejos de los estándares establecidos por la comunidad.
+
+### 6.2.1. Static Code Analysis
+
+Realizaremos este análisis con el propósito de eliminar los bugs en este proceso de desarrollo que podría impedirnos el crecimiento del mismo, asimismo nos ayudara a mejorar la productividad y tendremos un mejor manejo con las variables y en términos de calidad, estaremos por encima de los términos establecidos.
+
+#### 6.2.1.1. Coding standard & Code conventions
+
+ara mantener la legibilidad del código se preparo un `.editoconfig`. Esto con el fin de mantener las reglas en el formato del código (variables, métodos, atributos, etc.).
+
+```
+root = true
+
+# All files
+
+[*]
+
+charset = utf-8
+
+indent_style = space
+
+indent_size = 2
+
+end_of_line = lf
+
+trim_trailing_whitespace = true
+
+insert_final_newline = true
+
+  
+
+# Code files
+
+[*.{cs,csx,vb,vbx}]
+
+indent_size = 4
+
+  
+
+# XML project files
+
+[*.{csproj,vbproj,vcxproj,vcxproj.filters,proj,projitems,shproj}]
+
+indent_size = 2
+
+  
+
+# XML config files
+
+[*.{props,targets,ruleset,config,nuspec,resx,vsixmanifest,vsct}]
+
+indent_size = 2
+
+  
+
+# JSON files
+
+[*.json]
+
+indent_size = 2
+
+  
+
+# YAML files
+
+[*.{yml,yaml}]
+
+indent_size = 2
+
+  
+
+# Shell scripts
+
+[*.sh]
+
+end_of_line = lf
+
+  
+
+# C# files
+
+[*.cs]
+
+  
+
+#### Core EditorConfig Options ####
+
+  
+
+# Indentation and spacing
+
+indent_size = 4
+
+tab_width = 4
+
+  
+
+#### .NET Coding Conventions ####
+
+  
+
+# Organize usings
+
+dotnet_sort_system_directives_first = true
+
+dotnet_separate_import_directive_groups = false
+
+  
+
+# this. preferences
+
+dotnet_style_qualification_for_field = false:warning
+
+dotnet_style_qualification_for_property = false:warning
+
+dotnet_style_qualification_for_method = false:warning
+
+dotnet_style_qualification_for_event = false:warning
+
+  
+
+# Language keywords vs BCL types preferences
+
+dotnet_style_predefined_type_for_locals_parameters_members = true:warning
+
+dotnet_style_predefined_type_for_member_access = true:warning
+
+  
+
+# Parentheses preferences
+
+dotnet_style_parentheses_in_arithmetic_binary_operators = always_for_clarity:suggestion
+
+dotnet_style_parentheses_in_relational_binary_operators = always_for_clarity:suggestion
+
+dotnet_style_parentheses_in_other_binary_operators = always_for_clarity:suggestion
+
+dotnet_style_parentheses_in_other_operators = never_if_unnecessary:suggestion
+
+  
+
+# Modifier preferences
+
+dotnet_style_require_accessibility_modifiers = always:warning
+
+dotnet_style_readonly_field = true:warning
+
+  
+
+# Expression-level preferences
+
+dotnet_style_object_initializer = true:suggestion
+
+dotnet_style_collection_initializer = true:suggestion
+
+dotnet_style_explicit_tuple_names = true:warning
+
+dotnet_style_null_propagation = true:suggestion
+
+dotnet_style_coalesce_expression = true:suggestion
+
+dotnet_style_prefer_is_null_check_over_reference_equality_method = true:warning
+
+dotnet_style_prefer_inferred_tuple_names = true:suggestion
+
+dotnet_style_prefer_inferred_anonymous_type_member_names = true:suggestion
+
+dotnet_style_prefer_auto_properties = true:suggestion
+
+dotnet_style_prefer_conditional_expression_over_assignment = true:silent
+
+dotnet_style_prefer_conditional_expression_over_return = true:silent
+
+dotnet_style_prefer_compound_assignment = true:suggestion
+
+dotnet_style_prefer_simplified_interpolation = true:suggestion
+
+dotnet_style_prefer_simplified_boolean_expressions = true:suggestion
+
+  
+
+# Null-checking preferences
+
+dotnet_style_coalesce_expression = true:suggestion
+
+dotnet_style_null_propagation = true:suggestion
+
+  
+
+#### C# Coding Conventions ####
+
+  
+
+# var preferences
+
+csharp_style_var_for_built_in_types = true:suggestion
+
+csharp_style_var_when_type_is_apparent = true:suggestion
+
+csharp_style_var_elsewhere = true:suggestion
+
+  
+
+# Expression-bodied members
+
+csharp_style_expression_bodied_methods = when_on_single_line:suggestion
+
+csharp_style_expression_bodied_constructors = false:suggestion
+
+csharp_style_expression_bodied_operators = when_on_single_line:suggestion
+
+csharp_style_expression_bodied_properties = when_on_single_line:suggestion
+
+csharp_style_expression_bodied_indexers = when_on_single_line:suggestion
+
+csharp_style_expression_bodied_accessors = when_on_single_line:suggestion
+
+csharp_style_expression_bodied_lambdas = when_on_single_line:suggestion
+
+csharp_style_expression_bodied_local_functions = when_on_single_line:suggestion
+
+  
+
+# Pattern matching preferences
+
+csharp_style_pattern_matching_over_is_with_cast_check = true:warning
+
+csharp_style_pattern_matching_over_as_with_null_check = true:warning
+
+csharp_style_prefer_switch_expression = true:suggestion
+
+csharp_style_prefer_pattern_matching = true:suggestion
+
+csharp_style_prefer_not_pattern = true:suggestion
+
+csharp_style_prefer_extended_property_pattern = true:suggestion
+
+  
+
+# Null-checking preferences
+
+csharp_style_throw_expression = true:suggestion
+
+csharp_style_conditional_delegate_call = true:suggestion
+
+  
+
+# Modifier preferences
+
+csharp_prefer_static_local_function = true:warning
+
+csharp_preferred_modifier_order = public,private,protected,internal,static,extern,new,virtual,abstract,sealed,override,readonly,unsafe,volatile,async:suggestion
+
+  
+
+# Code-block preferences
+
+csharp_prefer_braces = true:warning
+
+csharp_prefer_simple_using_statement = true:suggestion
+
+csharp_style_namespace_declarations = file_scoped:warning
+
+csharp_style_prefer_method_group_conversion = true:suggestion
+
+csharp_style_prefer_top_level_statements = true:silent
+
+  
+
+# Expression-level preferences
+
+csharp_prefer_simple_default_expression = true:suggestion
+
+csharp_style_pattern_local_over_anonymous_function = true:suggestion
+
+csharp_style_inlined_variable_declaration = true:suggestion
+
+csharp_style_prefer_index_operator = true:suggestion
+
+csharp_style_prefer_range_operator = true:suggestion
+
+csharp_style_implicit_object_creation_when_type_is_apparent = true:suggestion
+
+csharp_style_prefer_tuple_swap = true:suggestion
+
+csharp_style_prefer_utf8_string_literals = true:suggestion
+
+csharp_style_deconstructed_variable_declaration = true:suggestion
+
+csharp_style_unused_value_assignment_preference = discard_variable:suggestion
+
+csharp_style_unused_value_expression_statement_preference = discard_variable:silent
+
+  
+
+# 'using' directive preferences
+
+csharp_using_directive_placement = outside_namespace:warning
+
+  
+
+# New line preferences
+
+csharp_style_allow_embedded_statements_on_same_line_experimental = false:warning
+
+csharp_style_allow_blank_lines_between_consecutive_braces_experimental = false:warning
+
+csharp_style_allow_blank_line_after_colon_in_constructor_initializer_experimental = false:warning
+
+  
+
+#### C# Formatting Rules ####
+
+  
+
+# New line preferences
+
+csharp_new_line_before_open_brace = all
+
+csharp_new_line_before_else = true
+
+csharp_new_line_before_catch = true
+
+csharp_new_line_before_finally = true
+
+csharp_new_line_before_members_in_object_initializers = true
+
+csharp_new_line_before_members_in_anonymous_types = true
+
+csharp_new_line_between_query_expression_clauses = true
+
+  
+
+# Indentation preferences
+
+csharp_indent_case_contents = true
+
+csharp_indent_switch_labels = true
+
+csharp_indent_labels = no_change
+
+csharp_indent_block_contents = true
+
+csharp_indent_braces = false
+
+csharp_indent_case_contents_when_block = false
+
+  
+
+# Space preferences
+
+csharp_space_after_cast = false
+
+csharp_space_after_keywords_in_control_flow_statements = true
+
+csharp_space_between_parentheses = false
+
+csharp_space_before_colon_in_inheritance_clause = true
+
+csharp_space_after_colon_in_inheritance_clause = true
+
+csharp_space_around_binary_operators = before_and_after
+
+csharp_space_between_method_declaration_parameter_list_parentheses = false
+
+csharp_space_between_method_declaration_empty_parameter_list_parentheses = false
+
+csharp_space_between_method_declaration_name_and_open_parenthesis = false
+
+csharp_space_between_method_call_parameter_list_parentheses = false
+
+csharp_space_between_method_call_empty_parameter_list_parentheses = false
+
+csharp_space_between_method_call_name_and_opening_parenthesis = false
+
+csharp_space_after_comma = true
+
+csharp_space_after_dot = false
+
+csharp_space_after_semicolon_in_for_statement = true
+
+csharp_space_before_semicolon_in_for_statement = false
+
+csharp_space_around_declaration_statements = false
+
+csharp_space_before_open_square_brackets = false
+
+csharp_space_between_empty_square_brackets = false
+
+csharp_space_between_square_brackets = false
+
+  
+
+# Wrapping preferences
+
+csharp_preserve_single_line_statements = false
+
+csharp_preserve_single_line_blocks = true
+
+  
+
+#### Naming conventions ####
+
+  
+
+# Naming rules
+
+  
+
+dotnet_naming_rule.interface_should_be_begins_with_i.severity = warning
+
+dotnet_naming_rule.interface_should_be_begins_with_i.symbols = interface
+
+dotnet_naming_rule.interface_should_be_begins_with_i.style = begins_with_i
+
+  
+
+dotnet_naming_rule.types_should_be_pascal_case.severity = warning
+
+dotnet_naming_rule.types_should_be_pascal_case.symbols = types
+
+dotnet_naming_rule.types_should_be_pascal_case.style = pascal_case
+
+  
+
+dotnet_naming_rule.non_field_members_should_be_pascal_case.severity = warning
+
+dotnet_naming_rule.non_field_members_should_be_pascal_case.symbols = non_field_members
+
+dotnet_naming_rule.non_field_members_should_be_pascal_case.style = pascal_case
+
+  
+
+dotnet_naming_rule.private_or_internal_field_should_be_begins_with_underscore.severity = warning
+
+dotnet_naming_rule.private_or_internal_field_should_be_begins_with_underscore.symbols = private_or_internal_field
+
+dotnet_naming_rule.private_or_internal_field_should_be_begins_with_underscore.style = begins_with_underscore
+
+  
+
+dotnet_naming_rule.constant_should_be_pascal_case.severity = warning
+
+dotnet_naming_rule.constant_should_be_pascal_case.symbols = constant
+
+dotnet_naming_rule.constant_should_be_pascal_case.style = pascal_case
+
+  
+
+dotnet_naming_rule.static_readonly_should_be_pascal_case.severity = warning
+
+dotnet_naming_rule.static_readonly_should_be_pascal_case.symbols = static_readonly
+
+dotnet_naming_rule.static_readonly_should_be_pascal_case.style = pascal_case
+
+  
+
+# Symbol specifications
+
+  
+
+dotnet_naming_symbols.interface.applicable_kinds = interface
+
+dotnet_naming_symbols.interface.applicable_accessibilities = public, internal, private, protected, protected_internal, private_protected
+
+dotnet_naming_symbols.interface.required_modifiers =
+
+  
+
+dotnet_naming_symbols.types.applicable_kinds = class, struct, interface, enum
+
+dotnet_naming_symbols.types.applicable_accessibilities = public, internal, private, protected, protected_internal, private_protected
+
+dotnet_naming_symbols.types.required_modifiers =
+
+  
+
+dotnet_naming_symbols.non_field_members.applicable_kinds = property, event, method
+
+dotnet_naming_symbols.non_field_members.applicable_accessibilities = public, internal, private, protected, protected_internal, private_protected
+
+dotnet_naming_symbols.non_field_members.required_modifiers =
+
+  
+
+dotnet_naming_symbols.private_or_internal_field.applicable_kinds = field
+
+dotnet_naming_symbols.private_or_internal_field.applicable_accessibilities = internal, private, private_protected
+
+dotnet_naming_symbols.private_or_internal_field.required_modifiers =
+
+  
+
+dotnet_naming_symbols.constant.applicable_kinds = field
+
+dotnet_naming_symbols.constant.applicable_accessibilities = *
+
+dotnet_naming_symbols.constant.required_modifiers = const
+
+  
+
+dotnet_naming_symbols.static_readonly.applicable_kinds = field
+
+dotnet_naming_symbols.static_readonly.applicable_accessibilities = *
+
+dotnet_naming_symbols.static_readonly.required_modifiers = static, readonly
+
+  
+
+# Naming styles
+
+  
+
+dotnet_naming_style.pascal_case.required_prefix =
+
+dotnet_naming_style.pascal_case.required_suffix =
+
+dotnet_naming_style.pascal_case.word_separator =
+
+dotnet_naming_style.pascal_case.capitalization = pascal_case
+
+  
+
+dotnet_naming_style.begins_with_i.required_prefix = I
+
+dotnet_naming_style.begins_with_i.required_suffix =
+
+dotnet_naming_style.begins_with_i.word_separator =
+
+dotnet_naming_style.begins_with_i.capitalization = pascal_case
+
+dotnet_naming_style.begins_with_underscore.required_prefix = _
+
+dotnet_naming_style.begins_with_underscore.required_suffix =
+
+dotnet_naming_style.begins_with_underscore.word_separator =
+
+dotnet_naming_style.begins_with_underscore.capitalization = camel_case
+```
+Asimismo se implemento dentro del documento algunas reglas de refactorización utilizando Roslynator, un paquete de `dotnet` que facilita esto mismo.
+
+```
+# CA1031: Do not catch general exception types
+
+dotnet_diagnostic.CA1031.severity = suggestion
+
+  
+
+# CA1062: Validate arguments of public methods
+
+dotnet_diagnostic.CA1062.severity = suggestion
+
+  
+
+# CA1303: Do not pass literals as localized parameters
+
+dotnet_diagnostic.CA1303.severity = none
+
+  
+
+# CA1707: Identifiers should not contain underscores
+
+dotnet_diagnostic.CA1707.severity = none
+
+  
+
+# CA1711: Identifiers should not have incorrect suffix
+
+dotnet_diagnostic.CA1711.severity = suggestion
+
+  
+
+# CA2007: Consider calling ConfigureAwait on the awaited task
+
+dotnet_diagnostic.CA2007.severity = suggestion
+
+  
+
+# IDE0005: Using directive is unnecessary
+
+dotnet_diagnostic.IDE0005.severity = warning
+
+  
+
+# IDE0055: Fix formatting
+
+dotnet_diagnostic.IDE0055.severity = warning
+
+  
+
+# Remove unnecessary suppressions
+
+dotnet_diagnostic.IDE0079.severity = warning
+
+  
+
+# Roslynator Analyzers - Configuración API
+
+  
+
+dotnet_analyzer_diagnostic.category-Roslynator.severity = suggestion
+
+  
+
+dotnet_diagnostic.RCS1021.severity = warning  
+
+dotnet_diagnostic.RCS1118.severity = warning  
+
+dotnet_diagnostic.RCS1036.severity = warning  
+
+dotnet_diagnostic.RCS1123.severity = warning  
+
+dotnet_diagnostic.RCS1213.severity = warning  
+
+dotnet_diagnostic.RCS1045.severity = suggestion
+
+dotnet_diagnostic.RCS1158.severity = warning  
+
+  
+
+dotnet_diagnostic.RCS1002.severity = suggestion
+
+dotnet_diagnostic.RCS1032.severity = suggestion
+
+dotnet_diagnostic.RCS1084.severity = suggestion
+
+dotnet_diagnostic.RCS1215.severity = warning  
+
+dotnet_diagnostic.RCS1046.severity = suggestion
+
+dotnet_diagnostic.RCS1128.severity = suggestion  
+
+dotnet_diagnostic.RCS1194.severity = suggestion
+
+  
+
+dotnet_diagnostic.RCS1077.severity = warning  
+
+dotnet_diagnostic.RCS1201.severity = warning  
+
+dotnet_diagnostic.RCS1100.severity = warning  
+
+dotnet_diagnostic.RCS1170.severity = warning  
+
+dotnet_diagnostic.RCS1188.severity = warning  
+
+dotnet_diagnostic.RCS1217.severity = warning  
+
+  
+
+dotnet_diagnostic.RCS1018.severity = warning  
+
+dotnet_diagnostic.RCS1024.severity = warning  
+
+dotnet_diagnostic.RCS1072.severity = warning  
+
+dotnet_diagnostic.RCS1146.severity = warning  
+
+dotnet_diagnostic.RCS1210.severity = warning  
+
+dotnet_diagnostic.RCS1211.severity = warning  
+
+dotnet_diagnostic.RCS1196.severity = warning  
+
+  
+
+dotnet_diagnostic.RCS1003.severity = suggestion
+
+dotnet_diagnostic.RCS1216.severity = warning  
+
+dotnet_diagnostic.RCS1221.severity = warning  
+
+dotnet_diagnostic.RCS1243.severity = warning
+```
+
+Por ultimo la herramienta utilizada para refactorizar todo el formato de la aplicación fue el comando `dotnet format`, con esto realizando con éxito la refactorización y monitoreo de la aplicación en un futuro con nuevas iteraciones.
+
+#### 6.2.1.2. Code Quality & Code Security
+
+Para este punto verificamos la calidad y la seguridad que mantiene el código. Para iniciar, la aplicación se realizó con Entity Framework Core como principal herramienta, esto ya nos da una gran ventaja debido a que la aplicación posee menos riesgo a tener inyecciones SQL. 
+
+Sin embargo, para que nuestra aplicación sea mas segura, se instalo otro paquete de `dotnet` para escanear y verificar el código, Security Code Scan. Además que tiene soporte para la Integración Continua que se tiene en nuestro aplicativo gracias a Azure. Este paquete como se dijo anteriormente, escanea el proyecto completo, donde puede detectar diferentes vulnerabilidades de seguridad, como Inyecciones SQL, XSS (Cross-site Scripting), XXE (XML External Entity Injection) y CSRF (Cross-site request Forgery).
+
+Por ultimo, para mantener la calidad del código, se instalo otro paquete, Microsoft Code Analysis. Este paquete ayuda a que verifique si el código puede tener algún defecto dentro de la operabilidad y rendimiento, además de agregar mas reglas al `.editoconfig`.
+
+### 6.2.2. Reviews
+
+Luego de realizar todos los cambios dichos en los anteriores puntos, se pudo lograr lo querido. La aplicación ahora es mas segura gracias a los cambios y los futuros cambios se tendrán que hacer siguiendo las reglas del nuevo `.editorconfig`.
+
+Esto nos da mas escalabilidad segura para la aplicación, tanto como tener un estándar establecido a comparación de antes de la refactorización. Esto ha sido una gran mejora para la aplicación y fielmente se cree que esto va a ir para mejor.
+
+### 6.3. Validation Interviews
+
+### 6.3.1. Diseño de entrevistas
+
+### 6.3.2. Registro de Entrevistas
+
+### 6.3.3. Evaluaciones según heurísticas
+
+### 6.4. Auditoría de Experiencias de Usuario
+
+### 6.4.1. Auditoría realizada
+
+#### 6.4.1.1. Información del grupo auditado
+
+#### 6.4.1.2. Cronograma de auditoría realizada
+
+#### 6.4.1.3. Contenido de auditoría realizada
+
+### 6.4.2. Auditoría recibida
+
+#### 6.4.2.1. Información del grupo auditor
+
+#### 6.4.2.2. Cronograma de auditoría recibida
+
+#### 6.4.2.3. Contenido de auditoría recibida
+
+#### 6.4.2.4. Resumen de modificaciones para subsanar hallazgos
+
+
 ## Capítulo VII: DevOps Practices
 
 ### 7.1. Continuous Integration
@@ -3361,7 +4083,7 @@ Las herramientas y prácticas utilizadas para implementar Continuous Deployment 
 - Monitoring & Logging: Supervisión de rendimiento post-despliegue mediante herramientas como Prometheus, Grafana o ELK Stack.
 
 
-### 7.3.2. Stages Deployment Pipeline Components
+### 7.3.2. Production Deployment Pipeline Components
 
 El Deployment Pipeline define las etapas secuenciales del flujo de entrega continua. Para este proyecto, se estructura de la siguiente forma:
 
@@ -3373,6 +4095,393 @@ El Deployment Pipeline define las etapas secuenciales del flujo de entrega conti
 | **4. Release Stage** | Publicación del artefacto aprobado (imagen o binario) en repositorio. | DockerHub, Nexus, GitHub Packages       |
 | **5. Deploy Stage**  | Despliegue automático en entorno de staging o producción.             | Kubernetes, AWS EC2, Vercel, Netlify    |
 | **6. Monitor Stage** | Supervisión y retroalimentación sobre rendimiento y errores.          | Prometheus, Grafana, ELK Stack, Sentry  |
+
+## 7.4. Continuous Monitoring
+
+### 7.4.1. Tools and Practices
+Para el monitoreo de la aplicación se hace uso de un paquete que anteriormente se instalo. Roslynator nos permite tener reportes continuos acerca de cambios que debemos hacer manualmente y posibles mejoras dentro del código. 
+
+![tools and practices](assets/Continuousmonitoring.png)
+
+Asimismo, Security Code Scan alerta acerca de los warning y permite que la aplicación no se compile con estos errores para que sean resueltos antes de esta acción.
+
+### 7.4.2. Monitoring Pipeline Components
+
+Dentro del pipeline de Azure, durante la compilación se encuentran algunos puntos importantes que verifican el código. Dentro de estos se utilizan el `.editoconfig` y Roslynator:
+
+```yml
+# verify .editorconfig
+
+  - script: dotnet format --verify-no-changes
+
+    displayName: "Verify code format"
+
+  
+
+  # Roslynator
+
+  - script: |
+
+      dotnet tool install --global roslynator.dotnet.cli --version 4.10.0
+
+      export PATH="$PATH:/home/vsts/.dotnet/tools"
+
+      roslynator analyze . --severity-level warning --output roslynator-report.txt
+
+    displayName: "Run Roslynator analysis"
+```
+
+### 7.4.3. Alerting Pipeline Components
+
+Las alertas del pipeline serán visibles una vez se escaneen las dependencias y Analyzer verifique las reglas compilando el código:
+
+```yml
+  # Vulnerable dependencies
+
+  - script: dotnet list package --vulnerable > vulnerable-packages.txt || true
+
+    displayName: "Scan for vulnerable NuGet dependencies"
+  # Analyzer for secutiry
+
+  - script: |
+
+      dotnet build --no-restore --configuration $(buildConfiguration) \
+
+      /p:TreatWarningsAsErrors=true \
+
+      /p:AnalysisMode=AllEnabledByDefault
+
+    displayName: "Build with analyzers (Quality & Security)"
+```
+
+### 7.4.4. Notification Pipeline Components
+
+Para el monitoreo de la aplicación gracias al pipeline, se toman las acciones de publicar reportes cada vez que se compila:
+
+```yml
+  # publish reports
+
+  - task: PublishBuildArtifacts@1
+
+    inputs:
+
+      PathtoPublish: 'roslynator-report.txt'
+
+      ArtifactName: 'analysis-reports'
+
+      publishLocation: 'Container'
+
+    displayName: "Publish Roslynator analysis report"
+
+  
+
+  - task: PublishBuildArtifacts@1
+
+    inputs:
+
+      PathtoPublish: 'vulnerable-packages.txt'
+
+      ArtifactName: 'dependency-scan'
+
+      publishLocation: 'Container'
+
+    displayName: "Publish dependency vulnerability report"
+
+  
+
+  - task: PublishBuildArtifacts@1
+
+    inputs:
+
+      PathtoPublish: 'gitleaks-report.json'
+
+      ArtifactName: 'security-scan'
+
+      publishLocation: 'Container'
+
+    displayName: "Publish secret scan report"
+```
+## Capítulo VIII: Experiment-Driven Development
+
+### 8.1. Experiment Planning
+
+Esta sección define el plan operativo para diseñar y priorizar experimentos orientados a validar hipótesis clave del producto. Incluye objetivos concretos, métricas de éxito (KPIs), alcance, criterios de inclusión/exclusión, recursos necesarios y el calendario de ejecución; todo ello para asegurar que cada experimento entregue evidencia accionable y reduzca la incertidumbre sobre decisiones de producto.
+
+#### 8.1.1. As-Is Summary
+ Actualmente, la gestión del ganado en el Perú se realiza de manera manual o mediante herramientas rudimentarias como cuadernos y hojas de cálculo. La mayoría de ganaderos carece de plataformas digitales que integren el control sanitario, la alimentación, la reproducción y los indicadores productivos de sus animales. Esto genera una administración desorganizada, pérdida de información y baja productividad. Además, las empresas ganaderas no disponen de sistemas centralizados para coordinar personal, gestionar proveedores ni analizar datos en tiempo real, lo que limita la toma de decisiones estratégicas y la sostenibilidad del sector.
+
+#### Problemas identificados:
+
+  * Gestión fragmentada: los procesos de registro y control del ganado se realizan manualmente o en formatos dispersos (cuadernos, Excel), dificultando la trazabilidad y el acceso a información precisa.
+
+  * Falta de digitalización: no existen herramientas accesibles que integren funciones clave como control sanitario, alimentación, reproducción y productividad.
+
+  * Desorganización operativa: los productores independientes enfrentan sobrecarga administrativa y pérdida de datos por falta de automatización.
+
+  * Limitaciones de conectividad: la baja cobertura de internet en zonas rurales impide el uso continuo de plataformas en línea.
+
+  * Escasa toma de decisiones basadas en datos: tanto pequeños ganaderos como empresas carecen de métricas centralizadas para evaluar rendimiento, costos o bienestar animal.
+
+  * Problemas de sostenibilidad: la ausencia de control y planificación impacta en la eficiencia económica y en la responsabilidad ambiental del sector.
+
+#### Objetivos de mejora:
+
+* Digitalizar la gestión ganadera: desarrollar una plataforma web y móvil que permita registrar, monitorear y analizar datos sobre salud, alimentación y reproducción del ganado.
+
+* Centralizar la información: unificar registros y reportes en un solo sistema, accesible en todo momento y desde distintos dispositivos.
+
+* Optimizar la productividad: automatizar tareas rutinarias (alertas sanitarias, control de peso, calendario de vacunación) para reducir errores y ahorrar tiempo.
+
+* Facilitar el trabajo en campo: incluir funcionalidades que operen en modo offline para zonas rurales con conectividad limitada.
+
+* Promover la sostenibilidad: ofrecer indicadores y reportes que ayuden a implementar prácticas responsables con el medio ambiente.
+
+* Fortalecer la toma de decisiones: integrar analítica de datos para que los ganaderos y empresas puedan evaluar su rendimiento y planificar estratégicamente.
+
+#### 8.1.2. Raw Material: Assumptions, Knowledge Gaps, Ideas, Claims
+
+#### Assumptions
+
+* Los ganaderos valorarán una plataforma única que centralice el control de salud, alimentación y reproducción del ganado, eliminando la dependencia de registros manuales o dispersos.
+
+* Una interfaz simple e intuitiva permitirá que usuarios con poca experiencia tecnológica puedan gestionar su ganado sin requerir capacitación extensa.
+
+* Las alertas automáticas sobre vacunas, alimentación o ciclos reproductivos reducirán las omisiones y mejorarán la salud general del ganado.
+
+* Permitir el funcionamiento offline aumentará la adopción en zonas rurales con baja conectividad.
+
+* Los usuarios confiarán más en la aplicación si esta garantiza la privacidad y seguridad de sus datos productivos.
+
+* Mostrar reportes visuales y gráficos de rendimiento facilitará la comprensión del estado sanitario y productivo del hato.
+
+* Incluir recordatorios programados para tareas rutinarias (vacunas, alimentación, control sanitario) aumentará la organización diaria.
+
+* La personalización por tipo de ganado o tamaño de operación (pequeño productor o empresa) mejorará la experiencia y satisfacción del usuario.
+
+* Ofrecer materiales educativos dentro de la app fortalecerá la fidelización y el aprendizaje de buenas prácticas ganaderas.
+
+#### Knowledge Gaps
+
+* ¿Qué nivel de adopción pueden alcanzar los ganaderos con baja alfabetización digital frente a una interfaz simple?
+
+* ¿Qué frecuencia de alertas (diarias, semanales o mensuales) perciben los usuarios como más útil sin resultar intrusiva?
+
+* ¿Qué tipo de reportes visuales (gráficos, indicadores, tablas) son más comprendidos y usados en la toma de decisiones?
+
+* ¿Cómo afecta la funcionalidad offline a la frecuencia real de uso en zonas rurales?
+
+* ¿Qué nivel de confianza genera el almacenamiento de datos en la nube entre los ganaderos peruanos?
+
+* ¿Qué funciones consideran más prioritarias los diferentes segmentos (pequeños productores vs. empresas)?
+
+* ¿Cuánto valoran los usuarios el acceso a contenido educativo o de asesoría técnica dentro de la app?
+
+* ¿Qué barreras culturales o tecnológicas influyen más en la adopción digital en el sector ganadero?
+
+#### Ideas
+
+* Realizar pruebas de usabilidad con ganaderos de zonas rurales para validar la facilidad de uso y comprensión de la interfaz.
+
+* Implementar tests A/B con distintos intervalos de notificaciones para identificar la frecuencia óptima.
+
+* Diseñar prototipos de reportes visuales (gráficos, KPI, tablas) y medir cuál facilita mejor la toma de decisiones.
+
+* Evaluar el uso de modo offline con métricas de acceso y sincronización de datos una vez conectados.
+
+* Aplicar encuestas de percepción de seguridad para medir confianza en el almacenamiento de datos.
+
+* Personalizar módulos según el tipo de usuario (independiente o empresa) y analizar su impacto en la retención.
+
+* Integrar un centro de aprendizaje virtual dentro de la app con artículos y videos educativos.
+
+* Medir la reducción del tiempo administrativo mediante la digitalización de registros y tareas automáticas.
+
+#### Claims
+
+* La digitalización del registro ganadero reducirá en un 40 % el tiempo destinado a tareas administrativas diarias.
+
+* El uso de alertas y recordatorios automáticos disminuirá en al menos 30 % los errores u omisiones sanitarias.
+
+* El funcionamiento offline aumentará la frecuencia de uso en zonas rurales en más del 50 %.
+
+* Garantizar la privacidad y seguridad de datos incrementará la confianza del usuario en un 80 % según encuestas post-uso.
+
+* Los reportes visuales facilitarán la toma de decisiones, mejorando la comprensión operativa en un 70 % de los usuarios.
+
+* La personalización por tipo de usuario incrementará la satisfacción y retención en al menos 25 %.
+
+* La inclusión de material educativo impulsará el uso continuo de la plataforma en un 20 % durante los primeros meses de adopción.
+
+#### 8.1.3. Experiment-Ready Questions
+
+|**Pregunta** |**Confianza** | **Riesgo** | **Impacto** | **Interés** | **Puntaje Total** |  
+| --- | --- | --- | --- | --- | --- |
+| ¿Aumentará la productividad de los ganaderos si se digitaliza el registro de salud, alimentación y reproducción del ganado? | 8 – La digitalización ha demostrado mejorar la eficiencia en sectores agrícolas y pecuarios. | 3 – Riesgo técnico moderado; depende de una correcta usabilidad.  | 9 – Reduce errores, tiempos administrativos y pérdidas económicas. | 8 – Alta demanda en entrevistas con productores y empresas.           | 28            |
+| ¿Mejorará la gestión diaria si se implementan alertas y recordatorios automáticos de vacunación y alimentación?             | 8 – Recordatorios automáticos son estándar en apps de control y salud.                       | 2 – Riesgo bajo; se basa en programación de eventos.              | 8 – Evita omisiones y mejora el bienestar animal.                  | 7 – Interés recurrente en entrevistas con ganaderos.                  | 25            |
+| ¿Aumentará la adopción en zonas rurales si la app permite funcionar sin conexión (modo offline)?                            | 7 – Experiencias previas indican alta utilidad del modo offline en entornos rurales.         | 4 – Riesgo técnico medio por sincronización de datos.             | 8 – Garantiza accesibilidad y continuidad operativa.               | 8 – Muy solicitado por usuarios rurales.                              | 27            |
+| ¿Fortalecerá la confianza de los usuarios si la aplicación garantiza la seguridad y privacidad de los datos ganaderos?      | 9 – La seguridad de datos es un factor clave de confianza digital.                           | 3 – Riesgo técnico moderado por manejo de credenciales y cifrado. | 8 – Genera fidelización y uso sostenido de la plataforma.          | 7 – Alta preocupación expresada en entrevistas.                       | 27            |
+| ¿Facilitará la toma de decisiones incluir reportes visuales con indicadores de salud y producción?                          | 8 – Los dashboards y visualizaciones mejoran la comprensión en la mayoría de sectores.       | 3 – Riesgo técnico bajo; requiere diseño adecuado.                | 8 – Mejora el control y análisis productivo.                       | 6 – Interés alto, especialmente en empresas ganaderas.                | 25            |
+| ¿Aumentará la satisfacción del usuario si la interfaz se adapta al tipo de perfil (pequeño productor o empresa)?            | 7 – La personalización mejora la experiencia en soluciones SaaS.                             | 4 – Riesgo medio; requiere gestión de roles y configuraciones.    | 7 – Aumenta la eficiencia y retención.                             | 7 – Interés creciente entre ambos segmentos.                          | 25            |
+| ¿Fomentará el aprendizaje continuo incluir materiales educativos dentro de la aplicación?                                   | 6 – Recursos educativos fortalecen la retención y confianza del usuario.                     | 2 – Riesgo bajo; solo requiere curación de contenido.             | 6 – Mejora la adopción y profesionalización del usuario.           | 6 – Interés medio según entrevistas.                                  | 20            |
+| ¿Reducirá la carga administrativa integrar un sistema de recordatorios y tareas automáticas?                                | 8 – La automatización reduce tareas repetitivas y errores humanos.                           | 3 – Riesgo bajo; depende de la interfaz de programación.          | 8 – Ahorra tiempo y mejora la organización.                        | 7 – Interés constante en entrevistas de productores independientes.   | 26            |
+| ¿Aumentará la confianza y el uso de la app si ofrece un soporte técnico accesible y rápido?                                 | 7 – El soporte eficiente es determinante para usuarios nuevos.                               | 3 – Riesgo organizacional moderado (recursos humanos).            | 7 – Mejora la satisfacción y evita el abandono.                    | 6 – Interés relevante entre usuarios con baja alfabetización digital. | 23            |
+
+
+#### 8.1.4. Question Backlog
+
+**Prioridad (1, 2, 3, 5, 8)** | **Pregunta**  |
+| --- | --- |
+| **8**                         | ¿Aumentará la productividad de los ganaderos si se digitaliza el registro de salud, alimentación y reproducción del ganado? |
+| **8**                         | ¿Aumentará la adopción en zonas rurales si la app permite funcionar sin conexión (modo offline)?                            |
+| **5**                         | ¿Mejorará la gestión diaria si se implementan alertas y recordatorios automáticos de vacunación y alimentación?             |
+| **5**                         | ¿Fortalecerá la confianza de los usuarios si la aplicación garantiza la seguridad y privacidad de los datos ganaderos?      |
+| **5**                         | ¿Facilitará la toma de decisiones incluir reportes visuales con indicadores de salud y producción?                          |
+| **3**                         | ¿Aumentará la satisfacción del usuario si la interfaz se adapta al tipo de perfil (pequeño productor o empresa)?            |
+| **3**                         | ¿Reducirá la carga administrativa integrar un sistema de recordatorios y tareas automáticas?                                |
+| **2**                         | ¿Fomentará el aprendizaje continuo incluir materiales educativos dentro de la aplicación?                                   |
+| **2**                         | ¿Aumentará la confianza y el uso de la app si ofrece un soporte técnico accesible y rápido?                                 |
+
+#### 8.1.5. Experiment Cards
+
+| Question |
+| --- |
+¿Aumentará la productividad de los ganaderos si se digitaliza el registro de salud, alimentación y reproducción del ganado?
+| Why | 
+Actualmente, los ganaderos registran la información de forma manual o dispersa (cuadernos, hojas de cálculo), lo que ocasiona pérdida de datos y baja eficiencia.
+| What |
+Desarrollar un módulo centralizado que permita registrar y consultar datos de salud, alimentación y reproducción del ganado desde la app web o móvil.
+| Hypothesis |
+Se espera una reducción del 40% en el tiempo de gestión diaria y una mejora del 30% en la precisión de los registros al implementar la digitalización completa.
+
+| Question |
+| --- |
+¿Mejorará la gestión diaria si se implementan alertas y recordatorios automáticos de vacunación y alimentación?
+| Why | 
+Los ganaderos suelen olvidar fechas de vacunación o alimentación, afectando la salud del ganado y la productividad.
+| What |
+Incorporar notificaciones automáticas configurables que alerten sobre próximas vacunas, controles sanitarios y horarios de alimentación.
+| Hypothesis |
+Se espera una disminución del 25% en omisiones sanitarias y un aumento del 20% en cumplimiento de cronogramas gracias a las alertas automatizadas.
+
+| Question |
+| --- |
+¿Aumentará la adopción en zonas rurales si la app permite funcionar sin conexión (modo offline)?
+| Why | 
+Gran parte de los usuarios potenciales se encuentra en zonas con conectividad limitada, lo que dificulta el uso continuo de la aplicación.
+| What |
+Desarrollar una funcionalidad offline que permita el registro y consulta local de datos, sincronizándose automáticamente cuando haya conexión.
+| Hypothesis |
+Se espera un incremento del 50% en la frecuencia de uso en zonas rurales y una reducción de quejas por conectividad en al menos un 40%.
+
+| Question |
+| --- |
+¿Fortalecerá la confianza de los usuarios si la aplicación garantiza la seguridad y privacidad de los datos ganaderos?
+| Why | 
+Los productores temen perder o exponer información sensible relacionada con su productividad o inventario.
+| What |
+Implementar cifrado de datos, autenticación segura y políticas de privacidad transparentes dentro de la app.
+| Hypothesis |
+Se espera que el 80% de los usuarios manifieste mayor confianza y que la retención aumente en un 25% tras reforzar la seguridad.
+
+| Question |
+| --- |
+¿Facilitará la toma de decisiones incluir reportes visuales con indicadores de salud y producción?
+| Why |
+Los ganaderos carecen de herramientas visuales para analizar tendencias o comparar rendimientos a lo largo del tiempo. 
+| What |
+Desarrollar paneles con gráficos e indicadores clave sobre producción, salud y eficiencia del ganado.
+| Hypothesis |
+Se espera una mejora del 70% en la comprensión operativa y un 30% de incremento en decisiones basadas en datos entre los usuarios activos.
+
+| Question |
+| --- |
+¿Aumentará la satisfacción del usuario si la interfaz se adapta al tipo de perfil (pequeño productor o empresa)?
+| Why | 
+Las necesidades de gestión difieren entre productores independientes y empresas ganaderas; una interfaz única puede no cubrir ambos casos.
+| What |
+Diseñar perfiles personalizables con módulos y vistas específicas según el tipo de usuario registrado.
+| Hypothesis |
+Se estima un incremento del 25% en la satisfacción general y una reducción del 15% en abandonos durante el uso inicial.
+
+| Question |
+| --- |
+¿Fomentará el aprendizaje continuo incluir materiales educativos dentro de la aplicación?
+| Why | 
+Muchos ganaderos no tienen acceso fácil a capacitación técnica o información actualizada sobre buenas prácticas.
+| What |
+Integrar una sección educativa con artículos, videos y tips sobre salud animal, alimentación y sostenibilidad.
+| Hypothesis |
+Se espera un 20% de incremento en el uso recurrente de la aplicación y una mayor percepción de valor entre nuevos usuarios.
+
+| Question |
+| --- |
+¿Reducirá la carga administrativa integrar un sistema de recordatorios y tareas automáticas?
+| Why | 
+Las tareas diarias (pesaje, control sanitario, alimentación) requieren mucho tiempo y son propensas a errores si se gestionan manualmente.
+| What |
+Añadir un módulo de tareas programadas con recordatorios automáticos y confirmación de cumplimiento.
+| Hypothesis |
+Se espera una reducción del 30% en el tiempo dedicado a tareas rutinarias y una disminución del 25% en registros incompletos.
+
+| Question |
+| --- |
+¿Aumentará la confianza y el uso de la app si ofrece un soporte técnico accesible y rápido?
+| Why | 
+Muchos usuarios rurales tienen poca experiencia con herramientas digitales y abandonan plataformas por falta de asistencia.
+| What |
+Incorporar un canal de soporte en línea con chat o mensajes directos para resolver dudas y brindar acompañamiento.
+| Hypothesis |
+Se espera una mejora del 40% en la retención de usuarios nuevos y una reducción del 20% en tickets no resueltos durante el primer mes de uso.
+
+### 8.2. Experiment Design
+
+#### 8.2.1. Hypotheses
+
+#### 8.2.2. Domain Business Metrics
+
+#### 8.2.3. Measures
+
+#### 8.2.4. Conditions
+
+#### 8.2.5. Scale Calculations and Decisions
+
+#### 8.2.6. Methods Selection
+
+#### 8.2.7. Data Analytics: Goals, KPIs and Metrics Selection
+
+#### 8.2.8. Web and Mobile Tracking Plan
+
+### 8.3. Experimentation
+
+Aquí se documenta la ejecución práctica de los experimentos: implementación, recogida de datos, monitoreo y análisis de resultados frente a los KPIs definidos. Describe los procedimientos de control (grupos de control, muestreo), las herramientas de medición, el tratamiento de datos y los criterios de decisión para iterar, escalar o abandonar hipótesis según la evidencia obtenida.
+
+#### 8.3.1. To‑Be User Stories
+| **User Story ID** | **Título** | **Descripción** | **Criterios de Aceptación** | **Relación con (Epic ID)** |
+| ----------------- | ------------------------------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------- |
+| **UA01**          | Digitalización de registros ganaderos      | Como ganadero, quiero registrar digitalmente la información de salud, alimentación y reproducción de mi ganado, para mantener un control centralizado y evitar pérdida de datos. | **Escenario 1: Registrar información sanitaria**<br>Given tengo un animal registrado en mi cuenta.<br>When ingreso la información de vacunación o tratamiento.<br>Then el sistema guarda el registro y actualiza su historial sanitario.<br><br>**Escenario 2: Consultar historial**<br>Given deseo revisar el historial de un animal.<br>When accedo a su ficha.<br>Then puedo ver todos los registros de salud, alimentación y reproducción. | **EP01**                   |
+| **UA02**          | Alertas y recordatorios automáticos        | Como ganadero, quiero recibir alertas automáticas sobre vacunas, alimentación y controles sanitarios, para no olvidar fechas importantes y mantener la salud de mi ganado.       | **Escenario 1: Generar recordatorio automático**<br>Given he registrado una fecha de vacunación.<br>When se aproxima la fecha configurada.<br>Then el sistema envía una notificación al usuario con la alerta.<br><br>**Escenario 2: Confirmar cumplimiento**<br>Given he recibido una alerta.<br>When realizo la acción (vacunar, alimentar, controlar).<br>Then puedo marcarla como completada y el sistema actualiza el estado.             | **EP02**                   |
+| **UA03**          | Modo offline para zonas rurales            | Como usuario en una zona con poca conectividad, quiero poder usar la aplicación sin internet, para registrar y consultar datos sin depender de la red.                           | **Escenario 1: Registrar datos sin conexión**<br>Given no tengo conexión a internet.<br>When registro nueva información del ganado.<br>Then el sistema la guarda localmente en el dispositivo.<br><br>**Escenario 2: Sincronizar datos**<br>Given he recuperado la conexión.<br>When el sistema detecta acceso a la red.<br>Then sincroniza automáticamente la información local con la base de datos.                                         | **EP03**                   |
+| **UA04**          | Seguridad y privacidad de datos            | Como usuario, quiero que mi información ganadera esté protegida, para confiar en que solo yo y las personas autorizadas podemos acceder a ella.                                  | **Escenario 1: Acceso seguro**<br>Given ingreso mis credenciales.<br>When intento acceder al sistema.<br>Then el sistema valida mi identidad mediante autenticación segura.<br><br>**Escenario 2: Encriptación de datos**<br>Given el sistema almacena información sensible.<br>When se guarda en la base de datos.<br>Then los datos se encriptan y solo pueden ser leídos por el usuario autorizado.                                         | **EP01**                   |
+| **UA05**          | Reportes visuales de salud y productividad | Como ganadero, quiero ver reportes visuales con indicadores de salud, producción y alimentación, para tomar decisiones más informadas.                                           | **Escenario 1: Generar reporte visual**<br>Given tengo datos registrados de mi ganado.<br>When accedo al panel de control.<br>Then visualizo gráficos con indicadores de salud, producción y tendencias.<br><br>**Escenario 2: Exportar reporte**<br>Given deseo conservar los datos.<br>When selecciono “Exportar reporte”.<br>Then obtengo un archivo PDF o Excel con la información visualizada.                                            | **EP02**                   |
+| **UA06**          | Interfaz adaptable por tipo de usuario     | Como usuario (pequeño productor o empresa), quiero que la aplicación se adapte a mis necesidades, para visualizar solo las funciones relevantes a mi tipo de perfil.             | **Escenario 1: Configurar tipo de usuario**<br>Given estoy creando mi cuenta.<br>When selecciono “Pequeño productor” o “Empresa”.<br>Then el sistema adapta la interfaz y los módulos disponibles.<br><br>**Escenario 2: Cambiar configuración**<br>Given ya tengo una cuenta activa.<br>When deseo cambiar mi tipo de usuario.<br>Then puedo hacerlo desde el panel de configuración y el sistema actualiza mis vistas.                       | **EP03**                   |
+| **UA07**          | Módulo educativo integrado                 | Como usuario, quiero acceder a material educativo sobre buenas prácticas ganaderas, para mejorar mis conocimientos y la gestión de mi ganado.                                    | **Escenario 1: Consultar contenido educativo**<br>Given accedo al módulo “Aprende con VacApp”.<br>When selecciono una categoría (salud, alimentación, sostenibilidad).<br>Then puedo ver artículos, videos o consejos relacionados.<br><br>**Escenario 2: Guardar contenido**<br>Given estoy visualizando un material.<br>When hago clic en “Guardar”.<br>Then el contenido se almacena en mi lista personal para consultar luego.             | **EP04**                   |
+| **UA08**          | Automatización de tareas y recordatorios   | Como usuario, quiero que el sistema programe automáticamente tareas repetitivas, para reducir la carga administrativa y evitar olvidos.                                          | **Escenario 1: Crear tarea automática**<br>Given realizo frecuentemente una acción (pesaje, vacunación, alimentación).<br>When configuro su frecuencia.<br>Then el sistema genera automáticamente recordatorios para cada evento.<br><br>**Escenario 2: Notificación de tarea pendiente**<br>Given tengo tareas programadas.<br>When se aproxima la fecha.<br>Then el sistema me notifica para ejecutarlas.                                    | **EP02**                   |
+| **UA09**          | Soporte técnico accesible                  | Como usuario con poca experiencia tecnológica, quiero acceder fácilmente a soporte o asistencia, para resolver dudas y continuar usando la aplicación.                           | **Escenario 1: Contactar soporte desde la app**<br>Given tengo un problema.<br>When hago clic en “Centro de ayuda”.<br>Then puedo iniciar un chat o enviar un mensaje al equipo de soporte.<br><br>**Escenario 2: Seguimiento de incidencia**<br>Given he enviado una solicitud.<br>When el equipo responde.<br>Then recibo una notificación y puedo ver el estado de mi caso.                                                                 | **EP04**                   |
+
+#### 8.3.2. To‑Be Product Backlog
+
+| #     | **User Story ID** | **Título**                                 | **Story Points (1/2/3/5/8)** |
+| ----- | ----------------- | ------------------------------------------ | ---------------------------- |
+| **1** | UA01              | Digitalización de registros ganaderos      | **8**                        |
+| **2** | UA02              | Alertas y recordatorios automáticos        | **5**                        |
+| **3** | UA03              | Modo offline para zonas rurales            | **8**                        |
+| **4** | UA04              | Seguridad y privacidad de datos            | **5**                        |
+| **5** | UA05              | Reportes visuales de salud y productividad | **3**                        |
+| **6** | UA06              | Interfaz adaptable por tipo de usuario     | **3**                        |
+| **7** | UA07              | Módulo educativo integrado                 | **2**                        |
+| **8** | UA08              | Automatización de tareas y recordatorios   | **5**                        |
+| **9** | UA09              | Soporte técnico accesible                  | **2**                        |
+
 
 ## Conclusiones
 
