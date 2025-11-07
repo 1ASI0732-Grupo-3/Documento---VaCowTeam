@@ -4959,6 +4959,192 @@ Las medidas de evaluación para VacApp están diseñadas para cuantificar con pr
 
 #### 8.2.4. Conditions
 
+Las condiciones experimentales establecen los criterios de validación para cada hipótesis mediante la definición clara de resultados esperados tanto en el escenario experimental como en el escenario de control. Estas condiciones permiten determinar de manera objetiva si las funcionalidades implementadas generan el impacto esperado en el contexto ganadero peruano.
+
+<table border="1" cellpadding="8" cellspacing="0">
+  <tr>
+    <th>Question</th>
+    <td>¿Aumentará la productividad de los ganaderos si se digitaliza el registro de salud, alimentación y reproducción del ganado?</td>
+  </tr>
+  <tr>
+    <th>Condición Experimental</th>
+    <td>La digitalización de registros reducirá en un 40% el tiempo promedio dedicado a tareas administrativas diarias, pasando de 120 a 72 minutos por día, y mejorará en un 30% la precisión de los registros comparado con métodos manuales tradicionales.</td>
+  </tr>
+  <tr>
+    <th>Condición de Control</th>
+    <td>No se observará una reducción significativa (mayor al 10%) en el tiempo administrativo ni mejoras sustanciales en la precisión de los registros respecto a los métodos manuales actuales.</td>
+  </tr>
+</table>
+
+<br>
+
+<table border="1" cellpadding="8" cellspacing="0">
+  <tr>
+    <th>Question</th>
+    <td>¿Mejorará la gestión diaria si se implementan alertas y recordatorios automáticos de vacunación y alimentación?</td>
+  </tr>
+  <tr>
+    <th>Condición Experimental</th>
+    <td>Las alertas automáticas reducirán en un 30% las omisiones sanitarias y aumentará en un 25% el cumplimiento de cronogramas de vacunación y alimentación, pasando de un 68% a un 85% de cumplimiento.</td>
+  </tr>
+  <tr>
+    <th>Condición de Control</th>
+    <td>Las alertas automáticas no reducirán significativamente (reducción menor al 5%) las omisiones sanitarias ni mejorarán sustancialmente el cumplimiento de los cronogramas establecidos.</td>
+  </tr>
+</table>
+
+<br>
+
+<table border="1" cellpadding="8" cellspacing="0">
+  <tr>
+    <th>Question</th>
+    <td>¿Aumentará la adopción en zonas rurales si la app permite funcionar sin conexión (modo offline)?</td>
+  </tr>
+  <tr>
+    <th>Condición Experimental</th>
+    <td>El modo offline incrementará en un 50% la frecuencia de uso semanal en zonas rurales, pasando de 2.1 a 3.15 accesos por usuario por semana, y reducirá en un 40% las quejas por problemas de conectividad.</td>
+  </tr>
+  <tr>
+    <th>Condición de Control</th>
+    <td>La funcionalidad offline no aumentará significativamente (incremento menor al 10%) la frecuencia de uso ni reducirá las quejas por problemas de conectividad en zonas rurales.</td>
+  </tr>
+</table>
+
+<br>
+
+<table border="1" cellpadding="8" cellspacing="0">
+  <tr>
+    <th>Question</th>
+    <td>¿Fortalecerá la confianza de los usuarios si la aplicación garantiza la seguridad y privacidad de los datos ganaderos?</td>
+  </tr>
+  <tr>
+    <th>Condición Experimental</th>
+    <td>La implementación de cifrado de datos y autenticación segura aumentará en un 80% la confianza percibida según encuestas, pasando de 3.2 a 5.76 puntos en escala 1-5, y mejorará en un 25% la retención de usuarios.</td>
+  </tr>
+  <tr>
+    <th>Condición de Control</th>
+    <td>Las medidas de seguridad implementadas no tendrán un impacto significativo (mejora menor al 15%) en la confianza percibida ni en la retención de usuarios.</td>
+  </tr>
+</table>
+
+<br>
+
+<table border="1" cellpadding="8" cellspacing="0">
+  <tr>
+    <th>Question</th>
+    <td>¿Facilitará la toma de decisiones incluir reportes visuales con indicadores de salud y producción?</td>
+  </tr>
+  <tr>
+    <th>Condición Experimental</th>
+    <td>Los reportes visuales mejorarán en un 70% la comprensión operativa del estado del ganado, reduciendo el tiempo de interpretación de 18 a 5.4 minutos, y aumentará en un 30% las decisiones basadas en datos.</td>
+  </tr>
+  <tr>
+    <th>Condición de Control</th>
+    <td>Los reportes visuales no mejorarán significativamente (mejora menor al 20%) la comprensión operativa ni aumentarán las decisiones basadas en datos.</td>
+  </tr>
+</table>
+
+<br>
+
+<table border="1" cellpadding="8" cellspacing="0">
+  <tr>
+    <th>Question</th>
+    <td>¿Aumentará la satisfacción del usuario si la interfaz se adapta al tipo de perfil (pequeño productor o empresa)?</td>
+  </tr>
+  <tr>
+    <th>Condición Experimental</th>
+    <td>La interfaz adaptable aumentará en un 25% la satisfacción general del usuario, pasando de 3.8 a 4.75 puntos en escala CSAT 1-5, y reducirá en un 15% la tasa de abandono durante el primer mes de uso.</td>
+  </tr>
+  <tr>
+    <th>Condición de Control</th>
+    <td>La personalización de la interfaz no mejorará significativamente (mejora menor al 10%) la satisfacción general ni reducirá la tasa de abandono de usuarios.</td>
+  </tr>
+</table>
+
+<br>
+
+<table border="1" cellpadding="8" cellspacing="0">
+  <tr>
+    <th>Question</th>
+    <td>¿Fomentará el aprendizaje continuo incluir materiales educativos dentro de la aplicación?</td>
+  </tr>
+  <tr>
+    <th>Condición Experimental</th>
+    <td>El módulo educativo incrementará en un 20% el uso recurrente de la aplicación, pasando de 1.2 a 1.44 accesos semanales al módulo, y mejorará en un 35% la percepción de valor del contenido educativo.</td>
+  </tr>
+  <tr>
+    <th>Condición de Control</th>
+    <td>El contenido educativo no aumentará significativamente (incremento menor al 10%) el uso recurrente ni mejorará la percepción de valor de la aplicación.</td>
+  </tr>
+</table>
+
+<br>
+
+<table border="1" cellpadding="8" cellspacing="0">
+  <tr>
+    <th>Question</th>
+    <td>¿Reducirá la carga administrativa integrar un sistema de recordatorios y tareas automáticas?</td>
+  </tr>
+  <tr>
+    <th>Condición Experimental</th>
+    <td>La automatización de tareas reducirá en un 30% el tiempo dedicado a actividades administrativas rutinarias, pasando de 14.2 a 9.94 horas semanales, y disminuirá en un 25% los errores de registro.</td>
+  </tr>
+  <tr>
+    <th>Condición de Control</th>
+    <td>La automatización no reducirá significativamente (reducción menor al 15%) el tiempo administrativo ni los errores de registro en las tareas rutinarias.</td>
+  </tr>
+</table>
+
+<br>
+
+<table border="1" cellpadding="8" cellspacing="0">
+  <tr>
+    <th>Question</th>
+    <td>¿Aumentará la confianza y el uso de la app si ofrece un soporte técnico accesible y rápido?</td>
+  </tr>
+  <tr>
+    <th>Condición Experimental</th>
+    <td>El soporte técnico accesible mejorará en un 40% la retención de usuarios nuevos, pasando de 45% a 63% de retención después de 30 días, y reducirá en un 20% los abandonos durante el primer mes.</td>
+  </tr>
+  <tr>
+    <th>Condición de Control</th>
+    <td>El soporte técnico no tendrá un impacto significativo (mejora menor al 15%) en la retención de usuarios nuevos ni en la reducción de abandonos durante el primer mes.</td>
+  </tr>
+</table>
+
+**Criterios de Validación Experimental**
+
+**Niveles de Significancia**
+- **Éxito Sobresaliente**: Supera el objetivo establecido en más del 25%
+- **Éxito Esperado**: Cumple entre 100% y 125% del objetivo establecido
+- **Resultado Parcial**: Cumple entre 50% y 99% del objetivo establecido
+- **Resultado Insuficiente**: Cumple menos del 50% del objetivo establecido
+
+**Metodología de Verificación**
+- **Período de Evaluación**: 4 semanas consecutivas por funcionalidad
+- **Tamaño de Muestra**: Mínimo 30 usuarios activos por hipótesis
+- **Intervalo de Confianza**: 95% (p < 0.05)
+- **Método Estadístico**: Prueba t de Student para muestras pareadas
+
+**Control de Variables**
+- **Variables Constantes**: Misma metodología de medición durante todo el experimento
+- **Segmentación Controlada**: Proporciones equilibradas entre pequeños productores y empresas
+- **Factor Temporal**: Mediciones realizadas en períodos de normalidad productiva
+- **Validación Cruzada**: Confirmación de resultados mediante múltiples fuentes de datos
+
+**Criterios de Decisión**
+Una hipótesis se considera validada cuando:
+1. **Condición Experimental**: Se alcanza o supera el umbral establecido en la condición experimental
+2. **Significancia Estadística**: Los resultados son estadísticamente significativos (p < 0.05)
+3. **Consistencia Temporal**: Los resultados se mantienen durante el período de evaluación
+4. **Replicabilidad**: Los resultados pueden replicarse en diferentes segmentos de usuarios
+
+**Procesamiento de Resultados**
+- **Análisis Comparativo**: Comparación directa entre resultados experimentales y de control
+- **Normalización de Datos**: Ajuste por factores estacionales y contextuales
+- **Validación Externa**: Verificación con estándares del sector ganadero
+- **Reporte de Hallazgos**: Documentación completa de resultados y conclusiones
+
 #### 8.2.5. Scale Calculations and Decisions
 
 #### 8.2.6. Methods Selection
