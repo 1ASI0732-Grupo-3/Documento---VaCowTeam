@@ -3928,9 +3928,67 @@ Esto nos da mas escalabilidad segura para la aplicación, tanto como tener un es
 
 ### 6.4.1. Auditoría realizada
 
-#### 6.4.1.1. Información del grupo auditado
+El equipo **Vacow Team**, en su rol de auditores internos UX dentro de la iteración TB2, ejecutó una auditoría enfocada en **Experiencia de Usuario (UX)** y **usabilidad** aplicada sobre el informe, documentación y evidencias técnicas del proyecto *VacApp*.  
+El objetivo fue identificar puntos críticos que afectan la lectura del documento, la consistencia visual y la claridad narrativa desde el punto de vista evaluador (comité docente), especialmente al momento de exportación final a PDF.
 
-#### 6.4.1.2. Cronograma de auditoría realizada
+Esta auditoría se alineó con criterios de evaluación del flujo de información, claridad visual, trazabilidad de evidencias y adecuación de artefactos al estándar de entrega.
+
+#### Componentes evaluados
+
+| Área evaluada | Elementos |
+|----------------|-----------|
+| Documento raíz | `README.md` (estructura, orden, legibilidad, jerarquías H1–H4, nivel de limpieza) |
+| Recursos visuales | `/assets` (nomenclatura, referencias en Markdown, peso y resolución de imágenes) |
+| Evidencias técnicas | Screenshots, endpoints verificados, Swagger, links de despliegue |
+| Secciones técnicas | Testing, CI/CD, despliegue, integración y documentación técnica |
+
+#### Alcance
+
+- Documento principal `README.md`
+- Carpeta de recursos `/assets`  
+- Enlaces de despliegue (frontend y backend)
+- Evidencias de pruebas funcionales (pantallas de test, Swagger, endpoints)
+- Pipeline CI/CD presentado
+
+#### Metodología
+
+- **Inspección heurística** (Nielsen Norman)
+- **Revisión documental** por consistencia estructural y narrativa
+- **Validación de enlaces** y recursos embebidos
+- **Pruebas rápidas de renderizado y exportación** a PDF
+
+#### Herramientas utilizadas
+
+- Google Chrome (pruebas de visualización y renderizado)
+- Visual Studio Code (revisión y limpieza de Markdown)
+- Figma (comparación con prototipos entregados)
+- Swagger UI / Postman (verificación de endpoints)
+- Exportador PDF (control de formato A4/Letter y legibilidad final)
+
+#### Fechas de ejecución
+
+**08/11/2025 – 10/11/2025**
+
+#### Equipo auditor – Vacow Team
+
+- **Maycol Jhordan Rojas Velásquez** — U202219984 — Auditor líder UI/UX  
+- **Stephano Espinoza Cueva** — U202218590 — Auditor Frontend / validación de prototipos  
+- **Rodrigo Liberato Saldaña** — U202215623 — Auditor Backend / validación técnica y evidencias  
+
+---
+
+### 6.4.1.2. Cronograma de ejecución de auditoría
+
+| Fecha       | Actividad                                                                                                   | Responsable (Vacow Auditoría)    |
+|-------------|-------------------------------------------------------------------------------------------------------------|----------------------------------|
+| 08/11/2025  | Revisión de carátula, tabla de contenidos y jerarquías del `README`; análisis de formato y errores de PDF   | **Maycol Rojas**                 |
+| 09/11/2025  | Evaluación heurística de flujos funcionales (login, dashboard) y validación de enlaces activos              | **Stephano Espinoza**            |
+| 10/11/2025  | Consolidación de hallazgos, priorización de correcciones y elaboración del informe de recomendaciones UX-TB2 | **Rodrigo Liberato**             |
+
+---
+
+> **Nota:** La auditoría UX realizada por *Vacow Team* permitió identificar oportunidades de mejora en la estructura del documento y la presentación de evidencias técnicas, garantizando coherencia visual, accesibilidad y trazabilidad entre los artefactos entregados y la experiencia final del evaluador.
+
 
 #### 6.4.1.3. Contenido de auditoría realizada
 
