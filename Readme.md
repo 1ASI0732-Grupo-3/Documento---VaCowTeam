@@ -3975,7 +3975,11 @@ Esta sección detalla los componentes técnicos específicos y las prácticas re
 
 #### 7.1.2. Build & Test Suite Pipeline Components.
 
-![Build&Test Suite Pipeline Components](./assets/BT_pipeline.png)
+Esta sección describe los componentes encargados de compilar el proyecto y ejecutar las pruebas automatizadas, asegurando que el código sea funcional y estable antes de ser desplegado.
+
+![Build&Test Suite Pipeline Components](assets/BT_pipeline.png)
+![Build&Test Suite Pipeline Components](assets/renamepip.png)
+
 
 ## 7.2. Continuous Delivery
 
