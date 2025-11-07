@@ -4441,6 +4441,96 @@ Se espera una mejora del 40% en la retención de usuarios nuevos y una reducció
 
 #### 8.2.1. Hypotheses
 
+**Hipótesis 1: Digitalización de Registros Ganaderos**
+
+<table border="1" cellpadding="8" cellspacing="0">
+  <tr><th colspan="2">Pregunta 1</th></tr>
+  <tr><td><strong>Question</strong></td><td>¿Aumentará la productividad de los ganaderos si se digitaliza el registro de salud, alimentación y reproducción del ganado?</td></tr>
+  <tr><td><strong>Belief</strong></td><td>La digitalización centralizada eliminará la pérdida de datos, reducirá errores administrativos y permitirá acceso rápido a información histórica, mejorando significativamente la eficiencia operativa.</td></tr>
+  <tr><td><strong>Hypothesis</strong></td><td>La implementación del módulo de digitalización reducirá en un 40% el tiempo promedio dedicado a tareas administrativas diarias y mejorará en un 30% la precisión de los registros comparado con métodos manuales.</td></tr>
+  <tr><td><strong>Null Hypothesis</strong></td><td>La digitalización no tendrá un impacto significativo en el tiempo administrativo ni en la precisión de los registros respecto a los métodos manuales actuales.</td></tr>
+</table><br>
+
+**Hipótesis 2: Alertas y Recordatorios Automáticos**
+
+<table border="1" cellpadding="8" cellspacing="0">
+  <tr><th colspan="2">Pregunta 2</th></tr>
+  <tr><td><strong>Question</strong></td><td>¿Mejorará la gestión diaria si se implementan alertas y recordatorios automáticos de vacunación y alimentación?</td></tr>
+  <tr><td><strong>Belief</strong></td><td>Los ganaderos frecuentemente olvidan fechas críticas de vacunación y controles sanitarios, afectando la salud del ganado. Las alertas automatizadas garantizarán cumplimiento oportuno.</td></tr>
+  <tr><td><strong>Hypothesis</strong></td><td>Las alertas automáticas reducirán en un 30% las omisiones sanitarias y aumentará en un 25% el cumplimiento de cronogramas de vacunación y alimentación según registros de cumplimiento.</td></tr>
+  <tr><td><strong>Null Hypothesis</strong></td><td>Las alertas automáticas no reducirán significativamente las omisiones sanitarias ni mejorarán el cumplimiento de los cronogramas establecidos.</td></tr>
+</table><br>
+
+**Hipótesis 3: Modo Offline para Zonas Rurales**
+
+<table border="1" cellpadding="8" cellspacing="0">
+  <tr><th colspan="2">Pregunta 3</th></tr>
+  <tr><td><strong>Question</strong></td><td>¿Aumentará la adopción en zonas rurales si la app permite funcionar sin conexión (modo offline)?</td></tr>
+  <tr><td><strong>Belief</strong></td><td>La limitada conectividad en zonas rurales es una barrera principal para la adopción tecnológica. El modo offline permitirá uso continuo y sincronización posterior.</td></tr>
+  <tr><td><strong>Hypothesis</strong></td><td>El modo offline incrementará en un 50% la frecuencia de uso semanal en zonas rurales y reducirá en un 40% las quejas por problemas de conectividad según métricas de uso.</td></tr>
+  <tr><td><strong>Null Hypothesis</strong></td><td>La funcionalidad offline no aumentará significativamente la frecuencia de uso ni reducirá las quejas por conectividad en zonas rurales.</td></tr>
+</table><br>
+
+**Hipótesis 4: Seguridad y Privacidad de Datos**
+
+<table border="1" cellpadding="8" cellspacing="0">
+  <tr><th colspan="2">Pregunta 4</th></tr>
+  <tr><td><strong>Question</strong></td><td>¿Fortalecerá la confianza de los usuarios si la aplicación garantiza la seguridad y privacidad de los datos ganaderos?</td></tr>
+  <tr><td><strong>Belief</strong></td><td>Los ganaderos temen exponer información sensible productiva y financiera. La seguridad robusta generará confianza y facilitará la adopción de la plataforma.</td></tr>
+  <tr><td><strong>Hypothesis</strong></td><td>La implementación de cifrado de datos y autenticación segura aumentará en un 80% la confianza percibida según encuestas post-implementación y mejorará en un 25% la retención de usuarios.</td></tr>
+  <tr><td><strong>Null Hypothesis</strong></td><td>Las medidas de seguridad no tendrán un impacto significativo en la confianza percibida ni en la retención de usuarios.</td></tr>
+</table><br>
+
+**Hipótesis 5: Reportes Visuales de Salud y Productividad**
+
+<table border="1" cellpadding="8" cellspacing="0">
+  <tr><th colspan="2">Pregunta 5</th></tr>
+  <tr><td><strong>Question</strong></td><td>¿Facilitará la toma de decisiones incluir reportes visuales con indicadores de salud y producción?</td></tr>
+  <tr><td><strong>Belief</strong></td><td>Los datos numéricos solos son difíciles de interpretar. Los reportes visuales permitirán identificar tendencias, problemas y oportunidades rápidamente.</td></tr>
+  <tr><td><strong>Hypothesis</strong></td><td>Los reportes visuales mejorarán en un 70% la comprensión operativa del estado del ganado y aumentará en un 30% las decisiones basadas en datos según análisis de uso.</td></tr>
+  <tr><td><strong>Null Hypothesis</strong></td><td>Los reportes visuales no mejorarán significativamente la comprensión operativa ni aumentarán las decisiones basadas en datos.</td></tr>
+</table><br>
+
+**Hipótesis 6: Interfaz Adaptable por Tipo de Usuario**
+
+<table border="1" cellpadding="8" cellspacing="0">
+  <tr><th colspan="2">Pregunta 6</th></tr>
+  <tr><td><strong>Question</strong></td><td>¿Aumentará la satisfacción del usuario si la interfaz se adapta al tipo de perfil (pequeño productor o empresa)?</td></tr>
+  <tr><td><strong>Belief</strong></td><td>Las necesidades de gestión difieren significativamente entre pequeños productores y empresas. La personalización mejorará la relevancia y usabilidad.</td></tr>
+  <tr><td><strong>Hypothesis</strong></td><td>La interfaz adaptable aumentará en un 25% la satisfacción general del usuario y reducirá en un 15% la tasa de abandono durante el primer mes de uso según métricas de retención.</td></tr>
+  <tr><td><strong>Null Hypothesis</strong></td><td>La personalización de la interfaz no tendrá un impacto significativo en la satisfacción del usuario ni en la tasa de abandono.</td></tr>
+</table><br>
+
+**Hipótesis 7: Módulo Educativo Integrado**
+
+<table border="1" cellpadding="8" cellspacing="0">
+  <tr><th colspan="2">Pregunta 7</th></tr>
+  <tr><td><strong>Question</strong></td><td>¿Fomentará el aprendizaje continuo incluir materiales educativos dentro de la aplicación?</td></tr>
+  <tr><td><strong>Belief</strong></td><td>Los ganaderos tienen limitado acceso a capacitación técnica. El contenido educativo integrado fortalecerá la retención y el valor percibido.</td></tr>
+  <tr><td><strong>Hypothesis</strong></td><td>El módulo educativo incrementará en un 20% el uso recurrente de la aplicación y mejorará en un 35% la percepción de valor según encuestas de satisfacción.</td></tr>
+  <tr><td><strong>Null Hypothesis</strong></td><td>El contenido educativo no aumentará significativamente el uso recurrente ni la percepción de valor de la aplicación.</td></tr>
+</table><br>
+
+**Hipótesis 8: Automatización de Tareas**
+
+<table border="1" cellpadding="8" cellspacing="0">
+  <tr><th colspan="2">Pregunta 8</th></tr>
+  <tr><td><strong>Question</strong></td><td>¿Reducirá la carga administrativa integrar un sistema de recordatorios y tareas automáticas?</td></tr>
+  <tr><td><strong>Belief</strong></td><td>Las tareas repetitivas consumen tiempo y son propensas a errores. La automatización liberará tiempo y mejorará la precisión operativa.</td></tr>
+  <tr><td><strong>Hypothesis</strong></td><td>La automatización de tareas reducirá en un 30% el tiempo dedicado a actividades administrativas rutinarias y disminuirá en un 25% los errores de registro según mediciones de productividad.</td></tr>
+  <tr><td><strong>Null Hypothesis</strong></td><td>La automatización no reducirá significativamente el tiempo administrativo ni los errores de registro.</td></tr>
+</table><br>
+
+**Hipótesis 9: Soporte Técnico Accesible**
+
+<table border="1" cellpadding="8" cellspacing="0">
+  <tr><th colspan="2">Pregunta 9</th></tr>
+  <tr><td><strong>Question</strong></td><td>¿Aumentará la confianza y el uso de la app si ofrece un soporte técnico accesible y rápido?</td></tr>
+  <tr><td><strong>Belief</strong></td><td>Los usuarios rurales con poca experiencia tecnológica abandonan plataformas por falta de asistencia. El soporte accesible es crítico para la retención.</td></tr>
+  <tr><td><strong>Hypothesis</strong></td><td>El soporte técnico accesible mejorará en un 40% la retención de usuarios nuevos y reducirá en un 20% los abandonos durante el primer mes según análisis de churn.</td></tr>
+  <tr><td><strong>Null Hypothesis</strong></td><td>El soporte técnico no tendrá un impacto significativo en la retención de usuarios ni en la reducción de abandonos.</td></tr>
+</table><br>
+
 #### 8.2.2. Domain Business Metrics
 
 #### 8.2.3. Measures
