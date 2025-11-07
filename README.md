@@ -3996,7 +3996,34 @@ Esta auditoría se alineó con criterios de evaluación del flujo de informació
 
 #### 6.4.2.1. Información del grupo auditor
 
+Se recibió auditoría de Experiencia de Usuario (UX) por parte del **Grupo 4**, quienes realizaron una evaluación orientada a validar la claridad del documento, la correcta jerarquización de secciones, así como la coherencia entre evidencias anexas y el flujo funcional presentado dentro del README y la documentación de entrega.
+
+El alcance del grupo 4 incluyó:
+
+- Revisión de la estructura general del documento principal (README.md)
+- Validación del orden lógico y jerarquías H1-H4
+- Validación visual de imágenes / capturas funcionales
+- Evaluación UX de navegación y lectura narrativa
+- Revisión del acceso a evidencias técnicas (endpoints / despliegues)
+- Observación general de consistencia entre prototipo UI y documentación final
+
+**Fecha de auditoría recibida:** **09/11/2025**
+
+| Integrante | Código | Rol |
+|------------|--------|-----|
+| **Palomares Chavez Adriana** | u20201f723 | Líder |
+| **Soto Zorrilla Oscar Eduardo** | U201811767 | Integrante |
+| **Maraza Penemonte Erick** | u202213372 | Integrante |
+
+
 #### 6.4.2.2. Cronograma de auditoría recibida
+
+| Fecha | Actividad ejecutada | Responsable (Grupo 4) | Detalle de lo realizado |
+|-------|---------------------|------------------------|--------------------------|
+| 08/11/2025 | Revisión documental del README y análisis de jerarquía de secciones | Palomares Chavez Adriana | Analizó estructura global del documento y su alineación con los criterios requeridos para la entrega TB2 |
+| 09/11/2025 | Evaluación heurística UX sobre navegación y visualización de evidencias | Soto Zorrilla Oscar Eduardo | Validó el flujo funcional (login → dashboard) y la coherencia entre prototipos y capturas presentadas como evidencia |
+| 10/11/2025 | Consolidación de observaciones y retroalimentación al equipo Vacow Team | Maraza Penemonte Erick | Sintetizó los hallazgos detectados y formalizó la retroalimentación enviada al equipo para las iteraciones de mejora antes del cierre TB2 |
+
 
 #### 6.4.2.3. Contenido de auditoría recibida
 
