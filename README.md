@@ -4473,6 +4473,61 @@ Se espera una mejora del 40% en la retención de usuarios nuevos y una reducció
 
 #### 8.2.7. Data Analytics: Goals, KPIs and Metrics Selection
 
+#### Introducción a la Medición
+
+Para medir el éxito de VacApp, es fundamental establecer una jerarquía de medición que conecte las acciones del usuario con los objetivos estratégicos del proyecto. Este plan se estructura en tres niveles:
+
+1.  **Goals (Objetivos):** Las metas de alto nivel que el negocio busca alcanzar.
+2.  **KPIs (Key Performance Indicators):** Los indicadores clave que miden el progreso hacia esos objetivos.
+3.  **Metrics (Métricas):** Los puntos de datos específicos y cuantificables que componen los KPIs.
+
+Los objetivos de negocio de VacApp, identificados en el *Impact Mapping* del proyecto, son la base de este análisis:
+
+* **Adopción (Empresas):** Implementar VacApp en al menos 20 empresas en los primeros 6 meses.
+* **Eficiencia (Empresas):** Lograr una mejora del 30% en la eficiencia operativa de las empresas ganaderas.
+* **Rentabilidad (Independientes):** Asegurar la rentabilidad del 90% de ganaderos independientes en su primer año de uso.
+
+A continuación, se define el framework de KPIs y Métricas para medir estos objetivos.
+
+#### 1. KPIs de Adquisición
+
+**Objetivo (Goal):** Atraer a los segmentos objetivo (Ganaderos Independientes y Empresas Ganaderas) y convertirlos en usuarios registrados.
+
+| KPI (Key Performance Indicator) | Métricas Clave (Metrics) | Plataforma(s) |
+| :--- | :--- | :--- |
+| **Tasa de Conversión (Visitante a Usuario)** | * Nº de Visitantes Únicos a la Landing Page y App Stores. <br> * Nº de Descargas de la aplicación móvil. <br> * Nº de Registros Completados (`signup_completed`). | Landing Page, Web App, Móvil |
+| **Costo de Adquisición de Cliente (CAC)** | * Costo total de marketing y ventas. <br> * Nº de nuevos clientes adquiridos. | N/A (Financiero) |
+
+#### 2. KPIs de Activación
+
+**Objetivo (Goal):** Lograr que los nuevos usuarios experimenten el valor central de VacApp, validando la hipótesis de facilidad de uso.
+
+| KPI (Key Performance Indicator) | Métricas Clave (Metrics) | Plataforma(s) |
+| :--- | :--- | :--- |
+| **Tasa de Activación (Onboarding)** | * Nº de usuarios que completan el registro. <br> * Nº de usuarios que registran al menos 1 animal (Meta: 70%). <br> * Tiempo promedio desde el registro hasta el primer animal añadido. | Web App, Móvil |
+| **Tasa de Completitud del Perfil** | * Nº de usuarios que configuran su perfil inicial (ej. datos de la granja). | Web App, Móvil |
+
+#### 3. KPIs de Retención y Valor
+
+**Objetivo (Goal):** Asegurar que los usuarios regresen y utilicen las funciones clave que generan eficiencia y valor.
+
+| KPI (Key Performance Indicator) | Métricas Clave (Metrics) | Plataforma(s) |
+| :--- | :--- | :--- |
+| **Tasa de Retención de Usuarios** | * Usuarios Activos Diarios (DAU). <br> * Usuarios Activos Mensuales (MAU). <br> * Proporción DAU/MAU (Nivel de "pegajosidad" o *stickiness*). | Web App, Móvil |
+| **Adopción de Funciones Clave** | * % de usuarios que utilizan funciones de salud, alimentación y reproducción (Meta: 70% del uso total). <br> * % de usuarios que registran vacunas (Adopción de `EP001`). <br> * % de usuarios que crean campañas (Adopción de `EP003`). | Web App, Móvil |
+| **Validación de Hipótesis (Rural)** | * % de usuarios que activan el modo sin conexión (Meta: 60% semanal). | Móvil |
+
+#### 4. KPIs de Monetización
+
+**Objetivo (Goal):** Medir la viabilidad financiera y la conversión a planes de pago para asegurar la rentabilidad.
+
+| KPI (Key Performance Indicator) | Métricas Clave (Metrics) | Plataforma(s) |
+| :--- | :--- | :--- |
+| **Tasa de Conversión (Free a Premium)** | * Nº de usuarios en plan "Free". <br> * Nº de usuarios en plan "Premium". <br> * % de usuarios "Free" que se convierten a "Premium". | Web App, Móvil |
+| **Tasa de Abandono (Churn Rate)** | * % de usuarios "Premium" que cancelan su suscripción por mes. | N/A (Financiero) |
+
+---
+
 #### 8.2.8. Web and Mobile Tracking Plan
 
 ### 8.3. Experimentation
