@@ -4533,7 +4533,429 @@ Se espera una mejora del 40% en la retención de usuarios nuevos y una reducció
 
 #### 8.2.2. Domain Business Metrics
 
+Las métricas de negocio para VacApp están diseñadas para cuantificar el impacto de las funcionalidades experimentales en la productividad ganadera, eficiencia operativa y adopción tecnológica. Estas métricas permitirán validar las hipótesis planteadas mediante datos concretos y medibles, proporcionando evidencia cuantitativa del valor generado por la plataforma en el sector ganadero peruano.
+
+**Tabla Principal de KPIs de Negocio**
+
+<table border="1" cellpadding="8" cellspacing="0">
+  <thead>
+    <tr>
+      <th><strong>Métrica</strong></th>
+      <th><strong>Definición</strong></th>
+      <th><strong>Método de Medición</strong></th>
+      <th><strong>Frecuencia</strong></th>
+      <th><strong>Baseline</strong></th>
+      <th><strong>Objetivo</strong></th>
+      <th><strong>Hipótesis Relacionada</strong></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>Tiempo Administrativo</strong></td>
+      <td>Minutos promedio diarios dedicados a tareas administrativas de gestión ganadera</td>
+      <td>Registro de tiempo en app + encuestas de uso</td>
+      <td>Semanal</td>
+      <td>120 minutos/día</td>
+      <td>Reducción 40% (72 min/día)</td>
+      <td>H1</td>
+    </tr>
+    <tr>
+      <td><strong>Precisión de Registros</strong></td>
+      <td>Porcentaje de registros sin errores en comparación con métodos manuales</td>
+      <td>Auditoría cruzada entre app digital vs registros tradicionales</td>
+      <td>Mensual</td>
+      <td>75% precisión</td>
+      <td>Mejora 30% (97.5% precisión)</td>
+      <td>H1</td>
+    </tr>
+    <tr>
+      <td><strong>Cumplimiento Vacunación</strong></td>
+      <td>Porcentaje de vacunas aplicadas en fecha programada</td>
+      <td>Seguimiento de alertas vs confirmación de aplicación</td>
+      <td>Semanal</td>
+      <td>68% cumplimiento</td>
+      <td>Mejora 25% (85% cumplimiento)</td>
+      <td>H2</td>
+    </tr>
+    <tr>
+      <td><strong>Omisiones Sanitarias</strong></td>
+      <td>Número de controles sanitarios omitidos por semana</td>
+      <td>Conteo de alertas no atendidas vs controles requeridos</td>
+      <td>Semanal</td>
+      <td>4.2 omisiones/semana</td>
+      <td>Reducción 30% (2.9 omisiones/semana)</td>
+      <td>H2</td>
+    </tr>
+    <tr>
+      <td><strong>Uso en Zonas Rurales</strong></td>
+      <td>Frecuencia de acceso semanal por usuarios en zonas con conectividad limitada</td>
+      <td>Analytics Firebase + geolocalización de accesos</td>
+      <td>Semanal</td>
+      <td>2.1 accesos/semana</td>
+      <td>Incremento 50% (3.15 accesos/semana)</td>
+      <td>H3</td>
+    </tr>
+    <tr>
+      <td><strong>Quejas por Conectividad</strong></td>
+      <td>Número de reportes de problemas de conexión por semana</td>
+      <td>Registro de tickets de soporte + encuestas de satisfacción</td>
+      <td>Semanal</td>
+      <td>8.5 quejas/semana</td>
+      <td>Reducción 40% (5.1 quejas/semana)</td>
+      <td>H3</td>
+    </tr>
+    <tr>
+      <td><strong>Confianza en Seguridad</strong></td>
+      <td>Percepción de seguridad de datos (escala 1-5)</td>
+      <td>Encuestas post-implementación sobre privacidad de datos</td>
+      <td>Mensual</td>
+      <td>3.2/5.0 puntos</td>
+      <td>Mejora 80% (5.76/5.0 puntos)</td>
+      <td>H4</td>
+    </tr>
+    <tr>
+      <td><strong>Retención de Usuarios</strong></td>
+      <td>Porcentaje de usuarios activos después de 30 días</td>
+      <td>Análisis de cohorts en Firebase Analytics</td>
+      <td>Mensual</td>
+      <td>62% retención</td>
+      <td>Mejora 25% (77.5% retención)</td>
+      <td>H4</td>
+    </tr>
+    <tr>
+      <td><strong>Decisiones Basadas en Datos</strong></td>
+      <td>Porcentaje de decisiones tomadas utilizando reportes visuales</td>
+      <td>Seguimiento de accesos a reportes vs acciones de gestión</td>
+      <td>Semanal</td>
+      <td>35% decisiones</td>
+      <td>Incremento 30% (45.5% decisiones)</td>
+      <td>H5</td>
+    </tr>
+    <tr>
+      <td><strong>Comprensión Operativa</strong></td>
+      <td>Tiempo promedio para interpretar estado completo del ganado</td>
+      <td>Medición de tiempo en dashboard vs comprensión validada</td>
+      <td>Semanal</td>
+      <td>18 minutos</td>
+      <td>Mejora 70% (5.4 minutos)</td>
+      <td>H5</td>
+    </tr>
+    <tr>
+      <td><strong>Satisfacción del Usuario</strong></td>
+      <td>Nivel general de satisfacción con la plataforma (escala 1-5)</td>
+      <td>Encuestas NPS + CSAT por segmento de usuario</td>
+      <td>Mensual</td>
+      <td>3.8/5.0 puntos</td>
+      <td>Mejora 25% (4.75/5.0 puntos)</td>
+      <td>H6</td>
+    </tr>
+    <tr>
+      <td><strong>Tasa de Abandono</strong></td>
+      <td>Porcentaje de usuarios que abandonan durante el primer mes</td>
+      <td>Análisis de churn por cohorts en Firebase Analytics</td>
+      <td>Mensual</td>
+      <td>38% abandono</td>
+      <td>Reducción 15% (32.3% abandono)</td>
+      <td>H6</td>
+    </tr>
+    <tr>
+      <td><strong>Uso Recurrente</strong></td>
+      <td>Frecuencia de acceso semanal al módulo educativo</td>
+      <td>Analytics Firebase de accesos a sección educativa</td>
+      <td>Semanal</td>
+      <td>1.2 accesos/semana</td>
+      <td>Incremento 20% (1.44 accesos/semana)</td>
+      <td>H7</td>
+    </tr>
+    <tr>
+      <td><strong>Percepción de Valor</strong></td>
+      <td>Valor percibido del contenido educativo (escala 1-5)</td>
+      <td>Encuestas específicas sobre módulo educativo</td>
+      <td>Mensual</td>
+      <td>3.5/5.0 puntos</td>
+      <td>Mejora 35% (4.73/5.0 puntos)</td>
+      <td>H7</td>
+    </tr>
+    <tr>
+      <td><strong>Tiempo en Tareas Administrativas</strong></td>
+      <td>Horas semanales dedicadas a tareas administrativas rutinarias</td>
+      <td>Registro automático de tiempo en funcionalidades administrativas</td>
+      <td>Semanal</td>
+      <td>14.2 horas/semana</td>
+      <td>Reducción 30% (9.94 horas/semana)</td>
+      <td>H8</td>
+    </tr>
+    <tr>
+      <td><strong>Errores de Registro</strong></td>
+      <td>Porcentaje de registros con errores corregidos automáticamente</td>
+      <td>Validación cruzada de datos vs detección de inconsistencias</td>
+      <td>Semanal</td>
+      <td>22% errores</td>
+      <td>Reducción 25% (16.5% errores)</td>
+      <td>H8</td>
+    </tr>
+    <tr>
+      <td><strong>Retención Nuevos Usuarios</strong></td>
+      <td>Porcentaje de nuevos usuarios que continúan activos después de 30 días</td>
+      <td>Análisis de cohorts específicos para usuarios nuevos</td>
+      <td>Mensual</td>
+      <td>45% retención</td>
+      <td>Mejora 40% (63% retención)</td>
+      <td>H9</td>
+    </tr>
+    <tr>
+      <td><strong>Abandonos Primer Mes</strong></td>
+      <td>Porcentaje de usuarios que abandonan en el primer mes por falta de soporte</td>
+      <td>Análisis de tickets de soporte vs tasa de churn</td>
+      <td>Mensual</td>
+      <td>28% abandonos</td>
+      <td>Reducción 20% (22.4% abandonos)</td>
+      <td>H9</td>
+    </tr>
+  </tbody>
+</table>
+
+**Métricas por Categoría**
+
+**Productividad Ganadera**
+- Producción por animal: Medición de kg de carne o litros de leche por animal
+- Tasa de conversión alimenticia: Eficiencia en conversión de alimento a producto
+- Índice de mortalidad: Reducción en tasas de mortalidad mediante mejor seguimiento
+- Tiempo hasta mercado: Optimización del tiempo desde cría hasta comercialización
+
+**Eficiencia Operativa**
+- Tiempo por tarea administrativa: Minutos requeridos por cada gestión
+- Precisión de datos: Reducción de errores en registros digitales vs manuales
+- Costos operativos: Ahorro en costos administrativos y de gestión
+- Automatización completada: Porcentaje de tareas rutinarias automatizadas
+
+**Salud Animal y Bienestar**
+- Cobertura vacunación completa: Porcentaje de animales con esquema completo
+- Detección temprana: Tiempo de detección de problemas de salud
+- Incidencia de enfermedades: Reducción en casos de enfermedades prevenibles
+- Bienestar animal: Indicadores objetivos de bienestar medidos digitalmente
+
+**Adopción Tecnológica**
+- Usuarios activos: DAU, WAU, MAU (Daily/Weekly/Monthly Active Users)
+- Penetración rural: Porcentaje de adopción en zonas con limitaciones técnicas
+- Frecuencia de uso: Número de sesiones por usuario por semana
+- Profundidad de uso: Número de funcionalidades utilizadas por usuario
+
+**Satisfacción y Valor Percibido**
+- Net Promoter Score (NPS): Likelihood de recomendar la plataforma
+- Customer Satisfaction (CSAT): Satisfacción general con la experiencia
+- Valor percibido: Percepción del impacto positivo en la operación
+- Lealtad del cliente: Tasa de renovación y uso continuado
+
+**Impacto Económico**
+- Retorno de inversión (ROI): Relación entre costos y beneficios generados
+- Reducción de pérdidas: Disminución en pérdidas por mala gestión
+- Incremento de ingresos: Mejora en ingresos por mayor eficiencia
+- Ahorro de costos: Reducción en costos operativos directos
+
+**Metodología de Medición**
+
+Las métricas serán recolectadas mediante múltiples fuentes para garantizar confiabilidad y validez:
+
+- **Analytics Automáticos**: Firebase Analytics para métricas de uso y retención
+- **Encuestas Periódicas**: Google Forms para satisfacción y percepción de valor
+- **Registros del Sistema**: Logs automatizados de tiempo y errores
+- **Validación Cruzada**: Comparación con registros tradicionales cuando sea posible
+- **Entrevistas Cualitativas**: Feedback detallado para complementar datos cuantitativos
+
+La medición será segmentada por tipo de usuario (pequeño productor vs empresa) y por nivel de adopción tecnológica para permitir análisis comparativos y personalización de estrategias.
+
 #### 8.2.3. Measures
+
+Las medidas de evaluación para VacApp están diseñadas para cuantificar con precisión el impacto de cada funcionalidad experimental en el contexto ganadero peruano. Cada medida se ha seleccionado por su capacidad para proporcionar datos objetivos, medibles y relevantes que permitan validar las hipótesis planteadas con rigor científico y relevancia práctica.
+
+**Hipótesis 1: Digitalización de Registros Ganaderos**
+
+**Medida Principal: Tiempo de Gestión Administrativa**
+- **Descripción**: Tiempo promedio en minutos que los ganaderos dedican diariamente a tareas administrativas de registro y seguimiento del ganado
+- **Unidades**: Minutos por día
+- **Método de Recolección**: Registro automático de tiempo en la aplicación VacApp, complementado con mediciones manuales mediante cronómetro en campo
+- **Instrumentos**: Timer integrado en la app + cronómetros digitales + diarios de campo
+- **Frecuencia**: Medición diaria, reporte semanal
+- **Validación**: Comparación cruzada con registros manuales tradicionales y observación directa
+
+**Medida Secundaria: Precisión de Registros**
+- **Descripción**: Porcentaje de registros sin errores al comparar con método manual tradicional
+- **Unidades**: Porcentaje (%)
+- **Método de Recolección**: Auditoría cruzada entre registros digitales de VacApp y registros físicos tradicionales
+- **Instrumentos**: Sistema de validación de datos + hojas de auditoría estandarizadas
+- **Frecuencia**: Auditoría mensual con muestra aleatoria del 20% de registros
+- **Validación**: Triple verificación por personal independiente
+
+**Hipótesis 2: Alertas y Recordatorios Automáticos**
+
+**Medida Principal: Tasa de Cumplimiento de Vacunación**
+- **Descripción**: Porcentaje de vacunas aplicadas en la fecha programada mediante el sistema de alertas
+- **Unidades**: Porcentaje (%)
+- **Método de Recolección**: Seguimiento automático de alertas emitidas vs confirmaciones de aplicación por parte del usuario
+- **Instrumentos**: Sistema de notificaciones push + confirmación manual en app + registro fotográfico de aplicación
+- **Frecuencia**: Medición continua, consolidación semanal
+- **Validación**: Verificación física aleatoria del 10% de las aplicaciones reportadas
+
+**Medida Secundaria: Tiempo de Respuesta a Alertas**
+- **Descripción**: Tiempo promedio entre la emisión de una alerta y la acción correspondiente del usuario
+- **Unidades**: Minutos
+- **Método de Recolección**: Registro automático de timestamps en el sistema de alertas
+- **Instrumentos**: Sistema de tracking de notificaciones + analítica de respuesta
+- **Frecuencia**: Análisis continuo con reportes diarios
+- **Validación**: Correlación con registros de actividad del usuario
+
+**Hipótesis 3: Modo Offline para Zonas Rurales**
+
+**Medida Principal: Frecuencia de Uso en Zonas Rurales**
+- **Descripción**: Número promedio de accesos semanales a la aplicación por usuarios en zonas con conectividad limitada
+- **Unidades**: Accesos por usuario por semana
+- **Método de Recolección**: Geolocalización de accesos mediante Firebase Analytics combinada con clasificación de zonas por nivel de conectividad
+- **Instrumentos**: Firebase Analytics + sistema de geolocalización + mapa de cobertura de redes
+- **Frecuencia**: Medición continua, análisis semanal
+- **Validación**: Verificación de ubicación mediante datos de operadoras móviles
+
+**Medida Secundaria: Tasa de Sincronización Exitosa**
+- **Descripción**: Porcentaje de datos registrados offline que se sincronizan correctamente al restaurar la conexión
+- **Unidades**: Porcentaje (%)
+- **Método de Recolección**: Conteo automático de registros pendientes vs sincronizados exitosamente
+- **Instrumentos**: Sistema de sincronización + logs de conexión + dashboard de monitoreo
+- **Frecuencia**: Monitoreo continuo con alertas de fallas
+- **Validación**: Auditoría aleatoria de datos sincronizados
+
+**Hipótesis 4: Seguridad y Privacidad de Datos**
+
+**Medida Principal: Percepción de Seguridad**
+- **Descripción**: Nivel de confianza percibida por los usuarios respecto a la seguridad de sus datos ganaderos
+- **Unidades**: Escala Likert de 1 a 5 puntos
+- **Método de Recolección**: Encuestas estructuradas aplicadas después de 30 días de uso continuo
+- **Instrumentos**: Cuestionario electrónico + entrevistas de profundidad con muestra representativa
+- **Frecuencia**: Medición mensual con cohorts rotativos
+- **Validación**: Triangulación con datos de comportamiento real (frecuencia de uso)
+
+**Medida Secundaria: Tasa de Adopción por Seguridad**
+- **Descripción**: Porcentaje de nuevos usuarios que mencionan la seguridad como factor decisivo de adopción
+- **Unidades**: Porcentaje (%)
+- **Método de Recolección**: Encuestas de onboarding + análisis de palabras clave en reseñas y feedback
+- **Instrumentos**: Formulario de bienvenida + análisis de sentimientos + entrevistas iniciales
+- **Frecuencia**: Medición continua con análisis mensual
+- **Validación**: Correlación con métricas de retención
+
+**Hipótesis 5: Reportes Visuales de Salud y Productividad**
+
+**Medida Principal: Tiempo de Comprensión Operativa**
+- **Descripción**: Tiempo promedio que requiere un usuario para comprender el estado completo de su ganado mediante dashboards visuales
+- **Unidades**: Minutos
+- **Método de Recolección**: Medición automática de tiempo de permanencia en dashboard + validación de comprensión mediante preguntas específicas
+- **Instrumentos**: Timer de dashboard + cuestionario de comprensión + eye-tracking opcional
+- **Frecuencia**: Medición por sesión con análisis semanal
+- **Validación**: Pruebas de comprensión estandarizadas con usuarios seleccionados
+
+**Medida Secundaria: Tasa de Decisiones Basadas en Datos**
+- **Descripción**: Porcentaje de acciones de gestión que se realizan inmediatamente después de consultar reportes visuales
+- **Unidades**: Porcentaje (%)
+- **Método de Recolección**: Correlación entre accesos a reportes y acciones de gestión subsiguientes
+- **Instrumentos**: Analytics de comportamiento + logs de acciones + mapas de calor de interacción
+- **Frecuencia**: Análisis continuo con reportes semanales
+- **Validación**: Entrevistas de seguimiento sobre decisiones tomadas
+
+**Hipótesis 6: Interfaz Adaptable por Tipo de Usuario**
+
+**Medida Principal: Satisfacción Segmentada por Perfil**
+- **Descripción**: Nivel de satisfacción general diferenciado por tipo de usuario (pequeño productor vs empresa)
+- **Unidades**: Escala CSAT de 1 a 5 puntos
+- **Método de Recolección**: Encuestas de satisfacción segmentadas automáticamente según tipo de usuario registrado
+- **Instrumentos**: Sistema de encuestas integrado + segmentación automática + análisis comparativo
+- **Frecuencia**: Medición quincenal con reportes de tendencias
+- **Validación**: Comparación con métricas de uso y retención por segmento
+
+**Medida Secundaria: Profundidad de Uso por Personalización**
+- **Descripción**: Número promedio de funcionalidades utilizadas por usuario según su perfil personalizado
+- **Unidades**: Funcionalidades por usuario
+- **Método de Recolección**: Tracking de uso de características por tipo de perfil configurado
+- **Instrumentos**: Analytics de funciones + mapas de usuario + perfiles de comportamiento
+- **Frecuencia**: Medición continua con análisis mensual
+- **Validación**: Correlación con configuraciones de personalización
+
+**Hipótesis 7: Módulo Educativo Integrado**
+
+**Medida Principal: Frecuencia de Acceso Educativo**
+- **Descripción**: Número promedio de sesiones semanales al módulo de aprendizaje por usuario activo
+- **Unidades**: Sesiones por usuario por semana
+- **Método de Recolección**: Registro automático de accesos a sección educativa con métricas de profundidad
+- **Instrumentos**: Firebase Analytics + tracking de contenido + análisis de engagement
+- **Frecuencia**: Medición continua con reportes semanales
+- **Validación**: Encuestas sobre aplicabilidad de contenidos aprendidos
+
+**Medida Secundaria: Tiempo de Permanencia Educativa**
+- **Descripción**: Tiempo promedio que los usuarios dedican a consumir contenido educativo por sesión
+- **Unidades**: Minutos por sesión
+- **Método de Recolección**: Medición automática de tiempo de permanencia en contenidos educativos
+- **Instrumentos**: Analytics de contenido + heatmaps de interacción + análisis de completion rate
+- **Frecuencia**: Análisis continuo con segmentación por tipo de contenido
+- **Validación**: Entrevistas sobre impacto del aprendizaje en prácticas ganaderas
+
+**Hipótesis 8: Automatización de Tareas y Recordatorios**
+
+**Medida Principal: Reducción de Tiempo Administrativo**
+- **Descripción**: Reducción porcentual en el tiempo dedicado a tareas administrativas rutinarias
+- **Unidades**: Porcentaje (%) y horas absolutas
+- **Método de Recolección**: Comparación before/after mediante registro automático de tiempo en tareas automatizadas vs manuales
+- **Instrumentos**: Sistema de medición de tiempo + logs de automatización + diarios comparativos
+- **Frecuencia**: Medición continua con consolidación mensual
+- **Validación**: Observación directa y entrevistas de verificación
+
+**Medida Secundaria: Tasa de Tareas Completadas Automáticamente**
+- **Descripción**: Porcentaje de tareas programadas que se ejecutan y completan sin intervención manual
+- **Unidades**: Porcentaje (%)
+- **Método de Recolección**: Conteo automático de tareas programadas vs completadas exitosamente
+- **Instrumentos**: Scheduler de tareas + sistema de monitoreo + dashboard de automatización
+- **Frecuencia**: Monitoreo continuo con alertas de fallas
+- **Validación**: Auditoría aleatoria de resultados de automatización
+
+**Hipótesis 9: Soporte Técnico Accesible**
+
+**Medida Principal: Tiempo de Primera Respuesta**
+- **Descripción**: Tiempo promedio entre la solicitud de soporte y la primera respuesta efectiva
+- **Unidades**: Minutos para solicitudes críticas, horas para generales
+- **Método de Recolección**: Registro automático de timestamps en sistema de tickets de soporte
+- **Instrumentos**: Sistema de gestión de tickets + SLAs definidos + dashboard de métricas de soporte
+- **Frecuencia**: Monitoreo continuo con reportes diarios
+- **Validación**: Encuestas de satisfacción post-soporte
+
+**Medida Secundaria: Tasa de Resolución en Primer Contacto**
+- **Descripción**: Porcentaje de casos de soporte resueltos sin necesidad de seguimiento adicional
+- **Unidades**: Porcentaje (%)
+- **Método de Recolección**: Clasificación automática de tickets según número de interacciones requeridas
+- **Instrumentos**: Sistema de tickets + análisis de resolución + encuestas post-resolución
+- **Frecuencia**: Análisis continuo con consolidación semanal
+- **Validación**: Verificación con usuarios sobre satisfacción de resolución
+
+**Metodología General de Medición**
+
+**Principios de Medición**
+- **Objetividad**: Todas las medidas se basan en datos cuantificables y verificables
+- **Repetibilidad**: Procesos estandarizados que permiten replicación en diferentes períodos
+- **Validez**: Las medidas seleccionadas reflejan constructos reales del contexto ganadero
+- **Sensibilidad**: Capacidad para detectar cambios significativos en las métricas
+
+**Control de Calidad de Datos**
+- **Validación Cruzada**: Múltiples fuentes de datos para cada medida principal
+- **Triangulación**: Combinación de métodos cuantitativos y cualitativos
+- **Consistencia Temporal**: Verificación de tendencias y estacionalidad
+- **Análisis de Outliers**: Identificación y tratamiento de datos anómalos
+
+**Segmentación de Análisis**
+- **Por Tipo de Productor**: Pequeños productores vs empresas ganaderas
+- **Por Región Geográfica**: Costa, sierra, selva con características diferentes
+- **Por Nivel Tecnológico**: Alta, media, baja alfabetización digital
+- **Por Tamaño de Operación**: Número de animales gestionados
+
+**Consideraciones Contextuales**
+- **Estacionalidad Ganadera**: Ajuste de mediciones según ciclos productivos
+- **Factores Climáticos**: Impacto en patrones de uso y medición
+- **Eventos Sanitarios**: Brotes o controles masivos que afectan mediciones
+- **Infraestructura Local**: Disponibilidad de conectividad y dispositivos
 
 #### 8.2.4. Conditions
 
