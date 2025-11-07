@@ -3922,6 +3922,26 @@ Esto nos da mas escalabilidad segura para la aplicación, tanto como tener un es
 
 ### 6.3.2. Registro de Entrevistas
 
+1. En una escala del 1 al 10, ¿qué tan probable es que recomiendes "VacApp" a otro ganadero o colega?
+
+2. ¿Cuál es la razón principal de la calificación que acabas de dar?
+
+3. ¿Cuál es la función o característica de "VacApp" que más utilizas en tu día a día?
+
+4. ¿Cuál es el principal problema o tarea que "VacApp" te ayuda a resolver o facilitar?
+
+5. ¿Has notado alguna mejora medible desde que usas "VacApp"? (Ej: ahorro de tiempo, mejor control de inventario, reducción de errores en registros, etc.)
+
+6. Si tuvieras una "varita mágica", ¿qué nueva función o reporte te gustaría que "VacApp" tuviera?
+
+7. ¿Qué tarea importante relacionada con la gestión de tu ganado sientes que "VacApp" todavía NO te ayuda a gestionar?
+
+8. ¿Hay alguna parte de la plataforma que te resulte confusa o difícil de usar?
+
+9. ¿Qué herramienta o método (otra app, libreta de apuntes, Excel) usabas antes de "VacApp" para gestionar tu ganado?
+
+10. ¿Hay algo más que te gustaría que supiéramos sobre tu experiencia con "VacApp"?
+
 ### 6.3.3. Evaluaciones según heurísticas
 
 ### 6.4. Auditoría de Experiencias de Usuario
