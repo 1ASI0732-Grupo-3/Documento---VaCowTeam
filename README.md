@@ -5147,6 +5147,237 @@ Una hipótesis se considera validada cuando:
 
 #### 8.2.5. Scale Calculations and Decisions
 
+Los cálculos de escala establecen una metodología cuantitativa para evaluar el logro de cada hipótesis mediante la comparación entre resultados obtenidos y objetivos establecidos. Esta escala permite clasificar el desempeño en cuatro categorías claras que facilitan la toma de decisiones estratégicas sobre el futuro de cada funcionalidad experimental.
+
+<table border="1" cellpadding="8" cellspacing="0">
+  <thead>
+    <tr>
+      <th rowspan="2">Scale Calculation</th>
+      <th rowspan="2">Decision</th>
+      <th colspan="4">Factor</th>
+    </tr>
+    <tr>
+      <th>Desfavorable</th>
+      <th>Aceptable</th>
+      <th>Ideal</th>
+      <th>Excelente</th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <tr>
+      <td>Creemos que digitalizar registros de salud, alimentación y reproducción del ganado reducirá en un 40% el tiempo administrativo y mejorará en un 30% la precisión de los registros comparado con métodos manuales tradicionales.</td>
+      <td>Desarrollar un módulo centralizado que permita registrar y consultar datos de salud, alimentación y reproducción del ganado desde la app web o móvil.</td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Creemos que las alertas automáticas sobre vacunas, alimentación y controles sanitarios reducirán en un 30% las omisiones sanitarias y aumentará en un 25% el cumplimiento de cronogramas.</td>
+      <td>Incorporar notificaciones automáticas configurables que alerten sobre próximas vacunas, controles sanitarios y horarios de alimentación.</td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Creemos que permitir el funcionamiento offline incrementará en un 50% la frecuencia de uso en zonas rurales y reducirá en un 40% las quejas por problemas de conectividad.</td>
+      <td>Desarrollar una funcionalidad offline que permita el registro y consulta local de datos, sincronizándose automáticamente cuando haya conexión.</td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Creemos que implementar cifrado de datos y autenticación segura aumentará en un 80% la confianza percibida y mejorará en un 25% la retención de usuarios.</td>
+      <td>Implementar cifrado de datos, autenticación segura y políticas de privacidad transparentes dentro de la app.</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+    </tr>
+    <tr>
+      <td>Creemos que desarrollar paneles con gráficos e indicadores sobre producción, salud y eficiencia del ganado mejorará en un 70% la comprensión operativa y aumentará en un 30% las decisiones basadas en datos.</td>
+      <td>Diseñar paneles con gráficos e indicadores clave sobre producción, salud y eficiencia del ganado.</td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Creemos que diseñar perfiles personalizables con módulos y vistas específicas según el tipo de usuario registrado aumentará en un 25% la satisfacción general y reducirá en un 15% la tasa de abandono.</td>
+      <td>Diseñar perfiles personalizables con módulos y vistas específicas según el tipo de usuario registrado.</td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Creemos que integrar una sección educativa con artículos, videos y consejos sobre salud animal, alimentación y sostenibilidad incrementará en un 20% el uso recurrente y mejorará en un 35% la percepción de valor.</td>
+      <td>Integrar una sección educativa con artículos, videos y consejos sobre salud animal, alimentación y sostenibilidad.</td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Creemos que añadir un módulo de tareas programadas con recordatorios automáticos y confirmación de cumplimiento reducirá en un 30% el tiempo dedicado a actividades rutinarias y disminuirá en un 25% los errores de registro.</td>
+      <td>Añadir un módulo de tareas programadas con recordatorios automáticos y confirmación de cumplimiento.</td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+    </tr>
+  </tbody>
+</table>
+
+**Criterios de Clasificación de Factores**
+
+**Factor Desfavorable** (Logro < 50% del objetivo)
+- La funcionalidad no logra el mínimo impacto esperado
+- Resultados insuficientes que requieren reevaluación completa
+- Justifica abandonar o rediseñar completamente la hipótesis
+
+**Factor Aceptable** (Logro 50-79% del objetivo)
+- La funcionalidad cumple parcialmente con las expectativas
+- Resultados moderados pero significativos
+- Requiere optimización pero muestra potencial de mejora
+
+**Factor Ideal** (Logro 80-124% del objetivo)
+- La funcionalidad cumple satisfactoriamente con las expectativas
+- Resultados positivos y medibles que validan la hipótesis
+- Justifica continuar implementación y expansión controlada
+
+**Factor Excelente** (Logro > 125% del objetivo)
+- La funcionalidad supera significativamente las expectativas
+- Resultados excepcionales que pueden transformar el negocio
+- Justifica inversión adicional y expansión acelerada
+
+**Metodología de Cálculo**
+
+**Fórmula General**
+Porcentaje de Logro = ((Resultado Obtenido - Baseline) / (Objetivo - Baseline)) × 100
+
+**Ejemplo de Cálculo - Hipótesis 1 (Digitalización)**
+- Baseline: 120 minutos/día
+- Objetivo: 72 minutos/día (reducción del 40%)
+- Si resultado obtenido: 80 minutos/día
+- Porcentaje de logro = ((120-80) / (120-72)) × 100 = (40/48) × 100 = 83.3%
+- Clasificación: Factor Ideal
+
+**Ejemplo de Cálculo - Hipótesis 4 (Seguridad)**
+- Baseline: 3.2 puntos confianza
+- Objetivo: 5.76 puntos (aumento del 80%)
+- Si resultado obtenido: 6.0 puntos
+- Porcentaje de logro = ((6.0-3.2) / (5.76-3.2)) × 100 = (2.8/2.56) × 100 = 109.4%
+- Clasificación: Factor Ideal
+
+**Ejemplo de Cálculo - Hipótesis 7 (Educación)**
+- Baseline: 1.2 accesos/semana módulo educativo
+- Objetivo: 1.44 accesos/semana (aumento del 20%)
+- Si resultado obtenido: 2.0 accesos/semana
+- Porcentaje de logro = ((2.0-1.2) / (1.44-1.2)) × 100 = (0.8/0.24) × 100 = 333.3%
+- Clasificación: Factor Excelente
+
+**Criterios Específicos por Hipótesis**
+
+**Hipótesis 1 - Digitalización**
+- Desfavorable: <20% reducción tiempo (>96 min/día)
+- Aceptable: 20-31% reducción tiempo (82-96 min/día)
+- Ideal: 32-50% reducción tiempo (60-81 min/día)
+- Excelente: >50% reducción tiempo (<60 min/día)
+
+**Hipótesis 2 - Alertas**
+- Desfavorable: <15% reducción omisiones (>3.6/semana)
+- Aceptable: 15-23% reducción omisiones (2.9-3.6/semana)
+- Ideal: 24-37% reducción omisiones (2.6-2.9/semana)
+- Excelente: >37% reducción omisiones (<2.6/semana)
+
+**Hipótesis 3 - Offline**
+- Desfavorable: <25% aumento uso rural (<2.6 accesos/semana)
+- Aceptable: 25-39% aumento uso rural (2.6-2.9 accesos/semana)
+- Ideal: 40-62% aumento uso rural (2.9-3.4 accesos/semana)
+- Excelente: >62% aumento uso rural (>3.4 accesos/semana)
+
+**Hipótesis 4 - Seguridad**
+- Desfavorable: <40% aumento confianza (<4.48 puntos)
+- Aceptable: 40-63% aumento confianza (4.48-5.22 puntos)
+- Ideal: 64-100% aumento confianza (5.23-6.4 puntos)
+- Excelente: >100% aumento confianza (>6.4 puntos)
+
+**Hipótesis 5 - Reportes**
+- Desfavorable: <35% mejora comprensión (>11.7 minutos)
+- Aceptable: 35-55% mejora comprensión (8.1-11.7 minutos)
+- Ideal: 56-87% mejora comprensión (2.3-8.1 minutos)
+- Excelente: >87% mejora comprensión (<2.3 minutos)
+
+**Hipótesis 6 - Personalización**
+- Desfavorable: <12% aumento satisfacción (<4.26 puntos)
+- Aceptable: 12-19% aumento satisfacción (4.26-4.52 puntos)
+- Ideal: 20-31% aumento satisfacción (4.53-4.98 puntos)
+- Excelente: >31% aumento satisfacción (>4.98 puntos)
+
+**Hipótesis 7 - Educación**
+- Desfavorable: <10% aumento uso (<1.32 accesos/semana)
+- Aceptable: 10-15% aumento uso (1.32-1.38 accesos/semana)
+- Ideal: 16-25% aumento uso (1.39-1.50 accesos/semana)
+- Excelente: >25% aumento uso (>1.50 accesos/semana)
+
+**Hipótesis 8 - Automatización**
+- Desfavorable: <15% reducción tiempo (>12.07 horas/semana)
+- Aceptable: 15-23% reducción tiempo (10.94-12.07 horas/semana)
+- Ideal: 24-37% reducción tiempo (8.95-10.93 horas/semana)
+- Excelente: >37% reducción tiempo (<8.95 horas/semana)
+
+**Hipótesis 9 - Soporte**
+- Desfavorable: <20% mejora retención (<54% retención)
+- Aceptable: 20-31% mejora retención (54-59% retención)
+- Ideal: 32-50% mejora retención (59-68% retención)
+- Excelente: >50% mejora retención (>68% retención)
+
+**Proceso de Toma de Decisiones**
+
+**Según Factor Obtenido**
+
+**Factor Desfavorable**
+- **Análisis Inmediato**: Investigación de causas raíz del bajo desempeño
+- **Decisiones**: Considerar rediseño funcional, cambio de enfoque o abandono de hipótesis
+- **Recursos**: Reasignación de recursos a hipótesis con mayor potencial
+- **Timeline**: Evaluación extensiva antes de próximos pasos
+
+**Factor Aceptable**
+- **Optimización**: Identificación de mejoras incrementales
+- **Ajustes**: Modificación de implementación actual para mejorar desempeño
+- **Monitoreo**: Intensificación de seguimiento y recolección de datos
+- **Evaluación**: Revisión periódica de progreso hacia factores superiores
+
+**Factor Ideal**
+- **Consolidación**: Estabilización de implementación actual
+- **Documentación**: Registro de mejores prácticas y lecciones aprendidas
+- **Expansión**: Escalada controlada a más usuarios y regiones
+- **Optimización**: Mejora continua de eficiencia y costos
+
+**Factor Excelente**
+- **Aceleración**: Expansión rápida y agresiva de la funcionalidad
+- **Priorización**: Asignación de recursos adicionales y soporte prioritario
+- **Replicación**: Identificación de patrones de éxito para aplicar en otras hipótesis
+- **Caso de Éxito**: Desarrollo de materiales de marketing y comunicación
+
+**Reporte y Seguimiento**
+
+**Frecuencia de Evaluación**
+- **Diaria**: Recolección automática de datos primarios
+- **Semanal**: Cálculo de factores y análisis de tendencias
+- **Mensual**: Reportes consolidados y decisiones estratégicas
+- **Trimestral**: Evaluación general del portafolio de hipótesis
+
+**Indicadores de Monitoreo**
+- **Tasa de Conversión**: Porcentaje de usuarios que adoptan funcionalidad
+- **Profundidad de Uso**: Frecuencia e intensidad de utilización
+- **Satisfacción del Usuario**: Percepción de valor y utilidad
+- **Impacto en Negocio**: Métricas de productividad y eficiencia
+
 #### 8.2.6. Methods Selection
 
 #### 8.2.7. Data Analytics: Goals, KPIs and Metrics Selection
