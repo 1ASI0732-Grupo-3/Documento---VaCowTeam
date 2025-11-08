@@ -4530,6 +4530,48 @@ A continuación, se define el framework de KPIs y Métricas para medir estos obj
 
 #### 8.2.8. Web and Mobile Tracking Plan
 
+#### Introducción al Plan de Tracking
+
+El *Tracking Plan* (Plan de Seguimiento) es el documento técnico que implementa la estrategia de analítica. Define los eventos específicos que deben ser capturados en las plataformas de VacApp (Landing Page, Web App y Aplicaciones Móviles) para alimentar las métricas y KPIs definidos en la sección 8.2.7.
+
+* **Plataformas:** Landing Page (Netlify), Aplicación Web (Firebase) y Aplicaciones Móviles (Flutter para iOS/Android).
+* **Convención de Nombres:** Los eventos se nombran en `snake_case` (ej. `item_added`) para mantener la consistencia.
+
+#### 1. Eventos de Adquisición (Landing Page)
+
+Plataforma: vacapp LandingPage
+
+| Evento | Disparador (Trigger) | Parámetros Relevantes | KPI Relacionado |
+| :--- | :--- | :--- | :--- |
+| `page_view` | Un usuario visita cualquier página de la landing. | `page_url` (ej. /precios, /features) <br> `utm_source` (ej. facebook, google) | Tasa de Conversión |
+| `cta_click` | Clic en un botón principal de llamada a la acción. | `button_name` (ej. "Empezar", "Choose Plan", "Get App") | Tasa de Conversión |
+
+#### 2. Eventos de Onboarding (Web y Móvil)
+
+Plataformas: Web App y Móvil.
+
+| Evento | Disparador (Trigger) | Parámetros Relevantes | KPI Relacionado |
+| :--- | :--- | :--- | :--- |
+| `signup_started` | Usuario llega a la pantalla de "Sign Up". | `platform` (web, ios, android) | Tasa de Conversión |
+| `signup_completed` | Usuario completa el formulario de registro y verifica la cuenta. | `auth_method` (Email, Google, Outlook) | Tasa de Conversión |
+| `login_completed` | Usuario inicia sesión exitosamente. | `auth_method` | Tasa de Retención |
+| `plan_selected` | Usuario escoge un plan en la pantalla "Plans". | `plan_name` ("Free", "Premium") | Tasa de Conversión (Monetización) |
+
+#### 3. Eventos de Funcionalidad Core (Web y Móvil)
+
+Estos eventos miden la adopción de las funciones clave (Epics) definidas en el proyecto.
+
+| Evento | Disparador (Trigger) | Epic / User Story Relacionado | KPI Relacionado |
+| :--- | :--- | :--- | :--- |
+| `animal_added` | Usuario registra un nuevo bovino. | `EP002: Registrar Ganado` | Tasa de Activación |
+| `vaccine_added` | Usuario registra una nueva vacuna. | `EP001: Registrar Vacuna` | Adopción de Funciones Clave |
+| `campaign_added` | Usuario crea una nueva campaña. | `EP003: Registrar Campaña` | Adopción de Funciones Clave |
+| `staff_added` | Usuario (Empresa) registra un nuevo empleado. | `EP004: Registrar Personal` | Adopción de Funciones Clave |
+| `inventory_item_added` | Usuario añade un producto al inventario. | "Inventory Management" | Adopción de Funciones Clave |
+| `report_viewed` | Usuario genera o consulta un reporte. | "Automated Reports" | Adopción de Funciones Clave |
+| `reminder_viewed` | Usuario interactúa con un recordatorio. | "Smart Reminders" | Tasa de Retención |
+| `offline_mode_activated` | Usuario activa o utiliza el modo sin conexión. | Hipótesis (Zonas rurales) | Validación de Hipótesis |
+
 ### 8.3. Experimentation
 
 Aquí se documenta la ejecución práctica de los experimentos: implementación, recogida de datos, monitoreo y análisis de resultados frente a los KPIs definidos. Describe los procedimientos de control (grupos de control, muestreo), las herramientas de medición, el tratamiento de datos y los criterios de decisión para iterar, escalar o abandonar hipótesis según la evidencia obtenida.
