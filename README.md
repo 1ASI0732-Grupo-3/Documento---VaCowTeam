@@ -3914,12 +3914,73 @@ Luego de realizar todos los cambios dichos en los anteriores puntos, se pudo log
 Esto nos da mas escalabilidad segura para la aplicación, tanto como tener un estándar establecido a comparación de antes de la refactorización. Esto ha sido una gran mejora para la aplicación y fielmente se cree que esto va a ir para mejor.
 
 ### 6.3. Validation Interviews
+En esta sección, se registran y explican las actividades que abarcan las entrevistas de validación durante el desarrollo de nuestro proyecto. El objetivo principal de realizar estas entrevistas de validación es obtener retroalimentación, comprender las necesidades y expectativas de los usuarios, así como validar o refutar las hipótesis sobre el producto. Para lograr esto, haremos que nuestros entrevistados de ambos segmentos interactúen con la landing page y la aplicación.
 
 ### 6.3.1. Diseño de entrevistas
 
+Para validar la efectividad y la experiencia de usuario de **VacApp**, se ha diseñado un cuestionario de entrevista dirigido a usuarios activos de la plataforma. El objetivo es recopilar feedback cualitativo y cuantitativo que permita medir la satisfacción, identificar las funcionalidades de mayor valor y descubrir oportunidades de mejora.
+
+Estas preguntas están estructuradas para guiar una conversación fluida, abarcando desde la percepción general del producto hasta detalles específicos sobre su uso diario.
+
+---
+
+#### **Cuestionario de Validación de Usuario - VacApp**
+
+**Objetivo:** Evaluar la experiencia del usuario, el valor percibido y las áreas de mejora de la aplicación.
+**Público:** Ganaderos independientes y administradores de empresas ganaderas que utilizan VacApp.
+
+---
+
+##### **Parte 1: Satisfacción General y Lealtad (NPS)**
+
+1.  **En una escala del 1 al 10, ¿qué tan probable es que recomiendes "VacApp" a otro ganadero o colega?**
+    *   *Guía para el entrevistador: Registrar la puntuación numérica. Si es 9-10 son promotores, 7-8 pasivos, 0-6 detractores.*
+
+2.  **¿Cuál es la razón principal de la calificación que acabas de dar?**
+    *   *Guía: Profundizar en los motivos. ¿Es por la facilidad de uso, una función específica, el soporte, o la falta de algo?*
+
+---
+
+##### **Parte 2: Uso y Valor Percibido**
+
+3.  **¿Cuál es la función o característica de "VacApp" que más utilizas en tu día a día?**
+    *   *Guía: Identificar las funcionalidades "ganadoras" que generan más engagement.*
+
+4.  **¿Cuál es el principal problema o tarea que "VacApp" te ayuda a resolver o facilitar?**
+    *   *Guía: Entender el "job-to-be-done" principal que la app está cumpliendo para el usuario.*
+
+5.  **¿Has notado alguna mejora medible desde que usas "VacApp"?** (Ej: ahorro de tiempo, mejor control de inventario, reducción de errores en registros, etc.)
+    *   *Guía: Buscar evidencia concreta del impacto positivo de la aplicación en la operación del usuario.*
+
+---
+
+##### **Parte 3: Oportunidades de Mejora y Necesidades no Cubiertas**
+
+6.  **Si tuvieras una "varita mágica", ¿qué nueva función o reporte te gustaría que "VacApp" tuviera?**
+    *   *Guía: Fomentar la creatividad para descubrir ideas de nuevas funcionalidades o mejoras significativas.*
+
+7.  **¿Qué tarea importante relacionada con la gestión de tu ganado sientes que "VacApp" todavía NO te ayuda a gestionar?**
+    *   *Guía: Identificar los "gaps" o vacíos funcionales que la aplicación aún no cubre.*
+
+8.  **¿Hay alguna parte de la plataforma que te resulte confusa o difícil de usar?**
+    *   *Guía: Detectar puntos de fricción en la experiencia de usuario (UX) que necesiten ser rediseñados.*
+
+---
+
+##### **Parte 4: Contexto y Cierre**
+
+9.  **¿Qué herramienta o método (otra app, libreta de apuntes, Excel) usabas antes de "VacApp" para gestionar tu ganado?**
+    *   *Guía: Comprender el comportamiento previo del usuario y el valor diferencial que VacApp ofrece frente a la competencia o métodos tradicionales.*
+
+10. **¿Hay algo más que te gustaría que supiéramos sobre tu experiencia con "VacApp"?**
+    *   *Guía: Pregunta abierta para capturar cualquier otro comentario, sugerencia o crítica que el usuario no haya mencionado.*
+
+
 ### 6.3.2. Registro de Entrevistas
 
+
 ### 6.3.3. Evaluaciones según heurísticas
+
 
 ### 6.4. Auditoría de Experiencias de Usuario
 
