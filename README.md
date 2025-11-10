@@ -1354,7 +1354,8 @@ Este flujo está diseñado para facilitar al agregar ya sea un bovino, una campa
 
 **vista de "Agregar Campaña"**
 
-<img src="./assets/campaniaadd.png" style="width: 400px"
+
+<img src="./assets/campaniaadd.png" style="width: 400px">
 
 **Inicio Sesion**
 
@@ -1400,7 +1401,7 @@ Este flujo está diseñado para facilitar al agregar ya sea un bovino, una campa
 
 **vista de "Agregar Campaña"**
 
-<img src="./assets/campaniaadd.png" style="width: 400px"
+<img src="./assets/campaniaadd.png" style="width: 400px">
 
 #### 4.4.4. Mobile Applications User Flow Diagrams
 
@@ -2117,8 +2118,7 @@ Este desarrollo fue acompañado por pruebas funcionales continuas durante los sp
 
 <p align="center">
   <img src="./assets/sign_up_flutter.JPG" width="300" />
-  <img src="./assets/home_flutter.JPG" width="300" />
-  <img src="./assets/animales_flutter.JPG" width="300" />
+  
 </p>
 
 <p align="center">
@@ -2129,13 +2129,10 @@ Este desarrollo fue acompañado por pruebas funcionales continuas durante los sp
 
 <p align="center">
   <img src="./assets/personal_flutter.JPG" width="300" />
-  <img src="./assets/animales_establo_flutter.JPG" width="300" />
   <img src="./assets/vacunas_flutter.JPG" width="300" />
 </p>
 
 <p align="center">
-  <img src="./assets/detalles_bovino_flutter.JPG" width="300" />
-  <img src="./assets/registro_bovino_flutter.JPG" width="300" />
   <img src="./assets/gestion_campaña_flutter.JPG" width="300" />
 </p>
 
@@ -3928,7 +3925,7 @@ Esto nos da mas escalabilidad segura para la aplicación, tanto como tener un es
 
 ### 6.4.1. Auditoría realizada
 
-El equipo **Vacow Team**, en su rol de auditores internos UX dentro de la iteración TB2, ejecutó una auditoría enfocada en **Experiencia de Usuario (UX)** y **usabilidad** aplicada sobre el informe, documentación y evidencias técnicas del proyecto *VacApp*.  
+El equipo **Vacow Team**, en su rol de auditores internos UX dentro de la iteración TB2, ejecutó una auditoría enfocada en **Experiencia de Usuario (UX)** y **usabilidad** aplicada sobre el informe, documentación y evidencias técnicas del proyecto *TukunTech*.  
 El objetivo fue identificar puntos críticos que afectan la lectura del documento, la consistencia visual y la claridad narrativa desde el punto de vista evaluador (comité docente), especialmente al momento de exportación final a PDF.
 
 Esta auditoría se alineó con criterios de evaluación del flujo de información, claridad visual, trazabilidad de evidencias y adecuación de artefactos al estándar de entrega.
@@ -3990,7 +3987,64 @@ Esta auditoría se alineó con criterios de evaluación del flujo de informació
 > **Nota:** La auditoría UX realizada por *Vacow Team* permitió identificar oportunidades de mejora en la estructura del documento y la presentación de evidencias técnicas, garantizando coherencia visual, accesibilidad y trazabilidad entre los artefactos entregados y la experiencia final del evaluador.
 
 
-#### 6.4.1.3. Contenido de auditoría realizada
+### 6.4.1.3. Contenido de auditoría realizada
+
+**SITE / APP evaluado:** TukunTech — Aplicación orientada al monitoreo y lectura rápida del estado de salud de un paciente adulto mediante indicadores de signos vitales.
+
+---
+
+**TAREAS EVALUADAS (flujos principales de la APP):**
+
+1. Registro de usuario (paciente / familiar)
+2. Visualización del estado de salud actual en pantalla principal
+3. Interpretación del riesgo mediante colores (verde / azul / rojo)
+4. Visualización de histórico de mediciones
+5. Visualización de información complementaria (contexto / explicación)
+6. Navegación entre vistas básicas de la aplicación
+
+**TAREAS NO INCLUIDAS EN ESTA AUDITORÍA:**
+
+1. Ajustes avanzados de parámetros médicos
+2. Integración con wearables externos
+3. Gestión multi–paciente
+4. Configuración de notificaciones push
+
+---
+
+**ESCALA DE SEVERIDAD USADA:**
+
+| Nivel | Descripción |
+|-------|-------------|
+| 1 | Observación leve — no afecta la experiencia general |
+| 2 | Oportunidad de mejora — podría optimizar la claridad |
+| 3 | Mejora importante — facilita comprensión de usuario |
+
+---
+
+### TABLA RESUMEN DE OBSERVACIONES
+
+| # | Observación relacionada a la APP | Severidad | Principio relacionado |
+|---|----------------------------------|-----------|-----------------------|
+| 1 | La app se basa en colores para representar el estado del paciente, podría ser útil acompañar este indicador con una breve leyenda textual debajo para reforzar significado. | 2 | Reconocer antes que recordar |
+| 2 | Sería beneficioso incluir un “estado previo reciente” al lado del estado actual para facilitar comparación rápida. | 2 | Contexto de uso |
+| 3 | El flujo de navegación entre pantallas podría incluir un indicador visual del paso actual (por ejemplo: “inicio / histórico”) para orientar mejor al usuario. | 2 | Mapeo conceptual |
+| 4 | En el historial sería útil resaltar valores fuera de rango para priorizar atención visual inmediata. | 3 | Visibilidad de información crítica |
+| 5 | La pantalla principal podría incluir un acceso directo al historial de alertas sin tener que pasar por más pantallas. | 2 | Minimizar esfuerzo del usuario |
+
+---
+
+### EJEMPLO DE OBSERVACIÓN DETALLADA
+
+**Observación #4 — resaltado de valores fuera de rango**
+
+**Severidad:** 3  
+**Principio:** Visibilidad de información crítica
+
+**Comentario:**  
+La información del historial es útil pero podría destacar visualmente los datos en riesgo para que el usuario identifique rápidamente cuando hubo episodios relevantes.
+
+**Recomendación:**  
+Resaltar con color o icono los valores fuera del rango normal para acelerar el reconocimiento visual del riesgo.
 
 ### 6.4.2. Auditoría recibida
 
