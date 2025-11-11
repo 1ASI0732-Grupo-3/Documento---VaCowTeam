@@ -282,8 +282,8 @@ El curso contribuye al cumplimiento del Student Outcome ABET:
 
 | **Criterio específico** | **Acciones realizadas** | **Conclusiones** |
 |--------------------------|--------------------------|------------------|
-| **4.c.1 Reconoce responsabilidad ética y profesional en situaciones de ingeniería de software** | <br><br> **1. Rojas Velasquez, Maycol Jhordan**<br>_TB1:_<br> Apliqué buenas prácticas en la elaboración de la documentación técnica, asegurando transparencia en los procesos y citando correctamente las fuentes de información utilizadas.<br>_TP:_<br> Apliqué prácticas de ingeniería de software para las pruebas unitarias y de sistema, garantizando trazabilidad y control de calidad en el código.<br><br> **2. Espinoza Cueva, Stephano Jose**<br>_TB1:_<br> Me involucré de lleno en definir qué era más urgente y cómo íbamos a entregar el producto, participando en la priorización de requisitos y la planificación de entregables. Mi enfoque principal fue garantizar que todas las decisiones se basaran en lo que los usuarios realmente necesitaban, evitando modas o suposiciones sin fundamento. Fui responsable de considerar el impacto que cada elección tendría en el resultado final y en la experiencia del usuario (FrontEnd), actuando siempre bajo una perspectiva ética y profesional.<br>_TP:_<br> Colaboré en la implementación de prácticas de despliegue continuo, priorizando la calidad del software y el cumplimiento de estándares éticos en las entregas del producto.<br><br> **3. Saldana Liberato, Rodrigo**<br>_TB1:_<br> Elaboré documentación clara sobre las historias de usuario y realicé la configuración del entorno de desarrollo y despliegue del producto, garantizando orden y transparencia en los procesos.<br>_TP:_<br> Elaboré la documentación y ejecución de las pruebas de integración, asegurando el correcto funcionamiento del sistema en conjunto.<br><br> **4. Macavilca Quispe, Ian**<br>_TB1:_<br> Elaboré el diseño UI/UX del web app, así como el web prototyping; además, trabajé en el despliegue del producto.<br>_TP:_<br> Desarrollé el flujo de Integración Continua dentro del pipeline de DevOps, aplicando prácticas de control de versiones y validación automática.<br><br> **5. Paucar Meneses, Jeremy**<br>_TB1:_<br> Elaboré la documentación sobre los competidores, así como los *user personas* para cada segmento objetivo, el *empathy mapping* y el *ubiquitous language*, contribuyendo a una comprensión ética y centrada en el usuario del proyecto.<br>_TP:_<br> Implementé la metodología *Behavior-Driven Development (BDD)* para alinear las pruebas del sistema con los requerimientos del usuario, garantizando coherencia entre diseño, funcionalidad y propósito ético del producto. | **Conclusión TB1:** La ética profesional fue la base en todas las etapas del proyecto, asegurando transparencia en la documentación, honestidad en la gestión del código y respeto por las buenas prácticas de desarrollo. <br><br>**Conclusión TP:** Las pruebas unitarias y de sistema consolidaron la responsabilidad profesional del equipo, al validar que cada componente funcionara correctamente bajo principios de calidad y fiabilidad. |
-| **4.c.2 Emite juicios informados considerando el impacto de las soluciones de ingeniería de software en contextos globales, económicos, ambientales y sociales** | <br><br> **1. Rojas Velasquez, Maycol Jhordan**<br>_TB1:_<br> Analicé cómo la solución propuesta (*VacApp*) impacta en la eficiencia de la ganadería, promoviendo prácticas sostenibles que favorecen al sector económico y respetan el medio ambiente.<br>_TP:_<br> Apliqué juicios técnicos para las pruebas de sistema, evaluando su impacto y funcionamiento dentro del contexto productivo real.<br><br> **2. Espinoza Cueva, Stephano Jose**<br>_TB1:_<br> Al diseñar las propuestas, mantuve una visión global, considerando cómo nuestro producto afectaría a distintos usuarios y escenarios. Analicé el impacto en diversos contextos y ajusté decisiones para asegurar que el producto fuera útil socialmente y sostenible económicamente.<br>_TP:_<br> En la implementación de *Continuous Deployment*, prioricé la estabilidad del entorno productivo y la satisfacción del usuario final, aplicando un criterio técnico y responsable ante el impacto de cada actualización.<br><br> **3. Saldana Liberato, Rodrigo**<br>_TB1:_<br> Documenté las funcionalidades del producto y configuré su despliegue, valorando cómo estas acciones facilitan el trabajo en equipo y la eficiencia operativa, con impacto positivo en la organización y su entorno.<br>_TP:_<br> Durante la implementación de las pruebas de integración, profundicé en la lógica de negocio, comprendiendo el impacto que VacApp puede tener dentro del mercado ganadero digital.<br><br> **4. Macavilca Quispe, Ian**<br>_TB1:_<br> Consideré la funcionalidad y practicidad en la elaboración del diseño UI/UX y en el *web prototyping*.<br>_TP:_<br> Apliqué principios de eficiencia y sostenibilidad al momento de desarrollar el flujo de Integración Continua, optimizando recursos y tiempos de despliegue.<br><br> **5. Paucar Meneses, Jeremy**<br>_TB1:_<br> Realicé los diferentes tipos de *Needfinding* pertenecientes al capítulo de *Requirements Elicitation & Analysis*, lo que permitió comprender mejor el contexto del desarrollo y su impacto en los usuarios y el entorno.<br>_TP:_<br> Analicé los resultados de las pruebas funcionales y de comportamiento, evaluando el impacto social y tecnológico de las decisiones de desarrollo sobre la usabilidad y accesibilidad del sistema. |**Conclusión TB1:** El desarrollo de VacApp promovió una visión integral que combina innovación tecnológica con sostenibilidad, impulsando prácticas más responsables en la gestión ganadera peruana. <br><br>**Conclusión TP:** La implementación de pruebas, despliegues continuos y evaluaciones automatizadas permitió emitir juicios técnicos más precisos, asegurando que el sistema mantuviera su impacto positivo en el entorno productivo y social. |
+| **4.c.1 Reconoce responsabilidad ética y profesional en situaciones de ingeniería de software** | <br><br> **1. Rojas Velasquez, Maycol Jhordan**<br>_TB1:_<br> Apliqué buenas prácticas en la elaboración de la documentación técnica, asegurando transparencia en los procesos y citando correctamente las fuentes de información utilizadas.<br>_TP:_<br> Apliqué prácticas de ingeniería de software para las pruebas unitarias y de sistema, garantizando trazabilidad y control de calidad en el código.<br>_TB2:_<br> Asumí responsabilidad en la verificación de artefactos UX y auditorías externas e internas (cap. 6.4), liderando la integración ética de resultados dentro del pipeline DevOps (CI / CD / Deployment), asegurando que el producto se valide antes de ser liberado a ambientes superiores.<br><br> **2. Espinoza Cueva, Stephano Jose**<br>_TB1:_<br> Me involucré de lleno en definir qué era más urgente y cómo íbamos a entregar el producto, participando en la priorización de requisitos y la planificación de entregables.<br>_TP:_<br> Colaboré en la implementación de prácticas de despliegue continuo, priorizando la calidad del software y el cumplimiento de estándares éticos en las entregas del producto.<br>_TB2:_<br> Fui responsable de asegurar la coherencia ética entre métricas, KPIs y trazabilidad analítica (cap. 8.2.7 / 8.2.8), garantizando que no se manipulen resultados ni se tomen decisiones sin datos reales siendo fieles a validaciones provenientes de usuarios entrevistados y auditores.<br><br> **3. Saldana Liberato, Rodrigo**<br>_TB1:_<br> Elaboré documentación clara sobre las historias de usuario y realicé la configuración del entorno de desarrollo y despliegue del producto.<br>_TP:_<br> Elaboré la documentación y ejecución de las pruebas de integración, asegurando el correcto funcionamiento del sistema en conjunto.<br>_TB2:_<br> Asumí responsabilidad ética sobre la transparencia del análisis estático de código y su impacto en seguridad / convenciones (cap. 6.2), asegurando que todos los hallazgos se documenten y que no se oculte ninguno durante el proceso de verificación.<br><br> **4. Macavilca Quispe, Ian**<br>_TB1:_<br> Elaboré el diseño UI/UX del web app, así como el web prototyping.<br>_TP:_<br> Desarrollé el flujo de Integración Continua dentro del pipeline de DevOps.<br>_TB2:_<br> Diseñé la planificación experimental (cap. 8.1), documentando suposiciones y asegurando que los experimentos no alteren datos reales ni afecten a usuarios sin consentimiento previo.<br><br> **5. Paucar Meneses, Jeremy**<br>_TB1:_<br> Elaboré la documentación sobre los competidores, así como los user personas.<br>_TP:_<br> Implementé BDD.<br>_TB2:_<br> Supervisé la formulación de hipótesis (cap. 8.2.1), Domain Business Metrics (cap. 8.2.2) y cálculos de escala experimentales (cap. 8.2.5) garantizando rigurosidad en la toma de decisiones basada en datos reales y no supuestos manipulados. | **TB1:** La ética profesional fue la base en todas las etapas del proyecto, asegurando transparencia en la documentación, honestidad en la gestión del código y respeto por las buenas prácticas de desarrollo.<br><br>**TP:** Las pruebas unitarias y de sistema consolidaron la responsabilidad profesional del equipo al validar que cada componente funcionara correctamente bajo principios de calidad y fiabilidad.<br><br>**TB2:** La responsabilidad ética se fortaleció al integrar auditorías UX, pipelines CI/CD, análisis estático y diseño experimental; garantizando que las decisiones se fundamenten en evidencia técnica real, mediciones verificables y datos no manipulados.
+| **4.c.2 Emite juicios informados considerando el impacto de las soluciones de ingeniería de software en contextos globales, económicos, ambientales y sociales** | <br><br> **1. Rojas Velasquez, Maycol Jhordan**<br>_TB1:_<br> Analicé cómo la solución propuesta (*VacApp*) impacta en la eficiencia de la ganadería, promoviendo prácticas sostenibles que favorecen al sector económico y respetan el medio ambiente.<br>_TP:_<br> Apliqué juicios técnicos para las pruebas de sistema, evaluando su impacto y funcionamiento dentro del contexto productivo real.<br>_TB2:_<br> Generé juicios informados a partir de las auditorías UX realizadas y recibidas (cap. 6.4), integrando retroalimentación externa en la toma de decisiones del pipeline CI/CD, para asegurar que cada despliegue considere impacto en usuarios reales, stakeholders y la operación ganadera digital a escala.<br><br> **2. Espinoza Cueva, Stephano Jose**<br>_TB1:_<br> Al diseñar las propuestas, mantuve una visión global, considerando cómo nuestro producto afectaría a distintos usuarios y escenarios.<br>_TP:_<br> En la implementación de *Continuous Deployment*, prioricé la estabilidad del entorno productivo y la satisfacción del usuario final.<br>_TB2:_<br> Apliqué juicios basados en métricas, KPIs y analítica (cap. 8.2.7 / 8.2.8) asegurando que las decisiones para pivotear o escalar funciones correspondieran a datos reales y no a percepciones subjetivas, considerando el costo real de intervención, adopción y resultado para la industria ganadera peruana.<br><br> **3. Saldana Liberato, Rodrigo**<br>_TB1:_<br> Documenté las funcionalidades del producto y configuré su despliegue.<br>_TP:_<br> Durante la implementación de las pruebas de integración, profundicé en la lógica de negocio.<br>_TB2:_<br> Utilicé resultados de la verificación estática del código (cap. 6.2) para emitir juicios sobre seguridad, mantenibilidad e impacto futuro del producto; considerando implicancias técnicas, económicas (costos de deuda técnica) y sociales (riesgos de exposición o mal funcionamiento).<br><br> **4. Macavilca Quispe, Ian**<br>_TB1:_<br> Consideré la funcionalidad y practicidad.<br>_TP:_<br> Apliqué principios de eficiencia y sostenibilidad.<br>_TB2:_<br> Apliqué juicios informados durante la definición del *Experiment Planning* (cap. 8.1), sopesando impacto versus beneficio para decidir qué hipótesis merecen experimentación, evitando costo innecesario, sesgo metodológico y riesgo de generar daño a la data o usuarios objetivo.<br><br> **5. Paucar Meneses, Jeremy**<br>_TB1:_<br> Realicé los diferentes tipos de *Needfinding*.<br>_TP:_<br> Analicé los resultados de las pruebas funcionales y de comportamiento.<br>_TB2:_<br> Apliqué análisis crítico al formular las hipótesis, Domain Business Metrics y decisiones de escalabilidad (cap. 8.2.1 – 8.2.6), considerando impacto económico para el productor ganadero, sostenibilidad en el largo plazo y valor social de introducir mejoras en un sector con alto nivel de informalidad tecnológica. | **TB1:** El desarrollo de VacApp promovió una visión integral que combina innovación tecnológica con sostenibilidad, impulsando prácticas más responsables en la gestión ganadera peruana.<br><br>**TP:** La implementación de pruebas, despliegues continuos y evaluaciones automatizadas permitió emitir juicios técnicos más precisos, asegurando que el sistema mantuviera su impacto positivo en el entorno productivo y social.<br><br>**TB2:** La consideración de auditorías, CI/CD, métricas analíticas y diseño experimental permitió emitir juicios basados en evidencia concreta, asegurando que cada decisión técnica tenga impacto medible sobre factores económicos, globales y sociales, consolidando una visión profesional madura sobre el rol del software dentro del sector ganadero real.
 
 
 <div style="page-break-before: always;"></div>
@@ -1354,7 +1354,8 @@ Este flujo está diseñado para facilitar al agregar ya sea un bovino, una campa
 
 **vista de "Agregar Campaña"**
 
-<img src="./assets/campaniaadd.png" style="width: 400px"
+
+<img src="./assets/campaniaadd.png" style="width: 400px">
 
 **Inicio Sesion**
 
@@ -1400,7 +1401,7 @@ Este flujo está diseñado para facilitar al agregar ya sea un bovino, una campa
 
 **vista de "Agregar Campaña"**
 
-<img src="./assets/campaniaadd.png" style="width: 400px"
+<img src="./assets/campaniaadd.png" style="width: 400px">
 
 #### 4.4.4. Mobile Applications User Flow Diagrams
 
@@ -2117,8 +2118,7 @@ Este desarrollo fue acompañado por pruebas funcionales continuas durante los sp
 
 <p align="center">
   <img src="./assets/sign_up_flutter.JPG" width="300" />
-  <img src="./assets/home_flutter.JPG" width="300" />
-  <img src="./assets/animales_flutter.JPG" width="300" />
+  
 </p>
 
 <p align="center">
@@ -2129,13 +2129,10 @@ Este desarrollo fue acompañado por pruebas funcionales continuas durante los sp
 
 <p align="center">
   <img src="./assets/personal_flutter.JPG" width="300" />
-  <img src="./assets/animales_establo_flutter.JPG" width="300" />
   <img src="./assets/vacunas_flutter.JPG" width="300" />
 </p>
 
 <p align="center">
-  <img src="./assets/detalles_bovino_flutter.JPG" width="300" />
-  <img src="./assets/registro_bovino_flutter.JPG" width="300" />
   <img src="./assets/gestion_campaña_flutter.JPG" width="300" />
 </p>
 
@@ -3917,53 +3914,424 @@ Luego de realizar todos los cambios dichos en los anteriores puntos, se pudo log
 Esto nos da mas escalabilidad segura para la aplicación, tanto como tener un estándar establecido a comparación de antes de la refactorización. Esto ha sido una gran mejora para la aplicación y fielmente se cree que esto va a ir para mejor.
 
 ### 6.3. Validation Interviews
+En esta sección, se registran y explican las actividades que abarcan las entrevistas de validación durante el desarrollo de nuestro proyecto. El objetivo principal de realizar estas entrevistas de validación es obtener retroalimentación, comprender las necesidades y expectativas de los usuarios, así como validar o refutar las hipótesis sobre el producto. Para lograr esto, haremos que nuestros entrevistados de ambos segmentos interactúen con la landing page y la aplicación.
 
 ### 6.3.1. Diseño de entrevistas
 
+Para validar la efectividad y la experiencia de usuario de **VacApp**, se ha diseñado un cuestionario de entrevista dirigido a usuarios activos de la plataforma. El objetivo es recopilar feedback cualitativo y cuantitativo que permita medir la satisfacción, identificar las funcionalidades de mayor valor y descubrir oportunidades de mejora.
+
+Estas preguntas están estructuradas para guiar una conversación fluida, abarcando desde la percepción general del producto hasta detalles específicos sobre su uso diario.
+
+---
+
+#### **Cuestionario de Validación de Usuario - VacApp**
+
+**Objetivo:** Evaluar la experiencia del usuario, el valor percibido y las áreas de mejora de la aplicación.
+**Público:** Ganaderos independientes y administradores de empresas ganaderas que utilizan VacApp.
+
+---
+
+##### **Parte 1: Satisfacción General y Lealtad (NPS)**
+
+1.  **En una escala del 1 al 10, ¿qué tan probable es que recomiendes "VacApp" a otro ganadero o colega?**
+    *   *Guía para el entrevistador: Registrar la puntuación numérica. Si es 9-10 son promotores, 7-8 pasivos, 0-6 detractores.*
+
+2.  **¿Cuál es la razón principal de la calificación que acabas de dar?**
+    *   *Guía: Profundizar en los motivos. ¿Es por la facilidad de uso, una función específica, el soporte, o la falta de algo?*
+
+---
+
+##### **Parte 2: Uso y Valor Percibido**
+
+3.  **¿Cuál es la función o característica de "VacApp" que más utilizas en tu día a día?**
+    *   *Guía: Identificar las funcionalidades "ganadoras" que generan más engagement.*
+
+4.  **¿Cuál es el principal problema o tarea que "VacApp" te ayuda a resolver o facilitar?**
+    *   *Guía: Entender el "job-to-be-done" principal que la app está cumpliendo para el usuario.*
+
+5.  **¿Has notado alguna mejora medible desde que usas "VacApp"?** (Ej: ahorro de tiempo, mejor control de inventario, reducción de errores en registros, etc.)
+    *   *Guía: Buscar evidencia concreta del impacto positivo de la aplicación en la operación del usuario.*
+
+---
+
+##### **Parte 3: Oportunidades de Mejora y Necesidades no Cubiertas**
+
+6.  **Si tuvieras una "varita mágica", ¿qué nueva función o reporte te gustaría que "VacApp" tuviera?**
+    *   *Guía: Fomentar la creatividad para descubrir ideas de nuevas funcionalidades o mejoras significativas.*
+
+7.  **¿Qué tarea importante relacionada con la gestión de tu ganado sientes que "VacApp" todavía NO te ayuda a gestionar?**
+    *   *Guía: Identificar los "gaps" o vacíos funcionales que la aplicación aún no cubre.*
+
+8.  **¿Hay alguna parte de la plataforma que te resulte confusa o difícil de usar?**
+    *   *Guía: Detectar puntos de fricción en la experiencia de usuario (UX) que necesiten ser rediseñados.*
+
+---
+
+##### **Parte 4: Contexto y Cierre**
+
+9.  **¿Qué herramienta o método (otra app, libreta de apuntes, Excel) usabas antes de "VacApp" para gestionar tu ganado?**
+    *   *Guía: Comprender el comportamiento previo del usuario y el valor diferencial que VacApp ofrece frente a la competencia o métodos tradicionales.*
+
+10. **¿Hay algo más que te gustaría que supiéramos sobre tu experiencia con "VacApp"?**
+    *   *Guía: Pregunta abierta para capturar cualquier otro comentario, sugerencia o crítica que el usuario no haya mencionado.*
+
+
 ### 6.3.2. Registro de Entrevistas
 
-1. En una escala del 1 al 10, ¿qué tan probable es que recomiendes "VacApp" a otro ganadero o colega?
+### 6.3.2. Registro de Entrevistas
 
-2. ¿Cuál es la razón principal de la calificación que acabas de dar?
+A continuación, se documentan las entrevistas de validación realizadas con usuarios de los segmentos objetivo. Cada registro incluye los datos del entrevistado, un resumen de los hallazgos clave, y las evidencias correspondientes.
 
-3. ¿Cuál es la función o característica de "VacApp" que más utilizas en tu día a día?
+---
 
-4. ¿Cuál es el principal problema o tarea que "VacApp" te ayuda a resolver o facilitar?
+#### **Entrevista #1**
 
-5. ¿Has notado alguna mejora medible desde que usas "VacApp"? (Ej: ahorro de tiempo, mejor control de inventario, reducción de errores en registros, etc.)
+| Detalle | Información |
+| :--- | :--- |
+|  **Entrevistado** | Sergio Gomez Vallejos |
+|  **Edad** | 25 |
+|  **Rol / Experiencia** | Ganadero Independiente |
+| **Fecha de Entrevista** | 08/11/2025|
+|  **Duración** | 3:46 |
+|  **Tecnologías Usadas** | Zoom |
+|  **Enlace a Grabación** | https://drive.google.com/file/d/1qC36xoN-Q9WqCXTWgixpkWKoWFHFsZzv/view?usp=sharing |
 
-6. Si tuvieras una "varita mágica", ¿qué nueva función o reporte te gustaría que "VacApp" tuviera?
+<br>
 
-7. ¿Qué tarea importante relacionada con la gestión de tu ganado sientes que "VacApp" todavía NO te ayuda a gestionar?
+**Evidencia de la Entrevista:**
 
-8. ¿Hay alguna parte de la plataforma que te resulte confusa o difícil de usar?
 
-9. ¿Qué herramienta o método (otra app, libreta de apuntes, Excel) usabas antes de "VacApp" para gestionar tu ganado?
+![Evidencia Entrevista 1](assets/entre-val-1.png)
 
-10. ¿Hay algo más que te gustaría que supiéramos sobre tu experiencia con "VacApp"?
+<br>
+
+**Resumen de Hallazgos Clave:**
+
+*   **Feedback Positivo sobre Funcionalidad:** El entrevistado confirmó que la aplicación funciona correctamente y que pudo navegar por las distintas secciones sin problemas. La funcionalidad general fue validada como intuitiva y completa.
+
+*   **Oportunidad de Mejora en la Interfaz (UI):** A pesar de la buena funcionalidad, se señaló que el **menú principal se percibe "sobrecargado"**. Este hallazgo sugiere una oportunidad para simplificar la navegación, posiblemente agrupando opciones o mejorando la jerarquía visual para no abrumar al usuario.
+
+*   **Solicitud de Nuevas Funcionalidades (Reportes):** El punto más relevante fue la solicitud de incorporar **reportes de alimentación y peso**. El usuario expresó un fuerte interés en poder visualizar y analizar datos históricos sobre el consumo de alimento y la evolución del peso del ganado, considerándolo una herramienta clave para la toma de decisiones.
+
+---
+
+#### **Entrevista #2**
+
+| Detalle | Información |
+| :--- | :--- |
+|  **Entrevistado** | Camila Fernanda Farias Morales |
+|  **Edad** | 21 |
+|  **Rol / Experiencia** | Practicante en una empresa Ganadera |
+| **Fecha de Entrevista** | 09/11/2025 |
+|  **Duración** | 4:09 |
+|  **Tecnologías Usadas** | Zoom |
+|  **Enlace a Grabación** | https://drive.google.com/file/d/1j8ZqTzQUoBvgMH-U6o9jUgN7AGzCIa0I/view?usp=sharing |
+
+<br>
+
+**Evidencia de la Entrevista:**
+
+![Evidencia Entrevista 1](assets/entrevista2-validation.png)
+
+<br>
+**Resumen de Hallazgos Clave:**
+
+*   **Validación de Funcionalidades Clave:** La entrevistada valora positivamente la facilidad de uso y la practicidad de la aplicación, destacando los módulos de **manejo de bovinos y registro de vacunas** como los más utilizados. Confirma que la app resuelve el problema de la desorganización y la dependencia de registros manuales (Excel, cuadernos).
+
+*   **Oportunidades de Mejora Críticas:** Se identificaron dos áreas principales para futuras mejoras:
+    1.  **Reportes Avanzados:** Fuerte interés en la incorporación de **reportes de rendimiento productivo** (ej. litros de leche, ganancia de peso) para facilitar la toma de decisiones.
+    2.  **Alertas Automáticas:** Solicitud de un sistema de **alertas automáticas** más robusto para vacunas y revisiones veterinarias, considerándolo un diferenciador clave.
+
+*   **Funcionalidad Ausente (Gap):** La entrevistada señaló la falta de un módulo para **registrar gastos y costos de producción**, una funcionalidad que considera esencial para un control económico completo de la operación ganadera.
+
+*   **Feedback de Usabilidad:** Aunque la interfaz es mayormente intuitiva, hubo una curva de aprendizaje inicial para tareas como **editar registros antiguos o mover animales entre establos**.
+
+
+---
+
+#### **Entrevista #3**
+
+| Detalle | Información |
+| :--- | :--- |
+|  **Entrevistado** | `[Nombre Completo del Entrevistado]` |
+|  **Edad** | `[Edad]` |
+|  **Rol / Experiencia** | `[Ej: Ganadero con 10 años de experiencia]` |
+| **Fecha de Entrevista** | `[DD/MM/AAAA]` |
+|  **Duración** | `[HH:MM:SS]` |
+|  **Tecnologías Usadas** | `[Ej: Google Meet, Zoom, Grabadora de voz]` |
+|  **Enlace a Grabación** | `[Pega aquí el enlace al video o audio de la entrevista]` |
+
+<br>
+
+**Evidencia de la Entrevista:**
+
+
+`![Evidencia Entrevista 1](assets/entrevista_1.png)`
+
+<br>
+
+**Resumen de Hallazgos Clave:**
+
+
+---
+
+#### **Entrevista #4**
+
+| Detalle | Información |
+| :--- | :--- |
+|  **Entrevistado** | `[Nombre Completo del Entrevistado]` |
+|  **Edad** | `[Edad]` |
+|  **Rol / Experiencia** | `[Ej: Ganadero con 10 años de experiencia]` |
+| **Fecha de Entrevista** | `[DD/MM/AAAA]` |
+|  **Duración** | `[HH:MM:SS]` |
+|  **Tecnologías Usadas** | `[Ej: Google Meet, Zoom, Grabadora de voz]` |
+|  **Enlace a Grabación** | `[Pega aquí el enlace al video o audio de la entrevista]` |
+
+<br>
+
+**Evidencia de la Entrevista:**
+
+
+`![Evidencia Entrevista 1](assets/entrevista_1.png)`
+
+<br>
+
+**Resumen de Hallazgos Clave:**
+
+
+---
+
+#### **Entrevista #5**
+
+| Detalle | Información |
+| :--- | :--- |
+|  **Entrevistado** | `[Nombre Completo del Entrevistado]` |
+|  **Edad** | `[Edad]` |
+|  **Rol / Experiencia** | `[Ej: Ganadero con 10 años de experiencia]` |
+| **Fecha de Entrevista** | `[DD/MM/AAAA]` |
+|  **Duración** | `[HH:MM:SS]` |
+|  **Tecnologías Usadas** | `[Ej: Google Meet, Zoom, Grabadora de voz]` |
+|  **Enlace a Grabación** | `[Pega aquí el enlace al video o audio de la entrevista]` |
+
+<br>
+
+**Evidencia de la Entrevista:**
+
+
+`![Evidencia Entrevista 1](assets/entrevista_1.png)`
+
+<br>
+
+**Resumen de Hallazgos Clave:**
+
+
+---
+
+#### **Entrevista #6**
+
+| Detalle | Información |
+| :--- | :--- |
+|  **Entrevistado** | `[Nombre Completo del Entrevistado]` |
+|  **Edad** | `[Edad]` |
+|  **Rol / Experiencia** | `[Ej: Ganadero con 10 años de experiencia]` |
+| **Fecha de Entrevista** | `[DD/MM/AAAA]` |
+|  **Duración** | `[HH:MM:SS]` |
+|  **Tecnologías Usadas** | `[Ej: Google Meet, Zoom, Grabadora de voz]` |
+|  **Enlace a Grabación** | `[Pega aquí el enlace al video o audio de la entrevista]` |
+
+<br>
+
+**Evidencia de la Entrevista:**
+
+
+`![Evidencia Entrevista 1](assets/entrevista_1.png)`
+
+<br>
+
+**Resumen de Hallazgos Clave:**
+
+
+---
+
 
 ### 6.3.3. Evaluaciones según heurísticas
+
 
 ### 6.4. Auditoría de Experiencias de Usuario
 
 ### 6.4.1. Auditoría realizada
 
-#### 6.4.1.1. Información del grupo auditado
+El equipo **Vacow Team**, en su rol de auditores internos UX dentro de la iteración TB2, ejecutó una auditoría enfocada en **Experiencia de Usuario (UX)** y **usabilidad** aplicada sobre el informe, documentación y evidencias técnicas del proyecto *TukunTech*.  
+El objetivo fue identificar puntos críticos que afectan la lectura del documento, la consistencia visual y la claridad narrativa desde el punto de vista evaluador (comité docente), especialmente al momento de exportación final a PDF.
 
-#### 6.4.1.2. Cronograma de auditoría realizada
+Esta auditoría se alineó con criterios de evaluación del flujo de información, claridad visual, trazabilidad de evidencias y adecuación de artefactos al estándar de entrega.
 
-#### 6.4.1.3. Contenido de auditoría realizada
+#### Componentes evaluados
+
+| Área evaluada | Elementos |
+|----------------|-----------|
+| Documento raíz | `README.md` (estructura, orden, legibilidad, jerarquías H1–H4, nivel de limpieza) |
+| Recursos visuales | `/assets` (nomenclatura, referencias en Markdown, peso y resolución de imágenes) |
+| Evidencias técnicas | Screenshots, endpoints verificados, Swagger, links de despliegue |
+| Secciones técnicas | Testing, CI/CD, despliegue, integración y documentación técnica |
+
+#### Alcance
+
+- Documento principal `README.md`
+- Carpeta de recursos `/assets`  
+- Enlaces de despliegue (frontend y backend)
+- Evidencias de pruebas funcionales (pantallas de test, Swagger, endpoints)
+- Pipeline CI/CD presentado
+
+#### Metodología
+
+- **Inspección heurística** (Nielsen Norman)
+- **Revisión documental** por consistencia estructural y narrativa
+- **Validación de enlaces** y recursos embebidos
+- **Pruebas rápidas de renderizado y exportación** a PDF
+
+#### Herramientas utilizadas
+
+- Google Chrome (pruebas de visualización y renderizado)
+- Visual Studio Code (revisión y limpieza de Markdown)
+- Figma (comparación con prototipos entregados)
+- Swagger UI / Postman (verificación de endpoints)
+- Exportador PDF (control de formato A4/Letter y legibilidad final)
+
+#### Fechas de ejecución
+
+**08/11/2025 – 10/11/2025**
+
+#### Equipo auditor – Vacow Team
+
+- **Maycol Jhordan Rojas Velásquez** — U202219984 — Auditor líder UI/UX  
+- **Stephano Espinoza Cueva** — U202218590 — Auditor Frontend / validación de prototipos  
+- **Rodrigo Liberato Saldaña** — U202215623 — Auditor Backend / validación técnica y evidencias  
+
+---
+
+### 6.4.1.2. Cronograma de ejecución de auditoría
+
+| Fecha       | Actividad                                                                                                   | Responsable (Vacow Auditoría)    |
+|-------------|-------------------------------------------------------------------------------------------------------------|----------------------------------|
+| 08/11/2025  | Revisión de carátula, tabla de contenidos y jerarquías del `README`; análisis de formato y errores de PDF   | **Maycol Rojas**                 |
+| 09/11/2025  | Evaluación heurística de flujos funcionales (login, dashboard) y validación de enlaces activos              | **Stephano Espinoza**            |
+| 10/11/2025  | Consolidación de hallazgos, priorización de correcciones y elaboración del informe de recomendaciones UX-TB2 | **Rodrigo Liberato**             |
+
+---
+
+> **Nota:** La auditoría UX realizada por *Vacow Team* permitió identificar oportunidades de mejora en la estructura del documento y la presentación de evidencias técnicas, garantizando coherencia visual, accesibilidad y trazabilidad entre los artefactos entregados y la experiencia final del evaluador.
+
+
+### 6.4.1.3. Contenido de auditoría realizada
+
+**SITE / APP evaluado:** TukunTech — Aplicación orientada al monitoreo y lectura rápida del estado de salud de un paciente adulto mediante indicadores de signos vitales.
+
+---
+
+**TAREAS EVALUADAS (flujos principales de la APP):**
+
+1. Registro de usuario (paciente / familiar)
+2. Visualización del estado de salud actual en pantalla principal
+3. Interpretación del riesgo mediante colores (verde / azul / rojo)
+4. Visualización de histórico de mediciones
+5. Visualización de información complementaria (contexto / explicación)
+6. Navegación entre vistas básicas de la aplicación
+
+**TAREAS NO INCLUIDAS EN ESTA AUDITORÍA:**
+
+1. Ajustes avanzados de parámetros médicos
+2. Integración con wearables externos
+3. Gestión multi–paciente
+4. Configuración de notificaciones push
+
+---
+
+**ESCALA DE SEVERIDAD USADA:**
+
+| Nivel | Descripción |
+|-------|-------------|
+| 1 | Observación leve — no afecta la experiencia general |
+| 2 | Oportunidad de mejora — podría optimizar la claridad |
+| 3 | Mejora importante — facilita comprensión de usuario |
+
+---
+
+### TABLA RESUMEN DE OBSERVACIONES
+
+| # | Observación relacionada a la APP | Severidad | Principio relacionado |
+|---|----------------------------------|-----------|-----------------------|
+| 1 | La app se basa en colores para representar el estado del paciente, podría ser útil acompañar este indicador con una breve leyenda textual debajo para reforzar significado. | 2 | Reconocer antes que recordar |
+| 2 | Sería beneficioso incluir un “estado previo reciente” al lado del estado actual para facilitar comparación rápida. | 2 | Contexto de uso |
+| 3 | El flujo de navegación entre pantallas podría incluir un indicador visual del paso actual (por ejemplo: “inicio / histórico”) para orientar mejor al usuario. | 2 | Mapeo conceptual |
+| 4 | En el historial sería útil resaltar valores fuera de rango para priorizar atención visual inmediata. | 3 | Visibilidad de información crítica |
+| 5 | La pantalla principal podría incluir un acceso directo al historial de alertas sin tener que pasar por más pantallas. | 2 | Minimizar esfuerzo del usuario |
+
+---
+
+### EJEMPLO DE OBSERVACIÓN DETALLADA
+
+**Observación #4 — resaltado de valores fuera de rango**
+
+**Severidad:** 3  
+**Principio:** Visibilidad de información crítica
+
+**Comentario:**  
+La información del historial es útil pero podría destacar visualmente los datos en riesgo para que el usuario identifique rápidamente cuando hubo episodios relevantes.
+
+**Recomendación:**  
+Resaltar con color o icono los valores fuera del rango normal para acelerar el reconocimiento visual del riesgo.
 
 ### 6.4.2. Auditoría recibida
 
 #### 6.4.2.1. Información del grupo auditor
 
+Se recibió auditoría de Experiencia de Usuario (UX) por parte del **Grupo 4**, quienes realizaron una evaluación orientada a validar la claridad del documento, la correcta jerarquización de secciones, así como la coherencia entre evidencias anexas y el flujo funcional presentado dentro del README y la documentación de entrega.
+
+El alcance del grupo 4 incluyó:
+
+- Revisión de la estructura general del documento principal (README.md)
+- Validación del orden lógico y jerarquías H1-H4
+- Validación visual de imágenes / capturas funcionales
+- Evaluación UX de navegación y lectura narrativa
+- Revisión del acceso a evidencias técnicas (endpoints / despliegues)
+- Observación general de consistencia entre prototipo UI y documentación final
+
+**Fecha de auditoría recibida:** **09/11/2025**
+
+| Integrante | Código | Rol |
+|------------|--------|-----|
+| **Palomares Chavez Adriana** | u20201f723 | Líder |
+| **Soto Zorrilla Oscar Eduardo** | U201811767 | Integrante |
+| **Maraza Penemonte Erick** | u202213372 | Integrante |
+
+
 #### 6.4.2.2. Cronograma de auditoría recibida
+
+| Fecha | Actividad ejecutada | Responsable (Grupo 4) | Detalle de lo realizado |
+|-------|---------------------|------------------------|--------------------------|
+| 08/11/2025 | Revisión documental del README y análisis de jerarquía de secciones | Palomares Chavez Adriana | Analizó estructura global del documento y su alineación con los criterios requeridos para la entrega TB2 |
+| 09/11/2025 | Evaluación heurística UX sobre navegación y visualización de evidencias | Soto Zorrilla Oscar Eduardo | Validó el flujo funcional (login → dashboard) y la coherencia entre prototipos y capturas presentadas como evidencia |
+| 10/11/2025 | Consolidación de observaciones y retroalimentación al equipo Vacow Team | Maraza Penemonte Erick | Sintetizó los hallazgos detectados y formalizó la retroalimentación enviada al equipo para las iteraciones de mejora antes del cierre TB2 |
+
 
 #### 6.4.2.3. Contenido de auditoría recibida
 
-#### 6.4.2.4. Resumen de modificaciones para subsanar hallazgos
+![Evidencia Entrevista 1](assets/auditoriarecibida.jpg)
 
+#### 6.4.2.4. Resumen de modificaciones para subsanar hallazgos
+A partir de los problemas detectados durante la auditoría heurística, se proponen las siguientes acciones correctivas con el fin de mejorar la comprensibilidad, coherencia visual y consistencia estructural del sistema. Las recomendaciones están orientadas a optimizar la arquitectura de información bajo el principio heurístico “Is it understandable?”, garantizando una experiencia de usuario más clara, accesible y uniforme.
+
+| #     | Problema                                                                                                                                                                 | Subsanación                                                                                                                                                                                                                                                                                                                                                          |
+| ----- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **1** | **Ambigüedad en íconos representativos.** Algunos íconos no son claros respecto a la acción o módulo que representan (por ejemplo, el ícono de gestión y bovinos).       | Reemplazar los íconos poco representativos por otros más intuitivos y estandarizados.Implementar una biblioteca de íconos consistente, preferiblemente basada en convenciones del dominio agropecuario y veterinario. Además, incluir etiquetas o tooltips descriptivos para reforzar la comprensión inmediata del usuario. |
+| **2** | **Inconsistencia en el uso de íconos.** Se utilizan diferentes íconos para una misma acción (por ejemplo, una jeringa y un botiquín para representar vacunas).           | Unificar la representación visual mediante una guía de estilo o sistema de diseño UI que establezca la correspondencia entre acciones y símbolos. Esto permitirá mantener coherencia semántica y visual entre pantallas, evitando confusión y reforzando el aprendizaje visual del usuario.                                                                  |
+| **3** | **Sobrecarga y falta de coherencia en la paleta de colores.** En la pantalla Personal, el botón *Agregar* es azul mientras que en otras pantallas es verde.              | Estandarizar la paleta cromática principal y secundaria en todas las vistas. Se sugiere desarrollar un manual de identidad visual que defina los colores funcionales (acciones primarias, secundarias, estados del sistema) para asegurar consistencia visual y fortalecer la identidad de marca de la aplicación.                                           |
+| **4** | **Problemas de contraste en elementos clave.** Algunos textos se presentan sobre fondos verde lima o crema, dificultando la legibilidad en distintas condiciones de luz. | Ajustar los contrastes de color conforme a las pautas de accesibilidad WCAG 2.1 (nivel AA). Se recomienda probar combinaciones de colores con herramientas de contraste y aplicar paletas accesibles que garanticen la legibilidad a usuarios con deficiencias visuales o en entornos con iluminación variable.                                              |
+| **5** | **Inconsistencia en la navegación móvil.** Se identificó falta de uniformidad entre secciones (menú inferior en algunas vistas y menú lateral en otras).                 | Unificar el patrón de navegación principal en toda la aplicación, preferentemente mediante una barra inferior fija con íconos e indicadores activos. Asimismo, mantener la misma ubicación y comportamiento del menú en todas las pantallas, asegurando predictibilidad y continuidad cognitiva en la interacción del usuario.                           |
+
+
+Las modificaciones propuestas buscan reforzar la arquitectura de información y la consistencia visual del sistema, promoviendo una experiencia más comprensible, accesible y coherente. La aplicación de estas mejoras permitirá reducir la carga cognitiva del usuario, mejorar la eficiencia en la interacción y facilitar la navegación en distintos contextos de uso (móvil y escritorio).
 
 ## Capítulo VII: DevOps Practices
 
@@ -4461,15 +4829,1111 @@ Se espera una mejora del 40% en la retención de usuarios nuevos y una reducció
 
 #### 8.2.1. Hypotheses
 
+**Hipótesis 1: Digitalización de Registros Ganaderos**
+
+<table border="1" cellpadding="8" cellspacing="0">
+  <tr><th colspan="2">Pregunta 1</th></tr>
+  <tr><td><strong>Question</strong></td><td>¿Aumentará la productividad de los ganaderos si se digitaliza el registro de salud, alimentación y reproducción del ganado?</td></tr>
+  <tr><td><strong>Belief</strong></td><td>La digitalización centralizada eliminará la pérdida de datos, reducirá errores administrativos y permitirá acceso rápido a información histórica, mejorando significativamente la eficiencia operativa.</td></tr>
+  <tr><td><strong>Hypothesis</strong></td><td>La implementación del módulo de digitalización reducirá en un 40% el tiempo promedio dedicado a tareas administrativas diarias y mejorará en un 30% la precisión de los registros comparado con métodos manuales.</td></tr>
+  <tr><td><strong>Null Hypothesis</strong></td><td>La digitalización no tendrá un impacto significativo en el tiempo administrativo ni en la precisión de los registros respecto a los métodos manuales actuales.</td></tr>
+</table><br>
+
+**Hipótesis 2: Alertas y Recordatorios Automáticos**
+
+<table border="1" cellpadding="8" cellspacing="0">
+  <tr><th colspan="2">Pregunta 2</th></tr>
+  <tr><td><strong>Question</strong></td><td>¿Mejorará la gestión diaria si se implementan alertas y recordatorios automáticos de vacunación y alimentación?</td></tr>
+  <tr><td><strong>Belief</strong></td><td>Los ganaderos frecuentemente olvidan fechas críticas de vacunación y controles sanitarios, afectando la salud del ganado. Las alertas automatizadas garantizarán cumplimiento oportuno.</td></tr>
+  <tr><td><strong>Hypothesis</strong></td><td>Las alertas automáticas reducirán en un 30% las omisiones sanitarias y aumentará en un 25% el cumplimiento de cronogramas de vacunación y alimentación según registros de cumplimiento.</td></tr>
+  <tr><td><strong>Null Hypothesis</strong></td><td>Las alertas automáticas no reducirán significativamente las omisiones sanitarias ni mejorarán el cumplimiento de los cronogramas establecidos.</td></tr>
+</table><br>
+
+**Hipótesis 3: Modo Offline para Zonas Rurales**
+
+<table border="1" cellpadding="8" cellspacing="0">
+  <tr><th colspan="2">Pregunta 3</th></tr>
+  <tr><td><strong>Question</strong></td><td>¿Aumentará la adopción en zonas rurales si la app permite funcionar sin conexión (modo offline)?</td></tr>
+  <tr><td><strong>Belief</strong></td><td>La limitada conectividad en zonas rurales es una barrera principal para la adopción tecnológica. El modo offline permitirá uso continuo y sincronización posterior.</td></tr>
+  <tr><td><strong>Hypothesis</strong></td><td>El modo offline incrementará en un 50% la frecuencia de uso semanal en zonas rurales y reducirá en un 40% las quejas por problemas de conectividad según métricas de uso.</td></tr>
+  <tr><td><strong>Null Hypothesis</strong></td><td>La funcionalidad offline no aumentará significativamente la frecuencia de uso ni reducirá las quejas por conectividad en zonas rurales.</td></tr>
+</table><br>
+
+**Hipótesis 4: Seguridad y Privacidad de Datos**
+
+<table border="1" cellpadding="8" cellspacing="0">
+  <tr><th colspan="2">Pregunta 4</th></tr>
+  <tr><td><strong>Question</strong></td><td>¿Fortalecerá la confianza de los usuarios si la aplicación garantiza la seguridad y privacidad de los datos ganaderos?</td></tr>
+  <tr><td><strong>Belief</strong></td><td>Los ganaderos temen exponer información sensible productiva y financiera. La seguridad robusta generará confianza y facilitará la adopción de la plataforma.</td></tr>
+  <tr><td><strong>Hypothesis</strong></td><td>La implementación de cifrado de datos y autenticación segura aumentará en un 80% la confianza percibida según encuestas post-implementación y mejorará en un 25% la retención de usuarios.</td></tr>
+  <tr><td><strong>Null Hypothesis</strong></td><td>Las medidas de seguridad no tendrán un impacto significativo en la confianza percibida ni en la retención de usuarios.</td></tr>
+</table><br>
+
+**Hipótesis 5: Reportes Visuales de Salud y Productividad**
+
+<table border="1" cellpadding="8" cellspacing="0">
+  <tr><th colspan="2">Pregunta 5</th></tr>
+  <tr><td><strong>Question</strong></td><td>¿Facilitará la toma de decisiones incluir reportes visuales con indicadores de salud y producción?</td></tr>
+  <tr><td><strong>Belief</strong></td><td>Los datos numéricos solos son difíciles de interpretar. Los reportes visuales permitirán identificar tendencias, problemas y oportunidades rápidamente.</td></tr>
+  <tr><td><strong>Hypothesis</strong></td><td>Los reportes visuales mejorarán en un 70% la comprensión operativa del estado del ganado y aumentará en un 30% las decisiones basadas en datos según análisis de uso.</td></tr>
+  <tr><td><strong>Null Hypothesis</strong></td><td>Los reportes visuales no mejorarán significativamente la comprensión operativa ni aumentarán las decisiones basadas en datos.</td></tr>
+</table><br>
+
+**Hipótesis 6: Interfaz Adaptable por Tipo de Usuario**
+
+<table border="1" cellpadding="8" cellspacing="0">
+  <tr><th colspan="2">Pregunta 6</th></tr>
+  <tr><td><strong>Question</strong></td><td>¿Aumentará la satisfacción del usuario si la interfaz se adapta al tipo de perfil (pequeño productor o empresa)?</td></tr>
+  <tr><td><strong>Belief</strong></td><td>Las necesidades de gestión difieren significativamente entre pequeños productores y empresas. La personalización mejorará la relevancia y usabilidad.</td></tr>
+  <tr><td><strong>Hypothesis</strong></td><td>La interfaz adaptable aumentará en un 25% la satisfacción general del usuario y reducirá en un 15% la tasa de abandono durante el primer mes de uso según métricas de retención.</td></tr>
+  <tr><td><strong>Null Hypothesis</strong></td><td>La personalización de la interfaz no tendrá un impacto significativo en la satisfacción del usuario ni en la tasa de abandono.</td></tr>
+</table><br>
+
+**Hipótesis 7: Módulo Educativo Integrado**
+
+<table border="1" cellpadding="8" cellspacing="0">
+  <tr><th colspan="2">Pregunta 7</th></tr>
+  <tr><td><strong>Question</strong></td><td>¿Fomentará el aprendizaje continuo incluir materiales educativos dentro de la aplicación?</td></tr>
+  <tr><td><strong>Belief</strong></td><td>Los ganaderos tienen limitado acceso a capacitación técnica. El contenido educativo integrado fortalecerá la retención y el valor percibido.</td></tr>
+  <tr><td><strong>Hypothesis</strong></td><td>El módulo educativo incrementará en un 20% el uso recurrente de la aplicación y mejorará en un 35% la percepción de valor según encuestas de satisfacción.</td></tr>
+  <tr><td><strong>Null Hypothesis</strong></td><td>El contenido educativo no aumentará significativamente el uso recurrente ni la percepción de valor de la aplicación.</td></tr>
+</table><br>
+
+**Hipótesis 8: Automatización de Tareas**
+
+<table border="1" cellpadding="8" cellspacing="0">
+  <tr><th colspan="2">Pregunta 8</th></tr>
+  <tr><td><strong>Question</strong></td><td>¿Reducirá la carga administrativa integrar un sistema de recordatorios y tareas automáticas?</td></tr>
+  <tr><td><strong>Belief</strong></td><td>Las tareas repetitivas consumen tiempo y son propensas a errores. La automatización liberará tiempo y mejorará la precisión operativa.</td></tr>
+  <tr><td><strong>Hypothesis</strong></td><td>La automatización de tareas reducirá en un 30% el tiempo dedicado a actividades administrativas rutinarias y disminuirá en un 25% los errores de registro según mediciones de productividad.</td></tr>
+  <tr><td><strong>Null Hypothesis</strong></td><td>La automatización no reducirá significativamente el tiempo administrativo ni los errores de registro.</td></tr>
+</table><br>
+
+**Hipótesis 9: Soporte Técnico Accesible**
+
+<table border="1" cellpadding="8" cellspacing="0">
+  <tr><th colspan="2">Pregunta 9</th></tr>
+  <tr><td><strong>Question</strong></td><td>¿Aumentará la confianza y el uso de la app si ofrece un soporte técnico accesible y rápido?</td></tr>
+  <tr><td><strong>Belief</strong></td><td>Los usuarios rurales con poca experiencia tecnológica abandonan plataformas por falta de asistencia. El soporte accesible es crítico para la retención.</td></tr>
+  <tr><td><strong>Hypothesis</strong></td><td>El soporte técnico accesible mejorará en un 40% la retención de usuarios nuevos y reducirá en un 20% los abandonos durante el primer mes según análisis de churn.</td></tr>
+  <tr><td><strong>Null Hypothesis</strong></td><td>El soporte técnico no tendrá un impacto significativo en la retención de usuarios ni en la reducción de abandonos.</td></tr>
+</table><br>
+
 #### 8.2.2. Domain Business Metrics
+
+Las métricas de negocio para VacApp están diseñadas para cuantificar el impacto de las funcionalidades experimentales en la productividad ganadera, eficiencia operativa y adopción tecnológica. Estas métricas permitirán validar las hipótesis planteadas mediante datos concretos y medibles, proporcionando evidencia cuantitativa del valor generado por la plataforma en el sector ganadero peruano.
+
+**Tabla Principal de KPIs de Negocio**
+
+<table border="1" cellpadding="8" cellspacing="0">
+  <thead>
+    <tr>
+      <th><strong>Métrica</strong></th>
+      <th><strong>Definición</strong></th>
+      <th><strong>Método de Medición</strong></th>
+      <th><strong>Frecuencia</strong></th>
+      <th><strong>Baseline</strong></th>
+      <th><strong>Objetivo</strong></th>
+      <th><strong>Hipótesis Relacionada</strong></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>Tiempo Administrativo</strong></td>
+      <td>Minutos promedio diarios dedicados a tareas administrativas de gestión ganadera</td>
+      <td>Registro de tiempo en app + encuestas de uso</td>
+      <td>Semanal</td>
+      <td>120 minutos/día</td>
+      <td>Reducción 40% (72 min/día)</td>
+      <td>H1</td>
+    </tr>
+    <tr>
+      <td><strong>Precisión de Registros</strong></td>
+      <td>Porcentaje de registros sin errores en comparación con métodos manuales</td>
+      <td>Auditoría cruzada entre app digital vs registros tradicionales</td>
+      <td>Mensual</td>
+      <td>75% precisión</td>
+      <td>Mejora 30% (97.5% precisión)</td>
+      <td>H1</td>
+    </tr>
+    <tr>
+      <td><strong>Cumplimiento Vacunación</strong></td>
+      <td>Porcentaje de vacunas aplicadas en fecha programada</td>
+      <td>Seguimiento de alertas vs confirmación de aplicación</td>
+      <td>Semanal</td>
+      <td>68% cumplimiento</td>
+      <td>Mejora 25% (85% cumplimiento)</td>
+      <td>H2</td>
+    </tr>
+    <tr>
+      <td><strong>Omisiones Sanitarias</strong></td>
+      <td>Número de controles sanitarios omitidos por semana</td>
+      <td>Conteo de alertas no atendidas vs controles requeridos</td>
+      <td>Semanal</td>
+      <td>4.2 omisiones/semana</td>
+      <td>Reducción 30% (2.9 omisiones/semana)</td>
+      <td>H2</td>
+    </tr>
+    <tr>
+      <td><strong>Uso en Zonas Rurales</strong></td>
+      <td>Frecuencia de acceso semanal por usuarios en zonas con conectividad limitada</td>
+      <td>Analytics Firebase + geolocalización de accesos</td>
+      <td>Semanal</td>
+      <td>2.1 accesos/semana</td>
+      <td>Incremento 50% (3.15 accesos/semana)</td>
+      <td>H3</td>
+    </tr>
+    <tr>
+      <td><strong>Quejas por Conectividad</strong></td>
+      <td>Número de reportes de problemas de conexión por semana</td>
+      <td>Registro de tickets de soporte + encuestas de satisfacción</td>
+      <td>Semanal</td>
+      <td>8.5 quejas/semana</td>
+      <td>Reducción 40% (5.1 quejas/semana)</td>
+      <td>H3</td>
+    </tr>
+    <tr>
+      <td><strong>Confianza en Seguridad</strong></td>
+      <td>Percepción de seguridad de datos (escala 1-5)</td>
+      <td>Encuestas post-implementación sobre privacidad de datos</td>
+      <td>Mensual</td>
+      <td>3.2/5.0 puntos</td>
+      <td>Mejora 80% (5.76/5.0 puntos)</td>
+      <td>H4</td>
+    </tr>
+    <tr>
+      <td><strong>Retención de Usuarios</strong></td>
+      <td>Porcentaje de usuarios activos después de 30 días</td>
+      <td>Análisis de cohorts en Firebase Analytics</td>
+      <td>Mensual</td>
+      <td>62% retención</td>
+      <td>Mejora 25% (77.5% retención)</td>
+      <td>H4</td>
+    </tr>
+    <tr>
+      <td><strong>Decisiones Basadas en Datos</strong></td>
+      <td>Porcentaje de decisiones tomadas utilizando reportes visuales</td>
+      <td>Seguimiento de accesos a reportes vs acciones de gestión</td>
+      <td>Semanal</td>
+      <td>35% decisiones</td>
+      <td>Incremento 30% (45.5% decisiones)</td>
+      <td>H5</td>
+    </tr>
+    <tr>
+      <td><strong>Comprensión Operativa</strong></td>
+      <td>Tiempo promedio para interpretar estado completo del ganado</td>
+      <td>Medición de tiempo en dashboard vs comprensión validada</td>
+      <td>Semanal</td>
+      <td>18 minutos</td>
+      <td>Mejora 70% (5.4 minutos)</td>
+      <td>H5</td>
+    </tr>
+    <tr>
+      <td><strong>Satisfacción del Usuario</strong></td>
+      <td>Nivel general de satisfacción con la plataforma (escala 1-5)</td>
+      <td>Encuestas NPS + CSAT por segmento de usuario</td>
+      <td>Mensual</td>
+      <td>3.8/5.0 puntos</td>
+      <td>Mejora 25% (4.75/5.0 puntos)</td>
+      <td>H6</td>
+    </tr>
+    <tr>
+      <td><strong>Tasa de Abandono</strong></td>
+      <td>Porcentaje de usuarios que abandonan durante el primer mes</td>
+      <td>Análisis de churn por cohorts en Firebase Analytics</td>
+      <td>Mensual</td>
+      <td>38% abandono</td>
+      <td>Reducción 15% (32.3% abandono)</td>
+      <td>H6</td>
+    </tr>
+    <tr>
+      <td><strong>Uso Recurrente</strong></td>
+      <td>Frecuencia de acceso semanal al módulo educativo</td>
+      <td>Analytics Firebase de accesos a sección educativa</td>
+      <td>Semanal</td>
+      <td>1.2 accesos/semana</td>
+      <td>Incremento 20% (1.44 accesos/semana)</td>
+      <td>H7</td>
+    </tr>
+    <tr>
+      <td><strong>Percepción de Valor</strong></td>
+      <td>Valor percibido del contenido educativo (escala 1-5)</td>
+      <td>Encuestas específicas sobre módulo educativo</td>
+      <td>Mensual</td>
+      <td>3.5/5.0 puntos</td>
+      <td>Mejora 35% (4.73/5.0 puntos)</td>
+      <td>H7</td>
+    </tr>
+    <tr>
+      <td><strong>Tiempo en Tareas Administrativas</strong></td>
+      <td>Horas semanales dedicadas a tareas administrativas rutinarias</td>
+      <td>Registro automático de tiempo en funcionalidades administrativas</td>
+      <td>Semanal</td>
+      <td>14.2 horas/semana</td>
+      <td>Reducción 30% (9.94 horas/semana)</td>
+      <td>H8</td>
+    </tr>
+    <tr>
+      <td><strong>Errores de Registro</strong></td>
+      <td>Porcentaje de registros con errores corregidos automáticamente</td>
+      <td>Validación cruzada de datos vs detección de inconsistencias</td>
+      <td>Semanal</td>
+      <td>22% errores</td>
+      <td>Reducción 25% (16.5% errores)</td>
+      <td>H8</td>
+    </tr>
+    <tr>
+      <td><strong>Retención Nuevos Usuarios</strong></td>
+      <td>Porcentaje de nuevos usuarios que continúan activos después de 30 días</td>
+      <td>Análisis de cohorts específicos para usuarios nuevos</td>
+      <td>Mensual</td>
+      <td>45% retención</td>
+      <td>Mejora 40% (63% retención)</td>
+      <td>H9</td>
+    </tr>
+    <tr>
+      <td><strong>Abandonos Primer Mes</strong></td>
+      <td>Porcentaje de usuarios que abandonan en el primer mes por falta de soporte</td>
+      <td>Análisis de tickets de soporte vs tasa de churn</td>
+      <td>Mensual</td>
+      <td>28% abandonos</td>
+      <td>Reducción 20% (22.4% abandonos)</td>
+      <td>H9</td>
+    </tr>
+  </tbody>
+</table>
+
+**Métricas por Categoría**
+
+**Productividad Ganadera**
+- Producción por animal: Medición de kg de carne o litros de leche por animal
+- Tasa de conversión alimenticia: Eficiencia en conversión de alimento a producto
+- Índice de mortalidad: Reducción en tasas de mortalidad mediante mejor seguimiento
+- Tiempo hasta mercado: Optimización del tiempo desde cría hasta comercialización
+
+**Eficiencia Operativa**
+- Tiempo por tarea administrativa: Minutos requeridos por cada gestión
+- Precisión de datos: Reducción de errores en registros digitales vs manuales
+- Costos operativos: Ahorro en costos administrativos y de gestión
+- Automatización completada: Porcentaje de tareas rutinarias automatizadas
+
+**Salud Animal y Bienestar**
+- Cobertura vacunación completa: Porcentaje de animales con esquema completo
+- Detección temprana: Tiempo de detección de problemas de salud
+- Incidencia de enfermedades: Reducción en casos de enfermedades prevenibles
+- Bienestar animal: Indicadores objetivos de bienestar medidos digitalmente
+
+**Adopción Tecnológica**
+- Usuarios activos: DAU, WAU, MAU (Daily/Weekly/Monthly Active Users)
+- Penetración rural: Porcentaje de adopción en zonas con limitaciones técnicas
+- Frecuencia de uso: Número de sesiones por usuario por semana
+- Profundidad de uso: Número de funcionalidades utilizadas por usuario
+
+**Satisfacción y Valor Percibido**
+- Net Promoter Score (NPS): Likelihood de recomendar la plataforma
+- Customer Satisfaction (CSAT): Satisfacción general con la experiencia
+- Valor percibido: Percepción del impacto positivo en la operación
+- Lealtad del cliente: Tasa de renovación y uso continuado
+
+**Impacto Económico**
+- Retorno de inversión (ROI): Relación entre costos y beneficios generados
+- Reducción de pérdidas: Disminución en pérdidas por mala gestión
+- Incremento de ingresos: Mejora en ingresos por mayor eficiencia
+- Ahorro de costos: Reducción en costos operativos directos
+
+**Metodología de Medición**
+
+Las métricas serán recolectadas mediante múltiples fuentes para garantizar confiabilidad y validez:
+
+- **Analytics Automáticos**: Firebase Analytics para métricas de uso y retención
+- **Encuestas Periódicas**: Google Forms para satisfacción y percepción de valor
+- **Registros del Sistema**: Logs automatizados de tiempo y errores
+- **Validación Cruzada**: Comparación con registros tradicionales cuando sea posible
+- **Entrevistas Cualitativas**: Feedback detallado para complementar datos cuantitativos
+
+La medición será segmentada por tipo de usuario (pequeño productor vs empresa) y por nivel de adopción tecnológica para permitir análisis comparativos y personalización de estrategias.
 
 #### 8.2.3. Measures
 
+Las medidas de evaluación para VacApp están diseñadas para cuantificar con precisión el impacto de cada funcionalidad experimental en el contexto ganadero peruano. Cada medida se ha seleccionado por su capacidad para proporcionar datos objetivos, medibles y relevantes que permitan validar las hipótesis planteadas con rigor científico y relevancia práctica.
+
+**Hipótesis 1: Digitalización de Registros Ganaderos**
+
+**Medida Principal: Tiempo de Gestión Administrativa**
+- **Descripción**: Tiempo promedio en minutos que los ganaderos dedican diariamente a tareas administrativas de registro y seguimiento del ganado
+- **Unidades**: Minutos por día
+- **Método de Recolección**: Registro automático de tiempo en la aplicación VacApp, complementado con mediciones manuales mediante cronómetro en campo
+- **Instrumentos**: Timer integrado en la app + cronómetros digitales + diarios de campo
+- **Frecuencia**: Medición diaria, reporte semanal
+- **Validación**: Comparación cruzada con registros manuales tradicionales y observación directa
+
+**Medida Secundaria: Precisión de Registros**
+- **Descripción**: Porcentaje de registros sin errores al comparar con método manual tradicional
+- **Unidades**: Porcentaje (%)
+- **Método de Recolección**: Auditoría cruzada entre registros digitales de VacApp y registros físicos tradicionales
+- **Instrumentos**: Sistema de validación de datos + hojas de auditoría estandarizadas
+- **Frecuencia**: Auditoría mensual con muestra aleatoria del 20% de registros
+- **Validación**: Triple verificación por personal independiente
+
+**Hipótesis 2: Alertas y Recordatorios Automáticos**
+
+**Medida Principal: Tasa de Cumplimiento de Vacunación**
+- **Descripción**: Porcentaje de vacunas aplicadas en la fecha programada mediante el sistema de alertas
+- **Unidades**: Porcentaje (%)
+- **Método de Recolección**: Seguimiento automático de alertas emitidas vs confirmaciones de aplicación por parte del usuario
+- **Instrumentos**: Sistema de notificaciones push + confirmación manual en app + registro fotográfico de aplicación
+- **Frecuencia**: Medición continua, consolidación semanal
+- **Validación**: Verificación física aleatoria del 10% de las aplicaciones reportadas
+
+**Medida Secundaria: Tiempo de Respuesta a Alertas**
+- **Descripción**: Tiempo promedio entre la emisión de una alerta y la acción correspondiente del usuario
+- **Unidades**: Minutos
+- **Método de Recolección**: Registro automático de timestamps en el sistema de alertas
+- **Instrumentos**: Sistema de tracking de notificaciones + analítica de respuesta
+- **Frecuencia**: Análisis continuo con reportes diarios
+- **Validación**: Correlación con registros de actividad del usuario
+
+**Hipótesis 3: Modo Offline para Zonas Rurales**
+
+**Medida Principal: Frecuencia de Uso en Zonas Rurales**
+- **Descripción**: Número promedio de accesos semanales a la aplicación por usuarios en zonas con conectividad limitada
+- **Unidades**: Accesos por usuario por semana
+- **Método de Recolección**: Geolocalización de accesos mediante Firebase Analytics combinada con clasificación de zonas por nivel de conectividad
+- **Instrumentos**: Firebase Analytics + sistema de geolocalización + mapa de cobertura de redes
+- **Frecuencia**: Medición continua, análisis semanal
+- **Validación**: Verificación de ubicación mediante datos de operadoras móviles
+
+**Medida Secundaria: Tasa de Sincronización Exitosa**
+- **Descripción**: Porcentaje de datos registrados offline que se sincronizan correctamente al restaurar la conexión
+- **Unidades**: Porcentaje (%)
+- **Método de Recolección**: Conteo automático de registros pendientes vs sincronizados exitosamente
+- **Instrumentos**: Sistema de sincronización + logs de conexión + dashboard de monitoreo
+- **Frecuencia**: Monitoreo continuo con alertas de fallas
+- **Validación**: Auditoría aleatoria de datos sincronizados
+
+**Hipótesis 4: Seguridad y Privacidad de Datos**
+
+**Medida Principal: Percepción de Seguridad**
+- **Descripción**: Nivel de confianza percibida por los usuarios respecto a la seguridad de sus datos ganaderos
+- **Unidades**: Escala Likert de 1 a 5 puntos
+- **Método de Recolección**: Encuestas estructuradas aplicadas después de 30 días de uso continuo
+- **Instrumentos**: Cuestionario electrónico + entrevistas de profundidad con muestra representativa
+- **Frecuencia**: Medición mensual con cohorts rotativos
+- **Validación**: Triangulación con datos de comportamiento real (frecuencia de uso)
+
+**Medida Secundaria: Tasa de Adopción por Seguridad**
+- **Descripción**: Porcentaje de nuevos usuarios que mencionan la seguridad como factor decisivo de adopción
+- **Unidades**: Porcentaje (%)
+- **Método de Recolección**: Encuestas de onboarding + análisis de palabras clave en reseñas y feedback
+- **Instrumentos**: Formulario de bienvenida + análisis de sentimientos + entrevistas iniciales
+- **Frecuencia**: Medición continua con análisis mensual
+- **Validación**: Correlación con métricas de retención
+
+**Hipótesis 5: Reportes Visuales de Salud y Productividad**
+
+**Medida Principal: Tiempo de Comprensión Operativa**
+- **Descripción**: Tiempo promedio que requiere un usuario para comprender el estado completo de su ganado mediante dashboards visuales
+- **Unidades**: Minutos
+- **Método de Recolección**: Medición automática de tiempo de permanencia en dashboard + validación de comprensión mediante preguntas específicas
+- **Instrumentos**: Timer de dashboard + cuestionario de comprensión + eye-tracking opcional
+- **Frecuencia**: Medición por sesión con análisis semanal
+- **Validación**: Pruebas de comprensión estandarizadas con usuarios seleccionados
+
+**Medida Secundaria: Tasa de Decisiones Basadas en Datos**
+- **Descripción**: Porcentaje de acciones de gestión que se realizan inmediatamente después de consultar reportes visuales
+- **Unidades**: Porcentaje (%)
+- **Método de Recolección**: Correlación entre accesos a reportes y acciones de gestión subsiguientes
+- **Instrumentos**: Analytics de comportamiento + logs de acciones + mapas de calor de interacción
+- **Frecuencia**: Análisis continuo con reportes semanales
+- **Validación**: Entrevistas de seguimiento sobre decisiones tomadas
+
+**Hipótesis 6: Interfaz Adaptable por Tipo de Usuario**
+
+**Medida Principal: Satisfacción Segmentada por Perfil**
+- **Descripción**: Nivel de satisfacción general diferenciado por tipo de usuario (pequeño productor vs empresa)
+- **Unidades**: Escala CSAT de 1 a 5 puntos
+- **Método de Recolección**: Encuestas de satisfacción segmentadas automáticamente según tipo de usuario registrado
+- **Instrumentos**: Sistema de encuestas integrado + segmentación automática + análisis comparativo
+- **Frecuencia**: Medición quincenal con reportes de tendencias
+- **Validación**: Comparación con métricas de uso y retención por segmento
+
+**Medida Secundaria: Profundidad de Uso por Personalización**
+- **Descripción**: Número promedio de funcionalidades utilizadas por usuario según su perfil personalizado
+- **Unidades**: Funcionalidades por usuario
+- **Método de Recolección**: Tracking de uso de características por tipo de perfil configurado
+- **Instrumentos**: Analytics de funciones + mapas de usuario + perfiles de comportamiento
+- **Frecuencia**: Medición continua con análisis mensual
+- **Validación**: Correlación con configuraciones de personalización
+
+**Hipótesis 7: Módulo Educativo Integrado**
+
+**Medida Principal: Frecuencia de Acceso Educativo**
+- **Descripción**: Número promedio de sesiones semanales al módulo de aprendizaje por usuario activo
+- **Unidades**: Sesiones por usuario por semana
+- **Método de Recolección**: Registro automático de accesos a sección educativa con métricas de profundidad
+- **Instrumentos**: Firebase Analytics + tracking de contenido + análisis de engagement
+- **Frecuencia**: Medición continua con reportes semanales
+- **Validación**: Encuestas sobre aplicabilidad de contenidos aprendidos
+
+**Medida Secundaria: Tiempo de Permanencia Educativa**
+- **Descripción**: Tiempo promedio que los usuarios dedican a consumir contenido educativo por sesión
+- **Unidades**: Minutos por sesión
+- **Método de Recolección**: Medición automática de tiempo de permanencia en contenidos educativos
+- **Instrumentos**: Analytics de contenido + heatmaps de interacción + análisis de completion rate
+- **Frecuencia**: Análisis continuo con segmentación por tipo de contenido
+- **Validación**: Entrevistas sobre impacto del aprendizaje en prácticas ganaderas
+
+**Hipótesis 8: Automatización de Tareas y Recordatorios**
+
+**Medida Principal: Reducción de Tiempo Administrativo**
+- **Descripción**: Reducción porcentual en el tiempo dedicado a tareas administrativas rutinarias
+- **Unidades**: Porcentaje (%) y horas absolutas
+- **Método de Recolección**: Comparación before/after mediante registro automático de tiempo en tareas automatizadas vs manuales
+- **Instrumentos**: Sistema de medición de tiempo + logs de automatización + diarios comparativos
+- **Frecuencia**: Medición continua con consolidación mensual
+- **Validación**: Observación directa y entrevistas de verificación
+
+**Medida Secundaria: Tasa de Tareas Completadas Automáticamente**
+- **Descripción**: Porcentaje de tareas programadas que se ejecutan y completan sin intervención manual
+- **Unidades**: Porcentaje (%)
+- **Método de Recolección**: Conteo automático de tareas programadas vs completadas exitosamente
+- **Instrumentos**: Scheduler de tareas + sistema de monitoreo + dashboard de automatización
+- **Frecuencia**: Monitoreo continuo con alertas de fallas
+- **Validación**: Auditoría aleatoria de resultados de automatización
+
+**Hipótesis 9: Soporte Técnico Accesible**
+
+**Medida Principal: Tiempo de Primera Respuesta**
+- **Descripción**: Tiempo promedio entre la solicitud de soporte y la primera respuesta efectiva
+- **Unidades**: Minutos para solicitudes críticas, horas para generales
+- **Método de Recolección**: Registro automático de timestamps en sistema de tickets de soporte
+- **Instrumentos**: Sistema de gestión de tickets + SLAs definidos + dashboard de métricas de soporte
+- **Frecuencia**: Monitoreo continuo con reportes diarios
+- **Validación**: Encuestas de satisfacción post-soporte
+
+**Medida Secundaria: Tasa de Resolución en Primer Contacto**
+- **Descripción**: Porcentaje de casos de soporte resueltos sin necesidad de seguimiento adicional
+- **Unidades**: Porcentaje (%)
+- **Método de Recolección**: Clasificación automática de tickets según número de interacciones requeridas
+- **Instrumentos**: Sistema de tickets + análisis de resolución + encuestas post-resolución
+- **Frecuencia**: Análisis continuo con consolidación semanal
+- **Validación**: Verificación con usuarios sobre satisfacción de resolución
+
+**Metodología General de Medición**
+
+**Principios de Medición**
+- **Objetividad**: Todas las medidas se basan en datos cuantificables y verificables
+- **Repetibilidad**: Procesos estandarizados que permiten replicación en diferentes períodos
+- **Validez**: Las medidas seleccionadas reflejan constructos reales del contexto ganadero
+- **Sensibilidad**: Capacidad para detectar cambios significativos en las métricas
+
+**Control de Calidad de Datos**
+- **Validación Cruzada**: Múltiples fuentes de datos para cada medida principal
+- **Triangulación**: Combinación de métodos cuantitativos y cualitativos
+- **Consistencia Temporal**: Verificación de tendencias y estacionalidad
+- **Análisis de Outliers**: Identificación y tratamiento de datos anómalos
+
+**Segmentación de Análisis**
+- **Por Tipo de Productor**: Pequeños productores vs empresas ganaderas
+- **Por Región Geográfica**: Costa, sierra, selva con características diferentes
+- **Por Nivel Tecnológico**: Alta, media, baja alfabetización digital
+- **Por Tamaño de Operación**: Número de animales gestionados
+
+**Consideraciones Contextuales**
+- **Estacionalidad Ganadera**: Ajuste de mediciones según ciclos productivos
+- **Factores Climáticos**: Impacto en patrones de uso y medición
+- **Eventos Sanitarios**: Brotes o controles masivos que afectan mediciones
+- **Infraestructura Local**: Disponibilidad de conectividad y dispositivos
+
 #### 8.2.4. Conditions
+
+Las condiciones experimentales establecen los criterios de validación para cada hipótesis mediante la definición clara de resultados esperados tanto en el escenario experimental como en el escenario de control. Estas condiciones permiten determinar de manera objetiva si las funcionalidades implementadas generan el impacto esperado en el contexto ganadero peruano.
+
+<table border="1" cellpadding="8" cellspacing="0">
+  <tr>
+    <th>Question</th>
+    <td>¿Aumentará la productividad de los ganaderos si se digitaliza el registro de salud, alimentación y reproducción del ganado?</td>
+  </tr>
+  <tr>
+    <th>Condición Experimental</th>
+    <td>La digitalización de registros reducirá en un 40% el tiempo promedio dedicado a tareas administrativas diarias, pasando de 120 a 72 minutos por día, y mejorará en un 30% la precisión de los registros comparado con métodos manuales tradicionales.</td>
+  </tr>
+  <tr>
+    <th>Condición de Control</th>
+    <td>No se observará una reducción significativa (mayor al 10%) en el tiempo administrativo ni mejoras sustanciales en la precisión de los registros respecto a los métodos manuales actuales.</td>
+  </tr>
+</table>
+
+<br>
+
+<table border="1" cellpadding="8" cellspacing="0">
+  <tr>
+    <th>Question</th>
+    <td>¿Mejorará la gestión diaria si se implementan alertas y recordatorios automáticos de vacunación y alimentación?</td>
+  </tr>
+  <tr>
+    <th>Condición Experimental</th>
+    <td>Las alertas automáticas reducirán en un 30% las omisiones sanitarias y aumentará en un 25% el cumplimiento de cronogramas de vacunación y alimentación, pasando de un 68% a un 85% de cumplimiento.</td>
+  </tr>
+  <tr>
+    <th>Condición de Control</th>
+    <td>Las alertas automáticas no reducirán significativamente (reducción menor al 5%) las omisiones sanitarias ni mejorarán sustancialmente el cumplimiento de los cronogramas establecidos.</td>
+  </tr>
+</table>
+
+<br>
+
+<table border="1" cellpadding="8" cellspacing="0">
+  <tr>
+    <th>Question</th>
+    <td>¿Aumentará la adopción en zonas rurales si la app permite funcionar sin conexión (modo offline)?</td>
+  </tr>
+  <tr>
+    <th>Condición Experimental</th>
+    <td>El modo offline incrementará en un 50% la frecuencia de uso semanal en zonas rurales, pasando de 2.1 a 3.15 accesos por usuario por semana, y reducirá en un 40% las quejas por problemas de conectividad.</td>
+  </tr>
+  <tr>
+    <th>Condición de Control</th>
+    <td>La funcionalidad offline no aumentará significativamente (incremento menor al 10%) la frecuencia de uso ni reducirá las quejas por problemas de conectividad en zonas rurales.</td>
+  </tr>
+</table>
+
+<br>
+
+<table border="1" cellpadding="8" cellspacing="0">
+  <tr>
+    <th>Question</th>
+    <td>¿Fortalecerá la confianza de los usuarios si la aplicación garantiza la seguridad y privacidad de los datos ganaderos?</td>
+  </tr>
+  <tr>
+    <th>Condición Experimental</th>
+    <td>La implementación de cifrado de datos y autenticación segura aumentará en un 80% la confianza percibida según encuestas, pasando de 3.2 a 5.76 puntos en escala 1-5, y mejorará en un 25% la retención de usuarios.</td>
+  </tr>
+  <tr>
+    <th>Condición de Control</th>
+    <td>Las medidas de seguridad implementadas no tendrán un impacto significativo (mejora menor al 15%) en la confianza percibida ni en la retención de usuarios.</td>
+  </tr>
+</table>
+
+<br>
+
+<table border="1" cellpadding="8" cellspacing="0">
+  <tr>
+    <th>Question</th>
+    <td>¿Facilitará la toma de decisiones incluir reportes visuales con indicadores de salud y producción?</td>
+  </tr>
+  <tr>
+    <th>Condición Experimental</th>
+    <td>Los reportes visuales mejorarán en un 70% la comprensión operativa del estado del ganado, reduciendo el tiempo de interpretación de 18 a 5.4 minutos, y aumentará en un 30% las decisiones basadas en datos.</td>
+  </tr>
+  <tr>
+    <th>Condición de Control</th>
+    <td>Los reportes visuales no mejorarán significativamente (mejora menor al 20%) la comprensión operativa ni aumentarán las decisiones basadas en datos.</td>
+  </tr>
+</table>
+
+<br>
+
+<table border="1" cellpadding="8" cellspacing="0">
+  <tr>
+    <th>Question</th>
+    <td>¿Aumentará la satisfacción del usuario si la interfaz se adapta al tipo de perfil (pequeño productor o empresa)?</td>
+  </tr>
+  <tr>
+    <th>Condición Experimental</th>
+    <td>La interfaz adaptable aumentará en un 25% la satisfacción general del usuario, pasando de 3.8 a 4.75 puntos en escala CSAT 1-5, y reducirá en un 15% la tasa de abandono durante el primer mes de uso.</td>
+  </tr>
+  <tr>
+    <th>Condición de Control</th>
+    <td>La personalización de la interfaz no mejorará significativamente (mejora menor al 10%) la satisfacción general ni reducirá la tasa de abandono de usuarios.</td>
+  </tr>
+</table>
+
+<br>
+
+<table border="1" cellpadding="8" cellspacing="0">
+  <tr>
+    <th>Question</th>
+    <td>¿Fomentará el aprendizaje continuo incluir materiales educativos dentro de la aplicación?</td>
+  </tr>
+  <tr>
+    <th>Condición Experimental</th>
+    <td>El módulo educativo incrementará en un 20% el uso recurrente de la aplicación, pasando de 1.2 a 1.44 accesos semanales al módulo, y mejorará en un 35% la percepción de valor del contenido educativo.</td>
+  </tr>
+  <tr>
+    <th>Condición de Control</th>
+    <td>El contenido educativo no aumentará significativamente (incremento menor al 10%) el uso recurrente ni mejorará la percepción de valor de la aplicación.</td>
+  </tr>
+</table>
+
+<br>
+
+<table border="1" cellpadding="8" cellspacing="0">
+  <tr>
+    <th>Question</th>
+    <td>¿Reducirá la carga administrativa integrar un sistema de recordatorios y tareas automáticas?</td>
+  </tr>
+  <tr>
+    <th>Condición Experimental</th>
+    <td>La automatización de tareas reducirá en un 30% el tiempo dedicado a actividades administrativas rutinarias, pasando de 14.2 a 9.94 horas semanales, y disminuirá en un 25% los errores de registro.</td>
+  </tr>
+  <tr>
+    <th>Condición de Control</th>
+    <td>La automatización no reducirá significativamente (reducción menor al 15%) el tiempo administrativo ni los errores de registro en las tareas rutinarias.</td>
+  </tr>
+</table>
+
+<br>
+
+<table border="1" cellpadding="8" cellspacing="0">
+  <tr>
+    <th>Question</th>
+    <td>¿Aumentará la confianza y el uso de la app si ofrece un soporte técnico accesible y rápido?</td>
+  </tr>
+  <tr>
+    <th>Condición Experimental</th>
+    <td>El soporte técnico accesible mejorará en un 40% la retención de usuarios nuevos, pasando de 45% a 63% de retención después de 30 días, y reducirá en un 20% los abandonos durante el primer mes.</td>
+  </tr>
+  <tr>
+    <th>Condición de Control</th>
+    <td>El soporte técnico no tendrá un impacto significativo (mejora menor al 15%) en la retención de usuarios nuevos ni en la reducción de abandonos durante el primer mes.</td>
+  </tr>
+</table>
+
+**Criterios de Validación Experimental**
+
+**Niveles de Significancia**
+- **Éxito Sobresaliente**: Supera el objetivo establecido en más del 25%
+- **Éxito Esperado**: Cumple entre 100% y 125% del objetivo establecido
+- **Resultado Parcial**: Cumple entre 50% y 99% del objetivo establecido
+- **Resultado Insuficiente**: Cumple menos del 50% del objetivo establecido
+
+**Metodología de Verificación**
+- **Período de Evaluación**: 4 semanas consecutivas por funcionalidad
+- **Tamaño de Muestra**: Mínimo 30 usuarios activos por hipótesis
+- **Intervalo de Confianza**: 95% (p < 0.05)
+- **Método Estadístico**: Prueba t de Student para muestras pareadas
+
+**Control de Variables**
+- **Variables Constantes**: Misma metodología de medición durante todo el experimento
+- **Segmentación Controlada**: Proporciones equilibradas entre pequeños productores y empresas
+- **Factor Temporal**: Mediciones realizadas en períodos de normalidad productiva
+- **Validación Cruzada**: Confirmación de resultados mediante múltiples fuentes de datos
+
+**Criterios de Decisión**
+Una hipótesis se considera validada cuando:
+1. **Condición Experimental**: Se alcanza o supera el umbral establecido en la condición experimental
+2. **Significancia Estadística**: Los resultados son estadísticamente significativos (p < 0.05)
+3. **Consistencia Temporal**: Los resultados se mantienen durante el período de evaluación
+4. **Replicabilidad**: Los resultados pueden replicarse en diferentes segmentos de usuarios
+
+**Procesamiento de Resultados**
+- **Análisis Comparativo**: Comparación directa entre resultados experimentales y de control
+- **Normalización de Datos**: Ajuste por factores estacionales y contextuales
+- **Validación Externa**: Verificación con estándares del sector ganadero
+- **Reporte de Hallazgos**: Documentación completa de resultados y conclusiones
 
 #### 8.2.5. Scale Calculations and Decisions
 
+Los cálculos de escala establecen una metodología cuantitativa para evaluar el logro de cada hipótesis mediante la comparación entre resultados obtenidos y objetivos establecidos. Esta escala permite clasificar el desempeño en cuatro categorías claras que facilitan la toma de decisiones estratégicas sobre el futuro de cada funcionalidad experimental.
+
+<table border="1" cellpadding="8" cellspacing="0">
+  <thead>
+    <tr>
+      <th rowspan="2">Scale Calculation</th>
+      <th rowspan="2">Decision</th>
+      <th colspan="4">Factor</th>
+    </tr>
+    <tr>
+      <th>Desfavorable</th>
+      <th>Aceptable</th>
+      <th>Ideal</th>
+      <th>Excelente</th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <tr>
+      <td>Creemos que digitalizar registros de salud, alimentación y reproducción del ganado reducirá en un 40% el tiempo administrativo y mejorará en un 30% la precisión de los registros comparado con métodos manuales tradicionales.</td>
+      <td>Desarrollar un módulo centralizado que permita registrar y consultar datos de salud, alimentación y reproducción del ganado desde la app web o móvil.</td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Creemos que las alertas automáticas sobre vacunas, alimentación y controles sanitarios reducirán en un 30% las omisiones sanitarias y aumentará en un 25% el cumplimiento de cronogramas.</td>
+      <td>Incorporar notificaciones automáticas configurables que alerten sobre próximas vacunas, controles sanitarios y horarios de alimentación.</td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Creemos que permitir el funcionamiento offline incrementará en un 50% la frecuencia de uso en zonas rurales y reducirá en un 40% las quejas por problemas de conectividad.</td>
+      <td>Desarrollar una funcionalidad offline que permita el registro y consulta local de datos, sincronizándose automáticamente cuando haya conexión.</td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Creemos que implementar cifrado de datos y autenticación segura aumentará en un 80% la confianza percibida y mejorará en un 25% la retención de usuarios.</td>
+      <td>Implementar cifrado de datos, autenticación segura y políticas de privacidad transparentes dentro de la app.</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+    </tr>
+    <tr>
+      <td>Creemos que desarrollar paneles con gráficos e indicadores sobre producción, salud y eficiencia del ganado mejorará en un 70% la comprensión operativa y aumentará en un 30% las decisiones basadas en datos.</td>
+      <td>Diseñar paneles con gráficos e indicadores clave sobre producción, salud y eficiencia del ganado.</td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Creemos que diseñar perfiles personalizables con módulos y vistas específicas según el tipo de usuario registrado aumentará en un 25% la satisfacción general y reducirá en un 15% la tasa de abandono.</td>
+      <td>Diseñar perfiles personalizables con módulos y vistas específicas según el tipo de usuario registrado.</td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Creemos que integrar una sección educativa con artículos, videos y consejos sobre salud animal, alimentación y sostenibilidad incrementará en un 20% el uso recurrente y mejorará en un 35% la percepción de valor.</td>
+      <td>Integrar una sección educativa con artículos, videos y consejos sobre salud animal, alimentación y sostenibilidad.</td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Creemos que añadir un módulo de tareas programadas con recordatorios automáticos y confirmación de cumplimiento reducirá en un 30% el tiempo dedicado a actividades rutinarias y disminuirá en un 25% los errores de registro.</td>
+      <td>Añadir un módulo de tareas programadas con recordatorios automáticos y confirmación de cumplimiento.</td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+    </tr>
+  </tbody>
+</table>
+
+**Criterios de Clasificación de Factores**
+
+**Factor Desfavorable** (Logro < 50% del objetivo)
+- La funcionalidad no logra el mínimo impacto esperado
+- Resultados insuficientes que requieren reevaluación completa
+- Justifica abandonar o rediseñar completamente la hipótesis
+
+**Factor Aceptable** (Logro 50-79% del objetivo)
+- La funcionalidad cumple parcialmente con las expectativas
+- Resultados moderados pero significativos
+- Requiere optimización pero muestra potencial de mejora
+
+**Factor Ideal** (Logro 80-124% del objetivo)
+- La funcionalidad cumple satisfactoriamente con las expectativas
+- Resultados positivos y medibles que validan la hipótesis
+- Justifica continuar implementación y expansión controlada
+
+**Factor Excelente** (Logro > 125% del objetivo)
+- La funcionalidad supera significativamente las expectativas
+- Resultados excepcionales que pueden transformar el negocio
+- Justifica inversión adicional y expansión acelerada
+
+**Metodología de Cálculo**
+
+**Fórmula General**
+Porcentaje de Logro = ((Resultado Obtenido - Baseline) / (Objetivo - Baseline)) × 100
+
+**Ejemplo de Cálculo - Hipótesis 1 (Digitalización)**
+- Baseline: 120 minutos/día
+- Objetivo: 72 minutos/día (reducción del 40%)
+- Si resultado obtenido: 80 minutos/día
+- Porcentaje de logro = ((120-80) / (120-72)) × 100 = (40/48) × 100 = 83.3%
+- Clasificación: Factor Ideal
+
+**Ejemplo de Cálculo - Hipótesis 4 (Seguridad)**
+- Baseline: 3.2 puntos confianza
+- Objetivo: 5.76 puntos (aumento del 80%)
+- Si resultado obtenido: 6.0 puntos
+- Porcentaje de logro = ((6.0-3.2) / (5.76-3.2)) × 100 = (2.8/2.56) × 100 = 109.4%
+- Clasificación: Factor Ideal
+
+**Ejemplo de Cálculo - Hipótesis 7 (Educación)**
+- Baseline: 1.2 accesos/semana módulo educativo
+- Objetivo: 1.44 accesos/semana (aumento del 20%)
+- Si resultado obtenido: 2.0 accesos/semana
+- Porcentaje de logro = ((2.0-1.2) / (1.44-1.2)) × 100 = (0.8/0.24) × 100 = 333.3%
+- Clasificación: Factor Excelente
+
+**Criterios Específicos por Hipótesis**
+
+**Hipótesis 1 - Digitalización**
+- Desfavorable: <20% reducción tiempo (>96 min/día)
+- Aceptable: 20-31% reducción tiempo (82-96 min/día)
+- Ideal: 32-50% reducción tiempo (60-81 min/día)
+- Excelente: >50% reducción tiempo (<60 min/día)
+
+**Hipótesis 2 - Alertas**
+- Desfavorable: <15% reducción omisiones (>3.6/semana)
+- Aceptable: 15-23% reducción omisiones (2.9-3.6/semana)
+- Ideal: 24-37% reducción omisiones (2.6-2.9/semana)
+- Excelente: >37% reducción omisiones (<2.6/semana)
+
+**Hipótesis 3 - Offline**
+- Desfavorable: <25% aumento uso rural (<2.6 accesos/semana)
+- Aceptable: 25-39% aumento uso rural (2.6-2.9 accesos/semana)
+- Ideal: 40-62% aumento uso rural (2.9-3.4 accesos/semana)
+- Excelente: >62% aumento uso rural (>3.4 accesos/semana)
+
+**Hipótesis 4 - Seguridad**
+- Desfavorable: <40% aumento confianza (<4.48 puntos)
+- Aceptable: 40-63% aumento confianza (4.48-5.22 puntos)
+- Ideal: 64-100% aumento confianza (5.23-6.4 puntos)
+- Excelente: >100% aumento confianza (>6.4 puntos)
+
+**Hipótesis 5 - Reportes**
+- Desfavorable: <35% mejora comprensión (>11.7 minutos)
+- Aceptable: 35-55% mejora comprensión (8.1-11.7 minutos)
+- Ideal: 56-87% mejora comprensión (2.3-8.1 minutos)
+- Excelente: >87% mejora comprensión (<2.3 minutos)
+
+**Hipótesis 6 - Personalización**
+- Desfavorable: <12% aumento satisfacción (<4.26 puntos)
+- Aceptable: 12-19% aumento satisfacción (4.26-4.52 puntos)
+- Ideal: 20-31% aumento satisfacción (4.53-4.98 puntos)
+- Excelente: >31% aumento satisfacción (>4.98 puntos)
+
+**Hipótesis 7 - Educación**
+- Desfavorable: <10% aumento uso (<1.32 accesos/semana)
+- Aceptable: 10-15% aumento uso (1.32-1.38 accesos/semana)
+- Ideal: 16-25% aumento uso (1.39-1.50 accesos/semana)
+- Excelente: >25% aumento uso (>1.50 accesos/semana)
+
+**Hipótesis 8 - Automatización**
+- Desfavorable: <15% reducción tiempo (>12.07 horas/semana)
+- Aceptable: 15-23% reducción tiempo (10.94-12.07 horas/semana)
+- Ideal: 24-37% reducción tiempo (8.95-10.93 horas/semana)
+- Excelente: >37% reducción tiempo (<8.95 horas/semana)
+
+**Hipótesis 9 - Soporte**
+- Desfavorable: <20% mejora retención (<54% retención)
+- Aceptable: 20-31% mejora retención (54-59% retención)
+- Ideal: 32-50% mejora retención (59-68% retención)
+- Excelente: >50% mejora retención (>68% retención)
+
+**Proceso de Toma de Decisiones**
+
+**Según Factor Obtenido**
+
+**Factor Desfavorable**
+- **Análisis Inmediato**: Investigación de causas raíz del bajo desempeño
+- **Decisiones**: Considerar rediseño funcional, cambio de enfoque o abandono de hipótesis
+- **Recursos**: Reasignación de recursos a hipótesis con mayor potencial
+- **Timeline**: Evaluación extensiva antes de próximos pasos
+
+**Factor Aceptable**
+- **Optimización**: Identificación de mejoras incrementales
+- **Ajustes**: Modificación de implementación actual para mejorar desempeño
+- **Monitoreo**: Intensificación de seguimiento y recolección de datos
+- **Evaluación**: Revisión periódica de progreso hacia factores superiores
+
+**Factor Ideal**
+- **Consolidación**: Estabilización de implementación actual
+- **Documentación**: Registro de mejores prácticas y lecciones aprendidas
+- **Expansión**: Escalada controlada a más usuarios y regiones
+- **Optimización**: Mejora continua de eficiencia y costos
+
+**Factor Excelente**
+- **Aceleración**: Expansión rápida y agresiva de la funcionalidad
+- **Priorización**: Asignación de recursos adicionales y soporte prioritario
+- **Replicación**: Identificación de patrones de éxito para aplicar en otras hipótesis
+- **Caso de Éxito**: Desarrollo de materiales de marketing y comunicación
+
+**Reporte y Seguimiento**
+
+**Frecuencia de Evaluación**
+- **Diaria**: Recolección automática de datos primarios
+- **Semanal**: Cálculo de factores y análisis de tendencias
+- **Mensual**: Reportes consolidados y decisiones estratégicas
+- **Trimestral**: Evaluación general del portafolio de hipótesis
+
+**Indicadores de Monitoreo**
+- **Tasa de Conversión**: Porcentaje de usuarios que adoptan funcionalidad
+- **Profundidad de Uso**: Frecuencia e intensidad de utilización
+- **Satisfacción del Usuario**: Percepción de valor y utilidad
+- **Impacto en Negocio**: Métricas de productividad y eficiencia
+
 #### 8.2.6. Methods Selection
+
+La selección de herramientas y métodos es crítica para el éxito del experimento en el contexto ganadero peruano. Se han evaluado múltiples alternativas considerando factores específicos del sector como la diversidad de alfabetización digital, limitaciones de conectividad en zonas rurales, y la necesidad de interfaces accesibles para usuarios con poca experiencia tecnológica. La selección final prioriza herramientas que ofrezcan alto valor, costos accesibles y excelente adaptación al contexto.
+
+<table border="1" cellpadding="8" cellspacing="0">
+  <thead>
+    <tr>
+      <th>Herramienta</th>
+      <th>Firebase Analytics</th>
+      <th>Google Forms</th>
+      <th>Power BI</th>
+      <th>Zendesk</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>Precio</th>
+      <td>Plan gratuito con generosos límites de uso, ideal para pequeños productores con presupuestos limitados. Escalable a planes pagados según crecimiento.</td>
+      <td>Completamente gratuito para uso personal y educativo. Sin límites de encuestas ni respuestas, perfecto para recolección masiva de feedback.</td>
+      <td>Gratis para usuarios individuales y equipos pequeños. Planes empresariales disponibles con capacidades avanzadas de colaboración.</td>
+      <td>Plan pagado desde $25/mes con capacidad ilimitada para usuarios. Inversión justificada por el soporte técnico especializado.</td>
+    </tr>
+    <tr>
+      <th>Capacidad de Análisis</th>
+      <td>Análisis completo de comportamiento de usuarios en la aplicación móvil y web, con métricas personalizadas para eventos ganaderos específicos. Segmentación por región y tipo de productor.</td>
+      <td>Análisis detallado de respuestas con gráficos automáticos y exportación a Google Sheets para análisis avanzado. Ideal para medir satisfacción y percepción de valor.</td>
+      <td>Análisis avanzado de datos ganaderos con dashboards interactivos. Capacidad de integración con múltiples fuentes de datos y creación de reportes automatizados específicos del sector.</td>
+      <td>Análisis de tickets de soporte con métricas de tiempo de respuesta, satisfacción del cliente y tendencias de problemas. Ideal para identificar patrones en necesidades técnicas de usuarios.</td>
+    </tr>
+    <tr>
+      <th>Sencillez</th>
+      <td>Configuración inicial sencilla con SDK fáciles de implementar. Dashboard intuitivo aunque requiere conocimiento técnico básico para interpretación avanzada de datos.</td>
+      <td>Interfaz muy amigable y visual, ideal para usuarios con baja alfabetización digital. Creación de encuestas intuitiva sin requerimientos técnicos.</td>
+      <td>Curva de aprendizaje moderada. Interfaz potente pero compleja para usuarios principiantes. Requiere capacitación para aprovechar todo su potencial.</td>
+      <td>Interfaz profesional y fácil de usar para equipos de soporte. Configuración sencilla con plantillas y automatización de respuestas.</td>
+    </tr>
+    <tr>
+      <th>Ventajas</th>
+      <td>Excelente integración con ecosistema Google. Monitoreo en tiempo real de uso de funcionalidades experimentales. Optimizado para aplicaciones móviles predominantes en zonas rurales.</td>
+      <td>Perfección para recolección de feedback cualitativo de ganaderos. Integración nativa con Google Sheets facilita análisis colaborativo. Sin costos de licenciamiento.</td>
+      <td>Capacidad superior para crear visualizaciones complejas de datos productivos. Automatización de reportes para stakeholders empresariales. Excelente para análisis de tendencias y patrones.</td>
+      <td>Soporte profesional especializado ideal para usuarios con poca experiencia técnica. Sistema de conocimiento base para auto-ayuda. Integración con múltiples canales de comunicación.</td>
+    </tr>
+  </tbody>
+</table>
+
+<br>
+
+**Herramientas Complementarias Recomendadas**
+
+Para enriquecer el análisis experimental, se recomiendan las siguientes herramientas complementarias que añaden capacidades específicas para el contexto ganadero peruano:
+
+<table border="1" cellpadding="8" cellspacing="0">
+  <thead>
+    <tr>
+      <th>Herramienta</th>
+      <th>Sentry</th>
+      <th>WhatsApp Business API</th>
+      <th>Power Automate</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>Precio</th>
+      <td>Plan gratuito con métricas generosas. Planes pagados desde $26/mes para análisis avanzado y retención extendida de datos.</td>
+      <td>Costo por mensaje con API oficial. Planes empresariales disponibles con herramientas de comunicación masiva.</td>
+      <td>Incluido en suscripción Microsoft 365. Excelente relación costo-beneficio para automatización de procesos.</td>
+    </tr>
+    <tr>
+      <th>Capacidad</th>
+      <td>Monitoreo en tiempo real de errores y performance de la aplicación. Detección automática de problemas críticos que afectan la experiencia del usuario ganadero.</td>
+      <td>Comunicación directa con usuarios a través del canal más popular en Perú. Mensajes automatizados y respuesta rápida a consultas técnicas.</td>
+      <td>Automatización de procesos repetitivos como envío de reportes, notificaciones personalizadas y sincronización de datos entre sistemas.</td>
+    </tr>
+    <tr>
+      <th>Ventajas</th>
+      <td>Detección proactiva de problemas antes de afectar a múltiples usuarios. Integración con GitHub para traceo de errores por deploy.</td>
+      <td>Tasa de apertura superior al 98% en comunicaciones importantes. Canal preferido por ganaderos para consultas técnicas.</td>
+      <td>Reducción significativa de tareas administrativas manuales. Integración nativa con ecosistema Microsoft utilizado por muchas empresas agrícolas.</td>
+    </tr>
+  </tbody>
+</table>
+
+**Criterios de Selección**
+
+**Requisitos Fundamentales**
+Las herramientas seleccionadas deben cumplir con los siguientes requisitos mínimos para ser consideradas adecuadas para el contexto ganadero peruano:
+
+- **Accesibilidad**: Funcionalidad completa en modo offline o con conectividad limitada, fundamental para zonas rurales del Perú.
+- **Costo-Asequible**: Modelos de precios accesibles para pequeños productores con ingresos variables y presupuestos limitados.
+- **Curva de Aprendizaje**: Interfaces intuitivas que no requieran capacitación técnica extensa, considerando la diversa alfabetización digital.
+- **Soporte en Español**: Atención al cliente y documentación completa en español, incluyendo terminología ganadera local.
+- **Integración API**: Capacidad de conectarse con otros sistemas agrícolas o de gestión que los productores ya utilizan.
+
+**Criterios de Evaluación Técnica**
+- **Rendimiento**: Capacidad de procesar volúmenes de datos sin degradación de servicio, incluso con miles de usuarios concurrentes.
+- **Seguridad**: Cumplimiento con regulaciones de protección de datos personales y privacidad de información productiva sensible.
+- **Escalabilidad**: Arquitectura que permita crecimiento ordenado sin requerir reestructuraciones técnicas costosas.
+- **Flexibilidad**: Personalización para adaptarse a diferentes tipos de producción ganadera (vacunos, aves, porcinos, etc.).
+- **Monitoreo**: Herramientas de análisis propias para medir su propio rendimiento y optimización continua.
+
+**Adaptación Cultural**
+Las herramientas seleccionadas deben considerar aspectos culturales específicos del sector ganadero peruano:
+
+- **Formatos Familiares**: Uso de metáforas y terminología que los ganaderos ya comprenden y utilizan en su trabajo diario.
+- **Respeto por Tradiciones**: Herramientas que complementen prácticas existentes sin intentar reemplazarlas completamente.
+- **Disponibilidad Temporal**: Consideración de los ciclos productivos y estacionalidad agrícola en la planificación de uso.
+- **Confianza Digital**: Mecanismos para construir confianza gradual en usuarios escépticos hacia tecnología.
+
+**Proceso de Implementación**
+
+**Fase 1: Configuración Inicial (Mes 1)**
+- Implementación de Firebase Analytics y Google Forms como herramientas base.
+- Configuración de eventos personalizados para seguimiento de hipótesis experimentales.
+- Diseño de encuestas iniciales para medir baseline de satisfacción y percepción.
+- Establecimiento de dashboard básico en Power BI para stakeholders internos.
+
+**Fase 2: Integración Avanzada (Mes 2-3)**
+- Configuración completa de Power BI con todas las fuentes de datos del proyecto.
+- Implementación de Zendesk para soporte técnico especializado.
+- Integración de Sentry para monitoreo proactivo de errores y performance.
+- Configuración de WhatsApp Business API para comunicación directa con usuarios.
+
+**Fase 3: Optimización y Expansión (Mes 4-6)**
+- Personalización de dashboards según tipo de usuario (pequeño productor vs empresa).
+- Implementación de Power Automate para procesos automatizados de reporte.
+- Optimización de todas las herramientas basada en datos de uso real.
+- Capacitación de equipo interno en manejo avanzado de todas las herramientas.
+
+**Criterios de Éxito**
+
+**Métricas de Adopción**
+- **Tasa de Adopción**: >70% de usuarios activos utilizando las herramientas principales dentro de los primeros 3 meses.
+- **Frecuencia de Uso**: Promedio de 5+ sesiones semanales por usuario en todas las plataformas.
+- **Satisfacción**: Calificación promedio >4.0/5.0 en encuestas de usabilidad de todas las herramientas.
+- **Retención**: >60% de usuarios continúan utilizando las herramientas después de 6 meses.
+
+**Métricas de Impacto en Negocio**
+- **Eficiencia Operativa**: Reducción del 30% en tiempo de análisis de datos productivos.
+- **Toma de Decisiones**: Mejora del 50% en velocidad de decisión basada en información analizada.
+- **Soporte Técnico**: Reducción del 40% en tiempo promedio de respuesta a incidentes técnicos.
+- **Satisfacción del Cliente**: Aumento del 25% en calificación general del servicio.
+
+**Métricas Técnicas**
+- **Disponibilidad**: >99.5% de uptime para todas las plataformas críticas.
+- **Performance**: Tiempo de carga <3 segundos para todas las interfaces principales.
+- **Errores**: <0.1% tasa de errores críticos que afecten la experiencia del usuario.
+- **Integración**: 100% de integraciones entre sistemas funcionando sin problemas.
+
+**Plan de Monitoreo Continuo**
+
+**Seguimiento Semanal**
+- Análisis de métricas de uso y adopción de todas las herramientas.
+- Identificación de patrones de comportamiento y oportunidades de optimización.
+- Revisión de tickets de soporte para identificar problemas recurrentes.
+- Actualización de dashboards con información más reciente.
+
+**Evaluación Mensual**
+- Evaluación de ROI de cada herramienta en función de costos vs beneficios.
+- Análisis de satisfacción de usuarios y tasa de retención.
+- Revisión de métricas técnicas de performance y disponibilidad.
+- Ajuste de configuraciones basadas en aprendizajes y optimizaciones.
+
+**Revisión Trimestral**
+- Evaluación completa del portafolio de herramientas y su alineación con objetivos.
+- Análisis de tendencias de uso y necesidades emergentes de usuarios.
+- Planificación de actualizaciones y nuevas implementaciones.
+- Revisión de presupuesto y costos-beneficios de todo el ecosistema tecnológico.
 
 #### 8.2.7. Data Analytics: Goals, KPIs and Metrics Selection
 
