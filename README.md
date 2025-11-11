@@ -4019,24 +4019,32 @@ A continuación, se documentan las entrevistas de validación realizadas con usu
 
 | Detalle | Información |
 | :--- | :--- |
-|  **Entrevistado** | `[Nombre Completo del Entrevistado]` |
-|  **Edad** | `[Edad]` |
-|  **Rol / Experiencia** | `[Ej: Ganadero con 10 años de experiencia]` |
-| **Fecha de Entrevista** | `[DD/MM/AAAA]` |
-|  **Duración** | `[HH:MM:SS]` |
-|  **Tecnologías Usadas** | `[Ej: Google Meet, Zoom, Grabadora de voz]` |
-|  **Enlace a Grabación** | `[Pega aquí el enlace al video o audio de la entrevista]` |
+|  **Entrevistado** | Camila Fernanda Farias Morales |
+|  **Edad** | 21 |
+|  **Rol / Experiencia** | Practicante en una empresa Ganadera |
+| **Fecha de Entrevista** | 09/11/2025 |
+|  **Duración** | 4:09 |
+|  **Tecnologías Usadas** | Zoom |
+|  **Enlace a Grabación** | https://drive.google.com/file/d/1j8ZqTzQUoBvgMH-U6o9jUgN7AGzCIa0I/view?usp=sharing |
 
 <br>
 
 **Evidencia de la Entrevista:**
 
-
-`![Evidencia Entrevista 1](assets/entrevista_1.png)`
+![Evidencia Entrevista 1](assets/entrevista2-validation.png)
 
 <br>
-
 **Resumen de Hallazgos Clave:**
+
+*   **Validación de Funcionalidades Clave:** La entrevistada valora positivamente la facilidad de uso y la practicidad de la aplicación, destacando los módulos de **manejo de bovinos y registro de vacunas** como los más utilizados. Confirma que la app resuelve el problema de la desorganización y la dependencia de registros manuales (Excel, cuadernos).
+
+*   **Oportunidades de Mejora Críticas:** Se identificaron dos áreas principales para futuras mejoras:
+    1.  **Reportes Avanzados:** Fuerte interés en la incorporación de **reportes de rendimiento productivo** (ej. litros de leche, ganancia de peso) para facilitar la toma de decisiones.
+    2.  **Alertas Automáticas:** Solicitud de un sistema de **alertas automáticas** más robusto para vacunas y revisiones veterinarias, considerándolo un diferenciador clave.
+
+*   **Funcionalidad Ausente (Gap):** La entrevistada señaló la falta de un módulo para **registrar gastos y costos de producción**, una funcionalidad que considera esencial para un control económico completo de la operación ganadera.
+
+*   **Feedback de Usabilidad:** Aunque la interfaz es mayormente intuitiva, hubo una curva de aprendizaje inicial para tareas como **editar registros antiguos o mover animales entre establos**.
 
 
 ---
