@@ -1354,7 +1354,8 @@ Este flujo está diseñado para facilitar al agregar ya sea un bovino, una campa
 
 **vista de "Agregar Campaña"**
 
-<img src="./assets/campaniaadd.png" style="width: 400px"
+
+<img src="./assets/campaniaadd.png" style="width: 400px">
 
 **Inicio Sesion**
 
@@ -1400,7 +1401,7 @@ Este flujo está diseñado para facilitar al agregar ya sea un bovino, una campa
 
 **vista de "Agregar Campaña"**
 
-<img src="./assets/campaniaadd.png" style="width: 400px"
+<img src="./assets/campaniaadd.png" style="width: 400px">
 
 #### 4.4.4. Mobile Applications User Flow Diagrams
 
@@ -2117,8 +2118,7 @@ Este desarrollo fue acompañado por pruebas funcionales continuas durante los sp
 
 <p align="center">
   <img src="./assets/sign_up_flutter.JPG" width="300" />
-  <img src="./assets/home_flutter.JPG" width="300" />
-  <img src="./assets/animales_flutter.JPG" width="300" />
+  
 </p>
 
 <p align="center">
@@ -2129,13 +2129,10 @@ Este desarrollo fue acompañado por pruebas funcionales continuas durante los sp
 
 <p align="center">
   <img src="./assets/personal_flutter.JPG" width="300" />
-  <img src="./assets/animales_establo_flutter.JPG" width="300" />
   <img src="./assets/vacunas_flutter.JPG" width="300" />
 </p>
 
 <p align="center">
-  <img src="./assets/detalles_bovino_flutter.JPG" width="300" />
-  <img src="./assets/registro_bovino_flutter.JPG" width="300" />
   <img src="./assets/gestion_campaña_flutter.JPG" width="300" />
 </p>
 
@@ -3917,28 +3914,398 @@ Luego de realizar todos los cambios dichos en los anteriores puntos, se pudo log
 Esto nos da mas escalabilidad segura para la aplicación, tanto como tener un estándar establecido a comparación de antes de la refactorización. Esto ha sido una gran mejora para la aplicación y fielmente se cree que esto va a ir para mejor.
 
 ### 6.3. Validation Interviews
+En esta sección, se registran y explican las actividades que abarcan las entrevistas de validación durante el desarrollo de nuestro proyecto. El objetivo principal de realizar estas entrevistas de validación es obtener retroalimentación, comprender las necesidades y expectativas de los usuarios, así como validar o refutar las hipótesis sobre el producto. Para lograr esto, haremos que nuestros entrevistados de ambos segmentos interactúen con la landing page y la aplicación.
 
 ### 6.3.1. Diseño de entrevistas
 
+Para validar la efectividad y la experiencia de usuario de **VacApp**, se ha diseñado un cuestionario de entrevista dirigido a usuarios activos de la plataforma. El objetivo es recopilar feedback cualitativo y cuantitativo que permita medir la satisfacción, identificar las funcionalidades de mayor valor y descubrir oportunidades de mejora.
+
+Estas preguntas están estructuradas para guiar una conversación fluida, abarcando desde la percepción general del producto hasta detalles específicos sobre su uso diario.
+
+---
+
+#### **Cuestionario de Validación de Usuario - VacApp**
+
+**Objetivo:** Evaluar la experiencia del usuario, el valor percibido y las áreas de mejora de la aplicación.
+**Público:** Ganaderos independientes y administradores de empresas ganaderas que utilizan VacApp.
+
+---
+
+##### **Parte 1: Satisfacción General y Lealtad (NPS)**
+
+1.  **En una escala del 1 al 10, ¿qué tan probable es que recomiendes "VacApp" a otro ganadero o colega?**
+    *   *Guía para el entrevistador: Registrar la puntuación numérica. Si es 9-10 son promotores, 7-8 pasivos, 0-6 detractores.*
+
+2.  **¿Cuál es la razón principal de la calificación que acabas de dar?**
+    *   *Guía: Profundizar en los motivos. ¿Es por la facilidad de uso, una función específica, el soporte, o la falta de algo?*
+
+---
+
+##### **Parte 2: Uso y Valor Percibido**
+
+3.  **¿Cuál es la función o característica de "VacApp" que más utilizas en tu día a día?**
+    *   *Guía: Identificar las funcionalidades "ganadoras" que generan más engagement.*
+
+4.  **¿Cuál es el principal problema o tarea que "VacApp" te ayuda a resolver o facilitar?**
+    *   *Guía: Entender el "job-to-be-done" principal que la app está cumpliendo para el usuario.*
+
+5.  **¿Has notado alguna mejora medible desde que usas "VacApp"?** (Ej: ahorro de tiempo, mejor control de inventario, reducción de errores en registros, etc.)
+    *   *Guía: Buscar evidencia concreta del impacto positivo de la aplicación en la operación del usuario.*
+
+---
+
+##### **Parte 3: Oportunidades de Mejora y Necesidades no Cubiertas**
+
+6.  **Si tuvieras una "varita mágica", ¿qué nueva función o reporte te gustaría que "VacApp" tuviera?**
+    *   *Guía: Fomentar la creatividad para descubrir ideas de nuevas funcionalidades o mejoras significativas.*
+
+7.  **¿Qué tarea importante relacionada con la gestión de tu ganado sientes que "VacApp" todavía NO te ayuda a gestionar?**
+    *   *Guía: Identificar los "gaps" o vacíos funcionales que la aplicación aún no cubre.*
+
+8.  **¿Hay alguna parte de la plataforma que te resulte confusa o difícil de usar?**
+    *   *Guía: Detectar puntos de fricción en la experiencia de usuario (UX) que necesiten ser rediseñados.*
+
+---
+
+##### **Parte 4: Contexto y Cierre**
+
+9.  **¿Qué herramienta o método (otra app, libreta de apuntes, Excel) usabas antes de "VacApp" para gestionar tu ganado?**
+    *   *Guía: Comprender el comportamiento previo del usuario y el valor diferencial que VacApp ofrece frente a la competencia o métodos tradicionales.*
+
+10. **¿Hay algo más que te gustaría que supiéramos sobre tu experiencia con "VacApp"?**
+    *   *Guía: Pregunta abierta para capturar cualquier otro comentario, sugerencia o crítica que el usuario no haya mencionado.*
+
+
 ### 6.3.2. Registro de Entrevistas
 
+### 6.3.2. Registro de Entrevistas
+
+A continuación, se documentan las entrevistas de validación realizadas con usuarios de los segmentos objetivo. Cada registro incluye los datos del entrevistado, un resumen de los hallazgos clave, y las evidencias correspondientes.
+
+---
+
+#### **Entrevista #1**
+
+| Detalle | Información |
+| :--- | :--- |
+|  **Entrevistado** | Sergio Gomez Vallejos |
+|  **Edad** | 25 |
+|  **Rol / Experiencia** | Ganadero Independiente |
+| **Fecha de Entrevista** | 08/11/2025|
+|  **Duración** | 3:46 |
+|  **Tecnologías Usadas** | Zoom |
+|  **Enlace a Grabación** | https://drive.google.com/file/d/1qC36xoN-Q9WqCXTWgixpkWKoWFHFsZzv/view?usp=sharing |
+
+<br>
+
+**Evidencia de la Entrevista:**
+
+
+![Evidencia Entrevista 1](assets/entre-val-1.png)
+
+<br>
+
+**Resumen de Hallazgos Clave:**
+
+*   **Feedback Positivo sobre Funcionalidad:** El entrevistado confirmó que la aplicación funciona correctamente y que pudo navegar por las distintas secciones sin problemas. La funcionalidad general fue validada como intuitiva y completa.
+
+*   **Oportunidad de Mejora en la Interfaz (UI):** A pesar de la buena funcionalidad, se señaló que el **menú principal se percibe "sobrecargado"**. Este hallazgo sugiere una oportunidad para simplificar la navegación, posiblemente agrupando opciones o mejorando la jerarquía visual para no abrumar al usuario.
+
+*   **Solicitud de Nuevas Funcionalidades (Reportes):** El punto más relevante fue la solicitud de incorporar **reportes de alimentación y peso**. El usuario expresó un fuerte interés en poder visualizar y analizar datos históricos sobre el consumo de alimento y la evolución del peso del ganado, considerándolo una herramienta clave para la toma de decisiones.
+
+---
+
+#### **Entrevista #2**
+
+| Detalle | Información |
+| :--- | :--- |
+|  **Entrevistado** | `[Nombre Completo del Entrevistado]` |
+|  **Edad** | `[Edad]` |
+|  **Rol / Experiencia** | `[Ej: Ganadero con 10 años de experiencia]` |
+| **Fecha de Entrevista** | `[DD/MM/AAAA]` |
+|  **Duración** | `[HH:MM:SS]` |
+|  **Tecnologías Usadas** | `[Ej: Google Meet, Zoom, Grabadora de voz]` |
+|  **Enlace a Grabación** | `[Pega aquí el enlace al video o audio de la entrevista]` |
+
+<br>
+
+**Evidencia de la Entrevista:**
+
+
+`![Evidencia Entrevista 1](assets/entrevista_1.png)`
+
+<br>
+
+**Resumen de Hallazgos Clave:**
+
+
+---
+
+#### **Entrevista #3**
+
+| Detalle | Información |
+| :--- | :--- |
+|  **Entrevistado** | `[Nombre Completo del Entrevistado]` |
+|  **Edad** | `[Edad]` |
+|  **Rol / Experiencia** | `[Ej: Ganadero con 10 años de experiencia]` |
+| **Fecha de Entrevista** | `[DD/MM/AAAA]` |
+|  **Duración** | `[HH:MM:SS]` |
+|  **Tecnologías Usadas** | `[Ej: Google Meet, Zoom, Grabadora de voz]` |
+|  **Enlace a Grabación** | `[Pega aquí el enlace al video o audio de la entrevista]` |
+
+<br>
+
+**Evidencia de la Entrevista:**
+
+
+`![Evidencia Entrevista 1](assets/entrevista_1.png)`
+
+<br>
+
+**Resumen de Hallazgos Clave:**
+
+
+---
+
+#### **Entrevista #4**
+
+| Detalle | Información |
+| :--- | :--- |
+|  **Entrevistado** | `[Nombre Completo del Entrevistado]` |
+|  **Edad** | `[Edad]` |
+|  **Rol / Experiencia** | `[Ej: Ganadero con 10 años de experiencia]` |
+| **Fecha de Entrevista** | `[DD/MM/AAAA]` |
+|  **Duración** | `[HH:MM:SS]` |
+|  **Tecnologías Usadas** | `[Ej: Google Meet, Zoom, Grabadora de voz]` |
+|  **Enlace a Grabación** | `[Pega aquí el enlace al video o audio de la entrevista]` |
+
+<br>
+
+**Evidencia de la Entrevista:**
+
+
+`![Evidencia Entrevista 1](assets/entrevista_1.png)`
+
+<br>
+
+**Resumen de Hallazgos Clave:**
+
+
+---
+
+#### **Entrevista #5**
+
+| Detalle | Información |
+| :--- | :--- |
+|  **Entrevistado** | `[Nombre Completo del Entrevistado]` |
+|  **Edad** | `[Edad]` |
+|  **Rol / Experiencia** | `[Ej: Ganadero con 10 años de experiencia]` |
+| **Fecha de Entrevista** | `[DD/MM/AAAA]` |
+|  **Duración** | `[HH:MM:SS]` |
+|  **Tecnologías Usadas** | `[Ej: Google Meet, Zoom, Grabadora de voz]` |
+|  **Enlace a Grabación** | `[Pega aquí el enlace al video o audio de la entrevista]` |
+
+<br>
+
+**Evidencia de la Entrevista:**
+
+
+`![Evidencia Entrevista 1](assets/entrevista_1.png)`
+
+<br>
+
+**Resumen de Hallazgos Clave:**
+
+
+---
+
+#### **Entrevista #6**
+
+| Detalle | Información |
+| :--- | :--- |
+|  **Entrevistado** | `[Nombre Completo del Entrevistado]` |
+|  **Edad** | `[Edad]` |
+|  **Rol / Experiencia** | `[Ej: Ganadero con 10 años de experiencia]` |
+| **Fecha de Entrevista** | `[DD/MM/AAAA]` |
+|  **Duración** | `[HH:MM:SS]` |
+|  **Tecnologías Usadas** | `[Ej: Google Meet, Zoom, Grabadora de voz]` |
+|  **Enlace a Grabación** | `[Pega aquí el enlace al video o audio de la entrevista]` |
+
+<br>
+
+**Evidencia de la Entrevista:**
+
+
+`![Evidencia Entrevista 1](assets/entrevista_1.png)`
+
+<br>
+
+**Resumen de Hallazgos Clave:**
+
+
+---
+
+
 ### 6.3.3. Evaluaciones según heurísticas
+
 
 ### 6.4. Auditoría de Experiencias de Usuario
 
 ### 6.4.1. Auditoría realizada
 
-#### 6.4.1.1. Información del grupo auditado
+El equipo **Vacow Team**, en su rol de auditores internos UX dentro de la iteración TB2, ejecutó una auditoría enfocada en **Experiencia de Usuario (UX)** y **usabilidad** aplicada sobre el informe, documentación y evidencias técnicas del proyecto *TukunTech*.  
+El objetivo fue identificar puntos críticos que afectan la lectura del documento, la consistencia visual y la claridad narrativa desde el punto de vista evaluador (comité docente), especialmente al momento de exportación final a PDF.
 
-#### 6.4.1.2. Cronograma de auditoría realizada
+Esta auditoría se alineó con criterios de evaluación del flujo de información, claridad visual, trazabilidad de evidencias y adecuación de artefactos al estándar de entrega.
 
-#### 6.4.1.3. Contenido de auditoría realizada
+#### Componentes evaluados
+
+| Área evaluada | Elementos |
+|----------------|-----------|
+| Documento raíz | `README.md` (estructura, orden, legibilidad, jerarquías H1–H4, nivel de limpieza) |
+| Recursos visuales | `/assets` (nomenclatura, referencias en Markdown, peso y resolución de imágenes) |
+| Evidencias técnicas | Screenshots, endpoints verificados, Swagger, links de despliegue |
+| Secciones técnicas | Testing, CI/CD, despliegue, integración y documentación técnica |
+
+#### Alcance
+
+- Documento principal `README.md`
+- Carpeta de recursos `/assets`  
+- Enlaces de despliegue (frontend y backend)
+- Evidencias de pruebas funcionales (pantallas de test, Swagger, endpoints)
+- Pipeline CI/CD presentado
+
+#### Metodología
+
+- **Inspección heurística** (Nielsen Norman)
+- **Revisión documental** por consistencia estructural y narrativa
+- **Validación de enlaces** y recursos embebidos
+- **Pruebas rápidas de renderizado y exportación** a PDF
+
+#### Herramientas utilizadas
+
+- Google Chrome (pruebas de visualización y renderizado)
+- Visual Studio Code (revisión y limpieza de Markdown)
+- Figma (comparación con prototipos entregados)
+- Swagger UI / Postman (verificación de endpoints)
+- Exportador PDF (control de formato A4/Letter y legibilidad final)
+
+#### Fechas de ejecución
+
+**08/11/2025 – 10/11/2025**
+
+#### Equipo auditor – Vacow Team
+
+- **Maycol Jhordan Rojas Velásquez** — U202219984 — Auditor líder UI/UX  
+- **Stephano Espinoza Cueva** — U202218590 — Auditor Frontend / validación de prototipos  
+- **Rodrigo Liberato Saldaña** — U202215623 — Auditor Backend / validación técnica y evidencias  
+
+---
+
+### 6.4.1.2. Cronograma de ejecución de auditoría
+
+| Fecha       | Actividad                                                                                                   | Responsable (Vacow Auditoría)    |
+|-------------|-------------------------------------------------------------------------------------------------------------|----------------------------------|
+| 08/11/2025  | Revisión de carátula, tabla de contenidos y jerarquías del `README`; análisis de formato y errores de PDF   | **Maycol Rojas**                 |
+| 09/11/2025  | Evaluación heurística de flujos funcionales (login, dashboard) y validación de enlaces activos              | **Stephano Espinoza**            |
+| 10/11/2025  | Consolidación de hallazgos, priorización de correcciones y elaboración del informe de recomendaciones UX-TB2 | **Rodrigo Liberato**             |
+
+---
+
+> **Nota:** La auditoría UX realizada por *Vacow Team* permitió identificar oportunidades de mejora en la estructura del documento y la presentación de evidencias técnicas, garantizando coherencia visual, accesibilidad y trazabilidad entre los artefactos entregados y la experiencia final del evaluador.
+
+
+### 6.4.1.3. Contenido de auditoría realizada
+
+**SITE / APP evaluado:** TukunTech — Aplicación orientada al monitoreo y lectura rápida del estado de salud de un paciente adulto mediante indicadores de signos vitales.
+
+---
+
+**TAREAS EVALUADAS (flujos principales de la APP):**
+
+1. Registro de usuario (paciente / familiar)
+2. Visualización del estado de salud actual en pantalla principal
+3. Interpretación del riesgo mediante colores (verde / azul / rojo)
+4. Visualización de histórico de mediciones
+5. Visualización de información complementaria (contexto / explicación)
+6. Navegación entre vistas básicas de la aplicación
+
+**TAREAS NO INCLUIDAS EN ESTA AUDITORÍA:**
+
+1. Ajustes avanzados de parámetros médicos
+2. Integración con wearables externos
+3. Gestión multi–paciente
+4. Configuración de notificaciones push
+
+---
+
+**ESCALA DE SEVERIDAD USADA:**
+
+| Nivel | Descripción |
+|-------|-------------|
+| 1 | Observación leve — no afecta la experiencia general |
+| 2 | Oportunidad de mejora — podría optimizar la claridad |
+| 3 | Mejora importante — facilita comprensión de usuario |
+
+---
+
+### TABLA RESUMEN DE OBSERVACIONES
+
+| # | Observación relacionada a la APP | Severidad | Principio relacionado |
+|---|----------------------------------|-----------|-----------------------|
+| 1 | La app se basa en colores para representar el estado del paciente, podría ser útil acompañar este indicador con una breve leyenda textual debajo para reforzar significado. | 2 | Reconocer antes que recordar |
+| 2 | Sería beneficioso incluir un “estado previo reciente” al lado del estado actual para facilitar comparación rápida. | 2 | Contexto de uso |
+| 3 | El flujo de navegación entre pantallas podría incluir un indicador visual del paso actual (por ejemplo: “inicio / histórico”) para orientar mejor al usuario. | 2 | Mapeo conceptual |
+| 4 | En el historial sería útil resaltar valores fuera de rango para priorizar atención visual inmediata. | 3 | Visibilidad de información crítica |
+| 5 | La pantalla principal podría incluir un acceso directo al historial de alertas sin tener que pasar por más pantallas. | 2 | Minimizar esfuerzo del usuario |
+
+---
+
+### EJEMPLO DE OBSERVACIÓN DETALLADA
+
+**Observación #4 — resaltado de valores fuera de rango**
+
+**Severidad:** 3  
+**Principio:** Visibilidad de información crítica
+
+**Comentario:**  
+La información del historial es útil pero podría destacar visualmente los datos en riesgo para que el usuario identifique rápidamente cuando hubo episodios relevantes.
+
+**Recomendación:**  
+Resaltar con color o icono los valores fuera del rango normal para acelerar el reconocimiento visual del riesgo.
 
 ### 6.4.2. Auditoría recibida
 
 #### 6.4.2.1. Información del grupo auditor
 
+Se recibió auditoría de Experiencia de Usuario (UX) por parte del **Grupo 4**, quienes realizaron una evaluación orientada a validar la claridad del documento, la correcta jerarquización de secciones, así como la coherencia entre evidencias anexas y el flujo funcional presentado dentro del README y la documentación de entrega.
+
+El alcance del grupo 4 incluyó:
+
+- Revisión de la estructura general del documento principal (README.md)
+- Validación del orden lógico y jerarquías H1-H4
+- Validación visual de imágenes / capturas funcionales
+- Evaluación UX de navegación y lectura narrativa
+- Revisión del acceso a evidencias técnicas (endpoints / despliegues)
+- Observación general de consistencia entre prototipo UI y documentación final
+
+**Fecha de auditoría recibida:** **09/11/2025**
+
+| Integrante | Código | Rol |
+|------------|--------|-----|
+| **Palomares Chavez Adriana** | u20201f723 | Líder |
+| **Soto Zorrilla Oscar Eduardo** | U201811767 | Integrante |
+| **Maraza Penemonte Erick** | u202213372 | Integrante |
+
+
 #### 6.4.2.2. Cronograma de auditoría recibida
+
+| Fecha | Actividad ejecutada | Responsable (Grupo 4) | Detalle de lo realizado |
+|-------|---------------------|------------------------|--------------------------|
+| 08/11/2025 | Revisión documental del README y análisis de jerarquía de secciones | Palomares Chavez Adriana | Analizó estructura global del documento y su alineación con los criterios requeridos para la entrega TB2 |
+| 09/11/2025 | Evaluación heurística UX sobre navegación y visualización de evidencias | Soto Zorrilla Oscar Eduardo | Validó el flujo funcional (login → dashboard) y la coherencia entre prototipos y capturas presentadas como evidencia |
+| 10/11/2025 | Consolidación de observaciones y retroalimentación al equipo Vacow Team | Maraza Penemonte Erick | Sintetizó los hallazgos detectados y formalizó la retroalimentación enviada al equipo para las iteraciones de mejora antes del cierre TB2 |
+
 
 #### 6.4.2.3. Contenido de auditoría recibida
 
