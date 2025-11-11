@@ -3978,8 +3978,6 @@ Estas preguntas están estructuradas para guiar una conversación fluida, abarca
 
 ### 6.3.2. Registro de Entrevistas
 
-### 6.3.2. Registro de Entrevistas
-
 A continuación, se documentan las entrevistas de validación realizadas con usuarios de los segmentos objetivo. Cada registro incluye los datos del entrevistado, un resumen de los hallazgos clave, y las evidencias correspondientes.
 
 ---
