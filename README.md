@@ -282,8 +282,8 @@ El curso contribuye al cumplimiento del Student Outcome ABET:
 
 | **Criterio específico** | **Acciones realizadas** | **Conclusiones** |
 |--------------------------|--------------------------|------------------|
-| **4.c.1 Reconoce responsabilidad ética y profesional en situaciones de ingeniería de software** | <br><br> **1. Rojas Velasquez, Maycol Jhordan**<br>_TB1:_<br> Apliqué buenas prácticas en la elaboración de la documentación técnica, asegurando transparencia en los procesos y citando correctamente las fuentes de información utilizadas.<br>_TP:_<br> Apliqué prácticas de ingeniería de software para las pruebas unitarias y de sistema, garantizando trazabilidad y control de calidad en el código.<br><br> **2. Espinoza Cueva, Stephano Jose**<br>_TB1:_<br> Me involucré de lleno en definir qué era más urgente y cómo íbamos a entregar el producto, participando en la priorización de requisitos y la planificación de entregables. Mi enfoque principal fue garantizar que todas las decisiones se basaran en lo que los usuarios realmente necesitaban, evitando modas o suposiciones sin fundamento. Fui responsable de considerar el impacto que cada elección tendría en el resultado final y en la experiencia del usuario (FrontEnd), actuando siempre bajo una perspectiva ética y profesional.<br>_TP:_<br> Colaboré en la implementación de prácticas de despliegue continuo, priorizando la calidad del software y el cumplimiento de estándares éticos en las entregas del producto.<br><br> **3. Saldana Liberato, Rodrigo**<br>_TB1:_<br> Elaboré documentación clara sobre las historias de usuario y realicé la configuración del entorno de desarrollo y despliegue del producto, garantizando orden y transparencia en los procesos.<br>_TP:_<br> Elaboré la documentación y ejecución de las pruebas de integración, asegurando el correcto funcionamiento del sistema en conjunto.<br><br> **4. Macavilca Quispe, Ian**<br>_TB1:_<br> Elaboré el diseño UI/UX del web app, así como el web prototyping; además, trabajé en el despliegue del producto.<br>_TP:_<br> Desarrollé el flujo de Integración Continua dentro del pipeline de DevOps, aplicando prácticas de control de versiones y validación automática.<br><br> **5. Paucar Meneses, Jeremy**<br>_TB1:_<br> Elaboré la documentación sobre los competidores, así como los *user personas* para cada segmento objetivo, el *empathy mapping* y el *ubiquitous language*, contribuyendo a una comprensión ética y centrada en el usuario del proyecto.<br>_TP:_<br> Implementé la metodología *Behavior-Driven Development (BDD)* para alinear las pruebas del sistema con los requerimientos del usuario, garantizando coherencia entre diseño, funcionalidad y propósito ético del producto. | **Conclusión TB1:** La ética profesional fue la base en todas las etapas del proyecto, asegurando transparencia en la documentación, honestidad en la gestión del código y respeto por las buenas prácticas de desarrollo. <br><br>**Conclusión TP:** Las pruebas unitarias y de sistema consolidaron la responsabilidad profesional del equipo, al validar que cada componente funcionara correctamente bajo principios de calidad y fiabilidad. |
-| **4.c.2 Emite juicios informados considerando el impacto de las soluciones de ingeniería de software en contextos globales, económicos, ambientales y sociales** | <br><br> **1. Rojas Velasquez, Maycol Jhordan**<br>_TB1:_<br> Analicé cómo la solución propuesta (*VacApp*) impacta en la eficiencia de la ganadería, promoviendo prácticas sostenibles que favorecen al sector económico y respetan el medio ambiente.<br>_TP:_<br> Apliqué juicios técnicos para las pruebas de sistema, evaluando su impacto y funcionamiento dentro del contexto productivo real.<br><br> **2. Espinoza Cueva, Stephano Jose**<br>_TB1:_<br> Al diseñar las propuestas, mantuve una visión global, considerando cómo nuestro producto afectaría a distintos usuarios y escenarios. Analicé el impacto en diversos contextos y ajusté decisiones para asegurar que el producto fuera útil socialmente y sostenible económicamente.<br>_TP:_<br> En la implementación de *Continuous Deployment*, prioricé la estabilidad del entorno productivo y la satisfacción del usuario final, aplicando un criterio técnico y responsable ante el impacto de cada actualización.<br><br> **3. Saldana Liberato, Rodrigo**<br>_TB1:_<br> Documenté las funcionalidades del producto y configuré su despliegue, valorando cómo estas acciones facilitan el trabajo en equipo y la eficiencia operativa, con impacto positivo en la organización y su entorno.<br>_TP:_<br> Durante la implementación de las pruebas de integración, profundicé en la lógica de negocio, comprendiendo el impacto que VacApp puede tener dentro del mercado ganadero digital.<br><br> **4. Macavilca Quispe, Ian**<br>_TB1:_<br> Consideré la funcionalidad y practicidad en la elaboración del diseño UI/UX y en el *web prototyping*.<br>_TP:_<br> Apliqué principios de eficiencia y sostenibilidad al momento de desarrollar el flujo de Integración Continua, optimizando recursos y tiempos de despliegue.<br><br> **5. Paucar Meneses, Jeremy**<br>_TB1:_<br> Realicé los diferentes tipos de *Needfinding* pertenecientes al capítulo de *Requirements Elicitation & Analysis*, lo que permitió comprender mejor el contexto del desarrollo y su impacto en los usuarios y el entorno.<br>_TP:_<br> Analicé los resultados de las pruebas funcionales y de comportamiento, evaluando el impacto social y tecnológico de las decisiones de desarrollo sobre la usabilidad y accesibilidad del sistema. |**Conclusión TB1:** El desarrollo de VacApp promovió una visión integral que combina innovación tecnológica con sostenibilidad, impulsando prácticas más responsables en la gestión ganadera peruana. <br><br>**Conclusión TP:** La implementación de pruebas, despliegues continuos y evaluaciones automatizadas permitió emitir juicios técnicos más precisos, asegurando que el sistema mantuviera su impacto positivo en el entorno productivo y social. |
+| **4.c.1 Reconoce responsabilidad ética y profesional en situaciones de ingeniería de software** | <br><br> **1. Rojas Velasquez, Maycol Jhordan**<br>_TB1:_<br> Apliqué buenas prácticas en la elaboración de la documentación técnica, asegurando transparencia en los procesos y citando correctamente las fuentes de información utilizadas.<br>_TP:_<br> Apliqué prácticas de ingeniería de software para las pruebas unitarias y de sistema, garantizando trazabilidad y control de calidad en el código.<br>_TB2:_<br> Asumí responsabilidad en la verificación de artefactos UX y auditorías externas e internas (cap. 6.4), liderando la integración ética de resultados dentro del pipeline DevOps (CI / CD / Deployment), asegurando que el producto se valide antes de ser liberado a ambientes superiores.<br><br> **2. Espinoza Cueva, Stephano Jose**<br>_TB1:_<br> Me involucré de lleno en definir qué era más urgente y cómo íbamos a entregar el producto, participando en la priorización de requisitos y la planificación de entregables.<br>_TP:_<br> Colaboré en la implementación de prácticas de despliegue continuo, priorizando la calidad del software y el cumplimiento de estándares éticos en las entregas del producto.<br>_TB2:_<br> Fui responsable de asegurar la coherencia ética entre métricas, KPIs y trazabilidad analítica (cap. 8.2.7 / 8.2.8), garantizando que no se manipulen resultados ni se tomen decisiones sin datos reales siendo fieles a validaciones provenientes de usuarios entrevistados y auditores.<br><br> **3. Saldana Liberato, Rodrigo**<br>_TB1:_<br> Elaboré documentación clara sobre las historias de usuario y realicé la configuración del entorno de desarrollo y despliegue del producto.<br>_TP:_<br> Elaboré la documentación y ejecución de las pruebas de integración, asegurando el correcto funcionamiento del sistema en conjunto.<br>_TB2:_<br> Asumí responsabilidad ética sobre la transparencia del análisis estático de código y su impacto en seguridad / convenciones (cap. 6.2), asegurando que todos los hallazgos se documenten y que no se oculte ninguno durante el proceso de verificación.<br><br> **4. Macavilca Quispe, Ian**<br>_TB1:_<br> Elaboré el diseño UI/UX del web app, así como el web prototyping.<br>_TP:_<br> Desarrollé el flujo de Integración Continua dentro del pipeline de DevOps.<br>_TB2:_<br> Diseñé la planificación experimental (cap. 8.1), documentando suposiciones y asegurando que los experimentos no alteren datos reales ni afecten a usuarios sin consentimiento previo.<br><br> **5. Paucar Meneses, Jeremy**<br>_TB1:_<br> Elaboré la documentación sobre los competidores, así como los user personas.<br>_TP:_<br> Implementé BDD.<br>_TB2:_<br> Supervisé la formulación de hipótesis (cap. 8.2.1), Domain Business Metrics (cap. 8.2.2) y cálculos de escala experimentales (cap. 8.2.5) garantizando rigurosidad en la toma de decisiones basada en datos reales y no supuestos manipulados. | **TB1:** La ética profesional fue la base en todas las etapas del proyecto, asegurando transparencia en la documentación, honestidad en la gestión del código y respeto por las buenas prácticas de desarrollo.<br><br>**TP:** Las pruebas unitarias y de sistema consolidaron la responsabilidad profesional del equipo al validar que cada componente funcionara correctamente bajo principios de calidad y fiabilidad.<br><br>**TB2:** La responsabilidad ética se fortaleció al integrar auditorías UX, pipelines CI/CD, análisis estático y diseño experimental; garantizando que las decisiones se fundamenten en evidencia técnica real, mediciones verificables y datos no manipulados.
+| **4.c.2 Emite juicios informados considerando el impacto de las soluciones de ingeniería de software en contextos globales, económicos, ambientales y sociales** | <br><br> **1. Rojas Velasquez, Maycol Jhordan**<br>_TB1:_<br> Analicé cómo la solución propuesta (*VacApp*) impacta en la eficiencia de la ganadería, promoviendo prácticas sostenibles que favorecen al sector económico y respetan el medio ambiente.<br>_TP:_<br> Apliqué juicios técnicos para las pruebas de sistema, evaluando su impacto y funcionamiento dentro del contexto productivo real.<br>_TB2:_<br> Generé juicios informados a partir de las auditorías UX realizadas y recibidas (cap. 6.4), integrando retroalimentación externa en la toma de decisiones del pipeline CI/CD, para asegurar que cada despliegue considere impacto en usuarios reales, stakeholders y la operación ganadera digital a escala.<br><br> **2. Espinoza Cueva, Stephano Jose**<br>_TB1:_<br> Al diseñar las propuestas, mantuve una visión global, considerando cómo nuestro producto afectaría a distintos usuarios y escenarios.<br>_TP:_<br> En la implementación de *Continuous Deployment*, prioricé la estabilidad del entorno productivo y la satisfacción del usuario final.<br>_TB2:_<br> Apliqué juicios basados en métricas, KPIs y analítica (cap. 8.2.7 / 8.2.8) asegurando que las decisiones para pivotear o escalar funciones correspondieran a datos reales y no a percepciones subjetivas, considerando el costo real de intervención, adopción y resultado para la industria ganadera peruana.<br><br> **3. Saldana Liberato, Rodrigo**<br>_TB1:_<br> Documenté las funcionalidades del producto y configuré su despliegue.<br>_TP:_<br> Durante la implementación de las pruebas de integración, profundicé en la lógica de negocio.<br>_TB2:_<br> Utilicé resultados de la verificación estática del código (cap. 6.2) para emitir juicios sobre seguridad, mantenibilidad e impacto futuro del producto; considerando implicancias técnicas, económicas (costos de deuda técnica) y sociales (riesgos de exposición o mal funcionamiento).<br><br> **4. Macavilca Quispe, Ian**<br>_TB1:_<br> Consideré la funcionalidad y practicidad.<br>_TP:_<br> Apliqué principios de eficiencia y sostenibilidad.<br>_TB2:_<br> Apliqué juicios informados durante la definición del *Experiment Planning* (cap. 8.1), sopesando impacto versus beneficio para decidir qué hipótesis merecen experimentación, evitando costo innecesario, sesgo metodológico y riesgo de generar daño a la data o usuarios objetivo.<br><br> **5. Paucar Meneses, Jeremy**<br>_TB1:_<br> Realicé los diferentes tipos de *Needfinding*.<br>_TP:_<br> Analicé los resultados de las pruebas funcionales y de comportamiento.<br>_TB2:_<br> Apliqué análisis crítico al formular las hipótesis, Domain Business Metrics y decisiones de escalabilidad (cap. 8.2.1 – 8.2.6), considerando impacto económico para el productor ganadero, sostenibilidad en el largo plazo y valor social de introducir mejoras en un sector con alto nivel de informalidad tecnológica. | **TB1:** El desarrollo de VacApp promovió una visión integral que combina innovación tecnológica con sostenibilidad, impulsando prácticas más responsables en la gestión ganadera peruana.<br><br>**TP:** La implementación de pruebas, despliegues continuos y evaluaciones automatizadas permitió emitir juicios técnicos más precisos, asegurando que el sistema mantuviera su impacto positivo en el entorno productivo y social.<br><br>**TB2:** La consideración de auditorías, CI/CD, métricas analíticas y diseño experimental permitió emitir juicios basados en evidencia concreta, asegurando que cada decisión técnica tenga impacto medible sobre factores económicos, globales y sociales, consolidando una visión profesional madura sobre el rol del software dentro del sector ganadero real.
 
 
 <div style="page-break-before: always;"></div>
@@ -1354,7 +1354,8 @@ Este flujo está diseñado para facilitar al agregar ya sea un bovino, una campa
 
 **vista de "Agregar Campaña"**
 
-<img src="./assets/campaniaadd.png" style="width: 400px"
+
+<img src="./assets/campaniaadd.png" style="width: 400px">
 
 **Inicio Sesion**
 
@@ -1400,7 +1401,7 @@ Este flujo está diseñado para facilitar al agregar ya sea un bovino, una campa
 
 **vista de "Agregar Campaña"**
 
-<img src="./assets/campaniaadd.png" style="width: 400px"
+<img src="./assets/campaniaadd.png" style="width: 400px">
 
 #### 4.4.4. Mobile Applications User Flow Diagrams
 
@@ -2117,8 +2118,7 @@ Este desarrollo fue acompañado por pruebas funcionales continuas durante los sp
 
 <p align="center">
   <img src="./assets/sign_up_flutter.JPG" width="300" />
-  <img src="./assets/home_flutter.JPG" width="300" />
-  <img src="./assets/animales_flutter.JPG" width="300" />
+  
 </p>
 
 <p align="center">
@@ -2129,13 +2129,10 @@ Este desarrollo fue acompañado por pruebas funcionales continuas durante los sp
 
 <p align="center">
   <img src="./assets/personal_flutter.JPG" width="300" />
-  <img src="./assets/animales_establo_flutter.JPG" width="300" />
   <img src="./assets/vacunas_flutter.JPG" width="300" />
 </p>
 
 <p align="center">
-  <img src="./assets/detalles_bovino_flutter.JPG" width="300" />
-  <img src="./assets/registro_bovino_flutter.JPG" width="300" />
   <img src="./assets/gestion_campaña_flutter.JPG" width="300" />
 </p>
 
@@ -3917,33 +3914,424 @@ Luego de realizar todos los cambios dichos en los anteriores puntos, se pudo log
 Esto nos da mas escalabilidad segura para la aplicación, tanto como tener un estándar establecido a comparación de antes de la refactorización. Esto ha sido una gran mejora para la aplicación y fielmente se cree que esto va a ir para mejor.
 
 ### 6.3. Validation Interviews
+En esta sección, se registran y explican las actividades que abarcan las entrevistas de validación durante el desarrollo de nuestro proyecto. El objetivo principal de realizar estas entrevistas de validación es obtener retroalimentación, comprender las necesidades y expectativas de los usuarios, así como validar o refutar las hipótesis sobre el producto. Para lograr esto, haremos que nuestros entrevistados de ambos segmentos interactúen con la landing page y la aplicación.
 
 ### 6.3.1. Diseño de entrevistas
 
+Para validar la efectividad y la experiencia de usuario de **VacApp**, se ha diseñado un cuestionario de entrevista dirigido a usuarios activos de la plataforma. El objetivo es recopilar feedback cualitativo y cuantitativo que permita medir la satisfacción, identificar las funcionalidades de mayor valor y descubrir oportunidades de mejora.
+
+Estas preguntas están estructuradas para guiar una conversación fluida, abarcando desde la percepción general del producto hasta detalles específicos sobre su uso diario.
+
+---
+
+#### **Cuestionario de Validación de Usuario - VacApp**
+
+**Objetivo:** Evaluar la experiencia del usuario, el valor percibido y las áreas de mejora de la aplicación.
+**Público:** Ganaderos independientes y administradores de empresas ganaderas que utilizan VacApp.
+
+---
+
+##### **Parte 1: Satisfacción General y Lealtad (NPS)**
+
+1.  **En una escala del 1 al 10, ¿qué tan probable es que recomiendes "VacApp" a otro ganadero o colega?**
+    *   *Guía para el entrevistador: Registrar la puntuación numérica. Si es 9-10 son promotores, 7-8 pasivos, 0-6 detractores.*
+
+2.  **¿Cuál es la razón principal de la calificación que acabas de dar?**
+    *   *Guía: Profundizar en los motivos. ¿Es por la facilidad de uso, una función específica, el soporte, o la falta de algo?*
+
+---
+
+##### **Parte 2: Uso y Valor Percibido**
+
+3.  **¿Cuál es la función o característica de "VacApp" que más utilizas en tu día a día?**
+    *   *Guía: Identificar las funcionalidades "ganadoras" que generan más engagement.*
+
+4.  **¿Cuál es el principal problema o tarea que "VacApp" te ayuda a resolver o facilitar?**
+    *   *Guía: Entender el "job-to-be-done" principal que la app está cumpliendo para el usuario.*
+
+5.  **¿Has notado alguna mejora medible desde que usas "VacApp"?** (Ej: ahorro de tiempo, mejor control de inventario, reducción de errores en registros, etc.)
+    *   *Guía: Buscar evidencia concreta del impacto positivo de la aplicación en la operación del usuario.*
+
+---
+
+##### **Parte 3: Oportunidades de Mejora y Necesidades no Cubiertas**
+
+6.  **Si tuvieras una "varita mágica", ¿qué nueva función o reporte te gustaría que "VacApp" tuviera?**
+    *   *Guía: Fomentar la creatividad para descubrir ideas de nuevas funcionalidades o mejoras significativas.*
+
+7.  **¿Qué tarea importante relacionada con la gestión de tu ganado sientes que "VacApp" todavía NO te ayuda a gestionar?**
+    *   *Guía: Identificar los "gaps" o vacíos funcionales que la aplicación aún no cubre.*
+
+8.  **¿Hay alguna parte de la plataforma que te resulte confusa o difícil de usar?**
+    *   *Guía: Detectar puntos de fricción en la experiencia de usuario (UX) que necesiten ser rediseñados.*
+
+---
+
+##### **Parte 4: Contexto y Cierre**
+
+9.  **¿Qué herramienta o método (otra app, libreta de apuntes, Excel) usabas antes de "VacApp" para gestionar tu ganado?**
+    *   *Guía: Comprender el comportamiento previo del usuario y el valor diferencial que VacApp ofrece frente a la competencia o métodos tradicionales.*
+
+10. **¿Hay algo más que te gustaría que supiéramos sobre tu experiencia con "VacApp"?**
+    *   *Guía: Pregunta abierta para capturar cualquier otro comentario, sugerencia o crítica que el usuario no haya mencionado.*
+
+
 ### 6.3.2. Registro de Entrevistas
 
+### 6.3.2. Registro de Entrevistas
+
+A continuación, se documentan las entrevistas de validación realizadas con usuarios de los segmentos objetivo. Cada registro incluye los datos del entrevistado, un resumen de los hallazgos clave, y las evidencias correspondientes.
+
+---
+
+#### **Entrevista #1**
+
+| Detalle | Información |
+| :--- | :--- |
+|  **Entrevistado** | Sergio Gomez Vallejos |
+|  **Edad** | 25 |
+|  **Rol / Experiencia** | Ganadero Independiente |
+| **Fecha de Entrevista** | 08/11/2025|
+|  **Duración** | 3:46 |
+|  **Tecnologías Usadas** | Zoom |
+|  **Enlace a Grabación** | https://drive.google.com/file/d/1qC36xoN-Q9WqCXTWgixpkWKoWFHFsZzv/view?usp=sharing |
+
+<br>
+
+**Evidencia de la Entrevista:**
+
+
+![Evidencia Entrevista 1](assets/entre-val-1.png)
+
+<br>
+
+**Resumen de Hallazgos Clave:**
+
+*   **Feedback Positivo sobre Funcionalidad:** El entrevistado confirmó que la aplicación funciona correctamente y que pudo navegar por las distintas secciones sin problemas. La funcionalidad general fue validada como intuitiva y completa.
+
+*   **Oportunidad de Mejora en la Interfaz (UI):** A pesar de la buena funcionalidad, se señaló que el **menú principal se percibe "sobrecargado"**. Este hallazgo sugiere una oportunidad para simplificar la navegación, posiblemente agrupando opciones o mejorando la jerarquía visual para no abrumar al usuario.
+
+*   **Solicitud de Nuevas Funcionalidades (Reportes):** El punto más relevante fue la solicitud de incorporar **reportes de alimentación y peso**. El usuario expresó un fuerte interés en poder visualizar y analizar datos históricos sobre el consumo de alimento y la evolución del peso del ganado, considerándolo una herramienta clave para la toma de decisiones.
+
+---
+
+#### **Entrevista #2**
+
+| Detalle | Información |
+| :--- | :--- |
+|  **Entrevistado** | Camila Fernanda Farias Morales |
+|  **Edad** | 21 |
+|  **Rol / Experiencia** | Practicante en una empresa Ganadera |
+| **Fecha de Entrevista** | 09/11/2025 |
+|  **Duración** | 4:09 |
+|  **Tecnologías Usadas** | Zoom |
+|  **Enlace a Grabación** | https://drive.google.com/file/d/1j8ZqTzQUoBvgMH-U6o9jUgN7AGzCIa0I/view?usp=sharing |
+
+<br>
+
+**Evidencia de la Entrevista:**
+
+![Evidencia Entrevista 1](assets/entrevista2-validation.png)
+
+<br>
+**Resumen de Hallazgos Clave:**
+
+*   **Validación de Funcionalidades Clave:** La entrevistada valora positivamente la facilidad de uso y la practicidad de la aplicación, destacando los módulos de **manejo de bovinos y registro de vacunas** como los más utilizados. Confirma que la app resuelve el problema de la desorganización y la dependencia de registros manuales (Excel, cuadernos).
+
+*   **Oportunidades de Mejora Críticas:** Se identificaron dos áreas principales para futuras mejoras:
+    1.  **Reportes Avanzados:** Fuerte interés en la incorporación de **reportes de rendimiento productivo** (ej. litros de leche, ganancia de peso) para facilitar la toma de decisiones.
+    2.  **Alertas Automáticas:** Solicitud de un sistema de **alertas automáticas** más robusto para vacunas y revisiones veterinarias, considerándolo un diferenciador clave.
+
+*   **Funcionalidad Ausente (Gap):** La entrevistada señaló la falta de un módulo para **registrar gastos y costos de producción**, una funcionalidad que considera esencial para un control económico completo de la operación ganadera.
+
+*   **Feedback de Usabilidad:** Aunque la interfaz es mayormente intuitiva, hubo una curva de aprendizaje inicial para tareas como **editar registros antiguos o mover animales entre establos**.
+
+
+---
+
+#### **Entrevista #3**
+
+| Detalle | Información |
+| :--- | :--- |
+|  **Entrevistado** | `[Nombre Completo del Entrevistado]` |
+|  **Edad** | `[Edad]` |
+|  **Rol / Experiencia** | `[Ej: Ganadero con 10 años de experiencia]` |
+| **Fecha de Entrevista** | `[DD/MM/AAAA]` |
+|  **Duración** | `[HH:MM:SS]` |
+|  **Tecnologías Usadas** | `[Ej: Google Meet, Zoom, Grabadora de voz]` |
+|  **Enlace a Grabación** | `[Pega aquí el enlace al video o audio de la entrevista]` |
+
+<br>
+
+**Evidencia de la Entrevista:**
+
+
+`![Evidencia Entrevista 1](assets/entrevista_1.png)`
+
+<br>
+
+**Resumen de Hallazgos Clave:**
+
+
+---
+
+#### **Entrevista #4**
+
+| Detalle | Información |
+| :--- | :--- |
+|  **Entrevistado** | `[Nombre Completo del Entrevistado]` |
+|  **Edad** | `[Edad]` |
+|  **Rol / Experiencia** | `[Ej: Ganadero con 10 años de experiencia]` |
+| **Fecha de Entrevista** | `[DD/MM/AAAA]` |
+|  **Duración** | `[HH:MM:SS]` |
+|  **Tecnologías Usadas** | `[Ej: Google Meet, Zoom, Grabadora de voz]` |
+|  **Enlace a Grabación** | `[Pega aquí el enlace al video o audio de la entrevista]` |
+
+<br>
+
+**Evidencia de la Entrevista:**
+
+
+`![Evidencia Entrevista 1](assets/entrevista_1.png)`
+
+<br>
+
+**Resumen de Hallazgos Clave:**
+
+
+---
+
+#### **Entrevista #5**
+
+| Detalle | Información |
+| :--- | :--- |
+|  **Entrevistado** | `[Nombre Completo del Entrevistado]` |
+|  **Edad** | `[Edad]` |
+|  **Rol / Experiencia** | `[Ej: Ganadero con 10 años de experiencia]` |
+| **Fecha de Entrevista** | `[DD/MM/AAAA]` |
+|  **Duración** | `[HH:MM:SS]` |
+|  **Tecnologías Usadas** | `[Ej: Google Meet, Zoom, Grabadora de voz]` |
+|  **Enlace a Grabación** | `[Pega aquí el enlace al video o audio de la entrevista]` |
+
+<br>
+
+**Evidencia de la Entrevista:**
+
+
+`![Evidencia Entrevista 1](assets/entrevista_1.png)`
+
+<br>
+
+**Resumen de Hallazgos Clave:**
+
+
+---
+
+#### **Entrevista #6**
+
+| Detalle | Información |
+| :--- | :--- |
+|  **Entrevistado** | `[Nombre Completo del Entrevistado]` |
+|  **Edad** | `[Edad]` |
+|  **Rol / Experiencia** | `[Ej: Ganadero con 10 años de experiencia]` |
+| **Fecha de Entrevista** | `[DD/MM/AAAA]` |
+|  **Duración** | `[HH:MM:SS]` |
+|  **Tecnologías Usadas** | `[Ej: Google Meet, Zoom, Grabadora de voz]` |
+|  **Enlace a Grabación** | `[Pega aquí el enlace al video o audio de la entrevista]` |
+
+<br>
+
+**Evidencia de la Entrevista:**
+
+
+`![Evidencia Entrevista 1](assets/entrevista_1.png)`
+
+<br>
+
+**Resumen de Hallazgos Clave:**
+
+
+---
+
+
 ### 6.3.3. Evaluaciones según heurísticas
+
 
 ### 6.4. Auditoría de Experiencias de Usuario
 
 ### 6.4.1. Auditoría realizada
 
-#### 6.4.1.1. Información del grupo auditado
+El equipo **Vacow Team**, en su rol de auditores internos UX dentro de la iteración TB2, ejecutó una auditoría enfocada en **Experiencia de Usuario (UX)** y **usabilidad** aplicada sobre el informe, documentación y evidencias técnicas del proyecto *TukunTech*.  
+El objetivo fue identificar puntos críticos que afectan la lectura del documento, la consistencia visual y la claridad narrativa desde el punto de vista evaluador (comité docente), especialmente al momento de exportación final a PDF.
 
-#### 6.4.1.2. Cronograma de auditoría realizada
+Esta auditoría se alineó con criterios de evaluación del flujo de información, claridad visual, trazabilidad de evidencias y adecuación de artefactos al estándar de entrega.
 
-#### 6.4.1.3. Contenido de auditoría realizada
+#### Componentes evaluados
+
+| Área evaluada | Elementos |
+|----------------|-----------|
+| Documento raíz | `README.md` (estructura, orden, legibilidad, jerarquías H1–H4, nivel de limpieza) |
+| Recursos visuales | `/assets` (nomenclatura, referencias en Markdown, peso y resolución de imágenes) |
+| Evidencias técnicas | Screenshots, endpoints verificados, Swagger, links de despliegue |
+| Secciones técnicas | Testing, CI/CD, despliegue, integración y documentación técnica |
+
+#### Alcance
+
+- Documento principal `README.md`
+- Carpeta de recursos `/assets`  
+- Enlaces de despliegue (frontend y backend)
+- Evidencias de pruebas funcionales (pantallas de test, Swagger, endpoints)
+- Pipeline CI/CD presentado
+
+#### Metodología
+
+- **Inspección heurística** (Nielsen Norman)
+- **Revisión documental** por consistencia estructural y narrativa
+- **Validación de enlaces** y recursos embebidos
+- **Pruebas rápidas de renderizado y exportación** a PDF
+
+#### Herramientas utilizadas
+
+- Google Chrome (pruebas de visualización y renderizado)
+- Visual Studio Code (revisión y limpieza de Markdown)
+- Figma (comparación con prototipos entregados)
+- Swagger UI / Postman (verificación de endpoints)
+- Exportador PDF (control de formato A4/Letter y legibilidad final)
+
+#### Fechas de ejecución
+
+**08/11/2025 – 10/11/2025**
+
+#### Equipo auditor – Vacow Team
+
+- **Maycol Jhordan Rojas Velásquez** — U202219984 — Auditor líder UI/UX  
+- **Stephano Espinoza Cueva** — U202218590 — Auditor Frontend / validación de prototipos  
+- **Rodrigo Liberato Saldaña** — U202215623 — Auditor Backend / validación técnica y evidencias  
+
+---
+
+### 6.4.1.2. Cronograma de ejecución de auditoría
+
+| Fecha       | Actividad                                                                                                   | Responsable (Vacow Auditoría)    |
+|-------------|-------------------------------------------------------------------------------------------------------------|----------------------------------|
+| 08/11/2025  | Revisión de carátula, tabla de contenidos y jerarquías del `README`; análisis de formato y errores de PDF   | **Maycol Rojas**                 |
+| 09/11/2025  | Evaluación heurística de flujos funcionales (login, dashboard) y validación de enlaces activos              | **Stephano Espinoza**            |
+| 10/11/2025  | Consolidación de hallazgos, priorización de correcciones y elaboración del informe de recomendaciones UX-TB2 | **Rodrigo Liberato**             |
+
+---
+
+> **Nota:** La auditoría UX realizada por *Vacow Team* permitió identificar oportunidades de mejora en la estructura del documento y la presentación de evidencias técnicas, garantizando coherencia visual, accesibilidad y trazabilidad entre los artefactos entregados y la experiencia final del evaluador.
+
+
+### 6.4.1.3. Contenido de auditoría realizada
+
+**SITE / APP evaluado:** TukunTech — Aplicación orientada al monitoreo y lectura rápida del estado de salud de un paciente adulto mediante indicadores de signos vitales.
+
+---
+
+**TAREAS EVALUADAS (flujos principales de la APP):**
+
+1. Registro de usuario (paciente / familiar)
+2. Visualización del estado de salud actual en pantalla principal
+3. Interpretación del riesgo mediante colores (verde / azul / rojo)
+4. Visualización de histórico de mediciones
+5. Visualización de información complementaria (contexto / explicación)
+6. Navegación entre vistas básicas de la aplicación
+
+**TAREAS NO INCLUIDAS EN ESTA AUDITORÍA:**
+
+1. Ajustes avanzados de parámetros médicos
+2. Integración con wearables externos
+3. Gestión multi–paciente
+4. Configuración de notificaciones push
+
+---
+
+**ESCALA DE SEVERIDAD USADA:**
+
+| Nivel | Descripción |
+|-------|-------------|
+| 1 | Observación leve — no afecta la experiencia general |
+| 2 | Oportunidad de mejora — podría optimizar la claridad |
+| 3 | Mejora importante — facilita comprensión de usuario |
+
+---
+
+### TABLA RESUMEN DE OBSERVACIONES
+
+| # | Observación relacionada a la APP | Severidad | Principio relacionado |
+|---|----------------------------------|-----------|-----------------------|
+| 1 | La app se basa en colores para representar el estado del paciente, podría ser útil acompañar este indicador con una breve leyenda textual debajo para reforzar significado. | 2 | Reconocer antes que recordar |
+| 2 | Sería beneficioso incluir un “estado previo reciente” al lado del estado actual para facilitar comparación rápida. | 2 | Contexto de uso |
+| 3 | El flujo de navegación entre pantallas podría incluir un indicador visual del paso actual (por ejemplo: “inicio / histórico”) para orientar mejor al usuario. | 2 | Mapeo conceptual |
+| 4 | En el historial sería útil resaltar valores fuera de rango para priorizar atención visual inmediata. | 3 | Visibilidad de información crítica |
+| 5 | La pantalla principal podría incluir un acceso directo al historial de alertas sin tener que pasar por más pantallas. | 2 | Minimizar esfuerzo del usuario |
+
+---
+
+### EJEMPLO DE OBSERVACIÓN DETALLADA
+
+**Observación #4 — resaltado de valores fuera de rango**
+
+**Severidad:** 3  
+**Principio:** Visibilidad de información crítica
+
+**Comentario:**  
+La información del historial es útil pero podría destacar visualmente los datos en riesgo para que el usuario identifique rápidamente cuando hubo episodios relevantes.
+
+**Recomendación:**  
+Resaltar con color o icono los valores fuera del rango normal para acelerar el reconocimiento visual del riesgo.
 
 ### 6.4.2. Auditoría recibida
 
 #### 6.4.2.1. Información del grupo auditor
 
+Se recibió auditoría de Experiencia de Usuario (UX) por parte del **Grupo 4**, quienes realizaron una evaluación orientada a validar la claridad del documento, la correcta jerarquización de secciones, así como la coherencia entre evidencias anexas y el flujo funcional presentado dentro del README y la documentación de entrega.
+
+El alcance del grupo 4 incluyó:
+
+- Revisión de la estructura general del documento principal (README.md)
+- Validación del orden lógico y jerarquías H1-H4
+- Validación visual de imágenes / capturas funcionales
+- Evaluación UX de navegación y lectura narrativa
+- Revisión del acceso a evidencias técnicas (endpoints / despliegues)
+- Observación general de consistencia entre prototipo UI y documentación final
+
+**Fecha de auditoría recibida:** **09/11/2025**
+
+| Integrante | Código | Rol |
+|------------|--------|-----|
+| **Palomares Chavez Adriana** | u20201f723 | Líder |
+| **Soto Zorrilla Oscar Eduardo** | U201811767 | Integrante |
+| **Maraza Penemonte Erick** | u202213372 | Integrante |
+
+
 #### 6.4.2.2. Cronograma de auditoría recibida
+
+| Fecha | Actividad ejecutada | Responsable (Grupo 4) | Detalle de lo realizado |
+|-------|---------------------|------------------------|--------------------------|
+| 08/11/2025 | Revisión documental del README y análisis de jerarquía de secciones | Palomares Chavez Adriana | Analizó estructura global del documento y su alineación con los criterios requeridos para la entrega TB2 |
+| 09/11/2025 | Evaluación heurística UX sobre navegación y visualización de evidencias | Soto Zorrilla Oscar Eduardo | Validó el flujo funcional (login → dashboard) y la coherencia entre prototipos y capturas presentadas como evidencia |
+| 10/11/2025 | Consolidación de observaciones y retroalimentación al equipo Vacow Team | Maraza Penemonte Erick | Sintetizó los hallazgos detectados y formalizó la retroalimentación enviada al equipo para las iteraciones de mejora antes del cierre TB2 |
+
 
 #### 6.4.2.3. Contenido de auditoría recibida
 
-#### 6.4.2.4. Resumen de modificaciones para subsanar hallazgos
+![Evidencia Entrevista 1](assets/auditoriarecibida.jpg)
 
+#### 6.4.2.4. Resumen de modificaciones para subsanar hallazgos
+A partir de los problemas detectados durante la auditoría heurística, se proponen las siguientes acciones correctivas con el fin de mejorar la comprensibilidad, coherencia visual y consistencia estructural del sistema. Las recomendaciones están orientadas a optimizar la arquitectura de información bajo el principio heurístico “Is it understandable?”, garantizando una experiencia de usuario más clara, accesible y uniforme.
+
+| #     | Problema                                                                                                                                                                 | Subsanación                                                                                                                                                                                                                                                                                                                                                          |
+| ----- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **1** | **Ambigüedad en íconos representativos.** Algunos íconos no son claros respecto a la acción o módulo que representan (por ejemplo, el ícono de gestión y bovinos).       | Reemplazar los íconos poco representativos por otros más intuitivos y estandarizados.Implementar una biblioteca de íconos consistente, preferiblemente basada en convenciones del dominio agropecuario y veterinario. Además, incluir etiquetas o tooltips descriptivos para reforzar la comprensión inmediata del usuario. |
+| **2** | **Inconsistencia en el uso de íconos.** Se utilizan diferentes íconos para una misma acción (por ejemplo, una jeringa y un botiquín para representar vacunas).           | Unificar la representación visual mediante una guía de estilo o sistema de diseño UI que establezca la correspondencia entre acciones y símbolos. Esto permitirá mantener coherencia semántica y visual entre pantallas, evitando confusión y reforzando el aprendizaje visual del usuario.                                                                  |
+| **3** | **Sobrecarga y falta de coherencia en la paleta de colores.** En la pantalla Personal, el botón *Agregar* es azul mientras que en otras pantallas es verde.              | Estandarizar la paleta cromática principal y secundaria en todas las vistas. Se sugiere desarrollar un manual de identidad visual que defina los colores funcionales (acciones primarias, secundarias, estados del sistema) para asegurar consistencia visual y fortalecer la identidad de marca de la aplicación.                                           |
+| **4** | **Problemas de contraste en elementos clave.** Algunos textos se presentan sobre fondos verde lima o crema, dificultando la legibilidad en distintas condiciones de luz. | Ajustar los contrastes de color conforme a las pautas de accesibilidad WCAG 2.1 (nivel AA). Se recomienda probar combinaciones de colores con herramientas de contraste y aplicar paletas accesibles que garanticen la legibilidad a usuarios con deficiencias visuales o en entornos con iluminación variable.                                              |
+| **5** | **Inconsistencia en la navegación móvil.** Se identificó falta de uniformidad entre secciones (menú inferior en algunas vistas y menú lateral en otras).                 | Unificar el patrón de navegación principal en toda la aplicación, preferentemente mediante una barra inferior fija con íconos e indicadores activos. Asimismo, mantener la misma ubicación y comportamiento del menú en todas las pantallas, asegurando predictibilidad y continuidad cognitiva en la interacción del usuario.                           |
+
+
+Las modificaciones propuestas buscan reforzar la arquitectura de información y la consistencia visual del sistema, promoviendo una experiencia más comprensible, accesible y coherente. La aplicación de estas mejoras permitirá reducir la carga cognitiva del usuario, mejorar la eficiencia en la interacción y facilitar la navegación en distintos contextos de uso (móvil y escritorio).
 
 ## Capítulo VII: DevOps Practices
 
