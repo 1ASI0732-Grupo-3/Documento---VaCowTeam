@@ -5937,7 +5937,104 @@ Las herramientas seleccionadas deben considerar aspectos culturales específicos
 
 #### 8.2.7. Data Analytics: Goals, KPIs and Metrics Selection
 
+#### Introducción a la Medición
+
+Para medir el éxito de VacApp, es fundamental establecer una jerarquía de medición que conecte las acciones del usuario con los objetivos estratégicos del proyecto. Este plan se estructura en tres niveles:
+
+1.  **Goals (Objetivos):** Las metas de alto nivel que el negocio busca alcanzar.
+2.  **KPIs (Key Performance Indicators):** Los indicadores clave que miden el progreso hacia esos objetivos.
+3.  **Metrics (Métricas):** Los puntos de datos específicos y cuantificables que componen los KPIs.
+
+Los objetivos de negocio de VacApp, identificados en el *Impact Mapping* del proyecto, son la base de este análisis:
+
+* **Adopción (Empresas):** Implementar VacApp en al menos 20 empresas en los primeros 6 meses.
+* **Eficiencia (Empresas):** Lograr una mejora del 30% en la eficiencia operativa de las empresas ganaderas.
+* **Rentabilidad (Independientes):** Asegurar la rentabilidad del 90% de ganaderos independientes en su primer año de uso.
+
+A continuación, se define el framework de KPIs y Métricas para medir estos objetivos.
+
+#### 1. KPIs de Adquisición
+
+**Objetivo (Goal):** Atraer a los segmentos objetivo (Ganaderos Independientes y Empresas Ganaderas) y convertirlos en usuarios registrados.
+
+| KPI (Key Performance Indicator) | Métricas Clave (Metrics) | Plataforma(s) |
+| :--- | :--- | :--- |
+| **Tasa de Conversión (Visitante a Usuario)** | * Nº de Visitantes Únicos a la Landing Page y App Stores. <br> * Nº de Descargas de la aplicación móvil. <br> * Nº de Registros Completados (`signup_completed`). | Landing Page, Web App, Móvil |
+| **Costo de Adquisición de Cliente (CAC)** | * Costo total de marketing y ventas. <br> * Nº de nuevos clientes adquiridos. | N/A (Financiero) |
+
+#### 2. KPIs de Activación
+
+**Objetivo (Goal):** Lograr que los nuevos usuarios experimenten el valor central de VacApp, validando la hipótesis de facilidad de uso.
+
+| KPI (Key Performance Indicator) | Métricas Clave (Metrics) | Plataforma(s) |
+| :--- | :--- | :--- |
+| **Tasa de Activación (Onboarding)** | * Nº de usuarios que completan el registro. <br> * Nº de usuarios que registran al menos 1 animal (Meta: 70%). <br> * Tiempo promedio desde el registro hasta el primer animal añadido. | Web App, Móvil |
+| **Tasa de Completitud del Perfil** | * Nº de usuarios que configuran su perfil inicial (ej. datos de la granja). | Web App, Móvil |
+
+#### 3. KPIs de Retención y Valor
+
+**Objetivo (Goal):** Asegurar que los usuarios regresen y utilicen las funciones clave que generan eficiencia y valor.
+
+| KPI (Key Performance Indicator) | Métricas Clave (Metrics) | Plataforma(s) |
+| :--- | :--- | :--- |
+| **Tasa de Retención de Usuarios** | * Usuarios Activos Diarios (DAU). <br> * Usuarios Activos Mensuales (MAU). <br> * Proporción DAU/MAU (Nivel de "pegajosidad" o *stickiness*). | Web App, Móvil |
+| **Adopción de Funciones Clave** | * % de usuarios que utilizan funciones de salud, alimentación y reproducción (Meta: 70% del uso total). <br> * % de usuarios que registran vacunas (Adopción de `EP001`). <br> * % de usuarios que crean campañas (Adopción de `EP003`). | Web App, Móvil |
+| **Validación de Hipótesis (Rural)** | * % de usuarios que activan el modo sin conexión (Meta: 60% semanal). | Móvil |
+
+#### 4. KPIs de Monetización
+
+**Objetivo (Goal):** Medir la viabilidad financiera y la conversión a planes de pago para asegurar la rentabilidad.
+
+| KPI (Key Performance Indicator) | Métricas Clave (Metrics) | Plataforma(s) |
+| :--- | :--- | :--- |
+| **Tasa de Conversión (Free a Premium)** | * Nº de usuarios en plan "Free". <br> * Nº de usuarios en plan "Premium". <br> * % de usuarios "Free" que se convierten a "Premium". | Web App, Móvil |
+| **Tasa de Abandono (Churn Rate)** | * % de usuarios "Premium" que cancelan su suscripción por mes. | N/A (Financiero) |
+
+---
+
 #### 8.2.8. Web and Mobile Tracking Plan
+
+#### Introducción al Plan de Tracking
+
+El *Tracking Plan* (Plan de Seguimiento) es el documento técnico que implementa la estrategia de analítica. Define los eventos específicos que deben ser capturados en las plataformas de VacApp (Landing Page, Web App y Aplicaciones Móviles) para alimentar las métricas y KPIs definidos en la sección 8.2.7.
+
+* **Plataformas:** Landing Page (Netlify), Aplicación Web (Firebase) y Aplicaciones Móviles (Flutter para iOS/Android).
+* **Convención de Nombres:** Los eventos se nombran en `snake_case` (ej. `item_added`) para mantener la consistencia.
+
+#### 1. Eventos de Adquisición (Landing Page)
+
+Plataforma: vacapp LandingPage
+
+| Evento | Disparador (Trigger) | Parámetros Relevantes | KPI Relacionado |
+| :--- | :--- | :--- | :--- |
+| `page_view` | Un usuario visita cualquier página de la landing. | `page_url` (ej. /precios, /features) <br> `utm_source` (ej. facebook, google) | Tasa de Conversión |
+| `cta_click` | Clic en un botón principal de llamada a la acción. | `button_name` (ej. "Empezar", "Choose Plan", "Get App") | Tasa de Conversión |
+
+#### 2. Eventos de Onboarding (Web y Móvil)
+
+Plataformas: Web App y Móvil.
+
+| Evento | Disparador (Trigger) | Parámetros Relevantes | KPI Relacionado |
+| :--- | :--- | :--- | :--- |
+| `signup_started` | Usuario llega a la pantalla de "Sign Up". | `platform` (web, ios, android) | Tasa de Conversión |
+| `signup_completed` | Usuario completa el formulario de registro y verifica la cuenta. | `auth_method` (Email, Google, Outlook) | Tasa de Conversión |
+| `login_completed` | Usuario inicia sesión exitosamente. | `auth_method` | Tasa de Retención |
+| `plan_selected` | Usuario escoge un plan en la pantalla "Plans". | `plan_name` ("Free", "Premium") | Tasa de Conversión (Monetización) |
+
+#### 3. Eventos de Funcionalidad Core (Web y Móvil)
+
+Estos eventos miden la adopción de las funciones clave (Epics) definidas en el proyecto.
+
+| Evento | Disparador (Trigger) | Epic / User Story Relacionado | KPI Relacionado |
+| :--- | :--- | :--- | :--- |
+| `animal_added` | Usuario registra un nuevo bovino. | `EP002: Registrar Ganado` | Tasa de Activación |
+| `vaccine_added` | Usuario registra una nueva vacuna. | `EP001: Registrar Vacuna` | Adopción de Funciones Clave |
+| `campaign_added` | Usuario crea una nueva campaña. | `EP003: Registrar Campaña` | Adopción de Funciones Clave |
+| `staff_added` | Usuario (Empresa) registra un nuevo empleado. | `EP004: Registrar Personal` | Adopción de Funciones Clave |
+| `inventory_item_added` | Usuario añade un producto al inventario. | "Inventory Management" | Adopción de Funciones Clave |
+| `report_viewed` | Usuario genera o consulta un reporte. | "Automated Reports" | Adopción de Funciones Clave |
+| `reminder_viewed` | Usuario interactúa con un recordatorio. | "Smart Reminders" | Tasa de Retención |
+| `offline_mode_activated` | Usuario activa o utiliza el modo sin conexión. | Hipótesis (Zonas rurales) | Validación de Hipótesis |
 
 ### 8.3. Experimentation
 
