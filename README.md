@@ -4085,25 +4085,29 @@ Los registros han sido muy utiles para los ganaderos ya que permitieron hacer me
 
 | Detalle                 | Información                                               |
 | :---------------------- | :-------------------------------------------------------- |
-| **Entrevistado**        | `[Nombre Completo del Entrevistado]`                      |
-| **Edad**                | `[Edad]`                                                  |
-| **Rol / Experiencia**   | `[Ej: Ganadero con 10 años de experiencia]`               |
-| **Fecha de Entrevista** | `[DD/MM/AAAA]`                                            |
-| **Duración**            | `[HH:MM:SS]`                                              |
-| **Tecnologías Usadas**  | `[Ej: Google Meet, Zoom, Grabadora de voz]`               |
-| **Enlace a Grabación**  | `[Pega aquí el enlace al video o audio de la entrevista]` |
+| **Entrevistado**        | Renzo Castañeda Loayza                      |
+| **Edad**                | 22                                                  |
+| **Rol / Experiencia**   | Ganadero Independiente              |
+| **Fecha de Entrevista** | 12/11/2025                                            |
+| **Duración**            | 8:12 mins                                              |
+| **Tecnologías Usadas**  | Zoom               |
+| **Enlace a Grabación**  | https://upcedupe-my.sharepoint.com/:v:/g/personal/u202121325_upc_edu_pe/EZMAAYof2fBLsXWsxI7whHcB6UQ2_LPfrVtTC5W-G1VPRg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=8gHDH  |
 
 <br>
 
 **Evidencia de la Entrevista:**
 
-`![Evidencia Entrevista 1](assets/entrevista_1.png)`
+![Evidencia Entrevista 1](assets/entrevista_ian2.png)
 
 <br>
 
 **Resumen de Hallazgos Clave:**
 
----
+- **Feedback Positivo sobre Funcionalidad:** Renzo confirmó que el sistema de alertas y registro de eventos (similar a las alertas de temperatura de su minimarket) funcionó correctamente. Validó que pudo ingresar los datos de sanidad y movimientos del ganado sin fallos. El hecho de que la aplicación no le diera errores le genera confianza, que es su principal garantía para evitar pérdidas inesperadas por enfermedad o falta de trazabilidad.
+
+- **Oportunidad de Mejora en la Interfaz (UI):** A pesar de la funcionalidad, Renzo, como usuario que prioriza lo "fácil de usar", encontró que el menú principal es "demasiado denso". Indicó que para él, la simplicidad es clave: "Si tengo que buscar mucho, me da la sensación de que es lento". Este hallazgo subraya la necesidad de simplificar la jerarquía visual y reducir la curva de aprendizaje, alineándose con su deseo de una herramienta accesible.
+
+- **Solicitud de Nuevas Funcionalidades (Reportes):** EEl punto de mayor valor para Renzo fue la solicitud de reportes detallados de consumo de alimento y ganancia de peso. Para él, saber cuánto invierte ($$) y cuánto rinde (peso) es la garantía de que la herramienta reduce sus pérdidas operativas. Expresó que "poder ver el historial del alimento que come y el peso que gana" es la herramienta clave para la toma de decisiones y lo que justificaría el pago de una suscripción.
 
 #### **Entrevista #5**
 
@@ -4121,7 +4125,7 @@ Los registros han sido muy utiles para los ganaderos ya que permitieron hacer me
 
 **Evidencia de la Entrevista:**
 
-`![Evidencia Entrevista 1](assets/entrevista_1.png)`
+![Evidencia Entrevista 1](assets/entrevista_1.png)
 
 <br>
 
