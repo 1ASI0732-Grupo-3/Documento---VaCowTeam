@@ -4133,24 +4133,27 @@ Los registros han sido muy utiles para los ganaderos ya que permitieron hacer me
 #### **Entrevista #4**
 
 | Detalle                 | Información                                               |
-| :---------------------- | :-------------------------------------------------------- |
-| **Entrevistado**        | `[Nombre Completo del Entrevistado]`                      |
-| **Edad**                | `[Edad]`                                                  |
-| **Rol / Experiencia**   | `[Ej: Ganadero con 10 años de experiencia]`               |
-| **Fecha de Entrevista** | `[DD/MM/AAAA]`                                            |
-| **Duración**            | `[HH:MM:SS]`                                              |
-| **Tecnologías Usadas**  | `[Ej: Google Meet, Zoom, Grabadora de voz]`               |
-| **Enlace a Grabación**  | `[Pega aquí el enlace al video o audio de la entrevista]` |
+| :---------------------- |:----------------------------------------------------------|
+| *Entrevistado*        | ⁠ Hannah Michelle Schuler ⁠                                 |
+| *Edad*                | ⁠ 19 ⁠                                                      |
+| *Rol / Experiencia*   | ⁠ Estudiante en Zootecnia ⁠                                 |
+| *Fecha de Entrevista* | ⁠ 10/11/2025 ⁠                                              |
+| *Duración*            | ⁠ 00:06:02 ⁠                                                |
+| *Tecnologías Usadas*  | Presencial ⁠                                              |
+| *Enlace a Grabación*  | ⁠ https://drive.google.com/file/d/1RWJarEu7_fvK-3El7pgMClWlE6aoSoMp/view?usp=sharing ⁠ |
 
 <br>
 
-**Evidencia de la Entrevista:**
+*Evidencia de la Entrevista:*
 
-`![Evidencia Entrevista 1](assets/entrevista_1.png)`
+![entrevista4.jpg](assets/entrevalidation4.jpg)
 
 <br>
 
 **Resumen de Hallazgos Clave:**
+
+Las funciones centrales de gestión de bovinos y el seguimiento de vacunaciones están siendo altamente valoradas por el usuario, ya que resuelven el problema principal de reemplazar los registros manuales y de Excel, permitiendo medir un ahorro de tiempo real y una reducción de errores. Sin embargo, aunque estos registros son útiles, el usuario percibe que la plataforma podría fácilmente expandirse para incluir otras métricas críticas que actualmente están ausentes, como un módulo completo de gestión reproductiva (celo, gestación) y reportes gráficos automáticos sobre la producción. 
+Adicionalmente, se reportó que ciertas áreas de la plataforma, como la sección de "Ajustes", no son lo suficientemente claras al inicio, requiriendo que el usuario explore para entender su funcionamiento, lo que genera una fricción inicial al intentar personalizar la herramienta.
 
 ---
 
