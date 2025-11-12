@@ -4063,7 +4063,7 @@ A continuación, se documentan las entrevistas de validación realizadas con usu
 | **Fecha de Entrevista** | 11/11/2025                                                                                                                                                                                                                                                                                                                                         |
 | **Duración**            | 05:06 minutos                                                                                                                                                                                                                                                                                                                                      |
 | **Tecnologías Usadas**  | Zoom                                                                                                                                                                                                                                                                                                                                               |
-| **Enlace a Grabación**  | [EntrevistaSantiago](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202215623_upc_edu_pe/IQAiIS_4fwg9R4pWxid8sXCDAf_YKejgOdQNBA4lhBeMnJE?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=NkW7wC) |
+| **Enlace a Grabación**  | `https://upcedupe-my.sharepoint.com/:v:/g/personal/u202215623_upc_edu_pe/IQAiIS_4fwg9R4pWxid8sXCDAf_YKejgOdQNBA4lhBeMnJE?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=NkW7wC `|
 
 <br>
 
@@ -4082,6 +4082,33 @@ Los registros han sido muy utiles para los ganaderos ya que permitieron hacer me
 ---
 
 #### **Entrevista #4**
+
+| Detalle                 | Información                                               |
+| :---------------------- |:----------------------------------------------------------|
+| *Entrevistado*        | ⁠ Hannah Michelle Schuler ⁠                                 |
+| *Edad*                | ⁠ 19 ⁠                                                      |
+| *Rol / Experiencia*   | ⁠ Estudiante en Zootecnia ⁠                                 |
+| *Fecha de Entrevista* | ⁠ 10/11/2025 ⁠                                              |
+| *Duración*            | ⁠ 00:06:02 ⁠                                                |
+| *Tecnologías Usadas*  | Presencial ⁠                                              |
+| *Enlace a Grabación*  | ⁠ https://drive.google.com/file/d/1RWJarEu7_fvK-3El7pgMClWlE6aoSoMp/view?usp=sharing ⁠ |
+
+<br>
+
+*Evidencia de la Entrevista:*
+
+![entrevista4.jpg](assets/entrevalidation4.jpg)
+
+<br>
+
+**Resumen de Hallazgos Clave:**
+
+Las funciones centrales de gestión de bovinos y el seguimiento de vacunaciones están siendo altamente valoradas por el usuario, ya que resuelven el problema principal de reemplazar los registros manuales y de Excel, permitiendo medir un ahorro de tiempo real y una reducción de errores. Sin embargo, aunque estos registros son útiles, el usuario percibe que la plataforma podría fácilmente expandirse para incluir otras métricas críticas que actualmente están ausentes, como un módulo completo de gestión reproductiva (celo, gestación) y reportes gráficos automáticos sobre la producción. 
+Adicionalmente, se reportó que ciertas áreas de la plataforma, como la sección de "Ajustes", no son lo suficientemente claras al inicio, requiriendo que el usuario explore para entender su funcionamiento, lo que genera una fricción inicial al intentar personalizar la herramienta.
+
+---
+
+#### **Entrevista #5**
 
 | Detalle                 | Información                                               |
 | :---------------------- | :-------------------------------------------------------- |
@@ -4108,28 +4135,6 @@ Los registros han sido muy utiles para los ganaderos ya que permitieron hacer me
 - **Oportunidad de Mejora en la Interfaz (UI):** A pesar de la funcionalidad, Renzo, como usuario que prioriza lo "fácil de usar", encontró que el menú principal es "demasiado denso". Indicó que para él, la simplicidad es clave: "Si tengo que buscar mucho, me da la sensación de que es lento". Este hallazgo subraya la necesidad de simplificar la jerarquía visual y reducir la curva de aprendizaje, alineándose con su deseo de una herramienta accesible.
 
 - **Solicitud de Nuevas Funcionalidades (Reportes):** EEl punto de mayor valor para Renzo fue la solicitud de reportes detallados de consumo de alimento y ganancia de peso. Para él, saber cuánto invierte ($$) y cuánto rinde (peso) es la garantía de que la herramienta reduce sus pérdidas operativas. Expresó que "poder ver el historial del alimento que come y el peso que gana" es la herramienta clave para la toma de decisiones y lo que justificaría el pago de una suscripción.
-
-#### **Entrevista #5**
-
-| Detalle                 | Información                                               |
-| :---------------------- | :-------------------------------------------------------- |
-| **Entrevistado**        | `[Nombre Completo del Entrevistado]`                      |
-| **Edad**                | `[Edad]`                                                  |
-| **Rol / Experiencia**   | `[Ej: Ganadero con 10 años de experiencia]`               |
-| **Fecha de Entrevista** | `[DD/MM/AAAA]`                                            |
-| **Duración**            | `[HH:MM:SS]`                                              |
-| **Tecnologías Usadas**  | `[Ej: Google Meet, Zoom, Grabadora de voz]`               |
-| **Enlace a Grabación**  | `[Pega aquí el enlace al video o audio de la entrevista]` |
-
-<br>
-
-**Evidencia de la Entrevista:**
-
-![Evidencia Entrevista 1](assets/entrevista_1.png)
-
-<br>
-
-**Resumen de Hallazgos Clave:**
 
 ---
 
