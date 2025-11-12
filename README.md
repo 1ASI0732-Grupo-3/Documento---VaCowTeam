@@ -52,12 +52,13 @@
 
 # Registro de Versiones del Informe
 
-| **Versión** | **Fecha** | **Autor**                                                                                                                                                                                    | **Descripción de modificación**                                                                                                                                                                                 |
-| ----------- | --------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **TB1**     | 20/09/25  | Saldana, Rodrigo Liberato (U202215623), Macavilca Quispe, Ian (U202121325), Rojas Velasquez, Maycol (U202219984), Espinoza Cueva, Stephano (U202218590), Paucar Meneses, Jeremy (U201919449) | Capítulo I: Introducción, Capítulo II: Requirements Elicitation & Analysis, Capítulo III: Requirements Specification, Capítulo IV: Product Design y Capítulo V: Product Implementation, Validation & Deployment |
-| **TP**     | 06/10/25  | Saldana, Rodrigo Liberato (U202215623), Macavilca Quispe, Ian (U202121325), Rojas Velasquez, Maycol (U202219984), Espinoza Cueva, Stephano (U202218590), Paucar Meneses, Jeremy (U201919449) | Capítulo VI: Product Verification & Validation,Capítulo VI: Product Verification & Validation, Capítulo VI: DevOps Practices |
-| **TB2**     | 12/10/2025  | Saldana, Rodrigo Liberato (U202215623), Macavilca Quispe, Ian (U202121325), Rojas Velasquez, Maycol (U202219984), Espinoza Cueva, Stephano (U202218590), Paucar Meneses, Jeremy (U201919449) |Capítulo VI: Product Verification & Validation (6.1 Testing Suites & Validation; 6.2 Static testing & Verification: 6.2.1 Static Code Analysis — 6.2.1.1 Coding standard & Code conventions; 6.2.1.2 Code Quality & Code Security; 6.2.2 Reviews; 6.3 Validation Interviews — 6.3.1 Diseño de entrevistas; 6.3.2 Registro de Entrevistas; 6.3.3 Evaluaciones según heurísticas; 6.4 Auditoría de Experiencias de Usuario — 6.4.1 Auditoría realizada (información del grupo auditado, cronograma, contenido) y 6.4.2 Auditoría recibida (información del grupo auditor, cronograma, contenido, resumen de modificaciones)). Además se incluyen Capítulo VII: DevOps Practices (CI, CD, Continuous Deployment, Continuous Monitoring — herramientas, pipelines y componentes) y Capítulo VIII: Experiment-Driven Development (Experiment Planning, Experiment Design y Experimentation con To‑Be User Stories y Product Backlog). |
+| **Versión** | **Fecha**  | **Autor**                                                                                                                                                                                    | **Descripción de modificación**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
+| ----------- | ---------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **TB1**     | 20/09/25   | Saldana, Rodrigo Liberato (U202215623), Macavilca Quispe, Ian (U202121325), Rojas Velasquez, Maycol (U202219984), Espinoza Cueva, Stephano (U202218590), Paucar Meneses, Jeremy (U201919449) | Capítulo I: Introducción, Capítulo II: Requirements Elicitation & Analysis, Capítulo III: Requirements Specification, Capítulo IV: Product Design y Capítulo V: Product Implementation, Validation & Deployment                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
+| **TP**      | 06/10/25   | Saldana, Rodrigo Liberato (U202215623), Macavilca Quispe, Ian (U202121325), Rojas Velasquez, Maycol (U202219984), Espinoza Cueva, Stephano (U202218590), Paucar Meneses, Jeremy (U201919449) | Capítulo VI: Product Verification & Validation,Capítulo VI: Product Verification & Validation, Capítulo VI: DevOps Practices                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
+| **TB2**     | 12/10/2025 | Saldana, Rodrigo Liberato (U202215623), Macavilca Quispe, Ian (U202121325), Rojas Velasquez, Maycol (U202219984), Espinoza Cueva, Stephano (U202218590), Paucar Meneses, Jeremy (U201919449) | Capítulo VI: Product Verification & Validation (6.1 Testing Suites & Validation; 6.2 Static testing & Verification: 6.2.1 Static Code Analysis — 6.2.1.1 Coding standard & Code conventions; 6.2.1.2 Code Quality & Code Security; 6.2.2 Reviews; 6.3 Validation Interviews — 6.3.1 Diseño de entrevistas; 6.3.2 Registro de Entrevistas; 6.3.3 Evaluaciones según heurísticas; 6.4 Auditoría de Experiencias de Usuario — 6.4.1 Auditoría realizada (información del grupo auditado, cronograma, contenido) y 6.4.2 Auditoría recibida (información del grupo auditor, cronograma, contenido, resumen de modificaciones)). Además se incluyen Capítulo VII: DevOps Practices (CI, CD, Continuous Deployment, Continuous Monitoring — herramientas, pipelines y componentes) y Capítulo VIII: Experiment-Driven Development (Experiment Planning, Experiment Design y Experimentation con To‑Be User Stories y Product Backlog). |
 
+<div style="page-break-before: always;"></div>
 
 # Project Report Collaboration Insights
 
@@ -78,8 +79,8 @@
 
 #### 3. Capturas de Imagen de los Analíticos de Colaboración y Commits en GitHub
 
-| Métrica                     | Descripción                          |
-| --------------------------- | ------------------------------------ |
+| Métrica                     | Descripción                             |
+| --------------------------- | --------------------------------------- |
 | Número de commits por autor | ![Pruebas1](assets/insightsTB2.png)     |
 | Historial de cambios        | ![Pruebas1](assets/networkgraphTB2.png) |
 
@@ -91,93 +92,94 @@
 | Discusiones y actividades | Se organizaron encuentros virtuales para compartir avances, resolver dudas y atender los desafíos de cada actividad.                                            |
 | Exposiciones del proyecto | Se llevaron a cabo sesiones para exponer el trabajo realizado antes de la fecha orrespondiente y prepararnos adecuadamente para la presentación final.          |
 
+<div style="page-break-before: always;"></div>
 
-# Tabla de Contenidos  
+# Tabla de Contenidos
 
-## Capítulo I: Introducción  
+## Capítulo I: Introducción
 
-- [1.1. Start-up Profile](#11-start-up-profile)  
-  - [1.1.1. Descripción de la Startup](#111-descripción-de-la-startup)  
-  - [1.1.2. Perfiles de Integrantes del Equipo](#112-perfiles-de-integrantes-del-equipo)  
-- [1.2. Solution Profile](#12-solution-profile)  
-  - [1.2.1. Antecedentes y Problemática](#121-antecedentes-y-problemática)  
-  - [1.2.2. Lean UX Process](#122-lean-ux-process)  
-    - [1.2.2.1. Lean UX Problem Statements](#1221-lean-ux-problem-statements)  
-    - [1.2.2.2. Lean UX Assumptions](#1222-lean-ux-assumptions)  
-    - [1.2.2.3. Lean UX Hypothesis Statements](#1223-lean-ux-hypothesis-statements)  
-    - [1.2.2.4. Lean UX Canvas](#1224-lean-ux-canvas)  
-- [1.3. Segmentos Objetivo](#13-segmentos-objetivo)  
-
----
-
-## Capítulo II: Requirements Elicitation & Analysis  
-
-- [2.1. Competidores](#21-competidores)  
-  - [2.1.1. Análisis Competitivo](#211-análisis-competitivo)  
-  - [2.1.2. Estrategias y Tácticas frente a Competidores](#212-estrategias-y-tácticas-frente-a-competidores)  
-- [2.2. Entrevistas](#22-entrevistas)  
-  - [2.2.1. Diseño de Entrevistas](#221-diseño-de-entrevistas)  
-  - [2.2.2. Registro de Entrevistas](#222-registro-de-entrevistas)  
-  - [2.2.3. Análisis de Entrevistas](#223-análisis-de-entrevistas)  
-- [2.3. Needfinding](#23-needfinding)  
-  - [2.3.1. User Personas](#231-user-personas)  
-  - [2.3.2. User Task Matrix](#232-user-task-matrix)  
-  - [2.3.3. User Journey Mapping](#233-user-journey-mapping)  
-  - [2.3.4. Empathy Mapping](#234-empathy-mapping)  
-  - [2.3.5. As-is Scenario Mapping](#235-as-is-scenario-mapping)  
-- [2.4. Ubiquitous Language](#24-ubiquitous-language)  
+- [1.1. Start-up Profile](#11-start-up-profile)
+  - [1.1.1. Descripción de la Startup](#111-descripción-de-la-startup)
+  - [1.1.2. Perfiles de Integrantes del Equipo](#112-perfiles-de-integrantes-del-equipo)
+- [1.2. Solution Profile](#12-solution-profile)
+  - [1.2.1. Antecedentes y Problemática](#121-antecedentes-y-problemática)
+  - [1.2.2. Lean UX Process](#122-lean-ux-process)
+    - [1.2.2.1. Lean UX Problem Statements](#1221-lean-ux-problem-statements)
+    - [1.2.2.2. Lean UX Assumptions](#1222-lean-ux-assumptions)
+    - [1.2.2.3. Lean UX Hypothesis Statements](#1223-lean-ux-hypothesis-statements)
+    - [1.2.2.4. Lean UX Canvas](#1224-lean-ux-canvas)
+- [1.3. Segmentos Objetivo](#13-segmentos-objetivo)
 
 ---
 
-## Capítulo III: Requirements Specification  
+## Capítulo II: Requirements Elicitation & Analysis
 
-- [3.1. To-Be Scenario Mapping](#31-to-be-scenario-mapping)  
-- [3.2. User Stories](#32-user-stories)  
-- [3.3. Impact Mapping](#33-impact-mapping)  
-- [3.4. Product Backlog](#34-product-backlog)  
+- [2.1. Competidores](#21-competidores)
+  - [2.1.1. Análisis Competitivo](#211-análisis-competitivo)
+  - [2.1.2. Estrategias y Tácticas frente a Competidores](#212-estrategias-y-tácticas-frente-a-competidores)
+- [2.2. Entrevistas](#22-entrevistas)
+  - [2.2.1. Diseño de Entrevistas](#221-diseño-de-entrevistas)
+  - [2.2.2. Registro de Entrevistas](#222-registro-de-entrevistas)
+  - [2.2.3. Análisis de Entrevistas](#223-análisis-de-entrevistas)
+- [2.3. Needfinding](#23-needfinding)
+  - [2.3.1. User Personas](#231-user-personas)
+  - [2.3.2. User Task Matrix](#232-user-task-matrix)
+  - [2.3.3. User Journey Mapping](#233-user-journey-mapping)
+  - [2.3.4. Empathy Mapping](#234-empathy-mapping)
+  - [2.3.5. As-is Scenario Mapping](#235-as-is-scenario-mapping)
+- [2.4. Ubiquitous Language](#24-ubiquitous-language)
 
 ---
 
-## Capítulo IV: Product Design  
+## Capítulo III: Requirements Specification
 
-- [4.1. Style Guidelines](#41-style-guidelines)  
-  - [4.1.1. General Style Guidelines](#411-general-style-guidelines)  
-  - [4.1.2. Web Style Guidelines](#412-web-style-guidelines)  
-  - [4.1.3. Mobile Style Guidelines](#413-mobile-style-guidelines)  
-    - [4.1.3.1. iOS Mobile Style Guidelines](#4131-ios-mobile-style-guidelines)  
-    - [4.1.3.2. Android Mobile Style Guidelines](#4132-android-mobile-style-guidelines)  
-- [4.2. Information Architecture](#42-information-architecture)  
-  - [4.2.1. Organization Systems](#421-organization-systems)  
-  - [4.2.2. Labeling Systems](#422-labeling-systems)  
-  - [4.2.3. SEO Tags and Meta Tags](#423-seo-tags-and-meta-tags)  
-  - [4.2.4. Searching Systems](#424-searching-systems)  
-  - [4.2.5. Navigation Systems](#425-navigation-systems)  
-- [4.3. Landing Page UI Design](#43-landing-page-ui-design)  
-  - [4.3.1. Landing Page Wireframe](#431-landing-page-wireframe)  
-  - [4.3.2. Landing Page Mock-up](#432-landing-page-mock-up)  
-- [4.4. Mobile Applications UX/UI Design](#44-mobile-applications-uxui-design)  
-  - [4.4.1. Wireframes](#441-mobile-applications-wireframes)  
-  - [4.4.2. Wireflow Diagrams](#442-mobile-applications-wireflow-diagrams)  
-  - [4.4.3. Mock-ups](#443-mobile-applications-mock-ups)  
-  - [4.4.4. User Flow Diagrams](#444-mobile-applications-user-flow-diagrams)  
-- [4.5. Mobile Applications Prototyping](#45-mobile-applications-prototyping)  
-  - [4.5.1. Android Prototyping](#451-android-mobile-applications-prototyping)  
-  - [4.5.2. iOS Prototyping](#452-ios-mobile-applications-prototyping)  
-- [4.6. Web Applications UX/UI Design](#46-web-applications-uxui-design)  
-  - [4.6.1. Wireframes](#461-web-applications-wireframes)  
-  - [4.6.2. Wireflow Diagrams](#462-web-applications-wireflow-diagrams)  
-  - [4.6.3. Mock-ups](#463-web-applications-mock-ups)  
-  - [4.6.4. User Flow Diagrams](#464-web-applications-user-flow-diagrams)  
-- [4.7. Web Applications Prototyping](#47-web-applications-prototyping)  
-- [4.8. Domain-Driven Software Architecture](#48-domain-driven-software-architecture)  
-  - [4.8.1. Context Diagram](#481-software-architecture-context-diagram)  
-  - [4.8.2. Container Diagrams](#482-software-architecture-container-diagrams)  
-  - [4.8.3. Component Diagrams](#483-software-architecture-components-diagrams)  
-- [4.9. Software Object-Oriented Design](#49-software-object-oriented-design)  
-  - [4.9.1. Class Diagrams](#491-class-diagrams)  
-  - [4.9.2. Class Dictionary](#492-class-dictionary)  
-- [4.10. Database Design](#410-database-design)  
-  - [4.10.1. Relational/Non-Relational Database Diagram](#4101-relationalnon-relational-database-diagram)  
+- [3.1. To-Be Scenario Mapping](#31-to-be-scenario-mapping)
+- [3.2. User Stories](#32-user-stories)
+- [3.3. Impact Mapping](#33-impact-mapping)
+- [3.4. Product Backlog](#34-product-backlog)
+
+---
+
+## Capítulo IV: Product Design
+
+- [4.1. Style Guidelines](#41-style-guidelines)
+  - [4.1.1. General Style Guidelines](#411-general-style-guidelines)
+  - [4.1.2. Web Style Guidelines](#412-web-style-guidelines)
+  - [4.1.3. Mobile Style Guidelines](#413-mobile-style-guidelines)
+    - [4.1.3.1. iOS Mobile Style Guidelines](#4131-ios-mobile-style-guidelines)
+    - [4.1.3.2. Android Mobile Style Guidelines](#4132-android-mobile-style-guidelines)
+- [4.2. Information Architecture](#42-information-architecture)
+  - [4.2.1. Organization Systems](#421-organization-systems)
+  - [4.2.2. Labeling Systems](#422-labeling-systems)
+  - [4.2.3. SEO Tags and Meta Tags](#423-seo-tags-and-meta-tags)
+  - [4.2.4. Searching Systems](#424-searching-systems)
+  - [4.2.5. Navigation Systems](#425-navigation-systems)
+- [4.3. Landing Page UI Design](#43-landing-page-ui-design)
+  - [4.3.1. Landing Page Wireframe](#431-landing-page-wireframe)
+  - [4.3.2. Landing Page Mock-up](#432-landing-page-mock-up)
+- [4.4. Mobile Applications UX/UI Design](#44-mobile-applications-uxui-design)
+  - [4.4.1. Wireframes](#441-mobile-applications-wireframes)
+  - [4.4.2. Wireflow Diagrams](#442-mobile-applications-wireflow-diagrams)
+  - [4.4.3. Mock-ups](#443-mobile-applications-mock-ups)
+  - [4.4.4. User Flow Diagrams](#444-mobile-applications-user-flow-diagrams)
+- [4.5. Mobile Applications Prototyping](#45-mobile-applications-prototyping)
+  - [4.5.1. Android Prototyping](#451-android-mobile-applications-prototyping)
+  - [4.5.2. iOS Prototyping](#452-ios-mobile-applications-prototyping)
+- [4.6. Web Applications UX/UI Design](#46-web-applications-uxui-design)
+  - [4.6.1. Wireframes](#461-web-applications-wireframes)
+  - [4.6.2. Wireflow Diagrams](#462-web-applications-wireflow-diagrams)
+  - [4.6.3. Mock-ups](#463-web-applications-mock-ups)
+  - [4.6.4. User Flow Diagrams](#464-web-applications-user-flow-diagrams)
+- [4.7. Web Applications Prototyping](#47-web-applications-prototyping)
+- [4.8. Domain-Driven Software Architecture](#48-domain-driven-software-architecture)
+  - [4.8.1. Context Diagram](#481-software-architecture-context-diagram)
+  - [4.8.2. Container Diagrams](#482-software-architecture-container-diagrams)
+  - [4.8.3. Component Diagrams](#483-software-architecture-components-diagrams)
+- [4.9. Software Object-Oriented Design](#49-software-object-oriented-design)
+  - [4.9.1. Class Diagrams](#491-class-diagrams)
+  - [4.9.2. Class Dictionary](#492-class-dictionary)
+- [4.10. Database Design](#410-database-design)
+  - [4.10.1. Relational/Non-Relational Database Diagram](#4101-relationalnon-relational-database-diagram)
 
 ---
 
@@ -280,11 +282,10 @@ El curso contribuye al cumplimiento del Student Outcome ABET:
 
 **Criterio:** La capacidad de reconocer responsabilidades éticas y profesionales en situaciones de ingeniería y hacer juicios informados, que deben considerar el impacto de las soluciones de ingeniería en contextos globales, económicos, ambientales y sociales.
 
-| **Criterio específico** | **Acciones realizadas** | **Conclusiones** |
-|--------------------------|--------------------------|------------------|
-| **4.c.1 Reconoce responsabilidad ética y profesional en situaciones de ingeniería de software** | <br><br> **1. Rojas Velasquez, Maycol Jhordan**<br>_TB1:_<br> Apliqué buenas prácticas en la elaboración de la documentación técnica, asegurando transparencia en los procesos y citando correctamente las fuentes de información utilizadas.<br>_TP:_<br> Apliqué prácticas de ingeniería de software para las pruebas unitarias y de sistema, garantizando trazabilidad y control de calidad en el código.<br><br> **2. Espinoza Cueva, Stephano Jose**<br>_TB1:_<br> Me involucré de lleno en definir qué era más urgente y cómo íbamos a entregar el producto, participando en la priorización de requisitos y la planificación de entregables. Mi enfoque principal fue garantizar que todas las decisiones se basaran en lo que los usuarios realmente necesitaban, evitando modas o suposiciones sin fundamento. Fui responsable de considerar el impacto que cada elección tendría en el resultado final y en la experiencia del usuario (FrontEnd), actuando siempre bajo una perspectiva ética y profesional.<br>_TP:_<br> Colaboré en la implementación de prácticas de despliegue continuo, priorizando la calidad del software y el cumplimiento de estándares éticos en las entregas del producto.<br><br> **3. Saldana Liberato, Rodrigo**<br>_TB1:_<br> Elaboré documentación clara sobre las historias de usuario y realicé la configuración del entorno de desarrollo y despliegue del producto, garantizando orden y transparencia en los procesos.<br>_TP:_<br> Elaboré la documentación y ejecución de las pruebas de integración, asegurando el correcto funcionamiento del sistema en conjunto.<br><br> **4. Macavilca Quispe, Ian**<br>_TB1:_<br> Elaboré el diseño UI/UX del web app, así como el web prototyping; además, trabajé en el despliegue del producto.<br>_TP:_<br> Desarrollé el flujo de Integración Continua dentro del pipeline de DevOps, aplicando prácticas de control de versiones y validación automática.<br><br> **5. Paucar Meneses, Jeremy**<br>_TB1:_<br> Elaboré la documentación sobre los competidores, así como los *user personas* para cada segmento objetivo, el *empathy mapping* y el *ubiquitous language*, contribuyendo a una comprensión ética y centrada en el usuario del proyecto.<br>_TP:_<br> Implementé la metodología *Behavior-Driven Development (BDD)* para alinear las pruebas del sistema con los requerimientos del usuario, garantizando coherencia entre diseño, funcionalidad y propósito ético del producto. | **Conclusión TB1:** La ética profesional fue la base en todas las etapas del proyecto, asegurando transparencia en la documentación, honestidad en la gestión del código y respeto por las buenas prácticas de desarrollo. <br><br>**Conclusión TP:** Las pruebas unitarias y de sistema consolidaron la responsabilidad profesional del equipo, al validar que cada componente funcionara correctamente bajo principios de calidad y fiabilidad. |
-| **4.c.2 Emite juicios informados considerando el impacto de las soluciones de ingeniería de software en contextos globales, económicos, ambientales y sociales** | <br><br> **1. Rojas Velasquez, Maycol Jhordan**<br>_TB1:_<br> Analicé cómo la solución propuesta (*VacApp*) impacta en la eficiencia de la ganadería, promoviendo prácticas sostenibles que favorecen al sector económico y respetan el medio ambiente.<br>_TP:_<br> Apliqué juicios técnicos para las pruebas de sistema, evaluando su impacto y funcionamiento dentro del contexto productivo real.<br><br> **2. Espinoza Cueva, Stephano Jose**<br>_TB1:_<br> Al diseñar las propuestas, mantuve una visión global, considerando cómo nuestro producto afectaría a distintos usuarios y escenarios. Analicé el impacto en diversos contextos y ajusté decisiones para asegurar que el producto fuera útil socialmente y sostenible económicamente.<br>_TP:_<br> En la implementación de *Continuous Deployment*, prioricé la estabilidad del entorno productivo y la satisfacción del usuario final, aplicando un criterio técnico y responsable ante el impacto de cada actualización.<br><br> **3. Saldana Liberato, Rodrigo**<br>_TB1:_<br> Documenté las funcionalidades del producto y configuré su despliegue, valorando cómo estas acciones facilitan el trabajo en equipo y la eficiencia operativa, con impacto positivo en la organización y su entorno.<br>_TP:_<br> Durante la implementación de las pruebas de integración, profundicé en la lógica de negocio, comprendiendo el impacto que VacApp puede tener dentro del mercado ganadero digital.<br><br> **4. Macavilca Quispe, Ian**<br>_TB1:_<br> Consideré la funcionalidad y practicidad en la elaboración del diseño UI/UX y en el *web prototyping*.<br>_TP:_<br> Apliqué principios de eficiencia y sostenibilidad al momento de desarrollar el flujo de Integración Continua, optimizando recursos y tiempos de despliegue.<br><br> **5. Paucar Meneses, Jeremy**<br>_TB1:_<br> Realicé los diferentes tipos de *Needfinding* pertenecientes al capítulo de *Requirements Elicitation & Analysis*, lo que permitió comprender mejor el contexto del desarrollo y su impacto en los usuarios y el entorno.<br>_TP:_<br> Analicé los resultados de las pruebas funcionales y de comportamiento, evaluando el impacto social y tecnológico de las decisiones de desarrollo sobre la usabilidad y accesibilidad del sistema. |**Conclusión TB1:** El desarrollo de VacApp promovió una visión integral que combina innovación tecnológica con sostenibilidad, impulsando prácticas más responsables en la gestión ganadera peruana. <br><br>**Conclusión TP:** La implementación de pruebas, despliegues continuos y evaluaciones automatizadas permitió emitir juicios técnicos más precisos, asegurando que el sistema mantuviera su impacto positivo en el entorno productivo y social. |
-
+| **Criterio específico**                                                                                                                                          | **Acciones realizadas**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       | **Conclusiones**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
+| ---------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **4.c.1 Reconoce responsabilidad ética y profesional en situaciones de ingeniería de software**                                                                  | <br><br> **1. Rojas Velasquez, Maycol Jhordan**<br>_TB1:_<br> Apliqué buenas prácticas en la elaboración de la documentación técnica, asegurando transparencia en los procesos y citando correctamente las fuentes de información utilizadas.<br>_TP:_<br> Apliqué prácticas de ingeniería de software para las pruebas unitarias y de sistema, garantizando trazabilidad y control de calidad en el código.<br>_TB2:_<br> Asumí responsabilidad en la verificación de artefactos UX y auditorías externas e internas (cap. 6.4), liderando la integración ética de resultados dentro del pipeline DevOps (CI / CD / Deployment), asegurando que el producto se valide antes de ser liberado a ambientes superiores.<br><br> **2. Espinoza Cueva, Stephano Jose**<br>_TB1:_<br> Me involucré de lleno en definir qué era más urgente y cómo íbamos a entregar el producto, participando en la priorización de requisitos y la planificación de entregables.<br>_TP:_<br> Colaboré en la implementación de prácticas de despliegue continuo, priorizando la calidad del software y el cumplimiento de estándares éticos en las entregas del producto.<br>_TB2:_<br> Fui responsable de asegurar la coherencia ética entre métricas, KPIs y trazabilidad analítica (cap. 8.2.7 / 8.2.8), garantizando que no se manipulen resultados ni se tomen decisiones sin datos reales siendo fieles a validaciones provenientes de usuarios entrevistados y auditores.<br><br> **3. Saldana Liberato, Rodrigo**<br>_TB1:_<br> Elaboré documentación clara sobre las historias de usuario y realicé la configuración del entorno de desarrollo y despliegue del producto.<br>_TP:_<br> Elaboré la documentación y ejecución de las pruebas de integración, asegurando el correcto funcionamiento del sistema en conjunto.<br>_TB2:_<br> Asumí responsabilidad ética sobre la transparencia del análisis estático de código y su impacto en seguridad / convenciones (cap. 6.2), asegurando que todos los hallazgos se documenten y que no se oculte ninguno durante el proceso de verificación.<br><br> **4. Macavilca Quispe, Ian**<br>_TB1:_<br> Elaboré el diseño UI/UX del web app, así como el web prototyping.<br>_TP:_<br> Desarrollé el flujo de Integración Continua dentro del pipeline de DevOps.<br>_TB2:_<br> Diseñé la planificación experimental (cap. 8.1), documentando suposiciones y asegurando que los experimentos no alteren datos reales ni afecten a usuarios sin consentimiento previo.<br><br> **5. Paucar Meneses, Jeremy**<br>_TB1:_<br> Elaboré la documentación sobre los competidores, así como los user personas.<br>_TP:_<br> Implementé BDD.<br>_TB2:_<br> Supervisé la formulación de hipótesis (cap. 8.2.1), Domain Business Metrics (cap. 8.2.2) y cálculos de escala experimentales (cap. 8.2.5) garantizando rigurosidad en la toma de decisiones basada en datos reales y no supuestos manipulados.                               | **TB1:** La ética profesional fue la base en todas las etapas del proyecto, asegurando transparencia en la documentación, honestidad en la gestión del código y respeto por las buenas prácticas de desarrollo.<br><br>**TP:** Las pruebas unitarias y de sistema consolidaron la responsabilidad profesional del equipo al validar que cada componente funcionara correctamente bajo principios de calidad y fiabilidad.<br><br>**TB2:** La responsabilidad ética se fortaleció al integrar auditorías UX, pipelines CI/CD, análisis estático y diseño experimental; garantizando que las decisiones se fundamenten en evidencia técnica real, mediciones verificables y datos no manipulados.                                                                                                                |
+| **4.c.2 Emite juicios informados considerando el impacto de las soluciones de ingeniería de software en contextos globales, económicos, ambientales y sociales** | <br><br> **1. Rojas Velasquez, Maycol Jhordan**<br>_TB1:_<br> Analicé cómo la solución propuesta (_VacApp_) impacta en la eficiencia de la ganadería, promoviendo prácticas sostenibles que favorecen al sector económico y respetan el medio ambiente.<br>_TP:_<br> Apliqué juicios técnicos para las pruebas de sistema, evaluando su impacto y funcionamiento dentro del contexto productivo real.<br>_TB2:_<br> Generé juicios informados a partir de las auditorías UX realizadas y recibidas (cap. 6.4), integrando retroalimentación externa en la toma de decisiones del pipeline CI/CD, para asegurar que cada despliegue considere impacto en usuarios reales, stakeholders y la operación ganadera digital a escala.<br><br> **2. Espinoza Cueva, Stephano Jose**<br>_TB1:_<br> Al diseñar las propuestas, mantuve una visión global, considerando cómo nuestro producto afectaría a distintos usuarios y escenarios.<br>_TP:_<br> En la implementación de _Continuous Deployment_, prioricé la estabilidad del entorno productivo y la satisfacción del usuario final.<br>_TB2:_<br> Apliqué juicios basados en métricas, KPIs y analítica (cap. 8.2.7 / 8.2.8) asegurando que las decisiones para pivotear o escalar funciones correspondieran a datos reales y no a percepciones subjetivas, considerando el costo real de intervención, adopción y resultado para la industria ganadera peruana.<br><br> **3. Saldana Liberato, Rodrigo**<br>_TB1:_<br> Documenté las funcionalidades del producto y configuré su despliegue.<br>_TP:_<br> Durante la implementación de las pruebas de integración, profundicé en la lógica de negocio.<br>_TB2:_<br> Utilicé resultados de la verificación estática del código (cap. 6.2) para emitir juicios sobre seguridad, mantenibilidad e impacto futuro del producto; considerando implicancias técnicas, económicas (costos de deuda técnica) y sociales (riesgos de exposición o mal funcionamiento).<br><br> **4. Macavilca Quispe, Ian**<br>_TB1:_<br> Consideré la funcionalidad y practicidad.<br>_TP:_<br> Apliqué principios de eficiencia y sostenibilidad.<br>_TB2:_<br> Apliqué juicios informados durante la definición del _Experiment Planning_ (cap. 8.1), sopesando impacto versus beneficio para decidir qué hipótesis merecen experimentación, evitando costo innecesario, sesgo metodológico y riesgo de generar daño a la data o usuarios objetivo.<br><br> **5. Paucar Meneses, Jeremy**<br>_TB1:_<br> Realicé los diferentes tipos de _Needfinding_.<br>_TP:_<br> Analicé los resultados de las pruebas funcionales y de comportamiento.<br>_TB2:_<br> Apliqué análisis crítico al formular las hipótesis, Domain Business Metrics y decisiones de escalabilidad (cap. 8.2.1 – 8.2.6), considerando impacto económico para el productor ganadero, sostenibilidad en el largo plazo y valor social de introducir mejoras en un sector con alto nivel de informalidad tecnológica. | **TB1:** El desarrollo de VacApp promovió una visión integral que combina innovación tecnológica con sostenibilidad, impulsando prácticas más responsables en la gestión ganadera peruana.<br><br>**TP:** La implementación de pruebas, despliegues continuos y evaluaciones automatizadas permitió emitir juicios técnicos más precisos, asegurando que el sistema mantuviera su impacto positivo en el entorno productivo y social.<br><br>**TB2:** La consideración de auditorías, CI/CD, métricas analíticas y diseño experimental permitió emitir juicios basados en evidencia concreta, asegurando que cada decisión técnica tenga impacto medible sobre factores económicos, globales y sociales, consolidando una visión profesional madura sobre el rol del software dentro del sector ganadero real. |
 
 <div style="page-break-before: always;"></div>
 
@@ -1354,7 +1355,7 @@ Este flujo está diseñado para facilitar al agregar ya sea un bovino, una campa
 
 **vista de "Agregar Campaña"**
 
-<img src="./assets/campaniaadd.png" style="width: 400px"
+<img src="./assets/campaniaadd.png" style="width: 400px">
 
 **Inicio Sesion**
 
@@ -1400,7 +1401,7 @@ Este flujo está diseñado para facilitar al agregar ya sea un bovino, una campa
 
 **vista de "Agregar Campaña"**
 
-<img src="./assets/campaniaadd.png" style="width: 400px"
+<img src="./assets/campaniaadd.png" style="width: 400px">
 
 #### 4.4.4. Mobile Applications User Flow Diagrams
 
@@ -2022,86 +2023,77 @@ En las siguientes iteraciones se planea implementar:
 - Integración con mapas para ubicación de establos
 - Funcionalidades offline con Service Workers
 
-### 5.2.4 Acuerdo de Servicio SaaS 
+### 5.2.4 Acuerdo de Servicio SaaS
 
-Con el propósito de garantizar la transparencia, la protección de los usuarios y el cumplimiento de las normas nacionales e internacionales aplicables al sector agropecuario peruano, se define el presente **Acuerdo de Servicio (SaaS)** de **VacApp**, una plataforma digital destinada a la **gestión integral de la producción ganadera**.  
+Con el propósito de garantizar la transparencia, la protección de los usuarios y el cumplimiento de las normas nacionales e internacionales aplicables al sector agropecuario peruano, se define el presente **Acuerdo de Servicio (SaaS)** de **VacApp**, una plataforma digital destinada a la **gestión integral de la producción ganadera**.
 
 VacApp ofrece herramientas tecnológicas que facilitan la digitalización del control del ganado, las campañas sanitarias, la gestión de insumos y el monitoreo productivo, fomentando así una **ganadería más moderna, sostenible y eficiente** en el Perú.
 
-Este acuerdo regula los **derechos, responsabilidades y limitaciones** de los usuarios, y establece el marco legal bajo el cual deben interactuar con el servicio. El mismo se encontrará disponible en la sección *“Términos y Condiciones”* de VacApp, siendo obligatoria su aceptación antes de utilizar la aplicación.
-
+Este acuerdo regula los **derechos, responsabilidades y limitaciones** de los usuarios, y establece el marco legal bajo el cual deben interactuar con el servicio. El mismo se encontrará disponible en la sección _“Términos y Condiciones”_ de VacApp, siendo obligatoria su aceptación antes de utilizar la aplicación.
 
 ### Objeto del Servicio
 
 VacApp proporciona un entorno digital accesible vía web y móvil para **productores ganaderos, asociaciones pecuarias y técnicos del sector agropecuario**.  
 A través de la plataforma, los usuarios pueden:
 
-- Registrar y monitorear la salud, alimentación, peso y producción de sus bovinos.  
-- Administrar campañas de vacunación y tratamientos veterinarios.  
-- Gestionar establos, personal y almacenes de insumos pecuarios.  
-- Trabajar **en modo offline**, con sincronización automática al recuperar conexión.  
+- Registrar y monitorear la salud, alimentación, peso y producción de sus bovinos.
+- Administrar campañas de vacunación y tratamientos veterinarios.
+- Gestionar establos, personal y almacenes de insumos pecuarios.
+- Trabajar **en modo offline**, con sincronización automática al recuperar conexión.
 
 El propósito principal de VacApp es **optimizar la toma de decisiones ganaderas**, reducir pérdidas y contribuir a la sostenibilidad del sector, alineándose con los lineamientos del **Ministerio de Desarrollo Agrario y Riego (MIDAGRI)** y la **Ley N.º 29733 de Protección de Datos Personales**.
-
 
 ### Obligaciones del Usuario
 
 Los usuarios que accedan a VacApp se comprometen a:
 
-1. **Proporcionar información veraz y actualizada** sobre su hato ganadero, campañas y operaciones productivas.  
-2. **Usar la plataforma de forma ética y responsable**, evitando el uso indebido de datos o acciones que afecten la integridad del sistema.  
-3. **Cumplir con las normas pecuarias y sanitarias vigentes en el Perú**, incluyendo las disposiciones del SENASA.  
-4. **Respetar los derechos de propiedad intelectual y privacidad**, absteniéndose de compartir información ajena o confidencial sin autorización.  
-
+1. **Proporcionar información veraz y actualizada** sobre su hato ganadero, campañas y operaciones productivas.
+2. **Usar la plataforma de forma ética y responsable**, evitando el uso indebido de datos o acciones que afecten la integridad del sistema.
+3. **Cumplir con las normas pecuarias y sanitarias vigentes en el Perú**, incluyendo las disposiciones del SENASA.
+4. **Respetar los derechos de propiedad intelectual y privacidad**, absteniéndose de compartir información ajena o confidencial sin autorización.
 
 ### Obligaciones del Proveedor (VacApp)
 
 VacApp se compromete a:
 
-- **Proveer acceso continuo y seguro** al sistema, salvo interrupciones justificadas por mantenimiento o fuerza mayor.  
-- **Garantizar la confidencialidad y seguridad de los datos personales y productivos** de los usuarios, conforme a la Ley N.º 29733 y estándares de ciberseguridad (ISO/IEC 27001).  
-- **Brindar soporte técnico y atención al usuario**, mediante canales digitales oficiales.  
-- **Informar oportunamente** sobre actualizaciones, cambios en los términos del servicio o nuevas funcionalidades.  
-
+- **Proveer acceso continuo y seguro** al sistema, salvo interrupciones justificadas por mantenimiento o fuerza mayor.
+- **Garantizar la confidencialidad y seguridad de los datos personales y productivos** de los usuarios, conforme a la Ley N.º 29733 y estándares de ciberseguridad (ISO/IEC 27001).
+- **Brindar soporte técnico y atención al usuario**, mediante canales digitales oficiales.
+- **Informar oportunamente** sobre actualizaciones, cambios en los términos del servicio o nuevas funcionalidades.
 
 ### Restricciones de Uso
 
 Para asegurar un entorno seguro y justo, los usuarios **no podrán**:
 
-- Utilizar la plataforma con fines comerciales externos al rubro ganadero o para actividades ilícitas.  
-- Modificar, copiar o redistribuir el software de VacApp sin autorización previa.  
-- Publicar contenido ofensivo, fraudulento o que infrinja derechos de terceros.  
-- Manipular datos o usar herramientas automatizadas (bots, scrapers) que afecten la integridad del servicio.  
-
+- Utilizar la plataforma con fines comerciales externos al rubro ganadero o para actividades ilícitas.
+- Modificar, copiar o redistribuir el software de VacApp sin autorización previa.
+- Publicar contenido ofensivo, fraudulento o que infrinja derechos de terceros.
+- Manipular datos o usar herramientas automatizadas (bots, scrapers) que afecten la integridad del servicio.
 
 ### Propiedad Intelectual
 
 Los **datos e información generados por los usuarios** (como registros de animales, vacunas o reportes) seguirán siendo de su propiedad.  
-Sin embargo, al utilizarlos dentro de la aplicación, los usuarios otorgan a VacApp una **licencia no exclusiva y gratuita** para procesar, analizar y mostrar dichos datos con fines operativos y estadísticos.  
+Sin embargo, al utilizarlos dentro de la aplicación, los usuarios otorgan a VacApp una **licencia no exclusiva y gratuita** para procesar, analizar y mostrar dichos datos con fines operativos y estadísticos.
 
 La **propiedad intelectual del software, base de datos, interfaz y algoritmos** pertenece exclusivamente a VacApp, quedando protegida por la legislación peruana sobre derechos de autor y propiedad industrial.
-
 
 ### Modificaciones del Servicio
 
 VacApp podrá realizar **mejoras o actualizaciones del servicio** que optimicen su funcionamiento o amplíen sus capacidades.  
-Cualquier cambio relevante será notificado a los usuarios mediante correo electrónico o notificaciones dentro de la aplicación.  
-
+Cualquier cambio relevante será notificado a los usuarios mediante correo electrónico o notificaciones dentro de la aplicación.
 
 ### Terminación de Cuentas
 
 VacApp se reserva el derecho de **suspender o eliminar cuentas** que incumplan este acuerdo, introduzcan datos falsos o atenten contra la seguridad del sistema.  
 Los usuarios podrán solicitar la eliminación de sus datos conforme a los principios de **autodeterminación informativa** y derecho al olvido previstos por la legislación peruana.
 
-
 ### Marco Normativo de Referencia
 
-- Ley N.º 29733 – *Ley de Protección de Datos Personales (Perú).*  
-- Reglamento de la Ley N.º 29733 – D.S. N.º 003-2013-JUS.  
-- Ley N.º 30494 – *Ley de Promoción y Desarrollo de la Ganadería Sostenible.*  
-- Normas Técnicas del SENASA sobre sanidad animal y trazabilidad ganadera.  
+- Ley N.º 29733 – _Ley de Protección de Datos Personales (Perú)._
+- Reglamento de la Ley N.º 29733 – D.S. N.º 003-2013-JUS.
+- Ley N.º 30494 – _Ley de Promoción y Desarrollo de la Ganadería Sostenible._
+- Normas Técnicas del SENASA sobre sanidad animal y trazabilidad ganadera.
 - Estándares internacionales ISO/IEC 27001 y 27017 sobre seguridad y gestión de servicios SaaS.
-
 
 Este **Acuerdo de Servicio SaaS** constituye un componente esencial del ecosistema digital de VacApp y refleja el compromiso con una **ganadería peruana moderna, responsable y tecnológica**, alineada con la sostenibilidad y el bienestar animal.
 
@@ -2117,8 +2109,7 @@ Este desarrollo fue acompañado por pruebas funcionales continuas durante los sp
 
 <p align="center">
   <img src="./assets/sign_up_flutter.JPG" width="300" />
-  <img src="./assets/home_flutter.JPG" width="300" />
-  <img src="./assets/animales_flutter.JPG" width="300" />
+  
 </p>
 
 <p align="center">
@@ -2129,13 +2120,10 @@ Este desarrollo fue acompañado por pruebas funcionales continuas durante los sp
 
 <p align="center">
   <img src="./assets/personal_flutter.JPG" width="300" />
-  <img src="./assets/animales_establo_flutter.JPG" width="300" />
   <img src="./assets/vacunas_flutter.JPG" width="300" />
 </p>
 
 <p align="center">
-  <img src="./assets/detalles_bovino_flutter.JPG" width="300" />
-  <img src="./assets/registro_bovino_flutter.JPG" width="300" />
   <img src="./assets/gestion_campaña_flutter.JPG" width="300" />
 </p>
 
@@ -2472,7 +2460,7 @@ Asimismo, VacApp adopta buenas prácticas de **Continuous Integration (CI)** y *
 
 ### 6.1.1. Core Entities Unit Tests
 
-Las *Core Entities Unit Tests* son un componente esencial dentro del proceso de verificación de la plataforma **VacApp**, ya que permiten validar el comportamiento y la integridad lógica de las entidades centrales en cada *bounded context* del dominio. Estas pruebas se desarrollaron utilizando **C#**, el framework de pruebas **xUnit**, y herramientas complementarias como **Moq** para simular dependencias cuando sea necesario.
+Las _Core Entities Unit Tests_ son un componente esencial dentro del proceso de verificación de la plataforma **VacApp**, ya que permiten validar el comportamiento y la integridad lógica de las entidades centrales en cada _bounded context_ del dominio. Estas pruebas se desarrollaron utilizando **C#**, el framework de pruebas **xUnit**, y herramientas complementarias como **Moq** para simular dependencias cuando sea necesario.
 
 #### Identity & Access Management (IAM) Unit Tests
 
@@ -2481,40 +2469,44 @@ Las *Core Entities Unit Tests* son un componente esencial dentro del proceso de 
 Las pruebas de la entidad **Admin** validan que el proceso de creación y actualización de administradores cumpla con las políticas internas de VacApp, principalmente el uso obligatorio del dominio corporativo y la validación del formato de correo.
 
 ##### 1. `Constructor_con_CreateAdminCommand_valido_asigna_propiedades`
-- **Objetivo:** verificar que, al crear un administrador con un correo válido del dominio `@vacapp.com`, las propiedades se asignen correctamente.  
-- **Validaciones:**  
-  - El campo `Email` coincide con el ingresado.  
-  - `EmailConfirmed` se marca como `true`.  
-- **Resultado esperado:** el administrador se crea correctamente y el correo queda confirmado de manera automática.  
+
+- **Objetivo:** verificar que, al crear un administrador con un correo válido del dominio `@vacapp.com`, las propiedades se asignen correctamente.
+- **Validaciones:**
+  - El campo `Email` coincide con el ingresado.
+  - `EmailConfirmed` se marca como `true`.
+- **Resultado esperado:** el administrador se crea correctamente y el correo queda confirmado de manera automática.
 
 ![AdminTest4](assets/Unit/AdminTest1.png)
 
 ##### 2. `Constructor_con_email_no_vacapp_lanza_ArgumentException`
-- **Objetivo:** asegurar que ningún administrador pueda ser creado con un correo ajeno al dominio institucional.  
-- **Escenario:** se intenta crear un `Admin` con el email `admin@gmail.com`.  
-- **Validación:**  
-  - Se lanza una excepción `ArgumentException`.  
-  - El mensaje devuelto comienza con `"Admin email must end with @vacapp.com"`.  
-- **Resultado esperado:** se evita la creación de administradores fuera del dominio corporativo.  
+
+- **Objetivo:** asegurar que ningún administrador pueda ser creado con un correo ajeno al dominio institucional.
+- **Escenario:** se intenta crear un `Admin` con el email `admin@gmail.com`.
+- **Validación:**
+  - Se lanza una excepción `ArgumentException`.
+  - El mensaje devuelto comienza con `"Admin email must end with @vacapp.com"`.
+- **Resultado esperado:** se evita la creación de administradores fuera del dominio corporativo.
 
 ![AdminTest4](assets/Unit/AdminTest2.png)
 
 ##### 3. `Update_con_email_invalido_lanza_ArgumentException`
-- **Objetivo:** garantizar que las actualizaciones de datos de un administrador validen el formato del correo.  
-- **Escenario:** se actualiza un `Admin` existente con un correo con formato incorrecto (`bad@@vacapp.com`).  
-- **Validación:**  
-  - Se lanza una excepción `ArgumentException`.  
-  - El mensaje comienza con `"Invalid email format."`.  
-- **Resultado esperado:** la entidad mantiene su integridad y evita registros inválidos durante actualizaciones.  
+
+- **Objetivo:** garantizar que las actualizaciones de datos de un administrador validen el formato del correo.
+- **Escenario:** se actualiza un `Admin` existente con un correo con formato incorrecto (`bad@@vacapp.com`).
+- **Validación:**
+  - Se lanza una excepción `ArgumentException`.
+  - El mensaje comienza con `"Invalid email format."`.
+- **Resultado esperado:** la entidad mantiene su integridad y evita registros inválidos durante actualizaciones.
 
 ![AdminTest4](assets/Unit/AdminTest3.png)
 
 ##### 4. `ValidateLogin_siempre_devuelve_true`
-- **Objetivo:** comprobar la respuesta base del método de autenticación.  
-- **Escenario:** se ejecuta el método `ValidateLogin` con cualquier contraseña.  
-- **Validación:**  
-  - El método retorna `true`.  
-- **Resultado esperado:** confirmación del flujo base del login, que podrá evolucionar con futuras integraciones de seguridad.  
+
+- **Objetivo:** comprobar la respuesta base del método de autenticación.
+- **Escenario:** se ejecuta el método `ValidateLogin` con cualquier contraseña.
+- **Validación:**
+  - El método retorna `true`.
+- **Resultado esperado:** confirmación del flujo base del login, que podrá evolucionar con futuras integraciones de seguridad.
 
 ![AdminTest4](assets/Unit/AdminTest4.png)
 
@@ -2524,43 +2516,48 @@ La entidad **User** representa a los usuarios generales de la plataforma (produc
 Las pruebas se enfocan en validar la creación, actualización y verificación de los datos básicos del perfil.
 
 ##### 1. `Constructor_por_defecto_inicializa_campos_vacios_y_email_no_confirmado`
-- **Objetivo:** validar que un usuario nuevo se inicializa con valores vacíos y el email sin confirmar.  
-- **Validaciones:**  
-  - `Username`, `Password` y `Email` son `string.Empty`.  
-  - `EmailConfirmed` es `false`.  
-- **Resultado esperado:** el objeto inicia en un estado neutro, listo para asignar datos válidos posteriormente.  
+
+- **Objetivo:** validar que un usuario nuevo se inicializa con valores vacíos y el email sin confirmar.
+- **Validaciones:**
+  - `Username`, `Password` y `Email` son `string.Empty`.
+  - `EmailConfirmed` es `false`.
+- **Resultado esperado:** el objeto inicia en un estado neutro, listo para asignar datos válidos posteriormente.
 
 ![userTest1](assets/Unit/UserTest1.png)
 
 ##### 2. `Constructor_con_SignUpCommand_valido_asigna_propiedades`
-- **Objetivo:** comprobar que los datos se asignan correctamente al crear un usuario mediante el comando `SignUpCommand`.  
-- **Validaciones:**  
-  - Se asignan correctamente `Username`, `Password` y `Email`.  
-- **Resultado esperado:** el usuario se crea exitosamente con la información registrada en el formulario de inscripción.  
+
+- **Objetivo:** comprobar que los datos se asignan correctamente al crear un usuario mediante el comando `SignUpCommand`.
+- **Validaciones:**
+  - Se asignan correctamente `Username`, `Password` y `Email`.
+- **Resultado esperado:** el usuario se crea exitosamente con la información registrada en el formulario de inscripción.
 
 ![userTest2](assets/Unit/UserTest2.png)
 
 ##### 3. `Constructor_con_email_invalido_lanza_ArgumentException`
-- **Objetivo:** validar que el formato del correo electrónico sea correcto durante el registro.  
-- **Escenario:** se intenta crear un usuario con un email sin formato (`sin-formato`).  
-- **Validación:**  
-  - Se lanza una excepción `ArgumentException`.  
-  - El mensaje devuelto comienza con `"Invalid email format."`.  
-- **Resultado esperado:** se previene el almacenamiento de correos no válidos en la base de datos.  
+
+- **Objetivo:** validar que el formato del correo electrónico sea correcto durante el registro.
+- **Escenario:** se intenta crear un usuario con un email sin formato (`sin-formato`).
+- **Validación:**
+  - Se lanza una excepción `ArgumentException`.
+  - El mensaje devuelto comienza con `"Invalid email format."`.
+- **Resultado esperado:** se previene el almacenamiento de correos no válidos en la base de datos.
 
 ![userTest2](assets/Unit/UserTest3.png)
 
 ##### 4. `Update_con_email_invalido_lanza_ArgumentException`
-- **Objetivo:** asegurar que la actualización de un usuario respete las mismas reglas de validación del registro inicial.  
-- **Escenario:** se actualiza un usuario con un correo inválido (`mal-email`).  
-- **Validación:**  
-  - Se lanza una excepción `ArgumentException`.  
-  - El mensaje devuelto comienza con `"Invalid email format."`.  
-- **Resultado esperado:** las actualizaciones no permiten romper las reglas de integridad del dominio.  
+
+- **Objetivo:** asegurar que la actualización de un usuario respete las mismas reglas de validación del registro inicial.
+- **Escenario:** se actualiza un usuario con un correo inválido (`mal-email`).
+- **Validación:**
+  - Se lanza una excepción `ArgumentException`.
+  - El mensaje devuelto comienza con `"Invalid email format."`.
+- **Resultado esperado:** las actualizaciones no permiten romper las reglas de integridad del dominio.
 
 ![userTest2](assets/Unit/UserTest4.png)
 
 #### Ranch Management
+
 El contexto **Ranch Management** de **VacApp** abarca la administración operativa del rancho, incluyendo la gestión de bovinos, establos y vacunas.  
 Estas pruebas unitarias se desarrollaron en **C# con xUnit**, siguiendo la estructura **AAA (Arrange / Act / Assert)**, con el objetivo de validar las reglas de negocio que garantizan la integridad, coherencia y trazabilidad de los registros ganaderos.
 
@@ -2570,40 +2567,43 @@ La entidad **Bovine** representa al animal dentro del sistema, incluyendo su inf
 Las pruebas unitarias aseguran la correcta construcción y actualización de sus propiedades, así como el cumplimiento de las reglas básicas de validación.
 
 ##### 1. `Constructor_parametros_valido_asigna_propiedades`
-- **Objetivo:** validar que un bovino creado manualmente con parámetros válidos asigne correctamente sus propiedades.  
-- **Validaciones:**  
-  - Coincidencia exacta de nombre, género, raza, fecha de nacimiento, ubicación e imagen.  
-  - Confirmación del `StableId` asignado.  
-- **Resultado esperado:** el objeto se inicializa correctamente y refleja los valores proporcionados.  
+
+- **Objetivo:** validar que un bovino creado manualmente con parámetros válidos asigne correctamente sus propiedades.
+- **Validaciones:**
+  - Coincidencia exacta de nombre, género, raza, fecha de nacimiento, ubicación e imagen.
+  - Confirmación del `StableId` asignado.
+- **Resultado esperado:** el objeto se inicializa correctamente y refleja los valores proporcionados.
 
 ![BovineTest2](assets/Unit/BovineTest1.png)
 
 ##### 2. `Constructor_command_con_genero_invalido_lanza_ArgumentException`
-- **Objetivo:** garantizar que solo se acepten géneros válidos (`male` o `female`).  
-- **Escenario:** creación de un bovino con `Gender = "unknown"`.  
-- **Validación:**  
-  - Se lanza una excepción `ArgumentException`.  
-  - El mensaje indica `"Gender must be either 'male' or 'female'"`.  
-- **Resultado esperado:** se evita la creación de registros con valores inconsistentes en el dominio biológico.  
+
+- **Objetivo:** garantizar que solo se acepten géneros válidos (`male` o `female`).
+- **Escenario:** creación de un bovino con `Gender = "unknown"`.
+- **Validación:**
+  - Se lanza una excepción `ArgumentException`.
+  - El mensaje indica `"Gender must be either 'male' or 'female'"`.
+- **Resultado esperado:** se evita la creación de registros con valores inconsistentes en el dominio biológico.
 
 ![BovineTest2](assets/Unit/BovineTest2.png)
 
 ##### 3. `Constructor_command_con_userid_nulo_lanza_ArgumentException`
-- **Objetivo:** comprobar que todo bovino esté asociado a un usuario del rancho responsable del registro.  
-- **Escenario:** se omite el `RanchUserId` en la creación.  
-- **Validación:**  
-  - Se lanza una excepción `ArgumentException`.  
-  - El mensaje indica `"UserId must be set by the system"`.  
-- **Resultado esperado:** se evita la creación de registros huérfanos sin trazabilidad de usuario.  
 
+- **Objetivo:** comprobar que todo bovino esté asociado a un usuario del rancho responsable del registro.
+- **Escenario:** se omite el `RanchUserId` en la creación.
+- **Validación:**
+  - Se lanza una excepción `ArgumentException`.
+  - El mensaje indica `"UserId must be set by the system"`.
+- **Resultado esperado:** se evita la creación de registros huérfanos sin trazabilidad de usuario.
 
 ![BovineTest2](assets/Unit/BovineTest3.png)
 
 ##### 4. `Update_con_datos_validos_actualiza_propiedades_y_conserva_imagen`
-- **Objetivo:** asegurar que las actualizaciones modifiquen correctamente los datos básicos del bovino, sin alterar su imagen previa.  
-- **Validaciones:**  
-  - Los campos `Name`, `Gender`, `BirthDate`, `Breed`, `Location` y `StableId` cambian correctamente.  
-  - La propiedad `BovineImg` se mantiene inalterada.  
+
+- **Objetivo:** asegurar que las actualizaciones modifiquen correctamente los datos básicos del bovino, sin alterar su imagen previa.
+- **Validaciones:**
+  - Los campos `Name`, `Gender`, `BirthDate`, `Breed`, `Location` y `StableId` cambian correctamente.
+  - La propiedad `BovineImg` se mantiene inalterada.
 - **Resultado esperado:** el bovino actualiza sus propiedades sin perder información visual o histórica.
 
 ![BovineTest2](assets/Unit/BovineTest4.png)
@@ -2614,47 +2614,53 @@ La entidad **Stable** administra los establos o corrales dentro del rancho, mant
 Las pruebas unitarias validan las restricciones de dominio y las actualizaciones permitidas.
 
 ##### 1. `Constructor_con_limit_invalido_lanza_ArgumentException`
-- **Objetivo:** evitar la creación de establos con límites no válidos.  
-- **Escenario:** se intenta crear un establo con `Limit = 0`.  
-- **Validación:**  
-  - Se lanza una excepción `ArgumentException`.  
-  - Mensaje: `"Limit must be greater than 0"`.  
+
+- **Objetivo:** evitar la creación de establos con límites no válidos.
+- **Escenario:** se intenta crear un establo con `Limit = 0`.
+- **Validación:**
+  - Se lanza una excepción `ArgumentException`.
+  - Mensaje: `"Limit must be greater than 0"`.
 - **Resultado esperado:** el sistema impide crear establos sin capacidad operativa.
 
 ![StableTest2](assets/Unit/StableTest1.png)
 
 ##### 2. `Constructor_con_nombre_vacio_lanza_ArgumentException`
-- **Objetivo:** garantizar que el nombre del establo no sea vacío.  
-- **Validación:**  
-  - Lanza `ArgumentException` con el mensaje `"Name must not be empty"`.  
-- **Resultado esperado:** se preserva la consistencia de identificación de cada establo.  
+
+- **Objetivo:** garantizar que el nombre del establo no sea vacío.
+- **Validación:**
+  - Lanza `ArgumentException` con el mensaje `"Name must not be empty"`.
+- **Resultado esperado:** se preserva la consistencia de identificación de cada establo.
 
 ![StableTest2](assets/Unit/StableTest2.png)
 
 ##### 3. `Constructor_con_userid_nulo_lanza_ArgumentException`
-- **Objetivo:** asegurar que todo establo esté vinculado a un usuario registrado del rancho.  
-- **Validación:**  
-  - Lanza `ArgumentException` con el mensaje `"RanchUserId must be set by the system"`.  
-- **Resultado esperado:** ningún establo se crea sin responsable asignado.  
+
+- **Objetivo:** asegurar que todo establo esté vinculado a un usuario registrado del rancho.
+- **Validación:**
+  - Lanza `ArgumentException` con el mensaje `"RanchUserId must be set by the system"`.
+- **Resultado esperado:** ningún establo se crea sin responsable asignado.
 
 ![StableTest2](assets/Unit/StableTest3.png)
 
 ##### 4. `Constructor_valido_asigna_propiedades`
-- **Objetivo:** comprobar la asignación correcta de nombre y capacidad cuando se crean valores válidos.  
+
+- **Objetivo:** comprobar la asignación correcta de nombre y capacidad cuando se crean valores válidos.
 - **Resultado esperado:** las propiedades `Name` y `Limit` coinciden con el comando recibido.
 
 ![StableTest2](assets/Unit/StableTest4.png)
 
 ##### 5. `Update_con_datos_invalidos_lanza_ArgumentException`
-- **Objetivo:** evitar actualizaciones con límites negativos o inválidos.  
-- **Validación:**  
-  - Se lanza `ArgumentException` con el mensaje `"Limit must be greater than 0"`.  
+
+- **Objetivo:** evitar actualizaciones con límites negativos o inválidos.
+- **Validación:**
+  - Se lanza `ArgumentException` con el mensaje `"Limit must be greater than 0"`.
 - **Resultado esperado:** la integridad del registro se mantiene estable.
 
 ![StableTest2](assets/Unit/StableTest5.png)
 
 ##### 6. `Update_con_datos_validos_actualiza_propiedades`
-- **Objetivo:** validar que el método `Update()` actualiza correctamente los campos modificables (`Name` y `Limit`).  
+
+- **Objetivo:** validar que el método `Update()` actualiza correctamente los campos modificables (`Name` y `Limit`).
 - **Resultado esperado:** los nuevos valores se reflejan correctamente en el estado final del objeto.
 
 ![StableTest2](assets/Unit/StableTest6.png)
@@ -2665,27 +2671,30 @@ La entidad **Vaccine** gestiona los registros de vacunación de cada bovino, man
 Estas pruebas garantizan la integridad de los registros sanitarios del ganado.
 
 ##### 1. `Constructor_command_con_userid_nulo_lanza_ArgumentException`
-- **Objetivo:** asegurar que toda vacuna tenga un usuario registrado como responsable.  
-- **Validación:**  
-  - Lanza `ArgumentException` con el mensaje `"RanchUserId must be set by the system"`.  
+
+- **Objetivo:** asegurar que toda vacuna tenga un usuario registrado como responsable.
+- **Validación:**
+  - Lanza `ArgumentException` con el mensaje `"RanchUserId must be set by the system"`.
 - **Resultado esperado:** se impide la creación de registros sin responsable veterinario o administrador.
 
 ![VaccineTest1](assets/Unit/VaccineTest1.png)
 
 ##### 2. `Constructor_valido_asigna_propiedades`
-- **Objetivo:** validar la creación correcta de una vacuna con valores válidos.  
-- **Validaciones:**  
-  - Asignación correcta de nombre, tipo, fecha, imagen y bovino asociado.  
-- **Resultado esperado:** el registro sanitario se crea de manera coherente con los datos de vacunación.  
+
+- **Objetivo:** validar la creación correcta de una vacuna con valores válidos.
+- **Validaciones:**
+  - Asignación correcta de nombre, tipo, fecha, imagen y bovino asociado.
+- **Resultado esperado:** el registro sanitario se crea de manera coherente con los datos de vacunación.
 
 ![VaccineTest1](assets/Unit/VaccineTest2.png)
 
 ##### 3. `Update_modifica_campos_y_conserva_imagen`
-- **Objetivo:** asegurar que las actualizaciones modifiquen la información esencial sin alterar la imagen del registro anterior.  
-- **Validaciones:**  
-  - Cambian correctamente los campos `Name`, `VaccineType`, `VaccineDate`, `BovineId`.  
-  - La imagen original (`VaccineImg`) se conserva.  
-- **Resultado esperado:** el registro mantiene trazabilidad visual y consistencia temporal.  
+
+- **Objetivo:** asegurar que las actualizaciones modifiquen la información esencial sin alterar la imagen del registro anterior.
+- **Validaciones:**
+  - Cambian correctamente los campos `Name`, `VaccineType`, `VaccineDate`, `BovineId`.
+  - La imagen original (`VaccineImg`) se conserva.
+- **Resultado esperado:** el registro mantiene trazabilidad visual y consistencia temporal.
 
 ![VaccineTest1](assets/Unit/VaccineTest3.png)
 
@@ -2700,53 +2709,59 @@ Las pruebas unitarias desarrolladas con **C# y xUnit** tienen como propósito va
 La clase `CampaignTests` agrupa las pruebas que validan el comportamiento central de la entidad **Campaign**, asegurando que su construcción, actualización y manejo de listas internas cumplan con las reglas de negocio.
 
 ##### 1. `Constructor_parametros_asigna_propiedades_correctamente`
-- **Objetivo:** validar que la creación de una campaña con parámetros válidos asigne correctamente todas sus propiedades.  
-- **Validaciones:**  
-  - Se asignan correctamente los valores de `Name`, `Description`, `StartDate`, `EndDate`, `Status`, `StableId`.  
-  - Las listas `Goals` y `Channels` mantienen su referencia original.  
-- **Resultado esperado:** la campaña se inicializa con datos coherentes y referencias consistentes a sus listas asociadas.  
+
+- **Objetivo:** validar que la creación de una campaña con parámetros válidos asigne correctamente todas sus propiedades.
+- **Validaciones:**
+  - Se asignan correctamente los valores de `Name`, `Description`, `StartDate`, `EndDate`, `Status`, `StableId`.
+  - Las listas `Goals` y `Channels` mantienen su referencia original.
+- **Resultado esperado:** la campaña se inicializa con datos coherentes y referencias consistentes a sus listas asociadas.
 
 ![CampaingTest1](assets/Unit/CampaingTest1.png)
 
 ##### 2. `Constructor_command_con_userid_nulo_lanza_ArgumentException`
-- **Objetivo:** asegurar que toda campaña cuente con un usuario asociado del sistema.  
-- **Escenario:** se crea un `CreateCampaignCommand` con `CampaignUserId = null`.  
-- **Validación:**  
-  - Se lanza una excepción `ArgumentException` con el mensaje `"UserId must be set by the system"`.  
-- **Resultado esperado:** se impide crear campañas sin trazabilidad del usuario responsable.  
+
+- **Objetivo:** asegurar que toda campaña cuente con un usuario asociado del sistema.
+- **Escenario:** se crea un `CreateCampaignCommand` con `CampaignUserId = null`.
+- **Validación:**
+  - Se lanza una excepción `ArgumentException` con el mensaje `"UserId must be set by the system"`.
+- **Resultado esperado:** se impide crear campañas sin trazabilidad del usuario responsable.
 
 ![CampaingTest1](assets/Unit/CampaingTest2.png)
 
 ##### 3. `UpdateStatus_cambia_el_estado_de_la_campania`
-- **Objetivo:** validar la capacidad de cambiar el estado de la campaña entre fases predefinidas.  
-- **Escenario:** el estado inicial es `"Draft"` y se actualiza a `"Active"`, `"Paused"` o `"Completed"`.  
-- **Validación:**  
-  - El campo `Status` cambia correctamente al nuevo valor.  
-- **Resultado esperado:** la campaña refleja correctamente su progreso operativo.  
+
+- **Objetivo:** validar la capacidad de cambiar el estado de la campaña entre fases predefinidas.
+- **Escenario:** el estado inicial es `"Draft"` y se actualiza a `"Active"`, `"Paused"` o `"Completed"`.
+- **Validación:**
+  - El campo `Status` cambia correctamente al nuevo valor.
+- **Resultado esperado:** la campaña refleja correctamente su progreso operativo.
 
 ![CampaingTest1](assets/Unit/CampaingTest3.png)
 
 ##### 4. `Constructor_parametros_preserva_referencias_de_listas`
-- **Objetivo:** garantizar que las listas `Goals` y `Channels` inyectadas mantengan la misma referencia en memoria.  
-- **Validación:**  
-  - `Assert.Same(goals, sut.Goals)` y `Assert.Same(channels, sut.Channels)`.  
-- **Resultado esperado:** la entidad conserva las referencias originales para evitar duplicaciones en la agregación.  
+
+- **Objetivo:** garantizar que las listas `Goals` y `Channels` inyectadas mantengan la misma referencia en memoria.
+- **Validación:**
+  - `Assert.Same(goals, sut.Goals)` y `Assert.Same(channels, sut.Channels)`.
+- **Resultado esperado:** la entidad conserva las referencias originales para evitar duplicaciones en la agregación.
 
 ![CampaingTest1](assets/Unit/CampaingTest4.png)
 
 ##### 5. `AddGoal_agrega_elemento_a_la_coleccion`
-- **Objetivo:** comprobar que el método `AddGoal()` agrega correctamente un nuevo elemento a la colección interna.  
-- **Validación:**  
-  - El conteo de `Goals` aumenta en uno tras la operación.  
-- **Resultado esperado:** la campaña puede registrar nuevas metas de forma dinámica.  
+
+- **Objetivo:** comprobar que el método `AddGoal()` agrega correctamente un nuevo elemento a la colección interna.
+- **Validación:**
+  - El conteo de `Goals` aumenta en uno tras la operación.
+- **Resultado esperado:** la campaña puede registrar nuevas metas de forma dinámica.
 
 ![CampaingTest1](assets/Unit/CampaingTest5.png)
 
 ##### 6. `AddChannel_agrega_elemento_a_la_coleccion`
-- **Objetivo:** verificar que el método `AddChannel()` incremente la lista interna de canales.  
-- **Validación:**  
-  - El número de elementos en `Channels` aumenta en uno.  
-- **Resultado esperado:** la campaña incorpora correctamente nuevos medios de difusión.  
+
+- **Objetivo:** verificar que el método `AddChannel()` incremente la lista interna de canales.
+- **Validación:**
+  - El número de elementos en `Channels` aumenta en uno.
+- **Resultado esperado:** la campaña incorpora correctamente nuevos medios de difusión.
 
 ![CampaingTest1](assets/Unit/CampaingTest6.png)
 
@@ -2755,25 +2770,28 @@ La clase `CampaignTests` agrupa las pruebas que validan el comportamiento centra
 Las pruebas de la entidad **Goal** se enfocan en la gestión de metas dentro de una campaña, validando su creación, persistencia y referencia compartida con la campaña principal.
 
 ##### 1. `Goals_inicialmente_vacia_cuando_se_inyecta_lista_vacia`
-- **Objetivo:** comprobar que la lista de metas inicia vacía cuando se proporciona una lista vacía.  
-- **Resultado esperado:** el conteo inicial de `Goals` es cero.  
+
+- **Objetivo:** comprobar que la lista de metas inicia vacía cuando se proporciona una lista vacía.
+- **Resultado esperado:** el conteo inicial de `Goals` es cero.
 
 ![GoalTest1](assets/Unit/GoalTest1.png)
 
 ##### 2. `AddGoal_incrementa_conteo_de_goals`
-- **Objetivo:** verificar que el método `AddGoal()` incremente correctamente el número de metas.  
-- **Validación:**  
-  - El conteo aumenta en dos tras dos adiciones.  
-- **Resultado esperado:** las metas pueden añadirse dinámicamente a la campaña.  
+
+- **Objetivo:** verificar que el método `AddGoal()` incremente correctamente el número de metas.
+- **Validación:**
+  - El conteo aumenta en dos tras dos adiciones.
+- **Resultado esperado:** las metas pueden añadirse dinámicamente a la campaña.
 
 ![GoalTest1](assets/Unit/GoalTest2.png)
 
 ##### 3. `Goals_preserva_referencia_compartida`
-- **Objetivo:** asegurar que las listas de metas mantienen la misma referencia cuando se modifica desde fuera del objeto campaña.  
-- **Validación:**  
-  - `Assert.Same(goals, sut.Goals)`  
-  - `Assert.Equal(goals.Count, sut.Goals.Count)`  
-- **Resultado esperado:** se garantiza la coherencia entre las referencias internas y externas de la colección de metas.  
+
+- **Objetivo:** asegurar que las listas de metas mantienen la misma referencia cuando se modifica desde fuera del objeto campaña.
+- **Validación:**
+  - `Assert.Same(goals, sut.Goals)`
+  - `Assert.Equal(goals.Count, sut.Goals.Count)`
+- **Resultado esperado:** se garantiza la coherencia entre las referencias internas y externas de la colección de metas.
 
 ![GoalTest1](assets/Unit/GoalTest3.png)
 
@@ -2782,25 +2800,28 @@ Las pruebas de la entidad **Goal** se enfocan en la gestión de metas dentro de 
 Las pruebas de la entidad **Channel** validan el correcto manejo de los canales de comunicación o difusión asociados a cada campaña.
 
 ##### 1. `Channels_inicialmente_vacia_cuando_se_inyecta_lista_vacia`
-- **Objetivo:** comprobar que la lista de canales inicia vacía al recibir una colección vacía.  
-- **Resultado esperado:** `Channels.Count == 0`.  
+
+- **Objetivo:** comprobar que la lista de canales inicia vacía al recibir una colección vacía.
+- **Resultado esperado:** `Channels.Count == 0`.
 
 ![ChannelTest1](assets/Unit/ChannelTest1.png)
 
 ##### 2. `AddChannel_incrementa_conteo_de_channels`
-- **Objetivo:** verificar que el método `AddChannel()` incremente el número de canales dentro de la campaña.  
-- **Validación:**  
-  - El conteo final de `Channels` es dos luego de dos llamadas al método.  
-- **Resultado esperado:** los canales se agregan correctamente al plan de difusión de la campaña.  
+
+- **Objetivo:** verificar que el método `AddChannel()` incremente el número de canales dentro de la campaña.
+- **Validación:**
+  - El conteo final de `Channels` es dos luego de dos llamadas al método.
+- **Resultado esperado:** los canales se agregan correctamente al plan de difusión de la campaña.
 
 ![ChannelTest1](assets/Unit/ChannelTest2.png)
 
 ##### 3. `Channels_preserva_referencia_compartida`
-- **Objetivo:** garantizar que las listas de canales mantienen la misma referencia en memoria cuando se modifican desde fuera de la campaña.  
-- **Validación:**  
-  - `Assert.Same(channels, sut.Channels)`  
-  - `Assert.Equal(channels.Count, sut.Channels.Count)`  
-- **Resultado esperado:** las referencias de las listas se conservan, evitando pérdida de sincronización o duplicación de datos.  
+
+- **Objetivo:** garantizar que las listas de canales mantienen la misma referencia en memoria cuando se modifican desde fuera de la campaña.
+- **Validación:**
+  - `Assert.Same(channels, sut.Channels)`
+  - `Assert.Equal(channels.Count, sut.Channels.Count)`
+- **Resultado esperado:** las referencias de las listas se conservan, evitando pérdida de sincronización o duplicación de datos.
 
 ![ChannelTest1](assets/Unit/ChannelTest3.png)
 
@@ -2809,83 +2830,88 @@ Las pruebas de la entidad **Channel** validan el correcto manejo de los canales 
 El contexto **Staff Administration** en **VacApp** se encarga de gestionar al personal involucrado en las campañas ganaderas, incluyendo veterinarios, operarios y administradores.  
 Estas pruebas unitarias se implementaron en **C# con xUnit**, aplicando la metodología **AAA (Arrange / Act / Assert)**, con el fin de validar la integridad de la creación, actualización y vinculación del personal con campañas activas dentro del sistema.
 
-
 #### Clase: `StaffTests`
 
 Las pruebas verifican que la entidad **Staff** cumpla con las reglas de negocio asociadas al registro del personal, asegurando que los campos esenciales se asignen correctamente y que no se creen registros incompletos o inconsistentes.
 
 ##### 1. `Constructor_por_defecto_inicializa_campos_por_defecto`
-- **Objetivo:** comprobar que, al crear una instancia sin parámetros, el objeto se inicializa en un estado seguro.  
-- **Validaciones:**  
-  - `Name` = `string.Empty`.  
-  - `EmployeeStatus` no es nulo.  
-  - `CampaignId` y `StaffUserId` son `null`.  
+
+- **Objetivo:** comprobar que, al crear una instancia sin parámetros, el objeto se inicializa en un estado seguro.
+- **Validaciones:**
+  - `Name` = `string.Empty`.
+  - `EmployeeStatus` no es nulo.
+  - `CampaignId` y `StaffUserId` son `null`.
 - **Resultado esperado:** la entidad comienza con valores controlados, lista para ser configurada mediante comandos válidos.
 
 ![StaffTest1](assets/Unit/StaffTest1.png)
 
-
 ##### 2. `Constructor_parametros_valido_asigna_propiedades`
-- **Objetivo:** verificar que al crear un objeto `Staff` con parámetros válidos, estos se asignen correctamente.  
-- **Validaciones:**  
-  - Los valores de `Name`, `EmployeeStatus`, `CampaignId` y `StaffUserId` se asignan correctamente.  
-- **Resultado esperado:** el registro del personal se crea con datos coherentes y trazables dentro del sistema.  
+
+- **Objetivo:** verificar que al crear un objeto `Staff` con parámetros válidos, estos se asignen correctamente.
+- **Validaciones:**
+  - Los valores de `Name`, `EmployeeStatus`, `CampaignId` y `StaffUserId` se asignan correctamente.
+- **Resultado esperado:** el registro del personal se crea con datos coherentes y trazables dentro del sistema.
 
 ![StaffTest1](assets/Unit/StaffTest2.png)
 
 ##### 3. `Constructor_con_CreateStaffCommand_valido_asigna_propiedades`
-- **Objetivo:** validar que el constructor basado en `CreateStaffCommand` funcione de manera correcta.  
-- **Validaciones:**  
-  - El nombre, estado y campaña son los esperados.  
-  - `StaffUserId` se asigna de forma correcta y única.  
-- **Resultado esperado:** la creación mediante comandos garantiza que las reglas del dominio se cumplan desde el origen.  
+
+- **Objetivo:** validar que el constructor basado en `CreateStaffCommand` funcione de manera correcta.
+- **Validaciones:**
+  - El nombre, estado y campaña son los esperados.
+  - `StaffUserId` se asigna de forma correcta y única.
+- **Resultado esperado:** la creación mediante comandos garantiza que las reglas del dominio se cumplan desde el origen.
 
 ![StaffTest1](assets/Unit/StaffTest3.png)
 
 ##### 4. `Constructor_con_command_CampaignId_null_lanza_ArgumentException`
-- **Objetivo:** garantizar que cada miembro del personal esté asociado a una campaña.  
-- **Escenario:** se pasa `CampaignId = null` en el comando de creación.  
-- **Validación:**  
-  - Se lanza una excepción `ArgumentException` con el mensaje `"CampaignId is required"`.  
-- **Resultado esperado:** evita la creación de personal sin asignación a campaña, preservando la consistencia del modelo.  
+
+- **Objetivo:** garantizar que cada miembro del personal esté asociado a una campaña.
+- **Escenario:** se pasa `CampaignId = null` en el comando de creación.
+- **Validación:**
+  - Se lanza una excepción `ArgumentException` con el mensaje `"CampaignId is required"`.
+- **Resultado esperado:** evita la creación de personal sin asignación a campaña, preservando la consistencia del modelo.
 
 ![StaffTest1](assets/Unit/StaffTest4.png)
 
 ##### 5. `Constructor_con_command_StaffUserId_null_lanza_ArgumentException`
-- **Objetivo:** comprobar que todo miembro del personal tenga un identificador de usuario del sistema.  
-- **Validación:**  
-  - Se lanza una excepción `ArgumentException` con el mensaje `"StaffUserId must be set by the system"`.  
-- **Resultado esperado:** impide la creación de registros anónimos o sin responsable definido.  
+
+- **Objetivo:** comprobar que todo miembro del personal tenga un identificador de usuario del sistema.
+- **Validación:**
+  - Se lanza una excepción `ArgumentException` con el mensaje `"StaffUserId must be set by the system"`.
+- **Resultado esperado:** impide la creación de registros anónimos o sin responsable definido.
 
 ![StaffTest1](assets/Unit/StaffTest5.png)
 
 ##### 6. `Update_con_datos_validos_actualiza_propiedades_y_admite_CampaignId_null`
-- **Objetivo:** validar que el método `Update()` permita modificar las propiedades básicas del personal y opcionalmente dejar `CampaignId` en `null`.  
-- **Validaciones:**  
-  - Se actualizan `Name` y `EmployeeStatus`.  
-  - `CampaignId` puede quedar sin asignar.  
-- **Resultado esperado:** permite flexibilidad en la reubicación o desvinculación del personal respecto a una campaña.  
+
+- **Objetivo:** validar que el método `Update()` permita modificar las propiedades básicas del personal y opcionalmente dejar `CampaignId` en `null`.
+- **Validaciones:**
+  - Se actualizan `Name` y `EmployeeStatus`.
+  - `CampaignId` puede quedar sin asignar.
+- **Resultado esperado:** permite flexibilidad en la reubicación o desvinculación del personal respecto a una campaña.
 
 ![StaffTest1](assets/Unit/StaffTest6.png)
 
 ##### 7. `Update_con_datos_validos_actualiza_propiedades_con_CampaignId_no_null`
-- **Objetivo:** garantizar que el método `Update()` funcione correctamente cuando se asigna un nuevo `CampaignId`.  
-- **Validaciones:**  
-  - El nombre y estado cambian correctamente.  
-  - `CampaignId` se actualiza al nuevo valor proporcionado.  
-- **Resultado esperado:** el sistema permite reasignar personal a nuevas campañas de forma segura.  
+
+- **Objetivo:** garantizar que el método `Update()` funcione correctamente cuando se asigna un nuevo `CampaignId`.
+- **Validaciones:**
+  - El nombre y estado cambian correctamente.
+  - `CampaignId` se actualiza al nuevo valor proporcionado.
+- **Resultado esperado:** el sistema permite reasignar personal a nuevas campañas de forma segura.
 
 ![StaffTest1](assets/Unit/StaffTest7.png)
 
 ### Resultados Generales de las Pruebas Unitarias
 
-La siguiente imagen muestra la **ejecución total de las pruebas unitarias** desarrolladas para los diferentes contextos de la plataforma **VacApp**: *IAM*, *Ranch Management*, *Campaign Management* y *Staff Administration*.  
+La siguiente imagen muestra la **ejecución total de las pruebas unitarias** desarrolladas para los diferentes contextos de la plataforma **VacApp**: _IAM_, _Ranch Management_, _Campaign Management_ y _Staff Administration_.
 
 Los resultados reflejan que **todas las pruebas unitarias pasaron exitosamente**, evidenciando un correcto comportamiento de las reglas de negocio implementadas y asegurando la estabilidad del dominio de la aplicación.
 
-- Se ejecutaron **todas las pruebas definidas** para cada agregado raíz sin fallos.  
-- La cobertura abarca **validaciones de constructores, actualizaciones de entidades y manejo de excepciones controladas**.   
-- El sistema mantiene **coherencia entre las entidades dependientes**, cumpliendo los principios de *Domain-Driven Design (DDD)*.
+- Se ejecutaron **todas las pruebas definidas** para cada agregado raíz sin fallos.
+- La cobertura abarca **validaciones de constructores, actualizaciones de entidades y manejo de excepciones controladas**.
+- El sistema mantiene **coherencia entre las entidades dependientes**, cumpliendo los principios de _Domain-Driven Design (DDD)_.
 
 ![Resultados Totales de Pruebas Unitarias](assets/Unit/TestTotales.png)
 
@@ -3011,12 +3037,12 @@ A continuación se presentan los **archivos .feature** implementados para valida
 
 La adopción de BDD en VacApp ha proporcionado los siguientes beneficios:
 
- **Comunicación mejorada** entre equipos técnicos y de negocio
- **Documentación viva** que se mantiene actualizada con el código
- **Validación automática** de comportamientos críticos del sistema
- **Reducción de defectos** mediante especificaciones claras
- **Facilita el mantenimiento** y evolución del software
- **Alineación continua** con las necesidades del dominio ganadero
+**Comunicación mejorada** entre equipos técnicos y de negocio
+**Documentación viva** que se mantiene actualizada con el código
+**Validación automática** de comportamientos críticos del sistema
+**Reducción de defectos** mediante especificaciones claras
+**Facilita el mantenimiento** y evolución del software
+**Alineación continua** con las necesidades del dominio ganadero
 
 #### Herramientas Utilizadas
 
@@ -3027,7 +3053,7 @@ La adopción de BDD en VacApp ha proporcionado los siguientes beneficios:
 
 ### 6.1.4. Core System Tests
 
-En esta sección se documentan las **pruebas del sistema central (Core System Tests)** realizadas mediante la colección **VacAppTestLocal** en **Postman**, que agrupa todos los módulos críticos del backend de **VacApp**, incluyendo autenticación, gestión ganadera y administración de personal.  
+En esta sección se documentan las **pruebas del sistema central (Core System Tests)** realizadas mediante la colección **VacAppTestLocal** en **Postman**, que agrupa todos los módulos críticos del backend de **VacApp**, incluyendo autenticación, gestión ganadera y administración de personal.
 
 Estas pruebas permiten garantizar el correcto funcionamiento de la API, validando las operaciones CRUD principales, los flujos de autenticación JWT y la gestión integral de entidades ganaderas (bovinos, campañas, establos, personal, vacunas y administradores).
 
@@ -3036,6 +3062,7 @@ Estas pruebas permiten garantizar el correcto funcionamiento de la API, validand
 La colección está organizada por módulos, simulando el flujo real de interacción de un usuario dentro del ecosistema VacApp.
 
 #### **Sign-up — Registro exitoso**
+
 Prueba el registro de un usuario nuevo en el sistema.
 
 **Request:** `POST {{baseUrl}}/api/v1/User/sign-up`  
@@ -3044,8 +3071,8 @@ Prueba el registro de un usuario nuevo en el sistema.
 ![SignUpSuccess_Post](assets/System/RegistroExitoso1.png)
 ![SignUpSuccess_Post](assets/System/RegistroExitoso2.png)
 
-
 #### **Sign-up — Usuario ya existe**
+
 Valida que el sistema no permita registrar dos veces el mismo correo.
 
 **Request:** `POST {{baseUrl}}/api/v1/User/sign-up`  
@@ -3055,6 +3082,7 @@ Valida que el sistema no permita registrar dos veces el mismo correo.
 ![SignUpSuccess_Post](assets/System/UserExists2.png)
 
 #### **Sign-up — Email inválido**
+
 Verifica que el backend rechace direcciones de correo con formato incorrecto.
 
 **Request:** `POST {{baseUrl}}/api/v1/User/sign-up`  
@@ -3063,6 +3091,7 @@ Verifica que el backend rechace direcciones de correo con formato incorrecto.
 ![SignUpSuccess_Post](assets/System/CorreoInvalid2.png)
 
 #### **Sign-in — Inicio exitoso**
+
 Valida la autenticación correcta y generación del token JWT.
 
 **Request:** `POST {{baseUrl}}/api/v1/User/sign-in`  
@@ -3073,6 +3102,7 @@ Valida la autenticación correcta y generación del token JWT.
 ![SignUpSuccess_Post](assets/System/InicioExitosoUsername2.png)
 
 #### **Sign-in — Usuario inexistente**
+
 Comprueba el comportamiento ante un nombre o correo no registrado.
 
 **Request:** `POST {{baseUrl}}/api/v1/User/sign-in`  
@@ -3082,6 +3112,7 @@ Comprueba el comportamiento ante un nombre o correo no registrado.
 ![SignUpSuccess_Post](assets/System/correoinvalidoinciar2.png)
 
 #### **Sign-in — Contraseña incorrecta**
+
 Evalúa la respuesta del sistema ante credenciales erróneas.
 
 **Request:** `POST {{baseUrl}}/api/v1/User/sign-in`  
@@ -3091,6 +3122,7 @@ Evalúa la respuesta del sistema ante credenciales erróneas.
 ![SignUpSuccess_Post](assets/System/passwordmal2.png)
 
 #### **Bovino — Creación exitosa**
+
 Crea un bovino asociado a un establo existente.
 
 **Request:** `POST {{baseUrl}}/api/v1/bovines`  
@@ -3100,6 +3132,7 @@ Crea un bovino asociado a un establo existente.
 ![SignUpSuccess_Post](assets/System/CreacionBovino2.png)
 
 #### **Bovino — Duplicado**
+
 Verifica que no se permitan nombres de bovinos repetidos.
 
 **Request:** `POST {{baseUrl}}/api/v1/bovines`  
@@ -3109,6 +3142,7 @@ Verifica que no se permitan nombres de bovinos repetidos.
 ![SignUpSuccess_Post](assets/System/duplicadobovino2.png)
 
 #### **Stables — Creación exitosa**
+
 Registra un nuevo establo con límite de capacidad.
 
 **Request:** `POST {{baseUrl}}/api/v1/stables`  
@@ -3118,6 +3152,7 @@ Registra un nuevo establo con límite de capacidad.
 ![SignUpSuccess_Post](assets/System/stable1.1.png)
 
 #### **Stables — Repetido**
+
 Controla que no se permitan nombres de establos duplicados.
 
 **Request:** `POST {{baseUrl}}/api/v1/stables`  
@@ -3127,6 +3162,7 @@ Controla que no se permitan nombres de establos duplicados.
 ![SignUpSuccess_Post](assets/System/stableduplicado2.png)
 
 #### **Staff — Creación exitosa**
+
 Crea un empleado y lo asocia a una campaña activa.
 
 **Request:** `POST {{baseUrl}}/api/v1/staff`  
@@ -3136,6 +3172,7 @@ Crea un empleado y lo asocia a una campaña activa.
 ![SignUpSuccess_Post](assets/System/staffcrear2.png)
 
 #### **Staff — Duplicado**
+
 Evita la creación de un mismo empleado repetidamente.
 
 **Request:** `POST {{baseUrl}}/api/v1/staff`  
@@ -3145,6 +3182,7 @@ Evita la creación de un mismo empleado repetidamente.
 ![SignUpSuccess_Post](assets/System/staffduplicado2.png)
 
 #### **Campaign — Creación exitosa**
+
 Registra una nueva campaña ganadera.
 
 **Request:** `POST {{baseUrl}}/api/v1/campaigns`  
@@ -3153,9 +3191,8 @@ Registra una nueva campaña ganadera.
 ![SignUpSuccess_Post](assets/System/crearcampaña.png)
 ![campaña2](assets/System/crearCampaña2.png)
 
-
-
 #### **Campaign — Duplicado**
+
 Valida el control de duplicidad en nombres de campañas.
 
 **Request:** `POST {{baseUrl}}/api/v1/campaigns`  
@@ -3165,6 +3202,7 @@ Valida el control de duplicidad en nombres de campañas.
 ![SignUpSuccess_Post](assets/System/campañaduplicada2.png)
 
 #### **Admin — Creación válida**
+
 Crea un administrador del sistema con credenciales correctas.
 
 **Request:** `POST {{baseUrl}}/api/v1/admin/create`  
@@ -3174,6 +3212,7 @@ Crea un administrador del sistema con credenciales correctas.
 ![SignUpSuccess_Post](assets/System/validtestadmincreate.png)
 
 #### **Admin — Datos inválidos**
+
 Evalúa validaciones de campos requeridos.
 
 **Request:** `POST {{baseUrl}}/api/v1/admin/create`  
@@ -3183,6 +3222,7 @@ Evalúa validaciones de campos requeridos.
 ![SignUpSuccess_Post](assets/System/invalidAdmincreate2.png)
 
 #### **Admin — Email repetido**
+
 Valida que no se registren administradores con el mismo email.
 
 **Request:** `POST {{baseUrl}}/api/v1/admin/create`  
@@ -3192,6 +3232,7 @@ Valida que no se registren administradores con el mismo email.
 ![SignUpSuccess_Post](assets/System/adminrepetido2.png)
 
 ### **Variables de Entorno Utilizadas**
+
 - `baseUrl`
 - `token`
 - `email_ok`, `username_ok`, `password_ok`
@@ -3202,14 +3243,15 @@ Valida que no se registren administradores con el mismo email.
 
 ### **Ejemplo de Flujo de Pruebas**
 
-1. **Registro de usuario:** Ejecutar `Sign-Up — Registro exitoso`.  
-2. **Login:** Ejecutar `Sign-in — Inicio exitoso` y guardar el token.  
-3. **Crear establo:** Ejecutar `create stables`.  
-4. **Registrar bovino:** Ejecutar `Crear bovino`.  
-5. **Registrar campaña:** Ejecutar `Crea Campaña`.  
+1. **Registro de usuario:** Ejecutar `Sign-Up — Registro exitoso`.
+2. **Login:** Ejecutar `Sign-in — Inicio exitoso` y guardar el token.
+3. **Crear establo:** Ejecutar `create stables`.
+4. **Registrar bovino:** Ejecutar `Crear bovino`.
+5. **Registrar campaña:** Ejecutar `Crea Campaña`.
 6. **Registrar staff:** Ejecutar `crear staff`.
 
 Cada request cuenta con scripts automáticos en la pestaña **Tests**, que verifican:
+
 - El **código de estado HTTP** esperado (`200`, `201`, `400`, `409`, etc.).
 - Que la **respuesta sea JSON válida**.
 - Que contenga **propiedades clave** (`id`, `name`, `status`, etc.).
@@ -3217,7 +3259,8 @@ Cada request cuenta con scripts automáticos en la pestaña **Tests**, que verif
 
 ### **Estrategia de Validación**
 
-Los tests fueron diseñados bajo criterios de *robustez e integridad*, simulando escenarios reales y de error:
+Los tests fueron diseñados bajo criterios de _robustez e integridad_, simulando escenarios reales y de error:
+
 - Duplicidad de registros.
 - Violación de integridad referencial.
 - Validación de campos requeridos.
@@ -3254,7 +3297,6 @@ trim_trailing_whitespace = true
 
 insert_final_newline = true
 
-  
 
 # Code files
 
@@ -3262,7 +3304,6 @@ insert_final_newline = true
 
 indent_size = 4
 
-  
 
 # XML project files
 
@@ -3270,7 +3311,6 @@ indent_size = 4
 
 indent_size = 2
 
-  
 
 # XML config files
 
@@ -3278,7 +3318,6 @@ indent_size = 2
 
 indent_size = 2
 
-  
 
 # JSON files
 
@@ -3286,7 +3325,6 @@ indent_size = 2
 
 indent_size = 2
 
-  
 
 # YAML files
 
@@ -3294,7 +3332,6 @@ indent_size = 2
 
 indent_size = 2
 
-  
 
 # Shell scripts
 
@@ -3302,17 +3339,16 @@ indent_size = 2
 
 end_of_line = lf
 
-  
 
 # C# files
 
 [*.cs]
 
-  
+
 
 #### Core EditorConfig Options ####
 
-  
+
 
 # Indentation and spacing
 
@@ -3320,11 +3356,11 @@ indent_size = 4
 
 tab_width = 4
 
-  
+
 
 #### .NET Coding Conventions ####
 
-  
+
 
 # Organize usings
 
@@ -3332,7 +3368,6 @@ dotnet_sort_system_directives_first = true
 
 dotnet_separate_import_directive_groups = false
 
-  
 
 # this. preferences
 
@@ -3344,7 +3379,6 @@ dotnet_style_qualification_for_method = false:warning
 
 dotnet_style_qualification_for_event = false:warning
 
-  
 
 # Language keywords vs BCL types preferences
 
@@ -3352,7 +3386,6 @@ dotnet_style_predefined_type_for_locals_parameters_members = true:warning
 
 dotnet_style_predefined_type_for_member_access = true:warning
 
-  
 
 # Parentheses preferences
 
@@ -3364,7 +3397,6 @@ dotnet_style_parentheses_in_other_binary_operators = always_for_clarity:suggesti
 
 dotnet_style_parentheses_in_other_operators = never_if_unnecessary:suggestion
 
-  
 
 # Modifier preferences
 
@@ -3372,7 +3404,6 @@ dotnet_style_require_accessibility_modifiers = always:warning
 
 dotnet_style_readonly_field = true:warning
 
-  
 
 # Expression-level preferences
 
@@ -3404,7 +3435,6 @@ dotnet_style_prefer_simplified_interpolation = true:suggestion
 
 dotnet_style_prefer_simplified_boolean_expressions = true:suggestion
 
-  
 
 # Null-checking preferences
 
@@ -3412,11 +3442,11 @@ dotnet_style_coalesce_expression = true:suggestion
 
 dotnet_style_null_propagation = true:suggestion
 
-  
+
 
 #### C# Coding Conventions ####
 
-  
+
 
 # var preferences
 
@@ -3426,7 +3456,6 @@ csharp_style_var_when_type_is_apparent = true:suggestion
 
 csharp_style_var_elsewhere = true:suggestion
 
-  
 
 # Expression-bodied members
 
@@ -3446,7 +3475,6 @@ csharp_style_expression_bodied_lambdas = when_on_single_line:suggestion
 
 csharp_style_expression_bodied_local_functions = when_on_single_line:suggestion
 
-  
 
 # Pattern matching preferences
 
@@ -3462,7 +3490,6 @@ csharp_style_prefer_not_pattern = true:suggestion
 
 csharp_style_prefer_extended_property_pattern = true:suggestion
 
-  
 
 # Null-checking preferences
 
@@ -3470,7 +3497,6 @@ csharp_style_throw_expression = true:suggestion
 
 csharp_style_conditional_delegate_call = true:suggestion
 
-  
 
 # Modifier preferences
 
@@ -3478,7 +3504,6 @@ csharp_prefer_static_local_function = true:warning
 
 csharp_preferred_modifier_order = public,private,protected,internal,static,extern,new,virtual,abstract,sealed,override,readonly,unsafe,volatile,async:suggestion
 
-  
 
 # Code-block preferences
 
@@ -3492,7 +3517,6 @@ csharp_style_prefer_method_group_conversion = true:suggestion
 
 csharp_style_prefer_top_level_statements = true:silent
 
-  
 
 # Expression-level preferences
 
@@ -3518,13 +3542,11 @@ csharp_style_unused_value_assignment_preference = discard_variable:suggestion
 
 csharp_style_unused_value_expression_statement_preference = discard_variable:silent
 
-  
 
 # 'using' directive preferences
 
 csharp_using_directive_placement = outside_namespace:warning
 
-  
 
 # New line preferences
 
@@ -3534,11 +3556,11 @@ csharp_style_allow_blank_lines_between_consecutive_braces_experimental = false:w
 
 csharp_style_allow_blank_line_after_colon_in_constructor_initializer_experimental = false:warning
 
-  
+
 
 #### C# Formatting Rules ####
 
-  
+
 
 # New line preferences
 
@@ -3556,7 +3578,6 @@ csharp_new_line_before_members_in_anonymous_types = true
 
 csharp_new_line_between_query_expression_clauses = true
 
-  
 
 # Indentation preferences
 
@@ -3572,7 +3593,6 @@ csharp_indent_braces = false
 
 csharp_indent_case_contents_when_block = false
 
-  
 
 # Space preferences
 
@@ -3616,7 +3636,6 @@ csharp_space_between_empty_square_brackets = false
 
 csharp_space_between_square_brackets = false
 
-  
 
 # Wrapping preferences
 
@@ -3624,15 +3643,15 @@ csharp_preserve_single_line_statements = false
 
 csharp_preserve_single_line_blocks = true
 
-  
+
 
 #### Naming conventions ####
 
-  
+
 
 # Naming rules
 
-  
+
 
 dotnet_naming_rule.interface_should_be_begins_with_i.severity = warning
 
@@ -3640,7 +3659,6 @@ dotnet_naming_rule.interface_should_be_begins_with_i.symbols = interface
 
 dotnet_naming_rule.interface_should_be_begins_with_i.style = begins_with_i
 
-  
 
 dotnet_naming_rule.types_should_be_pascal_case.severity = warning
 
@@ -3648,7 +3666,6 @@ dotnet_naming_rule.types_should_be_pascal_case.symbols = types
 
 dotnet_naming_rule.types_should_be_pascal_case.style = pascal_case
 
-  
 
 dotnet_naming_rule.non_field_members_should_be_pascal_case.severity = warning
 
@@ -3656,7 +3673,6 @@ dotnet_naming_rule.non_field_members_should_be_pascal_case.symbols = non_field_m
 
 dotnet_naming_rule.non_field_members_should_be_pascal_case.style = pascal_case
 
-  
 
 dotnet_naming_rule.private_or_internal_field_should_be_begins_with_underscore.severity = warning
 
@@ -3664,7 +3680,6 @@ dotnet_naming_rule.private_or_internal_field_should_be_begins_with_underscore.sy
 
 dotnet_naming_rule.private_or_internal_field_should_be_begins_with_underscore.style = begins_with_underscore
 
-  
 
 dotnet_naming_rule.constant_should_be_pascal_case.severity = warning
 
@@ -3672,7 +3687,6 @@ dotnet_naming_rule.constant_should_be_pascal_case.symbols = constant
 
 dotnet_naming_rule.constant_should_be_pascal_case.style = pascal_case
 
-  
 
 dotnet_naming_rule.static_readonly_should_be_pascal_case.severity = warning
 
@@ -3680,11 +3694,11 @@ dotnet_naming_rule.static_readonly_should_be_pascal_case.symbols = static_readon
 
 dotnet_naming_rule.static_readonly_should_be_pascal_case.style = pascal_case
 
-  
+
 
 # Symbol specifications
 
-  
+
 
 dotnet_naming_symbols.interface.applicable_kinds = interface
 
@@ -3692,7 +3706,6 @@ dotnet_naming_symbols.interface.applicable_accessibilities = public, internal, p
 
 dotnet_naming_symbols.interface.required_modifiers =
 
-  
 
 dotnet_naming_symbols.types.applicable_kinds = class, struct, interface, enum
 
@@ -3700,7 +3713,6 @@ dotnet_naming_symbols.types.applicable_accessibilities = public, internal, priva
 
 dotnet_naming_symbols.types.required_modifiers =
 
-  
 
 dotnet_naming_symbols.non_field_members.applicable_kinds = property, event, method
 
@@ -3708,7 +3720,6 @@ dotnet_naming_symbols.non_field_members.applicable_accessibilities = public, int
 
 dotnet_naming_symbols.non_field_members.required_modifiers =
 
-  
 
 dotnet_naming_symbols.private_or_internal_field.applicable_kinds = field
 
@@ -3716,7 +3727,6 @@ dotnet_naming_symbols.private_or_internal_field.applicable_accessibilities = int
 
 dotnet_naming_symbols.private_or_internal_field.required_modifiers =
 
-  
 
 dotnet_naming_symbols.constant.applicable_kinds = field
 
@@ -3724,7 +3734,6 @@ dotnet_naming_symbols.constant.applicable_accessibilities = *
 
 dotnet_naming_symbols.constant.required_modifiers = const
 
-  
 
 dotnet_naming_symbols.static_readonly.applicable_kinds = field
 
@@ -3732,11 +3741,11 @@ dotnet_naming_symbols.static_readonly.applicable_accessibilities = *
 
 dotnet_naming_symbols.static_readonly.required_modifiers = static, readonly
 
-  
+
 
 # Naming styles
 
-  
+
 
 dotnet_naming_style.pascal_case.required_prefix =
 
@@ -3746,7 +3755,6 @@ dotnet_naming_style.pascal_case.word_separator =
 
 dotnet_naming_style.pascal_case.capitalization = pascal_case
 
-  
 
 dotnet_naming_style.begins_with_i.required_prefix = I
 
@@ -3771,63 +3779,55 @@ Asimismo se implemento dentro del documento algunas reglas de refactorización u
 
 dotnet_diagnostic.CA1031.severity = suggestion
 
-  
 
 # CA1062: Validate arguments of public methods
 
 dotnet_diagnostic.CA1062.severity = suggestion
 
-  
 
 # CA1303: Do not pass literals as localized parameters
 
 dotnet_diagnostic.CA1303.severity = none
 
-  
 
 # CA1707: Identifiers should not contain underscores
 
 dotnet_diagnostic.CA1707.severity = none
 
-  
 
 # CA1711: Identifiers should not have incorrect suffix
 
 dotnet_diagnostic.CA1711.severity = suggestion
 
-  
 
 # CA2007: Consider calling ConfigureAwait on the awaited task
 
 dotnet_diagnostic.CA2007.severity = suggestion
 
-  
 
 # IDE0005: Using directive is unnecessary
 
 dotnet_diagnostic.IDE0005.severity = warning
 
-  
 
 # IDE0055: Fix formatting
 
 dotnet_diagnostic.IDE0055.severity = warning
 
-  
 
 # Remove unnecessary suppressions
 
 dotnet_diagnostic.IDE0079.severity = warning
 
-  
+
 
 # Roslynator Analyzers - Configuración API
 
-  
+
 
 dotnet_analyzer_diagnostic.category-Roslynator.severity = suggestion
 
-  
+
 
 dotnet_diagnostic.RCS1021.severity = warning  
 
@@ -3843,7 +3843,6 @@ dotnet_diagnostic.RCS1045.severity = suggestion
 
 dotnet_diagnostic.RCS1158.severity = warning  
 
-  
 
 dotnet_diagnostic.RCS1002.severity = suggestion
 
@@ -3859,7 +3858,6 @@ dotnet_diagnostic.RCS1128.severity = suggestion  
 
 dotnet_diagnostic.RCS1194.severity = suggestion
 
-  
 
 dotnet_diagnostic.RCS1077.severity = warning  
 
@@ -3873,7 +3871,6 @@ dotnet_diagnostic.RCS1188.severity = warning  
 
 dotnet_diagnostic.RCS1217.severity = warning  
 
-  
 
 dotnet_diagnostic.RCS1018.severity = warning  
 
@@ -3889,7 +3886,6 @@ dotnet_diagnostic.RCS1211.severity = warning  
 
 dotnet_diagnostic.RCS1196.severity = warning  
 
-  
 
 dotnet_diagnostic.RCS1003.severity = suggestion
 
@@ -3904,7 +3900,7 @@ Por ultimo la herramienta utilizada para refactorizar todo el formato de la apli
 
 #### 6.2.1.2. Code Quality & Code Security
 
-Para este punto verificamos la calidad y la seguridad que mantiene el código. Para iniciar, la aplicación se realizó con Entity Framework Core como principal herramienta, esto ya nos da una gran ventaja debido a que la aplicación posee menos riesgo a tener inyecciones SQL. 
+Para este punto verificamos la calidad y la seguridad que mantiene el código. Para iniciar, la aplicación se realizó con Entity Framework Core como principal herramienta, esto ya nos da una gran ventaja debido a que la aplicación posee menos riesgo a tener inyecciones SQL.
 
 Sin embargo, para que nuestra aplicación sea mas segura, se instalo otro paquete de `dotnet` para escanear y verificar el código, Security Code Scan. Además que tiene soporte para la Integración Continua que se tiene en nuestro aplicativo gracias a Azure. Este paquete como se dijo anteriormente, escanea el proyecto completo, donde puede detectar diferentes vulnerabilidades de seguridad, como Inyecciones SQL, XSS (Cross-site Scripting), XXE (XML External Entity Injection) y CSRF (Cross-site request Forgery).
 
@@ -3918,9 +3914,244 @@ Esto nos da mas escalabilidad segura para la aplicación, tanto como tener un es
 
 ### 6.3. Validation Interviews
 
+En esta sección, se registran y explican las actividades que abarcan las entrevistas de validación durante el desarrollo de nuestro proyecto. El objetivo principal de realizar estas entrevistas de validación es obtener retroalimentación, comprender las necesidades y expectativas de los usuarios, así como validar o refutar las hipótesis sobre el producto. Para lograr esto, haremos que nuestros entrevistados de ambos segmentos interactúen con la landing page y la aplicación.
+
 ### 6.3.1. Diseño de entrevistas
 
+Para validar la efectividad y la experiencia de usuario de **VacApp**, se ha diseñado un cuestionario de entrevista dirigido a usuarios activos de la plataforma. El objetivo es recopilar feedback cualitativo y cuantitativo que permita medir la satisfacción, identificar las funcionalidades de mayor valor y descubrir oportunidades de mejora.
+
+Estas preguntas están estructuradas para guiar una conversación fluida, abarcando desde la percepción general del producto hasta detalles específicos sobre su uso diario.
+
+---
+
+#### **Cuestionario de Validación de Usuario - VacApp**
+
+**Objetivo:** Evaluar la experiencia del usuario, el valor percibido y las áreas de mejora de la aplicación.
+**Público:** Ganaderos independientes y administradores de empresas ganaderas que utilizan VacApp.
+
+---
+
+##### **Parte 1: Satisfacción General y Lealtad (NPS)**
+
+1.  **En una escala del 1 al 10, ¿qué tan probable es que recomiendes "VacApp" a otro ganadero o colega?**
+
+    - _Guía para el entrevistador: Registrar la puntuación numérica. Si es 9-10 son promotores, 7-8 pasivos, 0-6 detractores._
+
+2.  **¿Cuál es la razón principal de la calificación que acabas de dar?**
+    - _Guía: Profundizar en los motivos. ¿Es por la facilidad de uso, una función específica, el soporte, o la falta de algo?_
+
+---
+
+##### **Parte 2: Uso y Valor Percibido**
+
+3.  **¿Cuál es la función o característica de "VacApp" que más utilizas en tu día a día?**
+
+    - _Guía: Identificar las funcionalidades "ganadoras" que generan más engagement._
+
+4.  **¿Cuál es el principal problema o tarea que "VacApp" te ayuda a resolver o facilitar?**
+
+    - _Guía: Entender el "job-to-be-done" principal que la app está cumpliendo para el usuario._
+
+5.  **¿Has notado alguna mejora medible desde que usas "VacApp"?** (Ej: ahorro de tiempo, mejor control de inventario, reducción de errores en registros, etc.)
+    - _Guía: Buscar evidencia concreta del impacto positivo de la aplicación en la operación del usuario._
+
+---
+
+##### **Parte 3: Oportunidades de Mejora y Necesidades no Cubiertas**
+
+6.  **Si tuvieras una "varita mágica", ¿qué nueva función o reporte te gustaría que "VacApp" tuviera?**
+
+    - _Guía: Fomentar la creatividad para descubrir ideas de nuevas funcionalidades o mejoras significativas._
+
+7.  **¿Qué tarea importante relacionada con la gestión de tu ganado sientes que "VacApp" todavía NO te ayuda a gestionar?**
+
+    - _Guía: Identificar los "gaps" o vacíos funcionales que la aplicación aún no cubre._
+
+8.  **¿Hay alguna parte de la plataforma que te resulte confusa o difícil de usar?**
+    - _Guía: Detectar puntos de fricción en la experiencia de usuario (UX) que necesiten ser rediseñados._
+
+---
+
+##### **Parte 4: Contexto y Cierre**
+
+9.  **¿Qué herramienta o método (otra app, libreta de apuntes, Excel) usabas antes de "VacApp" para gestionar tu ganado?**
+
+    - _Guía: Comprender el comportamiento previo del usuario y el valor diferencial que VacApp ofrece frente a la competencia o métodos tradicionales._
+
+10. **¿Hay algo más que te gustaría que supiéramos sobre tu experiencia con "VacApp"?**
+    - _Guía: Pregunta abierta para capturar cualquier otro comentario, sugerencia o crítica que el usuario no haya mencionado._
+
 ### 6.3.2. Registro de Entrevistas
+
+### 6.3.2. Registro de Entrevistas
+
+A continuación, se documentan las entrevistas de validación realizadas con usuarios de los segmentos objetivo. Cada registro incluye los datos del entrevistado, un resumen de los hallazgos clave, y las evidencias correspondientes.
+
+---
+
+#### **Entrevista #1**
+
+| Detalle                 | Información                                                                        |
+| :---------------------- | :--------------------------------------------------------------------------------- |
+| **Entrevistado**        | Sergio Gomez Vallejos                                                              |
+| **Edad**                | 25                                                                                 |
+| **Rol / Experiencia**   | Ganadero Independiente                                                             |
+| **Fecha de Entrevista** | 08/11/2025                                                                         |
+| **Duración**            | 3:46                                                                               |
+| **Tecnologías Usadas**  | Zoom                                                                               |
+| **Enlace a Grabación**  | https://drive.google.com/file/d/1qC36xoN-Q9WqCXTWgixpkWKoWFHFsZzv/view?usp=sharing |
+
+<br>
+
+**Evidencia de la Entrevista:**
+
+![Evidencia Entrevista 1](assets/entre-val-1.png)
+
+<br>
+
+**Resumen de Hallazgos Clave:**
+
+- **Feedback Positivo sobre Funcionalidad:** El entrevistado confirmó que la aplicación funciona correctamente y que pudo navegar por las distintas secciones sin problemas. La funcionalidad general fue validada como intuitiva y completa.
+
+- **Oportunidad de Mejora en la Interfaz (UI):** A pesar de la buena funcionalidad, se señaló que el **menú principal se percibe "sobrecargado"**. Este hallazgo sugiere una oportunidad para simplificar la navegación, posiblemente agrupando opciones o mejorando la jerarquía visual para no abrumar al usuario.
+
+- **Solicitud de Nuevas Funcionalidades (Reportes):** El punto más relevante fue la solicitud de incorporar **reportes de alimentación y peso**. El usuario expresó un fuerte interés en poder visualizar y analizar datos históricos sobre el consumo de alimento y la evolución del peso del ganado, considerándolo una herramienta clave para la toma de decisiones.
+
+---
+
+#### **Entrevista #2**
+
+| Detalle                 | Información                                                                        |
+| :---------------------- | :--------------------------------------------------------------------------------- |
+| **Entrevistado**        | Camila Fernanda Farias Morales                                                     |
+| **Edad**                | 21                                                                                 |
+| **Rol / Experiencia**   | Practicante en una empresa Ganadera                                                |
+| **Fecha de Entrevista** | 09/11/2025                                                                         |
+| **Duración**            | 4:09                                                                               |
+| **Tecnologías Usadas**  | Zoom                                                                               |
+| **Enlace a Grabación**  | https://drive.google.com/file/d/1j8ZqTzQUoBvgMH-U6o9jUgN7AGzCIa0I/view?usp=sharing |
+
+<br>
+
+**Evidencia de la Entrevista:**
+
+![Evidencia Entrevista 1](assets/entrevista2-validation.png)
+
+<br>
+**Resumen de Hallazgos Clave:**
+
+- **Validación de Funcionalidades Clave:** La entrevistada valora positivamente la facilidad de uso y la practicidad de la aplicación, destacando los módulos de **manejo de bovinos y registro de vacunas** como los más utilizados. Confirma que la app resuelve el problema de la desorganización y la dependencia de registros manuales (Excel, cuadernos).
+
+- **Oportunidades de Mejora Críticas:** Se identificaron dos áreas principales para futuras mejoras:
+
+  1.  **Reportes Avanzados:** Fuerte interés en la incorporación de **reportes de rendimiento productivo** (ej. litros de leche, ganancia de peso) para facilitar la toma de decisiones.
+  2.  **Alertas Automáticas:** Solicitud de un sistema de **alertas automáticas** más robusto para vacunas y revisiones veterinarias, considerándolo un diferenciador clave.
+
+- **Funcionalidad Ausente (Gap):** La entrevistada señaló la falta de un módulo para **registrar gastos y costos de producción**, una funcionalidad que considera esencial para un control económico completo de la operación ganadera.
+
+- **Feedback de Usabilidad:** Aunque la interfaz es mayormente intuitiva, hubo una curva de aprendizaje inicial para tareas como **editar registros antiguos o mover animales entre establos**.
+
+---
+
+#### **Entrevista #3**
+
+| Detalle                 | Información                                                                                                                                                                                                                                                                                                                                        |
+| :---------------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Entrevistado**        | Santiago Mena Adrianzen                                                                                                                                                                                                                                                                                                                            |
+| **Edad**                | 21                                                                                                                                                                                                                                                                                                                                                 |
+| **Rol / Experiencia**   | Ganadero principante                                                                                                                                                                                                                                                                                                                               |
+| **Fecha de Entrevista** | 11/11/2025                                                                                                                                                                                                                                                                                                                                         |
+| **Duración**            | 05:06 minutos                                                                                                                                                                                                                                                                                                                                      |
+| **Tecnologías Usadas**  | Zoom                                                                                                                                                                                                                                                                                                                                               |
+| **Enlace a Grabación**  | [EntrevistaSantiago](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202215623_upc_edu_pe/IQAiIS_4fwg9R4pWxid8sXCDAf_YKejgOdQNBA4lhBeMnJE?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=NkW7wC) |
+
+<br>
+
+**Evidencia de la Entrevista:**
+
+![Evidencia Entrevista 3](assets/entrevistaSantaigo.png)
+
+<br>
+
+**Resumen de Hallazgos Clave:**
+
+La seccion de campañas no esta siendo mostrada al publico como una opcion a utilizar todo momento. Es desconocido para el usuario cuando intenta interactuar con ella y acaba dejandola de lado cuando no sabe que hacer dentro de esta misma seccion.
+
+Los registros han sido muy utiles para los ganaderos ya que permitieron hacer mediciones de los medicamentos e inventarios, pero ellos pueden ver que otras metricas como gastos en comida o medicina tambien puede ser util y factible.
+
+---
+
+#### **Entrevista #4**
+
+| Detalle                 | Información                                               |
+| :---------------------- | :-------------------------------------------------------- |
+| **Entrevistado**        | `[Nombre Completo del Entrevistado]`                      |
+| **Edad**                | `[Edad]`                                                  |
+| **Rol / Experiencia**   | `[Ej: Ganadero con 10 años de experiencia]`               |
+| **Fecha de Entrevista** | `[DD/MM/AAAA]`                                            |
+| **Duración**            | `[HH:MM:SS]`                                              |
+| **Tecnologías Usadas**  | `[Ej: Google Meet, Zoom, Grabadora de voz]`               |
+| **Enlace a Grabación**  | `[Pega aquí el enlace al video o audio de la entrevista]` |
+
+<br>
+
+**Evidencia de la Entrevista:**
+
+`![Evidencia Entrevista 1](assets/entrevista_1.png)`
+
+<br>
+
+**Resumen de Hallazgos Clave:**
+
+---
+
+#### **Entrevista #5**
+
+| Detalle                 | Información                                               |
+| :---------------------- | :-------------------------------------------------------- |
+| **Entrevistado**        | `[Nombre Completo del Entrevistado]`                      |
+| **Edad**                | `[Edad]`                                                  |
+| **Rol / Experiencia**   | `[Ej: Ganadero con 10 años de experiencia]`               |
+| **Fecha de Entrevista** | `[DD/MM/AAAA]`                                            |
+| **Duración**            | `[HH:MM:SS]`                                              |
+| **Tecnologías Usadas**  | `[Ej: Google Meet, Zoom, Grabadora de voz]`               |
+| **Enlace a Grabación**  | `[Pega aquí el enlace al video o audio de la entrevista]` |
+
+<br>
+
+**Evidencia de la Entrevista:**
+
+`![Evidencia Entrevista 1](assets/entrevista_1.png)`
+
+<br>
+
+**Resumen de Hallazgos Clave:**
+
+---
+
+#### **Entrevista #6**
+
+| Detalle                 | Información                                               |
+| :---------------------- | :-------------------------------------------------------- |
+| **Entrevistado**        | `[Nombre Completo del Entrevistado]`                      |
+| **Edad**                | `[Edad]`                                                  |
+| **Rol / Experiencia**   | `[Ej: Ganadero con 10 años de experiencia]`               |
+| **Fecha de Entrevista** | `[DD/MM/AAAA]`                                            |
+| **Duración**            | `[HH:MM:SS]`                                              |
+| **Tecnologías Usadas**  | `[Ej: Google Meet, Zoom, Grabadora de voz]`               |
+| **Enlace a Grabación**  | `[Pega aquí el enlace al video o audio de la entrevista]` |
+
+<br>
+
+**Evidencia de la Entrevista:**
+
+`![Evidencia Entrevista 1](assets/entrevista_1.png)`
+
+<br>
+
+**Resumen de Hallazgos Clave:**
+
+---
 
 ### 6.3.3. Evaluaciones según heurísticas
 
@@ -3928,22 +4159,174 @@ Esto nos da mas escalabilidad segura para la aplicación, tanto como tener un es
 
 ### 6.4.1. Auditoría realizada
 
-#### 6.4.1.1. Información del grupo auditado
+El equipo **Vacow Team**, en su rol de auditores internos UX dentro de la iteración TB2, ejecutó una auditoría enfocada en **Experiencia de Usuario (UX)** y **usabilidad** aplicada sobre el informe, documentación y evidencias técnicas del proyecto _TukunTech_.  
+El objetivo fue identificar puntos críticos que afectan la lectura del documento, la consistencia visual y la claridad narrativa desde el punto de vista evaluador (comité docente), especialmente al momento de exportación final a PDF.
 
-#### 6.4.1.2. Cronograma de auditoría realizada
+Esta auditoría se alineó con criterios de evaluación del flujo de información, claridad visual, trazabilidad de evidencias y adecuación de artefactos al estándar de entrega.
 
-#### 6.4.1.3. Contenido de auditoría realizada
+#### Componentes evaluados
+
+| Área evaluada       | Elementos                                                                         |
+| ------------------- | --------------------------------------------------------------------------------- |
+| Documento raíz      | `README.md` (estructura, orden, legibilidad, jerarquías H1–H4, nivel de limpieza) |
+| Recursos visuales   | `/assets` (nomenclatura, referencias en Markdown, peso y resolución de imágenes)  |
+| Evidencias técnicas | Screenshots, endpoints verificados, Swagger, links de despliegue                  |
+| Secciones técnicas  | Testing, CI/CD, despliegue, integración y documentación técnica                   |
+
+#### Alcance
+
+- Documento principal `README.md`
+- Carpeta de recursos `/assets`
+- Enlaces de despliegue (frontend y backend)
+- Evidencias de pruebas funcionales (pantallas de test, Swagger, endpoints)
+- Pipeline CI/CD presentado
+
+#### Metodología
+
+- **Inspección heurística** (Nielsen Norman)
+- **Revisión documental** por consistencia estructural y narrativa
+- **Validación de enlaces** y recursos embebidos
+- **Pruebas rápidas de renderizado y exportación** a PDF
+
+#### Herramientas utilizadas
+
+- Google Chrome (pruebas de visualización y renderizado)
+- Visual Studio Code (revisión y limpieza de Markdown)
+- Figma (comparación con prototipos entregados)
+- Swagger UI / Postman (verificación de endpoints)
+- Exportador PDF (control de formato A4/Letter y legibilidad final)
+
+#### Fechas de ejecución
+
+**08/11/2025 – 10/11/2025**
+
+#### Equipo auditor – Vacow Team
+
+- **Maycol Jhordan Rojas Velásquez** — U202219984 — Auditor líder UI/UX
+- **Stephano Espinoza Cueva** — U202218590 — Auditor Frontend / validación de prototipos
+- **Rodrigo Liberato Saldaña** — U202215623 — Auditor Backend / validación técnica y evidencias
+
+---
+
+### 6.4.1.2. Cronograma de ejecución de auditoría
+
+| Fecha      | Actividad                                                                                                    | Responsable (Vacow Auditoría) |
+| ---------- | ------------------------------------------------------------------------------------------------------------ | ----------------------------- |
+| 08/11/2025 | Revisión de carátula, tabla de contenidos y jerarquías del `README`; análisis de formato y errores de PDF    | **Maycol Rojas**              |
+| 09/11/2025 | Evaluación heurística de flujos funcionales (login, dashboard) y validación de enlaces activos               | **Stephano Espinoza**         |
+| 10/11/2025 | Consolidación de hallazgos, priorización de correcciones y elaboración del informe de recomendaciones UX-TB2 | **Rodrigo Liberato**          |
+
+---
+
+> **Nota:** La auditoría UX realizada por _Vacow Team_ permitió identificar oportunidades de mejora en la estructura del documento y la presentación de evidencias técnicas, garantizando coherencia visual, accesibilidad y trazabilidad entre los artefactos entregados y la experiencia final del evaluador.
+
+### 6.4.1.3. Contenido de auditoría realizada
+
+**SITE / APP evaluado:** TukunTech — Aplicación orientada al monitoreo y lectura rápida del estado de salud de un paciente adulto mediante indicadores de signos vitales.
+
+---
+
+**TAREAS EVALUADAS (flujos principales de la APP):**
+
+1. Registro de usuario (paciente / familiar)
+2. Visualización del estado de salud actual en pantalla principal
+3. Interpretación del riesgo mediante colores (verde / azul / rojo)
+4. Visualización de histórico de mediciones
+5. Visualización de información complementaria (contexto / explicación)
+6. Navegación entre vistas básicas de la aplicación
+
+**TAREAS NO INCLUIDAS EN ESTA AUDITORÍA:**
+
+1. Ajustes avanzados de parámetros médicos
+2. Integración con wearables externos
+3. Gestión multi–paciente
+4. Configuración de notificaciones push
+
+---
+
+**ESCALA DE SEVERIDAD USADA:**
+
+| Nivel | Descripción                                          |
+| ----- | ---------------------------------------------------- |
+| 1     | Observación leve — no afecta la experiencia general  |
+| 2     | Oportunidad de mejora — podría optimizar la claridad |
+| 3     | Mejora importante — facilita comprensión de usuario  |
+
+---
+
+### TABLA RESUMEN DE OBSERVACIONES
+
+| #   | Observación relacionada a la APP                                                                                                                                            | Severidad | Principio relacionado              |
+| --- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------- | ---------------------------------- |
+| 1   | La app se basa en colores para representar el estado del paciente, podría ser útil acompañar este indicador con una breve leyenda textual debajo para reforzar significado. | 2         | Reconocer antes que recordar       |
+| 2   | Sería beneficioso incluir un “estado previo reciente” al lado del estado actual para facilitar comparación rápida.                                                          | 2         | Contexto de uso                    |
+| 3   | El flujo de navegación entre pantallas podría incluir un indicador visual del paso actual (por ejemplo: “inicio / histórico”) para orientar mejor al usuario.               | 2         | Mapeo conceptual                   |
+| 4   | En el historial sería útil resaltar valores fuera de rango para priorizar atención visual inmediata.                                                                        | 3         | Visibilidad de información crítica |
+| 5   | La pantalla principal podría incluir un acceso directo al historial de alertas sin tener que pasar por más pantallas.                                                       | 2         | Minimizar esfuerzo del usuario     |
+
+---
+
+### EJEMPLO DE OBSERVACIÓN DETALLADA
+
+**Observación #4 — resaltado de valores fuera de rango**
+
+**Severidad:** 3  
+**Principio:** Visibilidad de información crítica
+
+**Comentario:**  
+La información del historial es útil pero podría destacar visualmente los datos en riesgo para que el usuario identifique rápidamente cuando hubo episodios relevantes.
+
+**Recomendación:**  
+Resaltar con color o icono los valores fuera del rango normal para acelerar el reconocimiento visual del riesgo.
 
 ### 6.4.2. Auditoría recibida
 
 #### 6.4.2.1. Información del grupo auditor
 
+Se recibió auditoría de Experiencia de Usuario (UX) por parte del **Grupo 4**, quienes realizaron una evaluación orientada a validar la claridad del documento, la correcta jerarquización de secciones, así como la coherencia entre evidencias anexas y el flujo funcional presentado dentro del README y la documentación de entrega.
+
+El alcance del grupo 4 incluyó:
+
+- Revisión de la estructura general del documento principal (README.md)
+- Validación del orden lógico y jerarquías H1-H4
+- Validación visual de imágenes / capturas funcionales
+- Evaluación UX de navegación y lectura narrativa
+- Revisión del acceso a evidencias técnicas (endpoints / despliegues)
+- Observación general de consistencia entre prototipo UI y documentación final
+
+**Fecha de auditoría recibida:** **09/11/2025**
+
+| Integrante                      | Código     | Rol        |
+| ------------------------------- | ---------- | ---------- |
+| **Palomares Chavez Adriana**    | u20201f723 | Líder      |
+| **Soto Zorrilla Oscar Eduardo** | U201811767 | Integrante |
+| **Maraza Penemonte Erick**      | u202213372 | Integrante |
+
 #### 6.4.2.2. Cronograma de auditoría recibida
+
+| Fecha      | Actividad ejecutada                                                     | Responsable (Grupo 4)       | Detalle de lo realizado                                                                                                                   |
+| ---------- | ----------------------------------------------------------------------- | --------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------- |
+| 08/11/2025 | Revisión documental del README y análisis de jerarquía de secciones     | Palomares Chavez Adriana    | Analizó estructura global del documento y su alineación con los criterios requeridos para la entrega TB2                                  |
+| 09/11/2025 | Evaluación heurística UX sobre navegación y visualización de evidencias | Soto Zorrilla Oscar Eduardo | Validó el flujo funcional (login → dashboard) y la coherencia entre prototipos y capturas presentadas como evidencia                      |
+| 10/11/2025 | Consolidación de observaciones y retroalimentación al equipo Vacow Team | Maraza Penemonte Erick      | Sintetizó los hallazgos detectados y formalizó la retroalimentación enviada al equipo para las iteraciones de mejora antes del cierre TB2 |
 
 #### 6.4.2.3. Contenido de auditoría recibida
 
+![Evidencia Entrevista 1](assets/auditoriarecibida.jpg)
+
 #### 6.4.2.4. Resumen de modificaciones para subsanar hallazgos
 
+A partir de los problemas detectados durante la auditoría heurística, se proponen las siguientes acciones correctivas con el fin de mejorar la comprensibilidad, coherencia visual y consistencia estructural del sistema. Las recomendaciones están orientadas a optimizar la arquitectura de información bajo el principio heurístico “Is it understandable?”, garantizando una experiencia de usuario más clara, accesible y uniforme.
+
+| #     | Problema                                                                                                                                                                 | Subsanación                                                                                                                                                                                                                                                                                                                    |
+| ----- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| **1** | **Ambigüedad en íconos representativos.** Algunos íconos no son claros respecto a la acción o módulo que representan (por ejemplo, el ícono de gestión y bovinos).       | Reemplazar los íconos poco representativos por otros más intuitivos y estandarizados.Implementar una biblioteca de íconos consistente, preferiblemente basada en convenciones del dominio agropecuario y veterinario. Además, incluir etiquetas o tooltips descriptivos para reforzar la comprensión inmediata del usuario.    |
+| **2** | **Inconsistencia en el uso de íconos.** Se utilizan diferentes íconos para una misma acción (por ejemplo, una jeringa y un botiquín para representar vacunas).           | Unificar la representación visual mediante una guía de estilo o sistema de diseño UI que establezca la correspondencia entre acciones y símbolos. Esto permitirá mantener coherencia semántica y visual entre pantallas, evitando confusión y reforzando el aprendizaje visual del usuario.                                    |
+| **3** | **Sobrecarga y falta de coherencia en la paleta de colores.** En la pantalla Personal, el botón _Agregar_ es azul mientras que en otras pantallas es verde.              | Estandarizar la paleta cromática principal y secundaria en todas las vistas. Se sugiere desarrollar un manual de identidad visual que defina los colores funcionales (acciones primarias, secundarias, estados del sistema) para asegurar consistencia visual y fortalecer la identidad de marca de la aplicación.             |
+| **4** | **Problemas de contraste en elementos clave.** Algunos textos se presentan sobre fondos verde lima o crema, dificultando la legibilidad en distintas condiciones de luz. | Ajustar los contrastes de color conforme a las pautas de accesibilidad WCAG 2.1 (nivel AA). Se recomienda probar combinaciones de colores con herramientas de contraste y aplicar paletas accesibles que garanticen la legibilidad a usuarios con deficiencias visuales o en entornos con iluminación variable.                |
+| **5** | **Inconsistencia en la navegación móvil.** Se identificó falta de uniformidad entre secciones (menú inferior en algunas vistas y menú lateral en otras).                 | Unificar el patrón de navegación principal en toda la aplicación, preferentemente mediante una barra inferior fija con íconos e indicadores activos. Asimismo, mantener la misma ubicación y comportamiento del menú en todas las pantallas, asegurando predictibilidad y continuidad cognitiva en la interacción del usuario. |
+
+Las modificaciones propuestas buscan reforzar la arquitectura de información y la consistencia visual del sistema, promoviendo una experiencia más comprensible, accesible y coherente. La aplicación de estas mejoras permitirá reducir la carga cognitiva del usuario, mejorar la eficiencia en la interacción y facilitar la navegación en distintos contextos de uso (móvil y escritorio).
 
 ## Capítulo VII: DevOps Practices
 
@@ -3979,7 +4362,6 @@ Esta sección describe los componentes encargados de compilar el proyecto y ejec
 
 ![Build&Test Suite Pipeline Components](assets/BT_pipeline.png)
 ![Build&Test Suite Pipeline Components](assets/renamepip.png)
-
 
 ## 7.2. Continuous Delivery
 
@@ -4086,19 +4468,125 @@ Las herramientas y prácticas utilizadas para implementar Continuous Deployment 
 
 - Monitoring & Logging: Supervisión de rendimiento post-despliegue mediante herramientas como Prometheus, Grafana o ELK Stack.
 
-
 ### 7.3.2. Production Deployment Pipeline Components
 
 El Deployment Pipeline define las etapas secuenciales del flujo de entrega continua. Para este proyecto, se estructura de la siguiente forma:
 
-| **Etapa**            | **Componente / Objetivo**                                             | **Herramientas / Ejemplos**             |
-|----------------------|-----------------------------------------------------------------------|-----------------------------------------|
-| **1. Source Stage**  | Almacenamiento y versionamiento del código fuente.                    | Git + GitFlow en GitHub/GitLab          |
-| **2. Build Stage**   | Compilación, empaquetado y creación de imágenes Docker.               | GitHub Actions, Jenkins, Docker         |
-| **3. Test Stage**    | Ejecución de pruebas automáticas: unitarias, integración, E2E.        | Jest, PyTest, Postman/Newman, Cypress   |
-| **4. Release Stage** | Publicación del artefacto aprobado (imagen o binario) en repositorio. | DockerHub, Nexus, GitHub Packages       |
-| **5. Deploy Stage**  | Despliegue automático en entorno de staging o producción.             | Kubernetes, AWS EC2, Vercel, Netlify    |
-| **6. Monitor Stage** | Supervisión y retroalimentación sobre rendimiento y errores.          | Prometheus, Grafana, ELK Stack, Sentry  |
+| **Etapa**            | **Componente / Objetivo**                                             | **Herramientas / Ejemplos**            |
+| -------------------- | --------------------------------------------------------------------- | -------------------------------------- |
+| **1. Source Stage**  | Almacenamiento y versionamiento del código fuente.                    | Git + GitFlow en GitHub/GitLab         |
+| **2. Build Stage**   | Compilación, empaquetado y creación de imágenes Docker.               | GitHub Actions, Jenkins, Docker        |
+| **3. Test Stage**    | Ejecución de pruebas automáticas: unitarias, integración, E2E.        | Jest, PyTest, Postman/Newman, Cypress  |
+| **4. Release Stage** | Publicación del artefacto aprobado (imagen o binario) en repositorio. | DockerHub, Nexus, GitHub Packages      |
+| **5. Deploy Stage**  | Despliegue automático en entorno de staging o producción.             | Kubernetes, AWS EC2, Vercel, Netlify   |
+| **6. Monitor Stage** | Supervisión y retroalimentación sobre rendimiento y errores.          | Prometheus, Grafana, ELK Stack, Sentry |
+
+## 7.4. Continuous Monitoring
+
+### 7.4.1. Tools and Practices
+
+Para el monitoreo de la aplicación se hace uso de un paquete que anteriormente se instalo. Roslynator nos permite tener reportes continuos acerca de cambios que debemos hacer manualmente y posibles mejoras dentro del código.
+
+![tools and practices](assets/Continuousmonitoring.png)
+
+Asimismo, Security Code Scan alerta acerca de los warning y permite que la aplicación no se compile con estos errores para que sean resueltos antes de esta acción.
+
+### 7.4.2. Monitoring Pipeline Components
+
+Dentro del pipeline de Azure, durante la compilación se encuentran algunos puntos importantes que verifican el código. Dentro de estos se utilizan el `.editoconfig` y Roslynator:
+
+```yml
+# verify .editorconfig
+
+  - script: dotnet format --verify-no-changes
+
+    displayName: "Verify code format"
+
+
+
+  # Roslynator
+
+  - script: |
+
+      dotnet tool install --global roslynator.dotnet.cli --version 4.10.0
+
+      export PATH="$PATH:/home/vsts/.dotnet/tools"
+
+      roslynator analyze . --severity-level warning --output roslynator-report.txt
+
+    displayName: "Run Roslynator analysis"
+```
+
+### 7.4.3. Alerting Pipeline Components
+
+Las alertas del pipeline serán visibles una vez se escaneen las dependencias y Analyzer verifique las reglas compilando el código:
+
+```yml
+  # Vulnerable dependencies
+
+  - script: dotnet list package --vulnerable > vulnerable-packages.txt || true
+
+    displayName: "Scan for vulnerable NuGet dependencies"
+  # Analyzer for secutiry
+
+  - script: |
+
+      dotnet build --no-restore --configuration $(buildConfiguration) \
+
+      /p:TreatWarningsAsErrors=true \
+
+      /p:AnalysisMode=AllEnabledByDefault
+
+    displayName: "Build with analyzers (Quality & Security)"
+```
+
+### 7.4.4. Notification Pipeline Components
+
+Para el monitoreo de la aplicación gracias al pipeline, se toman las acciones de publicar reportes cada vez que se compila:
+
+```yml
+  # publish reports
+
+  - task: PublishBuildArtifacts@1
+
+    inputs:
+
+      PathtoPublish: 'roslynator-report.txt'
+
+      ArtifactName: 'analysis-reports'
+
+      publishLocation: 'Container'
+
+    displayName: "Publish Roslynator analysis report"
+
+
+
+  - task: PublishBuildArtifacts@1
+
+    inputs:
+
+      PathtoPublish: 'vulnerable-packages.txt'
+
+      ArtifactName: 'dependency-scan'
+
+      publishLocation: 'Container'
+
+    displayName: "Publish dependency vulnerability report"
+
+
+
+  - task: PublishBuildArtifacts@1
+
+    inputs:
+
+      PathtoPublish: 'gitleaks-report.json'
+
+      ArtifactName: 'security-scan'
+
+      publishLocation: 'Container'
+
+    displayName: "Publish secret scan report"
+```
 
 ## 7.4. Continuous Monitoring
 
@@ -4212,129 +4700,129 @@ Para el monitoreo de la aplicación gracias al pipeline, se toman las acciones d
 Esta sección define el plan operativo para diseñar y priorizar experimentos orientados a validar hipótesis clave del producto. Incluye objetivos concretos, métricas de éxito (KPIs), alcance, criterios de inclusión/exclusión, recursos necesarios y el calendario de ejecución; todo ello para asegurar que cada experimento entregue evidencia accionable y reduzca la incertidumbre sobre decisiones de producto.
 
 #### 8.1.1. As-Is Summary
- Actualmente, la gestión del ganado en el Perú se realiza de manera manual o mediante herramientas rudimentarias como cuadernos y hojas de cálculo. La mayoría de ganaderos carece de plataformas digitales que integren el control sanitario, la alimentación, la reproducción y los indicadores productivos de sus animales. Esto genera una administración desorganizada, pérdida de información y baja productividad. Además, las empresas ganaderas no disponen de sistemas centralizados para coordinar personal, gestionar proveedores ni analizar datos en tiempo real, lo que limita la toma de decisiones estratégicas y la sostenibilidad del sector.
+
+Actualmente, la gestión del ganado en el Perú se realiza de manera manual o mediante herramientas rudimentarias como cuadernos y hojas de cálculo. La mayoría de ganaderos carece de plataformas digitales que integren el control sanitario, la alimentación, la reproducción y los indicadores productivos de sus animales. Esto genera una administración desorganizada, pérdida de información y baja productividad. Además, las empresas ganaderas no disponen de sistemas centralizados para coordinar personal, gestionar proveedores ni analizar datos en tiempo real, lo que limita la toma de decisiones estratégicas y la sostenibilidad del sector.
 
 #### Problemas identificados:
 
-  * Gestión fragmentada: los procesos de registro y control del ganado se realizan manualmente o en formatos dispersos (cuadernos, Excel), dificultando la trazabilidad y el acceso a información precisa.
+- Gestión fragmentada: los procesos de registro y control del ganado se realizan manualmente o en formatos dispersos (cuadernos, Excel), dificultando la trazabilidad y el acceso a información precisa.
 
-  * Falta de digitalización: no existen herramientas accesibles que integren funciones clave como control sanitario, alimentación, reproducción y productividad.
+- Falta de digitalización: no existen herramientas accesibles que integren funciones clave como control sanitario, alimentación, reproducción y productividad.
 
-  * Desorganización operativa: los productores independientes enfrentan sobrecarga administrativa y pérdida de datos por falta de automatización.
+- Desorganización operativa: los productores independientes enfrentan sobrecarga administrativa y pérdida de datos por falta de automatización.
 
-  * Limitaciones de conectividad: la baja cobertura de internet en zonas rurales impide el uso continuo de plataformas en línea.
+- Limitaciones de conectividad: la baja cobertura de internet en zonas rurales impide el uso continuo de plataformas en línea.
 
-  * Escasa toma de decisiones basadas en datos: tanto pequeños ganaderos como empresas carecen de métricas centralizadas para evaluar rendimiento, costos o bienestar animal.
+- Escasa toma de decisiones basadas en datos: tanto pequeños ganaderos como empresas carecen de métricas centralizadas para evaluar rendimiento, costos o bienestar animal.
 
-  * Problemas de sostenibilidad: la ausencia de control y planificación impacta en la eficiencia económica y en la responsabilidad ambiental del sector.
+- Problemas de sostenibilidad: la ausencia de control y planificación impacta en la eficiencia económica y en la responsabilidad ambiental del sector.
 
 #### Objetivos de mejora:
 
-* Digitalizar la gestión ganadera: desarrollar una plataforma web y móvil que permita registrar, monitorear y analizar datos sobre salud, alimentación y reproducción del ganado.
+- Digitalizar la gestión ganadera: desarrollar una plataforma web y móvil que permita registrar, monitorear y analizar datos sobre salud, alimentación y reproducción del ganado.
 
-* Centralizar la información: unificar registros y reportes en un solo sistema, accesible en todo momento y desde distintos dispositivos.
+- Centralizar la información: unificar registros y reportes en un solo sistema, accesible en todo momento y desde distintos dispositivos.
 
-* Optimizar la productividad: automatizar tareas rutinarias (alertas sanitarias, control de peso, calendario de vacunación) para reducir errores y ahorrar tiempo.
+- Optimizar la productividad: automatizar tareas rutinarias (alertas sanitarias, control de peso, calendario de vacunación) para reducir errores y ahorrar tiempo.
 
-* Facilitar el trabajo en campo: incluir funcionalidades que operen en modo offline para zonas rurales con conectividad limitada.
+- Facilitar el trabajo en campo: incluir funcionalidades que operen en modo offline para zonas rurales con conectividad limitada.
 
-* Promover la sostenibilidad: ofrecer indicadores y reportes que ayuden a implementar prácticas responsables con el medio ambiente.
+- Promover la sostenibilidad: ofrecer indicadores y reportes que ayuden a implementar prácticas responsables con el medio ambiente.
 
-* Fortalecer la toma de decisiones: integrar analítica de datos para que los ganaderos y empresas puedan evaluar su rendimiento y planificar estratégicamente.
+- Fortalecer la toma de decisiones: integrar analítica de datos para que los ganaderos y empresas puedan evaluar su rendimiento y planificar estratégicamente.
 
 #### 8.1.2. Raw Material: Assumptions, Knowledge Gaps, Ideas, Claims
 
 #### Assumptions
 
-* Los ganaderos valorarán una plataforma única que centralice el control de salud, alimentación y reproducción del ganado, eliminando la dependencia de registros manuales o dispersos.
+- Los ganaderos valorarán una plataforma única que centralice el control de salud, alimentación y reproducción del ganado, eliminando la dependencia de registros manuales o dispersos.
 
-* Una interfaz simple e intuitiva permitirá que usuarios con poca experiencia tecnológica puedan gestionar su ganado sin requerir capacitación extensa.
+- Una interfaz simple e intuitiva permitirá que usuarios con poca experiencia tecnológica puedan gestionar su ganado sin requerir capacitación extensa.
 
-* Las alertas automáticas sobre vacunas, alimentación o ciclos reproductivos reducirán las omisiones y mejorarán la salud general del ganado.
+- Las alertas automáticas sobre vacunas, alimentación o ciclos reproductivos reducirán las omisiones y mejorarán la salud general del ganado.
 
-* Permitir el funcionamiento offline aumentará la adopción en zonas rurales con baja conectividad.
+- Permitir el funcionamiento offline aumentará la adopción en zonas rurales con baja conectividad.
 
-* Los usuarios confiarán más en la aplicación si esta garantiza la privacidad y seguridad de sus datos productivos.
+- Los usuarios confiarán más en la aplicación si esta garantiza la privacidad y seguridad de sus datos productivos.
 
-* Mostrar reportes visuales y gráficos de rendimiento facilitará la comprensión del estado sanitario y productivo del hato.
+- Mostrar reportes visuales y gráficos de rendimiento facilitará la comprensión del estado sanitario y productivo del hato.
 
-* Incluir recordatorios programados para tareas rutinarias (vacunas, alimentación, control sanitario) aumentará la organización diaria.
+- Incluir recordatorios programados para tareas rutinarias (vacunas, alimentación, control sanitario) aumentará la organización diaria.
 
-* La personalización por tipo de ganado o tamaño de operación (pequeño productor o empresa) mejorará la experiencia y satisfacción del usuario.
+- La personalización por tipo de ganado o tamaño de operación (pequeño productor o empresa) mejorará la experiencia y satisfacción del usuario.
 
-* Ofrecer materiales educativos dentro de la app fortalecerá la fidelización y el aprendizaje de buenas prácticas ganaderas.
+- Ofrecer materiales educativos dentro de la app fortalecerá la fidelización y el aprendizaje de buenas prácticas ganaderas.
 
 #### Knowledge Gaps
 
-* ¿Qué nivel de adopción pueden alcanzar los ganaderos con baja alfabetización digital frente a una interfaz simple?
+- ¿Qué nivel de adopción pueden alcanzar los ganaderos con baja alfabetización digital frente a una interfaz simple?
 
-* ¿Qué frecuencia de alertas (diarias, semanales o mensuales) perciben los usuarios como más útil sin resultar intrusiva?
+- ¿Qué frecuencia de alertas (diarias, semanales o mensuales) perciben los usuarios como más útil sin resultar intrusiva?
 
-* ¿Qué tipo de reportes visuales (gráficos, indicadores, tablas) son más comprendidos y usados en la toma de decisiones?
+- ¿Qué tipo de reportes visuales (gráficos, indicadores, tablas) son más comprendidos y usados en la toma de decisiones?
 
-* ¿Cómo afecta la funcionalidad offline a la frecuencia real de uso en zonas rurales?
+- ¿Cómo afecta la funcionalidad offline a la frecuencia real de uso en zonas rurales?
 
-* ¿Qué nivel de confianza genera el almacenamiento de datos en la nube entre los ganaderos peruanos?
+- ¿Qué nivel de confianza genera el almacenamiento de datos en la nube entre los ganaderos peruanos?
 
-* ¿Qué funciones consideran más prioritarias los diferentes segmentos (pequeños productores vs. empresas)?
+- ¿Qué funciones consideran más prioritarias los diferentes segmentos (pequeños productores vs. empresas)?
 
-* ¿Cuánto valoran los usuarios el acceso a contenido educativo o de asesoría técnica dentro de la app?
+- ¿Cuánto valoran los usuarios el acceso a contenido educativo o de asesoría técnica dentro de la app?
 
-* ¿Qué barreras culturales o tecnológicas influyen más en la adopción digital en el sector ganadero?
+- ¿Qué barreras culturales o tecnológicas influyen más en la adopción digital en el sector ganadero?
 
 #### Ideas
 
-* Realizar pruebas de usabilidad con ganaderos de zonas rurales para validar la facilidad de uso y comprensión de la interfaz.
+- Realizar pruebas de usabilidad con ganaderos de zonas rurales para validar la facilidad de uso y comprensión de la interfaz.
 
-* Implementar tests A/B con distintos intervalos de notificaciones para identificar la frecuencia óptima.
+- Implementar tests A/B con distintos intervalos de notificaciones para identificar la frecuencia óptima.
 
-* Diseñar prototipos de reportes visuales (gráficos, KPI, tablas) y medir cuál facilita mejor la toma de decisiones.
+- Diseñar prototipos de reportes visuales (gráficos, KPI, tablas) y medir cuál facilita mejor la toma de decisiones.
 
-* Evaluar el uso de modo offline con métricas de acceso y sincronización de datos una vez conectados.
+- Evaluar el uso de modo offline con métricas de acceso y sincronización de datos una vez conectados.
 
-* Aplicar encuestas de percepción de seguridad para medir confianza en el almacenamiento de datos.
+- Aplicar encuestas de percepción de seguridad para medir confianza en el almacenamiento de datos.
 
-* Personalizar módulos según el tipo de usuario (independiente o empresa) y analizar su impacto en la retención.
+- Personalizar módulos según el tipo de usuario (independiente o empresa) y analizar su impacto en la retención.
 
-* Integrar un centro de aprendizaje virtual dentro de la app con artículos y videos educativos.
+- Integrar un centro de aprendizaje virtual dentro de la app con artículos y videos educativos.
 
-* Medir la reducción del tiempo administrativo mediante la digitalización de registros y tareas automáticas.
+- Medir la reducción del tiempo administrativo mediante la digitalización de registros y tareas automáticas.
 
 #### Claims
 
-* La digitalización del registro ganadero reducirá en un 40 % el tiempo destinado a tareas administrativas diarias.
+- La digitalización del registro ganadero reducirá en un 40 % el tiempo destinado a tareas administrativas diarias.
 
-* El uso de alertas y recordatorios automáticos disminuirá en al menos 30 % los errores u omisiones sanitarias.
+- El uso de alertas y recordatorios automáticos disminuirá en al menos 30 % los errores u omisiones sanitarias.
 
-* El funcionamiento offline aumentará la frecuencia de uso en zonas rurales en más del 50 %.
+- El funcionamiento offline aumentará la frecuencia de uso en zonas rurales en más del 50 %.
 
-* Garantizar la privacidad y seguridad de datos incrementará la confianza del usuario en un 80 % según encuestas post-uso.
+- Garantizar la privacidad y seguridad de datos incrementará la confianza del usuario en un 80 % según encuestas post-uso.
 
-* Los reportes visuales facilitarán la toma de decisiones, mejorando la comprensión operativa en un 70 % de los usuarios.
+- Los reportes visuales facilitarán la toma de decisiones, mejorando la comprensión operativa en un 70 % de los usuarios.
 
-* La personalización por tipo de usuario incrementará la satisfacción y retención en al menos 25 %.
+- La personalización por tipo de usuario incrementará la satisfacción y retención en al menos 25 %.
 
-* La inclusión de material educativo impulsará el uso continuo de la plataforma en un 20 % durante los primeros meses de adopción.
+- La inclusión de material educativo impulsará el uso continuo de la plataforma en un 20 % durante los primeros meses de adopción.
 
 #### 8.1.3. Experiment-Ready Questions
 
-|**Pregunta** |**Confianza** | **Riesgo** | **Impacto** | **Interés** | **Puntaje Total** |  
-| --- | --- | --- | --- | --- | --- |
-| ¿Aumentará la productividad de los ganaderos si se digitaliza el registro de salud, alimentación y reproducción del ganado? | 8 – La digitalización ha demostrado mejorar la eficiencia en sectores agrícolas y pecuarios. | 3 – Riesgo técnico moderado; depende de una correcta usabilidad.  | 9 – Reduce errores, tiempos administrativos y pérdidas económicas. | 8 – Alta demanda en entrevistas con productores y empresas.           | 28            |
-| ¿Mejorará la gestión diaria si se implementan alertas y recordatorios automáticos de vacunación y alimentación?             | 8 – Recordatorios automáticos son estándar en apps de control y salud.                       | 2 – Riesgo bajo; se basa en programación de eventos.              | 8 – Evita omisiones y mejora el bienestar animal.                  | 7 – Interés recurrente en entrevistas con ganaderos.                  | 25            |
-| ¿Aumentará la adopción en zonas rurales si la app permite funcionar sin conexión (modo offline)?                            | 7 – Experiencias previas indican alta utilidad del modo offline en entornos rurales.         | 4 – Riesgo técnico medio por sincronización de datos.             | 8 – Garantiza accesibilidad y continuidad operativa.               | 8 – Muy solicitado por usuarios rurales.                              | 27            |
-| ¿Fortalecerá la confianza de los usuarios si la aplicación garantiza la seguridad y privacidad de los datos ganaderos?      | 9 – La seguridad de datos es un factor clave de confianza digital.                           | 3 – Riesgo técnico moderado por manejo de credenciales y cifrado. | 8 – Genera fidelización y uso sostenido de la plataforma.          | 7 – Alta preocupación expresada en entrevistas.                       | 27            |
-| ¿Facilitará la toma de decisiones incluir reportes visuales con indicadores de salud y producción?                          | 8 – Los dashboards y visualizaciones mejoran la comprensión en la mayoría de sectores.       | 3 – Riesgo técnico bajo; requiere diseño adecuado.                | 8 – Mejora el control y análisis productivo.                       | 6 – Interés alto, especialmente en empresas ganaderas.                | 25            |
-| ¿Aumentará la satisfacción del usuario si la interfaz se adapta al tipo de perfil (pequeño productor o empresa)?            | 7 – La personalización mejora la experiencia en soluciones SaaS.                             | 4 – Riesgo medio; requiere gestión de roles y configuraciones.    | 7 – Aumenta la eficiencia y retención.                             | 7 – Interés creciente entre ambos segmentos.                          | 25            |
-| ¿Fomentará el aprendizaje continuo incluir materiales educativos dentro de la aplicación?                                   | 6 – Recursos educativos fortalecen la retención y confianza del usuario.                     | 2 – Riesgo bajo; solo requiere curación de contenido.             | 6 – Mejora la adopción y profesionalización del usuario.           | 6 – Interés medio según entrevistas.                                  | 20            |
-| ¿Reducirá la carga administrativa integrar un sistema de recordatorios y tareas automáticas?                                | 8 – La automatización reduce tareas repetitivas y errores humanos.                           | 3 – Riesgo bajo; depende de la interfaz de programación.          | 8 – Ahorra tiempo y mejora la organización.                        | 7 – Interés constante en entrevistas de productores independientes.   | 26            |
-| ¿Aumentará la confianza y el uso de la app si ofrece un soporte técnico accesible y rápido?                                 | 7 – El soporte eficiente es determinante para usuarios nuevos.                               | 3 – Riesgo organizacional moderado (recursos humanos).            | 7 – Mejora la satisfacción y evita el abandono.                    | 6 – Interés relevante entre usuarios con baja alfabetización digital. | 23            |
-
+| **Pregunta**                                                                                                                | **Confianza**                                                                                | **Riesgo**                                                        | **Impacto**                                                        | **Interés**                                                           | **Puntaje Total** |
+| --------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------- | ----------------------------------------------------------------- | ------------------------------------------------------------------ | --------------------------------------------------------------------- | ----------------- |
+| ¿Aumentará la productividad de los ganaderos si se digitaliza el registro de salud, alimentación y reproducción del ganado? | 8 – La digitalización ha demostrado mejorar la eficiencia en sectores agrícolas y pecuarios. | 3 – Riesgo técnico moderado; depende de una correcta usabilidad.  | 9 – Reduce errores, tiempos administrativos y pérdidas económicas. | 8 – Alta demanda en entrevistas con productores y empresas.           | 28                |
+| ¿Mejorará la gestión diaria si se implementan alertas y recordatorios automáticos de vacunación y alimentación?             | 8 – Recordatorios automáticos son estándar en apps de control y salud.                       | 2 – Riesgo bajo; se basa en programación de eventos.              | 8 – Evita omisiones y mejora el bienestar animal.                  | 7 – Interés recurrente en entrevistas con ganaderos.                  | 25                |
+| ¿Aumentará la adopción en zonas rurales si la app permite funcionar sin conexión (modo offline)?                            | 7 – Experiencias previas indican alta utilidad del modo offline en entornos rurales.         | 4 – Riesgo técnico medio por sincronización de datos.             | 8 – Garantiza accesibilidad y continuidad operativa.               | 8 – Muy solicitado por usuarios rurales.                              | 27                |
+| ¿Fortalecerá la confianza de los usuarios si la aplicación garantiza la seguridad y privacidad de los datos ganaderos?      | 9 – La seguridad de datos es un factor clave de confianza digital.                           | 3 – Riesgo técnico moderado por manejo de credenciales y cifrado. | 8 – Genera fidelización y uso sostenido de la plataforma.          | 7 – Alta preocupación expresada en entrevistas.                       | 27                |
+| ¿Facilitará la toma de decisiones incluir reportes visuales con indicadores de salud y producción?                          | 8 – Los dashboards y visualizaciones mejoran la comprensión en la mayoría de sectores.       | 3 – Riesgo técnico bajo; requiere diseño adecuado.                | 8 – Mejora el control y análisis productivo.                       | 6 – Interés alto, especialmente en empresas ganaderas.                | 25                |
+| ¿Aumentará la satisfacción del usuario si la interfaz se adapta al tipo de perfil (pequeño productor o empresa)?            | 7 – La personalización mejora la experiencia en soluciones SaaS.                             | 4 – Riesgo medio; requiere gestión de roles y configuraciones.    | 7 – Aumenta la eficiencia y retención.                             | 7 – Interés creciente entre ambos segmentos.                          | 25                |
+| ¿Fomentará el aprendizaje continuo incluir materiales educativos dentro de la aplicación?                                   | 6 – Recursos educativos fortalecen la retención y confianza del usuario.                     | 2 – Riesgo bajo; solo requiere curación de contenido.             | 6 – Mejora la adopción y profesionalización del usuario.           | 6 – Interés medio según entrevistas.                                  | 20                |
+| ¿Reducirá la carga administrativa integrar un sistema de recordatorios y tareas automáticas?                                | 8 – La automatización reduce tareas repetitivas y errores humanos.                           | 3 – Riesgo bajo; depende de la interfaz de programación.          | 8 – Ahorra tiempo y mejora la organización.                        | 7 – Interés constante en entrevistas de productores independientes.   | 26                |
+| ¿Aumentará la confianza y el uso de la app si ofrece un soporte técnico accesible y rápido?                                 | 7 – El soporte eficiente es determinante para usuarios nuevos.                               | 3 – Riesgo organizacional moderado (recursos humanos).            | 7 – Mejora la satisfacción y evita el abandono.                    | 6 – Interés relevante entre usuarios con baja alfabetización digital. | 23                |
 
 #### 8.1.4. Question Backlog
 
-**Prioridad (1, 2, 3, 5, 8)** | **Pregunta**  |
-| --- | --- |
+| **Prioridad (1, 2, 3, 5, 8)** | **Pregunta**                                                                                                                |
+| ----------------------------- | --------------------------------------------------------------------------------------------------------------------------- |
 | **8**                         | ¿Aumentará la productividad de los ganaderos si se digitaliza el registro de salud, alimentación y reproducción del ganado? |
 | **8**                         | ¿Aumentará la adopción en zonas rurales si la app permite funcionar sin conexión (modo offline)?                            |
 | **5**                         | ¿Mejorará la gestión diaria si se implementan alertas y recordatorios automáticos de vacunación y alimentación?             |
@@ -4348,9 +4836,10 @@ Esta sección define el plan operativo para diseñar y priorizar experimentos or
 #### 8.1.5. Experiment Cards
 
 | Question |
-| --- |
+| -------- |
+
 ¿Aumentará la productividad de los ganaderos si se digitaliza el registro de salud, alimentación y reproducción del ganado?
-| Why | 
+| Why |
 Actualmente, los ganaderos registran la información de forma manual o dispersa (cuadernos, hojas de cálculo), lo que ocasiona pérdida de datos y baja eficiencia.
 | What |
 Desarrollar un módulo centralizado que permita registrar y consultar datos de salud, alimentación y reproducción del ganado desde la app web o móvil.
@@ -4358,9 +4847,10 @@ Desarrollar un módulo centralizado que permita registrar y consultar datos de s
 Se espera una reducción del 40% en el tiempo de gestión diaria y una mejora del 30% en la precisión de los registros al implementar la digitalización completa.
 
 | Question |
-| --- |
+| -------- |
+
 ¿Mejorará la gestión diaria si se implementan alertas y recordatorios automáticos de vacunación y alimentación?
-| Why | 
+| Why |
 Los ganaderos suelen olvidar fechas de vacunación o alimentación, afectando la salud del ganado y la productividad.
 | What |
 Incorporar notificaciones automáticas configurables que alerten sobre próximas vacunas, controles sanitarios y horarios de alimentación.
@@ -4368,9 +4858,10 @@ Incorporar notificaciones automáticas configurables que alerten sobre próximas
 Se espera una disminución del 25% en omisiones sanitarias y un aumento del 20% en cumplimiento de cronogramas gracias a las alertas automatizadas.
 
 | Question |
-| --- |
+| -------- |
+
 ¿Aumentará la adopción en zonas rurales si la app permite funcionar sin conexión (modo offline)?
-| Why | 
+| Why |
 Gran parte de los usuarios potenciales se encuentra en zonas con conectividad limitada, lo que dificulta el uso continuo de la aplicación.
 | What |
 Desarrollar una funcionalidad offline que permita el registro y consulta local de datos, sincronizándose automáticamente cuando haya conexión.
@@ -4378,9 +4869,10 @@ Desarrollar una funcionalidad offline que permita el registro y consulta local d
 Se espera un incremento del 50% en la frecuencia de uso en zonas rurales y una reducción de quejas por conectividad en al menos un 40%.
 
 | Question |
-| --- |
+| -------- |
+
 ¿Fortalecerá la confianza de los usuarios si la aplicación garantiza la seguridad y privacidad de los datos ganaderos?
-| Why | 
+| Why |
 Los productores temen perder o exponer información sensible relacionada con su productividad o inventario.
 | What |
 Implementar cifrado de datos, autenticación segura y políticas de privacidad transparentes dentro de la app.
@@ -4388,19 +4880,21 @@ Implementar cifrado de datos, autenticación segura y políticas de privacidad t
 Se espera que el 80% de los usuarios manifieste mayor confianza y que la retención aumente en un 25% tras reforzar la seguridad.
 
 | Question |
-| --- |
+| -------- |
+
 ¿Facilitará la toma de decisiones incluir reportes visuales con indicadores de salud y producción?
 | Why |
-Los ganaderos carecen de herramientas visuales para analizar tendencias o comparar rendimientos a lo largo del tiempo. 
+Los ganaderos carecen de herramientas visuales para analizar tendencias o comparar rendimientos a lo largo del tiempo.
 | What |
 Desarrollar paneles con gráficos e indicadores clave sobre producción, salud y eficiencia del ganado.
 | Hypothesis |
 Se espera una mejora del 70% en la comprensión operativa y un 30% de incremento en decisiones basadas en datos entre los usuarios activos.
 
 | Question |
-| --- |
+| -------- |
+
 ¿Aumentará la satisfacción del usuario si la interfaz se adapta al tipo de perfil (pequeño productor o empresa)?
-| Why | 
+| Why |
 Las necesidades de gestión difieren entre productores independientes y empresas ganaderas; una interfaz única puede no cubrir ambos casos.
 | What |
 Diseñar perfiles personalizables con módulos y vistas específicas según el tipo de usuario registrado.
@@ -4408,9 +4902,10 @@ Diseñar perfiles personalizables con módulos y vistas específicas según el t
 Se estima un incremento del 25% en la satisfacción general y una reducción del 15% en abandonos durante el uso inicial.
 
 | Question |
-| --- |
+| -------- |
+
 ¿Fomentará el aprendizaje continuo incluir materiales educativos dentro de la aplicación?
-| Why | 
+| Why |
 Muchos ganaderos no tienen acceso fácil a capacitación técnica o información actualizada sobre buenas prácticas.
 | What |
 Integrar una sección educativa con artículos, videos y tips sobre salud animal, alimentación y sostenibilidad.
@@ -4418,9 +4913,10 @@ Integrar una sección educativa con artículos, videos y tips sobre salud animal
 Se espera un 20% de incremento en el uso recurrente de la aplicación y una mayor percepción de valor entre nuevos usuarios.
 
 | Question |
-| --- |
+| -------- |
+
 ¿Reducirá la carga administrativa integrar un sistema de recordatorios y tareas automáticas?
-| Why | 
+| Why |
 Las tareas diarias (pesaje, control sanitario, alimentación) requieren mucho tiempo y son propensas a errores si se gestionan manualmente.
 | What |
 Añadir un módulo de tareas programadas con recordatorios automáticos y confirmación de cumplimiento.
@@ -4428,9 +4924,10 @@ Añadir un módulo de tareas programadas con recordatorios automáticos y confir
 Se espera una reducción del 30% en el tiempo dedicado a tareas rutinarias y una disminución del 25% en registros incompletos.
 
 | Question |
-| --- |
+| -------- |
+
 ¿Aumentará la confianza y el uso de la app si ofrece un soporte técnico accesible y rápido?
-| Why | 
+| Why |
 Muchos usuarios rurales tienen poca experiencia con herramientas digitales y abandonan plataformas por falta de asistencia.
 | What |
 Incorporar un canal de soporte en línea con chat o mensajes directos para resolver dudas y brindar acompañamiento.
@@ -4441,26 +4938,1285 @@ Se espera una mejora del 40% en la retención de usuarios nuevos y una reducció
 
 #### 8.2.1. Hypotheses
 
+**Hipótesis 1: Digitalización de Registros Ganaderos**
+
+<table border="1" cellpadding="8" cellspacing="0">
+  <tr><th colspan="2">Pregunta 1</th></tr>
+  <tr><td><strong>Question</strong></td><td>¿Aumentará la productividad de los ganaderos si se digitaliza el registro de salud, alimentación y reproducción del ganado?</td></tr>
+  <tr><td><strong>Belief</strong></td><td>La digitalización centralizada eliminará la pérdida de datos, reducirá errores administrativos y permitirá acceso rápido a información histórica, mejorando significativamente la eficiencia operativa.</td></tr>
+  <tr><td><strong>Hypothesis</strong></td><td>La implementación del módulo de digitalización reducirá en un 40% el tiempo promedio dedicado a tareas administrativas diarias y mejorará en un 30% la precisión de los registros comparado con métodos manuales.</td></tr>
+  <tr><td><strong>Null Hypothesis</strong></td><td>La digitalización no tendrá un impacto significativo en el tiempo administrativo ni en la precisión de los registros respecto a los métodos manuales actuales.</td></tr>
+</table><br>
+
+**Hipótesis 2: Alertas y Recordatorios Automáticos**
+
+<table border="1" cellpadding="8" cellspacing="0">
+  <tr><th colspan="2">Pregunta 2</th></tr>
+  <tr><td><strong>Question</strong></td><td>¿Mejorará la gestión diaria si se implementan alertas y recordatorios automáticos de vacunación y alimentación?</td></tr>
+  <tr><td><strong>Belief</strong></td><td>Los ganaderos frecuentemente olvidan fechas críticas de vacunación y controles sanitarios, afectando la salud del ganado. Las alertas automatizadas garantizarán cumplimiento oportuno.</td></tr>
+  <tr><td><strong>Hypothesis</strong></td><td>Las alertas automáticas reducirán en un 30% las omisiones sanitarias y aumentará en un 25% el cumplimiento de cronogramas de vacunación y alimentación según registros de cumplimiento.</td></tr>
+  <tr><td><strong>Null Hypothesis</strong></td><td>Las alertas automáticas no reducirán significativamente las omisiones sanitarias ni mejorarán el cumplimiento de los cronogramas establecidos.</td></tr>
+</table><br>
+
+**Hipótesis 3: Modo Offline para Zonas Rurales**
+
+<table border="1" cellpadding="8" cellspacing="0">
+  <tr><th colspan="2">Pregunta 3</th></tr>
+  <tr><td><strong>Question</strong></td><td>¿Aumentará la adopción en zonas rurales si la app permite funcionar sin conexión (modo offline)?</td></tr>
+  <tr><td><strong>Belief</strong></td><td>La limitada conectividad en zonas rurales es una barrera principal para la adopción tecnológica. El modo offline permitirá uso continuo y sincronización posterior.</td></tr>
+  <tr><td><strong>Hypothesis</strong></td><td>El modo offline incrementará en un 50% la frecuencia de uso semanal en zonas rurales y reducirá en un 40% las quejas por problemas de conectividad según métricas de uso.</td></tr>
+  <tr><td><strong>Null Hypothesis</strong></td><td>La funcionalidad offline no aumentará significativamente la frecuencia de uso ni reducirá las quejas por conectividad en zonas rurales.</td></tr>
+</table><br>
+
+**Hipótesis 4: Seguridad y Privacidad de Datos**
+
+<table border="1" cellpadding="8" cellspacing="0">
+  <tr><th colspan="2">Pregunta 4</th></tr>
+  <tr><td><strong>Question</strong></td><td>¿Fortalecerá la confianza de los usuarios si la aplicación garantiza la seguridad y privacidad de los datos ganaderos?</td></tr>
+  <tr><td><strong>Belief</strong></td><td>Los ganaderos temen exponer información sensible productiva y financiera. La seguridad robusta generará confianza y facilitará la adopción de la plataforma.</td></tr>
+  <tr><td><strong>Hypothesis</strong></td><td>La implementación de cifrado de datos y autenticación segura aumentará en un 80% la confianza percibida según encuestas post-implementación y mejorará en un 25% la retención de usuarios.</td></tr>
+  <tr><td><strong>Null Hypothesis</strong></td><td>Las medidas de seguridad no tendrán un impacto significativo en la confianza percibida ni en la retención de usuarios.</td></tr>
+</table><br>
+
+**Hipótesis 5: Reportes Visuales de Salud y Productividad**
+
+<table border="1" cellpadding="8" cellspacing="0">
+  <tr><th colspan="2">Pregunta 5</th></tr>
+  <tr><td><strong>Question</strong></td><td>¿Facilitará la toma de decisiones incluir reportes visuales con indicadores de salud y producción?</td></tr>
+  <tr><td><strong>Belief</strong></td><td>Los datos numéricos solos son difíciles de interpretar. Los reportes visuales permitirán identificar tendencias, problemas y oportunidades rápidamente.</td></tr>
+  <tr><td><strong>Hypothesis</strong></td><td>Los reportes visuales mejorarán en un 70% la comprensión operativa del estado del ganado y aumentará en un 30% las decisiones basadas en datos según análisis de uso.</td></tr>
+  <tr><td><strong>Null Hypothesis</strong></td><td>Los reportes visuales no mejorarán significativamente la comprensión operativa ni aumentarán las decisiones basadas en datos.</td></tr>
+</table><br>
+
+**Hipótesis 6: Interfaz Adaptable por Tipo de Usuario**
+
+<table border="1" cellpadding="8" cellspacing="0">
+  <tr><th colspan="2">Pregunta 6</th></tr>
+  <tr><td><strong>Question</strong></td><td>¿Aumentará la satisfacción del usuario si la interfaz se adapta al tipo de perfil (pequeño productor o empresa)?</td></tr>
+  <tr><td><strong>Belief</strong></td><td>Las necesidades de gestión difieren significativamente entre pequeños productores y empresas. La personalización mejorará la relevancia y usabilidad.</td></tr>
+  <tr><td><strong>Hypothesis</strong></td><td>La interfaz adaptable aumentará en un 25% la satisfacción general del usuario y reducirá en un 15% la tasa de abandono durante el primer mes de uso según métricas de retención.</td></tr>
+  <tr><td><strong>Null Hypothesis</strong></td><td>La personalización de la interfaz no tendrá un impacto significativo en la satisfacción del usuario ni en la tasa de abandono.</td></tr>
+</table><br>
+
+**Hipótesis 7: Módulo Educativo Integrado**
+
+<table border="1" cellpadding="8" cellspacing="0">
+  <tr><th colspan="2">Pregunta 7</th></tr>
+  <tr><td><strong>Question</strong></td><td>¿Fomentará el aprendizaje continuo incluir materiales educativos dentro de la aplicación?</td></tr>
+  <tr><td><strong>Belief</strong></td><td>Los ganaderos tienen limitado acceso a capacitación técnica. El contenido educativo integrado fortalecerá la retención y el valor percibido.</td></tr>
+  <tr><td><strong>Hypothesis</strong></td><td>El módulo educativo incrementará en un 20% el uso recurrente de la aplicación y mejorará en un 35% la percepción de valor según encuestas de satisfacción.</td></tr>
+  <tr><td><strong>Null Hypothesis</strong></td><td>El contenido educativo no aumentará significativamente el uso recurrente ni la percepción de valor de la aplicación.</td></tr>
+</table><br>
+
+**Hipótesis 8: Automatización de Tareas**
+
+<table border="1" cellpadding="8" cellspacing="0">
+  <tr><th colspan="2">Pregunta 8</th></tr>
+  <tr><td><strong>Question</strong></td><td>¿Reducirá la carga administrativa integrar un sistema de recordatorios y tareas automáticas?</td></tr>
+  <tr><td><strong>Belief</strong></td><td>Las tareas repetitivas consumen tiempo y son propensas a errores. La automatización liberará tiempo y mejorará la precisión operativa.</td></tr>
+  <tr><td><strong>Hypothesis</strong></td><td>La automatización de tareas reducirá en un 30% el tiempo dedicado a actividades administrativas rutinarias y disminuirá en un 25% los errores de registro según mediciones de productividad.</td></tr>
+  <tr><td><strong>Null Hypothesis</strong></td><td>La automatización no reducirá significativamente el tiempo administrativo ni los errores de registro.</td></tr>
+</table><br>
+
+**Hipótesis 9: Soporte Técnico Accesible**
+
+<table border="1" cellpadding="8" cellspacing="0">
+  <tr><th colspan="2">Pregunta 9</th></tr>
+  <tr><td><strong>Question</strong></td><td>¿Aumentará la confianza y el uso de la app si ofrece un soporte técnico accesible y rápido?</td></tr>
+  <tr><td><strong>Belief</strong></td><td>Los usuarios rurales con poca experiencia tecnológica abandonan plataformas por falta de asistencia. El soporte accesible es crítico para la retención.</td></tr>
+  <tr><td><strong>Hypothesis</strong></td><td>El soporte técnico accesible mejorará en un 40% la retención de usuarios nuevos y reducirá en un 20% los abandonos durante el primer mes según análisis de churn.</td></tr>
+  <tr><td><strong>Null Hypothesis</strong></td><td>El soporte técnico no tendrá un impacto significativo en la retención de usuarios ni en la reducción de abandonos.</td></tr>
+</table><br>
+
 #### 8.2.2. Domain Business Metrics
+
+Las métricas de negocio para VacApp están diseñadas para cuantificar el impacto de las funcionalidades experimentales en la productividad ganadera, eficiencia operativa y adopción tecnológica. Estas métricas permitirán validar las hipótesis planteadas mediante datos concretos y medibles, proporcionando evidencia cuantitativa del valor generado por la plataforma en el sector ganadero peruano.
+
+**Tabla Principal de KPIs de Negocio**
+
+<table border="1" cellpadding="8" cellspacing="0">
+  <thead>
+    <tr>
+      <th><strong>Métrica</strong></th>
+      <th><strong>Definición</strong></th>
+      <th><strong>Método de Medición</strong></th>
+      <th><strong>Frecuencia</strong></th>
+      <th><strong>Baseline</strong></th>
+      <th><strong>Objetivo</strong></th>
+      <th><strong>Hipótesis Relacionada</strong></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>Tiempo Administrativo</strong></td>
+      <td>Minutos promedio diarios dedicados a tareas administrativas de gestión ganadera</td>
+      <td>Registro de tiempo en app + encuestas de uso</td>
+      <td>Semanal</td>
+      <td>120 minutos/día</td>
+      <td>Reducción 40% (72 min/día)</td>
+      <td>H1</td>
+    </tr>
+    <tr>
+      <td><strong>Precisión de Registros</strong></td>
+      <td>Porcentaje de registros sin errores en comparación con métodos manuales</td>
+      <td>Auditoría cruzada entre app digital vs registros tradicionales</td>
+      <td>Mensual</td>
+      <td>75% precisión</td>
+      <td>Mejora 30% (97.5% precisión)</td>
+      <td>H1</td>
+    </tr>
+    <tr>
+      <td><strong>Cumplimiento Vacunación</strong></td>
+      <td>Porcentaje de vacunas aplicadas en fecha programada</td>
+      <td>Seguimiento de alertas vs confirmación de aplicación</td>
+      <td>Semanal</td>
+      <td>68% cumplimiento</td>
+      <td>Mejora 25% (85% cumplimiento)</td>
+      <td>H2</td>
+    </tr>
+    <tr>
+      <td><strong>Omisiones Sanitarias</strong></td>
+      <td>Número de controles sanitarios omitidos por semana</td>
+      <td>Conteo de alertas no atendidas vs controles requeridos</td>
+      <td>Semanal</td>
+      <td>4.2 omisiones/semana</td>
+      <td>Reducción 30% (2.9 omisiones/semana)</td>
+      <td>H2</td>
+    </tr>
+    <tr>
+      <td><strong>Uso en Zonas Rurales</strong></td>
+      <td>Frecuencia de acceso semanal por usuarios en zonas con conectividad limitada</td>
+      <td>Analytics Firebase + geolocalización de accesos</td>
+      <td>Semanal</td>
+      <td>2.1 accesos/semana</td>
+      <td>Incremento 50% (3.15 accesos/semana)</td>
+      <td>H3</td>
+    </tr>
+    <tr>
+      <td><strong>Quejas por Conectividad</strong></td>
+      <td>Número de reportes de problemas de conexión por semana</td>
+      <td>Registro de tickets de soporte + encuestas de satisfacción</td>
+      <td>Semanal</td>
+      <td>8.5 quejas/semana</td>
+      <td>Reducción 40% (5.1 quejas/semana)</td>
+      <td>H3</td>
+    </tr>
+    <tr>
+      <td><strong>Confianza en Seguridad</strong></td>
+      <td>Percepción de seguridad de datos (escala 1-5)</td>
+      <td>Encuestas post-implementación sobre privacidad de datos</td>
+      <td>Mensual</td>
+      <td>3.2/5.0 puntos</td>
+      <td>Mejora 80% (5.76/5.0 puntos)</td>
+      <td>H4</td>
+    </tr>
+    <tr>
+      <td><strong>Retención de Usuarios</strong></td>
+      <td>Porcentaje de usuarios activos después de 30 días</td>
+      <td>Análisis de cohorts en Firebase Analytics</td>
+      <td>Mensual</td>
+      <td>62% retención</td>
+      <td>Mejora 25% (77.5% retención)</td>
+      <td>H4</td>
+    </tr>
+    <tr>
+      <td><strong>Decisiones Basadas en Datos</strong></td>
+      <td>Porcentaje de decisiones tomadas utilizando reportes visuales</td>
+      <td>Seguimiento de accesos a reportes vs acciones de gestión</td>
+      <td>Semanal</td>
+      <td>35% decisiones</td>
+      <td>Incremento 30% (45.5% decisiones)</td>
+      <td>H5</td>
+    </tr>
+    <tr>
+      <td><strong>Comprensión Operativa</strong></td>
+      <td>Tiempo promedio para interpretar estado completo del ganado</td>
+      <td>Medición de tiempo en dashboard vs comprensión validada</td>
+      <td>Semanal</td>
+      <td>18 minutos</td>
+      <td>Mejora 70% (5.4 minutos)</td>
+      <td>H5</td>
+    </tr>
+    <tr>
+      <td><strong>Satisfacción del Usuario</strong></td>
+      <td>Nivel general de satisfacción con la plataforma (escala 1-5)</td>
+      <td>Encuestas NPS + CSAT por segmento de usuario</td>
+      <td>Mensual</td>
+      <td>3.8/5.0 puntos</td>
+      <td>Mejora 25% (4.75/5.0 puntos)</td>
+      <td>H6</td>
+    </tr>
+    <tr>
+      <td><strong>Tasa de Abandono</strong></td>
+      <td>Porcentaje de usuarios que abandonan durante el primer mes</td>
+      <td>Análisis de churn por cohorts en Firebase Analytics</td>
+      <td>Mensual</td>
+      <td>38% abandono</td>
+      <td>Reducción 15% (32.3% abandono)</td>
+      <td>H6</td>
+    </tr>
+    <tr>
+      <td><strong>Uso Recurrente</strong></td>
+      <td>Frecuencia de acceso semanal al módulo educativo</td>
+      <td>Analytics Firebase de accesos a sección educativa</td>
+      <td>Semanal</td>
+      <td>1.2 accesos/semana</td>
+      <td>Incremento 20% (1.44 accesos/semana)</td>
+      <td>H7</td>
+    </tr>
+    <tr>
+      <td><strong>Percepción de Valor</strong></td>
+      <td>Valor percibido del contenido educativo (escala 1-5)</td>
+      <td>Encuestas específicas sobre módulo educativo</td>
+      <td>Mensual</td>
+      <td>3.5/5.0 puntos</td>
+      <td>Mejora 35% (4.73/5.0 puntos)</td>
+      <td>H7</td>
+    </tr>
+    <tr>
+      <td><strong>Tiempo en Tareas Administrativas</strong></td>
+      <td>Horas semanales dedicadas a tareas administrativas rutinarias</td>
+      <td>Registro automático de tiempo en funcionalidades administrativas</td>
+      <td>Semanal</td>
+      <td>14.2 horas/semana</td>
+      <td>Reducción 30% (9.94 horas/semana)</td>
+      <td>H8</td>
+    </tr>
+    <tr>
+      <td><strong>Errores de Registro</strong></td>
+      <td>Porcentaje de registros con errores corregidos automáticamente</td>
+      <td>Validación cruzada de datos vs detección de inconsistencias</td>
+      <td>Semanal</td>
+      <td>22% errores</td>
+      <td>Reducción 25% (16.5% errores)</td>
+      <td>H8</td>
+    </tr>
+    <tr>
+      <td><strong>Retención Nuevos Usuarios</strong></td>
+      <td>Porcentaje de nuevos usuarios que continúan activos después de 30 días</td>
+      <td>Análisis de cohorts específicos para usuarios nuevos</td>
+      <td>Mensual</td>
+      <td>45% retención</td>
+      <td>Mejora 40% (63% retención)</td>
+      <td>H9</td>
+    </tr>
+    <tr>
+      <td><strong>Abandonos Primer Mes</strong></td>
+      <td>Porcentaje de usuarios que abandonan en el primer mes por falta de soporte</td>
+      <td>Análisis de tickets de soporte vs tasa de churn</td>
+      <td>Mensual</td>
+      <td>28% abandonos</td>
+      <td>Reducción 20% (22.4% abandonos)</td>
+      <td>H9</td>
+    </tr>
+  </tbody>
+</table>
+
+**Métricas por Categoría**
+
+**Productividad Ganadera**
+
+- Producción por animal: Medición de kg de carne o litros de leche por animal
+- Tasa de conversión alimenticia: Eficiencia en conversión de alimento a producto
+- Índice de mortalidad: Reducción en tasas de mortalidad mediante mejor seguimiento
+- Tiempo hasta mercado: Optimización del tiempo desde cría hasta comercialización
+
+**Eficiencia Operativa**
+
+- Tiempo por tarea administrativa: Minutos requeridos por cada gestión
+- Precisión de datos: Reducción de errores en registros digitales vs manuales
+- Costos operativos: Ahorro en costos administrativos y de gestión
+- Automatización completada: Porcentaje de tareas rutinarias automatizadas
+
+**Salud Animal y Bienestar**
+
+- Cobertura vacunación completa: Porcentaje de animales con esquema completo
+- Detección temprana: Tiempo de detección de problemas de salud
+- Incidencia de enfermedades: Reducción en casos de enfermedades prevenibles
+- Bienestar animal: Indicadores objetivos de bienestar medidos digitalmente
+
+**Adopción Tecnológica**
+
+- Usuarios activos: DAU, WAU, MAU (Daily/Weekly/Monthly Active Users)
+- Penetración rural: Porcentaje de adopción en zonas con limitaciones técnicas
+- Frecuencia de uso: Número de sesiones por usuario por semana
+- Profundidad de uso: Número de funcionalidades utilizadas por usuario
+
+**Satisfacción y Valor Percibido**
+
+- Net Promoter Score (NPS): Likelihood de recomendar la plataforma
+- Customer Satisfaction (CSAT): Satisfacción general con la experiencia
+- Valor percibido: Percepción del impacto positivo en la operación
+- Lealtad del cliente: Tasa de renovación y uso continuado
+
+**Impacto Económico**
+
+- Retorno de inversión (ROI): Relación entre costos y beneficios generados
+- Reducción de pérdidas: Disminución en pérdidas por mala gestión
+- Incremento de ingresos: Mejora en ingresos por mayor eficiencia
+- Ahorro de costos: Reducción en costos operativos directos
+
+**Metodología de Medición**
+
+Las métricas serán recolectadas mediante múltiples fuentes para garantizar confiabilidad y validez:
+
+- **Analytics Automáticos**: Firebase Analytics para métricas de uso y retención
+- **Encuestas Periódicas**: Google Forms para satisfacción y percepción de valor
+- **Registros del Sistema**: Logs automatizados de tiempo y errores
+- **Validación Cruzada**: Comparación con registros tradicionales cuando sea posible
+- **Entrevistas Cualitativas**: Feedback detallado para complementar datos cuantitativos
+
+La medición será segmentada por tipo de usuario (pequeño productor vs empresa) y por nivel de adopción tecnológica para permitir análisis comparativos y personalización de estrategias.
 
 #### 8.2.3. Measures
 
+Las medidas de evaluación para VacApp están diseñadas para cuantificar con precisión el impacto de cada funcionalidad experimental en el contexto ganadero peruano. Cada medida se ha seleccionado por su capacidad para proporcionar datos objetivos, medibles y relevantes que permitan validar las hipótesis planteadas con rigor científico y relevancia práctica.
+
+**Hipótesis 1: Digitalización de Registros Ganaderos**
+
+**Medida Principal: Tiempo de Gestión Administrativa**
+
+- **Descripción**: Tiempo promedio en minutos que los ganaderos dedican diariamente a tareas administrativas de registro y seguimiento del ganado
+- **Unidades**: Minutos por día
+- **Método de Recolección**: Registro automático de tiempo en la aplicación VacApp, complementado con mediciones manuales mediante cronómetro en campo
+- **Instrumentos**: Timer integrado en la app + cronómetros digitales + diarios de campo
+- **Frecuencia**: Medición diaria, reporte semanal
+- **Validación**: Comparación cruzada con registros manuales tradicionales y observación directa
+
+**Medida Secundaria: Precisión de Registros**
+
+- **Descripción**: Porcentaje de registros sin errores al comparar con método manual tradicional
+- **Unidades**: Porcentaje (%)
+- **Método de Recolección**: Auditoría cruzada entre registros digitales de VacApp y registros físicos tradicionales
+- **Instrumentos**: Sistema de validación de datos + hojas de auditoría estandarizadas
+- **Frecuencia**: Auditoría mensual con muestra aleatoria del 20% de registros
+- **Validación**: Triple verificación por personal independiente
+
+**Hipótesis 2: Alertas y Recordatorios Automáticos**
+
+**Medida Principal: Tasa de Cumplimiento de Vacunación**
+
+- **Descripción**: Porcentaje de vacunas aplicadas en la fecha programada mediante el sistema de alertas
+- **Unidades**: Porcentaje (%)
+- **Método de Recolección**: Seguimiento automático de alertas emitidas vs confirmaciones de aplicación por parte del usuario
+- **Instrumentos**: Sistema de notificaciones push + confirmación manual en app + registro fotográfico de aplicación
+- **Frecuencia**: Medición continua, consolidación semanal
+- **Validación**: Verificación física aleatoria del 10% de las aplicaciones reportadas
+
+**Medida Secundaria: Tiempo de Respuesta a Alertas**
+
+- **Descripción**: Tiempo promedio entre la emisión de una alerta y la acción correspondiente del usuario
+- **Unidades**: Minutos
+- **Método de Recolección**: Registro automático de timestamps en el sistema de alertas
+- **Instrumentos**: Sistema de tracking de notificaciones + analítica de respuesta
+- **Frecuencia**: Análisis continuo con reportes diarios
+- **Validación**: Correlación con registros de actividad del usuario
+
+**Hipótesis 3: Modo Offline para Zonas Rurales**
+
+**Medida Principal: Frecuencia de Uso en Zonas Rurales**
+
+- **Descripción**: Número promedio de accesos semanales a la aplicación por usuarios en zonas con conectividad limitada
+- **Unidades**: Accesos por usuario por semana
+- **Método de Recolección**: Geolocalización de accesos mediante Firebase Analytics combinada con clasificación de zonas por nivel de conectividad
+- **Instrumentos**: Firebase Analytics + sistema de geolocalización + mapa de cobertura de redes
+- **Frecuencia**: Medición continua, análisis semanal
+- **Validación**: Verificación de ubicación mediante datos de operadoras móviles
+
+**Medida Secundaria: Tasa de Sincronización Exitosa**
+
+- **Descripción**: Porcentaje de datos registrados offline que se sincronizan correctamente al restaurar la conexión
+- **Unidades**: Porcentaje (%)
+- **Método de Recolección**: Conteo automático de registros pendientes vs sincronizados exitosamente
+- **Instrumentos**: Sistema de sincronización + logs de conexión + dashboard de monitoreo
+- **Frecuencia**: Monitoreo continuo con alertas de fallas
+- **Validación**: Auditoría aleatoria de datos sincronizados
+
+**Hipótesis 4: Seguridad y Privacidad de Datos**
+
+**Medida Principal: Percepción de Seguridad**
+
+- **Descripción**: Nivel de confianza percibida por los usuarios respecto a la seguridad de sus datos ganaderos
+- **Unidades**: Escala Likert de 1 a 5 puntos
+- **Método de Recolección**: Encuestas estructuradas aplicadas después de 30 días de uso continuo
+- **Instrumentos**: Cuestionario electrónico + entrevistas de profundidad con muestra representativa
+- **Frecuencia**: Medición mensual con cohorts rotativos
+- **Validación**: Triangulación con datos de comportamiento real (frecuencia de uso)
+
+**Medida Secundaria: Tasa de Adopción por Seguridad**
+
+- **Descripción**: Porcentaje de nuevos usuarios que mencionan la seguridad como factor decisivo de adopción
+- **Unidades**: Porcentaje (%)
+- **Método de Recolección**: Encuestas de onboarding + análisis de palabras clave en reseñas y feedback
+- **Instrumentos**: Formulario de bienvenida + análisis de sentimientos + entrevistas iniciales
+- **Frecuencia**: Medición continua con análisis mensual
+- **Validación**: Correlación con métricas de retención
+
+**Hipótesis 5: Reportes Visuales de Salud y Productividad**
+
+**Medida Principal: Tiempo de Comprensión Operativa**
+
+- **Descripción**: Tiempo promedio que requiere un usuario para comprender el estado completo de su ganado mediante dashboards visuales
+- **Unidades**: Minutos
+- **Método de Recolección**: Medición automática de tiempo de permanencia en dashboard + validación de comprensión mediante preguntas específicas
+- **Instrumentos**: Timer de dashboard + cuestionario de comprensión + eye-tracking opcional
+- **Frecuencia**: Medición por sesión con análisis semanal
+- **Validación**: Pruebas de comprensión estandarizadas con usuarios seleccionados
+
+**Medida Secundaria: Tasa de Decisiones Basadas en Datos**
+
+- **Descripción**: Porcentaje de acciones de gestión que se realizan inmediatamente después de consultar reportes visuales
+- **Unidades**: Porcentaje (%)
+- **Método de Recolección**: Correlación entre accesos a reportes y acciones de gestión subsiguientes
+- **Instrumentos**: Analytics de comportamiento + logs de acciones + mapas de calor de interacción
+- **Frecuencia**: Análisis continuo con reportes semanales
+- **Validación**: Entrevistas de seguimiento sobre decisiones tomadas
+
+**Hipótesis 6: Interfaz Adaptable por Tipo de Usuario**
+
+**Medida Principal: Satisfacción Segmentada por Perfil**
+
+- **Descripción**: Nivel de satisfacción general diferenciado por tipo de usuario (pequeño productor vs empresa)
+- **Unidades**: Escala CSAT de 1 a 5 puntos
+- **Método de Recolección**: Encuestas de satisfacción segmentadas automáticamente según tipo de usuario registrado
+- **Instrumentos**: Sistema de encuestas integrado + segmentación automática + análisis comparativo
+- **Frecuencia**: Medición quincenal con reportes de tendencias
+- **Validación**: Comparación con métricas de uso y retención por segmento
+
+**Medida Secundaria: Profundidad de Uso por Personalización**
+
+- **Descripción**: Número promedio de funcionalidades utilizadas por usuario según su perfil personalizado
+- **Unidades**: Funcionalidades por usuario
+- **Método de Recolección**: Tracking de uso de características por tipo de perfil configurado
+- **Instrumentos**: Analytics de funciones + mapas de usuario + perfiles de comportamiento
+- **Frecuencia**: Medición continua con análisis mensual
+- **Validación**: Correlación con configuraciones de personalización
+
+**Hipótesis 7: Módulo Educativo Integrado**
+
+**Medida Principal: Frecuencia de Acceso Educativo**
+
+- **Descripción**: Número promedio de sesiones semanales al módulo de aprendizaje por usuario activo
+- **Unidades**: Sesiones por usuario por semana
+- **Método de Recolección**: Registro automático de accesos a sección educativa con métricas de profundidad
+- **Instrumentos**: Firebase Analytics + tracking de contenido + análisis de engagement
+- **Frecuencia**: Medición continua con reportes semanales
+- **Validación**: Encuestas sobre aplicabilidad de contenidos aprendidos
+
+**Medida Secundaria: Tiempo de Permanencia Educativa**
+
+- **Descripción**: Tiempo promedio que los usuarios dedican a consumir contenido educativo por sesión
+- **Unidades**: Minutos por sesión
+- **Método de Recolección**: Medición automática de tiempo de permanencia en contenidos educativos
+- **Instrumentos**: Analytics de contenido + heatmaps de interacción + análisis de completion rate
+- **Frecuencia**: Análisis continuo con segmentación por tipo de contenido
+- **Validación**: Entrevistas sobre impacto del aprendizaje en prácticas ganaderas
+
+**Hipótesis 8: Automatización de Tareas y Recordatorios**
+
+**Medida Principal: Reducción de Tiempo Administrativo**
+
+- **Descripción**: Reducción porcentual en el tiempo dedicado a tareas administrativas rutinarias
+- **Unidades**: Porcentaje (%) y horas absolutas
+- **Método de Recolección**: Comparación before/after mediante registro automático de tiempo en tareas automatizadas vs manuales
+- **Instrumentos**: Sistema de medición de tiempo + logs de automatización + diarios comparativos
+- **Frecuencia**: Medición continua con consolidación mensual
+- **Validación**: Observación directa y entrevistas de verificación
+
+**Medida Secundaria: Tasa de Tareas Completadas Automáticamente**
+
+- **Descripción**: Porcentaje de tareas programadas que se ejecutan y completan sin intervención manual
+- **Unidades**: Porcentaje (%)
+- **Método de Recolección**: Conteo automático de tareas programadas vs completadas exitosamente
+- **Instrumentos**: Scheduler de tareas + sistema de monitoreo + dashboard de automatización
+- **Frecuencia**: Monitoreo continuo con alertas de fallas
+- **Validación**: Auditoría aleatoria de resultados de automatización
+
+**Hipótesis 9: Soporte Técnico Accesible**
+
+**Medida Principal: Tiempo de Primera Respuesta**
+
+- **Descripción**: Tiempo promedio entre la solicitud de soporte y la primera respuesta efectiva
+- **Unidades**: Minutos para solicitudes críticas, horas para generales
+- **Método de Recolección**: Registro automático de timestamps en sistema de tickets de soporte
+- **Instrumentos**: Sistema de gestión de tickets + SLAs definidos + dashboard de métricas de soporte
+- **Frecuencia**: Monitoreo continuo con reportes diarios
+- **Validación**: Encuestas de satisfacción post-soporte
+
+**Medida Secundaria: Tasa de Resolución en Primer Contacto**
+
+- **Descripción**: Porcentaje de casos de soporte resueltos sin necesidad de seguimiento adicional
+- **Unidades**: Porcentaje (%)
+- **Método de Recolección**: Clasificación automática de tickets según número de interacciones requeridas
+- **Instrumentos**: Sistema de tickets + análisis de resolución + encuestas post-resolución
+- **Frecuencia**: Análisis continuo con consolidación semanal
+- **Validación**: Verificación con usuarios sobre satisfacción de resolución
+
+**Metodología General de Medición**
+
+**Principios de Medición**
+
+- **Objetividad**: Todas las medidas se basan en datos cuantificables y verificables
+- **Repetibilidad**: Procesos estandarizados que permiten replicación en diferentes períodos
+- **Validez**: Las medidas seleccionadas reflejan constructos reales del contexto ganadero
+- **Sensibilidad**: Capacidad para detectar cambios significativos en las métricas
+
+**Control de Calidad de Datos**
+
+- **Validación Cruzada**: Múltiples fuentes de datos para cada medida principal
+- **Triangulación**: Combinación de métodos cuantitativos y cualitativos
+- **Consistencia Temporal**: Verificación de tendencias y estacionalidad
+- **Análisis de Outliers**: Identificación y tratamiento de datos anómalos
+
+**Segmentación de Análisis**
+
+- **Por Tipo de Productor**: Pequeños productores vs empresas ganaderas
+- **Por Región Geográfica**: Costa, sierra, selva con características diferentes
+- **Por Nivel Tecnológico**: Alta, media, baja alfabetización digital
+- **Por Tamaño de Operación**: Número de animales gestionados
+
+**Consideraciones Contextuales**
+
+- **Estacionalidad Ganadera**: Ajuste de mediciones según ciclos productivos
+- **Factores Climáticos**: Impacto en patrones de uso y medición
+- **Eventos Sanitarios**: Brotes o controles masivos que afectan mediciones
+- **Infraestructura Local**: Disponibilidad de conectividad y dispositivos
+
 #### 8.2.4. Conditions
+
+Las condiciones experimentales establecen los criterios de validación para cada hipótesis mediante la definición clara de resultados esperados tanto en el escenario experimental como en el escenario de control. Estas condiciones permiten determinar de manera objetiva si las funcionalidades implementadas generan el impacto esperado en el contexto ganadero peruano.
+
+<table border="1" cellpadding="8" cellspacing="0">
+  <tr>
+    <th>Question</th>
+    <td>¿Aumentará la productividad de los ganaderos si se digitaliza el registro de salud, alimentación y reproducción del ganado?</td>
+  </tr>
+  <tr>
+    <th>Condición Experimental</th>
+    <td>La digitalización de registros reducirá en un 40% el tiempo promedio dedicado a tareas administrativas diarias, pasando de 120 a 72 minutos por día, y mejorará en un 30% la precisión de los registros comparado con métodos manuales tradicionales.</td>
+  </tr>
+  <tr>
+    <th>Condición de Control</th>
+    <td>No se observará una reducción significativa (mayor al 10%) en el tiempo administrativo ni mejoras sustanciales en la precisión de los registros respecto a los métodos manuales actuales.</td>
+  </tr>
+</table>
+
+<br>
+
+<table border="1" cellpadding="8" cellspacing="0">
+  <tr>
+    <th>Question</th>
+    <td>¿Mejorará la gestión diaria si se implementan alertas y recordatorios automáticos de vacunación y alimentación?</td>
+  </tr>
+  <tr>
+    <th>Condición Experimental</th>
+    <td>Las alertas automáticas reducirán en un 30% las omisiones sanitarias y aumentará en un 25% el cumplimiento de cronogramas de vacunación y alimentación, pasando de un 68% a un 85% de cumplimiento.</td>
+  </tr>
+  <tr>
+    <th>Condición de Control</th>
+    <td>Las alertas automáticas no reducirán significativamente (reducción menor al 5%) las omisiones sanitarias ni mejorarán sustancialmente el cumplimiento de los cronogramas establecidos.</td>
+  </tr>
+</table>
+
+<br>
+
+<table border="1" cellpadding="8" cellspacing="0">
+  <tr>
+    <th>Question</th>
+    <td>¿Aumentará la adopción en zonas rurales si la app permite funcionar sin conexión (modo offline)?</td>
+  </tr>
+  <tr>
+    <th>Condición Experimental</th>
+    <td>El modo offline incrementará en un 50% la frecuencia de uso semanal en zonas rurales, pasando de 2.1 a 3.15 accesos por usuario por semana, y reducirá en un 40% las quejas por problemas de conectividad.</td>
+  </tr>
+  <tr>
+    <th>Condición de Control</th>
+    <td>La funcionalidad offline no aumentará significativamente (incremento menor al 10%) la frecuencia de uso ni reducirá las quejas por problemas de conectividad en zonas rurales.</td>
+  </tr>
+</table>
+
+<br>
+
+<table border="1" cellpadding="8" cellspacing="0">
+  <tr>
+    <th>Question</th>
+    <td>¿Fortalecerá la confianza de los usuarios si la aplicación garantiza la seguridad y privacidad de los datos ganaderos?</td>
+  </tr>
+  <tr>
+    <th>Condición Experimental</th>
+    <td>La implementación de cifrado de datos y autenticación segura aumentará en un 80% la confianza percibida según encuestas, pasando de 3.2 a 5.76 puntos en escala 1-5, y mejorará en un 25% la retención de usuarios.</td>
+  </tr>
+  <tr>
+    <th>Condición de Control</th>
+    <td>Las medidas de seguridad implementadas no tendrán un impacto significativo (mejora menor al 15%) en la confianza percibida ni en la retención de usuarios.</td>
+  </tr>
+</table>
+
+<br>
+
+<table border="1" cellpadding="8" cellspacing="0">
+  <tr>
+    <th>Question</th>
+    <td>¿Facilitará la toma de decisiones incluir reportes visuales con indicadores de salud y producción?</td>
+  </tr>
+  <tr>
+    <th>Condición Experimental</th>
+    <td>Los reportes visuales mejorarán en un 70% la comprensión operativa del estado del ganado, reduciendo el tiempo de interpretación de 18 a 5.4 minutos, y aumentará en un 30% las decisiones basadas en datos.</td>
+  </tr>
+  <tr>
+    <th>Condición de Control</th>
+    <td>Los reportes visuales no mejorarán significativamente (mejora menor al 20%) la comprensión operativa ni aumentarán las decisiones basadas en datos.</td>
+  </tr>
+</table>
+
+<br>
+
+<table border="1" cellpadding="8" cellspacing="0">
+  <tr>
+    <th>Question</th>
+    <td>¿Aumentará la satisfacción del usuario si la interfaz se adapta al tipo de perfil (pequeño productor o empresa)?</td>
+  </tr>
+  <tr>
+    <th>Condición Experimental</th>
+    <td>La interfaz adaptable aumentará en un 25% la satisfacción general del usuario, pasando de 3.8 a 4.75 puntos en escala CSAT 1-5, y reducirá en un 15% la tasa de abandono durante el primer mes de uso.</td>
+  </tr>
+  <tr>
+    <th>Condición de Control</th>
+    <td>La personalización de la interfaz no mejorará significativamente (mejora menor al 10%) la satisfacción general ni reducirá la tasa de abandono de usuarios.</td>
+  </tr>
+</table>
+
+<br>
+
+<table border="1" cellpadding="8" cellspacing="0">
+  <tr>
+    <th>Question</th>
+    <td>¿Fomentará el aprendizaje continuo incluir materiales educativos dentro de la aplicación?</td>
+  </tr>
+  <tr>
+    <th>Condición Experimental</th>
+    <td>El módulo educativo incrementará en un 20% el uso recurrente de la aplicación, pasando de 1.2 a 1.44 accesos semanales al módulo, y mejorará en un 35% la percepción de valor del contenido educativo.</td>
+  </tr>
+  <tr>
+    <th>Condición de Control</th>
+    <td>El contenido educativo no aumentará significativamente (incremento menor al 10%) el uso recurrente ni mejorará la percepción de valor de la aplicación.</td>
+  </tr>
+</table>
+
+<br>
+
+<table border="1" cellpadding="8" cellspacing="0">
+  <tr>
+    <th>Question</th>
+    <td>¿Reducirá la carga administrativa integrar un sistema de recordatorios y tareas automáticas?</td>
+  </tr>
+  <tr>
+    <th>Condición Experimental</th>
+    <td>La automatización de tareas reducirá en un 30% el tiempo dedicado a actividades administrativas rutinarias, pasando de 14.2 a 9.94 horas semanales, y disminuirá en un 25% los errores de registro.</td>
+  </tr>
+  <tr>
+    <th>Condición de Control</th>
+    <td>La automatización no reducirá significativamente (reducción menor al 15%) el tiempo administrativo ni los errores de registro en las tareas rutinarias.</td>
+  </tr>
+</table>
+
+<br>
+
+<table border="1" cellpadding="8" cellspacing="0">
+  <tr>
+    <th>Question</th>
+    <td>¿Aumentará la confianza y el uso de la app si ofrece un soporte técnico accesible y rápido?</td>
+  </tr>
+  <tr>
+    <th>Condición Experimental</th>
+    <td>El soporte técnico accesible mejorará en un 40% la retención de usuarios nuevos, pasando de 45% a 63% de retención después de 30 días, y reducirá en un 20% los abandonos durante el primer mes.</td>
+  </tr>
+  <tr>
+    <th>Condición de Control</th>
+    <td>El soporte técnico no tendrá un impacto significativo (mejora menor al 15%) en la retención de usuarios nuevos ni en la reducción de abandonos durante el primer mes.</td>
+  </tr>
+</table>
+
+**Criterios de Validación Experimental**
+
+**Niveles de Significancia**
+
+- **Éxito Sobresaliente**: Supera el objetivo establecido en más del 25%
+- **Éxito Esperado**: Cumple entre 100% y 125% del objetivo establecido
+- **Resultado Parcial**: Cumple entre 50% y 99% del objetivo establecido
+- **Resultado Insuficiente**: Cumple menos del 50% del objetivo establecido
+
+**Metodología de Verificación**
+
+- **Período de Evaluación**: 4 semanas consecutivas por funcionalidad
+- **Tamaño de Muestra**: Mínimo 30 usuarios activos por hipótesis
+- **Intervalo de Confianza**: 95% (p < 0.05)
+- **Método Estadístico**: Prueba t de Student para muestras pareadas
+
+**Control de Variables**
+
+- **Variables Constantes**: Misma metodología de medición durante todo el experimento
+- **Segmentación Controlada**: Proporciones equilibradas entre pequeños productores y empresas
+- **Factor Temporal**: Mediciones realizadas en períodos de normalidad productiva
+- **Validación Cruzada**: Confirmación de resultados mediante múltiples fuentes de datos
+
+**Criterios de Decisión**
+Una hipótesis se considera validada cuando:
+
+1. **Condición Experimental**: Se alcanza o supera el umbral establecido en la condición experimental
+2. **Significancia Estadística**: Los resultados son estadísticamente significativos (p < 0.05)
+3. **Consistencia Temporal**: Los resultados se mantienen durante el período de evaluación
+4. **Replicabilidad**: Los resultados pueden replicarse en diferentes segmentos de usuarios
+
+**Procesamiento de Resultados**
+
+- **Análisis Comparativo**: Comparación directa entre resultados experimentales y de control
+- **Normalización de Datos**: Ajuste por factores estacionales y contextuales
+- **Validación Externa**: Verificación con estándares del sector ganadero
+- **Reporte de Hallazgos**: Documentación completa de resultados y conclusiones
 
 #### 8.2.5. Scale Calculations and Decisions
 
+Los cálculos de escala establecen una metodología cuantitativa para evaluar el logro de cada hipótesis mediante la comparación entre resultados obtenidos y objetivos establecidos. Esta escala permite clasificar el desempeño en cuatro categorías claras que facilitan la toma de decisiones estratégicas sobre el futuro de cada funcionalidad experimental.
+
+<table border="1" cellpadding="8" cellspacing="0">
+  <thead>
+    <tr>
+      <th rowspan="2">Scale Calculation</th>
+      <th rowspan="2">Decision</th>
+      <th colspan="4">Factor</th>
+    </tr>
+    <tr>
+      <th>Desfavorable</th>
+      <th>Aceptable</th>
+      <th>Ideal</th>
+      <th>Excelente</th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <tr>
+      <td>Creemos que digitalizar registros de salud, alimentación y reproducción del ganado reducirá en un 40% el tiempo administrativo y mejorará en un 30% la precisión de los registros comparado con métodos manuales tradicionales.</td>
+      <td>Desarrollar un módulo centralizado que permita registrar y consultar datos de salud, alimentación y reproducción del ganado desde la app web o móvil.</td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Creemos que las alertas automáticas sobre vacunas, alimentación y controles sanitarios reducirán en un 30% las omisiones sanitarias y aumentará en un 25% el cumplimiento de cronogramas.</td>
+      <td>Incorporar notificaciones automáticas configurables que alerten sobre próximas vacunas, controles sanitarios y horarios de alimentación.</td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Creemos que permitir el funcionamiento offline incrementará en un 50% la frecuencia de uso en zonas rurales y reducirá en un 40% las quejas por problemas de conectividad.</td>
+      <td>Desarrollar una funcionalidad offline que permita el registro y consulta local de datos, sincronizándose automáticamente cuando haya conexión.</td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Creemos que implementar cifrado de datos y autenticación segura aumentará en un 80% la confianza percibida y mejorará en un 25% la retención de usuarios.</td>
+      <td>Implementar cifrado de datos, autenticación segura y políticas de privacidad transparentes dentro de la app.</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+    </tr>
+    <tr>
+      <td>Creemos que desarrollar paneles con gráficos e indicadores sobre producción, salud y eficiencia del ganado mejorará en un 70% la comprensión operativa y aumentará en un 30% las decisiones basadas en datos.</td>
+      <td>Diseñar paneles con gráficos e indicadores clave sobre producción, salud y eficiencia del ganado.</td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Creemos que diseñar perfiles personalizables con módulos y vistas específicas según el tipo de usuario registrado aumentará en un 25% la satisfacción general y reducirá en un 15% la tasa de abandono.</td>
+      <td>Diseñar perfiles personalizables con módulos y vistas específicas según el tipo de usuario registrado.</td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Creemos que integrar una sección educativa con artículos, videos y consejos sobre salud animal, alimentación y sostenibilidad incrementará en un 20% el uso recurrente y mejorará en un 35% la percepción de valor.</td>
+      <td>Integrar una sección educativa con artículos, videos y consejos sobre salud animal, alimentación y sostenibilidad.</td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Creemos que añadir un módulo de tareas programadas con recordatorios automáticos y confirmación de cumplimiento reducirá en un 30% el tiempo dedicado a actividades rutinarias y disminuirá en un 25% los errores de registro.</td>
+      <td>Añadir un módulo de tareas programadas con recordatorios automáticos y confirmación de cumplimiento.</td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+    </tr>
+  </tbody>
+</table>
+
+**Criterios de Clasificación de Factores**
+
+**Factor Desfavorable** (Logro < 50% del objetivo)
+
+- La funcionalidad no logra el mínimo impacto esperado
+- Resultados insuficientes que requieren reevaluación completa
+- Justifica abandonar o rediseñar completamente la hipótesis
+
+**Factor Aceptable** (Logro 50-79% del objetivo)
+
+- La funcionalidad cumple parcialmente con las expectativas
+- Resultados moderados pero significativos
+- Requiere optimización pero muestra potencial de mejora
+
+**Factor Ideal** (Logro 80-124% del objetivo)
+
+- La funcionalidad cumple satisfactoriamente con las expectativas
+- Resultados positivos y medibles que validan la hipótesis
+- Justifica continuar implementación y expansión controlada
+
+**Factor Excelente** (Logro > 125% del objetivo)
+
+- La funcionalidad supera significativamente las expectativas
+- Resultados excepcionales que pueden transformar el negocio
+- Justifica inversión adicional y expansión acelerada
+
+**Metodología de Cálculo**
+
+**Fórmula General**
+Porcentaje de Logro = ((Resultado Obtenido - Baseline) / (Objetivo - Baseline)) × 100
+
+**Ejemplo de Cálculo - Hipótesis 1 (Digitalización)**
+
+- Baseline: 120 minutos/día
+- Objetivo: 72 minutos/día (reducción del 40%)
+- Si resultado obtenido: 80 minutos/día
+- Porcentaje de logro = ((120-80) / (120-72)) × 100 = (40/48) × 100 = 83.3%
+- Clasificación: Factor Ideal
+
+**Ejemplo de Cálculo - Hipótesis 4 (Seguridad)**
+
+- Baseline: 3.2 puntos confianza
+- Objetivo: 5.76 puntos (aumento del 80%)
+- Si resultado obtenido: 6.0 puntos
+- Porcentaje de logro = ((6.0-3.2) / (5.76-3.2)) × 100 = (2.8/2.56) × 100 = 109.4%
+- Clasificación: Factor Ideal
+
+**Ejemplo de Cálculo - Hipótesis 7 (Educación)**
+
+- Baseline: 1.2 accesos/semana módulo educativo
+- Objetivo: 1.44 accesos/semana (aumento del 20%)
+- Si resultado obtenido: 2.0 accesos/semana
+- Porcentaje de logro = ((2.0-1.2) / (1.44-1.2)) × 100 = (0.8/0.24) × 100 = 333.3%
+- Clasificación: Factor Excelente
+
+**Criterios Específicos por Hipótesis**
+
+**Hipótesis 1 - Digitalización**
+
+- Desfavorable: <20% reducción tiempo (>96 min/día)
+- Aceptable: 20-31% reducción tiempo (82-96 min/día)
+- Ideal: 32-50% reducción tiempo (60-81 min/día)
+- Excelente: >50% reducción tiempo (<60 min/día)
+
+**Hipótesis 2 - Alertas**
+
+- Desfavorable: <15% reducción omisiones (>3.6/semana)
+- Aceptable: 15-23% reducción omisiones (2.9-3.6/semana)
+- Ideal: 24-37% reducción omisiones (2.6-2.9/semana)
+- Excelente: >37% reducción omisiones (<2.6/semana)
+
+**Hipótesis 3 - Offline**
+
+- Desfavorable: <25% aumento uso rural (<2.6 accesos/semana)
+- Aceptable: 25-39% aumento uso rural (2.6-2.9 accesos/semana)
+- Ideal: 40-62% aumento uso rural (2.9-3.4 accesos/semana)
+- Excelente: >62% aumento uso rural (>3.4 accesos/semana)
+
+**Hipótesis 4 - Seguridad**
+
+- Desfavorable: <40% aumento confianza (<4.48 puntos)
+- Aceptable: 40-63% aumento confianza (4.48-5.22 puntos)
+- Ideal: 64-100% aumento confianza (5.23-6.4 puntos)
+- Excelente: >100% aumento confianza (>6.4 puntos)
+
+**Hipótesis 5 - Reportes**
+
+- Desfavorable: <35% mejora comprensión (>11.7 minutos)
+- Aceptable: 35-55% mejora comprensión (8.1-11.7 minutos)
+- Ideal: 56-87% mejora comprensión (2.3-8.1 minutos)
+- Excelente: >87% mejora comprensión (<2.3 minutos)
+
+**Hipótesis 6 - Personalización**
+
+- Desfavorable: <12% aumento satisfacción (<4.26 puntos)
+- Aceptable: 12-19% aumento satisfacción (4.26-4.52 puntos)
+- Ideal: 20-31% aumento satisfacción (4.53-4.98 puntos)
+- Excelente: >31% aumento satisfacción (>4.98 puntos)
+
+**Hipótesis 7 - Educación**
+
+- Desfavorable: <10% aumento uso (<1.32 accesos/semana)
+- Aceptable: 10-15% aumento uso (1.32-1.38 accesos/semana)
+- Ideal: 16-25% aumento uso (1.39-1.50 accesos/semana)
+- Excelente: >25% aumento uso (>1.50 accesos/semana)
+
+**Hipótesis 8 - Automatización**
+
+- Desfavorable: <15% reducción tiempo (>12.07 horas/semana)
+- Aceptable: 15-23% reducción tiempo (10.94-12.07 horas/semana)
+- Ideal: 24-37% reducción tiempo (8.95-10.93 horas/semana)
+- Excelente: >37% reducción tiempo (<8.95 horas/semana)
+
+**Hipótesis 9 - Soporte**
+
+- Desfavorable: <20% mejora retención (<54% retención)
+- Aceptable: 20-31% mejora retención (54-59% retención)
+- Ideal: 32-50% mejora retención (59-68% retención)
+- Excelente: >50% mejora retención (>68% retención)
+
+**Proceso de Toma de Decisiones**
+
+**Según Factor Obtenido**
+
+**Factor Desfavorable**
+
+- **Análisis Inmediato**: Investigación de causas raíz del bajo desempeño
+- **Decisiones**: Considerar rediseño funcional, cambio de enfoque o abandono de hipótesis
+- **Recursos**: Reasignación de recursos a hipótesis con mayor potencial
+- **Timeline**: Evaluación extensiva antes de próximos pasos
+
+**Factor Aceptable**
+
+- **Optimización**: Identificación de mejoras incrementales
+- **Ajustes**: Modificación de implementación actual para mejorar desempeño
+- **Monitoreo**: Intensificación de seguimiento y recolección de datos
+- **Evaluación**: Revisión periódica de progreso hacia factores superiores
+
+**Factor Ideal**
+
+- **Consolidación**: Estabilización de implementación actual
+- **Documentación**: Registro de mejores prácticas y lecciones aprendidas
+- **Expansión**: Escalada controlada a más usuarios y regiones
+- **Optimización**: Mejora continua de eficiencia y costos
+
+**Factor Excelente**
+
+- **Aceleración**: Expansión rápida y agresiva de la funcionalidad
+- **Priorización**: Asignación de recursos adicionales y soporte prioritario
+- **Replicación**: Identificación de patrones de éxito para aplicar en otras hipótesis
+- **Caso de Éxito**: Desarrollo de materiales de marketing y comunicación
+
+**Reporte y Seguimiento**
+
+**Frecuencia de Evaluación**
+
+- **Diaria**: Recolección automática de datos primarios
+- **Semanal**: Cálculo de factores y análisis de tendencias
+- **Mensual**: Reportes consolidados y decisiones estratégicas
+- **Trimestral**: Evaluación general del portafolio de hipótesis
+
+**Indicadores de Monitoreo**
+
+- **Tasa de Conversión**: Porcentaje de usuarios que adoptan funcionalidad
+- **Profundidad de Uso**: Frecuencia e intensidad de utilización
+- **Satisfacción del Usuario**: Percepción de valor y utilidad
+- **Impacto en Negocio**: Métricas de productividad y eficiencia
+
 #### 8.2.6. Methods Selection
+
+La selección de herramientas y métodos es crítica para el éxito del experimento en el contexto ganadero peruano. Se han evaluado múltiples alternativas considerando factores específicos del sector como la diversidad de alfabetización digital, limitaciones de conectividad en zonas rurales, y la necesidad de interfaces accesibles para usuarios con poca experiencia tecnológica. La selección final prioriza herramientas que ofrezcan alto valor, costos accesibles y excelente adaptación al contexto.
+
+<table border="1" cellpadding="8" cellspacing="0">
+  <thead>
+    <tr>
+      <th>Herramienta</th>
+      <th>Firebase Analytics</th>
+      <th>Google Forms</th>
+      <th>Power BI</th>
+      <th>Zendesk</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>Precio</th>
+      <td>Plan gratuito con generosos límites de uso, ideal para pequeños productores con presupuestos limitados. Escalable a planes pagados según crecimiento.</td>
+      <td>Completamente gratuito para uso personal y educativo. Sin límites de encuestas ni respuestas, perfecto para recolección masiva de feedback.</td>
+      <td>Gratis para usuarios individuales y equipos pequeños. Planes empresariales disponibles con capacidades avanzadas de colaboración.</td>
+      <td>Plan pagado desde $25/mes con capacidad ilimitada para usuarios. Inversión justificada por el soporte técnico especializado.</td>
+    </tr>
+    <tr>
+      <th>Capacidad de Análisis</th>
+      <td>Análisis completo de comportamiento de usuarios en la aplicación móvil y web, con métricas personalizadas para eventos ganaderos específicos. Segmentación por región y tipo de productor.</td>
+      <td>Análisis detallado de respuestas con gráficos automáticos y exportación a Google Sheets para análisis avanzado. Ideal para medir satisfacción y percepción de valor.</td>
+      <td>Análisis avanzado de datos ganaderos con dashboards interactivos. Capacidad de integración con múltiples fuentes de datos y creación de reportes automatizados específicos del sector.</td>
+      <td>Análisis de tickets de soporte con métricas de tiempo de respuesta, satisfacción del cliente y tendencias de problemas. Ideal para identificar patrones en necesidades técnicas de usuarios.</td>
+    </tr>
+    <tr>
+      <th>Sencillez</th>
+      <td>Configuración inicial sencilla con SDK fáciles de implementar. Dashboard intuitivo aunque requiere conocimiento técnico básico para interpretación avanzada de datos.</td>
+      <td>Interfaz muy amigable y visual, ideal para usuarios con baja alfabetización digital. Creación de encuestas intuitiva sin requerimientos técnicos.</td>
+      <td>Curva de aprendizaje moderada. Interfaz potente pero compleja para usuarios principiantes. Requiere capacitación para aprovechar todo su potencial.</td>
+      <td>Interfaz profesional y fácil de usar para equipos de soporte. Configuración sencilla con plantillas y automatización de respuestas.</td>
+    </tr>
+    <tr>
+      <th>Ventajas</th>
+      <td>Excelente integración con ecosistema Google. Monitoreo en tiempo real de uso de funcionalidades experimentales. Optimizado para aplicaciones móviles predominantes en zonas rurales.</td>
+      <td>Perfección para recolección de feedback cualitativo de ganaderos. Integración nativa con Google Sheets facilita análisis colaborativo. Sin costos de licenciamiento.</td>
+      <td>Capacidad superior para crear visualizaciones complejas de datos productivos. Automatización de reportes para stakeholders empresariales. Excelente para análisis de tendencias y patrones.</td>
+      <td>Soporte profesional especializado ideal para usuarios con poca experiencia técnica. Sistema de conocimiento base para auto-ayuda. Integración con múltiples canales de comunicación.</td>
+    </tr>
+  </tbody>
+</table>
+
+<br>
+
+**Herramientas Complementarias Recomendadas**
+
+Para enriquecer el análisis experimental, se recomiendan las siguientes herramientas complementarias que añaden capacidades específicas para el contexto ganadero peruano:
+
+<table border="1" cellpadding="8" cellspacing="0">
+  <thead>
+    <tr>
+      <th>Herramienta</th>
+      <th>Sentry</th>
+      <th>WhatsApp Business API</th>
+      <th>Power Automate</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>Precio</th>
+      <td>Plan gratuito con métricas generosas. Planes pagados desde $26/mes para análisis avanzado y retención extendida de datos.</td>
+      <td>Costo por mensaje con API oficial. Planes empresariales disponibles con herramientas de comunicación masiva.</td>
+      <td>Incluido en suscripción Microsoft 365. Excelente relación costo-beneficio para automatización de procesos.</td>
+    </tr>
+    <tr>
+      <th>Capacidad</th>
+      <td>Monitoreo en tiempo real de errores y performance de la aplicación. Detección automática de problemas críticos que afectan la experiencia del usuario ganadero.</td>
+      <td>Comunicación directa con usuarios a través del canal más popular en Perú. Mensajes automatizados y respuesta rápida a consultas técnicas.</td>
+      <td>Automatización de procesos repetitivos como envío de reportes, notificaciones personalizadas y sincronización de datos entre sistemas.</td>
+    </tr>
+    <tr>
+      <th>Ventajas</th>
+      <td>Detección proactiva de problemas antes de afectar a múltiples usuarios. Integración con GitHub para traceo de errores por deploy.</td>
+      <td>Tasa de apertura superior al 98% en comunicaciones importantes. Canal preferido por ganaderos para consultas técnicas.</td>
+      <td>Reducción significativa de tareas administrativas manuales. Integración nativa con ecosistema Microsoft utilizado por muchas empresas agrícolas.</td>
+    </tr>
+  </tbody>
+</table>
+
+**Criterios de Selección**
+
+**Requisitos Fundamentales**
+Las herramientas seleccionadas deben cumplir con los siguientes requisitos mínimos para ser consideradas adecuadas para el contexto ganadero peruano:
+
+- **Accesibilidad**: Funcionalidad completa en modo offline o con conectividad limitada, fundamental para zonas rurales del Perú.
+- **Costo-Asequible**: Modelos de precios accesibles para pequeños productores con ingresos variables y presupuestos limitados.
+- **Curva de Aprendizaje**: Interfaces intuitivas que no requieran capacitación técnica extensa, considerando la diversa alfabetización digital.
+- **Soporte en Español**: Atención al cliente y documentación completa en español, incluyendo terminología ganadera local.
+- **Integración API**: Capacidad de conectarse con otros sistemas agrícolas o de gestión que los productores ya utilizan.
+
+**Criterios de Evaluación Técnica**
+
+- **Rendimiento**: Capacidad de procesar volúmenes de datos sin degradación de servicio, incluso con miles de usuarios concurrentes.
+- **Seguridad**: Cumplimiento con regulaciones de protección de datos personales y privacidad de información productiva sensible.
+- **Escalabilidad**: Arquitectura que permita crecimiento ordenado sin requerir reestructuraciones técnicas costosas.
+- **Flexibilidad**: Personalización para adaptarse a diferentes tipos de producción ganadera (vacunos, aves, porcinos, etc.).
+- **Monitoreo**: Herramientas de análisis propias para medir su propio rendimiento y optimización continua.
+
+**Adaptación Cultural**
+Las herramientas seleccionadas deben considerar aspectos culturales específicos del sector ganadero peruano:
+
+- **Formatos Familiares**: Uso de metáforas y terminología que los ganaderos ya comprenden y utilizan en su trabajo diario.
+- **Respeto por Tradiciones**: Herramientas que complementen prácticas existentes sin intentar reemplazarlas completamente.
+- **Disponibilidad Temporal**: Consideración de los ciclos productivos y estacionalidad agrícola en la planificación de uso.
+- **Confianza Digital**: Mecanismos para construir confianza gradual en usuarios escépticos hacia tecnología.
+
+**Proceso de Implementación**
+
+**Fase 1: Configuración Inicial (Mes 1)**
+
+- Implementación de Firebase Analytics y Google Forms como herramientas base.
+- Configuración de eventos personalizados para seguimiento de hipótesis experimentales.
+- Diseño de encuestas iniciales para medir baseline de satisfacción y percepción.
+- Establecimiento de dashboard básico en Power BI para stakeholders internos.
+
+**Fase 2: Integración Avanzada (Mes 2-3)**
+
+- Configuración completa de Power BI con todas las fuentes de datos del proyecto.
+- Implementación de Zendesk para soporte técnico especializado.
+- Integración de Sentry para monitoreo proactivo de errores y performance.
+- Configuración de WhatsApp Business API para comunicación directa con usuarios.
+
+**Fase 3: Optimización y Expansión (Mes 4-6)**
+
+- Personalización de dashboards según tipo de usuario (pequeño productor vs empresa).
+- Implementación de Power Automate para procesos automatizados de reporte.
+- Optimización de todas las herramientas basada en datos de uso real.
+- Capacitación de equipo interno en manejo avanzado de todas las herramientas.
+
+**Criterios de Éxito**
+
+**Métricas de Adopción**
+
+- **Tasa de Adopción**: >70% de usuarios activos utilizando las herramientas principales dentro de los primeros 3 meses.
+- **Frecuencia de Uso**: Promedio de 5+ sesiones semanales por usuario en todas las plataformas.
+- **Satisfacción**: Calificación promedio >4.0/5.0 en encuestas de usabilidad de todas las herramientas.
+- **Retención**: >60% de usuarios continúan utilizando las herramientas después de 6 meses.
+
+**Métricas de Impacto en Negocio**
+
+- **Eficiencia Operativa**: Reducción del 30% en tiempo de análisis de datos productivos.
+- **Toma de Decisiones**: Mejora del 50% en velocidad de decisión basada en información analizada.
+- **Soporte Técnico**: Reducción del 40% en tiempo promedio de respuesta a incidentes técnicos.
+- **Satisfacción del Cliente**: Aumento del 25% en calificación general del servicio.
+
+**Métricas Técnicas**
+
+- **Disponibilidad**: >99.5% de uptime para todas las plataformas críticas.
+- **Performance**: Tiempo de carga <3 segundos para todas las interfaces principales.
+- **Errores**: <0.1% tasa de errores críticos que afecten la experiencia del usuario.
+- **Integración**: 100% de integraciones entre sistemas funcionando sin problemas.
+
+**Plan de Monitoreo Continuo**
+
+**Seguimiento Semanal**
+
+- Análisis de métricas de uso y adopción de todas las herramientas.
+- Identificación de patrones de comportamiento y oportunidades de optimización.
+- Revisión de tickets de soporte para identificar problemas recurrentes.
+- Actualización de dashboards con información más reciente.
+
+**Evaluación Mensual**
+
+- Evaluación de ROI de cada herramienta en función de costos vs beneficios.
+- Análisis de satisfacción de usuarios y tasa de retención.
+- Revisión de métricas técnicas de performance y disponibilidad.
+- Ajuste de configuraciones basadas en aprendizajes y optimizaciones.
+
+**Revisión Trimestral**
+
+- Evaluación completa del portafolio de herramientas y su alineación con objetivos.
+- Análisis de tendencias de uso y necesidades emergentes de usuarios.
+- Planificación de actualizaciones y nuevas implementaciones.
+- Revisión de presupuesto y costos-beneficios de todo el ecosistema tecnológico.
 
 #### 8.2.7. Data Analytics: Goals, KPIs and Metrics Selection
 
+#### Introducción a la Medición
+
+Para medir el éxito de VacApp, es fundamental establecer una jerarquía de medición que conecte las acciones del usuario con los objetivos estratégicos del proyecto. Este plan se estructura en tres niveles:
+
+1.  **Goals (Objetivos):** Las metas de alto nivel que el negocio busca alcanzar.
+2.  **KPIs (Key Performance Indicators):** Los indicadores clave que miden el progreso hacia esos objetivos.
+3.  **Metrics (Métricas):** Los puntos de datos específicos y cuantificables que componen los KPIs.
+
+Los objetivos de negocio de VacApp, identificados en el _Impact Mapping_ del proyecto, son la base de este análisis:
+
+- **Adopción (Empresas):** Implementar VacApp en al menos 20 empresas en los primeros 6 meses.
+- **Eficiencia (Empresas):** Lograr una mejora del 30% en la eficiencia operativa de las empresas ganaderas.
+- **Rentabilidad (Independientes):** Asegurar la rentabilidad del 90% de ganaderos independientes en su primer año de uso.
+
+A continuación, se define el framework de KPIs y Métricas para medir estos objetivos.
+
+#### 1. KPIs de Adquisición
+
+**Objetivo (Goal):** Atraer a los segmentos objetivo (Ganaderos Independientes y Empresas Ganaderas) y convertirlos en usuarios registrados.
+
+| KPI (Key Performance Indicator)              | Métricas Clave (Metrics)                                                                                                                                           | Plataforma(s)                |
+| :------------------------------------------- | :----------------------------------------------------------------------------------------------------------------------------------------------------------------- | :--------------------------- |
+| **Tasa de Conversión (Visitante a Usuario)** | _ Nº de Visitantes Únicos a la Landing Page y App Stores. <br> _ Nº de Descargas de la aplicación móvil. <br> \* Nº de Registros Completados (`signup_completed`). | Landing Page, Web App, Móvil |
+| **Costo de Adquisición de Cliente (CAC)**    | _ Costo total de marketing y ventas. <br> _ Nº de nuevos clientes adquiridos.                                                                                      | N/A (Financiero)             |
+
+#### 2. KPIs de Activación
+
+**Objetivo (Goal):** Lograr que los nuevos usuarios experimenten el valor central de VacApp, validando la hipótesis de facilidad de uso.
+
+| KPI (Key Performance Indicator)     | Métricas Clave (Metrics)                                                                                                                                                                 | Plataforma(s)  |
+| :---------------------------------- | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :------------- |
+| **Tasa de Activación (Onboarding)** | _ Nº de usuarios que completan el registro. <br> _ Nº de usuarios que registran al menos 1 animal (Meta: 70%). <br> \* Tiempo promedio desde el registro hasta el primer animal añadido. | Web App, Móvil |
+| **Tasa de Completitud del Perfil**  | \* Nº de usuarios que configuran su perfil inicial (ej. datos de la granja).                                                                                                             | Web App, Móvil |
+
+#### 3. KPIs de Retención y Valor
+
+**Objetivo (Goal):** Asegurar que los usuarios regresen y utilicen las funciones clave que generan eficiencia y valor.
+
+| KPI (Key Performance Indicator)     | Métricas Clave (Metrics)                                                                                                                                                                                                                  | Plataforma(s)  |
+| :---------------------------------- | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :------------- |
+| **Tasa de Retención de Usuarios**   | _ Usuarios Activos Diarios (DAU). <br> _ Usuarios Activos Mensuales (MAU). <br> * Proporción DAU/MAU (Nivel de "pegajosidad" o *stickiness\*).                                                                                            | Web App, Móvil |
+| **Adopción de Funciones Clave**     | _ % de usuarios que utilizan funciones de salud, alimentación y reproducción (Meta: 70% del uso total). <br> _ % de usuarios que registran vacunas (Adopción de `EP001`). <br> \* % de usuarios que crean campañas (Adopción de `EP003`). | Web App, Móvil |
+| **Validación de Hipótesis (Rural)** | \* % de usuarios que activan el modo sin conexión (Meta: 60% semanal).                                                                                                                                                                    | Móvil          |
+
+#### 4. KPIs de Monetización
+
+**Objetivo (Goal):** Medir la viabilidad financiera y la conversión a planes de pago para asegurar la rentabilidad.
+
+| KPI (Key Performance Indicator)         | Métricas Clave (Metrics)                                                                                                              | Plataforma(s)    |
+| :-------------------------------------- | :------------------------------------------------------------------------------------------------------------------------------------ | :--------------- |
+| **Tasa de Conversión (Free a Premium)** | _ Nº de usuarios en plan "Free". <br> _ Nº de usuarios en plan "Premium". <br> \* % de usuarios "Free" que se convierten a "Premium". | Web App, Móvil   |
+| **Tasa de Abandono (Churn Rate)**       | \* % de usuarios "Premium" que cancelan su suscripción por mes.                                                                       | N/A (Financiero) |
+
+---
+
 #### 8.2.8. Web and Mobile Tracking Plan
+
+#### Introducción al Plan de Tracking
+
+El _Tracking Plan_ (Plan de Seguimiento) es el documento técnico que implementa la estrategia de analítica. Define los eventos específicos que deben ser capturados en las plataformas de VacApp (Landing Page, Web App y Aplicaciones Móviles) para alimentar las métricas y KPIs definidos en la sección 8.2.7.
+
+- **Plataformas:** Landing Page (Netlify), Aplicación Web (Firebase) y Aplicaciones Móviles (Flutter para iOS/Android).
+- **Convención de Nombres:** Los eventos se nombran en `snake_case` (ej. `item_added`) para mantener la consistencia.
+
+#### 1. Eventos de Adquisición (Landing Page)
+
+Plataforma: vacapp LandingPage
+
+| Evento      | Disparador (Trigger)                               | Parámetros Relevantes                                                         | KPI Relacionado    |
+| :---------- | :------------------------------------------------- | :---------------------------------------------------------------------------- | :----------------- |
+| `page_view` | Un usuario visita cualquier página de la landing.  | `page_url` (ej. /precios, /features) <br> `utm_source` (ej. facebook, google) | Tasa de Conversión |
+| `cta_click` | Clic en un botón principal de llamada a la acción. | `button_name` (ej. "Empezar", "Choose Plan", "Get App")                       | Tasa de Conversión |
+
+#### 2. Eventos de Onboarding (Web y Móvil)
+
+Plataformas: Web App y Móvil.
+
+| Evento             | Disparador (Trigger)                                             | Parámetros Relevantes                  | KPI Relacionado                   |
+| :----------------- | :--------------------------------------------------------------- | :------------------------------------- | :-------------------------------- |
+| `signup_started`   | Usuario llega a la pantalla de "Sign Up".                        | `platform` (web, ios, android)         | Tasa de Conversión                |
+| `signup_completed` | Usuario completa el formulario de registro y verifica la cuenta. | `auth_method` (Email, Google, Outlook) | Tasa de Conversión                |
+| `login_completed`  | Usuario inicia sesión exitosamente.                              | `auth_method`                          | Tasa de Retención                 |
+| `plan_selected`    | Usuario escoge un plan en la pantalla "Plans".                   | `plan_name` ("Free", "Premium")        | Tasa de Conversión (Monetización) |
+
+#### 3. Eventos de Funcionalidad Core (Web y Móvil)
+
+Estos eventos miden la adopción de las funciones clave (Epics) definidas en el proyecto.
+
+| Evento                   | Disparador (Trigger)                           | Epic / User Story Relacionado | KPI Relacionado             |
+| :----------------------- | :--------------------------------------------- | :---------------------------- | :-------------------------- |
+| `animal_added`           | Usuario registra un nuevo bovino.              | `EP002: Registrar Ganado`     | Tasa de Activación          |
+| `vaccine_added`          | Usuario registra una nueva vacuna.             | `EP001: Registrar Vacuna`     | Adopción de Funciones Clave |
+| `campaign_added`         | Usuario crea una nueva campaña.                | `EP003: Registrar Campaña`    | Adopción de Funciones Clave |
+| `staff_added`            | Usuario (Empresa) registra un nuevo empleado.  | `EP004: Registrar Personal`   | Adopción de Funciones Clave |
+| `inventory_item_added`   | Usuario añade un producto al inventario.       | "Inventory Management"        | Adopción de Funciones Clave |
+| `report_viewed`          | Usuario genera o consulta un reporte.          | "Automated Reports"           | Adopción de Funciones Clave |
+| `reminder_viewed`        | Usuario interactúa con un recordatorio.        | "Smart Reminders"             | Tasa de Retención           |
+| `offline_mode_activated` | Usuario activa o utiliza el modo sin conexión. | Hipótesis (Zonas rurales)     | Validación de Hipótesis     |
 
 ### 8.3. Experimentation
 
 Aquí se documenta la ejecución práctica de los experimentos: implementación, recogida de datos, monitoreo y análisis de resultados frente a los KPIs definidos. Describe los procedimientos de control (grupos de control, muestreo), las herramientas de medición, el tratamiento de datos y los criterios de decisión para iterar, escalar o abandonar hipótesis según la evidencia obtenida.
 
 #### 8.3.1. To‑Be User Stories
-| **User Story ID** | **Título** | **Descripción** | **Criterios de Aceptación** | **Relación con (Epic ID)** |
+
+| **User Story ID** | **Título**                                 | **Descripción**                                                                                                                                                                  | **Criterios de Aceptación**                                                                                                                                                                                                                                                                                                                                                                                                                    | **Relación con (Epic ID)** |
 | ----------------- | ------------------------------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------- |
 | **UA01**          | Digitalización de registros ganaderos      | Como ganadero, quiero registrar digitalmente la información de salud, alimentación y reproducción de mi ganado, para mantener un control centralizado y evitar pérdida de datos. | **Escenario 1: Registrar información sanitaria**<br>Given tengo un animal registrado en mi cuenta.<br>When ingreso la información de vacunación o tratamiento.<br>Then el sistema guarda el registro y actualiza su historial sanitario.<br><br>**Escenario 2: Consultar historial**<br>Given deseo revisar el historial de un animal.<br>When accedo a su ficha.<br>Then puedo ver todos los registros de salud, alimentación y reproducción. | **EP01**                   |
 | **UA02**          | Alertas y recordatorios automáticos        | Como ganadero, quiero recibir alertas automáticas sobre vacunas, alimentación y controles sanitarios, para no olvidar fechas importantes y mantener la salud de mi ganado.       | **Escenario 1: Generar recordatorio automático**<br>Given he registrado una fecha de vacunación.<br>When se aproxima la fecha configurada.<br>Then el sistema envía una notificación al usuario con la alerta.<br><br>**Escenario 2: Confirmar cumplimiento**<br>Given he recibido una alerta.<br>When realizo la acción (vacunar, alimentar, controlar).<br>Then puedo marcarla como completada y el sistema actualiza el estado.             | **EP02**                   |
@@ -4486,26 +6242,15 @@ Aquí se documenta la ejecución práctica de los experimentos: implementación,
 | **8** | UA08              | Automatización de tareas y recordatorios   | **5**                        |
 | **9** | UA09              | Soporte técnico accesible                  | **2**                        |
 
-
 ## Conclusiones
 
-1. **VacApp como ejemplo de arquitectura modular y escalable:**  
-   La aplicación VacApp evidencia cómo el uso de **Domain-Driven Design (DDD)** y la definición clara de bounded contexts permiten construir soluciones robustas y escalables para la gestión ganadera. La integración de módulos como _Campaign Management_, _Ranch Management_ y _Staff Administration_ ha facilitado una arquitectura limpia, adaptable y alineada con las necesidades reales de los usuarios, asegurando la evolución continua del producto.
+El desarrollo de VacApp ha evolucionado desde la implementación inicial hacia una fase de madurez técnica y estratégica, consolidando un producto robusto, validado y preparado para el crecimiento continuo. La aplicación de un riguroso proceso de verificación y validación fue fundamental, combinando pruebas automatizadas (unitarias, de integración y de sistema) con análisis estático de código para garantizar la calidad y seguridad del software. Este enfoque técnico se complementó con una validación centrada en el usuario, a través de entrevistas y auditorías de experiencia de usuario, asegurando que la solución no solo sea funcionalmente correcta, sino también intuitiva y alineada con las necesidades reales del sector ganadero.
 
-2. **Impacto del enfoque centrado en el usuario y metodologías ágiles:**  
-   El desarrollo de VacApp se caracterizó por la constante interacción con los usuarios finales, empleando entrevistas, mapeos de escenarios, user stories y análisis de impacto. El uso de metodologías ágiles como _Scrum_ y herramientas como _Lean UX_ permitió identificar y priorizar necesidades reales, logrando entregas funcionales frecuentes y una mejora continua en la experiencia del usuario ganadero.
+Paralelamente, la adopción de una cultura DevOps se materializó en la implementación de un pipeline completo de CI/CD y monitoreo continuo. Esta automatización no solo aceleró los ciclos de entrega, sino que también instauró un marco de trabajo ágil y resiliente, permitiendo que cada mejora se integre, pruebe y despliegue de manera confiable y con mínimo riesgo. La capacidad de entregar valor de forma constante ha posicionado a VacApp como una plataforma moderna y sostenible.
 
-3. **Fortalecimiento de competencias técnicas y colaboración efectiva:**  
-   El trabajo colaborativo en VacApp no solo resultó en un producto funcional, sino que también impulsó el desarrollo de habilidades clave en el equipo, como el diseño de arquitecturas por capas, modelado de bases de datos, diseño de interfaces y aplicación de patrones estratégicos y tácticos de DDD. La gestión eficiente del proyecto y la comunicación constante consolidaron una visión profesional y una cultura de mejora continua dentro del equipo.
+Finalmente, la transición hacia un enfoque de Experiment-Driven Development demuestra el compromiso del proyecto con la toma de decisiones basada en evidencia. Al establecer un sistema para formular hipótesis, definir métricas clave (KPIs) y diseñar experimentos, el equipo ha sentado las bases para que el futuro de VacApp sea guiado por datos concretos y no solo por suposiciones. Esta metodología asegura que cada nueva funcionalidad responda a un impacto medible en la productividad y eficiencia del usuario final, garantizando la relevancia y competitividad de la plataforma a largo plazo.
 
-4. **Integración continua como eje de calidad y automatización:**  
-La implementación de **pipelines de integración continua (CI)** permitió automatizar la construcción, pruebas y verificación del código en cada commit. Gracias al uso de herramientas como *GitHub Actions* y *xUnit*, el equipo logró detectar errores tempranos, mantener la estabilidad del sistema y asegurar que cada nueva funcionalidad se integre sin comprometer la calidad global del producto.
-
-5. **Entrega continua para asegurar despliegues confiables:**  
-El enfoque de **Continuous Delivery (CD)** posibilitó una transición fluida entre los entornos de desarrollo, prueba y producción, garantizando que las nuevas versiones de VacApp pudieran ser liberadas de forma controlada y predecible. La incorporación de pruebas automatizadas dentro del pipeline redujo tiempos de validación y mejoró la trazabilidad de cada versión entregada.
-
-6. **Despliegue continuo como práctica de evolución constante:**  
-La aplicación de estrategias de **Continuous Deployment** consolidó la visión DevOps del proyecto, asegurando que cada mejora validada automáticamente se desplegara en producción sin intervención manual. Este enfoque favoreció la agilidad operativa, la reducción de riesgos y la entrega continua de valor hacia los usuarios finales, posicionando a VacApp como una plataforma moderna, mantenible y en evolución permanente.
+La incorporación de un ciclo de validación riguroso, que combinó entrevistas de validación** y **evaluaciones heurísticas, fue crucial para obtener retroalimentación cualitativa directa de los usuarios. Estos métodos permitieron identificar problemas de usabilidad y confirmar la alineación del producto con las expectativas del mercado. Este proceso sentó las bases para la transición hacia el Experiment-Driven Development (Capítulo VIII), un enfoque que formaliza el aprendizaje al convertir los hallazgos en hipótesis medibles. Al definir KPIs específicos y un plan de experimentación, el proyecto no solo responde a las necesidades del usuario, sino que también establece un sistema para validar el impacto de cada mejora con datos cuantitativos, asegurando una evolución sostenible y basada en evidencia.
 
 <div style="page-break-before: always;"></div>
 
