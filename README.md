@@ -4142,25 +4142,30 @@ Adicionalmente, se reportó que ciertas áreas de la plataforma, como la secció
 
 | Detalle                 | Información                                               |
 | :---------------------- | :-------------------------------------------------------- |
-| **Entrevistado**        | `[Nombre Completo del Entrevistado]`                      |
-| **Edad**                | `[Edad]`                                                  |
-| **Rol / Experiencia**   | `[Ej: Ganadero con 10 años de experiencia]`               |
-| **Fecha de Entrevista** | `[DD/MM/AAAA]`                                            |
-| **Duración**            | `[HH:MM:SS]`                                              |
-| **Tecnologías Usadas**  | `[Ej: Google Meet, Zoom, Grabadora de voz]`               |
-| **Enlace a Grabación**  | `[Pega aquí el enlace al video o audio de la entrevista]` |
+| **Entrevistado**        | Catalina Villavicencio  Guerra                    |
+| **Edad**                | 28                                                  |
+| **Rol / Experiencia**   | Ganadera independiente con experiencia de años               |
+| **Fecha de Entrevista** | 12/22/2025                                            |
+| **Duración**            | 5:10 min                                              |
+| **Tecnologías Usadas**  | Google meet               |
+| **Enlace a Grabación**  | https://drive.google.com/file/d/1LwDQ9iKX7OYKe3O5qwVxonOpUoFlN9OT/view?usp=sharing |
 
 <br>
 
 **Evidencia de la Entrevista:**
 
-`![Evidencia Entrevista 1](assets/entrevista_1.png)`
+
+![Evidencia Entrevista 6](assets/EntrevistaDE.png)
 
 <br>
 
 **Resumen de Hallazgos Clave:**
+- **Feedback Positivo sobre Funcionalidad:** 
+Catalina confirma que la aplicaciín movile le parece muy intuitiva y de facil uso, recalco mucho el registro de ganado, el hecho que la aplicación sea muy estable y no genere bug ni errores, esto hace que ella confie en el uso de VacApp.
+- **Oportunidad de Mejora en la Interfaz (UI):** A pesar de la funcionalidad, Catalina como usuaria tiene cierto feedback hacerca de la mejora en la UI dice que se puede hacer mucho más minimalista para que sea del agrado de los usuarios, también dice que si se podría agragar animaciones para la interacción.
 
----
+- **Solicitud de Nuevas Funcionalidades (Reportes):** El punto de Catalina de nuevas funcionalidades fue el realizar un apartado para la capacitación a travez de cursos dentro de la aplicación para que los usuarios nuevos o ganaderos que recien inicien en este mundo puedan tener la información a primera mano y no buscar opciones de terceros.
+
 
 ### 6.3.3. Evaluaciones según heurísticas
 
