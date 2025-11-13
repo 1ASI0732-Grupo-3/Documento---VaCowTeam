@@ -4169,6 +4169,27 @@ Catalina confirma que la aplicaciín movile le parece muy intuitiva y de facil u
 
 ### 6.3.3. Evaluaciones según heurísticas
 
+A partir de las entrevistas de validación realizadas con usuarios reales del segmento ganadero, se identificaron diversos aspectos que influyen en la experiencia de uso de la aplicación VacApp.
+A continuación, se resumen los hallazgos evaluados según los principios heurísticos de Nielsen, indicando el problema, la heurística violada, la severidad y una descripción de la oportunidad de mejora.
+
+| #      | Problema identificado                                                                                            | Heurística / Principio violado                                          | Severidad | Descripción y análisis                                                                                                                                                                                                                                        |
+| ------ | ---------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------- | --------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **1**  | Menú principal percibido como “sobrecargado” o con demasiadas opciones visibles (entrevista 1 y 5).              | **Information Architecture: Is it understandable? / Minimalist design** | 2         | Los usuarios reportaron sensación de saturación visual en el menú principal. Esto incrementa la carga cognitiva y dificulta la localización rápida de funciones. Se recomienda agrupar opciones, jerarquizar categorías y simplificar los íconos principales. |
+| **2**  | Inconsistencia en la navegación entre secciones principales (menú inferior vs. lateral).                         | **Consistency and standards**                                           | 2         | Los entrevistados percibieron diferencias en la ubicación del menú según la pantalla, generando confusión sobre cómo volver o moverse entre secciones. Se sugiere unificar el patrón de navegación para mantener coherencia visual y de interacción.          |
+| **3**  | Curva de aprendizaje inicial para editar registros o mover animales entre establos (entrevista 2).               | **User control and freedom / Recognition rather than recall**           | 2         | La interfaz no comunica claramente las acciones disponibles dentro de ciertas pantallas. Se propone incorporar mensajes de ayuda, tutoriales breves o íconos guía que indiquen cómo realizar acciones clave.                                                  |
+| **4**  | Falta de visibilidad de la sección de campañas (entrevista 3).                                                   | **Visibility of system status**                                         | 3         | El usuario no pudo identificar fácilmente la función de campañas ni comprendió su propósito. Esto indica una baja visibilidad del sistema. Se recomienda reposicionar esta función y mostrar un estado activo o tooltip explicativo.                          |
+| **5**  | Inconsistencia visual en la paleta de colores y densidad de elementos.                                           | **Aesthetic and minimalist design / Accessibility (Contrast)**          | 2         | Algunos usuarios mencionaron que la interfaz podría beneficiarse de un diseño más minimalista. Se propone revisar la paleta cromática y aplicar guías de contraste WCAG 2.1 nivel AA para mejorar la legibilidad.                                             |
+| **6**  | Ausencia de reportes avanzados y métricas productivas solicitadas por los usuarios.                              | **Match between system and real world**                                 | 1         | El sistema no contempla aún la generación de reportes sobre alimentación, peso o rendimiento. Dicha ausencia limita la percepción de valor práctico del sistema frente a las necesidades reales del usuario ganadero.                                         |
+| **7**  | Falta de retroalimentación visual o animaciones en ciertas acciones (por ejemplo, clics o envíos de formulario). | **Feedback / Visibility of system status**                              | 2         | Los entrevistados esperan confirmaciones visuales tras cada interacción. Se recomienda agregar microanimaciones o cambios de color en botones para confirmar acciones completadas.                                                                            |
+| **8**  | Complejidad visual inicial en la sección de ajustes o configuración (entrevista 4).                              | **Aesthetic and minimalist design / Consistency**                       | 2         | Los usuarios reportaron dificultad para comprender las opciones de configuración. Se recomienda reorganizar la jerarquía visual, emplear tipografía más clara y títulos descriptivos.                                                                         |
+| **9**  | Ausencia de capacitación o guía para nuevos usuarios (entrevista 6).                                             | **Help and documentation**                                              | 1         | Se detectó la necesidad de contar con un módulo de capacitación o tutorial interactivo dentro de la app. Esto permitiría a los ganaderos novatos aprender de forma autónoma y aprovechar todas las funcionalidades.                                           |
+| **10** | Solicitud de animaciones o diseño más atractivo.                                                                 | **Aesthetic and minimalist design / Satisfaction**                      | 1         | La falta de elementos dinámicos reduce el atractivo visual y la sensación de modernidad de la aplicación. Se sugiere integrar transiciones suaves y microinteracciones sin sobrecargar la interfaz.                                                           |
+
+
+En conjunto, las entrevistas revelan que VacApp presenta una funcionalidad sólida y estable, validada por los usuarios como confiable y útil en el contexto ganadero. Sin embargo, existen oportunidades claras de mejora en los ámbitos de coherencia visual, navegación consistente y visibilidad del sistema, especialmente en la estructura del menú y la presentación de ciertas funciones menos accesibles.
+
+La incorporación de reportes avanzados, animaciones ligeras y capacitación guiada reforzará la percepción de valor, fomentando la confianza y facilitando la adopción entre usuarios nuevos y experimentados.
+
 ### 6.4. Auditoría de Experiencias de Usuario
 
 ### 6.4.1. Auditoría realizada
@@ -6286,6 +6307,8 @@ La incorporación de un ciclo de validación riguroso, que combinó entrevistas 
 ### Enlaces de la Aplicación
 
 **Aplicación Móvil:** https://appdistribution.firebase.dev/i/b5b8b0a89363391d
+
+**Aplicacion Web** https://muusmartexp.netlify.app/
 
 ### Videos del Proyecto
 
