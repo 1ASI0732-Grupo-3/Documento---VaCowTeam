@@ -81,8 +81,8 @@
 
 | Métrica                     | Descripción                             |
 | --------------------------- | --------------------------------------- |
-| Número de commits por autor | ![Pruebas1](assets/insightsTB2.png)     |
-| Historial de cambios        | ![Pruebas1](assets/networkgraphTB2.png) |
+| Número de commits por autor | ![Pruebas1](assets/insightsTF.png)     |
+| Historial de cambios        | ![Pruebas1](assets/networkgraphTF.png) |
 
 #### 4. Participación de Todos los Miembros del Equipo
 
@@ -267,7 +267,25 @@
 - [8.3. Experimentation](#83-experimentation)
   - [8.3.1. To-Be User Stories](#831-to-be-user-stories)
   - [8.3.2. To-Be Product Backlog](#832-to-be-product-backlog)
-
+  - [8.3.3. Pipeline‑supported, Experiment‑Driven To‑Be Software Platform Lifecycle](#833-pipeline-supported-experiment-driven-to-be-software-platform-lifecycle)
+  - [8.3.3.1. To‑Be Sprint Backlogs](#8331-to-be-sprint-backlogs)
+  - [8.3.3.2. Implemented To‑Be Landing Page Evidence](#8332-implemented-to-be-landing-page-evidence)    - [8.3.3.3. Implemented To‑Be Frontend‑Web Application Evidence](#8333-implemented-to-be-frontend-web-application-evidence)
+   - [8.3.3.4. Implemented To‑Be Native‑Mobile Application Evidence](#8334-implemented-to-be-native-mobile-application-evidence)
+    - [8.3.3.5. Implemented To‑Be RESTful API and/or Serverless Backend Evidence](#8335-implemented-to-be-restful-api-andor-serverless-backend-evidence)
+    - [8.3.3.6. Team Collaboration Insights](#8336-team-collaboration-insights)
+  - [8.3.4. To‑Be Validation Interviews](#834-to-be-validation-interviews)
+    - [8.3.4.1. Diseño de Entrevistas](#8341-diseño-de-entrevistas)
+    - [8.3.4.2. Registro de Entrevistas](#8342-registro-de-entrevistas)
+- [8.4. Experiment Aftermath & Analysis](#84-experiment-aftermath--analysis)
+  - [8.4.1. Analysis and Interpretation of Results](#841-analysis-and-interpretation-of-results)
+  - [8.4.2. Re‑scored and Re‑prioritized Question Backlog](#842-re-scored-and-re-prioritized-question-backlog)
+- [8.5. Continuous Learning](#85-continuous-learning)
+  - [8.5.1. Shareback Session Artifacts: Learning Workflow](#851-shareback-session-artifacts-learning-workflow)
+- [8.6. To‑Be Software Platform Pre‑launch](#86-to-be-software-platform-pre-launch)
+  - [8.6.1. About‑the‑Product Intro Video](#861-about-the-productintro-video)
+  - [Conclusiones y recomendaciones](#conclusiones-y-recomendaciones)
+  - [Video App Validation](#video-app-validation)
+  - [Video About‑The‑Team](#video-about-the-team)
 - [Conclusiones](#74-conclusiones)
 - [Bibliografía](#75-bibliografía)
 - [Anexos](#76-anexos)
@@ -6276,6 +6294,163 @@ Aquí se documenta la ejecución práctica de los experimentos: implementación,
 | **7** | UA07              | Módulo educativo integrado                 | **2**                        |
 | **8** | UA08              | Automatización de tareas y recordatorios   | **5**                        |
 | **9** | UA09              | Soporte técnico accesible                  | **2**                        |
+
+### 8.3.3. Pipeline‑supported, Experiment‑Driven To‑Be Software Platform Lifecycle
+
+Esta sección describe cómo el pipeline de desarrollo soporta la transición de ideas experimentales a funcionalidades productivas. El ciclo abarca definición de hipótesis, implementación en sprints, despliegue en entornos controlados, recopilación de datos y decisión basada en métricas.
+
+- Objetivo: reducir la incertidumbre técnica y de producto mediante experimentos controlados integrados al pipeline CI/CD.
+- Flujo resumido: Idea → Card de experimento → Sprint Backlog → Implementación → Entorno de staging → Recolección de métricas → Análisis → Decisión (iterar/escalar/retirar).
+
+#### 8.3.3.1. To‑Be Sprint Backlogs
+
+Plantilla recomendada para cada sprint experimental:
+- Objetivo del sprint (hipótesis a validar).
+- User stories priorizadas (IDs UAxx).
+- Tasks técnicas (build, testautomation, infra).
+- Criterios de aceptación y métricas asociadas (KPIs).
+- Definición de done para la experimentación (instrumentación + dashboard).
+- Checklist de despliegue a staging y rollback plan.
+
+Ejemplo breve:
+- Sprint Goal: Validar alertas automáticas (UA02).
+- Stories: UA02-1 (configurar scheduler), UA02-2 (notificaciones push).
+- Métrica principal: % de replies/confirmaciones dentro de 48h.
+- Done: logs, métricas, tests E2E y dashboard con evento `reminder_viewed`.
+
+#### 8.3.3.2. Implemented To‑Be Landing Page Evidence
+
+Resumen de evidencia:
+- Landing page actualizada con secciones de producto, planes y CTA para pruebas.
+- Capturas y enlaces: assets/I1.png … I4.png
+- Métricas de validación: visitas, CTR en CTA, conversiones a sign-ups (capturadas por Firebase/Netlify analytics).
+- Enlace público: https://vacapp-landing.netlify.app/
+
+#### 8.3.3.3. Implemented To‑Be Frontend‑Web Application Evidence
+
+Resumen de evidencia:
+- Panel de control (dashboard) con reportes iniciales y widgets de salud/consumo.
+- Registro y edición de bovinos, campañas y establos.
+- Screenshots: assets/webapp1.PNG, assets/webapp2.PNG.
+- Telemetría: eventos clave instrumentados (animal_added, report_viewed, offline_mode_activated).
+
+#### 8.3.3.4. Implemented To‑Be Native‑Mobile Application Evidence
+
+Resumen de evidencia:
+- App Flutter con workflows offline, sincronización y notificaciones locales/push.
+- Vistas: registro bovino, vacunas, tareas programadas.
+- Capturas: assets/*_flutter.JPG.
+- Métricas: activación de modo offline y tasa de sincronización exitosa.
+
+#### 8.3.3.5. Implemented To‑Be RESTful API and/or Serverless Backend Evidence
+
+Resumen de evidencia:
+- Endpoints principales desplegados y documentados (Swagger / OpenAPI).
+- Ejecuciones de tests Postman / Newman integradas en pipeline.
+- Enlace Swagger (deploy local/azur): https://vacappapi.azurewebsites.net/swagger/index.html
+- Evidencias: capturas de endpoints y logs de integración.
+
+#### 8.3.3.6. Team Collaboration Insights
+
+Documentar aprendizajes del equipo:
+- Roles y responsabilidades durante la experimentación.
+- Herramientas usadas: GitHub (issues/workflows), Firebase (analytics), Postman, Figma.
+- Retrospectiva: decisiones técnicas, cuellos de botella y acciones tomadas (ej.: instrumentación previa obligatoria para todo experimento).
+
+---
+
+### 8.3.4. To‑Be Validation Interviews
+
+Se documentan las entrevistas diseñadas para validar versiones To‑Be del producto, usando la plantilla de 6.3.1 adaptada a experimentos específicos.
+
+#### 8.3.4.1. Diseño de Entrevistas
+
+- Objetivo: validar hipótesis de producto (valor, usabilidad, impacto).
+- Estructura:
+  - Presentación breve del experimento.
+  - Tareas guiadas (usar la función nueva).
+  - Preguntas NPS + preguntas específicas de la hipótesis.
+  - Recolección de métricas objetivas (tiempo en tarea, errores).
+- Instrumentos: grabación (con permiso), formulario corto (Google Forms) y captura de pantalla.
+
+#### 8.3.4.2. Registro de Entrevistas
+
+Plantilla de registro por entrevista:
+- Entrevista #:  
+- Entrevistado (segmento):  
+- Fecha / Duración:  
+- Tecnología usada: (Zoom / Meet / Presencial)  
+- Enlace a grabación:  
+- Foto / captura: assets/entrevista_x.png  
+- Resumen ejecutivo (3 bullets): hallazgos principales, pain points, sugerencias.  
+- Métricas registradas: tiempo tarea, tasa de éxito, comentarios NPS.  
+- Decisión recomendada: iterar / escalar / retirar.
+
+---
+
+### 8.4. Experiment Aftermath & Analysis
+
+Documenta cómo se analizan y capitalizan los resultados experimentales.
+
+#### 8.4.1. Analysis and Interpretation of Results
+
+- Procesamiento de datos: limpiar, normalizar y comparar con baseline.
+- Métodos: estadística básica (t-test pareado), análisis de cohorts, visualizaciones de tendencia.
+- Resultado: para cada hipótesis se reporta (a) métrica principal, (b) p‑value, (c) impacto relativo (%), (d) decisión recomendada.
+
+#### 8.4.2. Re‑scored and Re‑prioritized Question Backlog
+
+- Re‑scoring: actualizar prioridades del question backlog según evidencia (impacto × confianza × costo).
+- Repriorización: mover items validados a Product Backlog, items parciales a mejoras y items negativos a archivo con lecciones aprendidas.
+- Entregar nuevo roadmap con timelines y owners.
+
+---
+
+### 8.5. Continuous Learning
+
+Mecanismos para institucionalizar el aprendizaje:
+
+- Shareback sessions: sesiones cortas al final de cada experimento para compartir hallazgos y decisiones.
+- Artifacts: experiment cards, dashboards, postmortem corto y PR with learnings.
+- Repositorio de lecciones: carpeta /experiments/ con resumen, datos y decisiones.
+- KPI de aprendizaje: % de experimentos que derivan en features productivas.
+
+#### 8.5.1. Shareback Session Artifacts: Learning Workflow
+
+- Agenda estándar (15–30 min): objetivo, resultados, métricas clave, decisión.
+- Templates: slide de 3 diapositivas (¿qué hicimos?, ¿qué aprendimos?, ¿qué haremos?).
+- Acciones: asignar owners para las tareas derivadas.
+
+---
+
+### 8.6. To‑Be Software Platform Pre‑launch
+
+Actividades previas al lanzamiento controlado:
+
+- Checklist de pre‑lanzamiento: pruebas E2E, seguridad, accesibilidad, performance, rollback plan.
+- Go/No‑Go: criterios claros basados en KPIs y tests automatizados.
+- Plan de comunicación: release notes, material onboarding, canal de soporte.
+
+#### 8.6.1. About‑the‑Product Intro Video
+
+- Contenido: problema, solución, demo rápida (60–90s), llamada a la acción.
+- Recursos: guion, grabación de pantalla, subtítulos en español, miniaturas y links.
+- Distribución: landing page, canal YouTube del proyecto y redes sociales.
+- Entregable: archivo MP4 y enlace público (ej.: YouTube).
+
+---
+
+
+## Video App Validation
+
+- Video corto demostrando la funcionalidad validada (2–3 min), incluir métricas obtenidas y testimonio breve de usuario.
+- Entregables: enlace YouTube + archivo local en /assets/videos/app_validation.mp4
+
+## Video About‑The‑Team
+
+- Video presentando al equipo, roles y responsabilidades (1–2 min).
+- Entregables: enlace YouTube + archivo local en /assets/videos/about_team.mp4
+
 
 ## Conclusiones
 
