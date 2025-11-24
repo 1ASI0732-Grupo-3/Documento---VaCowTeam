@@ -1925,6 +1925,364 @@ En esta sección, detallamos el proceso de implementación de nuestro backend en
 | US004         | Registro de Bovino en Lote      | T09     | Implementar un registro de un bovino en un lote específico                                    | 3          | Aranda Vallejos, Oscar Gabriel     | Done   |
 | TS007         | API para Creación de Campaña    | T10     | Implementar un endpoint que permita la creación de campañas                                   | 2          | Gómez Vallejos, Sergio André       | Done   |
 
+**Campaña**
+
+<img src="./assets/M_organization.png" style="width: 400px">
+
+**vista de "Agregar Animal"**
+
+<img src="./assets/M_add_animal.png" style="width: 400px">
+
+**vista de "Agregar Inventario"**
+
+<img src="./assets/M_add_product.png" style="width: 400px">
+
+**vista de "Agregar Campaña"**
+
+<img src="./assets/M_add_camp.png" style="width: 400px">
+
+#### 4.6.4. Web Applications User Flow Diagrams
+
+**User Goal: Iniciar sesión y Registrarse:**
+Este flujo guía al usuario desde la pantalla de bienvenida hacia las opciones de autenticación.
+
+<img src="./assets/1u_web.png" style="width: 400px">
+
+**User Goal: Home y navegar por las secciones "Animals","Campaigns" e "Inventory"**
+Una vez autenticado, el usuario accede al home con accesos rápidos con el sidebar. Este wireflow muestra cómo el usuario puede visualizar las opciones "Animals", "CAmpaings e "inventory"
+
+<img src="./assets/2u_web.png" style="width: 400px">
+
+**User Goal: Registro de un nuevo dato ya sea "Animals","Campaigns" o "Inventory":**
+Este flujo está diseñado para facilitar al agregar ya sea un bovino, una campaña o un producto de inventario.
+
+<img src="./assets/3u_web.png" style="width: 400px">
+
+### 4.7. Web Applications Prototyping
+
+A continuación, se presenta el prototipo que se realizó en base a los mockups que se desarrollaron y documentaron en puntos anteriores. El prototype nos permite evidenciar algunos flujos que se llevarán al desarrollo en código.
+
+![context](./assets/WebProt.png)
+
+https://www.figma.com/proto/47ngQ2UkWbuuvLy36Fmfnl/Pet-Care---Landing-page--Community-?node-id=2102-445&p=f&t=pbikLYhwwgU7T9wf-1&scaling=scale-down&content-scaling=fixed&page-id=27%3A1&starting-point-node-id=2102%3A37
+
+### 4.8. Domain-Driven Software Architecture
+
+En esta sección se presenta la arquitectura de software de **VacApp**, diseñada bajo el enfoque de **Domain-Driven Design (DDD)**.  
+El objetivo es ofrecer una visión clara de cómo los distintos dominios del sistema (gestión de ganado, campañas de vacunación, establos, usuarios, entre otros) se estructuran y cómo interactúan con los actores externos y los servicios complementarios.
+
+Se emplean diagramas **C4** para ilustrar distintos niveles de detalle, desde el contexto general hasta los componentes principales de la solución.
+
+En esta sección se presenta la arquitectura de software de **VacApp**, diseñada bajo el enfoque de **Domain-Driven Design (DDD)**.  
+El objetivo es ofrecer una visión clara de cómo los distintos dominios del sistema (gestión de ganado, campañas de vacunación, establos, usuarios, entre otros) se estructuran y cómo interactúan con los actores externos y los servicios complementarios.
+
+Se emplean diagramas **C4** para ilustrar distintos niveles de detalle, desde el contexto general hasta los componentes principales de la solución.
+
+#### 4.8.1. Software Architecture Context Diagram
+
+El **Diagrama de Contexto** proporciona una visión de alto nivel del sistema, mostrando cómo **VacApp** interactúa con sus principales actores externos:
+
+- **Ganaderos y Empresas** → usuarios finales que gestionan su ganado, vacunas y establos.
+- **Servicios Externos** → APIs de pronóstico del clima, bases de datos de razas de ganado y servicios veterinarios.
+- **Administradores del Sistema** → responsables del mantenimiento y la supervisión de la aplicación.
+
+Este diagrama permite comprender cómo VacApp se integra en el ecosistema de la gestión ganadera, facilitando la interoperabilidad con otros sistemas.
+
+![context](./assets/new_context_diagram.png)
+
+#### 4.8.2. Software Architecture Container Diagrams
+
+El **Diagrama de Contenedores** descompone VacApp en sus principales elementos tecnológicos, ilustrando cómo se organizan y comunican entre sí:
+
+- **Aplicación Web** → interfaz accesible desde navegadores para administradores y empresas.
+- **Aplicación Móvil** → interfaz diseñada para ganaderos, desarrollada en **Flutter**, disponible para Android e iOS.
+- **API Backend** → expone servicios de negocio a través de un conjunto de endpoints REST, desarrollados en **Java/Spring Boot**.
+- **Base de Datos** → repositorio centralizado para almacenar información sobre bovinos, campañas, usuarios, vacunas y establos.
+
+El diagrama refleja cómo cada contenedor coopera para ofrecer una experiencia integral y consistente, garantizando la disponibilidad de la información tanto en la aplicación móvil como en la web.
+
+![containers](./assets/new_container_diagram.png)
+
+#### 4.8.3. Software Architecture Components Diagrams
+
+El **Diagrama de Componentes** profundiza en los módulos principales dentro del backend y la aplicación móvil. Cada componente está alineado a un **bounded context** del dominio definido por DDD:
+
+- **Gestión de Bovinos** → administración de registros de animales, historial de salud y genealogía.
+- **Gestión de Campañas** → planificación y control de campañas de vacunación.
+- **Gestión de Establos** → organización de establos y asignación de bovinos.
+- **Gestión de Usuarios** → control de accesos, roles y permisos.
+- **Notificaciones y Recordatorios** → envío de alertas automáticas relacionadas con vacunas, salud o actividades programadas.
+
+Este nivel de detalle muestra cómo los componentes colaboran entre sí dentro de los contenedores y cómo mantienen la cohesión con el dominio del problema.
+
+![components](./assets/new_component_diagram.png)
+
+### 4.9. Software Object-Oriented Design
+
+#### 4.9.1. Class Diagrams
+
+Este diagrama de clases detalla los elementos del Domain Layer para Campaign Management, modelando entidades, agregados, objetos de valor y sus relaciones. A través de esta representación, se puede visualizar cómo se estructuran los conceptos principales del dominio y qué responsabilidades tiene cada clase dentro del modelo de negocio. Es esencial para alinear el diseño técnico con la lógica del dominio.
+
+![Campaign Management Layer Class Diagram](./assets/DiagramaClasesCampaign.png)
+
+Incluye entidades como Bovino, Vacuna y Establo, sus atributos, relaciones y métodos, permitiendo visualizar cómo se estructura la lógica de negocio y se representan los objetos reales del sistema productivo. Este diagrama fortalece la alineación entre la realidad ganadera y su implementación en software.
+
+![ClassDiagram](assets/DiagramaClasesRanch.JPG)
+
+Incluye entidades como StaffMember, objetos de valor como EmployeeStatus y servicios de dominio encargados de las reglas críticas. Este diagrama ayuda a comprender la estructura del dominio y cómo se articulan sus elementos para cumplir los objetivos del sistema.
+
+<img src="./assets/DiagramaClasesStaff.png">
+
+#### 4.9.2. Class Dictionary
+
+| **Nombre**  | **Descripción**                                           |
+| :---------- | :-------------------------------------------------------- |
+| ID          | Identificador único de registro usado como clave primaria |
+| Name        | Nombre del animal                                         |
+| Birthday    | Fecha de nacimiento del animal                            |
+| Birth_place | Lugar de Nacimiento del animal                            |
+| Gender      | Genero del animal                                         |
+| Breed       | Raza del animal                                           |
+| Location    | Lugar donde se ubica el animal                            |
+| Parent_ID   | Identificar de registro de la madre del animal            |
+| Expire_date | Fecha de expiracion de la identificacion del bovino       |
+| Animal_ID   | Identificar de registro de la madre del animal            |
+
+| **Nombre**      | **Descripción**                                                    |
+| :-------------- | :----------------------------------------------------------------- |
+| id              | Identificador único del registro, generalmente una clave primaria. |
+| first_name      | Primer nombre del usuario.                                         |
+| last_name       | Apellido del usuario.                                              |
+| job_status      | Estado del empleado.                                               |
+| job_description | Descripción del puesto a cargo del empleado                        |
+| dni             | DNI del empleado                                                   |
+| email_address   | Dirección de correo electrónico del usuario.                       |
+
+### 4.10. Database Design
+
+#### 4.10.1. Relational Database Diagram
+
+Para esta solucion se realizó una Base de datos relacional con las siguientes tablas:
+
+![Base de datos](https://github.com/Bovinova/Documento----VacApp/blob/main/assets/ranch.png?raw=true)
+
+Con esta estructura de la base datos que se basa en el modelo DDD de la arquitectura de la aplicacion, se logrará tener un manejo estable de los datos.
+
+---
+
+<div style="page-break-before: always;"></div>
+
+## Capítulo V: Product Implementation
+
+### 5.1. Software Configuration Management
+
+#### 5.1.1. Software Development Environment Configuration
+
+- **Android Studio:** Entorno de desarrollo.\
+  ![image](https://upload.wikimedia.org/wikipedia/commons/c/c1/Android_Studio_icon_%282023%29.svg)
+- **GitHub:** Repositorio colaborativo en la nube.\
+  ![image](https://cdn-1.webcatalog.io/catalog/github/github-icon-filled-256.png?v=1744774208192)
+- **Netifly:** Plataforma que facilita implementar despliegues sencillos para nuestras páginas web.\
+  ![image](https://cmscritic.com/ms-content/uploads/2023/11/netlifty-icon.png?format=auto&width=256)
+- **Vertabelo:** Plataforma colaborativa para la creación de diagramas de base de datos.\
+  ![image](https://hackmd.io/_uploads/r1BjjyQgC.png)
+- **Visual Studio Code:** Entorno de desarrollo para diseño de base de datos.\
+  ![image](https://hackmd.io/_uploads/Hy8d2y7lR.png)
+- **Figma:** Herramienta colaborativa que permite elaborar wireframes y mockups.\
+  ![image](https://hackmd.io/_uploads/BJ99okXeR.png)
+- **Azure:** Herramienta para subir nuestros servicios web en la nube.\
+  [![Azure.jpg](https://i.postimg.cc/Mpjc355p/Azure.jpg)](https://postimg.cc/k2qXBxL0)
+
+#### 5.1.2. Source Code Management
+
+**Repositorio de la Landing Page:**
+**Implementación de GitFlow:**
+Para nuestra estrategia de gestión de versiones con Git, nos hemos inspirado en el artículo "A successful Git branching model" de Vincent Driessen, adoptando el modelo de ramificación GitFlow. Este enfoque nos permite establecer claramente las convenciones de ramificación que aplicamos en nuestro proyecto.
+![image](https://hackmd.io/_uploads/rJt95BobA.png)
+
+- **Rama Principal (Main branch):** Contiene el código en producción y se conoce como la Master branch o Main branch.
+  - Notación: main
+- **Rama de Desarrollo (Develop branch):** Acumula las últimas actualizaciones y cambios para la próxima versión. Funciona como un entorno de integración y prueba continua.
+  - Notación: develop
+- **Rama de Lanzamiento (Release branch):** Facilita la preparación de una nueva versión del producto, permitiendo correcciones de errores y recibiendo más actualizaciones de Develop.
+  - Debe derivarse de: develop
+  - Debe fusionarse con: develop y master/main
+  - Notación: release
+- **Rama de Características (Feature branch):** Se utiliza para desarrollar nuevas funcionalidades para la siguiente versión o futuras iteraciones.
+  - Debe derivarse de: develop
+  - Debe fusionarse de vuelta a: develop
+  - Notación: feature
+- **Rama de Corrección Rápida (Hotfix branch):** Aborda errores críticos en producción, permitiendo la implementación rápida de soluciones.
+  - Debe derivarse de: master/main
+  - Debe fusionarse con: develop y master/main
+  - Notación: hotfix
+
+**Conventional Commits:**
+Adoptamos esta metodología para estructurar los mensajes de confirmación de cambios de manera estándar y semántica, lo que facilita la comunicación y la automatización de registros de cambios.
+**Tipos de Commits Convencionales:**
+
+- feat: Nuevas características o funcionalidades.
+- fix: Correcciones de errores.
+- docs: Cambios o mejoras en la documentación.
+- style: Cambios de formato que no afectan la funcionalidad.
+- refactor: Mejoras en la estructura o legibilidad del código.
+- test: Adición o modificación de pruebas.
+- chore: Cambios en el proceso de construcción o tareas de mantenimiento.
+- perf: Mejoras de rendimiento en el código.
+
+#### 5.1.3. Source Code Style Guide & Conventions
+
+### HTML
+
+| Regla                                    | Ejemplo / Explicación                                        |
+| ---------------------------------------- | ------------------------------------------------------------ |
+| Etiquetas y atributos en minúsculas      | `<div class="container">`, `<img src="logo.png" alt="Logo">` |
+| Atributos ordenados lógicamente          | `class`, `id`, `name`, `type`, `value`, etc.                 |
+| Uso de comillas dobles                   | `<input type="text" name="username">`                        |
+| Indentación consistente (2 o 4 espacios) | No mezclar espacios con tabs                                 |
+
+---
+
+### CSS
+
+| Regla                                 | Ejemplo / Explicación                             |
+| ------------------------------------- | ------------------------------------------------- |
+| Nombres de clases en `kebab-case`     | `.main-header`, `.user-profile-card`              |
+| Propiedades en minúsculas y ordenadas | `color: #333; font-size: 16px; margin-top: 20px;` |
+| Uso de comentarios                    | `/* Sección de estilos para el header */`         |
+| Indentación consistente               | 2 o 4 espacios, no usar tabs                      |
+
+---
+
+### JavaScript
+
+| Regla                                    | Ejemplo / Explicación                                                     |
+| ---------------------------------------- | ------------------------------------------------------------------------- |
+| Variables y funciones en `camelCase`     | `let userName = "Juan";`, `function getUserData() {}`                     |
+| Clases en `PascalCase`                   | `class UserProfile {}`                                                    |
+| Constantes en `UPPER_SNAKE_CASE`         | `const API_URL = "https://api.example.com";`                              |
+| Uso de `const` y `let`                   | Evitar `var`, usar `const` por defecto y `let` si se necesita mutabilidad |
+| Punto y coma al final de líneas          | `let nombre = "Carlos";`                                                  |
+| Indentación consistente (2 o 4 espacios) | Mantener el mismo estilo en todo el proyecto                              |
+
+---
+
+### Kotlin
+
+| Regla                                      | Ejemplo / Explicación                           |
+| ------------------------------------------ | ----------------------------------------------- |
+| Variables y funciones en `camelCase`       | `val userName = "Juan"`, `fun getUserData() {}` |
+| Clases y objetos en `PascalCase`           | `class UserProfile`, `object AppConfig`         |
+| Constantes en `UPPER_SNAKE_CASE`           | `const val MAX_USERS = 100`                     |
+| Archivos nombrados igual que la clase      | `UserProfile.kt`                                |
+| Indentación con 4 espacios                 | No usar tabs                                    |
+| Uso de `val` por defecto, `var` si mutable | Promueve inmutabilidad                          |
+| Expresiones lambda con `it`                | `users.filter { it.isActive }`                  |
+
+#### 5.1.4. Software Deployment Configuration
+
+**Deployment Landing Page:**
+En esta sección, detallamos el proceso de implementación de nuestra landing page en la plataforma de GitHub.
+
+1. Se crea un repositorio en GitHub para alojar el código de nuestra landing page.
+
+![image](https://i.imgur.com/rEVqKl6.png)
+
+2. Agregamos a los participantes:
+
+![image](https://i.imgur.com/zelKt9F.png)
+
+3. Habilitamos Netlifly para poder importar nuestro proyecto:
+
+![image](https://i.imgur.com/Xf4X2G2.jpeg)
+
+4. Finalmente, se confirma el despliegue de nuestra página web después de completar todo el procedimiento.
+
+![image](https://i.imgur.com/P4EipKO.png)
+
+Este proceso garantiza el despliegue satisfactorio de nuestra landing page en la plataforma de Netlifly, siguiendo las especificaciones y requisitos de nuestro proyecto.
+**Enlace de la Landing Page: https://vacapp-landing.netlify.app/**
+<br>
+**About the product: https://www.youtube.com/watch?v=JmOW2IkXjeI**
+<br>
+
+**Deployment Frontend:**
+En esta seccion, detallamos el proceso del deploy del Frontend-web en la plataforma de Firebase.
+
+1. Al utilizar Firebase instalamos firebase en el proyecto
+
+![DeploymentFronten1](https://media.discordapp.net/attachments/766316535290789908/1418282254228000768/image.png?ex=68cd8dc7&is=68cc3c47&hm=11b659f5dedc5f94d9f8d0d4ab8f134bbc8f009e84ccbff4ffb8dd6b166223d3&=&format=webp&quality=lossless&width=1606&height=903)
+
+2. Luego de Instalarlo se inicia sesion y se implementa en Firebase.
+
+![DeploymentFronten2](https://media.discordapp.net/attachments/766316535290789908/1418282254630912051/image.png?ex=68cd8dc7&is=68cc3c47&hm=891b76905ededc3963d37991db6d7e17246409a69f9dc0c517443917d85849e4&=&format=webp&quality=lossless&width=1606&height=903)
+
+3. Con esto, la aplicacion fue desplegada.
+
+![DeploymentFronten3](https://media.discordapp.net/attachments/766316535290789908/1418305403820834866/image.png?ex=68cda357&is=68cc51d7&hm=a98df19fdd7d4debef058b19e499db1db253f36f31445dc47fbd9593ad69efbc&=&format=webp&quality=lossless&width=550&height=309)
+
+**Enlace del Frontend: [https://vacapp-frontend.web.app/auth/login](https://vacapp-frontend.web.app/auth/login)**
+
+**Deployment Backend:**
+En esta sección, detallamos el proceso de implementación de nuestro backend en la plataforma de Microsoft Azure.
+
+1. Se crea un servicio web alojado en azure y afiliado a un grupo de recursos determinado
+
+[![azure-app-service.jpg](https://i.postimg.cc/NMPBcqfq/azure-app-service.jpg)](https://postimg.cc/WFrQGykX)
+
+2. Con la herramienta Azure Tool Kit, un plugin disponible en los entornos de desarrollo de jetbrains, podemos habilitar una vista con los recursos y elementos creados en nuestra cuenta de Azure. Esto nos permite poder publicar el backend directamente al servicio en la nube de Azure.
+
+[![publicar-al-app-service.jpg](https://i.postimg.cc/SQMxhR8g/publicar-al-app-service.jpg)](https://postimg.cc/CdwgCFc8)
+
+3. Una vez realizado de manera satisfactoria este proceso, resolviendo errores y añadiendo configuraciones adicionales de ser requeridas, podremos confirmar que el enlace muestre correctamente los endpoints y observaremos nuestro backend desplegado en un browser predeterminado.
+
+[![swagger-deployed.png](https://i.postimg.cc/Sxs0m13m/swagger-deployed.png)](https://postimg.cc/SJw1rdmP)
+
+**Enlace del backend: https://vacappapi.azurewebsites.net/swagger/index.html**
+
+### 5.2. Product Implementation & Deployment
+
+#### 5.2.1. Sprint Backlogs
+
+---
+
+##### Sprint 1
+
+| User Story Id | User Story Title                       | Task Id | Task Title                                         | Estimation | Assigned To                        | Status |
+| ------------- | -------------------------------------- | ------- | -------------------------------------------------- | ---------- | ---------------------------------- | ------ |
+| TS015         | Acceso a la sección de Home            | T01     | Implementar acceso a la sección de Home            | 2          | Ticona Panduro, Estrella del Pilar | Done   |
+| TS016         | Acceso a la sección de Características | T02     | Implementar acceso a la sección de Características | 1          | Durand Vera, Gianfranco Angel      | Done   |
+| TS017         | Registro de Nuevos Usuarios            | T03     | Implementar registro de nuevos usuarios            | 3          | Ticona Panduro, Estrella del Pilar | Done   |
+| TS018         | Información de Funcionalidades         | T04     | Implementar sección de funcionalidades             | 2          | Durand Vera, Gianfranco Angel      | Done   |
+| TS019         | Sector de Planes Disponibles           | T05     | Implementar sector de planes disponibles           | 3          | Durand Vera, Gianfranco Angel      | Done   |
+| TS020         | Incluir Internacionalización (i18n)    | T06     | Implementar el cambio de idioma                    | 2          | Ticona Panduro, Estrella del Pilar | Done   |
+| TS001         | Crear Vacuna vía API                   | T07     | Implementar POST para vacunas                      | 2          | Aranda Vallejos, Oscar Gabriel     | Done   |
+| TS002         | API para Búsqueda de Vacunas           | T08     | Implementar GET para vacunas                       | 2          | Aranda Vallejos, Oscar Gabriel     | Done   |
+| TS003         | API para Gestión de vacunas            | T09     | Implementar PUT y DELETE para vacunas              | 3          | Aranda Vallejos, Oscar Gabriel     | Done   |
+| TS004         | API para Registro de animales          | T10     | Implementar POST para animales                     | 2          | Aranda Vallejos, Oscar Gabriel     | Done   |
+| TS005         | API para Búsqueda de animales          | T11     | Implementar GET para animales                      | 2          | Aranda Vallejos, Oscar Gabriel     | Done   |
+| TS006         | API para Gestión de animales           | T12     | Implementar PUT y DELETE para animales             | 2          | Aranda Vallejos, Oscar Gabriel     | Done   |
+| TS007         | API para Creación de campaña           | T13     | Implementar POST para campaña                      | 2          | Miranda Sinarahua, Piero Stephano  | Done   |
+| TS009         | API para Gestión de campaña            | T14     | Implementar PUT y DELETE para campaña              | 2          | Miranda Sinarahua, Piero Stephano  | Done   |
+| TS012         | API para Registro de empleados         | T15     | Implementar POST para empleados                    | 2          | Aranda Vallejos, Oscar Gabriel     | Done   |
+
+---
+
+##### Sprint 2
+
+| User Story Id | User Story Title                | Task Id | Task Title                                                                                    | Estimation | Assigned To                        | Status |
+| ------------- | ------------------------------- | ------- | --------------------------------------------------------------------------------------------- | ---------- | ---------------------------------- | ------ |
+| TS001         | Crear Vacuna vía API            | T01     | Implementar exponer un endpoint para registrar una vacuna vía API                             | 2          | Ticona Panduro, Estrella del Pilar | Done   |
+| TS002         | API para Búsqueda de Vacunas    | T02     | Implementación de un endpoint para buscar vacunas mediante criterios específicos              | 1          | Durand Vera, Gianfranco Angel      | Done   |
+| US002         | Búsqueda de Vacunas             | T03     | Implementar búsqueda de vacunas previamente registradas                                       | 3          | Ticona Panduro, Estrella del Pilar | Done   |
+| TS003         | API para Gestión de Vacunas     | T04     | Implementar endpoint para editar y eliminar registros de vacunas                              | 2          | Durand Vera, Gianfranco Angel      | Done   |
+| TS004         | API para Registro de Animales   | T05     | Implementar endpoint para registrar un bovino en un lote específico                           | 3          | Durand Vera, Gianfranco Angel      | Done   |
+| US003         | Gestión de Registros de Vacunas | T06     | Implementar editar o eliminar el registro de una vacuna                                       | 2          | Ticona Panduro, Estrella del Pilar | Done   |
+| TS005         | API para Búsqueda de Animales   | T07     | Implementar un endpoint que permita buscar animales registrados usando parámetros de búsqueda | 2          | Aranda Vallejos, Oscar Gabriel     | Done   |
+| TS006         | API para Gestión de Animales    | T08     | Implementar funcionalidades para editar y eliminar animales registrados                       | 2          | Aranda Vallejos, Oscar Gabriel     | Done   |
+| US004         | Registro de Bovino en Lote      | T09     | Implementar un registro de un bovino en un lote específico                                    | 3          | Aranda Vallejos, Oscar Gabriel     | Done   |
+| TS007         | API para Creación de Campaña    | T10     | Implementar un endpoint que permita la creación de campañas                                   | 2          | Gómez Vallejos, Sergio André       | Done   |
+
 ---
 
 ##### Sprint 3
@@ -4401,13 +4759,7 @@ El principal beneficio de este enfoque es la detección y solución inmediata de
 
 Esta sección detalla los componentes técnicos específicos y las prácticas requeridas para ejecutar la fase de Integración Continua del pipeline presentado:
 
-| Componente del Pipeline   | Práctica Relevante                     | Función Específica en la Integración Continua (CI)                                                                                                             |
-| :------------------------ | :------------------------------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Code Repository (Git)** | **Fusión Frecuente**                   | Sirve como la única fuente de verdad (_Single Source of Truth_) del código. La práctica de fusión diaria es **mandatoria** para evitar divergencias complejas. |
-| **App Build Process**     | **Build Automatizado**                 | Compila el código fuente en un artefacto ejecutable. Si la compilación falla, el _pipeline_ se detiene inmediatamente para forzar la corrección.               |
-| **Test Suite**            | **Garantía de Calidad**                | Ejecuta el conjunto de pruebas (unitarias, de integración, etc.). Solo el código que supere el **100% de las pruebas** avanza a la siguiente etapa.            |
-| **Docker Registry**       | **Creación de Artefacto Inmutable**    | Empaqueta el ejecutable validado en una **imagen Docker** estandarizada. Este artefacto inmutable es la salida final de la CI, listo para su distribución.     |
-| **Developer Commitment**  | **Detener la Línea (_Stop the Line_)** | El desarrollador responsable de un cambio que cause un fallo debe **priorizar la corrección** del _pipeline_ sobre cualquier otra tarea.                       |
+indent_style = space
 
 #### 7.1.2. Build & Test Suite Pipeline Components.
 
