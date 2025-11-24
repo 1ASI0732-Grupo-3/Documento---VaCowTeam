@@ -81,8 +81,8 @@
 
 | Métrica                     | Descripción                             |
 | --------------------------- | --------------------------------------- |
-| Número de commits por autor | ![Pruebas1](assets/insightsTB2.png)     |
-| Historial de cambios        | ![Pruebas1](assets/networkgraphTB2.png) |
+| Número de commits por autor | ![Pruebas1](assets/insightsTF.png)     |
+| Historial de cambios        | ![Pruebas1](assets/networkgraphTF.png) |
 
 #### 4. Participación de Todos los Miembros del Equipo
 
@@ -267,7 +267,25 @@
 - [8.3. Experimentation](#83-experimentation)
   - [8.3.1. To-Be User Stories](#831-to-be-user-stories)
   - [8.3.2. To-Be Product Backlog](#832-to-be-product-backlog)
-
+  - [8.3.3. Pipeline‑supported, Experiment‑Driven To‑Be Software Platform Lifecycle](#833-pipeline-supported-experiment-driven-to-be-software-platform-lifecycle)
+  - [8.3.3.1. To‑Be Sprint Backlogs](#8331-to-be-sprint-backlogs)
+  - [8.3.3.2. Implemented To‑Be Landing Page Evidence](#8332-implemented-to-be-landing-page-evidence)    - [8.3.3.3. Implemented To‑Be Frontend‑Web Application Evidence](#8333-implemented-to-be-frontend-web-application-evidence)
+   - [8.3.3.4. Implemented To‑Be Native‑Mobile Application Evidence](#8334-implemented-to-be-native-mobile-application-evidence)
+    - [8.3.3.5. Implemented To‑Be RESTful API and/or Serverless Backend Evidence](#8335-implemented-to-be-restful-api-andor-serverless-backend-evidence)
+    - [8.3.3.6. Team Collaboration Insights](#8336-team-collaboration-insights)
+  - [8.3.4. To‑Be Validation Interviews](#834-to-be-validation-interviews)
+    - [8.3.4.1. Diseño de Entrevistas](#8341-diseño-de-entrevistas)
+    - [8.3.4.2. Registro de Entrevistas](#8342-registro-de-entrevistas)
+- [8.4. Experiment Aftermath & Analysis](#84-experiment-aftermath--analysis)
+  - [8.4.1. Analysis and Interpretation of Results](#841-analysis-and-interpretation-of-results)
+  - [8.4.2. Re‑scored and Re‑prioritized Question Backlog](#842-re-scored-and-re-prioritized-question-backlog)
+- [8.5. Continuous Learning](#85-continuous-learning)
+  - [8.5.1. Shareback Session Artifacts: Learning Workflow](#851-shareback-session-artifacts-learning-workflow)
+- [8.6. To‑Be Software Platform Pre‑launch](#86-to-be-software-platform-pre-launch)
+  - [8.6.1. About‑the‑Product Intro Video](#861-about-the-productintro-video)
+  - [Conclusiones y recomendaciones](#conclusiones-y-recomendaciones)
+  - [Video App Validation](#video-app-validation)
+  - [Video About‑The‑Team](#video-about-the-team)
 - [Conclusiones](#74-conclusiones)
 - [Bibliografía](#75-bibliografía)
 - [Anexos](#76-anexos)
@@ -4142,27 +4160,53 @@ Adicionalmente, se reportó que ciertas áreas de la plataforma, como la secció
 
 | Detalle                 | Información                                               |
 | :---------------------- | :-------------------------------------------------------- |
-| **Entrevistado**        | `[Nombre Completo del Entrevistado]`                      |
-| **Edad**                | `[Edad]`                                                  |
-| **Rol / Experiencia**   | `[Ej: Ganadero con 10 años de experiencia]`               |
-| **Fecha de Entrevista** | `[DD/MM/AAAA]`                                            |
-| **Duración**            | `[HH:MM:SS]`                                              |
-| **Tecnologías Usadas**  | `[Ej: Google Meet, Zoom, Grabadora de voz]`               |
-| **Enlace a Grabación**  | `[Pega aquí el enlace al video o audio de la entrevista]` |
+| **Entrevistado**        | Catalina Villavicencio  Guerra                    |
+| **Edad**                | 28                                                  |
+| **Rol / Experiencia**   | Ganadera independiente con experiencia de años               |
+| **Fecha de Entrevista** | 12/22/2025                                            |
+| **Duración**            | 5:10 min                                              |
+| **Tecnologías Usadas**  | Google meet               |
+| **Enlace a Grabación**  | https://drive.google.com/file/d/1LwDQ9iKX7OYKe3O5qwVxonOpUoFlN9OT/view?usp=sharing |
 
 <br>
 
 **Evidencia de la Entrevista:**
 
-`![Evidencia Entrevista 1](assets/entrevista_1.png)`
+
+![Evidencia Entrevista 6](assets/EntrevistaDE.png)
 
 <br>
 
 **Resumen de Hallazgos Clave:**
+- **Feedback Positivo sobre Funcionalidad:** 
+Catalina confirma que la aplicaciín movile le parece muy intuitiva y de facil uso, recalco mucho el registro de ganado, el hecho que la aplicación sea muy estable y no genere bug ni errores, esto hace que ella confie en el uso de VacApp.
+- **Oportunidad de Mejora en la Interfaz (UI):** A pesar de la funcionalidad, Catalina como usuaria tiene cierto feedback hacerca de la mejora en la UI dice que se puede hacer mucho más minimalista para que sea del agrado de los usuarios, también dice que si se podría agragar animaciones para la interacción.
 
----
+- **Solicitud de Nuevas Funcionalidades (Reportes):** El punto de Catalina de nuevas funcionalidades fue el realizar un apartado para la capacitación a travez de cursos dentro de la aplicación para que los usuarios nuevos o ganaderos que recien inicien en este mundo puedan tener la información a primera mano y no buscar opciones de terceros.
+
 
 ### 6.3.3. Evaluaciones según heurísticas
+
+A partir de las entrevistas de validación realizadas con usuarios reales del segmento ganadero, se identificaron diversos aspectos que influyen en la experiencia de uso de la aplicación VacApp.
+A continuación, se resumen los hallazgos evaluados según los principios heurísticos de Nielsen, indicando el problema, la heurística violada, la severidad y una descripción de la oportunidad de mejora.
+
+| #      | Problema identificado                                                                                            | Heurística / Principio violado                                          | Severidad | Descripción y análisis                                                                                                                                                                                                                                        |
+| ------ | ---------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------- | --------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **1**  | Menú principal percibido como “sobrecargado” o con demasiadas opciones visibles (entrevista 1 y 5).              | **Information Architecture: Is it understandable? / Minimalist design** | 2         | Los usuarios reportaron sensación de saturación visual en el menú principal. Esto incrementa la carga cognitiva y dificulta la localización rápida de funciones. Se recomienda agrupar opciones, jerarquizar categorías y simplificar los íconos principales. |
+| **2**  | Inconsistencia en la navegación entre secciones principales (menú inferior vs. lateral).                         | **Consistency and standards**                                           | 2         | Los entrevistados percibieron diferencias en la ubicación del menú según la pantalla, generando confusión sobre cómo volver o moverse entre secciones. Se sugiere unificar el patrón de navegación para mantener coherencia visual y de interacción.          |
+| **3**  | Curva de aprendizaje inicial para editar registros o mover animales entre establos (entrevista 2).               | **User control and freedom / Recognition rather than recall**           | 2         | La interfaz no comunica claramente las acciones disponibles dentro de ciertas pantallas. Se propone incorporar mensajes de ayuda, tutoriales breves o íconos guía que indiquen cómo realizar acciones clave.                                                  |
+| **4**  | Falta de visibilidad de la sección de campañas (entrevista 3).                                                   | **Visibility of system status**                                         | 3         | El usuario no pudo identificar fácilmente la función de campañas ni comprendió su propósito. Esto indica una baja visibilidad del sistema. Se recomienda reposicionar esta función y mostrar un estado activo o tooltip explicativo.                          |
+| **5**  | Inconsistencia visual en la paleta de colores y densidad de elementos.                                           | **Aesthetic and minimalist design / Accessibility (Contrast)**          | 2         | Algunos usuarios mencionaron que la interfaz podría beneficiarse de un diseño más minimalista. Se propone revisar la paleta cromática y aplicar guías de contraste WCAG 2.1 nivel AA para mejorar la legibilidad.                                             |
+| **6**  | Ausencia de reportes avanzados y métricas productivas solicitadas por los usuarios.                              | **Match between system and real world**                                 | 1         | El sistema no contempla aún la generación de reportes sobre alimentación, peso o rendimiento. Dicha ausencia limita la percepción de valor práctico del sistema frente a las necesidades reales del usuario ganadero.                                         |
+| **7**  | Falta de retroalimentación visual o animaciones en ciertas acciones (por ejemplo, clics o envíos de formulario). | **Feedback / Visibility of system status**                              | 2         | Los entrevistados esperan confirmaciones visuales tras cada interacción. Se recomienda agregar microanimaciones o cambios de color en botones para confirmar acciones completadas.                                                                            |
+| **8**  | Complejidad visual inicial en la sección de ajustes o configuración (entrevista 4).                              | **Aesthetic and minimalist design / Consistency**                       | 2         | Los usuarios reportaron dificultad para comprender las opciones de configuración. Se recomienda reorganizar la jerarquía visual, emplear tipografía más clara y títulos descriptivos.                                                                         |
+| **9**  | Ausencia de capacitación o guía para nuevos usuarios (entrevista 6).                                             | **Help and documentation**                                              | 1         | Se detectó la necesidad de contar con un módulo de capacitación o tutorial interactivo dentro de la app. Esto permitiría a los ganaderos novatos aprender de forma autónoma y aprovechar todas las funcionalidades.                                           |
+| **10** | Solicitud de animaciones o diseño más atractivo.                                                                 | **Aesthetic and minimalist design / Satisfaction**                      | 1         | La falta de elementos dinámicos reduce el atractivo visual y la sensación de modernidad de la aplicación. Se sugiere integrar transiciones suaves y microinteracciones sin sobrecargar la interfaz.                                                           |
+
+
+En conjunto, las entrevistas revelan que VacApp presenta una funcionalidad sólida y estable, validada por los usuarios como confiable y útil en el contexto ganadero. Sin embargo, existen oportunidades claras de mejora en los ámbitos de coherencia visual, navegación consistente y visibilidad del sistema, especialmente en la estructura del menú y la presentación de ciertas funciones menos accesibles.
+
+La incorporación de reportes avanzados, animaciones ligeras y capacitación guiada reforzará la percepción de valor, fomentando la confianza y facilitando la adopción entre usuarios nuevos y experimentados.
 
 ### 6.4. Auditoría de Experiencias de Usuario
 
@@ -6251,6 +6295,163 @@ Aquí se documenta la ejecución práctica de los experimentos: implementación,
 | **8** | UA08              | Automatización de tareas y recordatorios   | **5**                        |
 | **9** | UA09              | Soporte técnico accesible                  | **2**                        |
 
+### 8.3.3. Pipeline‑supported, Experiment‑Driven To‑Be Software Platform Lifecycle
+
+Esta sección describe cómo el pipeline de desarrollo soporta la transición de ideas experimentales a funcionalidades productivas. El ciclo abarca definición de hipótesis, implementación en sprints, despliegue en entornos controlados, recopilación de datos y decisión basada en métricas.
+
+- Objetivo: reducir la incertidumbre técnica y de producto mediante experimentos controlados integrados al pipeline CI/CD.
+- Flujo resumido: Idea → Card de experimento → Sprint Backlog → Implementación → Entorno de staging → Recolección de métricas → Análisis → Decisión (iterar/escalar/retirar).
+
+#### 8.3.3.1. To‑Be Sprint Backlogs
+
+Plantilla recomendada para cada sprint experimental:
+- Objetivo del sprint (hipótesis a validar).
+- User stories priorizadas (IDs UAxx).
+- Tasks técnicas (build, testautomation, infra).
+- Criterios de aceptación y métricas asociadas (KPIs).
+- Definición de done para la experimentación (instrumentación + dashboard).
+- Checklist de despliegue a staging y rollback plan.
+
+Ejemplo breve:
+- Sprint Goal: Validar alertas automáticas (UA02).
+- Stories: UA02-1 (configurar scheduler), UA02-2 (notificaciones push).
+- Métrica principal: % de replies/confirmaciones dentro de 48h.
+- Done: logs, métricas, tests E2E y dashboard con evento `reminder_viewed`.
+
+#### 8.3.3.2. Implemented To‑Be Landing Page Evidence
+
+Resumen de evidencia:
+- Landing page actualizada con secciones de producto, planes y CTA para pruebas.
+- Capturas y enlaces: assets/I1.png … I4.png
+- Métricas de validación: visitas, CTR en CTA, conversiones a sign-ups (capturadas por Firebase/Netlify analytics).
+- Enlace público: https://vacapp-landing.netlify.app/
+
+#### 8.3.3.3. Implemented To‑Be Frontend‑Web Application Evidence
+
+Resumen de evidencia:
+- Panel de control (dashboard) con reportes iniciales y widgets de salud/consumo.
+- Registro y edición de bovinos, campañas y establos.
+- Screenshots: assets/webapp1.PNG, assets/webapp2.PNG.
+- Telemetría: eventos clave instrumentados (animal_added, report_viewed, offline_mode_activated).
+
+#### 8.3.3.4. Implemented To‑Be Native‑Mobile Application Evidence
+
+Resumen de evidencia:
+- App Flutter con workflows offline, sincronización y notificaciones locales/push.
+- Vistas: registro bovino, vacunas, tareas programadas.
+- Capturas: assets/*_flutter.JPG.
+- Métricas: activación de modo offline y tasa de sincronización exitosa.
+
+#### 8.3.3.5. Implemented To‑Be RESTful API and/or Serverless Backend Evidence
+
+Resumen de evidencia:
+- Endpoints principales desplegados y documentados (Swagger / OpenAPI).
+- Ejecuciones de tests Postman / Newman integradas en pipeline.
+- Enlace Swagger (deploy local/azur): https://vacappapi.azurewebsites.net/swagger/index.html
+- Evidencias: capturas de endpoints y logs de integración.
+
+#### 8.3.3.6. Team Collaboration Insights
+
+Documentar aprendizajes del equipo:
+- Roles y responsabilidades durante la experimentación.
+- Herramientas usadas: GitHub (issues/workflows), Firebase (analytics), Postman, Figma.
+- Retrospectiva: decisiones técnicas, cuellos de botella y acciones tomadas (ej.: instrumentación previa obligatoria para todo experimento).
+
+---
+
+### 8.3.4. To‑Be Validation Interviews
+
+Se documentan las entrevistas diseñadas para validar versiones To‑Be del producto, usando la plantilla de 6.3.1 adaptada a experimentos específicos.
+
+#### 8.3.4.1. Diseño de Entrevistas
+
+- Objetivo: validar hipótesis de producto (valor, usabilidad, impacto).
+- Estructura:
+  - Presentación breve del experimento.
+  - Tareas guiadas (usar la función nueva).
+  - Preguntas NPS + preguntas específicas de la hipótesis.
+  - Recolección de métricas objetivas (tiempo en tarea, errores).
+- Instrumentos: grabación (con permiso), formulario corto (Google Forms) y captura de pantalla.
+
+#### 8.3.4.2. Registro de Entrevistas
+
+Plantilla de registro por entrevista:
+- Entrevista #:  
+- Entrevistado (segmento):  
+- Fecha / Duración:  
+- Tecnología usada: (Zoom / Meet / Presencial)  
+- Enlace a grabación:  
+- Foto / captura: assets/entrevista_x.png  
+- Resumen ejecutivo (3 bullets): hallazgos principales, pain points, sugerencias.  
+- Métricas registradas: tiempo tarea, tasa de éxito, comentarios NPS.  
+- Decisión recomendada: iterar / escalar / retirar.
+
+---
+
+### 8.4. Experiment Aftermath & Analysis
+
+Documenta cómo se analizan y capitalizan los resultados experimentales.
+
+#### 8.4.1. Analysis and Interpretation of Results
+
+- Procesamiento de datos: limpiar, normalizar y comparar con baseline.
+- Métodos: estadística básica (t-test pareado), análisis de cohorts, visualizaciones de tendencia.
+- Resultado: para cada hipótesis se reporta (a) métrica principal, (b) p‑value, (c) impacto relativo (%), (d) decisión recomendada.
+
+#### 8.4.2. Re‑scored and Re‑prioritized Question Backlog
+
+- Re‑scoring: actualizar prioridades del question backlog según evidencia (impacto × confianza × costo).
+- Repriorización: mover items validados a Product Backlog, items parciales a mejoras y items negativos a archivo con lecciones aprendidas.
+- Entregar nuevo roadmap con timelines y owners.
+
+---
+
+### 8.5. Continuous Learning
+
+Mecanismos para institucionalizar el aprendizaje:
+
+- Shareback sessions: sesiones cortas al final de cada experimento para compartir hallazgos y decisiones.
+- Artifacts: experiment cards, dashboards, postmortem corto y PR with learnings.
+- Repositorio de lecciones: carpeta /experiments/ con resumen, datos y decisiones.
+- KPI de aprendizaje: % de experimentos que derivan en features productivas.
+
+#### 8.5.1. Shareback Session Artifacts: Learning Workflow
+
+- Agenda estándar (15–30 min): objetivo, resultados, métricas clave, decisión.
+- Templates: slide de 3 diapositivas (¿qué hicimos?, ¿qué aprendimos?, ¿qué haremos?).
+- Acciones: asignar owners para las tareas derivadas.
+
+---
+
+### 8.6. To‑Be Software Platform Pre‑launch
+
+Actividades previas al lanzamiento controlado:
+
+- Checklist de pre‑lanzamiento: pruebas E2E, seguridad, accesibilidad, performance, rollback plan.
+- Go/No‑Go: criterios claros basados en KPIs y tests automatizados.
+- Plan de comunicación: release notes, material onboarding, canal de soporte.
+
+#### 8.6.1. About‑the‑Product Intro Video
+
+- Contenido: problema, solución, demo rápida (60–90s), llamada a la acción.
+- Recursos: guion, grabación de pantalla, subtítulos en español, miniaturas y links.
+- Distribución: landing page, canal YouTube del proyecto y redes sociales.
+- Entregable: archivo MP4 y enlace público (ej.: YouTube).
+
+---
+
+
+## Video App Validation
+
+- Video corto demostrando la funcionalidad validada (2–3 min), incluir métricas obtenidas y testimonio breve de usuario.
+- Entregables: enlace YouTube + archivo local en /assets/videos/app_validation.mp4
+
+## Video About‑The‑Team
+
+- Video presentando al equipo, roles y responsabilidades (1–2 min).
+- Entregables: enlace YouTube + archivo local en /assets/videos/about_team.mp4
+
+
 ## Conclusiones
 
 El desarrollo de VacApp ha evolucionado desde la implementación inicial hacia una fase de madurez técnica y estratégica, consolidando un producto robusto, validado y preparado para el crecimiento continuo. La aplicación de un riguroso proceso de verificación y validación fue fundamental, combinando pruebas automatizadas (unitarias, de integración y de sistema) con análisis estático de código para garantizar la calidad y seguridad del software. Este enfoque técnico se complementó con una validación centrada en el usuario, a través de entrevistas y auditorías de experiencia de usuario, asegurando que la solución no solo sea funcionalmente correcta, sino también intuitiva y alineada con las necesidades reales del sector ganadero.
@@ -6281,6 +6482,8 @@ La incorporación de un ciclo de validación riguroso, que combinó entrevistas 
 ### Enlaces de la Aplicación
 
 **Aplicación Móvil:** https://appdistribution.firebase.dev/i/b5b8b0a89363391d
+
+**Aplicacion Web** https://muusmartexp.netlify.app/
 
 ### Videos del Proyecto
 
