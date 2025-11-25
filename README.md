@@ -2019,44 +2019,223 @@ Este nivel de detalle muestra cómo los componentes colaboran entre sí dentro d
 
 ### 4.9. Software Object-Oriented Design
 
-#### 4.9.1. Class Diagrams
+#### 4.9.1. Class Diagrams por contexto
 
 Este diagrama de clases detalla los elementos del Domain Layer para Campaign Management, modelando entidades, agregados, objetos de valor y sus relaciones. A través de esta representación, se puede visualizar cómo se estructuran los conceptos principales del dominio y qué responsabilidades tiene cada clase dentro del modelo de negocio. Es esencial para alinear el diseño técnico con la lógica del dominio.
 
-![Campaign Management Layer Class Diagram](./assets/DiagramaClasesCampaign.png)
+##### IAM
 
-Incluye entidades como Bovino, Vacuna y Establo, sus atributos, relaciones y métodos, permitiendo visualizar cómo se estructura la lógica de negocio y se representan los objetos reales del sistema productivo. Este diagrama fortalece la alineación entre la realidad ganadera y su implementación en software.
+![IAM_Diagram](assets/ClassDiagramIAM.png)
 
-![ClassDiagram](assets/DiagramaClasesRanch.JPG)
+##### Campaign Managment
 
-Incluye entidades como StaffMember, objetos de valor como EmployeeStatus y servicios de dominio encargados de las reglas críticas. Este diagrama ayuda a comprender la estructura del dominio y cómo se articulan sus elementos para cumplir los objetivos del sistema.
+![Campaign_Diagram](assets/ClassDiagramCampaign.png)
 
-<img src="./assets/DiagramaClasesStaff.png">
+##### Ranch Managment
+
+![Ranch_Diagram](assets/ClassDiagramRanch.png)
+
+##### Voice Command
+
+![Voice_Diagram](assets/ClassDiagramVoice.png)
+
+##### Staff Administration
+
+![Staff_Diagram](assets/ClassDiagramStaff.png)
+
 
 #### 4.9.2. Class Dictionary
 
-| **Nombre**  | **Descripción**                                           |
-| :---------- | :-------------------------------------------------------- |
-| ID          | Identificador único de registro usado como clave primaria |
-| Name        | Nombre del animal                                         |
-| Birthday    | Fecha de nacimiento del animal                            |
-| Birth_place | Lugar de Nacimiento del animal                            |
-| Gender      | Genero del animal                                         |
-| Breed       | Raza del animal                                           |
-| Location    | Lugar donde se ubica el animal                            |
-| Parent_ID   | Identificar de registro de la madre del animal            |
-| Expire_date | Fecha de expiracion de la identificacion del bovino       |
-| Animal_ID   | Identificar de registro de la madre del animal            |
+##### Voice Command
+###### Tabla: Voice
 
-| **Nombre**      | **Descripción**                                                    |
-| :-------------- | :----------------------------------------------------------------- |
-| id              | Identificador único del registro, generalmente una clave primaria. |
-| first_name      | Primer nombre del usuario.                                         |
-| last_name       | Apellido del usuario.                                              |
-| job_status      | Estado del empleado.                                               |
-| job_description | Descripción del puesto a cargo del empleado                        |
-| dni             | DNI del empleado                                                   |
-| email_address   | Dirección de correo electrónico del usuario.                       |
+| Atributo          | Tipo                 | Visibilidad | Descripción |
+|-------------------|----------------------|-------------|-------------|
+| Id                | int                  | Pública     | Identificador único del comando de voz. |
+| OriginalText      | string               | Pública     | Texto completo capturado por el usuario. |
+| Parameters        | string?              | Pública     | Parámetros extraídos del texto original (si existen). |
+| IsValid           | bool                 | Pública     | Indica si el comando fue validado correctamente. |
+| WasExecuted       | bool                 | Pública     | Indica si el comando ya fue ejecutado. |
+| UserId            | int                  | Pública     | Identificador del usuario que emitió el comando. |
+| ErrorMessage      | string?              | Pública     | Mensaje de error en caso de ejecución fallida. |
+| ResponseMessage   | string?              | Pública     | Respuesta generada tras ejecutar el comando. |
+##### Métodos de Voice
+
+| Atributo / Método                                    | Tipo / Firma                                                                 | Visibilidad | Descripción |
+|------------------------------------------------------|-------------------------------------------------------------------------------|-------------|-------------|
+| Voice                                                | (originalText: string, commandType: VoiceCommandType, parameters: string?, isValid: bool, userId: int) | Pública     | Constructor del aggregate Voice. |
+| MarkAsExecuted                                       | (responseMessage: string?) : void                                            | Pública     | Marca el comando como ejecutado y almacena la respuesta. |
+| MarkAsFailed                                         | (errorMessage: string) : void                                                | Pública     | Marca el comando como fallido y agrega el mensaje de error. |
+##### Tabla: VoiceCommandResult (Value Object)
+
+| Atributo     | Tipo   | Visibilidad    | Descripción                             |
+| ------------ | ------ | -------------- | --------------------------------------- |
+| OriginalText | string | Pública (init) | Texto detectado originalmente.          |
+| IsValid      | bool   | Pública (init) | Resultado de la validación del comando. |
+##### Enumeración: VoiceCommandType
+
+| Atributo                 | Tipo | Visibilidad | Descripción                                     |
+| ------------------------ | ---- | ----------- | ----------------------------------------------- |
+| GetUserInfo              | Enum | Pública     | Comando para obtener información del usuario.   |
+| NavigateToSettings       | Enum | Pública     | Comando para navegar a la configuración.        |
+| NavigateToBovines        | Enum | Pública     | Comando para navegar al módulo de bovinos.      |
+| NavigateToStables        | Enum | Pública     | Comando para navegar al módulo de establos.     |
+| InitializeToCreateStable | Enum | Pública     | Comando para iniciar la creación de un establo. |
+| CreateStable             | Enum | Pública     | Comando para crear un establo.                  |
+#### Ranch Managment
+##### Tabla: Bovine
+
+| Atributo     | Tipo       | Visibilidad | Descripción |
+|--------------|------------|-------------|-------------|
+| Id           | int        | Pública     | Identificador único del bovino. |
+| Name         | string     | Pública     | Nombre del bovino. |
+| Gender       | string     | Pública     | Género del bovino. |
+| Breed        | string?    | Pública     | Raza del bovino (si está disponible). |
+| Location     | string?    | Pública     | Ubicación actual del bovino. |
+| StabledId    | int?       | Pública     | Establo asignado, si aplica. |
+| BovineImg    | string?    | Pública     | Ruta o referencia a la imagen del bovino. |
+##### Métodos de Bovine
+
+| Atributo / Método | Tipo / Firma | Visibilidad | Descripción |
+|-------------------|--------------|-------------|-------------|
+| Bovine            | (name: string, gender: string, birthDate: DateTime?, breed: string?, location: string?, bovineImg: string?, stabledId: int?, ranchUserId: RanchUserId?) | Pública | Constructor principal del agregado Bovine. |
+| Bovine            | (command: CreateBovineCommand) | Pública | Constructor alterno basado en un comando de creación. |
+| Update            | (command: UpdateBovineCommand) : void | Pública | Actualiza los datos del bovino según un comando. |
+##### Tabla: Stable
+
+| Atributo | Tipo | Visibilidad | Descripción |
+|----------|------|-------------|-------------|
+| Id       | int  | Pública     | Identificador único del establo. |
+| Name     | string | Pública   | Nombre del establo. |
+| Limit    | int  | Pública     | Capacidad máxima del establo. |
+##### Métodos de Stable
+
+| Método | Firma | Visibilidad | Descripción |
+|--------|--------|-------------|-------------|
+| Stable | (command: CreateStableCommand) | Pública | Constructor basado en un comando de creación. |
+| Update | (command: UpdateStableCommand) : void | Pública | Actualiza la información del establo. |
+##### Tabla: Vaccine
+
+| Atributo    | Tipo    | Visibilidad | Descripción                        |
+| ----------- | ------- | ----------- | ---------------------------------- |
+| Id          | int     | Pública     | Identificador único de la vacuna.  |
+| Name        | string  | Pública     | Nombre de la vacuna.               |
+| VaccineType | string  | Pública     | Tipo o categoría de vacuna.        |
+| VaccineImg  | string? | Pública     | Imagen de la vacuna (si existe).   |
+| BovineId    | int     | Pública     | Identificador del bovino vacunado. |
+##### Métodos de Vaccine
+
+| Método  | Firma | Visibilidad | Descripción |
+|---------|--------|-------------|-------------|
+| Vaccine | (command: CreateVaccineCommand) | Pública | Constructor basado en un comando de creación. |
+| Update  | (command: UpdateVaccineCommand) : void | Pública | Actualiza la información de la vacuna. |
+##### Tabla: RanchUserId (Value Object)
+
+| Atributo        | Tipo | Visibilidad | Descripción |
+|------------------|------|-------------|-------------|
+| UserIdentifier   | int  | Pública (init) | Identificador del usuario dueño del rancho. |
+#### Staff Administration
+##### Tabla: Staff
+
+| Atributo    | Tipo     | Visibilidad | Descripción |
+|-------------|----------|-------------|-------------|
+| Id          | int      | Pública     | Identificador único del miembro del personal. |
+| Name        | string   | Pública     | Nombre del empleado. |
+| CampaignId  | int?     | Pública     | Identificador de la campaña asignada (si existe). |
+##### Métodos de Staff
+
+| Método | Firma | Visibilidad | Descripción |
+|--------|--------|-------------|-------------|
+| Staff  | () | Pública | Constructor vacío. |
+| Staff  | (name: string, employeeStatus: int, campaignId: int?, staffUserId: StaffUserId?) | Pública | Constructor completo del agregado Staff. |
+| Staff  | (command: CreateStaffCommand) | Pública | Constructor basado en un comando de creación. |
+| Update | (command: UpdateStaffCommand) : void | Pública | Actualiza la información del empleado. |
+##### Tabla: CampaignId (Value Object)
+
+| Atributo           | Tipo | Visibilidad | Descripción |
+|---------------------|------|-------------|-------------|
+| CampaignIdentifier  | int  | Pública (init) | Identificador de la campaña asignada. |
+##### Tabla: EmployeeStatus (Value Object)
+
+| Atributo | Tipo | Visibilidad | Descripción |
+|----------|------|-------------|-------------|
+| Value    | int  | Pública (get) | Representa el estado del empleado (ej. activo, inactivo, suspendido). |
+##### Tabla: StaffUserId (Value Object)
+
+| Atributo        | Tipo | Visibilidad | Descripción |
+|------------------|------|-------------|-------------|
+| UserIdentifier   | int  | Pública (init) | Identificador del usuario relacionado al empleado. |
+#### IAM
+##### Tabla: Admin
+
+| Atributo       | Tipo   | Visibilidad    | Descripción                                                   |
+| -------------- | ------ | -------------- | ------------------------------------------------------------- |
+| Id             | int    | Pública        | Identificador único del administrador.                        |
+| Email          | string | Pública        | Correo electrónico del administrador.                         |
+| EmailConfirmed | bool   | Pública (init) | Indica si el correo fue confirmado. Valor por defecto = true. |
+##### Métodos de Admin
+
+| Método        | Firma                                             | Visibilidad | Descripción |
+|---------------|----------------------------------------------------|-------------|-------------|
+| Admin         | (command: CreateAdminCommand)                      | Pública     | Constructor basado en el comando de creación. |
+| Update        | (command: UpdateAdminCommand) : void              | Pública     | Actualiza los datos del administrador. |
+| ValidateLogin | (password: string) : bool                         | Pública     | Valida las credenciales del administrador. |
+##### Tabla: User
+
+| Atributo        | Tipo     | Visibilidad | Descripción |
+|-----------------|----------|-------------|-------------|
+| Id              | int      | Pública     | Identificador único del usuario. |
+| Username        | string?  | Pública     | Nombre de usuario. |
+| Password        | string   | Pública     | Contraseña del usuario. |
+| Email           | string?  | Pública     | Correo electrónico del usuario, opcional. |
+| EmailConfirmed  | bool     | Pública (init) | Indica si el correo fue confirmado. |
+##### Métodos de User
+
+| Método | Firma                                        | Visibilidad | Descripción |
+|--------|-----------------------------------------------|-------------|-------------|
+| User   | ()                                            | Pública     | Constructor vacío. |
+| User   | (command: SignUpCommand)                     | Pública     | Constructor basado en el comando de registro. |
+| Update | (command: UpdateUserCommand) : void          | Pública     | Actualiza la información del usuario. |
+#### Campaign Managment
+
+##### Tabla: Campaign
+
+| Atributo    | Tipo   | Visibilidad | Descripción                         |
+| ----------- | ------ | ----------- | ----------------------------------- |
+| Id          | int    | get         | Identificador único de la campaña   |
+| Name        | string | get         | Nombre de la campaña                |
+| Description | string | get         | Descripción de la campaña           |
+| Status      | string | get         | Estado actual de la campaña         |
+| GoalId      | int    | get         | Identificador de objetivo asociado  |
+| StableId    | int?   | get         | Identificador de establo (opcional) |
+##### Tabla: Channel
+
+| Atributo   | Tipo   | Visibilidad | Descripción                             |
+| ---------- | ------ | ----------- | --------------------------------------- |
+| Id         | int    | get, set    | Identificador único del canal           |
+| Type       | string | get, set    | Tipo de canal (ej: email, social, etc.) |
+| Details    | string | get, set    | Detalles específicos del canal          |
+| CampaignId | int    | get         | Identificador de la campaña asociada    |
+##### Tabla:  Goal
+
+| Atributo     | Tipo   | Visibilidad | Descripción                          |
+| ------------ | ------ | ----------- | ------------------------------------ |
+| Id           | int    | get         | Identificador único de objetivo      |
+| Description  | string | get         | Descripción del objetivo             |
+| Metric       | string | get         | Métrica a medir                      |
+| TargetValue  | int    | get         | Valor objetivo de la métrica         |
+| CurrentValue | int    | get         | Valor actual de la métrica           |
+| CampaignId   | int    | get         | Identificador de la campaña asociada |
+##### Tabla: CampaignUserId
+
+| Atributo       | Tipo | Visibilidad | Descripción                     |
+| -------------- | ---- | ----------- | ------------------------------- |
+| UserIdentifier | int  | get, init   | Identificador único del usuario |
+##### Tabla: StableId
+|Atributo|Tipo|Visibilidad|Descripción|
+|---|---|---|---|
+|StableIdentifier|int|get, init|Identificador único de establo|
+
 
 ### 4.10. Database Design
 
