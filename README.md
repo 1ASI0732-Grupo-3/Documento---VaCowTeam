@@ -60,7 +60,12 @@
 
 <div style="page-break-before: always;"></div>
 
-# Project Report Collaboration Insights
+# Project Report Collaboration Insights 
+
+A continuación se presenta la misma estructura de evidencias y actividades, organizada por cada envío del informe: TB1, TP, TB2 y TF.
+
+
+## TB1
 
 #### 1. URL del Repositorio en GitHub
 
@@ -70,12 +75,114 @@
 
 #### 2. Actividades de Elaboración del Informe
 
-| Actividad                       | Descripción                                                                                                                                                                                                                                            |
-| ------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| Comunicación de avances         | Se realizaron breves reuniones donde se comentaban los avances de cada integrante para garantizar un trabajo en equipo sincronizado y estar al tanto de cada modificación.                                                                             |
-| Delegación de responsabilidades | Se organizaron charlas y reuniones para la delegación de tareas, promoviendo el trabajo en equipo y el avance continuo de manera asíncrona.                                                                                                            |
-| Recopilación de datos           | Se realizó un estudio del mercado, utilizando los segmentos objetivos para extraer datos significativos mediante entrevistas. Además, se utilizaron referencias bibliográficas para investigar información relevante dentro del desarrollo del informe |
-| Documentación                   | Se desarrollaron diferentes capítulos del informe, utilizando las técnicas, herramientas y metodologías requeridas.                                                                                                                                    |
+| Actividad                       | Descripción                                                                 |
+| ------------------------------- | --------------------------------------------------------------------------- |
+| Comunicación de avances         | Reuniones periódicas para coordinar entregables y avances del envío TB1.   |
+| Delegación de responsabilidades | Asignación de tareas iniciales para cubrir diseño, backend y testing.      |
+| Recopilación de datos           | Entrevistas y búsqueda bibliográfica para consolidar capítulos iniciales.  |
+| Documentación                   | Redacción de capítulos I–V, prototipos y backlog inicial.                  |
+
+#### 3. Capturas de Imagen de los Analíticos de Colaboración y Commits en GitHub
+
+| Métrica                     | Descripción                             |
+| --------------------------- | --------------------------------------- |
+| Número de commits por autor | ![Pruebas1](assets/isnghits1.png)     |
+| Historial de cambios        | ![Pruebas1](assets/NETWORKTB1.png) |
+
+#### 4. Participación de Todos los Miembros del Equipo
+
+| Evidencia                 | Descripción                                                                 |
+| ------------------------- | --------------------------------------------------------------------------- |
+| Contribuciones en GitHub  | Cada integrante entregó sus responsabilidades para TB1 y realizó commits.  |
+| Discusiones y actividades | Dailys y revisiones para preparar la entrega TB1.                          |
+| Exposiciones del proyecto | Presentaciones internas y demos para validar alcance del TB1.              |
+
+---
+
+## Envío TP
+
+#### 1. URL del Repositorio en GitHub
+
+| Repositorio del Informe en GitHub                     |
+| ----------------------------------------------------- |
+| https://github.com/orgs/1ASI0732-Grupo-3/repositories |
+
+#### 2. Actividades de Elaboración del Informe
+
+| Actividad                       | Descripción                                                                 |
+| ------------------------------- | --------------------------------------------------------------------------- |
+| Comunicación de avances         | Seguimiento de integraciones backend/frontend y revisión de pruebas.        |
+| Delegación de responsabilidades | Distribución de tareas para CI/CD, pruebas e integración.                  |
+| Recopilación de datos           | Recojo de evidencias de pruebas, logs y resultados de integración.         |
+| Documentación                   | Actualización de capítulos VI y secciones de verificación.                |
+
+#### 3. Capturas de Imagen de los Analíticos de Colaboración y Commits en GitHub
+
+| Métrica                     | Descripción                             |
+| --------------------------- | --------------------------------------- |
+| Número de commits por autor | ![Pruebas1](assets/insights.png)     |
+| Historial de cambios        | ![Pruebas1](assets/networkgraph.png) |
+
+#### 4. Participación de Todos los Miembros del Equipo
+
+| Evidencia                 | Descripción                                                                 |
+| ------------------------- | --------------------------------------------------------------------------- |
+| Contribuciones en GitHub  | Tasks de CI/CD, tests de integración y ajustes documentados por el equipo. |
+| Discusiones y actividades | Reuniones técnicas para resolver problemas detectados en pipelines.        |
+| Exposiciones del proyecto | Demo de integración y resultados del TP.                                    |
+
+---
+
+## TB2 
+
+#### 1. URL del Repositorio en GitHub
+
+| Repositorio del Informe en GitHub                     |
+| ----------------------------------------------------- |
+| https://github.com/orgs/1ASI0732-Grupo-3/repositories |
+
+#### 2. Actividades de Elaboración del Informe
+
+| Actividad                       | Descripción                                                                 |
+| ------------------------------- | --------------------------------------------------------------------------- |
+| Comunicación de avances         | Coordinación para inclusión de capítulos VI–VIII y pruebas de usuario.      |
+| Delegación de responsabilidades | Roles asignados para auditoría UX, entrevistas y experimentación.           |
+| Recopilación de datos           | Registro de entrevistas, evaluaciones heurísticas y métricas experimentales.|
+| Documentación                   | Incorporación de verificación, DevOps y experiment-driven content (TB2).   |
+
+#### 3. Capturas de Imagen de los Analíticos de Colaboración y Commits en GitHub
+
+| Métrica                     | Descripción                             |
+| --------------------------- | --------------------------------------- |
+| Número de commits por autor | ![Pruebas1](assets/insightsTB2.png)     |
+| Historial de cambios        | ![Pruebas1](assets/networkgraphTB2.png) |
+
+#### 4. Participación de Todos los Miembros del Equipo
+
+| Evidencia                 | Descripción                                                                 |
+| ------------------------- | --------------------------------------------------------------------------- |
+| Contribuciones en GitHub  | Integración de capítulos VI–VIII, auditorías UX y experimentos documentados.|
+| Discusiones y actividades | Sesiones de validación y revisión de hallazgos de entrevistas heurísticas.  |
+| Exposiciones del proyecto | Presentación de resultados y evidencia para la entrega TB2.                |
+
+---
+
+## TF 
+
+#### 1. URL del Repositorio en GitHub
+
+| Repositorio del Informe en GitHub                     |
+| ----------------------------------------------------- |
+| https://github.com/orgs/1ASI0732-Grupo-3/repositories |
+
+#### 2. Actividades de Elaboración del Informe
+
+| Actividad                       | Descripción                                                                 |
+| ------------------------------- | --------------------------------------------------------------------------- |
+| Comunicación de avances         | Consolidación final de entregables, revisión de formato y preparación PDF.  |
+| Delegación de responsabilidades | Asignación de correcciones finales, inclusión de anexos y validaciones.     |
+| Recopilación de datos           | Recolección final de evidencias multimedia y videos para anexos.           |
+| Documentación                   | Pulido de conclusiones, bibliografía y anexos; preparación de entrega TF.  |
 
 #### 3. Capturas de Imagen de los Analíticos de Colaboración y Commits en GitHub
 
@@ -86,11 +193,15 @@
 
 #### 4. Participación de Todos los Miembros del Equipo
 
-| Evidencia                 | Descripción                                                                                                                                                     |
-| ------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Contribuciones en GitHub  | Cada integrante del equipo completó sus tareas y subió sus avances al repositorio de GitHub. Adempas, cada uno colaboró revisando el trabajo de sus compañeros. |
-| Discusiones y actividades | Se organizaron encuentros virtuales para compartir avances, resolver dudas y atender los desafíos de cada actividad.                                            |
-| Exposiciones del proyecto | Se llevaron a cabo sesiones para exponer el trabajo realizado antes de la fecha orrespondiente y prepararnos adecuadamente para la presentación final.          |
+| Evidencia                 | Descripción                                                                 |
+| ------------------------- | --------------------------------------------------------------------------- |
+| Contribuciones en GitHub  | Consolidación final y correcciones por cada integrante para TF.            |
+| Discusiones y actividades | Revisiones finales, pruebas de exportación a PDF y ajuste de imágenes.      |
+| Exposiciones del proyecto | Preparación de la defensa y materiales audiovisuales para la presentación.  |
+
+---
+
+> Nota: Mantener los assets (carpeta /assets) actualizados para asegurar correcto renderizado en cada entrega (screenshots, videos y capturas de analytics).  
 
 <div style="page-break-before: always;"></div>
 
