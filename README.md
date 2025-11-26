@@ -6996,6 +6996,7 @@ Resumen de evidencia:
 - Enlace Swagger (deploy local/azur): https://vacappapi.azurewebsites.net/swagger/index.html
 - Evidencias: capturas de endpoints y logs de integración.
 
+
 #### 8.3.3.6. Team Collaboration Insights
 
 Documentar aprendizajes del equipo:
@@ -7007,30 +7008,186 @@ Documentar aprendizajes del equipo:
 
 ### 8.3.4. To‑Be Validation Interviews
 
-Se documentan las entrevistas diseñadas para validar versiones To‑Be del producto, usando la plantilla de 6.3.1 adaptada a experimentos específicos.
+En esta etapa del desarrollo impulsado por experimentos (Experiment-Driven Development), se llevaron a cabo entrevistas de validación "To-Be". A diferencia de las entrevistas iniciales de descubrimiento, el objetivo de estas sesiones fue someter a prueba las nuevas funcionalidades e hipótesis planteadas en el diseño experimental (como el modo offline, las alertas automáticas y los reportes visuales).
+
+Estas entrevistas buscan confirmar si las soluciones propuestas realmente resuelven los dolores del usuario, si la usabilidad es adecuada para el perfil del ganadero y si el valor percibido justifica la implementación a gran escala. Los resultados obtenidos aquí son cruciales para decidir si se debe iterar, escalar o descartar las características experimentales antes del lanzamiento final.
 
 #### 8.3.4.1. Diseño de Entrevistas
 
-- Objetivo: validar hipótesis de producto (valor, usabilidad, impacto).
-- Estructura:
-  - Presentación breve del experimento.
-  - Tareas guiadas (usar la función nueva).
-  - Preguntas NPS + preguntas específicas de la hipótesis.
+- **Objetivo:** Validar las hipótesis de producto definidas en la sección 8.2 (valor, usabilidad, impacto).
+- **Estructura:**
+  - Presentación breve del experimento y las nuevas funciones.
+  - Tareas guiadas (usar la función nueva en un entorno controlado).
+  - Preguntas específicas de validación y NPS.
   - Recolección de métricas objetivas (tiempo en tarea, errores).
-- Instrumentos: grabación (con permiso), formulario corto (Google Forms) y captura de pantalla.
+- **Instrumentos:** Grabación (con permiso), formulario de registro y captura de pantalla de la interacción.
+
+**Cuestionario de Validación (10 Preguntas):**
+
+Para guiar la validación de las hipótesis, se formularon las siguientes preguntas clave que se realizan después de que el usuario interactúa con el prototipo o la funcionalidad experimental:
+
+1. Después de probar el registro digital, ¿sientes que este proceso es más rápido y seguro que tu método actual (cuaderno/Excel)? ¿Por qué?
+2. Si la aplicación te enviara estas notificaciones automáticas de vacunación hoy, ¿qué tanto crees que reduciría tus olvidos o retrasos en el tratamiento?
+3. Has probado el registro sin internet. ¿Te sentirías confiado usando esta función en el campo sabiendo que los datos se guardarán al volver a tener señal?
+4. Al ver las nuevas medidas de inicio de sesión y protección de datos, ¿ha aumentado tu confianza para registrar información sensible de tu negocio en la app?
+5. Al observar los gráficos de salud y producción, ¿te resulta fácil entender el estado de tu ganado a simple vista o prefieres los datos en tablas numéricas?
+6. ¿Sientes que la interfaz que estás viendo se adapta a tu tipo de trabajo (Pequeño productor/Empresa) o ves opciones que te sobran y te confunden?
+7. ¿Qué tan probable es que consultes la sección de "Aprende con VacApp" ante una duda técnica antes de llamar a un veterinario o buscar en Google?
+8.¿C onsideras que la programación automática de tareas repetitivas te ahorraría tiempo administrativo real en tu semana laboral?
+9. Del 1 al 10, ¿qué tanto valor añadirían estas nuevas funciones a tu gestión diaria si se lanzaran hoy mismo?
+10. Basado en estas nuevas funcionalidades que has probado, ¿recomendarías VacApp a otro colega ganadero?
 
 #### 8.3.4.2. Registro de Entrevistas
 
-Plantilla de registro por entrevista:
-- Entrevista #:  
-- Entrevistado (segmento):  
-- Fecha / Duración:  
-- Tecnología usada: (Zoom / Meet / Presencial)  
-- Enlace a grabación:  
-- Foto / captura: assets/entrevista_x.png  
-- Resumen ejecutivo (3 bullets): hallazgos principales, pain points, sugerencias.  
-- Métricas registradas: tiempo tarea, tasa de éxito, comentarios NPS.  
-- Decisión recomendada: iterar / escalar / retirar.
+#### **Entrevista #1**
+
+| Detalle | Información |
+| :--- | :--- |
+|  **Entrevistado** | Camila Morales Farias |
+|  **Edad** | 21 |
+|  **Rol / Experiencia** | |
+| **Fecha de Entrevista** |  |
+|  **Duración** |  |
+|  **Tecnologías Usadas** |  |
+|  **Enlace a Grabación** |  |
+
+<br>
+
+**Evidencia de la Entrevista:**
+
+
+![Evidencia Entrevista 1](assets/entrevista-validation1.png)
+
+<br>
+
+**Resumen de Hallazgos Clave:**
+
+
+---
+
+#### **Entrevista #2  **
+
+| Detalle | Información |
+| :--- | :--- |
+|  **Entrevistado** | Camila Morales Farias |
+|  **Edad** | 21 |
+|  **Rol / Experiencia** | |
+| **Fecha de Entrevista** |  |
+|  **Duración** |  |
+|  **Tecnologías Usadas** |  |
+|  **Enlace a Grabación** |  |
+
+<br>
+
+**Evidencia de la Entrevista:**
+
+
+![Evidencia Entrevista 1](assets/entrevista-validation1.png)
+
+<br>
+
+**Resumen de Hallazgos Clave:**
+
+
+---
+#### **Entrevista #3**
+
+| Detalle | Información |
+| :--- | :--- |
+|  **Entrevistado** | Camila Morales Farias |
+|  **Edad** | 21 |
+|  **Rol / Experiencia** | |
+| **Fecha de Entrevista** |  |
+|  **Duración** |  |
+|  **Tecnologías Usadas** |  |
+|  **Enlace a Grabación** |  |
+
+<br>
+
+**Evidencia de la Entrevista:**
+
+
+![Evidencia Entrevista 1](assets/entrevista-validation1.png)
+
+<br>
+
+**Resumen de Hallazgos Clave:**
+
+
+---
+#### **Entrevista #4**
+
+| Detalle | Información |
+| :--- | :--- |
+|  **Entrevistado** | Camila Morales Farias |
+|  **Edad** | 21 |
+|  **Rol / Experiencia** | |
+| **Fecha de Entrevista** |  |
+|  **Duración** |  |
+|  **Tecnologías Usadas** |  |
+|  **Enlace a Grabación** |  |
+
+<br>
+
+**Evidencia de la Entrevista:**
+
+
+![Evidencia Entrevista 1](assets/entrevista-validation1.png)
+
+<br>
+
+**Resumen de Hallazgos Clave:**
+
+
+---
+#### **Entrevista #5**
+
+| Detalle | Información |
+| :--- | :--- |
+|  **Entrevistado** | Camila Morales Farias |
+|  **Edad** | 21 |
+|  **Rol / Experiencia** | |
+| **Fecha de Entrevista** |  |
+|  **Duración** |  |
+|  **Tecnologías Usadas** |  |
+|  **Enlace a Grabación** |  |
+
+<br>
+
+**Evidencia de la Entrevista:**
+
+
+![Evidencia Entrevista 1](assets/entrevista-validation1.png)
+
+<br>
+
+**Resumen de Hallazgos Clave:**
+
+
+---
+#### **Entrevista #6**
+
+| Detalle | Información |
+| :--- | :--- |
+|  **Entrevistado** |  |
+|  **Edad** |  |
+|  **Rol / Experiencia** | |
+| **Fecha de Entrevista** |  |
+|  **Duración** |  |
+|  **Tecnologías Usadas** |  |
+|  **Enlace a Grabación** |  |
+
+<br>
+
+**Evidencia de la Entrevista:**
+
+
+![Evidencia Entrevista 1](assets/entrevista-validation1.png)
+
+<br>
+
+**Resumen de Hallazgos Clave:**
+
 
 ---
 
