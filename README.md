@@ -7043,50 +7043,76 @@ Para guiar la validación de las hipótesis, se formularon las siguientes pregun
 
 | Detalle | Información |
 | :--- | :--- |
-|  **Entrevistado** | Camila Morales Farias |
-|  **Edad** | 21 |
-|  **Rol / Experiencia** | |
-| **Fecha de Entrevista** |  |
-|  **Duración** |  |
-|  **Tecnologías Usadas** |  |
-|  **Enlace a Grabación** |  |
+|  **Entrevistado** | Sandro Quispesivana |
+|  **Edad** | 22 |
+|  **Rol / Experiencia** | Ganadero Independiente |
+| **Fecha de Entrevista** | 20 / 11 / 2025 |
+|  **Duración** | 3.:45  |
+|  **Tecnologías Usadas** | Zoom |
+|  **Enlace a Grabación** | https://drive.google.com/file/d/1SjJQ0vGNlzuyVimwKumrnFVOQb5gUxJH/view?usp=drive_link |
 
 <br>
 
 **Evidencia de la Entrevista:**
 
 
-![Evidencia Entrevista 1](assets/entrevista-validation1.png)
+![Evidencia Entrevista 1](assets/independiente1.png)
 
 <br>
 
 **Resumen de Hallazgos Clave:**
 
+- **Validación de Digitalización (H1):** El usuario confirmó que el registro digital es significativamente más rápido y seguro que su método tradicional (cuaderno físico). Destaca la capacidad de búsqueda por código único de animal, la persistencia de datos ante pérdida de dispositivos y la eliminación de cálculos manuales como ventajas clave frente al papel.
+
+- **Impacto de Alertas Automáticas (H2):** Estima una reducción del 70% en olvidos y retrasos de tratamientos gracias a las notificaciones programadas. El entrevistado reconoce que la carga de trabajo diaria hace que se pasen fechas críticas, por lo que las alertas automáticas representan una mejora sustancial en el cumplimiento de cronogramas sanitarios.
+
+- **Confianza en Modo Offline (H3):** Valida positivamente la funcionalidad offline debido a la limitada conectividad en zonas rurales. Señala que actualmente debe anotar en papel para luego transcribir, por lo que el registro local con sincronización posterior elimina trabajo duplicado y mejora la eficiencia operativa en campo.
+
+- **Percepción de Seguridad (H4):** Las medidas de autenticación y protección de datos aumentaron moderadamente su confianza para registrar información sensible (costos, ventas). Aunque muestra cautela sobre quién accede a sus datos, las características de seguridad implementadas lo animan a confiar información comercial crítica en la plataforma.
+
+- **Comprensión de Reportes Visuales (H5):** Los gráficos facilitan la comprensión rápida del estado del ganado (tendencias de salud y producción), pero el usuario valora mantener acceso a tablas numéricas para análisis detallado. Esto confirma la hipótesis de que las visualizaciones mejoran la toma de decisiones sin reemplazar completamente la necesidad de datos tabulares.
+
+- **Valor Percibido del Contenido Educativo (H7):** Califica con 8/10 la probabilidad de consultar "Aprende con VacApp" antes de recurrir a veterinarios o búsquedas genéricas en internet. Destaca la dificultad de acceso inmediato a profesionales y la saturación de información no especializada en línea como motivadores principales.
+
+- **Automatización y Ahorro de Tiempo (H8):** Confirma que la programación automática de tareas repetitivas (registro de nacimientos, vacunas, tratamientos) reduciría significativamente su carga administrativa semanal, eliminando la duplicación de registros en múltiples ubicaciones.
+
+- **Calificación General y Recomendación:** Asigna un valor de 8/10 al conjunto de funcionalidades presentadas y manifiesta disposición a recomendar VacApp (8/10 NPS) especialmente a pequeños productores que aún dependen de registros manuales. Reconoce que necesitará tiempo de adaptación, pero percibe un claro retorno en organización y prevención de omisiones críticas.
+
+- **Oportunidad Identificada:** El usuario menciona que algunas funciones orientadas a gestión multiusuario o reportes avanzados no le resultan prioritarias como pequeño productor, sugiriendo oportunidad para simplificar la interfaz según perfil de usuario (validación parcial de H6 sobre personalización).
 
 ---
 
-#### **Entrevista #2  **
+#### **Entrevista #2**
 
 | Detalle | Información |
 | :--- | :--- |
-|  **Entrevistado** | Camila Morales Farias |
+|  **Entrevistado** | Liam Quino  |
 |  **Edad** | 21 |
-|  **Rol / Experiencia** | |
-| **Fecha de Entrevista** |  |
-|  **Duración** |  |
-|  **Tecnologías Usadas** |  |
-|  **Enlace a Grabación** |  |
+|  **Rol / Experiencia** | Empresa Ganadera |
+| **Fecha de Entrevista** |  30/11/2025 |
+|  **Duración** | 4:50 |
+|  **Tecnologías Usadas** | Zoom |
+|  **Enlace a Grabación** |  https://drive.google.com/file/d/1oH2F4OYkX8kEtNwLmwC0TVB1nsF8o5pX/view?usp=sharing |
 
 <br>
 
 **Evidencia de la Entrevista:**
 
 
-![Evidencia Entrevista 1](assets/entrevista-validation1.png)
+![Evidencia Entrevista 1](assets/empresa1.png)
 
 <br>
 
 **Resumen de Hallazgos Clave:**
+
+El entrevistado, representante de una empresa ganadera, confirma que el registro digital de VacApp supera significativamente sus métodos actuales basados en Excel, ya que centraliza la información y elimina problemas de duplicidad y versionado de archivos entre encargados. Destaca que el sistema ofrece mayor orden, trazabilidad y seguridad al mantener un historial unificado al que todo el personal puede acceder de manera controlada. En cuanto al impacto de las alertas automáticas, estima que reducirían en un 80% los olvidos o retrasos en tratamientos sanitarios, especialmente porque gestionan múltiples lotes y coordinaciones con veterinarios; las notificaciones anticipadas permitirían una planificación más eficiente de recursos humanos y profesionales.
+
+La funcionalidad offline fue validada positivamente, destacando que es fundamental en fundos con conectividad inestable. El usuario manifiesta confianza siempre que exista un indicador visual claro de sincronización local y posterior carga automática al recuperar la señal. Respecto a la seguridad, las medidas de doble factor, cierre de sesión automático y políticas de privacidad aumentaron significativamente su confianza para registrar información sensible (datos económicos y sanitarios) a nivel corporativo, superando las dudas iniciales sobre exposición de información crítica.
+
+Los reportes visuales fueron bien recibidos por su utilidad en reuniones de gestión, permitiendo una comprensión rápida del estado del ganado. Sin embargo, el entrevistado subraya la importancia de mantener siempre disponible la opción de exportar tablas numéricas para análisis detallados en Excel y reportes internos, confirmando que las visualizaciones complementan pero no reemplazan completamente la necesidad de datos tabulares. La interfaz fue considerada adecuada para operaciones empresariales, aunque sugiere implementar un "modo empresa avanzado" que permita ocultar funcionalidades no utilizadas para simplificar la experiencia.
+
+En cuanto al contenido educativo, califica con 7/10 la probabilidad de consultar "Aprende con VacApp" para dudas técnicas rápidas o recordatorios de protocolos, aunque aclara que decisiones críticas siempre serán validadas con su veterinario de planta. La automatización de tareas repetitivas (desparasitaciones, refuerzos de vacunas, chequeos rutinarios) fue altamente valorada, ya que reduciría el tiempo dedicado a coordinaciones manuales por WhatsApp y agendas físicas.
+
 
 
 ---
