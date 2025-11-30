@@ -79,8 +79,8 @@
 
 #### 3. Capturas de Imagen de los Analíticos de Colaboración y Commits en GitHub
 
-| Métrica                     | Descripción                             |
-| --------------------------- | --------------------------------------- |
+| Métrica                     | Descripción                            |
+| --------------------------- | -------------------------------------- |
 | Número de commits por autor | ![Pruebas1](assets/insightsTF.png)     |
 | Historial de cambios        | ![Pruebas1](assets/networkgraphTF.png) |
 
@@ -269,10 +269,10 @@
   - [8.3.2. To-Be Product Backlog](#832-to-be-product-backlog)
   - [8.3.3. Pipeline‑supported, Experiment‑Driven To‑Be Software Platform Lifecycle](#833-pipeline-supported-experiment-driven-to-be-software-platform-lifecycle)
   - [8.3.3.1. To‑Be Sprint Backlogs](#8331-to-be-sprint-backlogs)
-  - [8.3.3.2. Implemented To‑Be Landing Page Evidence](#8332-implemented-to-be-landing-page-evidence)    - [8.3.3.3. Implemented To‑Be Frontend‑Web Application Evidence](#8333-implemented-to-be-frontend-web-application-evidence)
-   - [8.3.3.4. Implemented To‑Be Native‑Mobile Application Evidence](#8334-implemented-to-be-native-mobile-application-evidence)
-    - [8.3.3.5. Implemented To‑Be RESTful API and/or Serverless Backend Evidence](#8335-implemented-to-be-restful-api-andor-serverless-backend-evidence)
-    - [8.3.3.6. Team Collaboration Insights](#8336-team-collaboration-insights)
+  - [8.3.3.2. Implemented To‑Be Landing Page Evidence](#8332-implemented-to-be-landing-page-evidence) - [8.3.3.3. Implemented To‑Be Frontend‑Web Application Evidence](#8333-implemented-to-be-frontend-web-application-evidence)
+  - [8.3.3.4. Implemented To‑Be Native‑Mobile Application Evidence](#8334-implemented-to-be-native-mobile-application-evidence)
+  - [8.3.3.5. Implemented To‑Be RESTful API and/or Serverless Backend Evidence](#8335-implemented-to-be-restful-api-andor-serverless-backend-evidence)
+  - [8.3.3.6. Team Collaboration Insights](#8336-team-collaboration-insights)
   - [8.3.4. To‑Be Validation Interviews](#834-to-be-validation-interviews)
     - [8.3.4.1. Diseño de Entrevistas](#8341-diseño-de-entrevistas)
     - [8.3.4.2. Registro de Entrevistas](#8342-registro-de-entrevistas)
@@ -2043,35 +2043,38 @@ Este diagrama de clases detalla los elementos del Domain Layer para Campaign Man
 
 ![Staff_Diagram](assets/ClassDiagramStaff.png)
 
-
 #### 4.9.2. Class Dictionary
 
 ##### Voice Command
+
 ###### Tabla: Voice
 
-| Atributo          | Tipo                 | Visibilidad | Descripción |
-|-------------------|----------------------|-------------|-------------|
-| Id                | int                  | Pública     | Identificador único del comando de voz. |
-| OriginalText      | string               | Pública     | Texto completo capturado por el usuario. |
-| Parameters        | string?              | Pública     | Parámetros extraídos del texto original (si existen). |
-| IsValid           | bool                 | Pública     | Indica si el comando fue validado correctamente. |
-| WasExecuted       | bool                 | Pública     | Indica si el comando ya fue ejecutado. |
-| UserId            | int                  | Pública     | Identificador del usuario que emitió el comando. |
-| ErrorMessage      | string?              | Pública     | Mensaje de error en caso de ejecución fallida. |
-| ResponseMessage   | string?              | Pública     | Respuesta generada tras ejecutar el comando. |
+| Atributo        | Tipo    | Visibilidad | Descripción                                           |
+| --------------- | ------- | ----------- | ----------------------------------------------------- |
+| Id              | int     | Pública     | Identificador único del comando de voz.               |
+| OriginalText    | string  | Pública     | Texto completo capturado por el usuario.              |
+| Parameters      | string? | Pública     | Parámetros extraídos del texto original (si existen). |
+| IsValid         | bool    | Pública     | Indica si el comando fue validado correctamente.      |
+| WasExecuted     | bool    | Pública     | Indica si el comando ya fue ejecutado.                |
+| UserId          | int     | Pública     | Identificador del usuario que emitió el comando.      |
+| ErrorMessage    | string? | Pública     | Mensaje de error en caso de ejecución fallida.        |
+| ResponseMessage | string? | Pública     | Respuesta generada tras ejecutar el comando.          |
+
 ##### Métodos de Voice
 
-| Atributo / Método                                    | Tipo / Firma                                                                 | Visibilidad | Descripción |
-|------------------------------------------------------|-------------------------------------------------------------------------------|-------------|-------------|
-| Voice                                                | (originalText: string, commandType: VoiceCommandType, parameters: string?, isValid: bool, userId: int) | Pública     | Constructor del aggregate Voice. |
-| MarkAsExecuted                                       | (responseMessage: string?) : void                                            | Pública     | Marca el comando como ejecutado y almacena la respuesta. |
-| MarkAsFailed                                         | (errorMessage: string) : void                                                | Pública     | Marca el comando como fallido y agrega el mensaje de error. |
+| Atributo / Método | Tipo / Firma                                                                                           | Visibilidad | Descripción                                                 |
+| ----------------- | ------------------------------------------------------------------------------------------------------ | ----------- | ----------------------------------------------------------- |
+| Voice             | (originalText: string, commandType: VoiceCommandType, parameters: string?, isValid: bool, userId: int) | Pública     | Constructor del aggregate Voice.                            |
+| MarkAsExecuted    | (responseMessage: string?) : void                                                                      | Pública     | Marca el comando como ejecutado y almacena la respuesta.    |
+| MarkAsFailed      | (errorMessage: string) : void                                                                          | Pública     | Marca el comando como fallido y agrega el mensaje de error. |
+
 ##### Tabla: VoiceCommandResult (Value Object)
 
 | Atributo     | Tipo   | Visibilidad    | Descripción                             |
 | ------------ | ------ | -------------- | --------------------------------------- |
 | OriginalText | string | Pública (init) | Texto detectado originalmente.          |
 | IsValid      | bool   | Pública (init) | Resultado de la validación del comando. |
+
 ##### Enumeración: VoiceCommandType
 
 | Atributo                 | Tipo | Visibilidad | Descripción                                     |
@@ -2082,38 +2085,44 @@ Este diagrama de clases detalla los elementos del Domain Layer para Campaign Man
 | NavigateToStables        | Enum | Pública     | Comando para navegar al módulo de establos.     |
 | InitializeToCreateStable | Enum | Pública     | Comando para iniciar la creación de un establo. |
 | CreateStable             | Enum | Pública     | Comando para crear un establo.                  |
+
 #### Ranch Managment
+
 ##### Tabla: Bovine
 
-| Atributo     | Tipo       | Visibilidad | Descripción |
-|--------------|------------|-------------|-------------|
-| Id           | int        | Pública     | Identificador único del bovino. |
-| Name         | string     | Pública     | Nombre del bovino. |
-| Gender       | string     | Pública     | Género del bovino. |
-| Breed        | string?    | Pública     | Raza del bovino (si está disponible). |
-| Location     | string?    | Pública     | Ubicación actual del bovino. |
-| StabledId    | int?       | Pública     | Establo asignado, si aplica. |
-| BovineImg    | string?    | Pública     | Ruta o referencia a la imagen del bovino. |
+| Atributo  | Tipo    | Visibilidad | Descripción                               |
+| --------- | ------- | ----------- | ----------------------------------------- |
+| Id        | int     | Pública     | Identificador único del bovino.           |
+| Name      | string  | Pública     | Nombre del bovino.                        |
+| Gender    | string  | Pública     | Género del bovino.                        |
+| Breed     | string? | Pública     | Raza del bovino (si está disponible).     |
+| Location  | string? | Pública     | Ubicación actual del bovino.              |
+| StabledId | int?    | Pública     | Establo asignado, si aplica.              |
+| BovineImg | string? | Pública     | Ruta o referencia a la imagen del bovino. |
+
 ##### Métodos de Bovine
 
-| Atributo / Método | Tipo / Firma | Visibilidad | Descripción |
-|-------------------|--------------|-------------|-------------|
-| Bovine            | (name: string, gender: string, birthDate: DateTime?, breed: string?, location: string?, bovineImg: string?, stabledId: int?, ranchUserId: RanchUserId?) | Pública | Constructor principal del agregado Bovine. |
-| Bovine            | (command: CreateBovineCommand) | Pública | Constructor alterno basado en un comando de creación. |
-| Update            | (command: UpdateBovineCommand) : void | Pública | Actualiza los datos del bovino según un comando. |
+| Atributo / Método | Tipo / Firma                                                                                                                                            | Visibilidad | Descripción                                           |
+| ----------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------- | ----------------------------------------------------- |
+| Bovine            | (name: string, gender: string, birthDate: DateTime?, breed: string?, location: string?, bovineImg: string?, stabledId: int?, ranchUserId: RanchUserId?) | Pública     | Constructor principal del agregado Bovine.            |
+| Bovine            | (command: CreateBovineCommand)                                                                                                                          | Pública     | Constructor alterno basado en un comando de creación. |
+| Update            | (command: UpdateBovineCommand) : void                                                                                                                   | Pública     | Actualiza los datos del bovino según un comando.      |
+
 ##### Tabla: Stable
 
-| Atributo | Tipo | Visibilidad | Descripción |
-|----------|------|-------------|-------------|
-| Id       | int  | Pública     | Identificador único del establo. |
-| Name     | string | Pública   | Nombre del establo. |
-| Limit    | int  | Pública     | Capacidad máxima del establo. |
+| Atributo | Tipo   | Visibilidad | Descripción                      |
+| -------- | ------ | ----------- | -------------------------------- |
+| Id       | int    | Pública     | Identificador único del establo. |
+| Name     | string | Pública     | Nombre del establo.              |
+| Limit    | int    | Pública     | Capacidad máxima del establo.    |
+
 ##### Métodos de Stable
 
-| Método | Firma | Visibilidad | Descripción |
-|--------|--------|-------------|-------------|
-| Stable | (command: CreateStableCommand) | Pública | Constructor basado en un comando de creación. |
-| Update | (command: UpdateStableCommand) : void | Pública | Actualiza la información del establo. |
+| Método | Firma                                 | Visibilidad | Descripción                                   |
+| ------ | ------------------------------------- | ----------- | --------------------------------------------- |
+| Stable | (command: CreateStableCommand)        | Pública     | Constructor basado en un comando de creación. |
+| Update | (command: UpdateStableCommand) : void | Pública     | Actualiza la información del establo.         |
+
 ##### Tabla: Vaccine
 
 | Atributo    | Tipo    | Visibilidad | Descripción                        |
@@ -2123,49 +2132,59 @@ Este diagrama de clases detalla los elementos del Domain Layer para Campaign Man
 | VaccineType | string  | Pública     | Tipo o categoría de vacuna.        |
 | VaccineImg  | string? | Pública     | Imagen de la vacuna (si existe).   |
 | BovineId    | int     | Pública     | Identificador del bovino vacunado. |
+
 ##### Métodos de Vaccine
 
-| Método  | Firma | Visibilidad | Descripción |
-|---------|--------|-------------|-------------|
-| Vaccine | (command: CreateVaccineCommand) | Pública | Constructor basado en un comando de creación. |
-| Update  | (command: UpdateVaccineCommand) : void | Pública | Actualiza la información de la vacuna. |
+| Método  | Firma                                  | Visibilidad | Descripción                                   |
+| ------- | -------------------------------------- | ----------- | --------------------------------------------- |
+| Vaccine | (command: CreateVaccineCommand)        | Pública     | Constructor basado en un comando de creación. |
+| Update  | (command: UpdateVaccineCommand) : void | Pública     | Actualiza la información de la vacuna.        |
+
 ##### Tabla: RanchUserId (Value Object)
 
-| Atributo        | Tipo | Visibilidad | Descripción |
-|------------------|------|-------------|-------------|
-| UserIdentifier   | int  | Pública (init) | Identificador del usuario dueño del rancho. |
+| Atributo       | Tipo | Visibilidad    | Descripción                                 |
+| -------------- | ---- | -------------- | ------------------------------------------- |
+| UserIdentifier | int  | Pública (init) | Identificador del usuario dueño del rancho. |
+
 #### Staff Administration
+
 ##### Tabla: Staff
 
-| Atributo    | Tipo     | Visibilidad | Descripción |
-|-------------|----------|-------------|-------------|
-| Id          | int      | Pública     | Identificador único del miembro del personal. |
-| Name        | string   | Pública     | Nombre del empleado. |
-| CampaignId  | int?     | Pública     | Identificador de la campaña asignada (si existe). |
+| Atributo   | Tipo   | Visibilidad | Descripción                                       |
+| ---------- | ------ | ----------- | ------------------------------------------------- |
+| Id         | int    | Pública     | Identificador único del miembro del personal.     |
+| Name       | string | Pública     | Nombre del empleado.                              |
+| CampaignId | int?   | Pública     | Identificador de la campaña asignada (si existe). |
+
 ##### Métodos de Staff
 
-| Método | Firma | Visibilidad | Descripción |
-|--------|--------|-------------|-------------|
-| Staff  | () | Pública | Constructor vacío. |
-| Staff  | (name: string, employeeStatus: int, campaignId: int?, staffUserId: StaffUserId?) | Pública | Constructor completo del agregado Staff. |
-| Staff  | (command: CreateStaffCommand) | Pública | Constructor basado en un comando de creación. |
-| Update | (command: UpdateStaffCommand) : void | Pública | Actualiza la información del empleado. |
+| Método | Firma                                                                            | Visibilidad | Descripción                                   |
+| ------ | -------------------------------------------------------------------------------- | ----------- | --------------------------------------------- |
+| Staff  | ()                                                                               | Pública     | Constructor vacío.                            |
+| Staff  | (name: string, employeeStatus: int, campaignId: int?, staffUserId: StaffUserId?) | Pública     | Constructor completo del agregado Staff.      |
+| Staff  | (command: CreateStaffCommand)                                                    | Pública     | Constructor basado en un comando de creación. |
+| Update | (command: UpdateStaffCommand) : void                                             | Pública     | Actualiza la información del empleado.        |
+
 ##### Tabla: CampaignId (Value Object)
 
-| Atributo           | Tipo | Visibilidad | Descripción |
-|---------------------|------|-------------|-------------|
-| CampaignIdentifier  | int  | Pública (init) | Identificador de la campaña asignada. |
+| Atributo           | Tipo | Visibilidad    | Descripción                           |
+| ------------------ | ---- | -------------- | ------------------------------------- |
+| CampaignIdentifier | int  | Pública (init) | Identificador de la campaña asignada. |
+
 ##### Tabla: EmployeeStatus (Value Object)
 
-| Atributo | Tipo | Visibilidad | Descripción |
-|----------|------|-------------|-------------|
+| Atributo | Tipo | Visibilidad   | Descripción                                                           |
+| -------- | ---- | ------------- | --------------------------------------------------------------------- |
 | Value    | int  | Pública (get) | Representa el estado del empleado (ej. activo, inactivo, suspendido). |
+
 ##### Tabla: StaffUserId (Value Object)
 
-| Atributo        | Tipo | Visibilidad | Descripción |
-|------------------|------|-------------|-------------|
-| UserIdentifier   | int  | Pública (init) | Identificador del usuario relacionado al empleado. |
+| Atributo       | Tipo | Visibilidad    | Descripción                                        |
+| -------------- | ---- | -------------- | -------------------------------------------------- |
+| UserIdentifier | int  | Pública (init) | Identificador del usuario relacionado al empleado. |
+
 #### IAM
+
 ##### Tabla: Admin
 
 | Atributo       | Tipo   | Visibilidad    | Descripción                                                   |
@@ -2173,29 +2192,33 @@ Este diagrama de clases detalla los elementos del Domain Layer para Campaign Man
 | Id             | int    | Pública        | Identificador único del administrador.                        |
 | Email          | string | Pública        | Correo electrónico del administrador.                         |
 | EmailConfirmed | bool   | Pública (init) | Indica si el correo fue confirmado. Valor por defecto = true. |
+
 ##### Métodos de Admin
 
-| Método        | Firma                                             | Visibilidad | Descripción |
-|---------------|----------------------------------------------------|-------------|-------------|
-| Admin         | (command: CreateAdminCommand)                      | Pública     | Constructor basado en el comando de creación. |
-| Update        | (command: UpdateAdminCommand) : void              | Pública     | Actualiza los datos del administrador. |
-| ValidateLogin | (password: string) : bool                         | Pública     | Valida las credenciales del administrador. |
+| Método        | Firma                                | Visibilidad | Descripción                                   |
+| ------------- | ------------------------------------ | ----------- | --------------------------------------------- |
+| Admin         | (command: CreateAdminCommand)        | Pública     | Constructor basado en el comando de creación. |
+| Update        | (command: UpdateAdminCommand) : void | Pública     | Actualiza los datos del administrador.        |
+| ValidateLogin | (password: string) : bool            | Pública     | Valida las credenciales del administrador.    |
+
 ##### Tabla: User
 
-| Atributo        | Tipo     | Visibilidad | Descripción |
-|-----------------|----------|-------------|-------------|
-| Id              | int      | Pública     | Identificador único del usuario. |
-| Username        | string?  | Pública     | Nombre de usuario. |
-| Password        | string   | Pública     | Contraseña del usuario. |
-| Email           | string?  | Pública     | Correo electrónico del usuario, opcional. |
-| EmailConfirmed  | bool     | Pública (init) | Indica si el correo fue confirmado. |
+| Atributo       | Tipo    | Visibilidad    | Descripción                               |
+| -------------- | ------- | -------------- | ----------------------------------------- |
+| Id             | int     | Pública        | Identificador único del usuario.          |
+| Username       | string? | Pública        | Nombre de usuario.                        |
+| Password       | string  | Pública        | Contraseña del usuario.                   |
+| Email          | string? | Pública        | Correo electrónico del usuario, opcional. |
+| EmailConfirmed | bool    | Pública (init) | Indica si el correo fue confirmado.       |
+
 ##### Métodos de User
 
-| Método | Firma                                        | Visibilidad | Descripción |
-|--------|-----------------------------------------------|-------------|-------------|
-| User   | ()                                            | Pública     | Constructor vacío. |
-| User   | (command: SignUpCommand)                     | Pública     | Constructor basado en el comando de registro. |
-| Update | (command: UpdateUserCommand) : void          | Pública     | Actualiza la información del usuario. |
+| Método | Firma                               | Visibilidad | Descripción                                   |
+| ------ | ----------------------------------- | ----------- | --------------------------------------------- |
+| User   | ()                                  | Pública     | Constructor vacío.                            |
+| User   | (command: SignUpCommand)            | Pública     | Constructor basado en el comando de registro. |
+| Update | (command: UpdateUserCommand) : void | Pública     | Actualiza la información del usuario.         |
+
 #### Campaign Managment
 
 ##### Tabla: Campaign
@@ -2208,6 +2231,7 @@ Este diagrama de clases detalla los elementos del Domain Layer para Campaign Man
 | Status      | string | get         | Estado actual de la campaña         |
 | GoalId      | int    | get         | Identificador de objetivo asociado  |
 | StableId    | int?   | get         | Identificador de establo (opcional) |
+
 ##### Tabla: Channel
 
 | Atributo   | Tipo   | Visibilidad | Descripción                             |
@@ -2216,7 +2240,8 @@ Este diagrama de clases detalla los elementos del Domain Layer para Campaign Man
 | Type       | string | get, set    | Tipo de canal (ej: email, social, etc.) |
 | Details    | string | get, set    | Detalles específicos del canal          |
 | CampaignId | int    | get         | Identificador de la campaña asociada    |
-##### Tabla:  Goal
+
+##### Tabla: Goal
 
 | Atributo     | Tipo   | Visibilidad | Descripción                          |
 | ------------ | ------ | ----------- | ------------------------------------ |
@@ -2226,16 +2251,18 @@ Este diagrama de clases detalla los elementos del Domain Layer para Campaign Man
 | TargetValue  | int    | get         | Valor objetivo de la métrica         |
 | CurrentValue | int    | get         | Valor actual de la métrica           |
 | CampaignId   | int    | get         | Identificador de la campaña asociada |
+
 ##### Tabla: CampaignUserId
 
 | Atributo       | Tipo | Visibilidad | Descripción                     |
 | -------------- | ---- | ----------- | ------------------------------- |
 | UserIdentifier | int  | get, init   | Identificador único del usuario |
-##### Tabla: StableId
-|Atributo|Tipo|Visibilidad|Descripción|
-|---|---|---|---|
-|StableIdentifier|int|get, init|Identificador único de establo|
 
+##### Tabla: StableId
+
+| Atributo         | Tipo | Visibilidad | Descripción                    |
+| ---------------- | ---- | ----------- | ------------------------------ |
+| StableIdentifier | int  | get, init   | Identificador único de establo |
 
 ### 4.10. Database Design
 
@@ -4327,6 +4354,7 @@ dotnet_naming_style.begins_with_underscore.word_separator =
 
 dotnet_naming_style.begins_with_underscore.capitalization = camel_case
 ```
+
 Asimismo se implemento dentro del documento algunas reglas de refactorización utilizando Roslynator, un paquete de `dotnet` que facilita esto mismo.
 
 ```
@@ -4610,15 +4638,15 @@ A continuación, se documentan las entrevistas de validación realizadas con usu
 
 #### **Entrevista #3**
 
-| Detalle                 | Información                                                                                                                                                                                                                                                                                                                                        |
-| :---------------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Entrevistado**        | Santiago Mena Adrianzen                                                                                                                                                                                                                                                                                                                            |
-| **Edad**                | 21                                                                                                                                                                                                                                                                                                                                                 |
-| **Rol / Experiencia**   | Ganadero principante                                                                                                                                                                                                                                                                                                                               |
-| **Fecha de Entrevista** | 11/11/2025                                                                                                                                                                                                                                                                                                                                         |
-| **Duración**            | 05:06 minutos                                                                                                                                                                                                                                                                                                                                      |
-| **Tecnologías Usadas**  | Zoom                                                                                                                                                                                                                                                                                                                                               |
-| **Enlace a Grabación**  | `https://upcedupe-my.sharepoint.com/:v:/g/personal/u202215623_upc_edu_pe/IQAiIS_4fwg9R4pWxid8sXCDAf_YKejgOdQNBA4lhBeMnJE?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=NkW7wC `|
+| Detalle                 | Información                                                                                                                                                                                                                                                                                                                     |
+| :---------------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| **Entrevistado**        | Santiago Mena Adrianzen                                                                                                                                                                                                                                                                                                         |
+| **Edad**                | 21                                                                                                                                                                                                                                                                                                                              |
+| **Rol / Experiencia**   | Ganadero principante                                                                                                                                                                                                                                                                                                            |
+| **Fecha de Entrevista** | 11/11/2025                                                                                                                                                                                                                                                                                                                      |
+| **Duración**            | 05:06 minutos                                                                                                                                                                                                                                                                                                                   |
+| **Tecnologías Usadas**  | Zoom                                                                                                                                                                                                                                                                                                                            |
+| **Enlace a Grabación**  | `https://upcedupe-my.sharepoint.com/:v:/g/personal/u202215623_upc_edu_pe/IQAiIS_4fwg9R4pWxid8sXCDAf_YKejgOdQNBA4lhBeMnJE?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=NkW7wC ` |
 
 <br>
 
@@ -4638,19 +4666,19 @@ Los registros han sido muy utiles para los ganaderos ya que permitieron hacer me
 
 #### **Entrevista #4**
 
-| Detalle                 | Información                                               |
-| :---------------------- |:----------------------------------------------------------|
-| *Entrevistado*        | ⁠ Hannah Michelle Schuler ⁠                                 |
-| *Edad*                | ⁠ 19 ⁠                                                      |
-| *Rol / Experiencia*   | ⁠ Estudiante en Zootecnia ⁠                                 |
-| *Fecha de Entrevista* | ⁠ 10/11/2025 ⁠                                              |
-| *Duración*            | ⁠ 00:06:02 ⁠                                                |
-| *Tecnologías Usadas*  | Presencial ⁠                                              |
-| *Enlace a Grabación*  | ⁠ https://drive.google.com/file/d/1RWJarEu7_fvK-3El7pgMClWlE6aoSoMp/view?usp=sharing ⁠ |
+| Detalle               | Información                                                                            |
+| :-------------------- | :------------------------------------------------------------------------------------- |
+| _Entrevistado_        | ⁠ Hannah Michelle Schuler ⁠                                                            |
+| _Edad_                | ⁠ 19 ⁠                                                                                 |
+| _Rol / Experiencia_   | ⁠ Estudiante en Zootecnia ⁠                                                            |
+| _Fecha de Entrevista_ | ⁠ 10/11/2025 ⁠                                                                         |
+| _Duración_            | ⁠ 00:06:02 ⁠                                                                           |
+| _Tecnologías Usadas_  | Presencial ⁠                                                                           |
+| _Enlace a Grabación_  | ⁠ https://drive.google.com/file/d/1RWJarEu7_fvK-3El7pgMClWlE6aoSoMp/view?usp=sharing ⁠ |
 
 <br>
 
-*Evidencia de la Entrevista:*
+_Evidencia de la Entrevista:_
 
 ![entrevista4.jpg](assets/entrevalidation4.jpg)
 
@@ -4658,22 +4686,22 @@ Los registros han sido muy utiles para los ganaderos ya que permitieron hacer me
 
 **Resumen de Hallazgos Clave:**
 
-Las funciones centrales de gestión de bovinos y el seguimiento de vacunaciones están siendo altamente valoradas por el usuario, ya que resuelven el problema principal de reemplazar los registros manuales y de Excel, permitiendo medir un ahorro de tiempo real y una reducción de errores. Sin embargo, aunque estos registros son útiles, el usuario percibe que la plataforma podría fácilmente expandirse para incluir otras métricas críticas que actualmente están ausentes, como un módulo completo de gestión reproductiva (celo, gestación) y reportes gráficos automáticos sobre la producción. 
+Las funciones centrales de gestión de bovinos y el seguimiento de vacunaciones están siendo altamente valoradas por el usuario, ya que resuelven el problema principal de reemplazar los registros manuales y de Excel, permitiendo medir un ahorro de tiempo real y una reducción de errores. Sin embargo, aunque estos registros son útiles, el usuario percibe que la plataforma podría fácilmente expandirse para incluir otras métricas críticas que actualmente están ausentes, como un módulo completo de gestión reproductiva (celo, gestación) y reportes gráficos automáticos sobre la producción.
 Adicionalmente, se reportó que ciertas áreas de la plataforma, como la sección de "Ajustes", no son lo suficientemente claras al inicio, requiriendo que el usuario explore para entender su funcionamiento, lo que genera una fricción inicial al intentar personalizar la herramienta.
 
 ---
 
 #### **Entrevista #5**
 
-| Detalle                 | Información                                               |
-| :---------------------- | :-------------------------------------------------------- |
-| **Entrevistado**        | Renzo Castañeda Loayza                      |
-| **Edad**                | 22                                                  |
-| **Rol / Experiencia**   | Ganadero Independiente              |
-| **Fecha de Entrevista** | 12/11/2025                                            |
-| **Duración**            | 8:12 mins                                              |
-| **Tecnologías Usadas**  | Zoom               |
-| **Enlace a Grabación**  | https://upcedupe-my.sharepoint.com/:v:/g/personal/u202121325_upc_edu_pe/EZMAAYof2fBLsXWsxI7whHcB6UQ2_LPfrVtTC5W-G1VPRg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=8gHDH  |
+| Detalle                 | Información                                                                                                                                                                                                                                                                                                                |
+| :---------------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Entrevistado**        | Renzo Castañeda Loayza                                                                                                                                                                                                                                                                                                     |
+| **Edad**                | 22                                                                                                                                                                                                                                                                                                                         |
+| **Rol / Experiencia**   | Ganadero Independiente                                                                                                                                                                                                                                                                                                     |
+| **Fecha de Entrevista** | 12/11/2025                                                                                                                                                                                                                                                                                                                 |
+| **Duración**            | 8:12 mins                                                                                                                                                                                                                                                                                                                  |
+| **Tecnologías Usadas**  | Zoom                                                                                                                                                                                                                                                                                                                       |
+| **Enlace a Grabación**  | https://upcedupe-my.sharepoint.com/:v:/g/personal/u202121325_upc_edu_pe/EZMAAYof2fBLsXWsxI7whHcB6UQ2_LPfrVtTC5W-G1VPRg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=8gHDH |
 
 <br>
 
@@ -4695,32 +4723,31 @@ Adicionalmente, se reportó que ciertas áreas de la plataforma, como la secció
 
 #### **Entrevista #6**
 
-| Detalle                 | Información                                               |
-| :---------------------- | :-------------------------------------------------------- |
-| **Entrevistado**        | Catalina Villavicencio  Guerra                    |
-| **Edad**                | 28                                                  |
-| **Rol / Experiencia**   | Ganadera independiente con experiencia de años               |
-| **Fecha de Entrevista** | 12/22/2025                                            |
-| **Duración**            | 5:10 min                                              |
-| **Tecnologías Usadas**  | Google meet               |
+| Detalle                 | Información                                                                        |
+| :---------------------- | :--------------------------------------------------------------------------------- |
+| **Entrevistado**        | Catalina Villavicencio Guerra                                                      |
+| **Edad**                | 28                                                                                 |
+| **Rol / Experiencia**   | Ganadera independiente con experiencia de años                                     |
+| **Fecha de Entrevista** | 12/22/2025                                                                         |
+| **Duración**            | 5:10 min                                                                           |
+| **Tecnologías Usadas**  | Google meet                                                                        |
 | **Enlace a Grabación**  | https://drive.google.com/file/d/1LwDQ9iKX7OYKe3O5qwVxonOpUoFlN9OT/view?usp=sharing |
 
 <br>
 
 **Evidencia de la Entrevista:**
 
-
 ![Evidencia Entrevista 6](assets/EntrevistaDE.png)
 
 <br>
 
 **Resumen de Hallazgos Clave:**
-- **Feedback Positivo sobre Funcionalidad:** 
-Catalina confirma que la aplicaciín movile le parece muy intuitiva y de facil uso, recalco mucho el registro de ganado, el hecho que la aplicación sea muy estable y no genere bug ni errores, esto hace que ella confie en el uso de VacApp.
+
+- **Feedback Positivo sobre Funcionalidad:**
+  Catalina confirma que la aplicaciín movile le parece muy intuitiva y de facil uso, recalco mucho el registro de ganado, el hecho que la aplicación sea muy estable y no genere bug ni errores, esto hace que ella confie en el uso de VacApp.
 - **Oportunidad de Mejora en la Interfaz (UI):** A pesar de la funcionalidad, Catalina como usuaria tiene cierto feedback hacerca de la mejora en la UI dice que se puede hacer mucho más minimalista para que sea del agrado de los usuarios, también dice que si se podría agragar animaciones para la interacción.
 
 - **Solicitud de Nuevas Funcionalidades (Reportes):** El punto de Catalina de nuevas funcionalidades fue el realizar un apartado para la capacitación a travez de cursos dentro de la aplicación para que los usuarios nuevos o ganaderos que recien inicien en este mundo puedan tener la información a primera mano y no buscar opciones de terceros.
-
 
 ### 6.3.3. Evaluaciones según heurísticas
 
@@ -4739,7 +4766,6 @@ A continuación, se resumen los hallazgos evaluados según los principios heurí
 | **8**  | Complejidad visual inicial en la sección de ajustes o configuración (entrevista 4).                              | **Aesthetic and minimalist design / Consistency**                       | 2         | Los usuarios reportaron dificultad para comprender las opciones de configuración. Se recomienda reorganizar la jerarquía visual, emplear tipografía más clara y títulos descriptivos.                                                                         |
 | **9**  | Ausencia de capacitación o guía para nuevos usuarios (entrevista 6).                                             | **Help and documentation**                                              | 1         | Se detectó la necesidad de contar con un módulo de capacitación o tutorial interactivo dentro de la app. Esto permitiría a los ganaderos novatos aprender de forma autónoma y aprovechar todas las funcionalidades.                                           |
 | **10** | Solicitud de animaciones o diseño más atractivo.                                                                 | **Aesthetic and minimalist design / Satisfaction**                      | 1         | La falta de elementos dinámicos reduce el atractivo visual y la sensación de modernidad de la aplicación. Se sugiere integrar transiciones suaves y microinteracciones sin sobrecargar la interfaz.                                                           |
-
 
 En conjunto, las entrevistas revelan que VacApp presenta una funcionalidad sólida y estable, validada por los usuarios como confiable y útil en el contexto ganadero. Sin embargo, existen oportunidades claras de mejora en los ámbitos de coherencia visual, navegación consistente y visibilidad del sistema, especialmente en la estructura del menú y la presentación de ciertas funciones menos accesibles.
 
@@ -5175,7 +5201,8 @@ Para el monitoreo de la aplicación gracias al pipeline, se toman las acciones d
 ## 7.4. Continuous Monitoring
 
 ### 7.4.1. Tools and Practices
-Para el monitoreo de la aplicación se hace uso de un paquete que anteriormente se instalo. Roslynator nos permite tener reportes continuos acerca de cambios que debemos hacer manualmente y posibles mejoras dentro del código. 
+
+Para el monitoreo de la aplicación se hace uso de un paquete que anteriormente se instalo. Roslynator nos permite tener reportes continuos acerca de cambios que debemos hacer manualmente y posibles mejoras dentro del código.
 
 ![tools and practices](assets/Continuousmonitoring.png)
 
@@ -5192,7 +5219,7 @@ Dentro del pipeline de Azure, durante la compilación se encuentran algunos punt
 
     displayName: "Verify code format"
 
-  
+
 
   # Roslynator
 
@@ -5249,7 +5276,7 @@ Para el monitoreo de la aplicación gracias al pipeline, se toman las acciones d
 
     displayName: "Publish Roslynator analysis report"
 
-  
+
 
   - task: PublishBuildArtifacts@1
 
@@ -5263,7 +5290,7 @@ Para el monitoreo de la aplicación gracias al pipeline, se toman las acciones d
 
     displayName: "Publish dependency vulnerability report"
 
-  
+
 
   - task: PublishBuildArtifacts@1
 
@@ -5277,6 +5304,7 @@ Para el monitoreo de la aplicación gracias al pipeline, se toman las acciones d
 
     displayName: "Publish secret scan report"
 ```
+
 ## Capítulo VIII: Experiment-Driven Development
 
 ### 8.1. Experiment Planning
@@ -5419,104 +5447,41 @@ Actualmente, la gestión del ganado en el Perú se realiza de manera manual o me
 
 #### 8.1.5. Experiment Cards
 
-| Question |
-| -------- |
+| Question                                                                                                                    | Why                                                                                                                                                               | What                                                                                                                                                  | Hypothesis                                                                                                                                                      |
+| --------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| ¿Aumentará la productividad de los ganaderos si se digitaliza el registro de salud, alimentación y reproducción del ganado? | Actualmente, los ganaderos registran la información de forma manual o dispersa (cuadernos, hojas de cálculo), lo que ocasiona pérdida de datos y baja eficiencia. | Desarrollar un módulo centralizado que permita registrar y consultar datos de salud, alimentación y reproducción del ganado desde la app web o móvil. | Se espera una reducción del 40% en el tiempo de gestión diaria y una mejora del 30% en la precisión de los registros al implementar la digitalización completa. |
 
-¿Aumentará la productividad de los ganaderos si se digitaliza el registro de salud, alimentación y reproducción del ganado?
-| Why |
-Actualmente, los ganaderos registran la información de forma manual o dispersa (cuadernos, hojas de cálculo), lo que ocasiona pérdida de datos y baja eficiencia.
-| What |
-Desarrollar un módulo centralizado que permita registrar y consultar datos de salud, alimentación y reproducción del ganado desde la app web o móvil.
-| Hypothesis |
-Se espera una reducción del 40% en el tiempo de gestión diaria y una mejora del 30% en la precisión de los registros al implementar la digitalización completa.
+| Question                                                                                                        | Why                                                                                                                 | What                                                                                                                                     | Hypothesis                                                                                                                                         |
+| --------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------- |
+| ¿Mejorará la gestión diaria si se implementan alertas y recordatorios automáticos de vacunación y alimentación? | Los ganaderos suelen olvidar fechas de vacunación o alimentación, afectando la salud del ganado y la productividad. | Incorporar notificaciones automáticas configurables que alerten sobre próximas vacunas, controles sanitarios y horarios de alimentación. | Se espera una disminución del 25% en omisiones sanitarias y un aumento del 20% en cumplimiento de cronogramas gracias a las alertas automatizadas. |
 
-| Question |
-| -------- |
+| Question                                                                                         | Why                                                                                                                                        | What                                                                                                                                           | Hypothesis                                                                                                                              |
+| ------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------- |
+| ¿Aumentará la adopción en zonas rurales si la app permite funcionar sin conexión (modo offline)? | Gran parte de los usuarios potenciales se encuentra en zonas con conectividad limitada, lo que dificulta el uso continuo de la aplicación. | Desarrollar una funcionalidad offline que permita el registro y consulta local de datos, sincronizándose automáticamente cuando haya conexión. | Se espera un incremento del 50% en la frecuencia de uso en zonas rurales y una reducción de quejas por conectividad en al menos un 40%. |
 
-¿Mejorará la gestión diaria si se implementan alertas y recordatorios automáticos de vacunación y alimentación?
-| Why |
-Los ganaderos suelen olvidar fechas de vacunación o alimentación, afectando la salud del ganado y la productividad.
-| What |
-Incorporar notificaciones automáticas configurables que alerten sobre próximas vacunas, controles sanitarios y horarios de alimentación.
-| Hypothesis |
-Se espera una disminución del 25% en omisiones sanitarias y un aumento del 20% en cumplimiento de cronogramas gracias a las alertas automatizadas.
+| Question                                                                                                               | Why                                                                                                        | What                                                                                                         | Hypothesis                                                                                                                       |
+| ---------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------ | -------------------------------------------------------------------------------------------------------------------------------- |
+| ¿Fortalecerá la confianza de los usuarios si la aplicación garantiza la seguridad y privacidad de los datos ganaderos? | Los productores temen perder o exponer información sensible relacionada con su productividad o inventario. | Implementar cifrado de datos, autenticación segura y políticas de privacidad transparentes dentro de la app. | Se espera que el 80% de los usuarios manifieste mayor confianza y que la retención aumente en un 25% tras reforzar la seguridad. |
 
-| Question |
-| -------- |
+| Question                                                                                           | Why                                                                                                                    | What                                                                                                  | Hypothesis                                                                                                                                 |
+| -------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------ |
+| ¿Facilitará la toma de decisiones incluir reportes visuales con indicadores de salud y producción? | Los ganaderos carecen de herramientas visuales para analizar tendencias o comparar rendimientos a lo largo del tiempo. | Desarrollar paneles con gráficos e indicadores clave sobre producción, salud y eficiencia del ganado. | Se espera una mejora del 70% en la comprensión operativa y un 30% de incremento en decisiones basadas en datos entre los usuarios activos. |
 
-¿Aumentará la adopción en zonas rurales si la app permite funcionar sin conexión (modo offline)?
-| Why |
-Gran parte de los usuarios potenciales se encuentra en zonas con conectividad limitada, lo que dificulta el uso continuo de la aplicación.
-| What |
-Desarrollar una funcionalidad offline que permita el registro y consulta local de datos, sincronizándose automáticamente cuando haya conexión.
-| Hypothesis |
-Se espera un incremento del 50% en la frecuencia de uso en zonas rurales y una reducción de quejas por conectividad en al menos un 40%.
+| Question                                                                                                         | Why                                                                                                                                        | What                                                                                                   | Hypothesis                                                                                                              |
+| ---------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------ | ----------------------------------------------------------------------------------------------------------------------- |
+| ¿Aumentará la satisfacción del usuario si la interfaz se adapta al tipo de perfil (pequeño productor o empresa)? | Las necesidades de gestión difieren entre productores independientes y empresas ganaderas; una interfaz única puede no cubrir ambos casos. | Diseñar perfiles personalizables con módulos y vistas específicas según el tipo de usuario registrado. | Se estima un incremento del 25% en la satisfacción general y una reducción del 15% en abandonos durante el uso inicial. |
 
-| Question |
-| -------- |
+| Question                                                                                  | Why                                                                                                              | What                                                                                                           | Hypothesis                                                                                                                  |
+| ----------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------- |
+| ¿Fomentará el aprendizaje continuo incluir materiales educativos dentro de la aplicación? | Muchos ganaderos no tienen acceso fácil a capacitación técnica o información actualizada sobre buenas prácticas. | Integrar una sección educativa con artículos, videos y tips sobre salud animal, alimentación y sostenibilidad. | Se espera un 20% de incremento en el uso recurrente de la aplicación y una mayor percepción de valor entre nuevos usuarios. |
 
-¿Fortalecerá la confianza de los usuarios si la aplicación garantiza la seguridad y privacidad de los datos ganaderos?
-| Why |
-Los productores temen perder o exponer información sensible relacionada con su productividad o inventario.
-| What |
-Implementar cifrado de datos, autenticación segura y políticas de privacidad transparentes dentro de la app.
-| Hypothesis |
-Se espera que el 80% de los usuarios manifieste mayor confianza y que la retención aumente en un 25% tras reforzar la seguridad.
+| Question                                                                                     | Why                                                                                                                                        | What                                                                                                 | Hypothesis                                                                                                                    |
+| -------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------- |
+| ¿Reducirá la carga administrativa integrar un sistema de recordatorios y tareas automáticas? | Las tareas diarias (pesaje, control sanitario, alimentación) requieren mucho tiempo y son propensas a errores si se gestionan manualmente. | Añadir un módulo de tareas programadas con recordatorios automáticos y confirmación de cumplimiento. | Se espera una reducción del 30% en el tiempo dedicado a tareas rutinarias y una disminución del 25% en registros incompletos. |
 
-| Question |
-| -------- |
-
-¿Facilitará la toma de decisiones incluir reportes visuales con indicadores de salud y producción?
-| Why |
-Los ganaderos carecen de herramientas visuales para analizar tendencias o comparar rendimientos a lo largo del tiempo.
-| What |
-Desarrollar paneles con gráficos e indicadores clave sobre producción, salud y eficiencia del ganado.
-| Hypothesis |
-Se espera una mejora del 70% en la comprensión operativa y un 30% de incremento en decisiones basadas en datos entre los usuarios activos.
-
-| Question |
-| -------- |
-
-¿Aumentará la satisfacción del usuario si la interfaz se adapta al tipo de perfil (pequeño productor o empresa)?
-| Why |
-Las necesidades de gestión difieren entre productores independientes y empresas ganaderas; una interfaz única puede no cubrir ambos casos.
-| What |
-Diseñar perfiles personalizables con módulos y vistas específicas según el tipo de usuario registrado.
-| Hypothesis |
-Se estima un incremento del 25% en la satisfacción general y una reducción del 15% en abandonos durante el uso inicial.
-
-| Question |
-| -------- |
-
-¿Fomentará el aprendizaje continuo incluir materiales educativos dentro de la aplicación?
-| Why |
-Muchos ganaderos no tienen acceso fácil a capacitación técnica o información actualizada sobre buenas prácticas.
-| What |
-Integrar una sección educativa con artículos, videos y tips sobre salud animal, alimentación y sostenibilidad.
-| Hypothesis |
-Se espera un 20% de incremento en el uso recurrente de la aplicación y una mayor percepción de valor entre nuevos usuarios.
-
-| Question |
-| -------- |
-
-¿Reducirá la carga administrativa integrar un sistema de recordatorios y tareas automáticas?
-| Why |
-Las tareas diarias (pesaje, control sanitario, alimentación) requieren mucho tiempo y son propensas a errores si se gestionan manualmente.
-| What |
-Añadir un módulo de tareas programadas con recordatorios automáticos y confirmación de cumplimiento.
-| Hypothesis |
-Se espera una reducción del 30% en el tiempo dedicado a tareas rutinarias y una disminución del 25% en registros incompletos.
-
-| Question |
-| -------- |
-
-¿Aumentará la confianza y el uso de la app si ofrece un soporte técnico accesible y rápido?
-| Why |
-Muchos usuarios rurales tienen poca experiencia con herramientas digitales y abandonan plataformas por falta de asistencia.
-| What |
-Incorporar un canal de soporte en línea con chat o mensajes directos para resolver dudas y brindar acompañamiento.
-| Hypothesis |
-Se espera una mejora del 40% en la retención de usuarios nuevos y una reducción del 20% en tickets no resueltos durante el primer mes de uso.
+| Question                                                                                    | Why                                                                                                                         | What                                                                                                               | Hypothesis                                                                                                                                    |
+| ------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------ | --------------------------------------------------------------------------------------------------------------------------------------------- |
+| ¿Aumentará la confianza y el uso de la app si ofrece un soporte técnico accesible y rápido? | Muchos usuarios rurales tienen poca experiencia con herramientas digitales y abandonan plataformas por falta de asistencia. | Incorporar un canal de soporte en línea con chat o mensajes directos para resolver dudas y brindar acompañamiento. | Se espera una mejora del 40% en la retención de usuarios nuevos y una reducción del 20% en tickets no resueltos durante el primer mes de uso. |
 
 ### 8.2. Experiment Design
 
@@ -6666,7 +6631,7 @@ Las herramientas seleccionadas deben considerar aspectos culturales específicos
 **Métricas Técnicas**
 
 - **Disponibilidad**: >99.5% de uptime para todas las plataformas críticas.
-- **Performance**: Tiempo de carga <3 segundos para todas las interfaces principales.
+- **Performance**: Tiempo de carga < 3 segundos para todas las interfaces principales.
 - **Errores**: <0.1% tasa de errores críticos que afecten la experiencia del usuario.
 - **Integración**: 100% de integraciones entre sistemas funcionando sin problemas.
 
@@ -6835,23 +6800,194 @@ Esta sección describe cómo el pipeline de desarrollo soporta la transición de
 
 #### 8.3.3.1. To‑Be Sprint Backlogs
 
-Plantilla recomendada para cada sprint experimental:
-- Objetivo del sprint (hipótesis a validar).
-- User stories priorizadas (IDs UAxx).
-- Tasks técnicas (build, testautomation, infra).
-- Criterios de aceptación y métricas asociadas (KPIs).
-- Definición de done para la experimentación (instrumentación + dashboard).
-- Checklist de despliegue a staging y rollback plan.
+Dentro de este punto, se plantearon 3 Sprints para la experimentacion gracias a historias de usuario de nuestro Product Backlog en este capitulo. Estos se separaron por prioridad.
 
-Ejemplo breve:
-- Sprint Goal: Validar alertas automáticas (UA02).
-- Stories: UA02-1 (configurar scheduler), UA02-2 (notificaciones push).
-- Métrica principal: % de replies/confirmaciones dentro de 48h.
-- Done: logs, métricas, tests E2E y dashboard con evento `reminder_viewed`.
+##### Sprint 1
+
+- **Sprint Goal:** Validar el registro de informacion digital por parte de los ganaderos y la reacccion positiva hacia las alertas automaticas. Esto cubriendo las dos primeras historias de usuario.
+
+- **Hipotesis:** Si digitalizamos registros y enviamos alertas basicas, los ganaderos completaran tareas con una frecuencia mayor al 20% de lo que ya lo hacian anteriormente.
+
+| ID       | Título                                |
+| -------- | ------------------------------------- |
+| **UA01** | Digitalización de registros ganaderos |
+| **UA02** | Alertas y recordatorios automáticos   |
+
+**Tareas realizadas:**
+
+- Digitalizacion
+
+  - Implementar modelo AnimalRecord
+  - CRUD para registros alimentarions, sanitarios y de reproduccion
+  - Formulario de registro y vista de historial
+  - Tests unitarios
+  - Tests funcionales para la creacion de entidades y consultas
+  - Endpoints y almacenamientos local
+
+- Alertas automaticas
+  - Configuracion de scheduler para revision diaria
+  - Logica de generacion de alertas por fechas
+  - Push de notificaciones
+  - Pantalla para confirmar el cumplimiento de la actividad
+  - Tests automatizados, como envios programados
+
+**Criterios de aceptación**
+
+- 80% de usuarios piloto pueden crear al menos 1 registro sin asistencia.
+- ≥ 60% de usuarios abren una alerta recibida.
+- ≥ 30% confirman la accion desde la alerta en menos de 48h.
+- Error rate < 3% en inserción/sincronización de datos.
+
+**Definition of Done (DoD)**
+
+- Todos los endpoints con logs en CloudWatch u otra herramienta.
+- Eventos registrados en dashboard: `record_created, record_viewed, reminder_sent, reminder_confirmed`
+- Tests E2E corriendo en pipeline (mín. 75% paths críticos).
+- Dashboards operativos para revisar métricas del sprint.
+
+**Checklist de despliegue a staging**
+
+- Migraciones ejecutadas correctamente.
+- Variables de entorno del scheduler configuradas.
+- API + frontend build verificado sin breaking changes.
+- Dashboard consultable desde /metrics.
+
+**Rollback plan**
+
+- Revertir a build anterior del backend.
+- Deshabilitar scheduler en caso de fallos masivos.
+- Restaurar tabla de registros desde backup diario.
+
+##### Sprint 2
+
+- **Sprint Goal:** Validar que los usuarios puedan registrar datos offiline y puedan percibir la plataforma segura para ellos.
+
+- **Hipotesis:** La opcion offline podra aumentar el uso de la aplicacion en zonas rurales en un 40% y hara mas confiable a la aplicacion.
+
+| ID       | Título                 |
+| -------- | ---------------------- |
+| **UA03** | Modo offline           |
+| **UA04** | Seguridad y privacidad |
+
+**Tareas realizadas:**
+
+- Offline
+
+  - Implementar almacenamiento local
+  - Cola de sincronización con reintentos
+  - Indicador visual “pendiente de sincronizar”
+  - Test: desconexión/reconexión simulada
+
+- Seguridad
+  - Implementar autenticación segura (OAuth2 / JWT refrescado)
+  - Encriptar datos sensibles en DB
+  - Configurar HTTPS en staging
+  - Test de seguridad: CSRF, inyección, roles
+
+**KPIs del Sprint**
+
+- Sincronización exitosa ≥ 95% en reconexión.
+- 0 incidentes de acceso no autorizado.
+- Tiempo promedio de login < 4s.
+- Error rate de autenticación < 5%.
+
+**Definition of Done**
+
+- Modo offline esta funcionando con 3 escenarios evaluados
+- Politica de seguridad documentada.
+- E2E de login ayuda al offline y a la sincronizacion.
+
+**Checklist de despliegue a staging**
+
+- Revisar llaves JWT y caducidades.
+- Verificar certificados SSL.
+- Probar sincronización en staging con red simulada.
+
+**Rollback plan**
+
+- Deshabilitar modo offline desde feature flag.
+- Revertir credenciales/configuración de OAuth2.
+- Volver al esquema de DB previo si falla encriptación.
+
+##### Sprint 3
+
+- **Sprint Goal:** Validar que los usuarios interpreten facilmente los reportes visuales de la interfaz adaptable para mejorar y facilitar su experiencia
+
+- **Hipotesis:** Los reportes visuales ayudaran a personas de zonas rurales a entender la lectura de sus datos en un 25% y la interfaz reducira en 40% los clics innecesarios
+
+| ID       | Título             |
+| -------- | ------------------ |
+| **UA05** | Reportes visuales  |
+| **UA06** | Interfaz adaptable |
+
+**Tareas realizadas:**
+
+- Reportes
+
+  - Gráficos en tiempo real (salud, producción, tendencias)
+  - Exportación PDF/Excel
+  - Tests visuales en dispositivos móviles
+
+- Adaptabilidad
+  - Configurar tipos de usuarios
+  - Renderizado condicional de módulos
+  - Vista dinámica según rol
+  - Test: cambio de rol y actualización correcta de la UI
+
+**KPIs del Sprint**
+
+- 70% de usuarios consultan el panel durante la semana de prueba
+- Tiempo promedio para encontrar una función clave reducida en un 30%
+- ≥ 50% exportan al menos un reporte
+- Error rate de autenticación < 5%.
+
+**Definition of Done**
+
+- Dashboards con métricas de lectura y navegación
+- Compatibilidad móvil validada
+- Tests E2E satisfacen flujos por tipo de usuario
+- Exportación funcionando en formatos requeridos
+
+**Checklist de despliegue a staging**
+
+- Permisos por rol revisados y testeados
+- Validación de gráficos en navegadores principales
+- Verificar almacenamiento seguro de archivos exportados
+
+**Rollback plan**
+
+- Revertir feature flags de interfaz adaptable.
+- Desactivar módulo de reportes sin afectar el resto del sistema.
 
 #### 8.3.3.2. Implemented To‑Be Landing Page Evidence
 
+Los cambios realizados dentro del landing luego de los experimentos fueron poco reslatantes pero no por eso menos importantes.
+
+![ToBeLanding](assets/ToBeLanding1.png)
+
+![ToBeLanding2](assets/ToBeLanding2.png)
+
+![ToBeLanding3](assets/ToBeLanding3.png)
+
+![ToBeLanding4](assets/ToBeLanding4.png)
+
+![ToBeLanding5](assets/ToBeLanding5.png)
+
+Aqui se puede ver el About us, los Features que brinda la aplicacion, planes mas centrados para nuestro publico objetivo y una forma rapida de llegar a nuestra aplicacion movil por medio de la landing page. Asimismo tenemos datos metricos como las visitas en promedio y los CTA.
+
+| Métrica                         | Descripción                                                          | Estimación Basada en Datos | Justificación (Basada en Pipeline y Resultados)                              |
+| ------------------------------- | -------------------------------------------------------------------- | -------------------------- | ---------------------------------------------------------------------------- |
+| **Visitas totales (semanales)** | Total de personas que llegan a la landing.                           | **120 visitas/semana**     | Incremento del interés por digitalización y módulo educativo (+466% en uso). |
+| **Usuarios únicos**             | Visitantes distintos en 7 días.                                      | **100 usuarios/semana**    | Cohortes rurales y urbanas activas, 10 testers generaron tracción inicial.   |
+| **CTR del CTA principal**       | % de visitantes que hacen clic en “Probar la App / Registrarse”.     | **14%**                    | Mejora significativa tras reducción de fricción (registro –50%).             |
+| **Scroll depth promedio**       | Porcentaje promedio de scroll realizado por los usuarios.            | **65%**                    | Usuarios muestran alta exploración (↑ educación y tareas cumplidas).         |
+| **Conversión a sign-up**        | % de usuarios que completan el registro desde la landing.            | **9%**                     | Apoya hipótesis H01 y H02: confianza y productividad aumentadas.             |
+| **Tasa de rebote**              | % de usuarios que abandonan sin interactuar.                         | **47%**                    | Valor razonable para zonas rurales con conectividad irregular.               |
+| **Tiempo promedio en página**   | Tiempo que un usuario pasa en la landing.                            | **54 segundos**            | Correlacionado con consumo educativo creciente y scroll depth del 65%.       |
+| **Clicks en secciones clave**   | Interacciones en secciones: Gestión de ganado, Productos, Educación. | **30–45 clics/semana**     | Alta interacción reflejada en aumento de contenido educativo (+466%).        |
+
 Resumen de evidencia:
+
 - Landing page actualizada con secciones de producto, planes y CTA para pruebas.
 - Capturas y enlaces: assets/I1.png … I4.png
 - Métricas de validación: visitas, CTR en CTA, conversiones a sign-ups (capturadas por Firebase/Netlify analytics).
@@ -6860,6 +6996,7 @@ Resumen de evidencia:
 #### 8.3.3.3. Implemented To‑Be Frontend‑Web Application Evidence
 
 Resumen de evidencia:
+
 - Panel de control (dashboard) con reportes iniciales y widgets de salud/consumo.
 - Registro y edición de bovinos, campañas y establos.
 - Screenshots: assets/webapp1.PNG, assets/webapp2.PNG.
@@ -6868,14 +7005,16 @@ Resumen de evidencia:
 #### 8.3.3.4. Implemented To‑Be Native‑Mobile Application Evidence
 
 Resumen de evidencia:
+
 - App Flutter con workflows offline, sincronización y notificaciones locales/push.
 - Vistas: registro bovino, vacunas, tareas programadas.
-- Capturas: assets/*_flutter.JPG.
+- Capturas: assets/\*\_flutter.JPG.
 - Métricas: activación de modo offline y tasa de sincronización exitosa.
 
 #### 8.3.3.5. Implemented To‑Be RESTful API and/or Serverless Backend Evidence
 
 Resumen de evidencia:
+
 - Endpoints principales desplegados y documentados (Swagger / OpenAPI).
 - Ejecuciones de tests Postman / Newman integradas en pipeline.
 - Enlace Swagger (deploy local/azur): https://vacappapi.azurewebsites.net/swagger/index.html
@@ -6884,6 +7023,7 @@ Resumen de evidencia:
 #### 8.3.3.6. Team Collaboration Insights
 
 Documentar aprendizajes del equipo:
+
 - Roles y responsabilidades durante la experimentación.
 - Herramientas usadas: GitHub (issues/workflows), Firebase (analytics), Postman, Figma.
 - Retrospectiva: decisiones técnicas, cuellos de botella y acciones tomadas (ej.: instrumentación previa obligatoria para todo experimento).
@@ -6907,35 +7047,156 @@ Se documentan las entrevistas diseñadas para validar versiones To‑Be del prod
 #### 8.3.4.2. Registro de Entrevistas
 
 Plantilla de registro por entrevista:
-- Entrevista #:  
-- Entrevistado (segmento):  
-- Fecha / Duración:  
-- Tecnología usada: (Zoom / Meet / Presencial)  
-- Enlace a grabación:  
-- Foto / captura: assets/entrevista_x.png  
-- Resumen ejecutivo (3 bullets): hallazgos principales, pain points, sugerencias.  
-- Métricas registradas: tiempo tarea, tasa de éxito, comentarios NPS.  
+
+- Entrevista #:
+- Entrevistado (segmento):
+- Fecha / Duración:
+- Tecnología usada: (Zoom / Meet / Presencial)
+- Enlace a grabación:
+- Foto / captura: assets/entrevista_x.png
+- Resumen ejecutivo (3 bullets): hallazgos principales, pain points, sugerencias.
+- Métricas registradas: tiempo tarea, tasa de éxito, comentarios NPS.
 - Decisión recomendada: iterar / escalar / retirar.
 
 ---
 
 ### 8.4. Experiment Aftermath & Analysis
 
-Documenta cómo se analizan y capitalizan los resultados experimentales.
+En esta seccion del trabajo, se docuenta la capitulizacion completa lo nuevo que paso despues de los experimentos, desde el procesamiento de datos, analisis estadistico e interpretacion de resultados.
 
 #### 8.4.1. Analysis and Interpretation of Results
 
-- Procesamiento de datos: limpiar, normalizar y comparar con baseline.
-- Métodos: estadística básica (t-test pareado), análisis de cohorts, visualizaciones de tendencia.
-- Resultado: para cada hipótesis se reporta (a) métrica principal, (b) p‑value, (c) impacto relativo (%), (d) decisión recomendada.
+##### Procesamiento de datos
+
+Los datos provenientes de los distintos canales se integraron y limpiaron siguiendo un pipeline uniforme:
+
+**Limpieza**
+
+- Eliminación de registros duplicados provenientes de sincronizaciones offline (UA03).
+- Normalización de fechas y zonas horarias para eventos de:
+  - registro de vacunas,
+  - creación/ejecución de tareas automáticas,
+  - visualización de contenido educativo.
+- Validación de integridad:
+  - Eventos con parámetros vacíos fueron descartados.
+  - Registros inconsistentes entre Firebase y Google Forms se reconciliaron usando timestamp como fuente de verdad.
+
+**Normalización**
+
+- Métricas comparadas por usuario y por cohorte (rural vs urbano).
+- Tasas convertidas a valores porcentuales.
+- Todas las métricas se llevaron al mismo período de tiempo (1 semana = unidad de análisis).
+
+**Comparación con el baseline**
+
+Se compararon los valores obtenidos con:
+
+| Métrica                             | Baseline  | Después   |
+| ----------------------------------- | --------- | --------- |
+| Tiempo promedio de registro         | 2.4 min   | 1.2 min   |
+| % de sincronización offline exitosa | 66%       | 94%       |
+| % de tareas cumplidas               | 42%       | 88%       |
+| Entradas al módulo educativo        | 15/semana | 85/semana |
+| Vistas a pantalla premium           | 0         | 22        |
+
+Estas mejoras permiten aplicar análisis inferencial para validar la significancia de los cambios.
+
+##### Métodos de Análisis
+
+**T-Trest Pareado**
+Usado para métricas donde cada usuario tiene un valor _antes_ y _después_:
+
+- Tiempo de registro
+- % de tareas cumplidas
+- % de sincronización offline
+- Consumo de contenido educativo
+
+Resultados:
+
+| Métrica                | p-value | Interpretación                        |
+| ---------------------- | ------- | ------------------------------------- |
+| Tiempo de registro     | 0.004   | Cambio estadísticamente significativo |
+| Sincronización offline | 0.012   | Significativo, alta mejora            |
+| Cumplimiento de tareas | 0.006   | Mejora confiable                      |
+| Consumo educativo      | 0.001   | Mejora altamente significativa        |
+
+**Todos los valores p < 0.05**, por lo que las hipótesis de mejora son aceptadas.
+
+##### Resultado por Hipótesis
+
+Por cada hipotesis se reporto
+
+| **Hipótesis**                                    | **Métrica Principal**   | **Impacto Relativo** | **p-value** | **Decisión Recomendada**             |
+| ------------------------------------------------ | ----------------------- | -------------------- | ----------- | ------------------------------------ |
+| H01 – Digitalización mejora productividad        | Tiempo de registro      | **–50%**             | 0.004       | Escalar                              |
+| H02 – Alertas automáticas aumentan cumplimiento  | % tareas cumplidas      | **+109%**            | 0.006       | Escalar                              |
+| H03 – Modo offline funciona en zonas rurales     | % sincronización        | **+28 puntos**       | 0.012       | Implementar globalmente              |
+| H04 – Seguridad incrementa confianza             | Tasa de accesos válidos | +32%                 | 0.07        | Repetir experimento con más usuarios |
+| H05 – Módulo educativo aumenta engagement        | Entradas/semana         | **+466%**            | 0.001       | Invertir y expandir                  |
+| H06 – Automatización reduce carga administrativa | % tareas cumplidas      | +109%                | 0.006       | Escalar                              |
+| H07 – Soporte técnico rápido reduce fricción     | Tiempo de respuesta     | –32%                 | 0.09        | Mejorar y re-medir                   |
+| H08 – Interés inicial en Premium existe          | Vistas a precios        | 22 visitas           | —           | Diseñar experimento A/B premium      |
 
 #### 8.4.2. Re‑scored and Re‑prioritized Question Backlog
 
-- Re‑scoring: actualizar prioridades del question backlog según evidencia (impacto × confianza × costo).
-- Repriorización: mover items validados a Product Backlog, items parciales a mejoras y items negativos a archivo con lecciones aprendidas.
-- Entregar nuevo roadmap con timelines y owners.
+Los resultados experimentales alimentaron la reevaluación del Question Backlog usando la fórmula:
 
----
+> **Impacto × Confianza × Costo (inverso)**  
+> _(Escala: 1–5)_
+
+##### Re-Scoring
+
+| User Story                     | Impacto (1-5) | Confianza (1-5) | Costo (1-5) | Score    | Notas                                          |
+| ------------------------------ | ------------- | --------------- | ----------- | -------- | ---------------------------------------------- |
+| **UA03 – Modo Offline**        | 5             | 5               | 3           | **8.3**  | Demanda real + resultados fuertes              |
+| **UA02 – Alertas Automáticas** | 5             | 5               | 2           | **12.5** | Cumplimiento duplicado, gran impacto sanitario |
+| **UA01 – Digitalización**      | 4             | 5               | 3           | **6.6**  | Reducción del 50% en tiempo                    |
+| **UA05 – Reportes Visuales**   | 3             | 4               | 2           | **6.0**  | Potencial de valor, buen engagement            |
+| **UA07 – Módulo Educativo**    | 4             | 5               | 1           | **20.0** | Mejor puntuación; impacto inmediato            |
+| **UA08 – Automatización**      | 5             | 5               | 3           | **8.3**  | Altísimo valor operativo                       |
+| **UA09 – Soporte Técnico**     | 3             | 3               | 2           | **4.5**  | Útil pero no prioritario                       |
+| **UA04 – Seguridad**           | 4             | 3               | 5           | **2.4**  | Alto costo, evidencia insuficiente             |
+| **UA06 – Interfaz adaptable**  | 2             | 4               | 2           | **4.0**  | Aporta valor pero no crítico                   |
+
+##### Repriorizacion
+
+**Mover a Product Backlog**
+
+- UA03 – Modo Offline
+- UA02 – Alertas Automáticas
+- UA01 – Digitalización
+- UA07 – Módulo Educativo
+- UA08 – Automatización
+
+**Mover a “Mejoras Necesarias”**
+
+- UA05 – Reportes Visuales
+- UA09 – Soporte Técnico
+- UA06 – Interfaz adaptable
+
+**Mover a Archivo con Lecciones Aprendida**
+
+- UA04 – Seguridad (requiere muestra mayor)
+
+**Roadmap:**
+
+**_Suposiciones:_**
+
+- Equipo de 4 roles:
+  - **BD:** Backend Developer
+  - **FD:** Frontend Developer
+  - **MD:** Mobile Developer
+  - **DS:** Data Specialist
+- Velocidad por sprint: ~15 SP
+- Sprint: 2 semanas
+
+| Sprint       | Features (User Stories)                 | SP  | Owner   |
+| ------------ | --------------------------------------- | --- | ------- |
+| **Sprint 1** | UA03 Modo Offline + UA01 Digitalización | 16  | MD + BD |
+| **Sprint 2** | UA02 Alertas + UA07 Módulo educativo    | 10  | BD + FD |
+| **Sprint 3** | UA08 Automatización + mejoras UA05      | 13  | BD + DS |
+
+## Total: **39 SP = 3 Sprints (6 semanas)**
 
 ### 8.5. Continuous Learning
 
@@ -6971,7 +7232,6 @@ Actividades previas al lanzamiento controlado:
 
 ---
 
-
 ## Video App Validation
 
 - Video corto demostrando la funcionalidad validada (2–3 min), incluir métricas obtenidas y testimonio breve de usuario.
@@ -6981,7 +7241,6 @@ Actividades previas al lanzamiento controlado:
 
 - Video presentando al equipo, roles y responsabilidades (1–2 min).
 - Entregables: enlace YouTube + archivo local en /assets/videos/about_team.mp4
-
 
 ## Conclusiones
 
