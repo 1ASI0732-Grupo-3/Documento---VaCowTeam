@@ -57,10 +57,15 @@
 | **TB1**     | 20/09/25   | Saldana, Rodrigo Liberato (U202215623), Macavilca Quispe, Ian (U202121325), Rojas Velasquez, Maycol (U202219984), Espinoza Cueva, Stephano (U202218590), Paucar Meneses, Jeremy (U201919449) | Capítulo I: Introducción, Capítulo II: Requirements Elicitation & Analysis, Capítulo III: Requirements Specification, Capítulo IV: Product Design y Capítulo V: Product Implementation, Validation & Deployment                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
 | **TP**      | 06/10/25   | Saldana, Rodrigo Liberato (U202215623), Macavilca Quispe, Ian (U202121325), Rojas Velasquez, Maycol (U202219984), Espinoza Cueva, Stephano (U202218590), Paucar Meneses, Jeremy (U201919449) | Capítulo VI: Product Verification & Validation,Capítulo VI: Product Verification & Validation, Capítulo VI: DevOps Practices                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
 | **TB2**     | 12/10/2025 | Saldana, Rodrigo Liberato (U202215623), Macavilca Quispe, Ian (U202121325), Rojas Velasquez, Maycol (U202219984), Espinoza Cueva, Stephano (U202218590), Paucar Meneses, Jeremy (U201919449) | Capítulo VI: Product Verification & Validation (6.1 Testing Suites & Validation; 6.2 Static testing & Verification: 6.2.1 Static Code Analysis — 6.2.1.1 Coding standard & Code conventions; 6.2.1.2 Code Quality & Code Security; 6.2.2 Reviews; 6.3 Validation Interviews — 6.3.1 Diseño de entrevistas; 6.3.2 Registro de Entrevistas; 6.3.3 Evaluaciones según heurísticas; 6.4 Auditoría de Experiencias de Usuario — 6.4.1 Auditoría realizada (información del grupo auditado, cronograma, contenido) y 6.4.2 Auditoría recibida (información del grupo auditor, cronograma, contenido, resumen de modificaciones)). Además se incluyen Capítulo VII: DevOps Practices (CI, CD, Continuous Deployment, Continuous Monitoring — herramientas, pipelines y componentes) y Capítulo VIII: Experiment-Driven Development (Experiment Planning, Experiment Design y Experimentation con To‑Be User Stories y Product Backlog). |
+| **TF**      | 30/11/25   | Saldana, Rodrigo Liberato (U202215623), Macavilca Quispe, Ian (U202121325), Rojas Velasquez, Maycol (U202219984), Espinoza Cueva, Stephano (U202218590), Paucar Meneses, Jeremy (U201919449) | Capítulo VIII: Experiment-Driven Development (8.3 Experimentation, 8.4 Experiment Aftermath & Analysis, 8.5 Continuous Learning, 8.6 To-Be Software Platform Pre-launch), Conclusiones y recomendaciones, y Video App Validation. -                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
 
 <div style="page-break-before: always;"></div>
 
 # Project Report Collaboration Insights
+
+A continuación se presenta la misma estructura de evidencias y actividades, organizada por cada envío del informe: TB1, TP, TB2 y TF.
+
+## TB1
 
 #### 1. URL del Repositorio en GitHub
 
@@ -70,27 +75,129 @@
 
 #### 2. Actividades de Elaboración del Informe
 
-| Actividad                       | Descripción                                                                                                                                                                                                                                            |
-| ------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| Comunicación de avances         | Se realizaron breves reuniones donde se comentaban los avances de cada integrante para garantizar un trabajo en equipo sincronizado y estar al tanto de cada modificación.                                                                             |
-| Delegación de responsabilidades | Se organizaron charlas y reuniones para la delegación de tareas, promoviendo el trabajo en equipo y el avance continuo de manera asíncrona.                                                                                                            |
-| Recopilación de datos           | Se realizó un estudio del mercado, utilizando los segmentos objetivos para extraer datos significativos mediante entrevistas. Además, se utilizaron referencias bibliográficas para investigar información relevante dentro del desarrollo del informe |
-| Documentación                   | Se desarrollaron diferentes capítulos del informe, utilizando las técnicas, herramientas y metodologías requeridas.                                                                                                                                    |
+| Actividad                       | Descripción                                                               |
+| ------------------------------- | ------------------------------------------------------------------------- |
+| Comunicación de avances         | Reuniones periódicas para coordinar entregables y avances del envío TB1.  |
+| Delegación de responsabilidades | Asignación de tareas iniciales para cubrir diseño, backend y testing.     |
+| Recopilación de datos           | Entrevistas y búsqueda bibliográfica para consolidar capítulos iniciales. |
+| Documentación                   | Redacción de capítulos I–V, prototipos y backlog inicial.                 |
+
+#### 3. Capturas de Imagen de los Analíticos de Colaboración y Commits en GitHub
+
+| Métrica                     | Descripción                        |
+| --------------------------- | ---------------------------------- |
+| Número de commits por autor | ![Pruebas1](assets/isnghits1.png)  |
+| Historial de cambios        | ![Pruebas1](assets/NETWORKTB1.png) |
+
+#### 4. Participación de Todos los Miembros del Equipo
+
+| Evidencia                 | Descripción                                                               |
+| ------------------------- | ------------------------------------------------------------------------- |
+| Contribuciones en GitHub  | Cada integrante entregó sus responsabilidades para TB1 y realizó commits. |
+| Discusiones y actividades | Dailys y revisiones para preparar la entrega TB1.                         |
+| Exposiciones del proyecto | Presentaciones internas y demos para validar alcance del TB1.             |
+
+---
+
+## Envío TP
+
+#### 1. URL del Repositorio en GitHub
+
+| Repositorio del Informe en GitHub                     |
+| ----------------------------------------------------- |
+| https://github.com/orgs/1ASI0732-Grupo-3/repositories |
+
+#### 2. Actividades de Elaboración del Informe
+
+| Actividad                       | Descripción                                                          |
+| ------------------------------- | -------------------------------------------------------------------- |
+| Comunicación de avances         | Seguimiento de integraciones backend/frontend y revisión de pruebas. |
+| Delegación de responsabilidades | Distribución de tareas para CI/CD, pruebas e integración.            |
+| Recopilación de datos           | Recojo de evidencias de pruebas, logs y resultados de integración.   |
+| Documentación                   | Actualización de capítulos VI y secciones de verificación.           |
+
+#### 3. Capturas de Imagen de los Analíticos de Colaboración y Commits en GitHub
+
+| Métrica                     | Descripción                          |
+| --------------------------- | ------------------------------------ |
+| Número de commits por autor | ![Pruebas1](assets/insights.png)     |
+| Historial de cambios        | ![Pruebas1](assets/networkgraph.png) |
+
+#### 4. Participación de Todos los Miembros del Equipo
+
+| Evidencia                 | Descripción                                                                |
+| ------------------------- | -------------------------------------------------------------------------- |
+| Contribuciones en GitHub  | Tasks de CI/CD, tests de integración y ajustes documentados por el equipo. |
+| Discusiones y actividades | Reuniones técnicas para resolver problemas detectados en pipelines.        |
+| Exposiciones del proyecto | Demo de integración y resultados del TP.                                   |
+
+---
+
+## TB2
+
+#### 1. URL del Repositorio en GitHub
+
+| Repositorio del Informe en GitHub                     |
+| ----------------------------------------------------- |
+| https://github.com/orgs/1ASI0732-Grupo-3/repositories |
+
+#### 2. Actividades de Elaboración del Informe
+
+| Actividad                       | Descripción                                                                  |
+| ------------------------------- | ---------------------------------------------------------------------------- |
+| Comunicación de avances         | Coordinación para inclusión de capítulos VI–VIII y pruebas de usuario.       |
+| Delegación de responsabilidades | Roles asignados para auditoría UX, entrevistas y experimentación.            |
+| Recopilación de datos           | Registro de entrevistas, evaluaciones heurísticas y métricas experimentales. |
+| Documentación                   | Incorporación de verificación, DevOps y experiment-driven content (TB2).     |
 
 #### 3. Capturas de Imagen de los Analíticos de Colaboración y Commits en GitHub
 
 | Métrica                     | Descripción                             |
 | --------------------------- | --------------------------------------- |
+| Número de commits por autor | ![Pruebas1](assets/insightsTB2.png)     |
+| Historial de cambios        | ![Pruebas1](assets/networkgraphTB2.png) |
+
+#### 4. Participación de Todos los Miembros del Equipo
+
+| Evidencia                 | Descripción                                                                  |
+| ------------------------- | ---------------------------------------------------------------------------- |
+| Contribuciones en GitHub  | Integración de capítulos VI–VIII, auditorías UX y experimentos documentados. |
+| Discusiones y actividades | Sesiones de validación y revisión de hallazgos de entrevistas heurísticas.   |
+| Exposiciones del proyecto | Presentación de resultados y evidencia para la entrega TB2.                  |
+
+---
+
+## TF
+
+#### 1. URL del Repositorio en GitHub
+
+| Repositorio del Informe en GitHub                     |
+| ----------------------------------------------------- |
+| https://github.com/orgs/1ASI0732-Grupo-3/repositories |
+
+#### 2. Actividades de Elaboración del Informe
+
+| Actividad                       | Descripción                                                                |
+| ------------------------------- | -------------------------------------------------------------------------- |
+| Comunicación de avances         | Consolidación final de entregables, revisión de formato y preparación PDF. |
+| Delegación de responsabilidades | Asignación de correcciones finales, inclusión de anexos y validaciones.    |
+| Recopilación de datos           | Recolección final de evidencias multimedia y videos para anexos.           |
+| Documentación                   | Pulido de conclusiones, bibliografía y anexos; preparación de entrega TF.  |
+
+#### 3. Capturas de Imagen de los Analíticos de Colaboración y Commits en GitHub
+
+| Métrica                     | Descripción                            |
+| --------------------------- | -------------------------------------- |
 | Número de commits por autor | ![Pruebas1](assets/insightsTF.png)     |
 | Historial de cambios        | ![Pruebas1](assets/networkgraphTF.png) |
 
 #### 4. Participación de Todos los Miembros del Equipo
 
-| Evidencia                 | Descripción                                                                                                                                                     |
-| ------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Contribuciones en GitHub  | Cada integrante del equipo completó sus tareas y subió sus avances al repositorio de GitHub. Adempas, cada uno colaboró revisando el trabajo de sus compañeros. |
-| Discusiones y actividades | Se organizaron encuentros virtuales para compartir avances, resolver dudas y atender los desafíos de cada actividad.                                            |
-| Exposiciones del proyecto | Se llevaron a cabo sesiones para exponer el trabajo realizado antes de la fecha orrespondiente y prepararnos adecuadamente para la presentación final.          |
+| Evidencia                 | Descripción                                                                |
+| ------------------------- | -------------------------------------------------------------------------- |
+| Contribuciones en GitHub  | Consolidación final y correcciones por cada integrante para TF.            |
+| Discusiones y actividades | Revisiones finales, pruebas de exportación a PDF y ajuste de imágenes.     |
+| Exposiciones del proyecto | Preparación de la defensa y materiales audiovisuales para la presentación. |
 
 <div style="page-break-before: always;"></div>
 
@@ -269,10 +376,11 @@
   - [8.3.2. To-Be Product Backlog](#832-to-be-product-backlog)
   - [8.3.3. Pipeline‑supported, Experiment‑Driven To‑Be Software Platform Lifecycle](#833-pipeline-supported-experiment-driven-to-be-software-platform-lifecycle)
   - [8.3.3.1. To‑Be Sprint Backlogs](#8331-to-be-sprint-backlogs)
-  - [8.3.3.2. Implemented To‑Be Landing Page Evidence](#8332-implemented-to-be-landing-page-evidence)    - [8.3.3.3. Implemented To‑Be Frontend‑Web Application Evidence](#8333-implemented-to-be-frontend-web-application-evidence)
-   - [8.3.3.4. Implemented To‑Be Native‑Mobile Application Evidence](#8334-implemented-to-be-native-mobile-application-evidence)
-    - [8.3.3.5. Implemented To‑Be RESTful API and/or Serverless Backend Evidence](#8335-implemented-to-be-restful-api-andor-serverless-backend-evidence)
-    - [8.3.3.6. Team Collaboration Insights](#8336-team-collaboration-insights)
+  - [8.3.3.2. Implemented To‑Be Landing Page Evidence](#8332-implemented-to-be-landing-page-evidence)
+  - [8.3.3.3. Implemented To‑Be Frontend‑Web Application Evidence](#8333-implemented-to-be-frontend-web-application-evidence)
+  - [8.3.3.4. Implemented To‑Be Native‑Mobile Application Evidence](#8334-implemented-to-be-native-mobile-application-evidence)
+  - [8.3.3.5. Implemented To‑Be RESTful API and/or Serverless Backend Evidence](#8335-implemented-to-be-restful-api-andor-serverless-backend-evidence)
+  - [8.3.3.6. Team Collaboration Insights](#8336-team-collaboration-insights)
   - [8.3.4. To‑Be Validation Interviews](#834-to-be-validation-interviews)
     - [8.3.4.1. Diseño de Entrevistas](#8341-diseño-de-entrevistas)
     - [8.3.4.2. Registro de Entrevistas](#8342-registro-de-entrevistas)
@@ -300,10 +408,10 @@ El curso contribuye al cumplimiento del Student Outcome ABET:
 
 **Criterio:** La capacidad de reconocer responsabilidades éticas y profesionales en situaciones de ingeniería y hacer juicios informados, que deben considerar el impacto de las soluciones de ingeniería en contextos globales, económicos, ambientales y sociales.
 
-| **Criterio específico**                                                                                                                                          | **Acciones realizadas**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       | **Conclusiones**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
-| ---------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **4.c.1 Reconoce responsabilidad ética y profesional en situaciones de ingeniería de software**                                                                  | <br><br> **1. Rojas Velasquez, Maycol Jhordan**<br>_TB1:_<br> Apliqué buenas prácticas en la elaboración de la documentación técnica, asegurando transparencia en los procesos y citando correctamente las fuentes de información utilizadas.<br>_TP:_<br> Apliqué prácticas de ingeniería de software para las pruebas unitarias y de sistema, garantizando trazabilidad y control de calidad en el código.<br>_TB2:_<br> Asumí responsabilidad en la verificación de artefactos UX y auditorías externas e internas (cap. 6.4), liderando la integración ética de resultados dentro del pipeline DevOps (CI / CD / Deployment), asegurando que el producto se valide antes de ser liberado a ambientes superiores.<br><br> **2. Espinoza Cueva, Stephano Jose**<br>_TB1:_<br> Me involucré de lleno en definir qué era más urgente y cómo íbamos a entregar el producto, participando en la priorización de requisitos y la planificación de entregables.<br>_TP:_<br> Colaboré en la implementación de prácticas de despliegue continuo, priorizando la calidad del software y el cumplimiento de estándares éticos en las entregas del producto.<br>_TB2:_<br> Fui responsable de asegurar la coherencia ética entre métricas, KPIs y trazabilidad analítica (cap. 8.2.7 / 8.2.8), garantizando que no se manipulen resultados ni se tomen decisiones sin datos reales siendo fieles a validaciones provenientes de usuarios entrevistados y auditores.<br><br> **3. Saldana Liberato, Rodrigo**<br>_TB1:_<br> Elaboré documentación clara sobre las historias de usuario y realicé la configuración del entorno de desarrollo y despliegue del producto.<br>_TP:_<br> Elaboré la documentación y ejecución de las pruebas de integración, asegurando el correcto funcionamiento del sistema en conjunto.<br>_TB2:_<br> Asumí responsabilidad ética sobre la transparencia del análisis estático de código y su impacto en seguridad / convenciones (cap. 6.2), asegurando que todos los hallazgos se documenten y que no se oculte ninguno durante el proceso de verificación.<br><br> **4. Macavilca Quispe, Ian**<br>_TB1:_<br> Elaboré el diseño UI/UX del web app, así como el web prototyping.<br>_TP:_<br> Desarrollé el flujo de Integración Continua dentro del pipeline de DevOps.<br>_TB2:_<br> Diseñé la planificación experimental (cap. 8.1), documentando suposiciones y asegurando que los experimentos no alteren datos reales ni afecten a usuarios sin consentimiento previo.<br><br> **5. Paucar Meneses, Jeremy**<br>_TB1:_<br> Elaboré la documentación sobre los competidores, así como los user personas.<br>_TP:_<br> Implementé BDD.<br>_TB2:_<br> Supervisé la formulación de hipótesis (cap. 8.2.1), Domain Business Metrics (cap. 8.2.2) y cálculos de escala experimentales (cap. 8.2.5) garantizando rigurosidad en la toma de decisiones basada en datos reales y no supuestos manipulados.                               | **TB1:** La ética profesional fue la base en todas las etapas del proyecto, asegurando transparencia en la documentación, honestidad en la gestión del código y respeto por las buenas prácticas de desarrollo.<br><br>**TP:** Las pruebas unitarias y de sistema consolidaron la responsabilidad profesional del equipo al validar que cada componente funcionara correctamente bajo principios de calidad y fiabilidad.<br><br>**TB2:** La responsabilidad ética se fortaleció al integrar auditorías UX, pipelines CI/CD, análisis estático y diseño experimental; garantizando que las decisiones se fundamenten en evidencia técnica real, mediciones verificables y datos no manipulados.                                                                                                                |
-| **4.c.2 Emite juicios informados considerando el impacto de las soluciones de ingeniería de software en contextos globales, económicos, ambientales y sociales** | <br><br> **1. Rojas Velasquez, Maycol Jhordan**<br>_TB1:_<br> Analicé cómo la solución propuesta (_VacApp_) impacta en la eficiencia de la ganadería, promoviendo prácticas sostenibles que favorecen al sector económico y respetan el medio ambiente.<br>_TP:_<br> Apliqué juicios técnicos para las pruebas de sistema, evaluando su impacto y funcionamiento dentro del contexto productivo real.<br>_TB2:_<br> Generé juicios informados a partir de las auditorías UX realizadas y recibidas (cap. 6.4), integrando retroalimentación externa en la toma de decisiones del pipeline CI/CD, para asegurar que cada despliegue considere impacto en usuarios reales, stakeholders y la operación ganadera digital a escala.<br><br> **2. Espinoza Cueva, Stephano Jose**<br>_TB1:_<br> Al diseñar las propuestas, mantuve una visión global, considerando cómo nuestro producto afectaría a distintos usuarios y escenarios.<br>_TP:_<br> En la implementación de _Continuous Deployment_, prioricé la estabilidad del entorno productivo y la satisfacción del usuario final.<br>_TB2:_<br> Apliqué juicios basados en métricas, KPIs y analítica (cap. 8.2.7 / 8.2.8) asegurando que las decisiones para pivotear o escalar funciones correspondieran a datos reales y no a percepciones subjetivas, considerando el costo real de intervención, adopción y resultado para la industria ganadera peruana.<br><br> **3. Saldana Liberato, Rodrigo**<br>_TB1:_<br> Documenté las funcionalidades del producto y configuré su despliegue.<br>_TP:_<br> Durante la implementación de las pruebas de integración, profundicé en la lógica de negocio.<br>_TB2:_<br> Utilicé resultados de la verificación estática del código (cap. 6.2) para emitir juicios sobre seguridad, mantenibilidad e impacto futuro del producto; considerando implicancias técnicas, económicas (costos de deuda técnica) y sociales (riesgos de exposición o mal funcionamiento).<br><br> **4. Macavilca Quispe, Ian**<br>_TB1:_<br> Consideré la funcionalidad y practicidad.<br>_TP:_<br> Apliqué principios de eficiencia y sostenibilidad.<br>_TB2:_<br> Apliqué juicios informados durante la definición del _Experiment Planning_ (cap. 8.1), sopesando impacto versus beneficio para decidir qué hipótesis merecen experimentación, evitando costo innecesario, sesgo metodológico y riesgo de generar daño a la data o usuarios objetivo.<br><br> **5. Paucar Meneses, Jeremy**<br>_TB1:_<br> Realicé los diferentes tipos de _Needfinding_.<br>_TP:_<br> Analicé los resultados de las pruebas funcionales y de comportamiento.<br>_TB2:_<br> Apliqué análisis crítico al formular las hipótesis, Domain Business Metrics y decisiones de escalabilidad (cap. 8.2.1 – 8.2.6), considerando impacto económico para el productor ganadero, sostenibilidad en el largo plazo y valor social de introducir mejoras en un sector con alto nivel de informalidad tecnológica. | **TB1:** El desarrollo de VacApp promovió una visión integral que combina innovación tecnológica con sostenibilidad, impulsando prácticas más responsables en la gestión ganadera peruana.<br><br>**TP:** La implementación de pruebas, despliegues continuos y evaluaciones automatizadas permitió emitir juicios técnicos más precisos, asegurando que el sistema mantuviera su impacto positivo en el entorno productivo y social.<br><br>**TB2:** La consideración de auditorías, CI/CD, métricas analíticas y diseño experimental permitió emitir juicios basados en evidencia concreta, asegurando que cada decisión técnica tenga impacto medible sobre factores económicos, globales y sociales, consolidando una visión profesional madura sobre el rol del software dentro del sector ganadero real. |
+| **Criterio específico**                                                                                                                                          | **Acciones realizadas**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    | **Conclusiones**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
+| ---------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **4.c.1 Reconoce responsabilidad ética y profesional en situaciones de ingeniería de software**                                                                  | <br><br> **1. Rojas Velasquez, Maycol Jhordan**<br>_TB1:_<br> Apliqué buenas prácticas en la elaboración de la documentación técnica, asegurando transparencia en los procesos y citando correctamente las fuentes de información utilizadas.<br>_TP:_<br> Apliqué prácticas de ingeniería de software para las pruebas unitarias y de sistema, garantizando trazabilidad y control de calidad en el código.<br>_TB2:_<br> Asumí responsabilidad en la verificación de artefactos UX y auditorías externas e internas (cap. 6.4), liderando la integración ética de resultados dentro del pipeline DevOps (CI / CD / Deployment), asegurando que el producto se valide antes de ser liberado a ambientes superiores.<br>_TF:_<br> Desarrollé y documenté las evidencias del Frontend-Web Application, Native-Mobile Application y RESTful API Backend, asegurando la trazabilidad completa de las implementaciones To-Be. Además, lideré el diseño de las entrevistas de validación To-Be y consolidé las conclusiones finales del proyecto, integrando los hallazgos técnicos, de producto y estratégicos en un reporte coherente que refleja el impacto de VacApp en el sector ganadero peruano.<br><br> **2. Espinoza Cueva, Stephano Jose**<br>_TB1:_<br> Me involucré de lleno en definir qué era más urgente y cómo íbamos a entregar el producto, participando en la priorización de requisitos y la planificación de entregables.<br>_TP:_<br> Colaboré en la implementación de prácticas de despliegue continuo, priorizando la calidad del software y el cumplimiento de estándares éticos en las entregas del producto.<br>_TB2:_<br> Fui responsable de asegurar la coherencia ética entre métricas, KPIs y trazabilidad analítica (cap. 8.2.7 / 8.2.8), garantizando que no se manipulen resultados ni se tomen decisiones sin datos reales siendo fieles a validaciones provenientes de usuarios entrevistados y auditores.<br>_TF:_<br> Documenté el Pipeline-supported, Experiment-Driven To-Be Software Platform Lifecycle y los Team Collaboration Insights, asegurando que el ciclo de experimentación y aprendizaje quedara debidamente registrado. Mi aporte consolidó la visión DevOps del proyecto y garantizó que las lecciones aprendidas estuvieran disponibles para futuras iteraciones.<br><br> **3. Saldana Liberato, Rodrigo**<br>_TB1:_<br> Elaboré documentación clara sobre las historias de usuario y realicé la configuración del entorno de desarrollo y despliegue del producto.<br>_TP:_<br> Elaboré la documentación y ejecución de las pruebas de integración, asegurando el correcto funcionamiento del sistema en conjunto.<br>_TB2:_<br> Asumí responsabilidad ética sobre la transparencia del análisis estático de código y su impacto en seguridad / convenciones (cap. 6.2), asegurando que todos los hallazgos se documenten y que no se oculte ninguno durante el proceso de verificación.<br>_TF:_<br> Desarrollé los To-Be Sprint Backlogs y documenté la Implemented To-Be Landing Page Evidence, asegurando que la planificación experimental se tradujera en tareas concretas con criterios de aceptación medibles. Además, lideré el análisis y la interpretación de resultados experimentales (cap. 8.4.1 y 8.4.2), garantizando decisiones informadas para iterar, escalar o retirar hipótesis según la evidencia recopilada. <br><br> **4. Macavilca Quispe, Ian**<br>_TB1:_<br> Elaboré el diseño UI/UX del web app, así como el web prototyping.<br>_TP:_<br> Desarrollé el flujo de Integración Continua dentro del pipeline de DevOps.<br>_TB2:_<br> Diseñé la planificación experimental (cap. 8.1), documentando suposiciones y asegurando que los experimentos no alteren datos reales ni afecten a usuarios sin consentimiento previo.<br>_TF:_<br> No participé activamente en la entrega final (TF) debido a razones personales y de disponibilidad. Sin embargo, mis contribuciones en entregas previas (especialmente en el diseño experimental y el pipeline CI) fueron fundamentales para el éxito del proyecto. <br><br> **5. Paucar Meneses, Jeremy**<br>_TB1:_<br> Elaboré la documentación sobre los competidores, así como los user personas.<br>_TP:_<br> Implementé BDD.<br>_TB2:_<br> Supervisé la formulación de hipótesis (cap. 8.2.1), Domain Business Metrics (cap. 8.2.2) y cálculos de escala experimentales (cap. 8.2.5) garantizando rigurosidad en la toma de decisiones basada en datos reales y no supuestos manipulados.<br>_TF:_<br> Documenté las secciones de Continuous Learning (cap. 8.5) y To-Be Software Platform Pre-launch (cap. 8.6), asegurando que los mecanismos de aprendizaje organizacional y las actividades previas al lanzamiento estuvieran debidamente estructurados. Mi aporte consolidó el enfoque de mejora continua basado en experimentación y validación empírica. | **TB1:** La ética profesional fue la base en todas las etapas del proyecto, asegurando transparencia en la documentación, honestidad en la gestión del código y respeto por las buenas prácticas de desarrollo.<br><br>**TP:** Las pruebas unitarias y de sistema consolidaron la responsabilidad profesional del equipo al validar que cada componente funcionara correctamente bajo principios de calidad y fiabilidad.<br><br>**TB2:** La responsabilidad ética se fortaleció al integrar auditorías UX, pipelines CI/CD, análisis estático y diseño experimental; garantizando que las decisiones se fundamenten en evidencia técnica real, mediciones verificables y datos no manipulados. <br><br>**TF:** La responsabilidad ética y profesional se materializó en la entrega final al asegurar la trazabilidad completa desde las hipótesis hasta las evidencias implementadas y los resultados de validación. Se garantizó la transparencia en la interpretación de los datos experimentales, la documentación rigurosa de los ciclos de aprendizaje y la presentación honesta del impacto real de la solución, cumpliendo con el compromiso de entregar un producto validado y documentado profesionalmente.                                                                                                                                                                                      |
+| **4.c.2 Emite juicios informados considerando el impacto de las soluciones de ingeniería de software en contextos globales, económicos, ambientales y sociales** | <br><br> **1. Rojas Velasquez, Maycol Jhordan**<br>_TB1:_<br> Analicé cómo la solución propuesta (_VacApp_) impacta en la eficiencia de la ganadería, promoviendo prácticas sostenibles que favorecen al sector económico y respetan el medio ambiente.<br>_TP:_<br> Apliqué juicios técnicos para las pruebas de sistema, evaluando su impacto y funcionamiento dentro del contexto productivo real.<br>_TB2:_<br> Generé juicios informados a partir de las auditorías UX realizadas y recibidas (cap. 6.4), integrando retroalimentación externa en la toma de decisiones del pipeline CI/CD, para asegurar que cada despliegue considere impacto en usuarios reales, stakeholders y la operación ganadera digital a escala.<br>_TF:_<br> Emití juicios informados al implementar las soluciones To-Be (web, móvil, backend) y al diseñar y ejecutar las entrevistas de validación. Este proceso me permitió evaluar directamente el impacto económico (eficiencia, ahorro de tiempo) y social (usabilidad, adopción) de la solución en usuarios reales, contrastando las hipótesis con la evidencia empírica obtenida en el contexto ganadero peruano.<br><br> **2. Espinoza Cueva, Stephano Jose**<br>_TB1:_<br> Al diseñar las propuestas, mantuve una visión global, considerando cómo nuestro producto afectaría a distintos usuarios y escenarios.<br>_TP:_<br> En la implementación de _Continuous Deployment_, prioricé la estabilidad del entorno productivo y la satisfacción del usuario final.<br>_TB2:_<br> Apliqué juicios basados en métricas, KPIs y analítica (cap. 8.2.7 / 8.2.8) asegurando que las decisiones para pivotear o escalar funciones correspondieran a datos reales y no a percepciones subjetivas, considerando el costo real de intervención, adopción y resultado para la industria ganadera peruana.<br>_TF:_<br> Al documentar el ciclo de vida experimental y los insights de colaboración, emití juicios sobre cómo las prácticas DevOps y la dinámica del equipo impactan en la entrega de valor económico y social. Mi análisis aseguró que el proceso de desarrollo fuera sostenible y estuviera alineado con la capacidad del equipo para responder a las necesidades del contexto ganadero.<br><br> **3. Saldana Liberato, Rodrigo**<br>_TB1:_<br> Documenté las funcionalidades del producto y configuré su despliegue.<br>_TP:_<br> Durante la implementación de las pruebas de integración, profundicé en la lógica de negocio.<br>_TB2:_<br> Utilicé resultados de la verificación estática del código (cap. 6.2) para emitir juicios sobre seguridad, mantenibilidad e impacto futuro del producto; considerando implicancias técnicas, económicas (costos de deuda técnica) y sociales (riesgos de exposición o mal funcionamiento).<br>_TF:_<br> Emití juicios informados al analizar e interpretar los resultados de los experimentos (cap. 8.4.1 y 8.4.2). Este análisis me permitió evaluar el impacto real de las soluciones en el contexto económico y social de los usuarios, utilizando datos cuantitativos y cualitativos para decidir si las hipótesis debían ser escaladas, iteradas o descartadas, asegurando que las decisiones de producto estuvieran basadas en evidencia validada.<br><br> **4. Macavilca Quispe, Ian**<br>_TB1:_<br> Consideré la funcionalidad y practicidad.<br>_TP:_<br> Apliqué principios de eficiencia y sostenibilidad.<br>_TB2:_<br> Apliqué juicios informados durante la definición del _Experiment Planning_ (cap. 8.1), sopesando impacto versus beneficio para decidir qué hipótesis merecen experimentación, evitando costo innecesario, sesgo metodológico y riesgo de generar daño a la data o usuarios objetivo.<br>_TF:_<br> No participé activamente en la entrega final (TF).<br><br> **5. Paucar Meneses, Jeremy**<br>_TB1:_<br> Realicé los diferentes tipos de _Needfinding_.<br>_TP:_<br> Analicé los resultados de las pruebas funcionales y de comportamiento.<br>_TB2:_<br> Apliqué análisis crítico al formular las hipótesis, Domain Business Metrics y decisiones de escalabilidad (cap. 8.2.1 – 8.2.6), considerando impacto económico para el productor ganadero, sostenibilidad en el largo plazo y valor social de introducir mejoras en un sector con alto nivel de informalidad tecnológica.<br>_TF:_<br> Al documentar el aprendizaje continuo (cap. 8.5) y las actividades de pre-lanzamiento (cap. 8.6), emití juicios sobre cómo la organización puede capitalizar los hallazgos experimentales para maximizar el impacto económico y social de la plataforma a largo plazo. Mi trabajo aseguró que la estrategia de lanzamiento estuviera informada por el aprendizaje validado, promoviendo una solución sostenible.                                                                                                                                        | **TB1:** El desarrollo de VacApp promovió una visión integral que combina innovación tecnológica con sostenibilidad, impulsando prácticas más responsables en la gestión ganadera peruana.<br><br>**TP:** La implementación de pruebas, despliegues continuos y evaluaciones automatizadas permitió emitir juicios técnicos más precisos, asegurando que el sistema mantuviera su impacto positivo en el entorno productivo y social.<br><br>**TB2:** La consideración de auditorías, CI/CD, métricas analíticas y diseño experimental permitió emitir juicios basados en evidencia concreta, asegurando que cada decisión técnica tenga impacto medible sobre factores económicos, globales y sociales, consolidando una visión profesional madura sobre el rol del software dentro del sector ganadero real.<br><br>**TF:** La fase final del proyecto consolidó la capacidad del equipo para emitir juicios informados al validar las soluciones directamente con usuarios finales. El análisis de los resultados experimentales y la documentación del ciclo de aprendizaje permitieron evaluar de manera tangible el impacto económico y social de VacApp, asegurando que las conclusiones y recomendaciones estratégicas estuvieran fundamentadas en evidencia real y no en suposiciones, demostrando una comprensión madura del rol de la ingeniería de software en contextos de negocio complejos. |
 
 <div style="page-break-before: always;"></div>
 
@@ -926,48 +1034,53 @@ El To-Be Scenario Mapping permite proyectar el escenario ideal de interacción d
 
 Las User Stories representan una herramienta fundamental dentro de las metodologías ágiles para capturar los requerimientos funcionales desde la perspectiva del usuario. Cada historia describe una necesidad concreta, quién la necesita y con qué propósito, facilitando la planificación, priorización y desarrollo iterativo del sistema. Esta técnica garantiza que cada funcionalidad responda a una necesidad real, fomentando un desarrollo orientado al valor y alineado con las expectativas del usuario final.
 
-| Epic ID  |                Título                |                                                                                         Descripción                                                                                         |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |                           |
-| :------: | :----------------------------------: | :-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :------------------------ |
-|  EP001   |           Registrar Vacuna           |                                              Como ganadero quiero poder registrar mi vacuna para que tenga control sobre la salud de mi bovino                                              |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |                           |
-| Story ID |                Título                |                                                                                         Descripción                                                                                         | Criterios de Aceptación                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     | Relacionado con (Epic ID) |
-|  US001   |      Agregar Vacuna al Registro      |                     Como ganadero, quiero agregar una nueva vacuna al registro de mis bovinos para mantener un control actualizado y efectivo de la salud de mi rebaño                      | <p>- **E01: Acceso al formulario para agregar vacuna**<br> **Dado que** un ganadero autenticado.<br> **Cuando** Accede al módulo/vacunas de la aplicación.<br> **Entonces** Se muestra el formulario para el registro de una nueva vacuna, permitiéndole ingresar todos los datos necesarios.</p><p>- **E02: Registro exitoso de la vacuna**<br> **Dado que** El ganadero tiene el formulario abierto.<br> **Cuando** Ingresa todos los datos requeridos correctamente y envía el formulario.<br> **Entonces:** La vacuna se registra exitosamente y se muestra una confirmación del registro.</p><p>- **E03: Manejo de errores en el formulario**<br> **Dado que:** Un ganadero autenticado.<br> **Cuando:** Ingresa datos incompletos o erróneos en el formulario.<br> **Entonces:** El sistema muestra un mensaje de error específico, indicando los campos que deben corregirse.</p><p></p>                                                                                                                                                                                                                                                                                                                                                                                                             | EP001                     |
-|  US002   |         Búsqueda de Vacunas          |                  Como ganadero, quiero buscar vacunas previamente registradas para evitar la duplicación y garantizar que se administre la vacuna correcta a cada bovino.                   | <p>- **E01: Búsqueda por fecha de administración**<br> **Dado que** el ganadero posee múltiples vacunas registradas.<br> **Cuando:** Realiza una búsqueda filtrando por fecha de administración.<br> **Entonces:** Se despliega una lista de vacunas administradas en la fecha especificada.</p><p>- **E02: Búsqueda por tipo de vacuna**<br> **Dado que** el ganadero tiene varias vacunas en el registro.<br> **Cuando** filtra la búsqueda por el tipo específico de vacuna.<br> **Entonces** se muestran únicamente las vacunas que coinciden con el tipo seleccionado.</p><p>- **E03: Sin resultados en la búsqueda**<br> **Dado que** el ganadero tiene vacunas registradas.<br> **Cuando** busca con criterios que no concuerdan con ningún registro.<br> **Entonces** se muestra un mensaje informando que no se encontraron coincidencias.</p><p></p>                                                                                                                                                                                                                                                                                                                                                                                                                                              | EP001                     |
-|  US003   |   Gestión de Registros de Vacunas    |                       Como ganadero, necesito poder editar o eliminar el registro de una vacuna para garantizar que la información se mantenga precisa y actualizada.                       | <p>- **E01: Eliminación exitosa de vacuna**<br> **Dado que** el ganadero selecciona una vacuna del registro.<br> **Cuando** solicita eliminar dicha vacuna y confirma la acción.<br> **Entonces** el sistema elimina la vacuna y muestra una confirmación de la eliminación.</p><p>- **E02: Edición exitosa de vacuna**<br> **Dado que** el ganadero visualiza el registro de una vacuna.<br> **Cuando** modifica los datos y guarda los cambios.<br> **Entonces** el sistema actualiza la información de la vacuna y muestra un mensaje de confirmación.</p><p>- **E03: Error al eliminar vacuna**<br> **Dado que** el ganadero intenta eliminar una vacuna.<br> **Cuando** se produce un error interno en el sistema.<br> **Entonces** no se elimina la vacuna y se muestra un mensaje de error descriptivo.</p><p>- **Escenario 4: Error al editar vacuna**<br> **Dado que** el ganadero intenta modificar una vacuna.<br> **Cuando** se produce un error durante la actualización (por ejemplo, validación fallida).<br> **Entonces** el sistema no actualiza los datos y se notifica el error con detalle de los problemas encontrados.</p>                                                                                                                                                            | EP001                     |
-|  TS001   |         Crear Vacuna vía API         |                  Como desarrollador, necesito exponer un endpoint para registrar una vacuna vía API, de modo que los features de la aplicación dispongan de este registro.                  | <p>- **E01: Registro exitoso**<br> **Dado que** el endpoint /vacunas está disponible.<br> **Cuando** se envía una solicitud POST con datos válidos.<br> **Entonces** se recibe respuesta 201 (Created) con el recurso de vacuna recién creado.</p><p>- **E02: Error por datos inválidos**<br> **Dado que** el endpoint /vacunas está disponible.<br> **Cuando** se envía una solicitud POST sin el campo obligatorio "nombre" (u otro dato requerido).<br> **Entonces:** Se recibe respuesta 400 (Bad Request) con el mensaje: "Falta el nombre de la vacuna".</p><p>- **E03: Error por formato incorrecto**<br> **Dado que** El endpoint /vacunas está disponible.<br> **Cuando:** Se envía una solicitud POST con un formato incorrecto (p.ej., fecha inválida).<br> **Entonces:** Se recibe respuesta 400 con el mensaje: "Formato de fecha de vacunación no válido".</p><p>- **E04: Error por vacuna duplicada**<br> **Dado que:** El endpoint /vacunas está disponible y ya existe una vacuna con el mismo nombre.<br> **Cuando:** Se envía una solicitud POST con datos para una vacuna existente.<br> **Entonces:** Se recibe respuesta 409 (Conflict) con el mensaje: "Ya existe una vacuna con el mismo nombre".</p><p>&emsp;</p>                                                                  | EP001                     |
-|  TS002   |     API para Búsqueda de Vacunas     |             Como desarrollador, quiero implementar un endpoint para buscar vacunas mediante criterios específicos, permitiendo filtrar y obtener registros de manera eficiente.             | <p>- **E01: Búsqueda exitosa**<br> **Dado que:** El endpoint /vacunas está disponible.<br> **Cuando:** Se realiza una solicitud GET con parámetros de búsqueda válidos.<br> **Entonces:** Se recibe respuesta 200 (OK) con una lista de vacunas que cumplen los criterios.</p><p>- **E02: Búsqueda sin resultados**<br> **Dado que:** El endpoint /vacunas está disponible.<br> **Cuando:** Se realiza una solicitud GET con parámetros que no arrojan coincidencias.<br> **Entonces:** Se recibe respuesta 200 con un mensaje informando que no se encontraron resultados.</p><p></p>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      | EP001                     |
-|  TS003   |     API para Gestión de Vacunas      |           Como desarrollador, necesito implementar endpoints para editar y eliminar registros de vacunas, asegurando que se mantenga la integridad y actualización de los datos.            | <p>- **E01: Edición exitosa**<br> **Dado que:** Existe un registro de vacuna y el endpoint /vacunas/{id} está disponible.<br> **Cuando:** Se envía una solicitud PUT con datos válidos para actualizar.<br> **Entonces:** Se recibe respuesta 200 (OK) con la vacuna actualizada.</p><p>- **E02: Error al editar vacuna**<br> **Dado que:** El endpoint /vacunas/{id} está disponible.<br> **Cuando:** Se envía una solicitud PUT con datos inválidos.<br> **Entonces:** Se recibe respuesta 400 con un mensaje de error descriptivo.</p><p>&emsp;**E03: Eliminación exitosa**<br>&emsp;**Dado que:** Existe un registro de vacuna y el endpoint /vacunas/{id} está disponible.<br>&emsp;**Cuando:** Se envía una solicitud DELETE para eliminar la vacuna.<br>&emsp;**Entonces:** Se recibe respuesta 200 (OK) confirmando la eliminación.</p>                                                                                                                                                                                                                                                                                                                                                                                                                                                             | EP001                     |
-| Epic ID  |                Título                |                                                                                         Descripción                                                                                         |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |                           |
-|  EP002   |           Registrar Ganado           |                                   Como ganadero quiero registrar para llevar un control detallado de mi inventario de ganado y su trazabilidad sanitaria                                    |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |                           |
-| Story ID |                Título                |                                                                                         Descripción                                                                                         | Criterios de Aceptación                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     | Relacionado con (Epic ID) |
-|  US004   |      Registro de Bovino en Lote      |                         Como usuario autenticado, quiero registrar un bovino en un lote específico para tener control detallado de la crianza y manejo del animal.                          | <p>- **E01: Registro completo de un bovino**<br> **Dado que** un usuario autenticado.<br> **Cuando** selecciona la opción de registrar un nuevo bovino e ingresa los datos: procedencia, raza, peso inicial, fecha de registro, fotografía, estado de salud, fecha de nacimiento o edad, y observaciones.<br> **Entonces** el sistema genera un ID único, asocia el bovino a un lote específico y confirma el registro exitoso.</p><p>- **E02: Registro sin autenticación**<br> **Dado que** un usuario no autenticado.<br> **Cuando** intenta acceder al módulo de gestión de lotes para registrar un bovino.<br> **Entonces** se redirige al usuario a la página de inicio de sesión.</p><p>- **E03: Registro incompleto**<br> **Dado que** un usuario autenticado en el registro de un bovino.<br> **Cuando** envía el formulario sin completar todos los campos obligatorios.<br> **Entonces** se muestra un mensaje de error solicitando la información faltante.</p><p>- **Escenario 4: Registro con datos inválidos**<br> **Dado que** un usuario autenticado al registrar un bovino.<br> **Cuando** ingresa datos en un formato incorrecto o no conforme a lo esperado.<br> **Entonces** el sistema rechaza el registro y muestra un mensaje de error especificando el formato correcto.</p><p></p> | EP002                     |
-|  US005   |    Buscar Información de Bovinos     |                                 Como usuario, quiero poder buscar animales registrados para acceder de forma rápida y ordenada a la información necesaria.                                  | <p>- **E01: Búsqueda exitosa**<br> **Dado que:** El usuario autenticado en la plataforma.<br> **Cuando:** Realiza una búsqueda (con filtros y criterios) desde el módulo respectivo.<br> **Entonces:** Se muestra una lista clara y ordenada con los resultados correspondientes.</p><p></p>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                | EP002                     |
-|  US006   |  Actualizar Información de Bovinos   |                               Como usuario, quiero gestionar la información de los animales registrados para mantener la base de datos actualizada y precisa.                               | <p>- **E01: Actualización exitosa**<br> **Dado que** el usuario autenticado y accediendo al módulo de gestión de animales.<br> **Cuando** actualiza la información requerida y guarda los cambios.<br> **Entonces** el sistema confirma la actualización mediante un mensaje de éxito.</p><p></p>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           | EP002                     |
-|  TS004   |    API para Registro de Animales     |            Como desarrollador, quiero implementar un endpoint para registrar un bovino en un lote específico, permitiendo la correcta integración de los datos en la aplicación.            | <p>- **E01: Registro exitoso**<br> **Dado que** el endpoint /animales está disponible.<br> **Cuando** se envía una solicitud POST con todos los datos válidos.<br> **Entonces** se recibe respuesta 201 (Created) con el registro del animal.</p><p>- **E02: Error en el registro**<br> **Dado que** el endpoint /animales está disponible.<br> **Cuando** se envía una solicitud POST con datos inválidos o incompletos.<br> **Entonces** se recibe respuesta 400 (Bad Request) con un mensaje de error.</p><p></p>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        | EP002                     |
-|  TS005   |    API para Búsqueda de Animales     |            Como desarrollador, necesito un endpoint que permita buscar animales registrados usando parámetros de búsqueda, facilitando la localización de registros específicos.            | <p>- **E01: Búsqueda exitosa**<br> **Dado que** el endpoint /animales está disponible.<br> **Cuando** se realiza una solicitud GET con parámetros válidos.<br> **Entonces** se recibe respuesta 200 (OK) con la lista de animales que cumplen los criterios.</p><p>- **E02:** En caso de parámetros sin resultados, se indica adecuadamente que no se encontraron animales.</p><p></p>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      | EP002                     |
-|  TS006   |     API para Gestión de Animales     |            Como desarrollador, quiero implementar funcionalidades para editar y eliminar animales registrados, asegurando la actualización y manejo correcto de la información.             | <p>- **E01: Edición exitosa**<br> **Dado que** el endpoint /animales/{id} está disponible y existe el animal.<br> **Cuando** se envía una solicitud PUT con información actualizada y válida.<br> **Entonces** se recibe respuesta 200 (OK) con el animal actualizado.</p><p>- **E02: Eliminación exitosa**<br> **Dado que** el endpoint /animales/{id} está disponible.<br> **Cuando** se realiza una solicitud DELETE para el animal.<br> **Entonces** se recibe respuesta 200 con un mensaje de éxito.</p><p></p>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        | EP002                     |
-| Epic ID  |                Título                |                                                                                         Descripción                                                                                         |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |                           |
-|  EP003   |          Registrar Campaña           |         Como usuario de la plataforma, quiero crear y gestionar campañas ganaderas para mejorar el rendimiento y control de las actividades relacionadas con el engorde del ganado.         |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |                           |
-| Story ID |                Título                |                                                                                         Descripción                                                                                         | Criterios de Aceptación                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     | Relacionado con (Epic ID) |
-|  US007   | Crear Campaña para Engorde de Ganado |         Como usuario de la plataforma, quiero crear una campaña para engordar el ganado asignado, definiendo parámetros como duración, objetivo y selección de animales o establos.         | **E01: Creación de campaña**<br>**Dado que** el usuario autenticado.<br>**Cuando** selecciona la opción de crear una campaña y completa los campos (duración, objetivo, selección de animales o establos).<br>**Entonces** se crea la campaña y se muestra una confirmación                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 | EP003                     |
-|  US008   |     Asociar Empleados a Campaña      |                        <p>Como empresario ganadero, quiero asignar empleados a una campaña para organizar mejor el personal durante la ejecución de esta.</p><p></p>                        | <p>- **E01: Asociación exitosa**<br> **Dado que:** El empresario ganadero autenticado.<br> **Cuando:** Selecciona una campaña existente y asigna empleados válidos.<br> **Entonces:** Los empleados quedan asociados a la campaña y se muestra una notificación de éxito.</p><p></p>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        | EP003                     |
-|  US009   |         Gestión de Campañas          |                          Como usuario, quiero gestionar (editar o modificar) la campaña creada para ajustarla según las necesidades y cambios en la planificación.                          | <p>- **E01: Gestión para ganadero independiente**<br> **Dado que:** El usuario autenticado con una campaña creada.<br> **Cuando:** Realiza cambios (añadir/eliminar tiempo, animales, establos o modificar el objetivo).<br> **Entonces:** Los cambios se reflejan instantáneamente y se confirma la actualización.</p><p>- **E02: Gestión para empresa ganadera**<br> **Dado que:** La empresa con campaña activa.<br> **Cuando:** Realiza cambios adicionales como la asignación o eliminación de personal, además de otros ajustes en el objetivo.<br> **Entonces:** El sistema actualiza y confirma los cambios en la campaña.</p><p></p>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               | EP003                     |
-|  TS007   |     API para Creación de Campaña     |                   Como desarrollador, necesito crear un endpoint que permita la creación de campañas, de modo que se puedan iniciar campañas de engorde en la aplicación.                   | <p>- **E01: Creación exitosa**<br> **Dado que** el endpoint /campanas está disponible.<br> **Cuando** se envía una solicitud POST con datos válidos para la campaña.<br> **Entonces** Se recibe respuesta 201 (Created) con el registro de la campaña.</p><p>- **E02: Error en la creación**<br> **Dado que** el endpoint /campanas está disponible.<br> **Cuando** se envía una solicitud POST con datos incompletos o inválidos.<br> **Entonces** se recibe respuesta 400 (Bad Request) con un mensaje de error.</p><p></p>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               | EP003                     |
-|  TS008   | API para Asociar Empleados a Campaña |                    Como desarrollador, necesito un endpoint para asociar empleados a campañas, permitiendo la asignación de personal a cada campaña desde la aplicación.                    | <p>- **E01: Asociación exitosa**<br> **Dado que** el endpoint /campanas/{id}/empleados está disponible.<br> **Cuando** se envía una solicitud POST con los datos de un empleado válido para la campaña seleccionada.<br> **Entonces** se recibe respuesta 201 (Created) confirmando la asociación.</p><p>- **E02: Error al asociar**<br> **Dado que** el endpoint /campanas/{id}/empleados está disponible.<br> **Cuando** se envía una solicitud POST con un empleado inválido.<br> **Entonces** se recibe respuesta 400 (Bad Request) con el mensaje de error correspondiente.</p><p></p>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 | EP003                     |
-|  TS009   |     API para Gestión de Campañas     |                      Como desarrollador, necesito implementar endpoints que permitan editar y eliminar campañas, facilitando su gestión integral desde la plataforma.                       | <p>- **E01: Edición exitosa**<br> **Dado que** el endpoint /campanas/{id} está disponible.<br> **Cuando** se envía una solicitud PUT con información válida para actualizar la campaña.<br> **Entonces** se recibe respuesta 200 (OK) con la campaña actualizada.</p><p>- **E02 Error al editar campaña**<br> **Dado que** el endpoint /campanas/{id} está disponible.<br> **Cuando** se envía una solicitud PUT con datos inválidos.<br> **Entonces** se recibe respuesta 400 (Bad Request) con un mensaje de error.</p><p>- **E03 Eliminación exitosa**<br> **Dado que** el endpoint /campanas/{id} está disponible.<br> **Cuando** se envía una solicitud DELETE para eliminar la campaña.<br> **Entonces** se recibe respuesta 200 (OK) con un mensaje confirmando la eliminación.</p>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  | EP003                     |
-| Epic ID  |                Título                |                                                                                         Descripción                                                                                         |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |                           |
-|  EP004   |          Registrar Personal          |                         Como empresario ganadero, quiero poder registrar y gestionar a mis empleados para organizar eficazmente los recursos humanos de mi empresa,                         |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |                           |
-| Story ID |                Título                |                                                                                         Descripción                                                                                         | Criterios de Aceptación                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     | Relacionado con (Epic ID) |
-|  US010   |         Registro de Personal         |                      Como empresario ganadero, quiero poder registrar a mis empleados para organizar y gestionar de forma efectiva los recursos humanos de mi empresa.                      | <p>- **E01: Registro completo de empleado**<br> **Dado que:** El empresario autenticado.<br> **Cuando:** Ingresa correctamente todos los datos requeridos para un empleado.<br> **Entonces:** El sistema registra al empleado y muestra una confirmación exitosa.</p><p>- **E02: Registro incompleto o incorrecto**<br> **Dado que:** El empresario autenticado.<br> **Cuando:** Intenta registrar a un empleado sin ingresar toda la información esencial.<br> **Entonces:** Se muestra un mensaje de error indicando la carencia de información requerida</p>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             | EP004                     |
-|  US011   |         Búsqueda de Personal         |             Como empresario ganadero, quiero buscar entre los empleados registrados para localizar y, de ser necesario, gestionar la información de un empleado en específico.              | **E01: Búsqueda exitosa**<br>**Dado que:** El empresario con sesión iniciada.<br>**Cuando:** Realiza la búsqueda utilizando filtros (por nombre, cargo, etc.).<br>**Entonces:** Se muestra el empleado que cumple con los criterios de búsqueda.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            | EP004                     |
-|  US012   |         Gestión de Personal          |                  Como empresario ganadero, necesito gestionar la plantilla de empleados, pudiendo agregar o eliminar registros para mantener la base de datos actualizada.                  | <p>- **E01: Agregar y eliminar empleados**<br> **Dado que:** El empresario autenticado y accediendo al módulo de gestión de personal.<br> **Cuando:** Realiza las operaciones de agregar y/o eliminar empleados.<br> **Entonces:** El sistema confirma con un mensaje de éxito cada uno de los cambios efectuados.</p><p></p>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               | EP004                     |
-|  TS010   |    API para Registro de Empleados    |           Como desarrollador, necesito crear un endpoint para registrar empleados, asegurando que la información de cada uno se almacene correctamente y se confirme la creación.           | <p>- **E01: Registro exitoso**<br> **Dado que** el endpoint /empleados está disponible.<br> **Cuando** se envía una solicitud POST con datos válidos para el empleado.<br> **Entonces** se recibe respuesta 201 (Created) con el registro del empleado.</p><p>- **E02: Error al registrar empleado**<br> **Dado que** el endpoint /empleados está disponible.<br> **Cuando** se envía una solicitud POST con datos incompletos o inválidos.<br> **Entonces** se recibe respuesta 400 (Bad Request) con el mensaje de error.</p><p></p>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      | EP004                     |
-|  TS011   |    API para Búsqueda de Empleados    |         Como desarrollador, necesito implementar un endpoint que permita buscar empleados utilizando filtros específicos, para facilitar la administración de los recursos humanos.         | <p>- **E01: Búsqueda exitosa**<br> **Dado que** el endpoint /empleados está disponible.<br> **Cuando** se realiza una solicitud GET con parámetros válidos.<br> **Entonces** se recibe respuesta 200 (OK) y se devuelve una lista de empleados que cumplen los criterios.</p><p>- **E02: Búsqueda sin resultados**<br> **Dado que** el endpoint /empleados está disponible.<br> **Cuando** se realiza una solicitud GET con parámetros que no arrojan resultados.<br> **Entonces** se recibe respuesta 200 con un mensaje informando que no se encontraron empleados.</p><p></p>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            | EP004                     |
-|  TS012   |    API para Gestión de Empleados     |       Como desarrollador, necesito implementar funcionalidades para editar y eliminar empleados mediante la API, permitiendo que el empresario administre correctamente su plantilla.       | <p>- **E01: Edición exitosa**<br> **Dado que** el endpoint /empleados/{id} está disponible y existe el empleado.<br> **Cuando** se envía una solicitud PUT con información válida para actualizar los datos del empleado.<br> **Entonces** se recibe respuesta 200 (OK) con el registro actualizado.</p><p>- **E02 : Error al editar empleado**<br> **Dado que** el endpoint /empleados/{id} está disponible.<br> **Cuando** se envía una solicitud PUT con datos inválidos o incompletos.<br> **Entonces** se recibe respuesta 400 (Bad Request) con el mensaje de error correspondiente.</p><p>- **E03: Eliminación exitosa**<br> **Dado que** el endpoint /empleados/{id} está disponible y existe el empleado a eliminar.<br> **Cuando** se envía una solicitud DELETE.<br> **Entonces** se recibe respuesta 200 (OK) confirmando la eliminación con un mensaje de éxito.</p><p></p>                                                                                                                                                                                                                                                                                                                                                                                                                    | EP004                     |
-| Epic ID  |                Título                |                                                                                         Descripción                                                                                         |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |                           |
-|  EP005   |     Informarse sobre el Producto     |                          Como visitante, quiero explorar la Landing Page de la aplicación para conocer sus funcionalidades y evaluar si satisface mis necesidades.                          |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |                           |
-| Story ID |                Título                |                                                                                         Descripción                                                                                         | Criterios de Aceptación                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     | Relacionado con (Epic ID) |
-|  US015   |       Explorar la Landing Page       |                 <p>Como visitante, quiero explorar la Landing Page de la aplicación para conocer sus funcionalidades y determinar si satisface mis necesidades.</p><p></p>                  | <p>- **E01: Sección “Quiénes Somos”**<br> **Dado que:** El visitante accede a la Landing Page.<br> **Cuando:** Navega a la sección “Quiénes Somos”.<br> **Entonces:** Encuentra información detallada sobre la misión, visión y valores de la empresa.</p><p></p>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           | EP005                     |
-|  US016   |  ` `Explorar Secciones Informativas  | <p>Como visitante, quiero explorar las secciones informativas (Quiénes Somos, Planes y Funciones) para entender completamente las características y beneficios de la aplicación.</p><p></p> | <p>- **E01: Navegación en secciones informativas**<br> **Dado que:** El visitante ingresa a la Landing Page.<br> **Cuando:** Navega por las secciones “Quiénes Somos”, “Planes” y “Funciones”.<br> **Entonces:** Se le presenta información detallada y estructurada sobre la empresa, los distintos planes ofrecidos y las funcionalidades de la aplicación.</p><p></p>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    | EP005                     |
+| Epic ID | Título           | Descripción                                                                                |     | Relacionado |
+| :-----: | ---------------- | ------------------------------------------------------------------------------------------ | --- | ----------- |
+|  EP001  | Registrar Vacuna | Como usuario, quiero registrar vacunas para mantener control sanitario sobre mis animales. |     |             |
+
+| Story ID | Título                     | Descripción                                                                                               | Criterios de Aceptación                                                                                                                                                                                                                       | Relacionado |
+| :------: | -------------------------- | --------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------- |
+|  US001   | Agregar Vacuna al Registro | Como usuario, quiero agregar una nueva vacuna al registro para mantener el control sanitario actualizado. | - **E01:** Acceso al formulario<br>- **E02:** Registro exitoso<br>- **E03:** Manejo de errores<br>- **E04:** Evitar duplicados<br>- **E05:** Validación de campos obligatorios<br>- **E06:** El formulario debe cargar en menos de 2 segundos | EP001       |
+|  US002   | Búsqueda de Vacunas        | Como usuario, quiero buscar vacunas registradas para evitar duplicidades y asegurar un control adecuado.  | - **E01:** Búsqueda por fecha<br>- **E02:** Búsqueda por tipo<br>- **E03:** Mensaje sin resultados<br>- **E04:** Filtros combinados (fecha + tipo)<br>- **E05:** Historial de búsqueda<br>- **E06:** Orden automático por fecha               | EP001       |
+|  US003   | Gestión de Registros       | Como usuario, quiero editar y eliminar vacunas para mantener mi registro actualizado.                     | - **E01:** Eliminación exitosa<br>- **E02:** Edición exitosa<br>- **E03:** Error controlado<br>- **E04:** Confirmación antes de eliminar<br>- **E05:** Auditoría de cambios<br>- **E06:** Validación estricta en edición                      | EP001       |
+
+| Epic ID | Título           | Descripción                                                                    |     | Relacionado |
+| :-----: | ---------------- | ------------------------------------------------------------------------------ | --- | ----------- |
+|  EP002  | Registrar Ganado | Como usuario, quiero registrar mi ganado para mantener control y trazabilidad. |     |             |
+
+| Story ID | Título                            | Descripción                                                                         | Criterios de Aceptación                                                                                                                                                                                                              | Relacionado |
+| -------- | --------------------------------- | ----------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ----------- |
+| US004    | Registro de Bovino en Lote        | Como usuario, quiero registrar un bovino en un lote para llevar control organizado. | - **E01:** Registro completo<br>- **E02:** Requiere autenticación<br>- **E03:** Campos obligatorios<br>- **E04:** Datos inválidos<br>- **E05:** Validación de foto<br>- **E06:** Asignación correcta a lote y generación de ID único | EP002       |
+| US005    | Buscar Información de Bovinos     | Como usuario, quiero buscar bovinos registrados para revisar su información.        | - **E01:** Búsqueda exitosa<br>- **E02:** Sin resultados<br>- **E03:** Filtros múltiples<br>- **E04:** Ordenamiento automático<br>- **E05:** Resultados responsivos<br>- **E06:** Historial de búsqueda                              | EP002       |
+| US006    | Actualizar Información de Bovinos | Como usuario, quiero actualizar datos del bovino para mantener la base precisa.     | - **E01:** Actualización exitosa<br>- **E02:** Validación de campos<br>- **E03:** Error controlado<br>- **E04:** Auditoría de edición<br>- **E05:** Validación según rol<br>- **E06:** Notificación de cambios                       | EP002       |
+
+| Epic ID | Título            | Descripción                                                                       |     | Relacionado |
+| :-----: | ----------------- | --------------------------------------------------------------------------------- | --- | ----------- |
+|  EP003  | Registrar Campaña | Como usuario, quiero crear y gestionar campañas para mejorar el control ganadero. |     |             |
+
+| Story ID | Título                      | Descripción                                                                                 | Criterios de Aceptación                                                                                                                                                                                                      | Relacionado |
+| -------- | --------------------------- | ------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------- |
+| US007    | Crear Campaña               | Como usuario, deseo crear campañas definiendo objetivos, duración y animales incluidos.     | - **E01:** Creación exitosa<br>- **E02:** Validación de fechas<br>- **E03:** Validación de campos<br>- **E04:** Manejo de animales asociados<br>- **E05:** Evitar campañas duplicadas<br>- **E06:** Confirmación final       | EP003       |
+| US008    | Asociar Empleados a Campaña | Como usuario, quiero asignar empleados a la campaña para organizar correctamente al equipo. | - **E01:** Asociación exitosa<br>- **E02:** Validación de empleado<br>- **E03:** Error controlado<br>- **E04:** Notificación clara<br>- **E05:** Auditoría de la asignación<br>- **E06:** Restricciones según rol            | EP003       |
+| US009    | Gestión de Campañas         | Como usuario, quiero editar y eliminar campañas según cambios en planificación.             | - **E01:** Edición exitosa<br>- **E02:** Eliminación con confirmación<br>- **E03:** Manejo de errores<br>- **E04:** Auditoría completa<br>- **E05:** Actualización en tiempo real<br>- **E06:** Validación estricta de datos | EP003       |
+
+| Epic ID | Título             | Descripción                                                                       |     | Relacionado |
+| :-----: | ------------------ | --------------------------------------------------------------------------------- | --- | ----------- |
+|  EP004  | Registrar Personal | Como usuario, quiero registrar y gestionar empleados para organizar los recursos. |     |             |
+
+| Story ID  | Título                       | Descripción                                                                            | Criterios de Aceptación                                                                                                                                                                                     | Relacionado   |
+| --------- | ---------------------------- | -------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------- |
+| US010     | Registro de Personal         | Como usuario, quiero registrar empleados para organizar mi personal.                   | - **E01:** Registro completo<br>- **E02:** Validación de campos<br>- **E03:** Empleado duplicado<br>- **E04:** Confirmación<br>- **E05:** Validación de foto (opcional)<br>- **E06:** Restricción según rol | EP004         |
+| US011     | Búsqueda de Personal         | Como usuario, quiero buscar empleados registrados para gestionar su información.       | - **E01:** Búsqueda exitosa<br>- **E02:** Filtros múltiples<br>- **E03:** Sin resultados<br>- **E04:** Ordenamiento por cargo<br>- **E05:** Historial de búsqueda<br>- **E06:** Diseño responsivo           | EP004         |
+| US012     | Gestión de Personal          | Como usuario, quiero editar y eliminar empleados según sea necesario.                  | - **E01:** Edición exitosa<br>- **E02:** Eliminación con confirmación<br>- **E03:** Validación<br>- **E04:** Auditoría<br>- **E05:** Restricción por rol<br>- **E06:** Notificación de cambios              | EP004         |
+| Epic ID   | Título                       | Descripción                                                                            |                                                                                                                                                                                                             | Relacionado   |
+| :-------: | ---------------------------- | ------------------------------------------------------------------------------------   | ------------------------------------------------------------------------------------------------------------------------                                                                                    | ------------- |
+| EP005     | Informarse sobre Producto    | Como visitante, quiero explorar la Landing Page para conocer la app y funcionalidades. |                                                                                                                                                                                                             |               |
+
+| Story ID | Título                   | Descripción                                                                              | Criterios de Aceptación                                                                                                                                                                                                          | Relacionado |
+| -------- | ------------------------ | ---------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------- |
+| US015    | Explorar la Landing Page | Como visitante, quiero explorar la página principal para entender la propuesta de valor. | - **E01:** Sección “Quiénes Somos” visible<br>- **E02:** Navegación fluida<br>- **E03:** Diseño responsive<br>- **E04:** Botones CTA visibles<br>- **E05:** Accesibilidad AA<br>- **E06:** Tiempo de carga < 2s                  | EP005       |
+| US016    | Secciones Informativas   | Como visitante, quiero leer secciones informativas sobre planes y funciones.             | - **E01:** Navegación completa<br>- **E02:** Información estructurada y clara<br>- **E03:** Enlaces funcionales<br>- **E04:** Contenido actualizado<br>- **E05:** Animaciones suaves no intrusivas<br>- **E06:** Legibilidad AAA | EP005       |
 
 ### 3.3. Impact Mapping
 
@@ -981,31 +1094,26 @@ Este es el impact mapping realizado con las entrevistas:
 
 ### 3.4. Product Backlog
 
-Para la gestion agil de proyectos, se realizo el Product Backlog que pone en alta estima o prioridad las tareas necesarias para el desarrollo completo de la solucion. Todas estas realzidas en base a lo anteriormente establecido como la historias de usuario y los mapeos.
+Para la gestión ágil del proyecto, se construyó el Product Backlog priorizando únicamente **Historias de Usuario** (HU), eliminando tareas técnicas (TS) de nivel de desarrollo, ya que el Product Backlog debe reflejar valor directo para el usuario final.
 
-| **Orden** | **User Story ID** | **Título**                           | **Descripción**                                                                                                                                                                 | **Story Points (1/2/3)** |
-| :-------- | :---------------- | :----------------------------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | :----------------------- |
-| 1         | US001             | Agregar Vacuna al Registro           | Como ganadero, quiero agregar una nueva vacuna al registro de mis bovinos para mantener un control actualizado y efectivo de la salud de mi rebaño                              | 2                        |
-| 2         | TS001             | Crear Vacuna vía API                 | Como desarrollador, necesito exponer un endpoint para registrar una vacuna vía API, de modo que los features de la aplicación dispongan de este registro.                       | 2                        |
-| 3         | TS002             | API para Búsqueda de Vacunas         | Como desarrollador, quiero implementar un endpoint para buscar vacunas mediante criterios específicos, permitiendo filtrar y obtener registros de manera eficiente.             | 2                        |
-| 4         | US002             | Búsqueda de Vacunas                  | Como ganadero, quiero buscar vacunas previamente registradas para evitar la duplicación y garantizar que se administre la vacuna correcta a cada bovino.                        | 1                        |
-| 5         | TS003             | API para Gestión de Vacunas          | Como desarrollador, necesito implementar endpoints para editar y eliminar registros de vacunas, asegurando que se mantenga la integridad y actualización de los datos.          | 2                        |
-| 6         | TS004             | API para Registro de Animales        | Como desarrollador, quiero implementar un endpoint para registrar un bovino en un lote específico, permitiendo la correcta integración de los datos en la aplicación.           | 2                        |
-| 7         | US003             | Gestión de Registros de Vacunas      | Como ganadero, necesito poder editar o eliminar el registro de una vacuna para garantizar que la información se mantenga precisa y actualizada.                                 | 2                        |
-| 8         | TS005             | API para Búsqueda de Animales        | Como desarrollador, necesito un endpoint que permita buscar animales registrados usando parámetros de búsqueda, facilitando la localización de registros específicos.           | 2                        |
-| 9         | TS006             | API para Gestión de Animales         | Como desarrollador, quiero implementar funcionalidades para editar y eliminar animales registrados, asegurando la actualización y manejo correcto de la información.            | 2                        |
-| 10        | US004             | Registro de Bovino en Lote           | Como usuario autenticado, quiero registrar un bovino en un lote específico para tener control detallado de la crianza y manejo del animal.                                      | 3                        |
-| 11        | TS007             | API para Creación de Campaña         | Como desarrollador, necesito crear un endpoint que permita la creación de campañas, de modo que se puedan iniciar campañas de engorde en la aplicación.                         | 2                        |
-| 12        | TS008             | API para Asociar Empleados a Campaña | Como desarrollador, necesito un endpoint para asociar empleados a campañas, permitiendo la asignación de personal a cada campaña desde la aplicación.                           | 2                        |
-| 13        | US005             | Buscar Información de Bovinos        | Como usuario, quiero poder buscar animales registrados para acceder de forma rápida y ordenada a la información necesaria.                                                      | 2                        |
-| 14        | TS009             | API para Gestión de Campañas         | Como desarrollador, necesito implementar endpoints que permitan editar y eliminar campañas, facilitando su gestión integral desde la plataforma.                                | 2                        |
-| 15        | TS010             | API para Registro de Veterinarios    | Como desarrollador, necesito exponer un endpoint que permita registrar veterinarios en la aplicación, para que luego puedan ser contactados por los ganaderos.                  | 2                        |
-| 16        | US006             | Actualizar Información de Bovinos    | Como usuario, quiero gestionar la información de los animales registrados para mantener la base de datos actualizada y precisa.                                                 | 1                        |
-| 17        | TS011             | API para Búsqueda de Veterinarios    | Como desarrollador, necesito un endpoint que permita buscar veterinarios mediante criterios específicos, para brindar opciones de contacto efectivas.                           | 1                        |
-| 18        | TS012             | API para Registro de Empleados       | Como desarrollador, necesito crear un endpoint para registrar empleados, asegurando que la información de cada uno se almacene correctamente y se confirme la creación.         | 1                        |
-| 19        | US07              | Crear Campaña para Engorde de Ganado | Como usuario de la plataforma, quiero crear una campaña para engordar el ganado asignado, definiendo parámetros como duración, objetivo y selección de animales o establos.     | 1                        |
-| 20        | TS013             | API para Búsqueda de Empleados       | Como desarrollador, necesito implementar un endpoint que permita buscar empleados utilizando filtros específicos, para facilitar la administración de los recursos humanos.     | 1                        |
-| 21        | TS014             | API para Gestión de Empleados        | Como desarrollador, necesito implementar funcionalidades para editar y eliminar empleados mediante la API, permitiendo que el empresario administre correctamente su plantilla. | 1                        |
+A continuación se presenta el backlog corregido:
+
+| **Orden** | **User Story ID** | **Título**                           | **Descripción**                                                                                                                | **Story Points (1/2/3)** |
+| --------- | ----------------- | ------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------ | ------------------------ |
+| 1         | US001             | Agregar Vacuna al Registro           | Como usuario, quiero agregar una vacuna al registro para mantener actualizado el control sanitario del ganado.                 | 2                        |
+| 2         | US002             | Búsqueda de Vacunas                  | Como usuario, quiero buscar vacunas registradas para evitar duplicidades y asegurar un control adecuado.                       | 1                        |
+| 3         | US003             | Gestión de Registros de Vacunas      | Como usuario, quiero editar o eliminar vacunas registradas para mantener la información precisa.                               | 2                        |
+| 4         | US004             | Registro de Bovino en Lote           | Como usuario, quiero registrar un bovino en un lote para llevar control organizado de su crianza.                              | 3                        |
+| 5         | US005             | Buscar Información de Bovinos        | Como usuario, quiero buscar animales registrados y acceder rápidamente a su información.                                       | 2                        |
+| 6         | US006             | Actualizar Información de Bovinos    | Como usuario, quiero actualizar los datos del bovino para mantener la información precisa y ordenada.                          | 1                        |
+| 7         | US007             | Crear Campaña para Engorde de Ganado | Como usuario, quiero crear campañas de engorde definiendo duración, objetivos y animales incluidos.                            | 2                        |
+| 8         | US008             | Asociar Empleados a Campaña          | Como usuario, quiero asignar empleados a una campaña para mejorar la organización del trabajo.                                 | 2                        |
+| 9         | US009             | Gestión de Campañas                  | Como usuario, quiero editar o eliminar campañas según los cambios en la planificación.                                         | 2                        |
+| 10        | US010             | Registro de Personal                 | Como usuario, quiero registrar empleados para organizar los recursos humanos de mi negocio.                                    | 2                        |
+| 11        | US011             | Búsqueda de Personal                 | Como usuario, quiero buscar empleados registrados para poder visualizar y gestionar su información.                            | 1                        |
+| 12        | US012             | Gestión de Personal                  | Como usuario, quiero editar o eliminar información del personal registrado para mantener una base de datos actualizada.        | 2                        |
+| 13        | US015             | Explorar la Landing Page             | Como visitante, quiero explorar la landing page para conocer la propuesta de valor del producto.                               | 1                        |
+| 14        | US016             | Explorar Secciones Informativas      | Como visitante, quiero revisar las secciones “Planes”, “Funciones” y “Quiénes Somos” para conocer el alcance de la aplicación. | 1                        |
 
 ---
 
@@ -1699,6 +1807,570 @@ Incluye entidades como StaffMember, objetos de valor como EmployeeStatus y servi
 | job_description | Descripción del puesto a cargo del empleado                        |
 | dni             | DNI del empleado                                                   |
 | email_address   | Dirección de correo electrónico del usuario.                       |
+
+### 4.10. Database Design
+
+#### 4.10.1. Relational Database Diagram
+
+Para esta solucion se realizó una Base de datos relacional con las siguientes tablas:
+
+![Base de datos](https://github.com/Bovinova/Documento----VacApp/blob/main/assets/ranch.png?raw=true)
+
+Con esta estructura de la base datos que se basa en el modelo DDD de la arquitectura de la aplicacion, se logrará tener un manejo estable de los datos.
+
+---
+
+<div style="page-break-before: always;"></div>
+
+## Capítulo V: Product Implementation
+
+### 5.1. Software Configuration Management
+
+#### 5.1.1. Software Development Environment Configuration
+
+- **Android Studio:** Entorno de desarrollo.\
+  ![image](https://upload.wikimedia.org/wikipedia/commons/c/c1/Android_Studio_icon_%282023%29.svg)
+- **GitHub:** Repositorio colaborativo en la nube.\
+  ![image](https://cdn-1.webcatalog.io/catalog/github/github-icon-filled-256.png?v=1744774208192)
+- **Netifly:** Plataforma que facilita implementar despliegues sencillos para nuestras páginas web.\
+  ![image](https://cmscritic.com/ms-content/uploads/2023/11/netlifty-icon.png?format=auto&width=256)
+- **Vertabelo:** Plataforma colaborativa para la creación de diagramas de base de datos.\
+  ![image](https://hackmd.io/_uploads/r1BjjyQgC.png)
+- **Visual Studio Code:** Entorno de desarrollo para diseño de base de datos.\
+  ![image](https://hackmd.io/_uploads/Hy8d2y7lR.png)
+- **Figma:** Herramienta colaborativa que permite elaborar wireframes y mockups.\
+  ![image](https://hackmd.io/_uploads/BJ99okXeR.png)
+- **Azure:** Herramienta para subir nuestros servicios web en la nube.\
+  [![Azure.jpg](https://i.postimg.cc/Mpjc355p/Azure.jpg)](https://postimg.cc/k2qXBxL0)
+
+#### 5.1.2. Source Code Management
+
+**Repositorio de la Landing Page:**
+**Implementación de GitFlow:**
+Para nuestra estrategia de gestión de versiones con Git, nos hemos inspirado en el artículo "A successful Git branching model" de Vincent Driessen, adoptando el modelo de ramificación GitFlow. Este enfoque nos permite establecer claramente las convenciones de ramificación que aplicamos en nuestro proyecto.
+![image](https://hackmd.io/_uploads/rJt95BobA.png)
+
+- **Rama Principal (Main branch):** Contiene el código en producción y se conoce como la Master branch o Main branch.
+  - Notación: main
+- **Rama de Desarrollo (Develop branch):** Acumula las últimas actualizaciones y cambios para la próxima versión. Funciona como un entorno de integración y prueba continua.
+  - Notación: develop
+- **Rama de Lanzamiento (Release branch):** Facilita la preparación de una nueva versión del producto, permitiendo correcciones de errores y recibiendo más actualizaciones de Develop.
+  - Debe derivarse de: develop
+  - Debe fusionarse con: develop y master/main
+  - Notación: release
+- **Rama de Características (Feature branch):** Se utiliza para desarrollar nuevas funcionalidades para la siguiente versión o futuras iteraciones.
+  - Debe derivarse de: develop
+  - Debe fusionarse de vuelta a: develop
+  - Notación: feature
+- **Rama de Corrección Rápida (Hotfix branch):** Aborda errores críticos en producción, permitiendo la implementación rápida de soluciones.
+  - Debe derivarse de: master/main
+  - Debe fusionarse con: develop y master/main
+  - Notación: hotfix
+
+**Conventional Commits:**
+Adoptamos esta metodología para estructurar los mensajes de confirmación de cambios de manera estándar y semántica, lo que facilita la comunicación y la automatización de registros de cambios.
+**Tipos de Commits Convencionales:**
+
+- feat: Nuevas características o funcionalidades.
+- fix: Correcciones de errores.
+- docs: Cambios o mejoras en la documentación.
+- style: Cambios de formato que no afectan la funcionalidad.
+- refactor: Mejoras en la estructura o legibilidad del código.
+- test: Adición o modificación de pruebas.
+- chore: Cambios en el proceso de construcción o tareas de mantenimiento.
+- perf: Mejoras de rendimiento en el código.
+
+#### 5.1.3. Source Code Style Guide & Conventions
+
+### HTML
+
+| Regla                                    | Ejemplo / Explicación                                        |
+| ---------------------------------------- | ------------------------------------------------------------ |
+| Etiquetas y atributos en minúsculas      | `<div class="container">`, `<img src="logo.png" alt="Logo">` |
+| Atributos ordenados lógicamente          | `class`, `id`, `name`, `type`, `value`, etc.                 |
+| Uso de comillas dobles                   | `<input type="text" name="username">`                        |
+| Indentación consistente (2 o 4 espacios) | No mezclar espacios con tabs                                 |
+
+---
+
+### CSS
+
+| Regla                                 | Ejemplo / Explicación                             |
+| ------------------------------------- | ------------------------------------------------- |
+| Nombres de clases en `kebab-case`     | `.main-header`, `.user-profile-card`              |
+| Propiedades en minúsculas y ordenadas | `color: #333; font-size: 16px; margin-top: 20px;` |
+| Uso de comentarios                    | `/* Sección de estilos para el header */`         |
+| Indentación consistente               | 2 o 4 espacios, no usar tabs                      |
+
+---
+
+### JavaScript
+
+| Regla                                    | Ejemplo / Explicación                                                     |
+| ---------------------------------------- | ------------------------------------------------------------------------- |
+| Variables y funciones en `camelCase`     | `let userName = "Juan";`, `function getUserData() {}`                     |
+| Clases en `PascalCase`                   | `class UserProfile {}`                                                    |
+| Constantes en `UPPER_SNAKE_CASE`         | `const API_URL = "https://api.example.com";`                              |
+| Uso de `const` y `let`                   | Evitar `var`, usar `const` por defecto y `let` si se necesita mutabilidad |
+| Punto y coma al final de líneas          | `let nombre = "Carlos";`                                                  |
+| Indentación consistente (2 o 4 espacios) | Mantener el mismo estilo en todo el proyecto                              |
+
+---
+
+### Kotlin
+
+| Regla                                      | Ejemplo / Explicación                           |
+| ------------------------------------------ | ----------------------------------------------- |
+| Variables y funciones en `camelCase`       | `val userName = "Juan"`, `fun getUserData() {}` |
+| Clases y objetos en `PascalCase`           | `class UserProfile`, `object AppConfig`         |
+| Constantes en `UPPER_SNAKE_CASE`           | `const val MAX_USERS = 100`                     |
+| Archivos nombrados igual que la clase      | `UserProfile.kt`                                |
+| Indentación con 4 espacios                 | No usar tabs                                    |
+| Uso de `val` por defecto, `var` si mutable | Promueve inmutabilidad                          |
+| Expresiones lambda con `it`                | `users.filter { it.isActive }`                  |
+
+#### 5.1.4. Software Deployment Configuration
+
+**Deployment Landing Page:**
+En esta sección, detallamos el proceso de implementación de nuestra landing page en la plataforma de GitHub.
+
+1. Se crea un repositorio en GitHub para alojar el código de nuestra landing page.
+
+![image](https://i.imgur.com/rEVqKl6.png)
+
+2. Agregamos a los participantes:
+
+![image](https://i.imgur.com/zelKt9F.png)
+
+3. Habilitamos Netlifly para poder importar nuestro proyecto:
+
+![image](https://i.imgur.com/Xf4X2G2.jpeg)
+
+4. Finalmente, se confirma el despliegue de nuestra página web después de completar todo el procedimiento.
+
+![image](https://i.imgur.com/P4EipKO.png)
+
+Este proceso garantiza el despliegue satisfactorio de nuestra landing page en la plataforma de Netlifly, siguiendo las especificaciones y requisitos de nuestro proyecto.
+**Enlace de la Landing Page: https://vacapp-landing.netlify.app/**
+<br>
+**About the product: https://www.youtube.com/watch?v=JmOW2IkXjeI**
+<br>
+
+**Deployment Frontend:**
+En esta seccion, detallamos el proceso del deploy del Frontend-web en la plataforma de Firebase.
+
+1. Al utilizar Firebase instalamos firebase en el proyecto
+
+![DeploymentFronten1](https://media.discordapp.net/attachments/766316535290789908/1418282254228000768/image.png?ex=68cd8dc7&is=68cc3c47&hm=11b659f5dedc5f94d9f8d0d4ab8f134bbc8f009e84ccbff4ffb8dd6b166223d3&=&format=webp&quality=lossless&width=1606&height=903)
+
+2. Luego de Instalarlo se inicia sesion y se implementa en Firebase.
+
+![DeploymentFronten2](https://media.discordapp.net/attachments/766316535290789908/1418282254630912051/image.png?ex=68cd8dc7&is=68cc3c47&hm=891b76905ededc3963d37991db6d7e17246409a69f9dc0c517443917d85849e4&=&format=webp&quality=lossless&width=1606&height=903)
+
+3. Con esto, la aplicacion fue desplegada.
+
+![DeploymentFronten3](https://media.discordapp.net/attachments/766316535290789908/1418305403820834866/image.png?ex=68cda357&is=68cc51d7&hm=a98df19fdd7d4debef058b19e499db1db253f36f31445dc47fbd9593ad69efbc&=&format=webp&quality=lossless&width=550&height=309)
+
+**Enlace del Frontend: [https://vacapp-frontend.web.app/auth/login](https://vacapp-frontend.web.app/auth/login)**
+
+**Deployment Backend:**
+En esta sección, detallamos el proceso de implementación de nuestro backend en la plataforma de Microsoft Azure.
+
+1. Se crea un servicio web alojado en azure y afiliado a un grupo de recursos determinado
+
+[![azure-app-service.jpg](https://i.postimg.cc/NMPBcqfq/azure-app-service.jpg)](https://postimg.cc/WFrQGykX)
+
+2. Con la herramienta Azure Tool Kit, un plugin disponible en los entornos de desarrollo de jetbrains, podemos habilitar una vista con los recursos y elementos creados en nuestra cuenta de Azure. Esto nos permite poder publicar el backend directamente al servicio en la nube de Azure.
+
+[![publicar-al-app-service.jpg](https://i.postimg.cc/SQMxhR8g/publicar-al-app-service.jpg)](https://postimg.cc/CdwgCFc8)
+
+3. Una vez realizado de manera satisfactoria este proceso, resolviendo errores y añadiendo configuraciones adicionales de ser requeridas, podremos confirmar que el enlace muestre correctamente los endpoints y observaremos nuestro backend desplegado en un browser predeterminado.
+
+[![swagger-deployed.png](https://i.postimg.cc/Sxs0m13m/swagger-deployed.png)](https://postimg.cc/SJw1rdmP)
+
+**Enlace del backend: https://vacappapi.azurewebsites.net/swagger/index.html**
+
+### 5.2. Product Implementation & Deployment
+
+#### 5.2.1. Sprint Backlogs
+
+---
+
+##### Sprint 1
+
+| User Story Id | User Story Title                       | Task Id | Task Title                                         | Estimation | Assigned To                        | Status |
+| ------------- | -------------------------------------- | ------- | -------------------------------------------------- | ---------- | ---------------------------------- | ------ |
+| TS015         | Acceso a la sección de Home            | T01     | Implementar acceso a la sección de Home            | 2          | Ticona Panduro, Estrella del Pilar | Done   |
+| TS016         | Acceso a la sección de Características | T02     | Implementar acceso a la sección de Características | 1          | Durand Vera, Gianfranco Angel      | Done   |
+| TS017         | Registro de Nuevos Usuarios            | T03     | Implementar registro de nuevos usuarios            | 3          | Ticona Panduro, Estrella del Pilar | Done   |
+| TS018         | Información de Funcionalidades         | T04     | Implementar sección de funcionalidades             | 2          | Durand Vera, Gianfranco Angel      | Done   |
+| TS019         | Sector de Planes Disponibles           | T05     | Implementar sector de planes disponibles           | 3          | Durand Vera, Gianfranco Angel      | Done   |
+| TS020         | Incluir Internacionalización (i18n)    | T06     | Implementar el cambio de idioma                    | 2          | Ticona Panduro, Estrella del Pilar | Done   |
+| TS001         | Crear Vacuna vía API                   | T07     | Implementar POST para vacunas                      | 2          | Aranda Vallejos, Oscar Gabriel     | Done   |
+| TS002         | API para Búsqueda de Vacunas           | T08     | Implementar GET para vacunas                       | 2          | Aranda Vallejos, Oscar Gabriel     | Done   |
+| TS003         | API para Gestión de vacunas            | T09     | Implementar PUT y DELETE para vacunas              | 3          | Aranda Vallejos, Oscar Gabriel     | Done   |
+| TS004         | API para Registro de animales          | T10     | Implementar POST para animales                     | 2          | Aranda Vallejos, Oscar Gabriel     | Done   |
+| TS005         | API para Búsqueda de animales          | T11     | Implementar GET para animales                      | 2          | Aranda Vallejos, Oscar Gabriel     | Done   |
+| TS006         | API para Gestión de animales           | T12     | Implementar PUT y DELETE para animales             | 2          | Aranda Vallejos, Oscar Gabriel     | Done   |
+| TS007         | API para Creación de campaña           | T13     | Implementar POST para campaña                      | 2          | Miranda Sinarahua, Piero Stephano  | Done   |
+| TS009         | API para Gestión de campaña            | T14     | Implementar PUT y DELETE para campaña              | 2          | Miranda Sinarahua, Piero Stephano  | Done   |
+| TS012         | API para Registro de empleados         | T15     | Implementar POST para empleados                    | 2          | Aranda Vallejos, Oscar Gabriel     | Done   |
+
+---
+
+##### Sprint 2
+
+| User Story Id | User Story Title                | Task Id | Task Title                                                                                    | Estimation | Assigned To                        | Status |
+| ------------- | ------------------------------- | ------- | --------------------------------------------------------------------------------------------- | ---------- | ---------------------------------- | ------ |
+| TS001         | Crear Vacuna vía API            | T01     | Implementar exponer un endpoint para registrar una vacuna vía API                             | 2          | Ticona Panduro, Estrella del Pilar | Done   |
+| TS002         | API para Búsqueda de Vacunas    | T02     | Implementación de un endpoint para buscar vacunas mediante criterios específicos              | 1          | Durand Vera, Gianfranco Angel      | Done   |
+| US002         | Búsqueda de Vacunas             | T03     | Implementar búsqueda de vacunas previamente registradas                                       | 3          | Ticona Panduro, Estrella del Pilar | Done   |
+| TS003         | API para Gestión de Vacunas     | T04     | Implementar endpoint para editar y eliminar registros de vacunas                              | 2          | Durand Vera, Gianfranco Angel      | Done   |
+| TS004         | API para Registro de Animales   | T05     | Implementar endpoint para registrar un bovino en un lote específico                           | 3          | Durand Vera, Gianfranco Angel      | Done   |
+| US003         | Gestión de Registros de Vacunas | T06     | Implementar editar o eliminar el registro de una vacuna                                       | 2          | Ticona Panduro, Estrella del Pilar | Done   |
+| TS005         | API para Búsqueda de Animales   | T07     | Implementar un endpoint que permita buscar animales registrados usando parámetros de búsqueda | 2          | Aranda Vallejos, Oscar Gabriel     | Done   |
+| TS006         | API para Gestión de Animales    | T08     | Implementar funcionalidades para editar y eliminar animales registrados                       | 2          | Aranda Vallejos, Oscar Gabriel     | Done   |
+| US004         | Registro de Bovino en Lote      | T09     | Implementar un registro de un bovino en un lote específico                                    | 3          | Aranda Vallejos, Oscar Gabriel     | Done   |
+| TS007         | API para Creación de Campaña    | T10     | Implementar un endpoint que permita la creación de campañas                                   | 2          | Gómez Vallejos, Sergio André       | Done   |
+
+**Campaña**
+
+<img src="./assets/M_organization.png" style="width: 400px">
+
+**vista de "Agregar Animal"**
+
+<img src="./assets/M_add_animal.png" style="width: 400px">
+
+**vista de "Agregar Inventario"**
+
+<img src="./assets/M_add_product.png" style="width: 400px">
+
+**vista de "Agregar Campaña"**
+
+<img src="./assets/M_add_camp.png" style="width: 400px">
+
+#### 4.6.4. Web Applications User Flow Diagrams
+
+**User Goal: Iniciar sesión y Registrarse:**
+Este flujo guía al usuario desde la pantalla de bienvenida hacia las opciones de autenticación.
+
+<img src="./assets/1u_web.png" style="width: 400px">
+
+**User Goal: Home y navegar por las secciones "Animals","Campaigns" e "Inventory"**
+Una vez autenticado, el usuario accede al home con accesos rápidos con el sidebar. Este wireflow muestra cómo el usuario puede visualizar las opciones "Animals", "CAmpaings e "inventory"
+
+<img src="./assets/2u_web.png" style="width: 400px">
+
+**User Goal: Registro de un nuevo dato ya sea "Animals","Campaigns" o "Inventory":**
+Este flujo está diseñado para facilitar al agregar ya sea un bovino, una campaña o un producto de inventario.
+
+<img src="./assets/3u_web.png" style="width: 400px">
+
+### 4.7. Web Applications Prototyping
+
+A continuación, se presenta el prototipo que se realizó en base a los mockups que se desarrollaron y documentaron en puntos anteriores. El prototype nos permite evidenciar algunos flujos que se llevarán al desarrollo en código.
+
+![context](./assets/WebProt.png)
+
+https://www.figma.com/proto/47ngQ2UkWbuuvLy36Fmfnl/Pet-Care---Landing-page--Community-?node-id=2102-445&p=f&t=pbikLYhwwgU7T9wf-1&scaling=scale-down&content-scaling=fixed&page-id=27%3A1&starting-point-node-id=2102%3A37
+
+### 4.8. Domain-Driven Software Architecture
+
+En esta sección se presenta la arquitectura de software de **VacApp**, diseñada bajo el enfoque de **Domain-Driven Design (DDD)**.  
+El objetivo es ofrecer una visión clara de cómo los distintos dominios del sistema (gestión de ganado, campañas de vacunación, establos, usuarios, entre otros) se estructuran y cómo interactúan con los actores externos y los servicios complementarios.
+
+Se emplean diagramas **C4** para ilustrar distintos niveles de detalle, desde el contexto general hasta los componentes principales de la solución.
+
+En esta sección se presenta la arquitectura de software de **VacApp**, diseñada bajo el enfoque de **Domain-Driven Design (DDD)**.  
+El objetivo es ofrecer una visión clara de cómo los distintos dominios del sistema (gestión de ganado, campañas de vacunación, establos, usuarios, entre otros) se estructuran y cómo interactúan con los actores externos y los servicios complementarios.
+
+Se emplean diagramas **C4** para ilustrar distintos niveles de detalle, desde el contexto general hasta los componentes principales de la solución.
+
+#### 4.8.1. Software Architecture Context Diagram
+
+El **Diagrama de Contexto** proporciona una visión de alto nivel del sistema, mostrando cómo **VacApp** interactúa con sus principales actores externos:
+
+- **Ganaderos y Empresas** → usuarios finales que gestionan su ganado, vacunas y establos.
+- **Servicios Externos** → APIs de pronóstico del clima, bases de datos de razas de ganado y servicios veterinarios.
+- **Administradores del Sistema** → responsables del mantenimiento y la supervisión de la aplicación.
+
+Este diagrama permite comprender cómo VacApp se integra en el ecosistema de la gestión ganadera, facilitando la interoperabilidad con otros sistemas.
+
+![context](./assets/new_context_diagram.png)
+
+#### 4.8.2. Software Architecture Container Diagrams
+
+El **Diagrama de Contenedores** descompone VacApp en sus principales elementos tecnológicos, ilustrando cómo se organizan y comunican entre sí:
+
+- **Aplicación Web** → interfaz accesible desde navegadores para administradores y empresas.
+- **Aplicación Móvil** → interfaz diseñada para ganaderos, desarrollada en **Flutter**, disponible para Android e iOS.
+- **API Backend** → expone servicios de negocio a través de un conjunto de endpoints REST, desarrollados en **Java/Spring Boot**.
+- **Base de Datos** → repositorio centralizado para almacenar información sobre bovinos, campañas, usuarios, vacunas y establos.
+
+El diagrama refleja cómo cada contenedor coopera para ofrecer una experiencia integral y consistente, garantizando la disponibilidad de la información tanto en la aplicación móvil como en la web.
+
+![containers](./assets/new_container_diagram.png)
+
+#### 4.8.3. Software Architecture Components Diagrams
+
+El **Diagrama de Componentes** profundiza en los módulos principales dentro del backend y la aplicación móvil. Cada componente está alineado a un **bounded context** del dominio definido por DDD:
+
+- **Gestión de Bovinos** → administración de registros de animales, historial de salud y genealogía.
+- **Gestión de Campañas** → planificación y control de campañas de vacunación.
+- **Gestión de Establos** → organización de establos y asignación de bovinos.
+- **Gestión de Usuarios** → control de accesos, roles y permisos.
+- **Notificaciones y Recordatorios** → envío de alertas automáticas relacionadas con vacunas, salud o actividades programadas.
+
+Este nivel de detalle muestra cómo los componentes colaboran entre sí dentro de los contenedores y cómo mantienen la cohesión con el dominio del problema.
+
+![components](./assets/new_component_diagram.png)
+
+### 4.9. Software Object-Oriented Design
+
+#### 4.9.1. Class Diagrams por contexto
+
+Este diagrama de clases detalla los elementos del Domain Layer para Campaign Management, modelando entidades, agregados, objetos de valor y sus relaciones. A través de esta representación, se puede visualizar cómo se estructuran los conceptos principales del dominio y qué responsabilidades tiene cada clase dentro del modelo de negocio. Es esencial para alinear el diseño técnico con la lógica del dominio.
+
+##### IAM
+
+![IAM_Diagram](assets/ClassDiagramIAM.png)
+
+##### Campaign Managment
+
+![Campaign_Diagram](assets/ClassDiagramCampaign.png)
+
+##### Ranch Managment
+
+![Ranch_Diagram](assets/ClassDiagramRanch.png)
+
+##### Voice Command
+
+![Voice_Diagram](assets/ClassDiagramVoice.png)
+
+##### Staff Administration
+
+![Staff_Diagram](assets/ClassDiagramStaff.png)
+
+#### 4.9.2. Class Dictionary
+
+##### Voice Command
+
+###### Tabla: Voice
+
+| Atributo        | Tipo    | Visibilidad | Descripción                                           |
+| --------------- | ------- | ----------- | ----------------------------------------------------- |
+| Id              | int     | Pública     | Identificador único del comando de voz.               |
+| OriginalText    | string  | Pública     | Texto completo capturado por el usuario.              |
+| Parameters      | string? | Pública     | Parámetros extraídos del texto original (si existen). |
+| IsValid         | bool    | Pública     | Indica si el comando fue validado correctamente.      |
+| WasExecuted     | bool    | Pública     | Indica si el comando ya fue ejecutado.                |
+| UserId          | int     | Pública     | Identificador del usuario que emitió el comando.      |
+| ErrorMessage    | string? | Pública     | Mensaje de error en caso de ejecución fallida.        |
+| ResponseMessage | string? | Pública     | Respuesta generada tras ejecutar el comando.          |
+
+##### Métodos de Voice
+
+| Atributo / Método | Tipo / Firma                                                                                           | Visibilidad | Descripción                                                 |
+| ----------------- | ------------------------------------------------------------------------------------------------------ | ----------- | ----------------------------------------------------------- |
+| Voice             | (originalText: string, commandType: VoiceCommandType, parameters: string?, isValid: bool, userId: int) | Pública     | Constructor del aggregate Voice.                            |
+| MarkAsExecuted    | (responseMessage: string?) : void                                                                      | Pública     | Marca el comando como ejecutado y almacena la respuesta.    |
+| MarkAsFailed      | (errorMessage: string) : void                                                                          | Pública     | Marca el comando como fallido y agrega el mensaje de error. |
+
+##### Tabla: VoiceCommandResult (Value Object)
+
+| Atributo     | Tipo   | Visibilidad    | Descripción                             |
+| ------------ | ------ | -------------- | --------------------------------------- |
+| OriginalText | string | Pública (init) | Texto detectado originalmente.          |
+| IsValid      | bool   | Pública (init) | Resultado de la validación del comando. |
+
+##### Enumeración: VoiceCommandType
+
+| Atributo                 | Tipo | Visibilidad | Descripción                                     |
+| ------------------------ | ---- | ----------- | ----------------------------------------------- |
+| GetUserInfo              | Enum | Pública     | Comando para obtener información del usuario.   |
+| NavigateToSettings       | Enum | Pública     | Comando para navegar a la configuración.        |
+| NavigateToBovines        | Enum | Pública     | Comando para navegar al módulo de bovinos.      |
+| NavigateToStables        | Enum | Pública     | Comando para navegar al módulo de establos.     |
+| InitializeToCreateStable | Enum | Pública     | Comando para iniciar la creación de un establo. |
+| CreateStable             | Enum | Pública     | Comando para crear un establo.                  |
+
+#### Ranch Managment
+
+##### Tabla: Bovine
+
+| Atributo  | Tipo    | Visibilidad | Descripción                               |
+| --------- | ------- | ----------- | ----------------------------------------- |
+| Id        | int     | Pública     | Identificador único del bovino.           |
+| Name      | string  | Pública     | Nombre del bovino.                        |
+| Gender    | string  | Pública     | Género del bovino.                        |
+| Breed     | string? | Pública     | Raza del bovino (si está disponible).     |
+| Location  | string? | Pública     | Ubicación actual del bovino.              |
+| StabledId | int?    | Pública     | Establo asignado, si aplica.              |
+| BovineImg | string? | Pública     | Ruta o referencia a la imagen del bovino. |
+
+##### Métodos de Bovine
+
+| Atributo / Método | Tipo / Firma                                                                                                                                            | Visibilidad | Descripción                                           |
+| ----------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------- | ----------------------------------------------------- |
+| Bovine            | (name: string, gender: string, birthDate: DateTime?, breed: string?, location: string?, bovineImg: string?, stabledId: int?, ranchUserId: RanchUserId?) | Pública     | Constructor principal del agregado Bovine.            |
+| Bovine            | (command: CreateBovineCommand)                                                                                                                          | Pública     | Constructor alterno basado en un comando de creación. |
+| Update            | (command: UpdateBovineCommand) : void                                                                                                                   | Pública     | Actualiza los datos del bovino según un comando.      |
+
+##### Tabla: Stable
+
+| Atributo | Tipo   | Visibilidad | Descripción                      |
+| -------- | ------ | ----------- | -------------------------------- |
+| Id       | int    | Pública     | Identificador único del establo. |
+| Name     | string | Pública     | Nombre del establo.              |
+| Limit    | int    | Pública     | Capacidad máxima del establo.    |
+
+##### Métodos de Stable
+
+| Método | Firma                                 | Visibilidad | Descripción                                   |
+| ------ | ------------------------------------- | ----------- | --------------------------------------------- |
+| Stable | (command: CreateStableCommand)        | Pública     | Constructor basado en un comando de creación. |
+| Update | (command: UpdateStableCommand) : void | Pública     | Actualiza la información del establo.         |
+
+##### Tabla: Vaccine
+
+| Atributo    | Tipo    | Visibilidad | Descripción                        |
+| ----------- | ------- | ----------- | ---------------------------------- |
+| Id          | int     | Pública     | Identificador único de la vacuna.  |
+| Name        | string  | Pública     | Nombre de la vacuna.               |
+| VaccineType | string  | Pública     | Tipo o categoría de vacuna.        |
+| VaccineImg  | string? | Pública     | Imagen de la vacuna (si existe).   |
+| BovineId    | int     | Pública     | Identificador del bovino vacunado. |
+
+##### Métodos de Vaccine
+
+| Método  | Firma                                  | Visibilidad | Descripción                                   |
+| ------- | -------------------------------------- | ----------- | --------------------------------------------- |
+| Vaccine | (command: CreateVaccineCommand)        | Pública     | Constructor basado en un comando de creación. |
+| Update  | (command: UpdateVaccineCommand) : void | Pública     | Actualiza la información de la vacuna.        |
+
+##### Tabla: RanchUserId (Value Object)
+
+| Atributo       | Tipo | Visibilidad    | Descripción                                 |
+| -------------- | ---- | -------------- | ------------------------------------------- |
+| UserIdentifier | int  | Pública (init) | Identificador del usuario dueño del rancho. |
+
+#### Staff Administration
+
+##### Tabla: Staff
+
+| Atributo   | Tipo   | Visibilidad | Descripción                                       |
+| ---------- | ------ | ----------- | ------------------------------------------------- |
+| Id         | int    | Pública     | Identificador único del miembro del personal.     |
+| Name       | string | Pública     | Nombre del empleado.                              |
+| CampaignId | int?   | Pública     | Identificador de la campaña asignada (si existe). |
+
+##### Métodos de Staff
+
+| Método | Firma                                                                            | Visibilidad | Descripción                                   |
+| ------ | -------------------------------------------------------------------------------- | ----------- | --------------------------------------------- |
+| Staff  | ()                                                                               | Pública     | Constructor vacío.                            |
+| Staff  | (name: string, employeeStatus: int, campaignId: int?, staffUserId: StaffUserId?) | Pública     | Constructor completo del agregado Staff.      |
+| Staff  | (command: CreateStaffCommand)                                                    | Pública     | Constructor basado en un comando de creación. |
+| Update | (command: UpdateStaffCommand) : void                                             | Pública     | Actualiza la información del empleado.        |
+
+##### Tabla: CampaignId (Value Object)
+
+| Atributo           | Tipo | Visibilidad    | Descripción                           |
+| ------------------ | ---- | -------------- | ------------------------------------- |
+| CampaignIdentifier | int  | Pública (init) | Identificador de la campaña asignada. |
+
+##### Tabla: EmployeeStatus (Value Object)
+
+| Atributo | Tipo | Visibilidad   | Descripción                                                           |
+| -------- | ---- | ------------- | --------------------------------------------------------------------- |
+| Value    | int  | Pública (get) | Representa el estado del empleado (ej. activo, inactivo, suspendido). |
+
+##### Tabla: StaffUserId (Value Object)
+
+| Atributo       | Tipo | Visibilidad    | Descripción                                        |
+| -------------- | ---- | -------------- | -------------------------------------------------- |
+| UserIdentifier | int  | Pública (init) | Identificador del usuario relacionado al empleado. |
+
+#### IAM
+
+##### Tabla: Admin
+
+| Atributo       | Tipo   | Visibilidad    | Descripción                                                   |
+| -------------- | ------ | -------------- | ------------------------------------------------------------- |
+| Id             | int    | Pública        | Identificador único del administrador.                        |
+| Email          | string | Pública        | Correo electrónico del administrador.                         |
+| EmailConfirmed | bool   | Pública (init) | Indica si el correo fue confirmado. Valor por defecto = true. |
+
+##### Métodos de Admin
+
+| Método        | Firma                                | Visibilidad | Descripción                                   |
+| ------------- | ------------------------------------ | ----------- | --------------------------------------------- |
+| Admin         | (command: CreateAdminCommand)        | Pública     | Constructor basado en el comando de creación. |
+| Update        | (command: UpdateAdminCommand) : void | Pública     | Actualiza los datos del administrador.        |
+| ValidateLogin | (password: string) : bool            | Pública     | Valida las credenciales del administrador.    |
+
+##### Tabla: User
+
+| Atributo       | Tipo    | Visibilidad    | Descripción                               |
+| -------------- | ------- | -------------- | ----------------------------------------- |
+| Id             | int     | Pública        | Identificador único del usuario.          |
+| Username       | string? | Pública        | Nombre de usuario.                        |
+| Password       | string  | Pública        | Contraseña del usuario.                   |
+| Email          | string? | Pública        | Correo electrónico del usuario, opcional. |
+| EmailConfirmed | bool    | Pública (init) | Indica si el correo fue confirmado.       |
+
+##### Métodos de User
+
+| Método | Firma                               | Visibilidad | Descripción                                   |
+| ------ | ----------------------------------- | ----------- | --------------------------------------------- |
+| User   | ()                                  | Pública     | Constructor vacío.                            |
+| User   | (command: SignUpCommand)            | Pública     | Constructor basado en el comando de registro. |
+| Update | (command: UpdateUserCommand) : void | Pública     | Actualiza la información del usuario.         |
+
+#### Campaign Managment
+
+##### Tabla: Campaign
+
+| Atributo    | Tipo   | Visibilidad | Descripción                         |
+| ----------- | ------ | ----------- | ----------------------------------- |
+| Id          | int    | get         | Identificador único de la campaña   |
+| Name        | string | get         | Nombre de la campaña                |
+| Description | string | get         | Descripción de la campaña           |
+| Status      | string | get         | Estado actual de la campaña         |
+| GoalId      | int    | get         | Identificador de objetivo asociado  |
+| StableId    | int?   | get         | Identificador de establo (opcional) |
+
+##### Tabla: Channel
+
+| Atributo   | Tipo   | Visibilidad | Descripción                             |
+| ---------- | ------ | ----------- | --------------------------------------- |
+| Id         | int    | get, set    | Identificador único del canal           |
+| Type       | string | get, set    | Tipo de canal (ej: email, social, etc.) |
+| Details    | string | get, set    | Detalles específicos del canal          |
+| CampaignId | int    | get         | Identificador de la campaña asociada    |
+
+##### Tabla: Goal
+
+| Atributo     | Tipo   | Visibilidad | Descripción                          |
+| ------------ | ------ | ----------- | ------------------------------------ |
+| Id           | int    | get         | Identificador único de objetivo      |
+| Description  | string | get         | Descripción del objetivo             |
+| Metric       | string | get         | Métrica a medir                      |
+| TargetValue  | int    | get         | Valor objetivo de la métrica         |
+| CurrentValue | int    | get         | Valor actual de la métrica           |
+| CampaignId   | int    | get         | Identificador de la campaña asociada |
+
+##### Tabla: CampaignUserId
+
+| Atributo       | Tipo | Visibilidad | Descripción                     |
+| -------------- | ---- | ----------- | ------------------------------- |
+| UserIdentifier | int  | get, init   | Identificador único del usuario |
+
+##### Tabla: StableId
+
+| Atributo         | Tipo | Visibilidad | Descripción                    |
+| ---------------- | ---- | ----------- | ------------------------------ |
+| StableIdentifier | int  | get, init   | Identificador único de establo |
 
 ### 4.10. Database Design
 
@@ -3790,6 +4462,7 @@ dotnet_naming_style.begins_with_underscore.word_separator =
 
 dotnet_naming_style.begins_with_underscore.capitalization = camel_case
 ```
+
 Asimismo se implemento dentro del documento algunas reglas de refactorización utilizando Roslynator, un paquete de `dotnet` que facilita esto mismo.
 
 ```
@@ -4073,15 +4746,15 @@ A continuación, se documentan las entrevistas de validación realizadas con usu
 
 #### **Entrevista #3**
 
-| Detalle                 | Información                                                                                                                                                                                                                                                                                                                                        |
-| :---------------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Entrevistado**        | Santiago Mena Adrianzen                                                                                                                                                                                                                                                                                                                            |
-| **Edad**                | 21                                                                                                                                                                                                                                                                                                                                                 |
-| **Rol / Experiencia**   | Ganadero principante                                                                                                                                                                                                                                                                                                                               |
-| **Fecha de Entrevista** | 11/11/2025                                                                                                                                                                                                                                                                                                                                         |
-| **Duración**            | 05:06 minutos                                                                                                                                                                                                                                                                                                                                      |
-| **Tecnologías Usadas**  | Zoom                                                                                                                                                                                                                                                                                                                                               |
-| **Enlace a Grabación**  | `https://upcedupe-my.sharepoint.com/:v:/g/personal/u202215623_upc_edu_pe/IQAiIS_4fwg9R4pWxid8sXCDAf_YKejgOdQNBA4lhBeMnJE?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=NkW7wC `|
+| Detalle                 | Información                                                                                                                                                                                                                                                                                                                     |
+| :---------------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| **Entrevistado**        | Santiago Mena Adrianzen                                                                                                                                                                                                                                                                                                         |
+| **Edad**                | 21                                                                                                                                                                                                                                                                                                                              |
+| **Rol / Experiencia**   | Ganadero principante                                                                                                                                                                                                                                                                                                            |
+| **Fecha de Entrevista** | 11/11/2025                                                                                                                                                                                                                                                                                                                      |
+| **Duración**            | 05:06 minutos                                                                                                                                                                                                                                                                                                                   |
+| **Tecnologías Usadas**  | Zoom                                                                                                                                                                                                                                                                                                                            |
+| **Enlace a Grabación**  | `https://upcedupe-my.sharepoint.com/:v:/g/personal/u202215623_upc_edu_pe/IQAiIS_4fwg9R4pWxid8sXCDAf_YKejgOdQNBA4lhBeMnJE?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=NkW7wC ` |
 
 <br>
 
@@ -4101,19 +4774,19 @@ Los registros han sido muy utiles para los ganaderos ya que permitieron hacer me
 
 #### **Entrevista #4**
 
-| Detalle                 | Información                                               |
-| :---------------------- |:----------------------------------------------------------|
-| *Entrevistado*        | ⁠ Hannah Michelle Schuler ⁠                                 |
-| *Edad*                | ⁠ 19 ⁠                                                      |
-| *Rol / Experiencia*   | ⁠ Estudiante en Zootecnia ⁠                                 |
-| *Fecha de Entrevista* | ⁠ 10/11/2025 ⁠                                              |
-| *Duración*            | ⁠ 00:06:02 ⁠                                                |
-| *Tecnologías Usadas*  | Presencial ⁠                                              |
-| *Enlace a Grabación*  | ⁠ https://drive.google.com/file/d/1RWJarEu7_fvK-3El7pgMClWlE6aoSoMp/view?usp=sharing ⁠ |
+| Detalle               | Información                                                                            |
+| :-------------------- | :------------------------------------------------------------------------------------- |
+| _Entrevistado_        | ⁠ Hannah Michelle Schuler ⁠                                                            |
+| _Edad_                | ⁠ 19 ⁠                                                                                 |
+| _Rol / Experiencia_   | ⁠ Estudiante en Zootecnia ⁠                                                            |
+| _Fecha de Entrevista_ | ⁠ 10/11/2025 ⁠                                                                         |
+| _Duración_            | ⁠ 00:06:02 ⁠                                                                           |
+| _Tecnologías Usadas_  | Presencial ⁠                                                                           |
+| _Enlace a Grabación_  | ⁠ https://drive.google.com/file/d/1RWJarEu7_fvK-3El7pgMClWlE6aoSoMp/view?usp=sharing ⁠ |
 
 <br>
 
-*Evidencia de la Entrevista:*
+_Evidencia de la Entrevista:_
 
 ![entrevista4.jpg](assets/entrevalidation4.jpg)
 
@@ -4121,22 +4794,22 @@ Los registros han sido muy utiles para los ganaderos ya que permitieron hacer me
 
 **Resumen de Hallazgos Clave:**
 
-Las funciones centrales de gestión de bovinos y el seguimiento de vacunaciones están siendo altamente valoradas por el usuario, ya que resuelven el problema principal de reemplazar los registros manuales y de Excel, permitiendo medir un ahorro de tiempo real y una reducción de errores. Sin embargo, aunque estos registros son útiles, el usuario percibe que la plataforma podría fácilmente expandirse para incluir otras métricas críticas que actualmente están ausentes, como un módulo completo de gestión reproductiva (celo, gestación) y reportes gráficos automáticos sobre la producción. 
+Las funciones centrales de gestión de bovinos y el seguimiento de vacunaciones están siendo altamente valoradas por el usuario, ya que resuelven el problema principal de reemplazar los registros manuales y de Excel, permitiendo medir un ahorro de tiempo real y una reducción de errores. Sin embargo, aunque estos registros son útiles, el usuario percibe que la plataforma podría fácilmente expandirse para incluir otras métricas críticas que actualmente están ausentes, como un módulo completo de gestión reproductiva (celo, gestación) y reportes gráficos automáticos sobre la producción.
 Adicionalmente, se reportó que ciertas áreas de la plataforma, como la sección de "Ajustes", no son lo suficientemente claras al inicio, requiriendo que el usuario explore para entender su funcionamiento, lo que genera una fricción inicial al intentar personalizar la herramienta.
 
 ---
 
 #### **Entrevista #5**
 
-| Detalle                 | Información                                               |
-| :---------------------- | :-------------------------------------------------------- |
-| **Entrevistado**        | Renzo Castañeda Loayza                      |
-| **Edad**                | 22                                                  |
-| **Rol / Experiencia**   | Ganadero Independiente              |
-| **Fecha de Entrevista** | 12/11/2025                                            |
-| **Duración**            | 8:12 mins                                              |
-| **Tecnologías Usadas**  | Zoom               |
-| **Enlace a Grabación**  | https://upcedupe-my.sharepoint.com/:v:/g/personal/u202121325_upc_edu_pe/EZMAAYof2fBLsXWsxI7whHcB6UQ2_LPfrVtTC5W-G1VPRg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=8gHDH  |
+| Detalle                 | Información                                                                                                                                                                                                                                                                                                                |
+| :---------------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Entrevistado**        | Renzo Castañeda Loayza                                                                                                                                                                                                                                                                                                     |
+| **Edad**                | 22                                                                                                                                                                                                                                                                                                                         |
+| **Rol / Experiencia**   | Ganadero Independiente                                                                                                                                                                                                                                                                                                     |
+| **Fecha de Entrevista** | 12/11/2025                                                                                                                                                                                                                                                                                                                 |
+| **Duración**            | 8:12 mins                                                                                                                                                                                                                                                                                                                  |
+| **Tecnologías Usadas**  | Zoom                                                                                                                                                                                                                                                                                                                       |
+| **Enlace a Grabación**  | https://upcedupe-my.sharepoint.com/:v:/g/personal/u202121325_upc_edu_pe/EZMAAYof2fBLsXWsxI7whHcB6UQ2_LPfrVtTC5W-G1VPRg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=8gHDH |
 
 <br>
 
@@ -4158,32 +4831,31 @@ Adicionalmente, se reportó que ciertas áreas de la plataforma, como la secció
 
 #### **Entrevista #6**
 
-| Detalle                 | Información                                               |
-| :---------------------- | :-------------------------------------------------------- |
-| **Entrevistado**        | Catalina Villavicencio  Guerra                    |
-| **Edad**                | 28                                                  |
-| **Rol / Experiencia**   | Ganadera independiente con experiencia de años               |
-| **Fecha de Entrevista** | 12/22/2025                                            |
-| **Duración**            | 5:10 min                                              |
-| **Tecnologías Usadas**  | Google meet               |
+| Detalle                 | Información                                                                        |
+| :---------------------- | :--------------------------------------------------------------------------------- |
+| **Entrevistado**        | Catalina Villavicencio Guerra                                                      |
+| **Edad**                | 28                                                                                 |
+| **Rol / Experiencia**   | Ganadera independiente con experiencia de años                                     |
+| **Fecha de Entrevista** | 12/22/2025                                                                         |
+| **Duración**            | 5:10 min                                                                           |
+| **Tecnologías Usadas**  | Google meet                                                                        |
 | **Enlace a Grabación**  | https://drive.google.com/file/d/1LwDQ9iKX7OYKe3O5qwVxonOpUoFlN9OT/view?usp=sharing |
 
 <br>
 
 **Evidencia de la Entrevista:**
 
-
 ![Evidencia Entrevista 6](assets/EntrevistaDE.png)
 
 <br>
 
 **Resumen de Hallazgos Clave:**
-- **Feedback Positivo sobre Funcionalidad:** 
-Catalina confirma que la aplicaciín movile le parece muy intuitiva y de facil uso, recalco mucho el registro de ganado, el hecho que la aplicación sea muy estable y no genere bug ni errores, esto hace que ella confie en el uso de VacApp.
+
+- **Feedback Positivo sobre Funcionalidad:**
+  Catalina confirma que la aplicaciín movile le parece muy intuitiva y de facil uso, recalco mucho el registro de ganado, el hecho que la aplicación sea muy estable y no genere bug ni errores, esto hace que ella confie en el uso de VacApp.
 - **Oportunidad de Mejora en la Interfaz (UI):** A pesar de la funcionalidad, Catalina como usuaria tiene cierto feedback hacerca de la mejora en la UI dice que se puede hacer mucho más minimalista para que sea del agrado de los usuarios, también dice que si se podría agragar animaciones para la interacción.
 
 - **Solicitud de Nuevas Funcionalidades (Reportes):** El punto de Catalina de nuevas funcionalidades fue el realizar un apartado para la capacitación a travez de cursos dentro de la aplicación para que los usuarios nuevos o ganaderos que recien inicien en este mundo puedan tener la información a primera mano y no buscar opciones de terceros.
-
 
 ### 6.3.3. Evaluaciones según heurísticas
 
@@ -4202,7 +4874,6 @@ A continuación, se resumen los hallazgos evaluados según los principios heurí
 | **8**  | Complejidad visual inicial en la sección de ajustes o configuración (entrevista 4).                              | **Aesthetic and minimalist design / Consistency**                       | 2         | Los usuarios reportaron dificultad para comprender las opciones de configuración. Se recomienda reorganizar la jerarquía visual, emplear tipografía más clara y títulos descriptivos.                                                                         |
 | **9**  | Ausencia de capacitación o guía para nuevos usuarios (entrevista 6).                                             | **Help and documentation**                                              | 1         | Se detectó la necesidad de contar con un módulo de capacitación o tutorial interactivo dentro de la app. Esto permitiría a los ganaderos novatos aprender de forma autónoma y aprovechar todas las funcionalidades.                                           |
 | **10** | Solicitud de animaciones o diseño más atractivo.                                                                 | **Aesthetic and minimalist design / Satisfaction**                      | 1         | La falta de elementos dinámicos reduce el atractivo visual y la sensación de modernidad de la aplicación. Se sugiere integrar transiciones suaves y microinteracciones sin sobrecargar la interfaz.                                                           |
-
 
 En conjunto, las entrevistas revelan que VacApp presenta una funcionalidad sólida y estable, validada por los usuarios como confiable y útil en el contexto ganadero. Sin embargo, existen oportunidades claras de mejora en los ámbitos de coherencia visual, navegación consistente y visibilidad del sistema, especialmente en la estructura del menú y la presentación de ciertas funciones menos accesibles.
 
@@ -4401,13 +5072,7 @@ El principal beneficio de este enfoque es la detección y solución inmediata de
 
 Esta sección detalla los componentes técnicos específicos y las prácticas requeridas para ejecutar la fase de Integración Continua del pipeline presentado:
 
-| Componente del Pipeline   | Práctica Relevante                     | Función Específica en la Integración Continua (CI)                                                                                                             |
-| :------------------------ | :------------------------------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Code Repository (Git)** | **Fusión Frecuente**                   | Sirve como la única fuente de verdad (_Single Source of Truth_) del código. La práctica de fusión diaria es **mandatoria** para evitar divergencias complejas. |
-| **App Build Process**     | **Build Automatizado**                 | Compila el código fuente en un artefacto ejecutable. Si la compilación falla, el _pipeline_ se detiene inmediatamente para forzar la corrección.               |
-| **Test Suite**            | **Garantía de Calidad**                | Ejecuta el conjunto de pruebas (unitarias, de integración, etc.). Solo el código que supere el **100% de las pruebas** avanza a la siguiente etapa.            |
-| **Docker Registry**       | **Creación de Artefacto Inmutable**    | Empaqueta el ejecutable validado en una **imagen Docker** estandarizada. Este artefacto inmutable es la salida final de la CI, listo para su distribución.     |
-| **Developer Commitment**  | **Detener la Línea (_Stop the Line_)** | El desarrollador responsable de un cambio que cause un fallo debe **priorizar la corrección** del _pipeline_ sobre cualquier otra tarea.                       |
+indent_style = space
 
 #### 7.1.2. Build & Test Suite Pipeline Components.
 
@@ -4644,7 +5309,8 @@ Para el monitoreo de la aplicación gracias al pipeline, se toman las acciones d
 ## 7.4. Continuous Monitoring
 
 ### 7.4.1. Tools and Practices
-Para el monitoreo de la aplicación se hace uso de un paquete que anteriormente se instalo. Roslynator nos permite tener reportes continuos acerca de cambios que debemos hacer manualmente y posibles mejoras dentro del código. 
+
+Para el monitoreo de la aplicación se hace uso de un paquete que anteriormente se instalo. Roslynator nos permite tener reportes continuos acerca de cambios que debemos hacer manualmente y posibles mejoras dentro del código.
 
 ![tools and practices](assets/Continuousmonitoring.png)
 
@@ -4661,7 +5327,7 @@ Dentro del pipeline de Azure, durante la compilación se encuentran algunos punt
 
     displayName: "Verify code format"
 
-  
+
 
   # Roslynator
 
@@ -4718,7 +5384,7 @@ Para el monitoreo de la aplicación gracias al pipeline, se toman las acciones d
 
     displayName: "Publish Roslynator analysis report"
 
-  
+
 
   - task: PublishBuildArtifacts@1
 
@@ -4732,7 +5398,7 @@ Para el monitoreo de la aplicación gracias al pipeline, se toman las acciones d
 
     displayName: "Publish dependency vulnerability report"
 
-  
+
 
   - task: PublishBuildArtifacts@1
 
@@ -4746,6 +5412,7 @@ Para el monitoreo de la aplicación gracias al pipeline, se toman las acciones d
 
     displayName: "Publish secret scan report"
 ```
+
 ## Capítulo VIII: Experiment-Driven Development
 
 ### 8.1. Experiment Planning
@@ -6305,6 +6972,7 @@ Esta sección describe cómo el pipeline de desarrollo soporta la transición de
 #### 8.3.3.1. To‑Be Sprint Backlogs
 
 Plantilla recomendada para cada sprint experimental:
+
 - Objetivo del sprint (hipótesis a validar).
 - User stories priorizadas (IDs UAxx).
 - Tasks técnicas (build, testautomation, infra).
@@ -6313,6 +6981,7 @@ Plantilla recomendada para cada sprint experimental:
 - Checklist de despliegue a staging y rollback plan.
 
 Ejemplo breve:
+
 - Sprint Goal: Validar alertas automáticas (UA02).
 - Stories: UA02-1 (configurar scheduler), UA02-2 (notificaciones push).
 - Métrica principal: % de replies/confirmaciones dentro de 48h.
@@ -6321,6 +6990,7 @@ Ejemplo breve:
 #### 8.3.3.2. Implemented To‑Be Landing Page Evidence
 
 Resumen de evidencia:
+
 - Landing page actualizada con secciones de producto, planes y CTA para pruebas.
 - Capturas y enlaces: assets/I1.png … I4.png
 - Métricas de validación: visitas, CTR en CTA, conversiones a sign-ups (capturadas por Firebase/Netlify analytics).
@@ -6329,6 +6999,7 @@ Resumen de evidencia:
 #### 8.3.3.3. Implemented To‑Be Frontend‑Web Application Evidence
 
 Resumen de evidencia:
+
 - Panel de control (dashboard) con reportes iniciales y widgets de salud/consumo.
 - Registro y edición de bovinos, campañas y establos.
 - Screenshots: assets/webapp1.PNG, assets/webapp2.PNG.
@@ -6337,14 +7008,16 @@ Resumen de evidencia:
 #### 8.3.3.4. Implemented To‑Be Native‑Mobile Application Evidence
 
 Resumen de evidencia:
+
 - App Flutter con workflows offline, sincronización y notificaciones locales/push.
 - Vistas: registro bovino, vacunas, tareas programadas.
-- Capturas: assets/*_flutter.JPG.
+- Capturas: assets/\*\_flutter.JPG.
 - Métricas: activación de modo offline y tasa de sincronización exitosa.
 
 #### 8.3.3.5. Implemented To‑Be RESTful API and/or Serverless Backend Evidence
 
 Resumen de evidencia:
+
 - Endpoints principales desplegados y documentados (Swagger / OpenAPI).
 - Ejecuciones de tests Postman / Newman integradas en pipeline.
 - Enlace Swagger (deploy local/azur): https://vacappapi.azurewebsites.net/swagger/index.html
@@ -6353,6 +7026,7 @@ Resumen de evidencia:
 #### 8.3.3.6. Team Collaboration Insights
 
 Documentar aprendizajes del equipo:
+
 - Roles y responsabilidades durante la experimentación.
 - Herramientas usadas: GitHub (issues/workflows), Firebase (analytics), Postman, Figma.
 - Retrospectiva: decisiones técnicas, cuellos de botella y acciones tomadas (ej.: instrumentación previa obligatoria para todo experimento).
@@ -6361,30 +7035,214 @@ Documentar aprendizajes del equipo:
 
 ### 8.3.4. To‑Be Validation Interviews
 
-Se documentan las entrevistas diseñadas para validar versiones To‑Be del producto, usando la plantilla de 6.3.1 adaptada a experimentos específicos.
+En esta etapa del desarrollo impulsado por experimentos (Experiment-Driven Development), se llevaron a cabo entrevistas de validación "To-Be". A diferencia de las entrevistas iniciales de descubrimiento, el objetivo de estas sesiones fue someter a prueba las nuevas funcionalidades e hipótesis planteadas en el diseño experimental (como el modo offline, las alertas automáticas y los reportes visuales).
+
+Estas entrevistas buscan confirmar si las soluciones propuestas realmente resuelven los dolores del usuario, si la usabilidad es adecuada para el perfil del ganadero y si el valor percibido justifica la implementación a gran escala. Los resultados obtenidos aquí son cruciales para decidir si se debe iterar, escalar o descartar las características experimentales antes del lanzamiento final.
 
 #### 8.3.4.1. Diseño de Entrevistas
 
-- Objetivo: validar hipótesis de producto (valor, usabilidad, impacto).
-- Estructura:
-  - Presentación breve del experimento.
-  - Tareas guiadas (usar la función nueva).
-  - Preguntas NPS + preguntas específicas de la hipótesis.
+- **Objetivo:** Validar las hipótesis de producto definidas en la sección 8.2 (valor, usabilidad, impacto).
+- **Estructura:**
+  - Presentación breve del experimento y las nuevas funciones.
+  - Tareas guiadas (usar la función nueva en un entorno controlado).
+  - Preguntas específicas de validación y NPS.
   - Recolección de métricas objetivas (tiempo en tarea, errores).
-- Instrumentos: grabación (con permiso), formulario corto (Google Forms) y captura de pantalla.
+- **Instrumentos:** Grabación (con permiso), formulario de registro y captura de pantalla de la interacción.
+
+**Cuestionario de Validación (10 Preguntas):**
+
+Para guiar la validación de las hipótesis, se formularon las siguientes preguntas clave que se realizan después de que el usuario interactúa con el prototipo o la funcionalidad experimental:
+
+1. Después de probar el registro digital, ¿sientes que este proceso es más rápido y seguro que tu método actual (cuaderno/Excel)? ¿Por qué?
+2. Si la aplicación te enviara estas notificaciones automáticas de vacunación hoy, ¿qué tanto crees que reduciría tus olvidos o retrasos en el tratamiento?
+3. Has probado el registro sin internet. ¿Te sentirías confiado usando esta función en el campo sabiendo que los datos se guardarán al volver a tener señal?
+4. Al ver las nuevas medidas de inicio de sesión y protección de datos, ¿ha aumentado tu confianza para registrar información sensible de tu negocio en la app?
+5. Al observar los gráficos de salud y producción, ¿te resulta fácil entender el estado de tu ganado a simple vista o prefieres los datos en tablas numéricas?
+6. ¿Sientes que la interfaz que estás viendo se adapta a tu tipo de trabajo (Pequeño productor/Empresa) o ves opciones que te sobran y te confunden?
+7. ¿Qué tan probable es que consultes la sección de "Aprende con VacApp" ante una duda técnica antes de llamar a un veterinario o buscar en Google?
+   8.¿C onsideras que la programación automática de tareas repetitivas te ahorraría tiempo administrativo real en tu semana laboral?
+8. Del 1 al 10, ¿qué tanto valor añadirían estas nuevas funciones a tu gestión diaria si se lanzaran hoy mismo?
+9. Basado en estas nuevas funcionalidades que has probado, ¿recomendarías VacApp a otro colega ganadero?
 
 #### 8.3.4.2. Registro de Entrevistas
 
-Plantilla de registro por entrevista:
-- Entrevista #:  
-- Entrevistado (segmento):  
-- Fecha / Duración:  
-- Tecnología usada: (Zoom / Meet / Presencial)  
-- Enlace a grabación:  
-- Foto / captura: assets/entrevista_x.png  
-- Resumen ejecutivo (3 bullets): hallazgos principales, pain points, sugerencias.  
-- Métricas registradas: tiempo tarea, tasa de éxito, comentarios NPS.  
-- Decisión recomendada: iterar / escalar / retirar.
+#### **Entrevista #1**
+
+| Detalle                 | Información                                                                           |
+| :---------------------- | :------------------------------------------------------------------------------------ |
+| **Entrevistado**        | Sandro Quispesivana                                                                   |
+| **Edad**                | 22                                                                                    |
+| **Rol / Experiencia**   | Ganadero Independiente                                                                |
+| **Fecha de Entrevista** | 20 / 11 / 2025                                                                        |
+| **Duración**            | 3.:45                                                                                 |
+| **Tecnologías Usadas**  | Zoom                                                                                  |
+| **Enlace a Grabación**  | https://drive.google.com/file/d/1SjJQ0vGNlzuyVimwKumrnFVOQb5gUxJH/view?usp=drive_link |
+
+<br>
+
+**Evidencia de la Entrevista:**
+
+![Evidencia Entrevista 1](assets/independiente1.png)
+
+<br>
+
+**Resumen de Hallazgos Clave:**
+
+- **Validación de Digitalización (H1):** El usuario confirmó que el registro digital es significativamente más rápido y seguro que su método tradicional (cuaderno físico). Destaca la capacidad de búsqueda por código único de animal, la persistencia de datos ante pérdida de dispositivos y la eliminación de cálculos manuales como ventajas clave frente al papel.
+
+- **Impacto de Alertas Automáticas (H2):** Estima una reducción del 70% en olvidos y retrasos de tratamientos gracias a las notificaciones programadas. El entrevistado reconoce que la carga de trabajo diaria hace que se pasen fechas críticas, por lo que las alertas automáticas representan una mejora sustancial en el cumplimiento de cronogramas sanitarios.
+
+- **Confianza en Modo Offline (H3):** Valida positivamente la funcionalidad offline debido a la limitada conectividad en zonas rurales. Señala que actualmente debe anotar en papel para luego transcribir, por lo que el registro local con sincronización posterior elimina trabajo duplicado y mejora la eficiencia operativa en campo.
+
+- **Percepción de Seguridad (H4):** Las medidas de autenticación y protección de datos aumentaron moderadamente su confianza para registrar información sensible (costos, ventas). Aunque muestra cautela sobre quién accede a sus datos, las características de seguridad implementadas lo animan a confiar información comercial crítica en la plataforma.
+
+- **Comprensión de Reportes Visuales (H5):** Los gráficos facilitan la comprensión rápida del estado del ganado (tendencias de salud y producción), pero el usuario valora mantener acceso a tablas numéricas para análisis detallado. Esto confirma la hipótesis de que las visualizaciones mejoran la toma de decisiones sin reemplazar completamente la necesidad de datos tabulares.
+
+- **Valor Percibido del Contenido Educativo (H7):** Califica con 8/10 la probabilidad de consultar "Aprende con VacApp" antes de recurrir a veterinarios o búsquedas genéricas en internet. Destaca la dificultad de acceso inmediato a profesionales y la saturación de información no especializada en línea como motivadores principales.
+
+- **Automatización y Ahorro de Tiempo (H8):** Confirma que la programación automática de tareas repetitivas (registro de nacimientos, vacunas, tratamientos) reduciría significativamente su carga administrativa semanal, eliminando la duplicación de registros en múltiples ubicaciones.
+
+- **Calificación General y Recomendación:** Asigna un valor de 8/10 al conjunto de funcionalidades presentadas y manifiesta disposición a recomendar VacApp (8/10 NPS) especialmente a pequeños productores que aún dependen de registros manuales. Reconoce que necesitará tiempo de adaptación, pero percibe un claro retorno en organización y prevención de omisiones críticas.
+
+- **Oportunidad Identificada:** El usuario menciona que algunas funciones orientadas a gestión multiusuario o reportes avanzados no le resultan prioritarias como pequeño productor, sugiriendo oportunidad para simplificar la interfaz según perfil de usuario (validación parcial de H6 sobre personalización).
+
+---
+
+#### **Entrevista #2**
+
+| Detalle                 | Información                                                                        |
+| :---------------------- | :--------------------------------------------------------------------------------- |
+| **Entrevistado**        | Liam Quino                                                                         |
+| **Edad**                | 21                                                                                 |
+| **Rol / Experiencia**   | Empresa Ganadera                                                                   |
+| **Fecha de Entrevista** | 30/11/2025                                                                         |
+| **Duración**            | 4:50                                                                               |
+| **Tecnologías Usadas**  | Zoom                                                                               |
+| **Enlace a Grabación**  | https://drive.google.com/file/d/1oH2F4OYkX8kEtNwLmwC0TVB1nsF8o5pX/view?usp=sharing |
+
+<br>
+
+**Evidencia de la Entrevista:**
+
+![Evidencia Entrevista 1](assets/empresa1.png)
+
+<br>
+
+**Resumen de Hallazgos Clave:**
+
+El entrevistado, representante de una empresa ganadera, confirma que el registro digital de VacApp supera significativamente sus métodos actuales basados en Excel, ya que centraliza la información y elimina problemas de duplicidad y versionado de archivos entre encargados. Destaca que el sistema ofrece mayor orden, trazabilidad y seguridad al mantener un historial unificado al que todo el personal puede acceder de manera controlada. En cuanto al impacto de las alertas automáticas, estima que reducirían en un 80% los olvidos o retrasos en tratamientos sanitarios, especialmente porque gestionan múltiples lotes y coordinaciones con veterinarios; las notificaciones anticipadas permitirían una planificación más eficiente de recursos humanos y profesionales.
+
+La funcionalidad offline fue validada positivamente, destacando que es fundamental en fundos con conectividad inestable. El usuario manifiesta confianza siempre que exista un indicador visual claro de sincronización local y posterior carga automática al recuperar la señal. Respecto a la seguridad, las medidas de doble factor, cierre de sesión automático y políticas de privacidad aumentaron significativamente su confianza para registrar información sensible (datos económicos y sanitarios) a nivel corporativo, superando las dudas iniciales sobre exposición de información crítica.
+
+Los reportes visuales fueron bien recibidos por su utilidad en reuniones de gestión, permitiendo una comprensión rápida del estado del ganado. Sin embargo, el entrevistado subraya la importancia de mantener siempre disponible la opción de exportar tablas numéricas para análisis detallados en Excel y reportes internos, confirmando que las visualizaciones complementan pero no reemplazan completamente la necesidad de datos tabulares. La interfaz fue considerada adecuada para operaciones empresariales, aunque sugiere implementar un "modo empresa avanzado" que permita ocultar funcionalidades no utilizadas para simplificar la experiencia.
+
+En cuanto al contenido educativo, califica con 7/10 la probabilidad de consultar "Aprende con VacApp" para dudas técnicas rápidas o recordatorios de protocolos, aunque aclara que decisiones críticas siempre serán validadas con su veterinario de planta. La automatización de tareas repetitivas (desparasitaciones, refuerzos de vacunas, chequeos rutinarios) fue altamente valorada, ya que reduciría el tiempo dedicado a coordinaciones manuales por WhatsApp y agendas físicas.
+
+---
+
+#### **Entrevista #3**
+
+| Detalle                 | Información                                                                                                                                                              |
+| :---------------------- | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Entrevistado**        | Santiago Mena Adrianzen                                                                                                                                                  |
+| **Edad**                | 21                                                                                                                                                                       |
+| **Rol / Experiencia**   | Ganadero/Ayudante de granja en UNALM                                                                                                                                     |
+| **Fecha de Entrevista** | 30/11/2025                                                                                                                                                               |
+| **Duración**            | 4:56 Minutos                                                                                                                                                             |
+| **Tecnologías Usadas**  | Zoom                                                                                                                                                                     |
+| **Enlace a Grabación**  | [https://drive.google.com/file/d/1dxLgz4H4sfpn_YTdAZnd0ZROMMwZ0FRG/view?usp=sharing](https://drive.google.com/file/d/1dxLgz4H4sfpn_YTdAZnd0ZROMMwZ0FRG/view?usp=sharing) |
+
+<br>
+
+**Evidencia de la Entrevista:**
+
+![Evidencia Entrevista 3](assets/Entrevistas3.png)
+
+<br>
+
+**Resumen de Hallazgos Clave:**
+
+Para santiago, la aplicacion fue una gran adicion para su trabajo dentro de la grande de la UNALM, vio que los experimentos dentro de la aplicacion, como los cambios en el modo offline y la visualizacion de datos. Menciono que la ayuda para las campañas debe ser algo primordial para los siguientes Sprints debido a que algunos de sus compañeros aun no saben como utilizarlo y que otro agregado positivo que puede venir bien para la aplicacion seria la administracion de productos medicinales o comida para facilitar el manejo de estos para los animales.
+
+Pero sobretodo, ha mencionado que su uso dentro de la aplicacion ha aumentado significativamente y que recomendaria la aplicacion sin ninguna duda.
+
+---
+#### **Entrevista #4**
+
+| Detalle                 | Información                                                                                                                                                                                     |
+| :---------------------- | :-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Entrevistado**        |   Catalina Villavicencio Guerra                                                                                                                                                                 |
+| **Edad**                |   28                                                                                                                                                                                            |
+| **Rol / Experiencia**   |   Ganadera Independiente                                                                                                                                                                        |
+| **Fecha de Entrevista** |   1/12/2025                                                                                                                                                                                     |
+| **Duración**            |   6:53 minutos                                                                                                                                                                                  |
+| **Tecnologías Usadas**  |   Google Meet                                                                                                                                                                                   |
+| **Enlace a Grabación**  |   [https://drive.google.com/file/d/1J6libeJq0tVsw0_P9pv9dSFbhTTQHQrA/view?usp=drive_link](https://drive.google.com/file/d/1J6libeJq0tVsw0_P9pv9dSFbhTTQHQrA/view?usp=drive_link)                |
+
+<br>
+
+**Evidencia de la Entrevista:**
+
+![Evidencia Entrevista 4](assets/entrevista-validation4.png)
+
+<br>
+
+**Resumen de Hallazgos Clave:**
+Catalina, como ganadera independiente, confirma que el registro digital de VacApp representa un salto cualitativo frente a su método actual basado en cuadernos físicos y memoria, ya que elimina el riesgo constante de pérdida de información por deterioro del papel o extravío de apuntes en el campo. Destaca que el sistema le ofrece una sensación de control y rapidez inédita, permitiéndole registrar eventos en el momento exacto en que ocurren. En cuanto al impacto de las alertas automáticas, estima que estas eliminarían casi por completo los olvidos en fechas de vacunación y desparasitación, actuando como el asistente administrativo que no puede contratar, lo cual es vital para ella al manejar la operación prácticamente sola.
+
+La funcionalidad offline fue validada con gran entusiasmo, señalando que es la característica decisiva para su realidad, ya que sus potreros carecen de señal telefónica. La usuaria manifiesta plena confianza al comprobar que puede trabajar todo el día sin conexión y ver cómo la información se respalda automáticamente al volver a casa, eliminando su miedo a la "nube" o a la pérdida de datos. Respecto a la seguridad, las nuevas medidas de protección de datos reforzaron su intención de digitalizar su negocio, sintiéndose segura de volcar información sensible sobre la producción de leche y costos operativos que afectan directamente su economía familiar.
+
+Los gráficos visuales de salud y producción fueron preferidos rotundamente sobre las tablas numéricas, argumentando que le permiten diagnosticar el estado de su hato de un solo vistazo sin necesidad de sentarse a interpretar números complejos al final de una jornada agotadora. La interfaz fue considerada altamente intuitiva y perfectamente adaptada a su perfil, celebrando que la aplicación no la abrume con opciones corporativas que no necesita, sintiendo que la herramienta fue diseñada pensando en la agilidad que requiere un pequeño productor.
+
+En cuanto al contenido educativo, muestra una alta probabilidad de consultar "Aprende con VacApp" como primera instancia ante dudas técnicas, valorando el ahorro potencial en consultas veterinarias para temas menores o de rutina. La automatización de tareas repetitivas fue percibida como una ganancia directa de calidad de vida, permitiéndole liberar tiempo administrativo para dedicarlo al cuidado real de los animales o a su vida personal. Finalmente, confirma que la adopción de estas funciones aportaría un valor inmediato de 10/10 a su gestión, asegurando que recomendaría la herramienta a sus vecinos ganaderos sin dudarlo.
+
+---
+
+#### **Entrevista #5**
+
+| Detalle                 | Información           |
+| :---------------------- | :-------------------- |
+| **Entrevistado**        | Camila Morales Farias |
+| **Edad**                | 21                    |
+| **Rol / Experiencia**   |                       |
+| **Fecha de Entrevista** |                       |
+| **Duración**            |                       |
+| **Tecnologías Usadas**  |                       |
+| **Enlace a Grabación**  |                       |
+
+<br>
+
+**Evidencia de la Entrevista:**
+
+![Evidencia Entrevista 1](assets/entrevista-validation1.png)
+
+<br>
+
+**Resumen de Hallazgos Clave:**
+
+---
+
+#### **Entrevista #6**
+
+| Detalle                 | Información |
+| :---------------------- | :---------- |
+| **Entrevistado**        |             |
+| **Edad**                |             |
+| **Rol / Experiencia**   |             |
+| **Fecha de Entrevista** |             |
+| **Duración**            |             |
+| **Tecnologías Usadas**  |             |
+| **Enlace a Grabación**  |             |
+
+<br>
+
+**Evidencia de la Entrevista:**
+
+![Evidencia Entrevista 1](assets/entrevista-validation1.png)
+
+<br>
+
+**Resumen de Hallazgos Clave:**
 
 ---
 
@@ -6440,7 +7298,6 @@ Actividades previas al lanzamiento controlado:
 
 ---
 
-
 ## Video App Validation
 
 - Video corto demostrando la funcionalidad validada (2–3 min), incluir métricas obtenidas y testimonio breve de usuario.
@@ -6450,7 +7307,6 @@ Actividades previas al lanzamiento controlado:
 
 - Video presentando al equipo, roles y responsabilidades (1–2 min).
 - Entregables: enlace YouTube + archivo local en /assets/videos/about_team.mp4
-
 
 ## Conclusiones
 
