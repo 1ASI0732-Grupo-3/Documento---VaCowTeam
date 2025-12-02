@@ -7167,6 +7167,34 @@ Para santiago, la aplicacion fue una gran adicion para su trabajo dentro de la g
 Pero sobretodo, ha mencionado que su uso dentro de la aplicacion ha aumentado significativamente y que recomendaria la aplicacion sin ninguna duda.
 
 ---
+#### **Entrevista #4**
+
+| Detalle                 | Información                                                                                                                                                                                     |
+| :---------------------- | :-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Entrevistado**        |   Catalina Villavicencio Guerra                                                                                                                                                                 |
+| **Edad**                |   28                                                                                                                                                                                            |
+| **Rol / Experiencia**   |   Ganadera Independiente                                                                                                                                                                        |
+| **Fecha de Entrevista** |   1/12/2025                                                                                                                                                                                     |
+| **Duración**            |   6:53 minutos                                                                                                                                                                                  |
+| **Tecnologías Usadas**  |   Google Meet                                                                                                                                                                                   |
+| **Enlace a Grabación**  |   [https://drive.google.com/file/d/1J6libeJq0tVsw0_P9pv9dSFbhTTQHQrA/view?usp=drive_link](https://drive.google.com/file/d/1J6libeJq0tVsw0_P9pv9dSFbhTTQHQrA/view?usp=drive_link)                |
+
+<br>
+
+**Evidencia de la Entrevista:**
+
+![Evidencia Entrevista 4](assets/entrevista-validation4.png)
+
+<br>
+
+**Resumen de Hallazgos Clave:**
+Catalina, como ganadera independiente, confirma que el registro digital de VacApp representa un salto cualitativo frente a su método actual basado en cuadernos físicos y memoria, ya que elimina el riesgo constante de pérdida de información por deterioro del papel o extravío de apuntes en el campo. Destaca que el sistema le ofrece una sensación de control y rapidez inédita, permitiéndole registrar eventos en el momento exacto en que ocurren. En cuanto al impacto de las alertas automáticas, estima que estas eliminarían casi por completo los olvidos en fechas de vacunación y desparasitación, actuando como el asistente administrativo que no puede contratar, lo cual es vital para ella al manejar la operación prácticamente sola.
+
+La funcionalidad offline fue validada con gran entusiasmo, señalando que es la característica decisiva para su realidad, ya que sus potreros carecen de señal telefónica. La usuaria manifiesta plena confianza al comprobar que puede trabajar todo el día sin conexión y ver cómo la información se respalda automáticamente al volver a casa, eliminando su miedo a la "nube" o a la pérdida de datos. Respecto a la seguridad, las nuevas medidas de protección de datos reforzaron su intención de digitalizar su negocio, sintiéndose segura de volcar información sensible sobre la producción de leche y costos operativos que afectan directamente su economía familiar.
+
+Los gráficos visuales de salud y producción fueron preferidos rotundamente sobre las tablas numéricas, argumentando que le permiten diagnosticar el estado de su hato de un solo vistazo sin necesidad de sentarse a interpretar números complejos al final de una jornada agotadora. La interfaz fue considerada altamente intuitiva y perfectamente adaptada a su perfil, celebrando que la aplicación no la abrume con opciones corporativas que no necesita, sintiendo que la herramienta fue diseñada pensando en la agilidad que requiere un pequeño productor.
+
+En cuanto al contenido educativo, muestra una alta probabilidad de consultar "Aprende con VacApp" como primera instancia ante dudas técnicas, valorando el ahorro potencial en consultas veterinarias para temas menores o de rutina. La automatización de tareas repetitivas fue percibida como una ganancia directa de calidad de vida, permitiéndole liberar tiempo administrativo para dedicarlo al cuidado real de los animales o a su vida personal. Finalmente, confirma que la adopción de estas funciones aportaría un valor inmediato de 10/10 a su gestión, asegurando que recomendaría la herramienta a sus vecinos ganaderos sin dudarlo.
 
 ---
 
