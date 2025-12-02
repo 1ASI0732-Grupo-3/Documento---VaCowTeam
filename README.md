@@ -7168,28 +7168,6 @@ Pero sobretodo, ha mencionado que su uso dentro de la aplicacion ha aumentado si
 
 ---
 
-#### **Entrevista #4**
-
-| Detalle                 | Información           |
-| :---------------------- | :-------------------- |
-| **Entrevistado**        | Camila Morales Farias |
-| **Edad**                | 21                    |
-| **Rol / Experiencia**   |                       |
-| **Fecha de Entrevista** |                       |
-| **Duración**            |                       |
-| **Tecnologías Usadas**  |                       |
-| **Enlace a Grabación**  |                       |
-
-<br>
-
-**Evidencia de la Entrevista:**
-
-![Evidencia Entrevista 1](assets/entrevista-validation1.png)
-
-<br>
-
-**Resumen de Hallazgos Clave:**
-
 ---
 
 #### **Entrevista #5**
