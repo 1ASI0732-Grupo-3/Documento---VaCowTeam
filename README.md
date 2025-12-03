@@ -7701,17 +7701,78 @@ Actividades previas al lanzamiento controlado:
 
 #### 8.6.1. About‑the‑Product Intro Video
 
-- Contenido: problema, solución, demo rápida (60–90s), llamada a la acción.
-- Recursos: guion, grabación de pantalla, subtítulos en español, miniaturas y links.
-- Distribución: landing page, canal YouTube del proyecto y redes sociales.
-- Entregable: archivo MP4 y enlace público (ej.: YouTube).
+El video **About-the-Product** de VacApp presenta de manera clara y profesional la propuesta de valor de la plataforma, destacando cómo la tecnología puede transformar la gestión ganadera en el Perú. Este material audiovisual está diseñado para comunicar de forma efectiva a potenciales usuarios, inversores y stakeholders del sector las funcionalidades clave del producto y su impacto en la productividad y sostenibilidad ganadera.
 
----
+**Enlace al video:**  
+[https://youtu.be/O2JRMlSjJsc](https://youtu.be/O2JRMlSjJsc)
+
+Este video forma parte integral de la estrategia de comunicación y lanzamiento de VacApp, diseñado para maximizar la comprensión del valor del producto y facilitar la adopción por parte de los segmentos objetivo del sector ganadero peruano. Su estructura narrativa está alineada con los hallazgos experimentales del Capítulo VIII, asegurando que cada beneficio comunicado esté respaldado por evidencia validada durante el proceso de desarrollo impulsado por experimentos.
 
 ## Video App Validation
 
-- Video corto demostrando la funcionalidad validada (2–3 min), incluir métricas obtenidas y testimonio breve de usuario.
-- Entregables: enlace YouTube + archivo local en /assets/videos/app_validation.mp4
+El **Video de Validación de la Aplicación** (App Validation) documenta de manera integral el proceso de verificación de las funcionalidades implementadas en **VacApp**, demostrando cómo la plataforma cumple con los requisitos establecidos y resuelve las necesidades reales del sector ganadero peruano.
+
+### Contenido del Video
+
+El video presenta un recorrido completo por las funcionalidades clave de VacApp, destacando:
+
+#### 1. Validación de Funcionalidades Core
+
+**Gestión de Bovinos:**
+- Registro digital de animales con información completa (salud, alimentación, reproducción)
+- Consulta de historial sanitario individual
+- Actualización de datos en tiempo real
+- Búsqueda y filtrado avanzado
+
+**Sistema de Alertas Automáticas:**
+- Notificaciones programadas para vacunación y controles sanitarios
+- Recordatorios de alimentación y tratamientos
+- Confirmación de tareas completadas
+- Reducción demostrada de omisiones sanitarias
+
+**Modo Offline:**
+- Funcionalidad completa sin conexión a internet
+- Sincronización automática al recuperar señal
+- Indicadores visuales de estado de conexión
+- Validación en zonas rurales con conectividad limitada
+
+
+#### 4. Validación Técnica
+
+**Performance:**
+- Tiempo de carga de la aplicación
+- Velocidad de sincronización
+- Respuesta del sistema bajo carga
+
+**Seguridad:**
+- Autenticación segura
+- Protección de datos sensibles
+- Cumplimiento de normativas de privacidad
+
+**Usabilidad:**
+- Navegación intuitiva
+- Accesibilidad en diferentes dispositivos
+- Adaptación a diferentes perfiles de usuario
+
+
+### Enlace al Video
+
+**Video de Validación de la Aplicación:**  
+[https://drive.google.com/file/d/1Eec8stdzJLtvEd-F1DtymiOS7wcJKIWR/view?usp=sharing](https://drive.google.com/file/d/1Eec8stdzJLtvEd-F1DtymiOS7wcJKIWR/view?usp=sharing)
+
+### Propósito y Alcance
+
+Este video de validación sirve como:
+
+1. **Evidencia de Cumplimiento:** Demuestra que VacApp satisface los requisitos técnicos y funcionales establecidos en el ciclo de desarrollo experimental.
+
+2. **Herramienta de Comunicación:** Facilita la comprensión del valor del producto a stakeholders, inversionistas y usuarios potenciales.
+
+3. **Documentación del Proyecto:** Registra el estado final del producto al cierre de la fase experimental, sirviendo como punto de referencia para futuras iteraciones.
+
+4. **Material de Marketing:** Puede ser utilizado en presentaciones comerciales, demostraciones a clientes y campañas de adopción.
+
+Este video complementa la documentación técnica del proyecto y constituye evidencia tangible del éxito del enfoque **Experiment-Driven Development** aplicado en VacApp, validando que las soluciones implementadas generan valor real y medible para el sector ganadero peruano.
 
 ## Video About‑The‑Team
 
