@@ -7151,6 +7151,49 @@ Documentar aprendizajes del equipo:
 - Herramientas usadas: GitHub (issues/workflows), Firebase (analytics), Postman, Figma.
 - Retrospectiva: decisiones técnicas, cuellos de botella y acciones tomadas (ej.: instrumentación previa obligatoria para todo experimento).
 
+Para asegurar la calidad y el despliegue eficiente del producto, se definieron los siguientes roles estratégicos basados en las fortalezas de cada integrante:
+
+| Integrante | Rol Asignado | Responsabilidades Técnicas y de Gestión |
+| :--- | :--- | :--- |
+| **Maycol Rojas** | **Team Leader** | Coordinación general del proyecto y supervisión de las pruebas de sistema para garantizar la calidad del entregable. |
+| **Stephano Espinoza** | **Frontend Developer** | Implementación de interfaces de usuario (Web/Mobile) y priorización de requisitos basada en la experiencia de usuario (UX). |
+| **Ian Macavilca** | **Backend Developer** | Desarrollo de la lógica de negocio y exposición de endpoints RESTful, asegurando la integridad de los datos en la arquitectura DDD. |
+| **Rodrigo Saldaña** | **DevOps Engineer** | Configuración del entorno de despliegue en Azure, gestión de pipelines de CI/CD en GitHub Actions y automatización de pruebas de integración. |
+| **Jeremy Paucar** | **Documentation** | Definición de escenarios BDD (Behavior-Driven Development), gestión de historias de usuario y documentación técnica de los requisitos y *personas*. |
+
+**2. Stack de Herramientas y Flujo de Trabajo**
+
+El equipo utilizó un conjunto de herramientas integradas para soportar la arquitectura modular y el despliegue continuo:
+
+* **GitHub (Gestión y CI/CD):**
+ Se adoptó **GitFlow** como estrategia de ramificación (*Main, Develop, Feature, Hotfix*) para ordenar el desarrollo colaborativo.]Uso de **GitHub Actions** para la compilación automática del backend (.NET) y ejecución de pruebas.
+
+* **Microsoft Azure & Firebase:**
+  * **Azure:** Alojamiento de la API RESTful y servicios backend.
+  * **Firebase:** Despliegue del Frontend Web y distribución de la aplicación móvil.
+
+* **Postman & Swagger:**
+  * Documentación interactiva de la API con **Swagger (OpenAPI 3)** y validación de endpoints mediante colecciones de pruebas automatizadas en **Postman**.
+
+* **Figma:**
+  * Diseño de wireframes y mockups de alta fidelidad para asegurar la consistencia visual antes de la implementación.
+
+
+**3. Retrospectiva del Equipo**
+
+A continuación, se resumen las decisiones técnicas y lecciones aprendidas durante la implementación:
+
+* **Decisiones Técnicas Clave:**
+  * **Estandarización de Código:** Se definieron reglas claras de *linter* y formato para mantener la consistencia entre los desarrolladores de frontend y backend.
+  * **Desacoplamiento:** Separación clara de responsabilidades entre la lógica de negocio y la interfaz de usuario.
+
+* **Cuellos de Botella (Bottlenecks):**
+  * *Sincronización:* Desafíos iniciales en la coordinación de *merges* cuando múltiples desarrolladores trabajaban en archivos comunes.
+  * *Configuración de Entornos:* Tiempo invertido en asegurar que los entornos de desarrollo locales replicaran fielmente el entorno de producción.
+
+* **Acciones Tomadas (Action Items):**
+  *  **Revisión de Pares (Code Review):** Se estableció como obligatorio que todo *Pull Request* sea revisado por al menos otro miembro del equipo antes de la fusión.
+  *  **Documentación Viva:** Actualización constante de la documentación técnica en paralelo al desarrollo para evitar deuda técnica.
 ---
 
 ### 8.3.4. To‑Be Validation Interviews
