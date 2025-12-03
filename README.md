@@ -188,8 +188,8 @@ A continuación se presenta la misma estructura de evidencias y actividades, org
 
 | Métrica                     | Descripción                            |
 | --------------------------- | -------------------------------------- |
-| Número de commits por autor | ![Pruebas1](assets/insightsTF.png)     |
-| Historial de cambios        | ![Pruebas1](assets/networkgraphTF.png) |
+| Número de commits por autor | ![Pruebas1](assets/tfafafa.png)     |
+| Historial de cambios        | ![Pruebas1](assets/ararara.png) |
 
 #### 4. Participación de Todos los Miembros del Equipo
 
@@ -8156,15 +8156,14 @@ En este video, el equipo de desarrollo de VacApp presenta a sus integrantes, sus
 [https://drive.google.com/file/d/106I0Ki3-kGnbY0QGb-7eTeo3CeuOeDf6/view?usp=sharing](https://drive.google.com/file/d/106I0Ki3-kGnbY0QGb-7eTeo3CeuOeDf6/view?usp=sharing)
 
 Este video forma parte integral de la documentación final del proyecto y refleja el espíritu colaborativo y la dedicación técnica del equipo **Vacow Team** en la construcción de una solución transformadora para el sector ganadero peruano.
+
 ## Conclusiones
 
-El desarrollo de VacApp ha evolucionado desde la implementación inicial hacia una fase de madurez técnica y estratégica, consolidando un producto robusto, validado y preparado para el crecimiento continuo. La aplicación de un riguroso proceso de verificación y validación fue fundamental, combinando pruebas automatizadas (unitarias, de integración y de sistema) con análisis estático de código para garantizar la calidad y seguridad del software. Este enfoque técnico se complementó con una validación centrada en el usuario, a través de entrevistas y auditorías de experiencia de usuario, asegurando que la solución no solo sea funcionalmente correcta, sino también intuitiva y alineada con las necesidades reales del sector ganadero.
+El desarrollo de VacApp ha alcanzado una madurez técnica, estratégica y operativa que consolida un producto robusto, validado experimentalmente y preparado para escalar de manera sostenible en el sector ganadero peruano. La aplicación de un riguroso proceso de verificación y validación fue fundamental, combinando pruebas automatizadas (unitarias, de integración y de sistema) con análisis estático de código para garantizar la calidad, seguridad y mantenibilidad del software. Este enfoque técnico se complementó con una validación centrada en el usuario, a través de entrevistas de descubrimiento, entrevistas de validación To-Be y auditorías heurísticas de experiencia de usuario, asegurando que la solución no solo sea funcionalmente correcta, sino también intuitiva, accesible y alineada con las necesidades reales del sector ganadero.
 
-Paralelamente, la adopción de una cultura DevOps se materializó en la implementación de un pipeline completo de CI/CD y monitoreo continuo. Esta automatización no solo aceleró los ciclos de entrega, sino que también instauró un marco de trabajo ágil y resiliente, permitiendo que cada mejora se integre, pruebe y despliegue de manera confiable y con mínimo riesgo. La capacidad de entregar valor de forma constante ha posicionado a VacApp como una plataforma moderna y sostenible.
+Paralelamente, la adopción de una cultura DevOps se materializó en la implementación de un pipeline completo de CI/CD y monitoreo continuo, que abarca integración continua, entrega continua, despliegue automatizado y supervisión en tiempo real de métricas críticas. Esta automatización no solo aceleró los ciclos de entrega, sino que también instauró un marco de trabajo ágil y resiliente, permitiendo que cada mejora se integre, pruebe y despliegue de manera confiable y con mínimo riesgo. La capacidad de entregar valor de forma constante, respaldada por herramientas como GitHub Actions, Firebase, Azure y Power BI, ha posicionado a VacApp como una plataforma moderna, escalable y sostenible.
 
-Finalmente, la transición hacia un enfoque de Experiment-Driven Development demuestra el compromiso del proyecto con la toma de decisiones basada en evidencia. Al establecer un sistema para formular hipótesis, definir métricas clave (KPIs) y diseñar experimentos, el equipo ha sentado las bases para que el futuro de VacApp sea guiado por datos concretos y no solo por suposiciones. Esta metodología asegura que cada nueva funcionalidad responda a un impacto medible en la productividad y eficiencia del usuario final, garantizando la relevancia y competitividad de la plataforma a largo plazo.
-
-La incorporación de un ciclo de validación riguroso, que combinó entrevistas de validación** y **evaluaciones heurísticas, fue crucial para obtener retroalimentación cualitativa directa de los usuarios. Estos métodos permitieron identificar problemas de usabilidad y confirmar la alineación del producto con las expectativas del mercado. Este proceso sentó las bases para la transición hacia el Experiment-Driven Development (Capítulo VIII), un enfoque que formaliza el aprendizaje al convertir los hallazgos en hipótesis medibles. Al definir KPIs específicos y un plan de experimentación, el proyecto no solo responde a las necesidades del usuario, sino que también establece un sistema para validar el impacto de cada mejora con datos cuantitativos, asegurando una evolución sostenible y basada en evidencia.
+La transición hacia un enfoque de Experiment-Driven Development (EDD) representa el logro más significativo del proyecto, demostrando el compromiso con la toma de decisiones basada en evidencia. Al establecer un sistema estructurado para formular hipótesis, definir métricas clave (KPIs), diseñar experimentos controlados y analizar resultados con rigor estadístico, el equipo ha sentado las bases para que el futuro de VacApp sea guiado por datos concretos y no solo por suposiciones. Esta metodología asegura que cada nueva funcionalidad responda a un impacto medible en la productividad y eficiencia del usuario final, garantizando la relevancia y competitividad de la plataforma a largo plazo.
 
 <div style="page-break-before: always;"></div>
 
