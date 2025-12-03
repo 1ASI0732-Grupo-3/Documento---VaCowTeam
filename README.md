@@ -7202,23 +7202,27 @@ En cuanto al contenido educativo, muestra una alta probabilidad de consultar "Ap
 
 | Detalle                 | Información           |
 | :---------------------- | :-------------------- |
-| **Entrevistado**        | Camila Morales Farias |
-| **Edad**                | 21                    |
-| **Rol / Experiencia**   |                       |
-| **Fecha de Entrevista** |                       |
-| **Duración**            |                       |
-| **Tecnologías Usadas**  |                       |
-| **Enlace a Grabación**  |                       |
+| **Entrevistado**        | Renzo Castañeda Loayza |
+| **Edad**                | 22                    |
+| **Rol / Experiencia**   |   Ganadero Independiente                    |
+| **Fecha de Entrevista** |   01/12/2025                    |
+| **Duración**            |   7:24 mins                    |
+| **Tecnologías Usadas**  |   Zoom                    |
+| **Enlace a Grabación**  |   https://drive.google.com/drive/folders/1Zky75jCqbQ8xrQS_-HEKI_oMbE2Z6ufs                    |
 
 <br>
 
 **Evidencia de la Entrevista:**
 
-![Evidencia Entrevista 1](assets/entrevista-validation1.png)
+![Evidencia Entrevista 1](assets/RC_inter2.png)
 
 <br>
 
 **Resumen de Hallazgos Clave:**
+
+Renzo reafirma que la digitalización que ofrece VacApp representa un avance importante frente a sus métodos tradicionales, ya que le brinda tranquilidad al centralizar información sin errores y evitar pérdidas por falta de control sanitario o fallos en la trazabilidad. Señala que la aplicación le “ahorra cabeza” al permitirle consultar rápidamente la situación de cada animal, aunque insiste en que la interfaz todavía podría ser más simple y directa. Para él, la herramienta debe mostrar lo esencial sin que tenga que buscar demasiado, porque su día a día es dinámico y no puede perder tiempo navegando menús densos.
+
+El mayor valor para Renzo sigue siendo la incorporación de reportes visuales de consumo de alimento y ganancia de peso, ya que esto le permite tomar decisiones más objetivas sobre costos y rendimiento, justificando incluso el pago de una suscripción. También considera que las alertas automáticas funcionan como un “seguro” que le evita olvidos y le ayuda a organizar su semana. Aunque la funcionalidad offline no es decisiva en su caso, sí refuerza su confianza en la estabilidad del sistema. En general, Renzo confirma que recomendaría VacApp siempre que se mantenga sencilla, rápida y orientada a evitar pérdidas en su negocio.
 
 ---
 
