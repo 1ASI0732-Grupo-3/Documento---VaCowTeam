@@ -7391,25 +7391,27 @@ El mayor valor para Renzo sigue siendo la incorporación de reportes visuales de
 
 #### **Entrevista #6**
 
-| Detalle                 | Información |
-| :---------------------- | :---------- |
-| **Entrevistado**        |             |
-| **Edad**                |             |
-| **Rol / Experiencia**   |             |
-| **Fecha de Entrevista** |             |
-| **Duración**            |             |
-| **Tecnologías Usadas**  |             |
-| **Enlace a Grabación**  |             |
+| Detalle                 | Información                    |
+| :---------------------- |:-------------------------------|
+| *Entrevistado*        | Hannah Michelle Schuler        |
+| *Edad*                | 19                             |
+| *Rol / Experiencia*   | Estudiante en Zootecnia        |
+| *Fecha de Entrevista* | 1/12/2025                      |
+| *Duración*            | 5:43                           |
+| *Tecnologías Usadas*  | Presencial                     |
+| *Enlace a Grabación*  | https://drive.google.com/file/d/1MH2sARUCE4WyozPxmIEV2vVgWbtYWJH9/view?usp=drive_link                               |
 
 <br>
 
-**Evidencia de la Entrevista:**
+*Evidencia de la Entrevista:*
 
-![Evidencia Entrevista 1](assets/entrevista-validation1.png)
+![ENTREVISTA4Hannah.png](assets/ENTREVISTA4Hannah.png)
 
 <br>
 
-**Resumen de Hallazgos Clave:**
+*Resumen de Hallazgos Clave:*
+
+La entrevistada valida que la propuesta de VacApp optimiza notablemente la gestión diaria frente al registro manual en papel, destacando la funcionalidad offline como un factor crítico que le brinda seguridad para capturar datos en el campo sin riesgo de pérdida por falta de conexión. Resalta que la visualización mediante gráficos facilita la toma de decisiones rápidas sobre salud y producción, y que las medidas de seguridad implementadas le generan la confianza necesaria para migrar información sensible del negocio a la plataforma. En cuanto a la operatividad, asegura que la automatización de tareas y las alertas sanitarias eliminarían casi por completo los olvidos en los tratamientos, ahorrando tiempo administrativo real y motivando una alta recomendación del sistema con una valoración de 9 sobre 10.
 
 ---
 
